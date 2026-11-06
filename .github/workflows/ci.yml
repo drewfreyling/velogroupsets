@@ -32,8 +32,10 @@ jobs:
         run: python3 scripts/check_commits.py
       - name: Documentation links and diagrams
         run: python3 scripts/check_docs.py
-      - name: Install pinned infrastructure dependencies
-        run: python3 -m pip install -r scripts/requirements-infra.txt
+      - name: Install pinned validation dependencies
+        run: python3 -m pip install -r scripts/requirements-infra.txt -r scripts/requirements-catalogue.txt
+      - name: Catalogue schemas and relationships
+        run: python3 scripts/check_catalogue.py
       - name: Automation tests
         run: python3 -m unittest discover -s scripts/tests -v
 

@@ -4,7 +4,7 @@ An open-source reference for bicycle groupsets and components, with community ph
 
 VeloGroupsets aims to make component specifications and identification information easy to browse, search, and improve. Most traffic should be served as static content at Cloudflare's edge; a small API handles community contributions.
 
-> **Status: infrastructure foundation.** OpenTofu configuration and CI are implemented. R2 state-bucket/GitHub environment setup and the first reviewed infrastructure apply are still required. The application and Wrangler deployment are not implemented yet.
+> **Status: infrastructure and catalogue foundation.** OpenTofu configuration, CI, catalogue schemas and validation are implemented. R2 state-bucket/GitHub environment setup and the first reviewed infrastructure apply are still required. The application and Wrangler deployment are not implemented yet.
 
 ## Planned features
 
@@ -16,6 +16,14 @@ VeloGroupsets aims to make component specifications and identification informati
 - Improve curated catalogue data through GitHub pull requests.
 
 Compatibility claims should identify their source and any limitations. Unknown information should stay explicitly unknown.
+
+## Catalogue and UI
+
+Use **Tailwind CSS** for the UI, compiled into static CSS during the frontend build. Browse data as **manufacturer → groupset → component**. Components use stable IDs and can be referenced by multiple groupsets, keeping shared photo/comment history together.
+
+The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
+
+See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. The frontend and Tailwind package integration remain to be scaffolded.
 
 ## Architecture
 
@@ -78,8 +86,8 @@ See [the architecture document](docs/architecture.md) for request flows, upload 
 
 | Area | Proposed implementation |
 | --- | --- |
-| Curated groupset and component data | Versioned JSON/YAML in GitHub, validated at build time |
-| Catalogue pages and search | Generated HTML and a static search index |
+| Curated groupset and component data | Versioned JSON in GitHub: manufacturers, groupsets and components, validated in CI |
+| Catalogue pages and search | Generated HTML, Tailwind CSS and a static search index |
 | Community API | TypeScript Worker for reads, comments, upload authorization, and moderation |
 | Community records | D1 for user references, comments, photo metadata, and moderation state |
 | Original uploads | Private R2 staging bucket |
@@ -90,7 +98,7 @@ See [the architecture document](docs/architecture.md) for request flows, upload 
 
 ## Repository layout
 
-The application/data directories below are planned. Infrastructure, automation scripts, documentation, and CI workflows are present today.
+Application directories below remain planned. Catalogue schemas/record directories, infrastructure, automation scripts, documentation, and CI are present today.
 
 ```text
 velogroupsets/
@@ -98,14 +106,16 @@ velogroupsets/
 │   ├── web/                 # Static site and frontend
 │   └── api/                 # TypeScript Worker API
 ├── data/
-│   ├── groupsets/           # Curated catalogue records
-│   └── components/
+│   ├── manufacturers/      # Curated brand records
+│   ├── groupsets/           # Refer to manufacturer IDs
+│   ├── components/         # Refer to manufacturers and groupset IDs
+│   └── schemas/            # Catalogue contract and component taxonomy
 ├── packages/
 │   └── shared/              # Shared types and validation
 ├── db/
 │   └── migrations/          # D1 schema migrations
 ├── infra/
-│   └── terraform/           # Cloudflare resources, settings, and environment inputs
+│   └── opentofu/           # Cloudflare resources, settings, and environment inputs
 ├── scripts/                 # Data checks and build helpers
 ├── docs/
 │   └── architecture.md
@@ -127,7 +137,7 @@ git clone https://github.com/drewfreyling/velogroupsets.git
 cd velogroupsets
 ```
 
-Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, automation tests, OpenTofu formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, private R2 backend setup, environment configuration, and the manual plan/approval/apply workflow. Application build and development commands will be added with the scaffold.
+Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, catalogue schemas/relationships, automation tests, OpenTofu formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, private R2 backend setup, environment configuration, and the manual plan/approval/apply workflow. Application build and development commands will be added with the scaffold.
 
 ## Infrastructure ownership
 
@@ -198,7 +208,7 @@ Use `!` and/or a `BREAKING CHANGE:` footer for breaking changes. See [AGENTS.md]
 
 ## Initial milestones
 
-- [ ] Define catalogue schemas, stable IDs, and source attribution.
+- [x] Define catalogue schemas, stable IDs, manufacturer/groupset/component relationships, component types, and source requirements.
 - [ ] Scaffold the static frontend, Worker, and shared validation.
 - [ ] Add catalogue generation and client-side search.
 - [ ] Select authentication and implement sessions and authorization.

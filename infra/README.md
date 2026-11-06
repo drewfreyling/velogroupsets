@@ -22,9 +22,10 @@ Use OpenTofu **1.13.9** ([`.opentofu-version`](../.opentofu-version)), Cloudflar
 From the repository root, in a Python virtual environment:
 
 ```sh
-python3 -m pip install -r scripts/requirements-infra.txt
+python3 -m pip install -r scripts/requirements-infra.txt -r scripts/requirements-catalogue.txt
 python3 scripts/check_commits.py
 python3 scripts/check_docs.py
+python3 scripts/check_catalogue.py
 python3 -m unittest discover -s scripts/tests -v
 python3 scripts/infra.py validate
 actionlint

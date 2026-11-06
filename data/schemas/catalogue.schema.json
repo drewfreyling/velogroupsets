@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://velogroupsets.com/schemas/catalogue.schema.json",
+  "title": "VeloGroupsets catalogue",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manufacturers",
+    "groupsets",
+    "components"
+  ],
+  "properties": {
+    "manufacturers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/manufacturer"
+      }
+    },
+    "groupsets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/groupset"
+      }
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/component"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "title"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "title": {
+            "$ref": "#/$defs/text"
+          },
+          "retrieved_on": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "manufacturer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "slug": {
+          "$ref": "#/$defs/slug"
+        },
+        "name": {
+          "$ref": "#/$defs/text"
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        }
+      },
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "sources"
+      ],
+      "additionalProperties": false
+    },
+    "groupset": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "slug": {
+          "$ref": "#/$defs/slug"
+        },
+        "name": {
+          "$ref": "#/$defs/text"
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        },
+        "manufacturer_id": {
+          "$ref": "#/$defs/id"
+        },
+        "generation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "introduced_year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1800,
+          "maximum": 2100
+        }
+      },
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "sources",
+        "manufacturer_id"
+      ],
+      "additionalProperties": false
+    },
+    "component": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "slug": {
+          "$ref": "#/$defs/slug"
+        },
+        "name": {
+          "$ref": "#/$defs/text"
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        },
+        "manufacturer_id": {
+          "$ref": "#/$defs/id"
+        },
+        "groupset_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "type": {
+          "$ref": "https://velogroupsets.com/schemas/component-type.schema.json"
+        },
+        "model_code": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "specifications": {
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": [
+                  "string",
+                  "number",
+                  "boolean",
+                  "null"
+                ]
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": [
+                    "string",
+                    "number",
+                    "boolean",
+                    "null"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "sources",
+        "manufacturer_id",
+        "groupset_ids",
+        "type"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

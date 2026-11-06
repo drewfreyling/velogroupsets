@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://velogroupsets.com/schemas/component-type.schema.json",
+  "title": "Component type",
+  "description": "Ordered UI taxonomy. IDs are stable; labels can change independently.",
+  "oneOf": [
+    {
+      "const": "crankset",
+      "title": "Crankset"
+    },
+    {
+      "const": "bottom-bracket",
+      "title": "Bottom Bracket"
+    },
+    {
+      "const": "front-derailleur",
+      "title": "Front Derailleur"
+    },
+    {
+      "const": "rear-derailleur",
+      "title": "Rear Derailleur"
+    },
+    {
+      "const": "shifters",
+      "title": "Shifters"
+    },
+    {
+      "const": "cassette",
+      "title": "Cassettes"
+    },
+    {
+      "const": "headset",
+      "title": "Headset"
+    },
+    {
+      "const": "seatpost",
+      "title": "Seatpost"
+    },
+    {
+      "const": "pedals",
+      "title": "Pedals"
+    },
+    {
+      "const": "front-hub",
+      "title": "Front Hub"
+    },
+    {
+      "const": "rear-hub",
+      "title": "Rear Hub"
+    }
+  ]
+}

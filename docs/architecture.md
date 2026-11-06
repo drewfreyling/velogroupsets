@@ -1,6 +1,6 @@
 # Architecture
 
-**Status:** initial OpenTofu and CI are implemented; Cloudflare resources have not yet been provisioned. Application components and Wrangler deployment remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
+**Status:** initial OpenTofu, CI and catalogue schemas/validation are implemented; Cloudflare resources have not yet been provisioned. Application components and Wrangler deployment remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
 
 ## Goals and starting decisions
 
@@ -63,10 +63,20 @@ The diagram is logical, not a deployment manifest. WAF capabilities depend on th
 
 The image-processing runtime and trigger are unresolved. The processor may need a separately priced service or compute budget. Photo uploads must remain disabled until validation, publication, and cleanup work end to end.
 
+## UI and catalogue model
+
+Tailwind CSS is the chosen styling system and will be compiled into the static frontend bundle. The UI browses manufacturer → groupset → component, with breadcrumbs and component-type filtering. Styling is chosen; the frontend framework, package setup, routes and Tailwind integration have not been implemented yet.
+
+Curated records are JSON files in `data/manufacturers/`, `data/groupsets/`, and `data/components/`. Groupsets reference a manufacturer ID; components reference a manufacturer ID and one or more groupset IDs. References preserve one component identity and photo/comment history when shared across groupsets. Catalogue IDs are stable and separate from slugs/display names. Manufacturer here means the catalogue brand, not necessarily the physical factory.
+
+The initial taxonomy is Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub. A groupset need not contain every category; absence of a record means not yet catalogued. Membership and specifications need sources.
+
+See [the catalogue and UI guide](catalogue.md) for schemas, stable type IDs, examples, and validation rules. CI now validates record structure, source formatting, IDs, slugs, filenames, and references offline; real catalogue records and the static build remain to be added.
+
 ## Catalogue reads
 
-1. A contributor changes JSON/YAML catalogue records through a pull request.
-2. CI validates records, stable IDs, relationships, and sources.
+1. A contributor changes JSON catalogue records through a pull request.
+2. CI validates record schemas, stable IDs, relationships, and source citation structure. Evidence accuracy and source availability remain review responsibilities.
 3. The build generates HTML, static catalogue data, and a client-side search index.
 4. Cloudflare serves the generated site without querying D1 for normal catalogue navigation.
 
@@ -206,7 +216,7 @@ The implemented foundation defines D1, private-by-default R2 buckets/policies, T
 
 The initial design aims to use Cloudflare free allowances; see the [README cost table](../README.md#cost-approach) and linked official pricing. Those allowances do not cover unlimited storage, processing, or enhanced security features. Quota exhaustion can interrupt community features, and budget alerts do not enforce a spending cap.
 
-D1 uses SQLite semantics. Versioned JSON/YAML catalogue records, SQL migrations, and an explicit storage interface help portability; changing database providers would still require reviewing schema and query behaviour.
+D1 uses SQLite semantics. Versioned JSON catalogue records, SQL migrations, and an explicit storage interface help portability; changing database providers would still require reviewing schema and query behaviour.
 
 ## Decisions required before community launch
 
@@ -215,6 +225,6 @@ D1 uses SQLite semantics. Versioned JSON/YAML catalogue records, SQL migrations,
 - Image-processing runtime, triggering/retry mechanism, and resource/cost limits.
 - Supported image formats, byte/pixel limits, quota values, and retention periods.
 - Moderation policy, reporting, privacy/deletion policy, and user-photo permissions.
-- Catalogue schema, source attribution, and dedicated data licensing policy.
+- Populate sourced catalogue records, refine type-specific specifications, and finalize dedicated data licensing.
 - Bootstrap the private R2 state bucket, validate live locking, configure protected GitHub environments and the first reviewed applies for the configured Cloudflare account.
 - Website DNS/Worker route ownership and targets, image-domain activation, and application deployment coordination.
