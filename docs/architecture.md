@@ -1,6 +1,6 @@
 # Architecture
 
-**Status:** proposed design; no production resources or application have been provisioned by this documentation.
+**Status:** initial Terraform and CI are implemented; Cloudflare resources have not yet been provisioned. Application components and Wrangler deployment remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
 
 ## Goals and starting decisions
 
@@ -17,10 +17,15 @@ flowchart TD
     subgraph GitHub["GitHub"]
         Repo["Source code and curated catalogue"]
         CI["GitHub Actions: validate, build, deploy via Wrangler"]
-        TF["Terraform: reviewed infrastructure plan and apply"]
         Repo --> CI
-        CI -.->|"Infrastructure changes"| TF
     end
+
+    subgraph HCP["HCP Terraform"]
+        TF["Remote Terraform: plan, review and apply"]
+        State[("Separate staging and production state with locking")]
+        TF --- State
+    end
+    CI -.->|"Queue selected environment"| TF
 
     subgraph Cloudflare["Cloudflare"]
         Edge["Custom domain: CDN and available WAF rules"]
@@ -174,7 +179,7 @@ References: [default CDN cache behaviour](https://developers.cloudflare.com/cach
 
 Keep infrastructure in this application repository under `infra/terraform/`. It has the same review and release context as the application. A separate repository is only needed if shared infrastructure or separate ownership later requires it.
 
-Proposed layout (Terraform files and workflows have not been implemented):
+Implemented Terraform layout:
 
 ```text
 infra/
@@ -184,12 +189,14 @@ infra/
     ├── outputs.tf
     ├── versions.tf
     ├── .terraform.lock.hcl
+    ├── tests/
+    │   └── foundation.tftest.hcl
     └── environments/
         ├── staging.tfvars
         └── production.tfvars
 ```
 
-Use shared Terraform configuration with non-secret environment inputs and independently configured remote state for staging and production. The exact backend configuration files and bootstrap procedure will be added once the backend is chosen.
+Use shared Terraform configuration with non-secret environment inputs and separate API-driven HCP Terraform workspaces for staging and production. HCP runs Terraform remotely, stores state, locks each workspace, and requires explicit approval to apply. The initial configuration provisions D1, private-by-default R2 buckets/policies, and Turnstile. Photo-domain publication is opt-in; website DNS/routes and cache/WAF rules remain planned. Bootstrap instructions and credentials are documented in [infra/README.md](../infra/README.md).
 
 | Owner | Resources and settings |
 | --- | --- |
@@ -205,7 +212,7 @@ Keep runtime secret values and deployment tokens in the appropriate secret store
 
 ### State and existing resources
 
-- Use a secured remote backend with locking; select and verify the backend's locking support before implementation. An object bucket alone does not establish safe state locking.
+- HCP Terraform supplies secured remote state and workspace locking. Bootstrap two separate remote-execution workspaces and disable auto-apply before queueing runs.
 - Keep staging and production in separate state locations with explicit backend selection and narrowly scoped access. Environment `.tfvars` files alone do not separate state.
 - Bootstrap the backend independently of the state it stores, and document recovery and access setup.
 - Keep state files, state backups, saved plan files, backend credentials, provider credentials, and `.terraform/` out of Git. Commit `.terraform.lock.hcl` and non-secret inputs; pin Terraform/provider versions.
@@ -219,7 +226,7 @@ GitHub Actions should validate and build pull requests, then deploy trusted chan
 
 1. Run catalogue/application checks and Terraform formatting/validation for relevant changes. Untrusted fork checks receive no infrastructure credentials, backend state, or production access.
 2. Generate Terraform plans only in trusted workflows with narrowly scoped credentials and the explicit target environment. Review changes before applying.
-3. Apply the exact reviewed plan through a protected production workflow when infrastructure changes are needed. Serialize infrastructure applies and application deployments per environment; locking protects Terraform state, not the whole release.
+3. Use the manual GitHub infrastructure workflow to queue a speculative plan or an apply-capable plan in HCP. Auto-apply is disabled; review and explicitly approve the exact apply-capable plan in HCP. GitHub job success means submission, not remote plan/apply success. HCP serializes Terraform runs; application deployment coordination must wait for the remote run to finish, because GitHub submission concurrency ends when the run is queued.
 4. Use provisioned D1 IDs and R2 names in Wrangler configuration. Bootstrap the Worker before any dependent route/domain resources, as required by the ownership assignment.
 5. Back up before schema changes as appropriate, apply reviewed backward-compatible D1 migrations in the documented order, and deploy Worker code/static assets through Wrangler.
 6. Verify static routing, API behaviour, bindings, and public image delivery. Configure previews independently and verify secrets never reach frontend bundles.
@@ -242,4 +249,5 @@ D1 uses SQLite semantics. Versioned JSON/YAML catalogue records, SQL migrations,
 - Supported image formats, byte/pixel limits, quota values, and retention periods.
 - Moderation policy, reporting, privacy/deletion policy, and user-photo permissions.
 - Catalogue schema, source attribution, and dedicated data licensing policy.
-- Actual custom-domain names, Cloudflare resource names, Terraform remote backend/bootstrap, route ownership, and CI plan/apply configuration.
+- Complete HCP/GitHub bootstrap and the first reviewed applies for the configured Cloudflare account.
+- Website DNS/Worker route ownership and targets, image-domain activation, and application deployment coordination.

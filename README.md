@@ -4,7 +4,7 @@ An open-source reference for bicycle groupsets and components, with community ph
 
 VeloGroupsets aims to make component specifications and identification information easy to browse, search, and improve. Most traffic should be served as static content at Cloudflare's edge; a small API handles community contributions.
 
-> **Status: planning.** This repository currently documents the proposed system. The application, infrastructure, and deployment workflows have not been implemented.
+> **Status: infrastructure foundation.** Terraform configuration and CI are implemented. HCP/GitHub environment setup and the first reviewed infrastructure apply are still required. The application and Wrangler deployment are not implemented yet.
 
 ## Planned features
 
@@ -28,10 +28,15 @@ flowchart TD
     subgraph GitHub["GitHub"]
         Repo["Source code and curated catalogue"]
         CI["GitHub Actions: validate, build, deploy via Wrangler"]
-        TF["Terraform: reviewed infrastructure plan and apply"]
         Repo --> CI
-        CI -.->|"Infrastructure changes"| TF
     end
+
+    subgraph HCP["HCP Terraform"]
+        TF["Remote Terraform: plan, review and apply"]
+        State[("Separate staging and production state with locking")]
+        TF --- State
+    end
+    CI -.->|"Queue selected environment"| TF
 
     subgraph Cloudflare["Cloudflare"]
         Edge["Custom domain: CDN and available WAF rules"]
@@ -88,7 +93,7 @@ See [the architecture document](docs/architecture.md) for request flows, upload 
 
 ## Repository layout
 
-This is the **planned** layout. Only the documentation and existing repository files are present today.
+The application/data directories below are planned. Infrastructure, automation scripts, documentation, and CI workflows are present today.
 
 ```text
 velogroupsets/
@@ -118,14 +123,14 @@ Keep one repository initially so catalogue, frontend, and API changes can be rev
 
 ## Local development
 
-There is no runnable application or package setup yet. Clone the repository to work on the documentation:
+There is no runnable application or package setup yet. Clone the repository to work on infrastructure and documentation:
 
 ```sh
 git clone https://github.com/drewfreyling/velogroupsets.git
 cd velogroupsets
 ```
 
-The application scaffold will add pinned runtime/tool versions, dependency installation, development commands, local D1/R2 setup, and example environment variables. Build and test commands will be documented when they exist.
+Infrastructure uses Terraform 1.17.1 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, automation tests, Terraform formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, HCP setup, environment configuration, and the manual plan/approval workflow. Application build and development commands will be added with the scaffold.
 
 ## Infrastructure ownership
 
@@ -137,7 +142,7 @@ Keep Terraform alongside the application in `infra/terraform/` so infrastructure
 | Wrangler + GitHub Actions | Worker definition and code, static assets, runtime bindings/configuration, and application deployment |
 | Database migration tooling | D1 tables, indexes, and schema changes in `db/migrations/` |
 
-Each resource or setting must have one owner. Terraform provisions databases/buckets; Wrangler references their IDs/names as bindings. Keep Terraform state in a secured remote backend with locking, separate staging and production state, and no state or credentials in Git. Commit the Terraform dependency lock file and only non-secret environment inputs. The backend and bootstrap procedure remain to be selected.
+Each resource or setting must have one owner. Terraform provisions databases/buckets; Wrangler references their IDs/names as bindings. Keep Terraform state in a secured remote backend with locking, separate staging and production state, and no state or credentials in Git. Commit the Terraform dependency lock file and only non-secret environment inputs. HCP Terraform provides remote state, locking, execution, and explicit approval of plans. Separate API-driven workspaces are used for staging and production. See [the bootstrap guide](infra/README.md#bootstrap-hcp-terraform).
 
 See [infrastructure and deployment](docs/architecture.md#infrastructure-and-deployment) for the proposed Terraform layout, ownership boundaries, imports, and plan/apply workflow.
 
@@ -203,9 +208,10 @@ Use `!` and/or a `BREAKING CHANGE:` footer for breaking changes. See [AGENTS.md]
 - [ ] Add D1 migrations and paginated public community reads.
 - [ ] Implement private uploads, image processing, and moderation.
 - [ ] Add photo comments, reporting, and contributor quotas.
-- [ ] Select and bootstrap a locked remote Terraform backend with separate staging/production state.
-- [ ] Define Terraform-managed Cloudflare resources and import existing resources as needed.
-- [ ] Configure CI plans/applies, isolated previews, custom domains, and Wrangler production deployment.
+- [x] Implement credential-free CI and a manual HCP Terraform run-submission workflow.
+- [x] Define initial D1, R2, upload policies, and Turnstile Terraform resources.
+- [ ] Bootstrap HCP/GitHub environments and complete the first reviewed staging/production applies.
+- [ ] Add isolated app previews, website DNS/routes, cache/WAF rules, and Wrangler production deployment.
 - [ ] Establish backup, restore, deletion, and usage-monitoring procedures.
 - [ ] Finalize catalogue licensing and user contribution/photo terms before accepting uploads.
 

@@ -1,0 +1,5 @@
+account_id           = "5ccb67114ff0fa1a13cb46ef3d08cb49"
+environment          = "production"
+site_hostname        = "velogroupsets.com"
+photos_hostname      = "images.velogroupsets.com"
+enable_public_photos = false
