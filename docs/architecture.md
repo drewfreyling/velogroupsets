@@ -6,7 +6,7 @@
 
 Serve a mostly read-only bicycle groupset catalogue quickly, keep operating costs low, and allow authenticated users to upload component photos and comment on photos.
 
-Use one GitHub repository for code, curated catalogue data, database migrations, and infrastructure configuration. Start with a TypeScript Worker and D1 so a container service and an external database are unnecessary. Catalogue browsing should continue to work if community services reach a quota or become unavailable.
+Use one GitHub repository for code, curated catalogue data, database migrations, and infrastructure configuration. Use a TypeScript Worker and D1, with Terraform in `infra/terraform/` provisioning Cloudflare resources and Wrangler deploying the application. Catalogue browsing should continue to work if community services reach a quota or become unavailable.
 
 ## System diagram
 
@@ -16,8 +16,10 @@ flowchart TD
 
     subgraph GitHub["GitHub"]
         Repo["Source code and curated catalogue"]
-        CI["GitHub Actions: validate, build, deploy"]
+        CI["GitHub Actions: validate, build, deploy via Wrangler"]
+        TF["Terraform: reviewed infrastructure plan and apply"]
         Repo --> CI
+        CI -.->|"Infrastructure changes"| TF
     end
 
     subgraph Cloudflare["Cloudflare"]
@@ -48,6 +50,11 @@ flowchart TD
     CI -.->|"Deploy"| Static
     CI -.->|"Deploy"| API
     CI -.->|"Apply reviewed migrations"| DB
+    TF -.->|"Provision database"| DB
+    TF -.->|"Provision private bucket and policies"| Staging
+    TF -.->|"Provision public bucket and domain"| Photos
+    TF -.->|"Configure DNS, cache and security rules"| Edge
+    TF -.->|"Configure widget"| Turnstile
 ```
 
 The diagram is logical, not a deployment manifest. WAF capabilities depend on the Cloudflare plan. Turnstile is a browser widget with backend verification, not a universal network filter. Direct signed uploads go to the R2 S3 endpoint and must not rely on the site's WAF rules for protection.
@@ -161,21 +168,71 @@ References: [default CDN cache behaviour](https://developers.cloudflare.com/cach
 - Track usage, failed requests, pending-upload age, processor failures, and storage growth. Avoid logging secrets, session tokens, or signed URLs.
 - Degrade community widgets gracefully when the API is unavailable, preserving static catalogue browsing.
 
-## Deployment
+## Infrastructure and deployment
 
-GitHub Actions should validate and build pull requests, then deploy trusted changes from `main`. A Git push is not a database backup or a reverse migration.
+### Location and ownership
+
+Keep infrastructure in this application repository under `infra/terraform/`. It has the same review and release context as the application. A separate repository is only needed if shared infrastructure or separate ownership later requires it.
+
+Proposed layout (Terraform files and workflows have not been implemented):
+
+```text
+infra/
+└── terraform/
+    ├── main.tf
+    ├── variables.tf
+    ├── outputs.tf
+    ├── versions.tf
+    ├── .terraform.lock.hcl
+    └── environments/
+        ├── staging.tfvars
+        └── production.tfvars
+```
+
+Use shared Terraform configuration with non-secret environment inputs and independently configured remote state for staging and production. The exact backend configuration files and bootstrap procedure will be added once the backend is chosen.
+
+| Owner | Resources and settings |
+| --- | --- |
+| Terraform | D1 database resources; R2 buckets, CORS, lifecycle rules, public access and approved-photo custom-domain configuration; DNS records; zone cache rules and WAF rules supported by the selected plan/provider; Turnstile widgets; explicitly assigned Worker route/domain resources |
+| Wrangler + GitHub Actions | Worker definition and code, static assets, compatibility settings, runtime bindings/configuration, application releases, and runtime-secret injection |
+| Database migration tooling | D1 tables, indexes, and schema changes under `db/migrations/` |
+
+Give every resource and setting one owner. Do not also declare the Worker deployment in Terraform or let Wrangler create databases/buckets already owned by Terraform. Terraform outputs expose only the non-secret IDs/names needed for Wrangler bindings. Bindings remain application configuration; changing a binding does not transfer ownership of its target resource.
+
+Terraform owns R2 CORS/lifecycle settings and zone cache rules; application response headers and API cache logic remain in Worker code. Assign route/domain resources explicitly during scaffolding: a Terraform-owned route must not also be configured for Wrangler to create or update automatically. Where a route references a Worker, create the Worker first and then apply the route, with subsequent deployments respecting that ownership.
+
+Keep runtime secret values and deployment tokens in the appropriate secret stores. Avoid passing them through Terraform unless a resource requires it; any required secret can still enter state. Document how the Turnstile secret is delivered securely to the Worker without logging it or exposing it through public outputs.
+
+### State and existing resources
+
+- Use a secured remote backend with locking; select and verify the backend's locking support before implementation. An object bucket alone does not establish safe state locking.
+- Keep staging and production in separate state locations with explicit backend selection and narrowly scoped access. Environment `.tfvars` files alone do not separate state.
+- Bootstrap the backend independently of the state it stores, and document recovery and access setup.
+- Keep state files, state backups, saved plan files, backend credentials, provider credentials, and `.terraform/` out of Git. Commit `.terraform.lock.hcl` and non-secret inputs; pin Terraform/provider versions.
+- Treat state and saved plans as sensitive. Protect backend storage, restrict CI artifacts and their retention, and establish state recovery procedures.
+- Inventory and import existing Cloudflare resources, especially DNS records, before making Terraform authoritative. Review the first plan for unexpected changes or deletions.
+- Protect persistent D1/R2 resources against accidental destruction where supported. Intentional deletion needs a reviewed migration/retention plan; infrastructure rollback is not data recovery.
+
+### Review and deployment workflow
+
+GitHub Actions should validate and build pull requests, then deploy trusted changes from `main`.
+
+1. Run catalogue/application checks and Terraform formatting/validation for relevant changes. Untrusted fork checks receive no infrastructure credentials, backend state, or production access.
+2. Generate Terraform plans only in trusted workflows with narrowly scoped credentials and the explicit target environment. Review changes before applying.
+3. Apply the exact reviewed plan through a protected production workflow when infrastructure changes are needed. Serialize infrastructure applies and application deployments per environment; locking protects Terraform state, not the whole release.
+4. Use provisioned D1 IDs and R2 names in Wrangler configuration. Bootstrap the Worker before any dependent route/domain resources, as required by the ownership assignment.
+5. Back up before schema changes as appropriate, apply reviewed backward-compatible D1 migrations in the documented order, and deploy Worker code/static assets through Wrangler.
+6. Verify static routing, API behaviour, bindings, and public image delivery. Configure previews independently and verify secrets never reach frontend bundles.
 
 Configure static assets so catalogue requests avoid unnecessary Worker execution and `/api/*` always reaches the API. Select the exact Worker/static-assets packaging during scaffolding.
 
-Before applying production migrations, establish backup and compatibility checks. Keep application and schema changes compatible across deployment boundaries. Configure preview resources independently and verify secrets never reach frontend bundles.
+A Git push is not a database backup or a reverse migration. Application rollback does not reverse schema or infrastructure changes. Keep application and schema changes compatible across deployment boundaries and establish recovery procedures before production changes.
 
 ## Cost and portability
 
 The initial design aims to use Cloudflare free allowances; see the [README cost table](../README.md#cost-approach) and linked official pricing. Those allowances do not cover unlimited storage, processing, or enhanced security features. Quota exhaustion can interrupt community features, and budget alerts do not enforce a spending cap.
 
-D1 uses SQLite semantics, not Postgres. JSON/YAML catalogue records, SQL migrations, and an explicit storage interface help future migration, but moving D1 to Postgres would still require schema and query work.
-
-If .NET is required later, replace the backend with a Worker routing to an ASP.NET Cloudflare Container and hosted Postgres. Keep the static catalogue and R2 upload/publication separation. Account for the paid Workers plan, container runtime usage, cold starts, database connection pooling, and the database provider's limits.
+D1 uses SQLite semantics. Versioned JSON/YAML catalogue records, SQL migrations, and an explicit storage interface help portability; changing database providers would still require reviewing schema and query behaviour.
 
 ## Decisions required before community launch
 
@@ -185,4 +242,4 @@ If .NET is required later, replace the backend with a Worker routing to an ASP.N
 - Supported image formats, byte/pixel limits, quota values, and retention periods.
 - Moderation policy, reporting, privacy/deletion policy, and user-photo permissions.
 - Catalogue schema, source attribution, and dedicated data licensing policy.
-- Actual custom-domain names, Cloudflare resource names, and CI configuration.
+- Actual custom-domain names, Cloudflare resource names, Terraform remote backend/bootstrap, route ownership, and CI plan/apply configuration.
