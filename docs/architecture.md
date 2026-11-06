@@ -1,12 +1,12 @@
 # Architecture
 
-**Status:** initial Terraform and CI are implemented; Cloudflare resources have not yet been provisioned. Application components and Wrangler deployment remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
+**Status:** initial OpenTofu and CI are implemented; Cloudflare resources have not yet been provisioned. Application components and Wrangler deployment remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
 
 ## Goals and starting decisions
 
 Serve a mostly read-only bicycle groupset catalogue quickly, keep operating costs low, and allow authenticated users to upload component photos and comment on photos.
 
-Use one GitHub repository for code, curated catalogue data, database migrations, and infrastructure configuration. Use a TypeScript Worker and D1, with Terraform in `infra/terraform/` provisioning Cloudflare resources and Wrangler deploying the application. Catalogue browsing should continue to work if community services reach a quota or become unavailable.
+Use one GitHub repository for code, curated catalogue data, database migrations, and infrastructure configuration. Use a TypeScript Worker and D1, with OpenTofu in `infra/opentofu/` provisioning Cloudflare resources and Wrangler deploying the application. Catalogue browsing should continue to work if community services reach a quota or become unavailable.
 
 ## System diagram
 
@@ -17,17 +17,13 @@ flowchart TD
     subgraph GitHub["GitHub"]
         Repo["Source code and curated catalogue"]
         CI["GitHub Actions: validate, build, deploy via Wrangler"]
+        TF["OpenTofu: plan, approval and saved-plan apply"]
         Repo --> CI
+        CI -.-> TF
     end
-
-    subgraph HCP["HCP Terraform"]
-        TF["Remote Terraform: plan, review and apply"]
-        State[("Separate staging and production state with locking")]
-        TF --- State
-    end
-    CI -.->|"Queue selected environment"| TF
 
     subgraph Cloudflare["Cloudflare"]
+        State[("Private R2: encrypted state, plans and snapshots")]
         Edge["Custom domain: CDN and available WAF rules"]
         Static["Workers Static Assets: HTML, CSS, JS, search index"]
         API["TypeScript Worker API"]
@@ -49,6 +45,7 @@ flowchart TD
         ImageCDN --> Photos
     end
 
+    TF ---|"Native state locking"| State
     Browser --> Edge
     Browser -->|"Signed PUT to R2 S3 endpoint"| Staging
     Browser -->|"View approved photos"| ImageCDN
@@ -175,65 +172,35 @@ References: [default CDN cache behaviour](https://developers.cloudflare.com/cach
 
 ## Infrastructure and deployment
 
-### Location and ownership
+OpenTofu configuration lives in `infra/opentofu/`, with separate environment inputs and R2 backend keys. GitHub Actions runs the pinned CLI; no external infrastructure-execution service is required. See [the infrastructure guide](../infra/README.md) for setup, credentials, commands, recovery, and the implemented scope.
 
-Keep infrastructure in this application repository under `infra/terraform/`. It has the same review and release context as the application. A separate repository is only needed if shared infrastructure or separate ownership later requires it.
-
-Implemented Terraform layout:
-
-```text
-infra/
-└── terraform/
-    ├── main.tf
-    ├── variables.tf
-    ├── outputs.tf
-    ├── versions.tf
-    ├── .terraform.lock.hcl
-    ├── tests/
-    │   └── foundation.tftest.hcl
-    └── environments/
-        ├── staging.tfvars
-        └── production.tfvars
-```
-
-Use shared Terraform configuration with non-secret environment inputs and separate API-driven HCP Terraform workspaces for staging and production. HCP runs Terraform remotely, stores state, locks each workspace, and requires explicit approval to apply. The initial configuration provisions D1, private-by-default R2 buckets/policies, and Turnstile. Photo-domain publication is opt-in; website DNS/routes and cache/WAF rules remain planned. Bootstrap instructions and credentials are documented in [infra/README.md](../infra/README.md).
-
-| Owner | Resources and settings |
+| Owner | Scope |
 | --- | --- |
-| Terraform | D1 database resources; R2 buckets, CORS, lifecycle rules, public access and approved-photo custom-domain configuration; DNS records; zone cache rules and WAF rules supported by the selected plan/provider; Turnstile widgets; explicitly assigned Worker route/domain resources |
-| Wrangler + GitHub Actions | Worker definition and code, static assets, compatibility settings, runtime bindings/configuration, application releases, and runtime-secret injection |
-| Database migration tooling | D1 tables, indexes, and schema changes under `db/migrations/` |
+| OpenTofu | D1, application R2 buckets/CORS/lifecycle/public-domain settings, Turnstile; future DNS, cache/WAF and explicitly assigned route/domain resources |
+| Wrangler + GitHub Actions | Worker definition/code, static assets, bindings, runtime configuration and secret injection |
+| Database migrations | D1 tables, indexes and schema changes |
+| Independent bootstrap | Dedicated private R2 state bucket and its retention/access settings |
 
-Give every resource and setting one owner. Do not also declare the Worker deployment in Terraform or let Wrangler create databases/buckets already owned by Terraform. Terraform outputs expose only the non-secret IDs/names needed for Wrangler bindings. Bindings remain application configuration; changing a binding does not transfer ownership of its target resource.
+The state bucket cannot depend on its own state. Create it first, keep it private, and never apply temporary-upload lifecycle rules to it. State uses `state/staging/terraform.tfstate` and `state/production/terraform.tfstate`, with native S3 lockfiles enabled. Both prefixes share a bucket; separate buckets and scoped credentials are needed if stronger environment isolation is required.
 
-Terraform owns R2 CORS/lifecycle settings and zone cache rules; application response headers and API cache logic remain in Worker code. Assign route/domain resources explicitly during scaffolding: a Terraform-owned route must not also be configured for Wrangler to create or update automatically. Where a route references a Worker, create the Worker first and then apply the route, with subsequent deployments respecting that ownership.
+### State, encryption and locking
 
-Keep runtime secret values and deployment tokens in the appropriate secret stores. Avoid passing them through Terraform unless a resource requires it; any required secret can still enter state. Document how the Turnstile secret is delivered securely to the Worker without logging it or exposing it through public outputs.
+OpenTofu enforces encryption of state and saved plans. The runner receives a separate securely backed-up encryption key for each environment. Neither keys nor plaintext plans/state go into Git or GitHub artifacts. Immutable encrypted recovery snapshots are stored before plans/applies and after applies. Maintain independent recovery copies: snapshots in the same bucket cannot survive deletion of that bucket, and losing the encryption key makes them unreadable.
 
-### State and existing resources
+Every live plan/apply first probes actual lock contention and release using an isolated R2 state key and the pinned OpenTofu CLI. It must pass before touching application state. Local CI exercises the same mechanism with a local backend and checks encrypted state/plan output; it does not prove live R2 compatibility. Conditional-write retries/network failures can still leave orphaned locks. Investigate stale locks and confirm all writers have stopped before any targeted force-unlock; never automatically remove real locks or run with locking disabled.
 
-- HCP Terraform supplies secured remote state and workspace locking. Bootstrap two separate remote-execution workspaces and disable auto-apply before queueing runs.
-- Keep staging and production in separate state locations with explicit backend selection and narrowly scoped access. Environment `.tfvars` files alone do not separate state.
-- Bootstrap the backend independently of the state it stores, and document recovery and access setup.
-- Keep state files, state backups, saved plan files, backend credentials, provider credentials, and `.terraform/` out of Git. Commit `.terraform.lock.hcl` and non-secret inputs; pin Terraform/provider versions.
-- Treat state and saved plans as sensitive. Protect backend storage, restrict CI artifacts and their retention, and establish state recovery procedures.
-- Inventory and import existing Cloudflare resources, especially DNS records, before making Terraform authoritative. Review the first plan for unexpected changes or deletions.
-- Protect persistent D1/R2 resources against accidental destruction where supported. Intentional deletion needs a reviewed migration/retention plan; infrastructure rollback is not data recovery.
+### Review and releases
 
-### Review and deployment workflow
+1. Credential-free CI validates Conventional Commits and PR titles, docs, workflows, automation, OpenTofu configuration, mocked resource policies, and a real local locking/encryption probe.
+2. A manual infrastructure workflow runs from `main`. Its plan job uses `<environment>-plan` credentials to verify R2 locking, snapshot existing state, generate an encrypted plan and save it privately in R2.
+3. The public job summary exposes only source commit, checksum and resource addresses/actions. Review detailed values privately using the encrypted plan and the secured decryption key.
+4. A plan-and-apply run waits for the `staging` or `production` environment approval. The apply script fails closed if required reviewers are absent or the policy cannot be read.
+5. Apply verifies the commit/run/environment binding and saved plan checksum, checks locking, snapshots state, and applies the exact plan. It never silently replans. A state change makes the plan stale and requires a new run.
+6. Workflow concurrency spans plan, approval and apply; backend locking protects against other writers. Future application deployments must use compatible release coordination. Back up application data before schema changes and keep schemas compatible across application versions.
 
-GitHub Actions should validate and build pull requests, then deploy trusted changes from `main`.
+Inventory/import existing resources before adopting them. Persistent D1/R2 resources use destruction protection, which does not survive removing their resource blocks. Several R2 settings resources in the pinned provider cannot be imported; inspect and reconcile them explicitly. State recovery is not database/object-data recovery.
 
-1. Run catalogue/application checks and Terraform formatting/validation for relevant changes. Untrusted fork checks receive no infrastructure credentials, backend state, or production access.
-2. Generate Terraform plans only in trusted workflows with narrowly scoped credentials and the explicit target environment. Review changes before applying.
-3. Use the manual GitHub infrastructure workflow to queue a speculative plan or an apply-capable plan in HCP. Auto-apply is disabled; review and explicitly approve the exact apply-capable plan in HCP. GitHub job success means submission, not remote plan/apply success. HCP serializes Terraform runs; application deployment coordination must wait for the remote run to finish, because GitHub submission concurrency ends when the run is queued.
-4. Use provisioned D1 IDs and R2 names in Wrangler configuration. Bootstrap the Worker before any dependent route/domain resources, as required by the ownership assignment.
-5. Back up before schema changes as appropriate, apply reviewed backward-compatible D1 migrations in the documented order, and deploy Worker code/static assets through Wrangler.
-6. Verify static routing, API behaviour, bindings, and public image delivery. Configure previews independently and verify secrets never reach frontend bundles.
-
-Configure static assets so catalogue requests avoid unnecessary Worker execution and `/api/*` always reaches the API. Select the exact Worker/static-assets packaging during scaffolding.
-
-A Git push is not a database backup or a reverse migration. Application rollback does not reverse schema or infrastructure changes. Keep application and schema changes compatible across deployment boundaries and establish recovery procedures before production changes.
+The implemented foundation defines D1, private-by-default R2 buckets/policies, Turnstile, and opt-in image-domain access. Website DNS/Worker routes, cache/WAF rules, Worker deployment and application schema remain planned. Assign each setting one owner. Avoid independent rulesets for the same phase/zone across environments; avoid declaring Wrangler-owned Worker deployments in OpenTofu.
 
 ## Cost and portability
 
@@ -249,5 +216,5 @@ D1 uses SQLite semantics. Versioned JSON/YAML catalogue records, SQL migrations,
 - Supported image formats, byte/pixel limits, quota values, and retention periods.
 - Moderation policy, reporting, privacy/deletion policy, and user-photo permissions.
 - Catalogue schema, source attribution, and dedicated data licensing policy.
-- Complete HCP/GitHub bootstrap and the first reviewed applies for the configured Cloudflare account.
+- Bootstrap the private R2 state bucket, validate live locking, configure protected GitHub environments and the first reviewed applies for the configured Cloudflare account.
 - Website DNS/Worker route ownership and targets, image-domain activation, and application deployment coordination.

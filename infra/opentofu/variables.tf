@@ -7,7 +7,7 @@ variable "account_id" {
   }
 }
 variable "environment" {
-  description = "Environment; each value must use its own HCP Terraform workspace."
+  description = "Environment; each value must use a separate backend state key."
   type        = string
   validation {
     condition     = contains(["staging", "production"], var.environment)

@@ -1,0 +1,95 @@
+name: OpenTofu infrastructure
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment
+        type: choice
+        required: true
+        options: [staging, production]
+        default: staging
+      operation:
+        description: Save a plan, or save then wait for approval to apply that exact plan
+        type: choice
+        required: true
+        options: [plan, plan-and-apply]
+        default: plan
+
+permissions:
+  contents: read
+
+# Held across plan, human approval and apply. Never cancel an active apply.
+concurrency:
+  group: deploy-${{ inputs.environment }}
+  cancel-in-progress: false
+
+jobs:
+  checks:
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/ci.yml
+
+  plan:
+    name: Save encrypted plan
+    if: github.ref == 'refs/heads/main'
+    needs: checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment: ${{ inputs.environment }}-plan
+    outputs:
+      plan_key: ${{ steps.plan.outputs.plan_key }}
+      plan_sha256: ${{ steps.plan.outputs.plan_sha256 }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.13'
+      - uses: opentofu/setup-opentofu@a1320f892987e89d278cc92dc5adc984fb93aca4 # v2.0.2
+        with:
+          tofu_version: 1.13.9
+          tofu_wrapper: false
+      - run: python3 -m pip install -r scripts/requirements-infra.txt
+      - name: Check R2 locking, snapshot state and save plan
+        id: plan
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          TOFU_ENCRYPTION_PASSPHRASE: ${{ secrets.TOFU_ENCRYPTION_PASSPHRASE }}
+          TARGET_ENVIRONMENT: ${{ inputs.environment }}
+        run: python3 scripts/infra.py plan --environment "$TARGET_ENVIRONMENT"
+
+  apply:
+    name: Apply reviewed saved plan
+    if: inputs.operation == 'plan-and-apply'
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment: ${{ inputs.environment }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.13'
+      - uses: opentofu/setup-opentofu@a1320f892987e89d278cc92dc5adc984fb93aca4 # v2.0.2
+        with:
+          tofu_version: 1.13.9
+          tofu_wrapper: false
+      - run: python3 -m pip install -r scripts/requirements-infra.txt
+      - name: Verify approval policy and apply exact plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          TOFU_ENCRYPTION_PASSPHRASE: ${{ secrets.TOFU_ENCRYPTION_PASSPHRASE }}
+          TARGET_ENVIRONMENT: ${{ inputs.environment }}
+          PLAN_KEY: ${{ needs.plan.outputs.plan_key }}
+          PLAN_SHA256: ${{ needs.plan.outputs.plan_sha256 }}
+        run: python3 scripts/infra.py apply --environment "$TARGET_ENVIRONMENT"

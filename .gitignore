@@ -18,6 +18,9 @@ __pycache__/
 *.tfstate
 *.tfstate.*
 *.tfplan
+*.tofuplan
+*.plan.json
+.venv/
 tfplan*
 *.plan
 crash.log

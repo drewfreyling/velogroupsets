@@ -32,32 +32,28 @@ jobs:
         run: python3 scripts/check_commits.py
       - name: Documentation links and diagrams
         run: python3 scripts/check_docs.py
+      - name: Install pinned infrastructure dependencies
+        run: python3 -m pip install -r scripts/requirements-infra.txt
       - name: Automation tests
         run: python3 -m unittest discover -s scripts/tests -v
 
-  terraform:
-    name: Terraform checks (no credentials)
+  opentofu:
+    name: OpenTofu checks (no credentials)
     runs-on: ubuntu-24.04
     timeout-minutes: 10
-    defaults:
-      run:
-        working-directory: infra/terraform
-    env:
-      TF_IN_AUTOMATION: 'true'
-      TF_INPUT: 'false'
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: hashicorp/setup-terraform@dfe3c3f87815947d99a8997f908cb6525fc44e9e # v4.0.1
+      - uses: opentofu/setup-opentofu@a1320f892987e89d278cc92dc5adc984fb93aca4 # v2.0.2
         with:
-          terraform_version: 1.17.1
-          terraform_wrapper: false
-      - run: terraform fmt -check -recursive
-      - run: terraform init -backend=false -input=false -lockfile=readonly
-      - run: terraform validate
-      - name: Mocked infrastructure policy checks
-        run: terraform test
+          tofu_version: 1.13.9
+          tofu_wrapper: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.13'
+      - name: Offline validation, mocked policies, local locking and encryption
+        run: python3 scripts/infra.py validate
 
   workflows:
     name: Workflow lint

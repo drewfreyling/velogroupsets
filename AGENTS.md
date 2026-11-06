@@ -33,7 +33,7 @@ feat(api)!: change photo comment response format
 
 ## Project context
 
-Read [README.md](README.md) and [docs/architecture.md](docs/architecture.md) before changing the design. Terraform configuration and CI are implemented; Cloudflare resources have not yet been provisioned and the application remains planned. Read [infra/README.md](infra/README.md) before infrastructure or workflow changes. Describe implemented and planned capabilities accurately.
+Read [README.md](README.md) and [docs/architecture.md](docs/architecture.md) before changing the design. OpenTofu configuration and CI are implemented; Cloudflare resources have not yet been provisioned and the application remains planned. Read [infra/README.md](infra/README.md) before infrastructure or workflow changes. Describe implemented and planned capabilities accurately.
 
 Keep curated catalogue data in Git; keep real user accounts, comments, photos, database exports, and secrets out of the repository. Preserve stable catalogue IDs and cite sources for component facts.
 
@@ -41,6 +41,6 @@ For implementation changes, run the relevant checks that actually exist and docu
 
 ## Infrastructure and CI
 
-Keep infrastructure under `infra/terraform/`. Terraform owns provisioned Cloudflare resources; Wrangler owns future Worker code, static assets, and bindings. Never give both tools ownership of the same setting. HCP Terraform owns remote state/locking and execution; keep auto-apply disabled and approve the exact plan in HCP. Do not add state, saved plans, credentials, or secret outputs to Git or public CI artifacts.
+Keep infrastructure under `infra/opentofu/`. OpenTofu owns provisioned Cloudflare resources; Wrangler owns future Worker code, static assets, and bindings. Never give both tools ownership of the same setting. Private R2 stores encrypted state and plans. GitHub Actions runs OpenTofu with verified backend locking; require GitHub environment approval and apply the exact checksum-verified saved plan. Never regenerate the plan in the apply job. Do not add state, saved plans, credentials, or secret outputs to Git or public CI artifacts.
 
-Run the credential-free checks listed in [infra/README.md](infra/README.md#toolchain-and-local-checks). Mocked Terraform tests do not prove live API access or provisioning. Keep production credentials out of PR checks and use Conventional Commits for all changes.
+Run the credential-free checks listed in [infra/README.md](infra/README.md#toolchain-and-checks). Mocked OpenTofu tests do not prove live API access or provisioning. Keep production credentials out of PR checks and use Conventional Commits for all changes.

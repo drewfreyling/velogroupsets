@@ -1,122 +1,85 @@
+import hashlib
 import io
 import json
 from pathlib import Path
 import sys
-import tarfile
-import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from check_commits import valid_header
-from hcp_run import HCPError, archive_configuration, queue_run, upload_archive
+from infra import encryption_env, encrypted, plan_key, require_reviewers, snapshot, verify_plan
 
 
-class FakeClient:
-    def __init__(self, auto_apply=False, mode="remote", upload_status="uploaded"):
-        self.calls = []
-        self.auto_apply = auto_apply
-        self.mode = mode
-        self.upload_status = upload_status
+class PlanSafetyTests(unittest.TestCase):
+    def test_encryption_requires_a_safe_full_length_secret(self):
+        for key in ('', 'short', 'a' * 63, '"\nmethod unsafe {}'):
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                encryption_env(key)
+        config = encryption_env('a' * 64)['TF_ENCRYPTION']
+        self.assertIn('aes_gcm', config)
+        self.assertEqual(config.count('enforced = true'), 2)
 
-    def request(self, method, path, payload=None):
-        self.calls.append((method, path, payload))
-        if "/organizations/" in path:
-            return {"data": {"id": "ws-example", "attributes": {
-                "auto-apply": self.auto_apply, "execution-mode": self.mode,
-            }}}
-        if method == "POST" and path.endswith("/configuration-versions"):
-            return {"data": {"id": "cv-example", "attributes": {
-                "upload-url": "https://uploads.example.test/config",
-            }}}
-        if method == "GET" and path == "/configuration-versions/cv-example":
-            return {"data": {"attributes": {"status": self.upload_status}}}
-        if method == "POST" and path == "/runs":
-            return {"data": {"id": "run-example"}}
-        raise AssertionError(f"Unexpected API call: {method} {path}")
+    def test_rejects_corrupt_or_plaintext_plan(self):
+        ciphertext = json.dumps({'encryption_version': 'v0', 'encrypted_data': 'example'}).encode()
+        digest = hashlib.sha256(ciphertext).hexdigest()
+        verify_plan(ciphertext, digest)
+        for data, expected in ((ciphertext + b'changed', digest), (b'plaintext', hashlib.sha256(b'plaintext').hexdigest())):
+            with self.subTest(data=data), self.assertRaises(ValueError):
+                verify_plan(data, expected)
 
+    def test_plan_keys_are_bound_to_commit_run_attempt_and_environment(self):
+        self.assertEqual(plan_key('staging', '42', '1', 'a' * 40), f'plans/staging/42/1/{"a" * 40}/plan.tofuplan')
+        self.assertNotEqual(plan_key('staging', '42', '1', 'a' * 40), plan_key('production', '42', '1', 'a' * 40))
+        for env, run, attempt, sha in (('other', '42', '1', 'a' * 40), ('staging', '../42', '1', 'a' * 40), ('staging', '42', '1', 'main')):
+            with self.subTest(environment=env), self.assertRaises(ValueError):
+                plan_key(env, run, attempt, sha)
 
-class HCPRunTests(unittest.TestCase):
-    def setUp(self):
-        self.temp = tempfile.TemporaryDirectory()
-        self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
-        (self.root / "environments").mkdir()
-        (self.root / "main.tf").write_text('terraform {}\n')
-        (self.root / ".terraform.lock.hcl").write_text("# locked\n")
-        for environment in ("staging", "production"):
-            (self.root / "environments" / f"{environment}.tfvars").write_text(f'environment = "{environment}"\n')
-        for filename in ("terraform.tfstate", "credentials.tfrc.json", "saved.tfplan"):
-            (self.root / filename).write_text("MUST NOT UPLOAD")
-        self.uploads = []
+    def test_apply_refuses_an_environment_without_required_reviewers(self):
+        with patch('infra.urlopen') as request:
+            request.return_value.__enter__.return_value = io.StringIO(json.dumps({'protection_rules': []}))
+            with self.assertRaises(ValueError):
+                require_reviewers('example/repo', 'staging', 'fake-test-token')
 
-    def queue(self, client, plan_only=False, workspace="velogroupsets-staging"):
-        return queue_run(client, "example-org", workspace, "staging", "a" * 40,
-                         plan_only, root=self.root,
-                         upload=lambda url, content: self.uploads.append((url, content)))
+    def test_configured_reviewer_gate_is_accepted(self):
+        with patch('infra.urlopen') as request:
+            request.return_value.__enter__.return_value = io.StringIO(json.dumps({'protection_rules': [
+                {'type': 'required_reviewers', 'reviewers': [{'type': 'User', 'reviewer': {'id': 1}}]},
+            ]}))
+            require_reviewers('example/repo', 'production', 'fake-test-token')
 
-    def test_archive_includes_only_config_lock_and_selected_environment(self):
-        data = archive_configuration(self.root, "staging")
-        with tarfile.open(fileobj=io.BytesIO(data), mode="r:gz") as archive:
-            self.assertEqual(set(archive.getnames()), {"main.tf", ".terraform.lock.hcl", "environment.auto.tfvars"})
-            self.assertEqual(archive.extractfile("environment.auto.tfvars").read(), b'environment = "staging"\n')
+    def test_snapshots_are_immutable_and_ciphertext_only(self):
+        client = Mock()
+        client.get_object.return_value = {'Body': io.BytesIO(b'{"encryption_version":"v0"}')}
+        snapshot(client, 'staging', '42', '1', 'before-apply')
+        self.assertEqual(client.put_object.call_args.kwargs['IfNoneMatch'], '*')
+        self.assertEqual(client.put_object.call_args.kwargs['Key'], 'snapshots/staging/42/1/before-apply.tfstate')
+        client.reset_mock()
+        client.get_object.return_value = {'Body': io.BytesIO(b'{"version":4,"resources":[]}')}
+        with self.assertRaises(ValueError):
+            snapshot(client, 'staging', '42', '1', 'before-apply')
+        client.put_object.assert_not_called()
 
-    def test_apply_capable_run_always_requires_native_approval(self):
-        client = FakeClient()
-        url = self.queue(client)
-        self.assertTrue(url.endswith("/workspaces/velogroupsets-staging/runs/run-example"))
-        payload = next(payload for method, path, payload in client.calls if path == "/runs")
-        self.assertEqual(payload["data"]["attributes"], {
-            "message": f'velogroupsets staging commit {"a" * 40}',
-            "plan-only": False, "auto-apply": False, "is-destroy": False,
-        })
-        self.assertFalse(any("/actions/apply" in path for _, path, _ in client.calls))
-
-    def test_speculative_configuration_and_run_cannot_be_applied(self):
-        client = FakeClient()
-        self.queue(client, plan_only=True)
-        configurations = [payload for method, path, payload in client.calls if method == "POST" and path.endswith("/configuration-versions")]
-        self.assertTrue(configurations[0]["data"]["attributes"]["speculative"])
-        run = next(payload for _, path, payload in client.calls if path == "/runs")
-        self.assertTrue(run["data"]["attributes"]["plan-only"])
-
-    def test_rejects_auto_apply_or_local_workspace_before_upload(self):
-        for client in (FakeClient(auto_apply=True), FakeClient(mode="local")):
-            with self.subTest(client=client), self.assertRaises(HCPError):
-                self.queue(client)
-            self.assertFalse(any(method == "POST" for method, _, _ in client.calls))
-        self.assertEqual(self.uploads, [])
-
-    def test_rejects_environment_workspace_mismatch(self):
-        client = FakeClient()
-        with self.assertRaises(HCPError):
-            self.queue(client, workspace="velogroupsets-production")
-        self.assertEqual(client.calls, [])
-
-    def test_failed_upload_never_creates_run(self):
-        client = FakeClient(upload_status="errored")
-        with self.assertRaises(HCPError):
-            self.queue(client)
-        self.assertFalse(any(path == "/runs" for _, path, _ in client.calls))
-
-    def test_upload_has_no_hcp_authorization_header(self):
-        with patch("hcp_run.urlopen") as opener:
-            upload_archive("https://uploads.example.test/config", b"config")
-            request = opener.call_args.args[0]
-            self.assertIsNone(request.get_header("Authorization"))
-        with self.assertRaises(HCPError):
-            upload_archive("http://uploads.example.test/config", b"config")
+    def test_missing_initial_state_is_ok_but_denied_access_is_not(self):
+        from botocore.exceptions import ClientError
+        client = Mock()
+        client.get_object.side_effect = ClientError({'Error': {'Code': 'NoSuchKey'}}, 'GetObject')
+        snapshot(client, 'staging', '42', '1', 'before-plan')
+        client.put_object.assert_not_called()
+        client.get_object.side_effect = ClientError({'Error': {'Code': 'AccessDenied'}}, 'GetObject')
+        with self.assertRaises(ClientError):
+            snapshot(client, 'staging', '42', '1', 'before-plan')
 
 
 class CommitTests(unittest.TestCase):
     def test_valid_and_invalid_headers(self):
-        for subject in ("feat(api)!: change response format", "data(components): add model", "ci: validate infrastructure"):
+        for subject in ('feat(api)!: change response format', 'data(components): add model', 'ci: validate infrastructure'):
             with self.subTest(subject=subject):
                 self.assertTrue(valid_header(subject))
-        for subject in ("update readme", "feat:no space", "fix: ", "docs(): missing scope", "feat: first\nsecond"):
+        for subject in ('update readme', 'feat:no space', 'fix: ', 'docs(): missing scope', 'feat: first\nsecond'):
             with self.subTest(subject=subject):
                 self.assertFalse(valid_header(subject))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

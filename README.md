@@ -4,7 +4,7 @@ An open-source reference for bicycle groupsets and components, with community ph
 
 VeloGroupsets aims to make component specifications and identification information easy to browse, search, and improve. Most traffic should be served as static content at Cloudflare's edge; a small API handles community contributions.
 
-> **Status: infrastructure foundation.** Terraform configuration and CI are implemented. HCP/GitHub environment setup and the first reviewed infrastructure apply are still required. The application and Wrangler deployment are not implemented yet.
+> **Status: infrastructure foundation.** OpenTofu configuration and CI are implemented. R2 state-bucket/GitHub environment setup and the first reviewed infrastructure apply are still required. The application and Wrangler deployment are not implemented yet.
 
 ## Planned features
 
@@ -19,7 +19,7 @@ Compatibility claims should identify their source and any limitations. Unknown i
 
 ## Architecture
 
-The starting design uses **Cloudflare Workers Static Assets + a TypeScript Worker + D1 + R2**, with Terraform managing Cloudflare infrastructure in this repository and GitHub Actions deploying the application through Wrangler. This keeps the initial stack small and aims to fit a modest community within free allowances.
+The starting design uses **Cloudflare Workers Static Assets + a TypeScript Worker + D1 + R2**, with OpenTofu managing Cloudflare infrastructure in this repository and GitHub Actions deploying the application through Wrangler. This keeps the initial stack small and aims to fit a modest community within free allowances.
 
 ```mermaid
 flowchart TD
@@ -28,17 +28,13 @@ flowchart TD
     subgraph GitHub["GitHub"]
         Repo["Source code and curated catalogue"]
         CI["GitHub Actions: validate, build, deploy via Wrangler"]
+        TF["OpenTofu: plan, approval and saved-plan apply"]
         Repo --> CI
+        CI -.-> TF
     end
-
-    subgraph HCP["HCP Terraform"]
-        TF["Remote Terraform: plan, review and apply"]
-        State[("Separate staging and production state with locking")]
-        TF --- State
-    end
-    CI -.->|"Queue selected environment"| TF
 
     subgraph Cloudflare["Cloudflare"]
+        State[("Private R2: encrypted state, plans and snapshots")]
         Edge["Custom domain: CDN and available WAF rules"]
         Static["Workers Static Assets: HTML, CSS, JS, search index"]
         API["TypeScript Worker API"]
@@ -60,6 +56,7 @@ flowchart TD
         ImageCDN --> Photos
     end
 
+    TF ---|"Native state locking"| State
     Browser --> Edge
     Browser -->|"Signed PUT to R2 S3 endpoint"| Staging
     Browser -->|"View approved photos"| ImageCDN
@@ -88,7 +85,7 @@ See [the architecture document](docs/architecture.md) for request flows, upload 
 | Original uploads | Private R2 staging bucket |
 | Published photos | Approved image derivatives in a separate public R2 bucket, served through a custom domain |
 | Abuse prevention | Server-validated Turnstile, authentication, per-user quotas, and rate limits |
-| Infrastructure | Terraform in `infra/terraform/` for Cloudflare resources and settings |
+| Infrastructure | OpenTofu in `infra/opentofu/` for Cloudflare resources and settings |
 | Delivery | GitHub Actions deploying trusted changes from `main` through Wrangler |
 
 ## Repository layout
@@ -130,26 +127,26 @@ git clone https://github.com/drewfreyling/velogroupsets.git
 cd velogroupsets
 ```
 
-Infrastructure uses Terraform 1.17.1 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, automation tests, Terraform formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, HCP setup, environment configuration, and the manual plan/approval workflow. Application build and development commands will be added with the scaffold.
+Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, automation tests, OpenTofu formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, private R2 backend setup, environment configuration, and the manual plan/approval/apply workflow. Application build and development commands will be added with the scaffold.
 
 ## Infrastructure ownership
 
-Keep Terraform alongside the application in `infra/terraform/` so infrastructure and code changes can be reviewed together.
+Keep OpenTofu alongside the application in `infra/opentofu/` so infrastructure and code changes can be reviewed together.
 
 | Owner | Scope |
 | --- | --- |
-| Terraform | D1 databases, R2 buckets and their CORS/lifecycle/public-domain settings, DNS, zone cache/WAF rules supported by the plan/provider, Turnstile widgets, and explicitly assigned route/domain resources |
+| OpenTofu | D1 databases, R2 buckets and their CORS/lifecycle/public-domain settings, DNS, zone cache/WAF rules supported by the plan/provider, Turnstile widgets, and explicitly assigned route/domain resources |
 | Wrangler + GitHub Actions | Worker definition and code, static assets, runtime bindings/configuration, and application deployment |
 | Database migration tooling | D1 tables, indexes, and schema changes in `db/migrations/` |
 
-Each resource or setting must have one owner. Terraform provisions databases/buckets; Wrangler references their IDs/names as bindings. Keep Terraform state in a secured remote backend with locking, separate staging and production state, and no state or credentials in Git. Commit the Terraform dependency lock file and only non-secret environment inputs. HCP Terraform provides remote state, locking, execution, and explicit approval of plans. Separate API-driven workspaces are used for staging and production. See [the bootstrap guide](infra/README.md#bootstrap-hcp-terraform).
+Each resource or setting must have one owner. OpenTofu provisions databases/buckets; Wrangler references their IDs/names as bindings. Keep OpenTofu state in a secured remote backend with locking, separate staging and production state, and no state or credentials in Git. Commit the OpenTofu dependency lock file and only non-secret environment inputs. Private R2 stores encrypted state, plans, and snapshots with separate staging/production keys. GitHub Actions runs OpenTofu, verifies backend locking, and requires environment approval before applying the saved plan. See [the bootstrap guide](infra/README.md#bootstrap-the-state-bucket).
 
-See [infrastructure and deployment](docs/architecture.md#infrastructure-and-deployment) for the proposed Terraform layout, ownership boundaries, imports, and plan/apply workflow.
+See [infrastructure and deployment](docs/architecture.md#infrastructure-and-deployment) for the proposed OpenTofu layout, ownership boundaries, imports, and plan/apply workflow.
 
 ## Deployment plan
 
-1. Validate catalogue records and application changes; format and validate Terraform changes. Run plans only in trusted workflows with appropriately scoped credentials.
-2. Review an environment-specific Terraform plan and apply that exact plan through the protected production workflow when infrastructure changes are required. Import existing resources before managing them.
+1. Validate catalogue records and application changes; format and validate OpenTofu changes. Run plans only in trusted workflows with appropriately scoped credentials.
+2. Review an environment-specific OpenTofu plan and apply that exact plan through the protected production workflow when infrastructure changes are required. Import existing resources before managing them.
 3. Build static pages, assets, and a search index; deploy previews using isolated development resources and no production secrets.
 4. Pass provisioned resource IDs/names into Wrangler bindings. Apply reviewed, backward-compatible migrations in the required order and deploy trusted application changes from `main` through Wrangler.
 5. Verify the deployment, community API, and static routing.
@@ -208,9 +205,9 @@ Use `!` and/or a `BREAKING CHANGE:` footer for breaking changes. See [AGENTS.md]
 - [ ] Add D1 migrations and paginated public community reads.
 - [ ] Implement private uploads, image processing, and moderation.
 - [ ] Add photo comments, reporting, and contributor quotas.
-- [x] Implement credential-free CI and a manual HCP Terraform run-submission workflow.
-- [x] Define initial D1, R2, upload policies, and Turnstile Terraform resources.
-- [ ] Bootstrap HCP/GitHub environments and complete the first reviewed staging/production applies.
+- [x] Implement credential-free CI and a manual OpenTofu plan/approval/apply workflow.
+- [x] Define initial D1, R2, upload policies, and Turnstile OpenTofu resources.
+- [ ] Bootstrap the private R2 state bucket and protected GitHub environments and complete the first reviewed staging/production applies.
 - [ ] Add isolated app previews, website DNS/routes, cache/WAF rules, and Wrangler production deployment.
 - [ ] Establish backup, restore, deletion, and usage-monitoring procedures.
 - [ ] Finalize catalogue licensing and user contribution/photo terms before accepting uploads.
