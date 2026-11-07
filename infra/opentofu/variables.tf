@@ -60,13 +60,18 @@ variable "enable_site_domain" {
   default     = false
 }
 variable "site_zone_name" {
-  description = "Existing website zone name; use this or zone_id for the Worker custom domain."
+  description = "Existing apex zone name; required for CAA records, or an alternative to zone_id for the Worker custom domain."
   type        = string
   default     = null
   validation {
     condition     = var.site_zone_name == null ? true : can(regex("^([a-z0-9]([a-z0-9-]*[a-z0-9])?\\.)+[a-z]{2,}$", var.site_zone_name))
     error_message = "site_zone_name must be a lowercase DNS zone name."
   }
+}
+variable "manage_zone_caa" {
+  description = "Own shared apex CAA records in staging state only, with zone_id and site_zone_name configured."
+  type        = bool
+  default     = false
 }
 variable "manage_zone_tls" {
   description = "Own shared zone-wide HTTPS/TLS settings in staging state only. Do not enable in another state for the same zone."

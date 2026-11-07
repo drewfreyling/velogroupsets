@@ -154,7 +154,7 @@ npm run worker:dev
 
 Wrangler serves the built site at `http://localhost:8787`; `GET /api/health` reports the environment/release. Unknown API paths return JSON 404s. Community writes are not implemented and local development uses no live D1/R2 resources. Run `npx playwright install chromium` once, then `npm run test:browser` for browser checks.
 
-Set `SITE_URL` during builds to generate environment-specific canonical URLs. Staging/localhost builds include `noindex`; normal assets bypass Worker execution, while `/api` and `/api/*` explicitly run the Worker.
+Set `SITE_URL` during builds to generate environment-specific canonical URLs and `/sitemap.xml`. The sitemap includes the home page, manufacturer index, catalogue and every canonical manufacturer/groupset/component page, with shared components listed once. Production `robots.txt` advertises the sitemap; other builds disallow crawling, and staging/localhost pages retain `noindex`. Normal assets bypass Worker execution, while `/api` and `/api/*` explicitly run the Worker. See the [CAA policy](infra/README.md#dns-caa-policy) for certificate-authority DNS records owned by the shared-zone state.
 
 Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, catalogue schemas/relationships, automation tests, OpenTofu formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, private R2 backend setup, environment configuration, and the manual plan/approval/apply workflow. CI also builds the static site, tests generated links and Worker routing, checks the Wrangler bundle, and runs Playwright in desktop and mobile Chromium configurations.
 

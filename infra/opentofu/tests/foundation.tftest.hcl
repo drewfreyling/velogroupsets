@@ -9,6 +9,10 @@ variables {
 run "private_by_default" {
   command = plan
   assert {
+    condition     = length(cloudflare_dns_record.caa) == 0
+    error_message = "CAA must be opt-in so production cannot duplicate shared zone ownership."
+  }
+  assert {
     condition     = !cloudflare_r2_managed_domain.uploads.enabled && !cloudflare_r2_managed_domain.photos.enabled && length(cloudflare_r2_custom_domain.photos) == 0
     error_message = "Storage must not expose a public endpoint by default."
   }
@@ -24,6 +28,34 @@ run "private_by_default" {
     condition     = cloudflare_turnstile_widget.submissions.clearance_level == "no_clearance"
     error_message = "Turnstile must not grant network challenge clearance."
   }
+}
+run "shared_caa_allows_cloudflare_certificate_authorities" {
+  command = plan
+  variables {
+    manage_zone_caa = true
+    zone_id         = "0123456789abcdef0123456789abcdef"
+    site_zone_name  = "example.com"
+  }
+  assert {
+    condition = toset([for record in cloudflare_dns_record.caa : record.data.value]) == toset([
+      "letsencrypt.org", "pki.goog; cansignhttpexchanges=yes", "ssl.com", "sectigo.com"
+    ])
+    error_message = "Allow Cloudflare's primary and backup certificate authorities."
+  }
+  assert {
+    condition     = alltrue([for record in cloudflare_dns_record.caa : record.name == "example.com" && record.zone_id == var.zone_id && record.type == "CAA" && record.ttl == 3600 && record.data.flags == 0 && record.data.tag == "issue"])
+    error_message = "CAA must apply at the apex, including inherited wildcard issuance, without blocking renewals."
+  }
+}
+run "reject_duplicate_caa_ownership" {
+  command = plan
+  variables {
+    environment     = "production"
+    manage_zone_caa = true
+    zone_id         = "0123456789abcdef0123456789abcdef"
+    site_zone_name  = "example.com"
+  }
+  expect_failures = [cloudflare_dns_record.caa]
 }
 run "production_has_separate_names" {
   command = plan

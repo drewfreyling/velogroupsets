@@ -41,7 +41,7 @@ For implementation changes, run the relevant checks that actually exist and docu
 
 ## Infrastructure and CI
 
-Keep infrastructure under `infra/opentofu/`. OpenTofu owns provisioned Cloudflare resources; Wrangler owns Worker code, static assets, and bindings. Never give both tools ownership of the same setting. Private R2 stores encrypted state and plans. GitHub Actions runs OpenTofu with verified backend locking; require GitHub environment approval and apply the exact checksum-verified saved plan. Never regenerate the plan in the apply job. Do not add state, saved plans, credentials, or secret outputs to Git or public CI artifacts.
+Keep infrastructure under `infra/opentofu/`. OpenTofu owns provisioned Cloudflare resources; Wrangler owns Worker code, static assets, and bindings. Never give both tools ownership of the same setting. Shared apex CAA and zone TLS/HSTS have a single owner in staging state; do not duplicate them in production state. Private R2 stores encrypted state and plans. GitHub Actions runs OpenTofu with verified backend locking; require GitHub environment approval and apply the exact checksum-verified saved plan. Never regenerate the plan in the apply job. Do not add state, saved plans, credentials, or secret outputs to Git or public CI artifacts.
 
 Keep website deployment manual through `workflow_dispatch`. The deploy job must depend on successful reusable CI for the same commit, with an explicit success condition before GitHub environment approval.
 
