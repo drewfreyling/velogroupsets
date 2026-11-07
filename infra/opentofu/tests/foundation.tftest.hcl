@@ -91,8 +91,8 @@ run "zone_tls_and_hsts_policy" {
     error_message = "Enforce HTTPS, TLS 1.2 or newer, TLS 1.3 support and strict origin TLS."
   }
   assert {
-    condition     = cloudflare_zone_setting.hsts[0].value.strict_transport_security.enabled && cloudflare_zone_setting.hsts[0].value.strict_transport_security.max_age == 15768000 && !cloudflare_zone_setting.hsts[0].value.strict_transport_security.include_subdomains && !cloudflare_zone_setting.hsts[0].value.strict_transport_security.preload
-    error_message = "Enable HSTS for six months without subdomain inheritance or preload."
+    condition     = cloudflare_zone_setting.hsts[0].value.strict_transport_security.enabled && cloudflare_zone_setting.hsts[0].value.strict_transport_security.max_age == 31536000 && cloudflare_zone_setting.hsts[0].value.strict_transport_security.include_subdomains && cloudflare_zone_setting.hsts[0].value.strict_transport_security.preload
+    error_message = "Enable HSTS for one year, including subdomains and the preload directive."
   }
 }
 run "tls_policy_can_require_tls13" {

@@ -30,9 +30,9 @@ resource "cloudflare_zone_setting" "hsts" {
   value = {
     strict_transport_security = {
       enabled            = true
-      max_age            = 15768000
-      include_subdomains = false
-      preload            = false
+      max_age            = 31536000
+      include_subdomains = true
+      preload            = true
       nosniff            = true
     }
   }
