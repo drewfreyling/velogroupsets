@@ -7,7 +7,7 @@ The catalogue covers the five Ultegra series offered during **1990–2009**: 600
 | Catalogue groupset | Documented start | Component records | Scope |
 | --- | --- | --- | --- |
 | 600 Ultegra 6400 | 1987 | 14 | Original six/seven-speed equipment, plus eight-speed RD-6401, ST-6400 and SG crank update |
-| Ultegra 6500 | 1997 | 7 | Nine-speed equipment, including FC-6500 double and FC-6503 triple |
+| Ultegra 6500 | 1997 | 8 | Nine-speed equipment, including FC-6500 double and FC-6503 triple |
 | Ultegra 6600 | 2004 | 13 | Ten-speed double, triple and later compact cranksets, plus SS/GS rear and double/triple front derailleurs |
 | Ultegra SL 6600-G | 2007 | 13 | Lighter ice-grey components, double/triple/compact cranks and shared standard parts |
 | Ultegra 6700 | 2009 | 12 | Ten-speed double, triple and compact variants, plus SS/GS rear derailleurs |
@@ -28,7 +28,7 @@ Ultegra Di2 6770 (2011), 6800 (2013), R8000 and later series are outside this da
 
 ## Sources and component coverage
 
-Manufacturer material supplies the specifications and reference weights. Independent archives host some original documents; component technical-document links point directly to Shimano's service site or specifications archive.
+Manufacturer material supplies the specifications and most reference weights. HB-6500 instead uses published measurements from Damon Rinard’s component-weight list. Independent archives host some original documents; component technical-document links point directly to Shimano's service site or specifications archive.
 
 | Evidence | Use |
 | --- | --- |
@@ -41,13 +41,13 @@ Manufacturer material supplies the specifications and reference weights. Indepen
 | [2010 Russian dealer catalogue, PDF pages 69–70](https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=69) | 6700 reference configurations and weights, including separate hub/skewer figures |
 | [2008–2009 line-up chart](https://productinfo.shimano.com/pdfs/product/archive/2009_LINE-UP_CHART.pdf) | Standard 6600 and SL system membership and variants |
 
-The 55 new component identities produce 59 memberships across the five groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
+The 56 Ultegra component identities produce 60 memberships across the five groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
 
 The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs where the selected sources support their required weights; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Standalone bottom brackets without a verified reference weight remain unlisted; an included bottom bracket is described with its crankset. Brakes, chains and complete wheels remain outside the current component taxonomy.
 
 ## Weight rules and differences between publications
 
-The JSON `weight_description` states the weighed reference configuration and inclusions. These are manufacturer-listed figures, not fresh measurements. They do not imply an identical weight for every arm length, gear combination, spoke count or finish.
+The JSON `weight_description` states the weighed reference configuration and inclusions. Except for the HB-6500 measurements described below, these are manufacturer-listed figures, not fresh measurements. They do not imply an identical weight for every arm length, gear combination, spoke count or finish.
 
 - Original 6400 and 6500 crank reference weights exclude the separately listed bottom bracket. For 6600, SL and 6700, the cited crank figures **include the integrated bottom bracket**. Do not add a separate bottom-bracket weight to those figures when comparing totals.
 - Dual Control lever weights are for a **pair**, including the brake lever assemblies. They do not describe just the shift mechanisms. The ST-6500 weight is not silently assigned to ST-6501.
@@ -59,3 +59,10 @@ The JSON `weight_description` states the weighed reference configuration and inc
 Where a source omits the reference thread, diameter or spoke count, the description says so. The BB-6400 source lists both 113 and 115 mm spindle options without identifying which supplied its 308 g reference weight; the record does not select one by inference.
 
 See the [catalogue guide](catalogue.md) for IDs, variant membership, schema validation and the meaning of unknown weights and year-range ends.
+
+
+## HB-6500 measured weight
+
+The [front-hub section of Damon Rinard’s Component Weights](https://sheldonbrown.com/rinard/weights.htm) explicitly excludes skewers unless a row says otherwise. Its HB-6500 entry reports **136 g and 138 g**, with no inclusion exception. The catalogue uses the first published observation, **136 g**, as its reference and discloses both values in the weight description; it does not compute an average or describe the value as a Shimano specification. Spoke count is not supplied, so this weight is not assigned to a particular hole count. The manufacturer’s older 198 g listing is not used as a skewer-free weight.
+
+[Shimano’s HB-6500 drawing](https://si.shimano.com/en/pdfs/ev/HB-6500-1678/EV-HB-6500-1678.pdf) supplies the manufacturer-hosted technical document. The 1998 manufacturer catalogue establishes membership in Ultegra 6500. These sources serve different purposes: the measurement list supplies the weight and the manufacturer material supplies identity and membership.

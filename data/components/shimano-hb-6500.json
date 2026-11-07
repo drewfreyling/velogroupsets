@@ -1,0 +1,34 @@
+{
+  "id": "shimano-hb-6500",
+  "slug": "hb-6500",
+  "name": "Ultegra front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-6500",
+  "weight_g": 136,
+  "weight_description": "Published measured reference: HB-6500 quick-release front hub without skewer. Damon Rinard’s list reports 136 and 138 g; this entry uses 136 g. Spoke count is not stated.",
+  "weight_excludes_skewers": true,
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-6500-1678/EV-HB-6500-1678.pdf",
+    "title": "Shimano HB-6500 front hub exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "axle_type": "Quick release"
+  },
+  "sources": [
+    {
+      "url": "https://sheldonbrown.com/rinard/weights.htm",
+      "title": "Damon Rinard, Component Weights: front hubs weighed without skewers; HB-6500 measurements 136 and 138 g",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
+      "title": "Shimano 1998 catalogue, pages 41–42: HB-6500 membership in Ultegra 6500; not the source of the skewer-free measurement",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

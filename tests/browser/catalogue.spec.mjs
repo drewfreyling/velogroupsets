@@ -9,7 +9,7 @@ test('browse manufacturer → groupset → component with sources', async ({page
   await expect(page.getByText('2018 – end year not documented', {exact:true})).toBeVisible();
   await expect(page.getByRole('heading', {name:'105 R7000',level:1})).toBeVisible();
   await expect(page.getByText('R7000', {exact:true})).toBeVisible();
-  await page.getByRole('link', {name:/105 crankset/}).click();
+  await page.getByRole('link', {name:'FC-R7000',exact:true}).click();
   await expect(page.getByRole('heading', {name:'FC-R7000',level:1})).toBeVisible();
   await expect(page.getByRole('navigation', {name:'Breadcrumb'}).getByRole('link', {name:'105 R7000',exact:true})).toHaveAttribute('href', '/groupsets/shimano/105-r7000/');
   await expect(page.locator('dl').getByRole('link', {name:'105 R7000',exact:true})).toHaveAttribute('href', '/groupsets/shimano/105-r7000/');
@@ -24,7 +24,8 @@ test('search, URL filters, empty state and reset work at mobile width', async ({
   await page.setViewportSize({width:390,height:844});
   await page.goto('/catalogue/?type=cassette&groupset=shimano-105-r7000');
   await expect(page.locator('#result-count')).toHaveText('1 component');
-  await expect(page.getByRole('link', {name:/105 cassette/})).toBeVisible();
+  await expect(page.getByRole('link', {name:'CS-R7000',exact:true})).toBeVisible();
+  await expect(page.getByText('Shimano · 105 cassette', {exact:true})).toBeVisible();
   await page.getByLabel('Search components').fill('does-not-exist');
   await expect(page.getByRole('heading', {name:'No components found'})).toBeVisible();
   await page.getByRole('button', {name:'Clear filters'}).click();
@@ -51,7 +52,7 @@ test('Worker routing, 404 status and asset security headers', async ({request}) 
 test('a rear hub with unknown weight remains searchable and shows no numeric weight', async ({page, request}) => {
   await page.goto('/catalogue/?type=rear-hub&groupset=shimano-exage-500ex');
   await expect(page.locator('#result-count')).toHaveText('1 component');
-  await page.getByRole('link', {name:/Exage seven-speed rear hub/}).click();
+  await page.getByRole('link', {name:'FH-HG50',exact:true}).click();
   await expect(page.getByRole('heading', {name:'FH-HG50',level:1})).toBeVisible();
   const weight = page.locator('dl > div').filter({has:page.locator('dt', {hasText:/^Weight$/})});
   await expect(weight.locator('dd > span')).toHaveText('Not yet sourced');

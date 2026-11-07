@@ -3,9 +3,8 @@ import { componentUrl, manufacturerFor, typeName } from '../lib/catalogue.mjs';
 const { records } = Astro.props;
 ---
 <div class="divide-y divide-line border-y border-line">
-  {records.map(c => <a href={componentUrl(c)} class="group grid grid-cols-1 items-center gap-3 py-6 sm:grid-cols-2">
-    <div><span class="text-sm text-muted">{manufacturerFor(c).name}</span><h3 class="mt-1 text-lg font-semibold group-hover:underline">{c.name}</h3></div>
-    <span class="hidden text-sm text-muted sm:block">{typeName(c.type)} <span class="ml-3 font-mono">{c.model_number}</span></span>
-
-  </a>)}
+  {records.map(c => <div class="grid grid-cols-1 items-center gap-3 py-6 sm:grid-cols-2">
+    <div><h3 class="break-words font-mono text-lg font-semibold"><a class="text-link" href={componentUrl(c)}>{c.model_number}</a></h3><p class="mt-1 text-sm text-muted">{manufacturerFor(c).name} · {c.name}</p></div>
+    <span class="hidden text-sm text-muted sm:block">{typeName(c.type)}</span>
+  </div>)}
 </div>
