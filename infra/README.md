@@ -13,6 +13,8 @@ OpenTofu manages Cloudflare resources; GitHub Actions runs checks, creates plans
 
 The apply also configured upload CORS, lifecycle policies, and disabled public `r2.dev` access. State and saved plans use the separately bootstrapped `velogroupsets-infra-state` bucket, with encrypted pre/post-apply snapshots. The staging GitHub environment has a required reviewer. Runtime binding IDs and the public Turnstile site key are available in secured OpenTofu outputs; the widget secret stays private.
 
+D1 read replication is explicitly disabled, matching the provisioned single-primary default. Change that setting deliberately if the application later needs read replicas.
+
 This provisions the data/storage/abuse-prevention foundation. Worker/static-site deployment, website DNS and a browsable staging site remain to be implemented.
 
 ## Included resources

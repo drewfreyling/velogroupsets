@@ -4,6 +4,10 @@ locals {
 resource "cloudflare_d1_database" "community" {
   account_id = var.account_id
   name       = "${local.name}-community"
+  # Match the provisioned single-primary default explicitly.
+  read_replication = {
+    mode = "disabled"
+  }
   lifecycle {
     prevent_destroy = true
   }
