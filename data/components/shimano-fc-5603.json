@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fc-5603",
+  "slug": "fc-5603",
+  "name": "105 ten-speed triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5600"
+  ],
+  "type": "crankset",
+  "model_number": "FC-5603",
+  "weight_g": 922,
+  "weight_description": "Manufacturer-listed: 170 mm arms, 50/39/30T chainrings, including integrated bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-5603-2440/EV-FC-5603-2440B.pdf",
+    "title": "Shimano FC-5603 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=11",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 11: 105 5600 reference weights, including separate hub/skewer weights",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      39,
+      30
+    ],
+    "rear_speeds": 10,
+    "includes_bottom_bracket": true
+  }
+}

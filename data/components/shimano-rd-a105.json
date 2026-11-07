@@ -1,0 +1,43 @@
+{
+  "id": "shimano-rd-a105",
+  "slug": "rd-a105",
+  "name": "105 Golden Arrow short-cage rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-golden-arrow"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-A105",
+  "weight_g": 233,
+  "weight_description": "Manufacturer-listed: original short-cage Golden Arrow model; derailleur only.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-A105-0538/EV-RD-A105-0538C.pdf",
+    "title": "Shimano RD-A105 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_29.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 29 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_39.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 39 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/N-83/SI-N-83-000-00-ENG.pdf",
+      "title": "Shimano RD-A105 and RD-A105-GS service instructions SI-N-83, February 1985: capacity and fork-end-dependent sprocket limits",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "cage_description": "Short cage",
+    "capacity_notes": "The service instructions specify 28T total capacity and a 28T largest sprocket. Smallest sprocket and an independent maximum front difference are not stated; the older 1984 combined-capacity table is not used as an unconditional front limit."
+  }
+}

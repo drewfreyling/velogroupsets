@@ -1,0 +1,35 @@
+{
+  "id": "shimano-pd-r7000",
+  "slug": "pd-r7000",
+  "name": "105 SPD-SL carbon pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7000",
+    "shimano-105-r7100",
+    "shimano-105-di2-r7100"
+  ],
+  "type": "pedals",
+  "model_number": "PD-R7000",
+  "weight_g": 265,
+  "weight_description": "Manufacturer average: standard-axle pedal pair; excludes cleats.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=307",
+    "title": "Shimano 2025–2026 specifications, PDF page 307",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=307",
+      "title": "Shimano 2025–2026 specifications, PDF page 307",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: 105 mechanical and Di2 components",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair, without cleats"
+  }
+}

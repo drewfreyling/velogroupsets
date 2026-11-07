@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fc-5501",
+  "slug": "fc-5501",
+  "name": "105 nine-speed double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5500"
+  ],
+  "type": "crankset",
+  "model_number": "FC-5501",
+  "weight_g": 663,
+  "weight_description": "Manufacturer-listed: 170 mm arms, 53/39T chainrings; excludes the separately listed bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-5501-1864/EV-FC-5501-1864.pdf",
+    "title": "Shimano FC-5501 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/32-33.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 32–33: 105 5500 reference configurations and weights (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      53,
+      39
+    ],
+    "rear_speeds": 9
+  }
+}

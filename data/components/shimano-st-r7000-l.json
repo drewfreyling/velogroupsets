@@ -1,0 +1,29 @@
+{
+  "id": "shimano-st-r7000-l",
+  "slug": "st-r7000-l",
+  "name": "105 left Dual Control lever",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7000"
+  ],
+  "type": "shifters",
+  "model_number": "ST-R7000-L",
+  "weight_g": 249,
+  "weight_description": "Manufacturer average: single left-hand double-chainring shift/brake lever; not a pair.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=136",
+    "title": "Shimano 2025–2026 specifications, PDF page 136",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=136",
+      "title": "Shimano 2025–2026 specifications, PDF page 136",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "side": "Left",
+    "weight_basis": "Single lever"
+  }
+}

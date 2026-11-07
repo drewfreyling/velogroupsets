@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-r7000-f",
+  "slug": "fd-r7000-f",
+  "name": "105 eleven-speed front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R7000-F",
+  "weight_g": 96,
+  "weight_description": "Manufacturer average: braze-on version for an eleven-speed double chainset.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=161",
+    "title": "Shimano 2025–2026 specifications, PDF page 161",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=161",
+      "title": "Shimano 2025–2026 specifications, PDF page 161",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "front_speeds": 2,
+    "mount": "Braze-on"
+  }
+}

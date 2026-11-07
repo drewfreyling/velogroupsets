@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fh-5500",
+  "slug": "fh-5500",
+  "name": "105 nine-speed rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5500"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-5500",
+  "weight_g": null,
+  "weight_description": "Nine-speed quick-release freehub. The 2001 catalogue’s 411 g does not establish skewer exclusion; a hub-only weight remains unsourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-5500-1734/EV-FH-5500-1734.pdf",
+    "title": "Shimano FH-5500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/32-33.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 32–33: 105 5500 reference configurations and weights (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9
+  },
+  "weight_excludes_skewers": true
+}

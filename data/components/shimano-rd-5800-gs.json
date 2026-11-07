@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-5800-gs",
+  "slug": "rd-5800-gs",
+  "name": "105 eleven-speed GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5800"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-5800-GS",
+  "weight_g": 250,
+  "weight_description": "Manufacturer average: GS cage version; derailleur only.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=120",
+    "title": "Shimano 2014–2015 specifications, PDF page 120",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=120",
+      "title": "Shimano 2014–2015 specifications, PDF page 120",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 32,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16,
+    "rear_speeds": 11,
+    "cage": "GS"
+  }
+}

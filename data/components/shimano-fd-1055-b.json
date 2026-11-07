@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-1055-b",
+  "slug": "fd-1055-b",
+  "name": "105 SC band-mounted front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-1055-B",
+  "weight_g": 105,
+  "weight_description": "Manufacturer-listed: double-chainset, band-mounted version; 28.0–28.6 mm clamp.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-1055-1016/EV-FD-1055-1016A.pdf",
+    "title": "Shimano FD-1055 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 24; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "capacity_teeth": 14
+  }
+}

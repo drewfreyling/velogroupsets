@@ -1,0 +1,37 @@
+{
+  "id": "shimano-st-r7120",
+  "slug": "st-r7120",
+  "name": "105 twelve-speed mechanical hydraulic Dual Control levers",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7100"
+  ],
+  "type": "shifters",
+  "model_number": "ST-R7120",
+  "weight_g": 612,
+  "weight_description": "Manufacturer average: pair of mechanical shift/hydraulic brake levers, left and right, for a 2×12-speed drivetrain.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=132",
+    "title": "Shimano 2025–2026 specifications, PDF page 132",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=132",
+      "title": "Shimano 2025–2026 specifications, PDF page 132",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: 105 mechanical and Di2 components",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "weight_basis": "Pair",
+    "shifting": "Mechanical",
+    "brake_type": "Hydraulic disc"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "shimano-st-5500-ca",
+  "slug": "st-5500-ca",
+  "name": "105 nine-speed Dual Control levers",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5500"
+  ],
+  "type": "shifters",
+  "model_number": "ST-5500-CA",
+  "weight_g": 495,
+  "weight_description": "Manufacturer-listed: pair of nine-speed shift/brake levers with separate Flight Deck buttons.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-5500-CA-1934/EV-ST-5500-CA-1934A.pdf",
+    "title": "Shimano ST-5500-CA exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/32-33.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 32–33: 105 5500 reference configurations and weights (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "weight_basis": "Pair"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "shimano-bb-1050",
+  "slug": "bb-1050",
+  "name": "105 cup-and-cone bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-1050",
+  "weight_g": 327,
+  "weight_description": "Manufacturer-listed: bottom-bracket assembly only. Catalogue lists 68-W-113 and 70-W-115 options without identifying the reference weight’s thread/spindle variant.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-1050_BB-1050-0757/EV-FC-1050_BB-1050-0757B.pdf",
+    "title": "Shimano BB-1050 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_22.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 22 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-5603-f",
+  "slug": "fd-5603-f",
+  "name": "105 ten-speed triple front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5600"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-5603-F",
+  "weight_g": 112,
+  "weight_description": "Manufacturer-listed: braze-on version for a triple chainset.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-5603-2448/EV-FD-5603-2448A.pdf",
+    "title": "Shimano FD-5603 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=11",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 11: 105 5600 reference weights, including separate hub/skewer weights",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 10,
+    "mount": "Braze-on"
+  }
+}

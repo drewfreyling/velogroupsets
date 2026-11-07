@@ -1,0 +1,37 @@
+{
+  "id": "shimano-st-r7170",
+  "slug": "st-r7170",
+  "name": "105 twelve-speed Di2 hydraulic Dual Control levers",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-di2-r7100"
+  ],
+  "type": "shifters",
+  "model_number": "ST-R7170",
+  "weight_g": 423,
+  "weight_description": "Manufacturer average: pair of electronic Di2 shift/hydraulic brake levers, left and right, for a 2×12-speed drivetrain.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=123",
+    "title": "Shimano 2025–2026 specifications, PDF page 123",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=123",
+      "title": "Shimano 2025–2026 specifications, PDF page 123",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: 105 mechanical and Di2 components",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "weight_basis": "Pair",
+    "shifting": "Electronic Di2",
+    "brake_type": "Hydraulic disc"
+  }
+}

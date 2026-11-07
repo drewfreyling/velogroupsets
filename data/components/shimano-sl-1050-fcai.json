@@ -1,0 +1,29 @@
+{
+  "id": "shimano-sl-1050-fcai",
+  "slug": "sl-1050-fcai",
+  "name": "105 six-speed downtube levers",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "shifters",
+  "model_number": "SL-1050-FCAI",
+  "weight_g": 68,
+  "weight_description": "Manufacturer-listed: six-speed SIS, Italian braze-on A lever set (FCAI); friction mode also available.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/si/P-25/SI-P-25-000-00-ENG.pdf",
+    "title": "Shimano SL-1050 service instructions SI-P-25",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_22.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 22 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 6,
+    "mount": "Italian braze-on A"
+  }
+}

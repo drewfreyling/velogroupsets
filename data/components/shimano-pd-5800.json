@@ -1,0 +1,28 @@
+{
+  "id": "shimano-pd-5800",
+  "slug": "pd-5800",
+  "name": "105 SPD-SL carbon pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5800"
+  ],
+  "type": "pedals",
+  "model_number": "PD-5800",
+  "weight_g": 285,
+  "weight_description": "Manufacturer average: standard-axle pedal pair; excludes cleats.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=151",
+    "title": "Shimano 2014–2015 specifications, PDF page 151",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=151",
+      "title": "Shimano 2014–2015 specifications, PDF page 151",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair, without cleats"
+  }
+}

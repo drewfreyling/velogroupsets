@@ -1,0 +1,25 @@
+{
+  "id": "shimano-hp-1055",
+  "slug": "hp-1055",
+  "name": "105 SC threaded headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "headset",
+  "model_number": "HP-1055",
+  "weight_g": 101,
+  "weight_description": "Manufacturer-listed: headset assembly, 21.2 mm upper-cone height and 15 mm lower-cone height; reference thread not identified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HP-1055-1040/EV-HP-1055-1040.pdf",
+    "title": "Shimano HP-1055 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 24; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "shimano-pd-1056",
+  "slug": "pd-1056",
+  "name": "105 SC clipless pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "pedals",
+  "model_number": "PD-1056",
+  "weight_g": 460,
+  "weight_description": "Manufacturer-listed: pedal pair; excludes separately listed cleats and hardware (105 g).",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-1056-1065/EV-PD-1056-1065A.pdf",
+    "title": "Shimano PD-1056 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 24; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair, without cleats"
+  }
+}

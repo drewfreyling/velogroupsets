@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bb-5500",
+  "slug": "bb-5500",
+  "name": "105 Octalink bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5500"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-5500",
+  "weight_g": 250,
+  "weight_description": "Manufacturer-listed: 68 mm shell, double-chainset version. The separately listed triple version is 259 g and is not represented by this weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BB-5500-1735/EV-BB-5500-1735.pdf",
+    "title": "Shimano BB-5500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/32-33.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 32–33: 105 5500 reference configurations and weights (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "bb_shell_width_mm": 68,
+    "interface": "Octalink V1",
+    "front_speeds": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-5800",
+  "slug": "cs-5800",
+  "name": "105 eleven-speed cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5800"
+  ],
+  "type": "cassette",
+  "model_number": "CS-5800",
+  "weight_g": 269,
+  "weight_description": "Manufacturer average: 12–25T eleven-speed cassette; excludes freehub.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=133",
+    "title": "Shimano 2014–2015 specifications, PDF page 133",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=133",
+      "title": "Shimano 2014–2015 specifications, PDF page 133",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "12–25T"
+  }
+}

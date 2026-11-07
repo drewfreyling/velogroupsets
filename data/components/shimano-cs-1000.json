@@ -1,0 +1,36 @@
+{
+  "id": "shimano-cs-1000",
+  "slug": "cs-1000",
+  "name": "105 six-speed Uniglide cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "cassette",
+  "model_number": "CS-1000",
+  "weight_g": 221,
+  "weight_description": "Manufacturer-listed: six-speed 13–24T sprockets and spacers; excludes freehub.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-1000-0985/EV-CS-1000-0985.pdf",
+    "title": "Shimano CS-1000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_23.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 23 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 6,
+    "sprockets_teeth": [
+      13,
+      15,
+      17,
+      19,
+      21,
+      24
+    ]
+  }
+}

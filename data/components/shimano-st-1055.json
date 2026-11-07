@@ -1,0 +1,30 @@
+{
+  "id": "shimano-st-1055",
+  "slug": "st-1055",
+  "name": "105 SC eight-speed Dual Control levers",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "shifters",
+  "model_number": "ST-1055",
+  "weight_g": 495,
+  "weight_description": "Manufacturer-listed: pair of eight-speed STI shift/brake levers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-1055-1321/EV-ST-1055-1321B.pdf",
+    "title": "Shimano ST-1055 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/39-40.htm",
+      "title": "Shimano 1993 catalogue, pages 39–40: 105 SC eight-speed update (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "front_speeds": 2,
+    "weight_basis": "Pair"
+  }
+}

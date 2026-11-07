@@ -1,0 +1,24 @@
+{
+  "id": "shimano-105-di2-r7100",
+  "slug": "105-di2-r7100",
+  "name": "105 Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "R7100",
+  "year_range": {
+    "start": 2022,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://bike.shimano.com/stories/article/shimano-105-di2-it-is-a-new-day.html",
+      "title": "Shimano 105 Di2: 40th-anniversary R7100 introduction in 2022",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: 105 mechanical and Di2 components",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "generation": "Twelve-speed electronic Di2"
+}

@@ -5,7 +5,7 @@ test('browse manufacturer → groupset → component with sources', async ({page
   await page.goto('/');
   await page.getByRole('link', {name:'See manufacturers',exact:true}).click();
   await page.getByRole('link', {name:/Shimano/}).click();
-  await page.getByRole('link', {name:/105/}).click();
+  await page.getByRole('link').filter({has:page.getByRole('heading', {name:'105 R7000',level:3,exact:true})}).click();
   await expect(page.getByText('2018 – end year not documented', {exact:true})).toBeVisible();
   await expect(page.getByRole('heading', {name:'105 R7000',level:1})).toBeVisible();
   await expect(page.getByText('R7000', {exact:true})).toBeVisible();

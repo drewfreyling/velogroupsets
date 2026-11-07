@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-r7000-ss",
+  "slug": "rd-r7000-ss",
+  "name": "105 short-cage rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7000"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-R7000-SS",
+  "weight_g": 225,
+  "weight_description": "Manufacturer average: SS short-cage model; derailleur only.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=157",
+    "title": "Shimano 2025–2026 specifications, PDF page 157",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=157",
+      "title": "Shimano 2025–2026 specifications, PDF page 157",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 30,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16,
+    "rear_speeds": 11,
+    "cage": "SS"
+  }
+}

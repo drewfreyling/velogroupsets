@@ -1,0 +1,28 @@
+{
+  "id": "shimano-pd-1055",
+  "slug": "pd-1055",
+  "name": "105 SC platform pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "pedals",
+  "model_number": "PD-1055",
+  "weight_g": 433,
+  "weight_description": "Manufacturer-listed: pedal pair including size-L toe clips.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-1055-1004/EV-PD-1055-1004A.pdf",
+    "title": "Shimano PD-1055 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 24; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair, including size-L toe clips"
+  }
+}

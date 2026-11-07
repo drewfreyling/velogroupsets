@@ -1,0 +1,31 @@
+{
+  "id": "shimano-bb-rs501",
+  "slug": "bb-rs501",
+  "name": "Shimano road threaded bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7100",
+    "shimano-105-di2-r7100"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-RS501",
+  "weight_g": 93,
+  "weight_description": "Manufacturer average: threaded road bottom-bracket cup unit. The handbook does not identify the thread variant used for its reference weight.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=171",
+    "title": "Shimano 2025–2026 specifications, PDF page 171",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=171",
+      "title": "Shimano 2025–2026 specifications, PDF page 171",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: 105 mechanical and Di2 components",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

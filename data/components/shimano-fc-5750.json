@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fc-5750",
+  "slug": "fc-5750",
+  "name": "105 compact crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5700"
+  ],
+  "type": "crankset",
+  "model_number": "FC-5750",
+  "weight_g": 805,
+  "weight_description": "Manufacturer-listed in the 2014–2015 handbook: 50/34T chainrings, including integrated bottom bracket; reference crank length is not stated.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=127",
+    "title": "Shimano 2014–2015 specifications, PDF page 127",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=127",
+      "title": "Shimano 2014–2015 specifications, PDF page 127",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "chainrings_teeth": [
+      50,
+      34
+    ],
+    "rear_speeds": 10,
+    "includes_bottom_bracket": true
+  }
+}

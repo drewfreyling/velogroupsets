@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-1056-b",
+  "slug": "fd-1056-b",
+  "name": "105 SC eight-speed front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-1056-B",
+  "weight_g": 105,
+  "weight_description": "Manufacturer-listed: band-mounted front derailleur for the eight-speed double-chainring system.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-1056-1309/EV-FD-1056-1309.pdf",
+    "title": "Shimano FD-1056 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/39-40.htm",
+      "title": "Shimano 1993 catalogue, pages 39–40: 105 SC eight-speed update (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "front_speeds": 2
+  }
+}

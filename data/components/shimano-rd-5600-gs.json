@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-5600-gs",
+  "slug": "rd-5600-gs",
+  "name": "105 ten-speed GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5600"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-5600-GS",
+  "weight_g": 232,
+  "weight_description": "Manufacturer-listed: GS cage version; derailleur only.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-5600-2452/EV-RD-5600-2452A.pdf",
+    "title": "Shimano RD-5600 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=11",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 11: 105 5600 reference weights, including separate hub/skewer weights",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=92",
+      "title": "Shimano 2008–2009 specifications, PDF page 92",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 27,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22,
+    "rear_speeds": 10,
+    "cage": "GS"
+  }
+}

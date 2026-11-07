@@ -1,0 +1,24 @@
+{
+  "id": "shimano-105-5800",
+  "slug": "105-5800",
+  "name": "105",
+  "manufacturer_id": "shimano",
+  "model_number": "5800",
+  "year_range": {
+    "start": 2014,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=30",
+      "title": "Shimano 100 Products History: SHIMANO 105; original series and 1982–2018 generations",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=125",
+      "title": "Shimano 2014–2015 specifications, PDF page 125",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "generation": "Eleven-speed mechanical"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-5500-gs",
+  "slug": "rd-5500-gs",
+  "name": "105 nine-speed GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5500"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-5500-GS",
+  "weight_g": 232,
+  "weight_description": "Manufacturer-listed: GS cage version; derailleur only.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-5500-1736/EV-RD-5500-1736.pdf",
+    "title": "Shimano RD-5500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/32-33.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 32–33: 105 5500 reference configurations and weights (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5TK0D/SI-5TK0D-000-ENG.pdf",
+      "title": "Shimano RD-5500 service instructions SI-5TK0D: SS and GS limits",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 27,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22,
+    "rear_speeds": 9,
+    "cage": "GS"
+  }
+}

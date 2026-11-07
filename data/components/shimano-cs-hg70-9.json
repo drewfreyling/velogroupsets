@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-hg70-9",
+  "slug": "cs-hg70-9",
+  "name": "105 nine-speed cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5500"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG70-9",
+  "weight_g": 236,
+  "weight_description": "Manufacturer-listed: 12–23T nine-speed cassette; excludes freehub.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-HG70-9-1746/EV-CS-HG70-9-1746A.pdf",
+    "title": "Shimano CS-HG70-9 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/32-33.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 32–33: 105 5500 reference configurations and weights (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "12–23T"
+  }
+}

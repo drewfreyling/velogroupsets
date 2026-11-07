@@ -1,0 +1,35 @@
+{
+  "id": "shimano-cs-r7101-12",
+  "slug": "cs-r7101-12",
+  "name": "105 twelve-speed cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7100",
+    "shimano-105-di2-r7100"
+  ],
+  "type": "cassette",
+  "model_number": "CS-R7101-12",
+  "weight_g": 361,
+  "weight_description": "Manufacturer average: 11–34T twelve-speed cassette; excludes freehub. This is the R7101 revision, not the earlier R7100 cassette.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=173",
+    "title": "Shimano 2025–2026 specifications, PDF page 173",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=173",
+      "title": "Shimano 2025–2026 specifications, PDF page 173",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: 105 mechanical and Di2 components",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_range": "11–34T"
+  }
+}

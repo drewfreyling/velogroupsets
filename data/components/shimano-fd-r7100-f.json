@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-r7100-f",
+  "slug": "fd-r7100-f",
+  "name": "105 twelve-speed mechanical front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7100"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R7100-F",
+  "weight_g": 96,
+  "weight_description": "Manufacturer average: braze-on version for a twelve-speed mechanical double chainset.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=161",
+    "title": "Shimano 2025–2026 specifications, PDF page 161",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=161",
+      "title": "Shimano 2025–2026 specifications, PDF page 161",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: 105 mechanical and Di2 components",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "mount": "Braze-on",
+    "shifting": "Mechanical"
+  }
+}

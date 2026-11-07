@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fh-1055",
+  "slug": "fh-1055",
+  "name": "105 SC seven-speed rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-1055",
+  "weight_g": null,
+  "weight_description": "Seven-speed quick-release freehub, 126 mm over locknuts. The catalogue’s 415 g includes the quick release, so a weight without it remains unsourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-1055-1093/EV-FH-1055-1093A.pdf",
+    "title": "Shimano FH-1055 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 24; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "over_locknut_dimension_mm": 126
+  },
+  "weight_excludes_skewers": true
+}

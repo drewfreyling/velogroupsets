@@ -1,0 +1,28 @@
+{
+  "id": "shimano-pd-1050",
+  "slug": "pd-1050",
+  "name": "105 platform pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "pedals",
+  "model_number": "PD-1050",
+  "weight_g": 280,
+  "weight_description": "Manufacturer-listed: pedal pair; excludes the separately listed 46 g pair of size-L toe clips.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-1050-0760/EV-PD-1050-0760D.pdf",
+    "title": "Shimano PD-1050 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_23.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 23 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair, without toe clips"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "shimano-105-sc-1055",
+  "slug": "105-sc-1055",
+  "name": "105 SC",
+  "manufacturer_id": "shimano",
+  "model_number": "1055",
+  "year_range": {
+    "start": 1989,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=30",
+      "title": "Shimano 100 Products History: SHIMANO 105; original series and 1982–2018 generations",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 24; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/39-40.htm",
+      "title": "Shimano 1993 catalogue, pages 39–40: 105 SC eight-speed update (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "generation": "Seven-speed 1055 and eight-speed 1056 family"
+}

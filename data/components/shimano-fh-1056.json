@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fh-1056",
+  "slug": "fh-1056",
+  "name": "105 SC eight-speed rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-1056",
+  "weight_g": null,
+  "weight_description": "Eight-speed quick-release freehub. The 1993 catalogue’s 427 g includes the quick release; a hub-only weight remains unsourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-1056-8-1295/EV-FH-1056-8-1295A.pdf",
+    "title": "Shimano FH-1056 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/39-40.htm",
+      "title": "Shimano 1993 catalogue, pages 39–40: 105 SC eight-speed update (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8
+  },
+  "weight_excludes_skewers": true
+}

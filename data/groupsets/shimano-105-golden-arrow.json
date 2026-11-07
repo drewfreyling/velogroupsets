@@ -1,0 +1,28 @@
+{
+  "id": "shimano-105-golden-arrow",
+  "slug": "105-golden-arrow",
+  "name": "105 Golden Arrow",
+  "manufacturer_id": "shimano",
+  "model_number": "A105",
+  "year_range": {
+    "start": 1982,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=30",
+      "title": "Shimano 100 Products History: SHIMANO 105; original series and 1982–2018 generations",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_8.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 8 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_29.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 29 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

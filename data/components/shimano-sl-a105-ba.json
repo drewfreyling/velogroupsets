@@ -1,0 +1,29 @@
+{
+  "id": "shimano-sl-a105-ba",
+  "slug": "sl-a105-ba",
+  "name": "105 Golden Arrow band-mounted downtube levers",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-golden-arrow"
+  ],
+  "type": "shifters",
+  "model_number": "SL-A105-BA",
+  "weight_g": 63,
+  "weight_description": "Manufacturer-listed: Band A downtube lever set, 28.6 mm clamp; friction shifting.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-A105-0540/EV-SL-A105-0540C.pdf",
+    "title": "Shimano SL-A105 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_55.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 55 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "shifting": "Friction",
+    "mount": "Band A, 28.6 mm"
+  }
+}

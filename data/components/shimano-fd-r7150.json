@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-r7150",
+  "slug": "fd-r7150",
+  "name": "105 twelve-speed Di2 front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-di2-r7100"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R7150",
+  "weight_g": 142,
+  "weight_description": "Manufacturer average: braze-on Di2 derailleur for a twelve-speed double chainset; excludes optional clamp adapter.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=130",
+    "title": "Shimano 2025–2026 specifications, PDF page 130",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=130",
+      "title": "Shimano 2025–2026 specifications, PDF page 130",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: 105 mechanical and Di2 components",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "mount": "Braze-on",
+    "shifting": "Electronic Di2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fh-1050-6",
+  "slug": "fh-1050-6",
+  "name": "105 six-speed rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-1050-6",
+  "weight_g": null,
+  "weight_description": "Six-speed Uniglide freehub, 126 mm over locknuts. The catalogue’s 415 g reference does not establish skewer exclusion; a hub-only weight remains unsourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-1050-6-0768/EV-FH-1050-6-0768C.pdf",
+    "title": "Shimano FH-1050 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_23.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 23 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 6,
+    "over_locknut_dimension_mm": 126
+  },
+  "weight_excludes_skewers": true
+}

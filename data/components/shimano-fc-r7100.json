@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-r7100",
+  "slug": "fc-r7100",
+  "name": "105 twelve-speed crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7100",
+    "shimano-105-di2-r7100"
+  ],
+  "type": "crankset",
+  "model_number": "FC-R7100",
+  "weight_g": 754,
+  "weight_description": "Manufacturer average: 170 mm arms, 50/34T chainrings; excludes bottom bracket.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=165",
+    "title": "Shimano 2025–2026 specifications, PDF page 165",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=165",
+      "title": "Shimano 2025–2026 specifications, PDF page 165",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: 105 mechanical and Di2 components",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      34
+    ],
+    "rear_speeds": 12,
+    "includes_bottom_bracket": false
+  }
+}

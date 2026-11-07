@@ -1,0 +1,30 @@
+{
+  "id": "shimano-st-5703",
+  "slug": "st-5703",
+  "name": "105 triple Dual Control levers",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5700"
+  ],
+  "type": "shifters",
+  "model_number": "ST-5703",
+  "weight_g": 507,
+  "weight_description": "Manufacturer average: pair of ten-speed shift/brake levers for a triple chainset.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=108",
+    "title": "Shimano 2014–2015 specifications, PDF page 108",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=108",
+      "title": "Shimano 2014–2015 specifications, PDF page 108",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "front_speeds": 3,
+    "weight_basis": "Pair"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-1056",
+  "slug": "rd-1056",
+  "name": "105 SC eight-speed rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-1056",
+  "weight_g": 251,
+  "weight_description": "Published measured reference: RD-1056, eight-speed, painted champagne finish; source does not identify a separate cage code.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-1056-1282/EV-RD-1056-1282B.pdf",
+    "title": "Shimano RD-1056 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sheldonbrown.com/rinard/weights.htm",
+      "title": "Damon Rinard, Component Weights: eight-speed RD-1056 measured at 251 g, painted champagne",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/53Y0B/SI-53Y0B-000-00-ENG.pdf",
+      "title": "Shimano RD-1056 service instructions SI-53Y0B: capacity limits",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 13,
+    "rear_speeds": 8,
+    "capacity_notes": "Service instructions specify these limits with the B-tension adjustment bolt fully tightened."
+  }
+}

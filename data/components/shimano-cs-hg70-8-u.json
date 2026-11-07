@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-hg70-8-u",
+  "slug": "cs-hg70-8-u",
+  "name": "105 SC eight-speed cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG70-8",
+  "weight_g": 278,
+  "weight_description": "Manufacturer-listed: U-group eight-speed sprockets and spacers; excludes freehub.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-7401_HG90_HG70-8U-1141/EV-CS-7401_HG90_HG70-8U-1141B.pdf",
+    "title": "Shimano CS-HG70-8 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/39-40.htm",
+      "title": "Shimano 1993 catalogue, pages 39–40: 105 SC eight-speed update (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "sprocket_group": "U"
+  }
+}

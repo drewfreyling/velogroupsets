@@ -1,0 +1,32 @@
+{
+  "id": "shimano-rd-1055",
+  "slug": "rd-1055",
+  "name": "105 SC seven-speed rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-1055",
+  "weight_g": 247,
+  "weight_description": "Manufacturer-listed: original 105 SC double-chainset rear derailleur; derailleur only.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-1055-1024/EV-RD-1055-1024B.pdf",
+    "title": "Shimano RD-1055 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 24; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 13,
+    "rear_speeds": 7
+  }
+}

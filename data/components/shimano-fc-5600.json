@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fc-5600",
+  "slug": "fc-5600",
+  "name": "105 ten-speed double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5600"
+  ],
+  "type": "crankset",
+  "model_number": "FC-5600",
+  "weight_g": 836,
+  "weight_description": "Manufacturer-listed: 170 mm arms, 52/39T chainrings, including integrated bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-5600-2439/EV-FC-5600-2439C.pdf",
+    "title": "Shimano FC-5600 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=11",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 11: 105 5600 reference weights, including separate hub/skewer weights",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      39
+    ],
+    "rear_speeds": 10,
+    "includes_bottom_bracket": true
+  }
+}

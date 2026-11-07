@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-5500-f",
+  "slug": "fd-5500-f",
+  "name": "105 nine-speed double front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5500"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-5500-F",
+  "weight_g": 84,
+  "weight_description": "Manufacturer-listed: braze-on version for a double chainset.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-5500-1737/EV-FD-5500-1737B.pdf",
+    "title": "Shimano FD-5500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/32-33.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 32–33: 105 5500 reference configurations and weights (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 9,
+    "mount": "Braze-on"
+  }
+}

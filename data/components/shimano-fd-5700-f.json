@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-5700-f",
+  "slug": "fd-5700-f",
+  "name": "105 double front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5700"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-5700-F",
+  "weight_g": 89,
+  "weight_description": "Manufacturer average: braze-on version for a double chainset.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=123",
+    "title": "Shimano 2014–2015 specifications, PDF page 123",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=123",
+      "title": "Shimano 2014–2015 specifications, PDF page 123",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "front_speeds": 2,
+    "mount": "Braze-on"
+  }
+}

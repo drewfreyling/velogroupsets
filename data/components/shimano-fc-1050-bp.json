@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fc-1050-bp",
+  "slug": "fc-1050-bp",
+  "name": "105 Biopace double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "crankset",
+  "model_number": "FC-1050-BP",
+  "weight_g": 664,
+  "weight_description": "Manufacturer-listed: 170 mm arms, 52/42T Biopace chainrings; excludes the separately listed bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-1050_BB-1050-0757/EV-FC-1050_BB-1050-0757B.pdf",
+    "title": "Shimano FC-1050 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_22.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 22 (manufacturer catalogue archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      42
+    ],
+    "chainring_shape": "Biopace"
+  }
+}
