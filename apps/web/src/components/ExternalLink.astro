@@ -1,0 +1,8 @@
+---
+const { href, class: className, 'aria-label': label, ...attributes } = Astro.props;
+---
+<a {...attributes} href={href} class={className} target="_blank" rel="noopener noreferrer" aria-label={label ? `${label} (opens in new tab)` : undefined}>
+  <slot />
+  <svg class="ml-1 inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg>
+  <span class="sr-only"> (opens in new tab)</span>
+</a>

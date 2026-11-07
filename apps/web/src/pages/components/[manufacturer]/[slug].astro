@@ -1,4 +1,5 @@
 ---
+import ExternalLink from '../../../components/ExternalLink.astro';
 import Layout from '../../../layouts/Layout.astro';
 import Sources from '../../../components/Sources.astro';
 import { components, manufacturerFor, manufacturerUrl, groupsFor, groupsetUrl, groupsetName, typeName } from '../../../lib/catalogue.mjs';
@@ -34,7 +35,7 @@ const format = value => value == null ? 'Not documented' : Array.isArray(value) 
             <dt class="text-sm text-muted">Weight</dt>
             <dd><span class="font-semibold">{component.weight_g} g</span><p class="mt-2 text-sm leading-6 text-muted">{component.weight_description}</p>{component.weight_excludes_skewers && <p class="mt-2 text-sm font-semibold">Excludes skewers.</p>}</dd>
           </div>
-          <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">Technical specification</dt><dd><a class="text-link" href={component.technical_document.url}>Read {manufacturer.name} technical specification</a><p class="mt-2 text-sm leading-6 text-muted">{component.technical_document.title}</p></dd></div>
+          <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">Technical specification</dt><dd><ExternalLink class="text-link" href={component.technical_document.url}>Read {manufacturer.name} technical specification</ExternalLink><p class="mt-2 text-sm leading-6 text-muted">{component.technical_document.title}</p></dd></div>
           <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">Groupset membership</dt><dd class="space-y-2">{groups.map(g => <p><a class="text-link" href={groupsetUrl(g)}>{groupsetName(g)}</a></p>)}</dd></div>
           {Object.entries(component.specifications || {}).map(([key, value]) => <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">{key.replaceAll('_', ' ')}</dt><dd>{format(value)}</dd></div>)}
         </dl>
@@ -43,7 +44,7 @@ const format = value => value == null ? 'Not documented' : Array.isArray(value) 
       <aside class="panel self-start p-7">
         <h2 class="text-2xl">Component photos and comments</h2>
         <p class="mt-4 text-sm leading-7 text-muted">Photo uploads and comments are not available yet. Corrections to component specifications can be submitted through GitHub.</p>
-        <a class="text-link mt-6 inline-block text-sm" href={`https://github.com/drewfreyling/velogroupsets/edit/main/data/components/${component.id}.json`}>Edit this component on GitHub</a>
+        <ExternalLink class="text-link mt-6 inline-block text-sm" href={`https://github.com/drewfreyling/velogroupsets/edit/main/data/components/${component.id}.json`}>Edit this component on GitHub</ExternalLink>
       </aside>
     </div>
   </div>

@@ -81,3 +81,27 @@ test('CSP permits the Cloudflare beacon and reporting, and blocks other script o
   expect(untrusted).toBe(false);
   expect(await page.evaluate(() => window.__untrustedLoaded)).toBeUndefined();
 });
+
+test('external links announce and open a new tab; internal navigation stays in the page', async ({page, context}) => {
+  await context.route('https://github.com/**', route => route.fulfill({
+    contentType:'text/html', body:'<title>GitHub contribution guide</title><p>Contribution guide</p>',
+  }));
+  await page.goto('/components/shimano/rd-r7000-gs/');
+  const external = page.locator('a[href^="https://"]');
+  for (const link of await external.all()) {
+    await expect(link).toHaveAttribute('target', '_blank');
+    await expect(link).toHaveAttribute('rel', /noopener/);
+    await expect(link).toHaveAccessibleName(/\(opens in new tab\)$/);
+  }
+  const guide = page.getByRole('link', {name:'Contribution guide (opens in new tab)',exact:true});
+  const popupPromise = page.waitForEvent('popup');
+  await guide.click();
+  const popup = await popupPromise;
+  await popup.waitForLoadState();
+  await expect(popup).toHaveTitle('GitHub contribution guide');
+  await expect(page).toHaveURL(/\/components\/shimano\/rd-r7000-gs\/$/);
+  await popup.close();
+  await page.getByRole('navigation', {name:'Main navigation'}).getByRole('link', {name:'Catalogue',exact:true}).click();
+  await expect(page).toHaveURL(/\/catalogue\/$/);
+  expect(context.pages()).toHaveLength(1);
+});
