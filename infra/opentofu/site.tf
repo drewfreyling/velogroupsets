@@ -6,11 +6,12 @@ resource "cloudflare_workers_custom_domain" "site" {
   hostname   = var.site_hostname
   service    = "velogroupsets-${var.environment}"
   zone_id    = var.zone_id
+  zone_name  = var.zone_id == null ? var.site_zone_name : null
 
   lifecycle {
     precondition {
-      condition     = var.zone_id != null
-      error_message = "The website custom domain requires the existing Cloudflare zone ID."
+      condition     = var.zone_id != null || var.site_zone_name != null
+      error_message = "The website custom domain requires the existing Cloudflare zone ID or name."
     }
   }
 }

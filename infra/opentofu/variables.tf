@@ -46,7 +46,7 @@ variable "photos_hostname" {
   }
 }
 variable "zone_id" {
-  description = "Existing zone ID, required when enabling website or photo custom domains."
+  description = "Existing zone ID; required for public photos and an alternative to site_zone_name for the website."
   type        = string
   default     = null
   validation {
@@ -58,4 +58,13 @@ variable "enable_site_domain" {
   description = "Attach the site hostname after Wrangler has created this environment's Worker."
   type        = bool
   default     = false
+}
+variable "site_zone_name" {
+  description = "Existing website zone name; use this or zone_id for the Worker custom domain."
+  type        = string
+  default     = null
+  validation {
+    condition     = var.site_zone_name == null ? true : can(regex("^([a-z0-9]([a-z0-9-]*[a-z0-9])?\\.)+[a-z]{2,}$", var.site_zone_name))
+    error_message = "site_zone_name must be a lowercase DNS zone name."
+  }
 }

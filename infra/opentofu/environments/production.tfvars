@@ -3,3 +3,4 @@ environment          = "production"
 site_hostname        = "velogroupsets.com"
 photos_hostname      = "images.velogroupsets.com"
 enable_public_photos = false
+site_zone_name       = "velogroupsets.com"

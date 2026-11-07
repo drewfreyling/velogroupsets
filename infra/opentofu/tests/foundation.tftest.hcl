@@ -71,7 +71,7 @@ run "site_domain_targets_environment_worker" {
   command = plan
   variables {
     enable_site_domain = true
-    zone_id            = "0123456789abcdef0123456789abcdef"
+    site_zone_name     = "example.com"
   }
   assert {
     condition     = cloudflare_workers_custom_domain.site[0].hostname == "staging.example.com" && cloudflare_workers_custom_domain.site[0].service == "velogroupsets-staging"

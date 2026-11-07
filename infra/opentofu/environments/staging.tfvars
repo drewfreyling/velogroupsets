@@ -3,3 +3,4 @@ environment          = "staging"
 site_hostname        = "staging.velogroupsets.com"
 photos_hostname      = "images.staging.velogroupsets.com"
 enable_public_photos = false
+site_zone_name       = "velogroupsets.com"
