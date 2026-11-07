@@ -2,6 +2,6 @@
 const { sources } = Astro.props;
 ---
 <section class="mt-10 border-t border-line pt-7" aria-label="Sources">
-  <h2 class="eyebrow mb-4">Source references</h2>
-  <ul class="space-y-3 text-sm">{sources.map(s => <li><a class="text-link" href={s.url}>{s.title} <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>{s.retrieved_on && <span class="ml-3 text-muted">Checked {s.retrieved_on}</span>}</li>)}</ul>
+  <h2 class="eyebrow mb-4">Sources</h2>
+  <ul class="space-y-3 text-sm">{sources.map(s => <li><a class="text-link" href={s.url}>{s.title} <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>{s.retrieved_on && <span class="ml-3 text-muted">Accessed {s.retrieved_on}</span>}</li>)}</ul>
 </section>

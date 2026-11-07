@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-const { title = 'An open reference for bicycle components', description = 'Explore bicycle manufacturers, groupsets and components. Sourced specifications, built in the open.', noindex = false } = Astro.props;
+const { title = 'Bicycle groupset and component specifications', description = 'Specifications for bicycle groupsets and components, each linked to its source.', noindex = false } = Astro.props;
 const staging = import.meta.env.SITE.includes('staging.') || import.meta.env.SITE.includes('localhost');
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -26,15 +26,15 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <nav aria-label="Main navigation" class="flex items-center gap-5 text-sm sm:gap-8">
           <a href="/manufacturers/" class="hover:underline">Manufacturers</a>
           <a href="/catalogue/" class="hover:underline">Catalogue</a>
-          <a href="https://github.com/drewfreyling/velogroupsets" class="hidden items-center gap-2 font-semibold sm:flex">Contribute <span aria-hidden="true"><svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+          <a href="https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md" class="hidden items-center gap-2 font-semibold sm:flex">Add a missing part <span aria-hidden="true"><svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
         </nav>
       </div>
     </header>
     <main id="main" class="flex-1"><slot /></main>
     <footer class="mt-20 border-t border-line py-8">
       <div class="wrap flex flex-col justify-between gap-5 text-sm text-muted sm:flex-row">
-        <p>An independent, open-source bicycle reference.</p>
-        <div class="flex gap-6"><a class="text-link" href="https://github.com/drewfreyling/velogroupsets">GitHub <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a class="text-link" href="https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md">Data &amp; sources <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
+        <p>An independent catalogue of bicycle groupsets and components.</p>
+        <div class="flex gap-6"><a class="text-link" href="https://github.com/drewfreyling/velogroupsets">Source code on GitHub <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a class="text-link" href="https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md">Contribution guide <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
       </div>
     </footer>
   </body>

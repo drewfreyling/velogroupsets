@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('browse manufacturer → groupset → component with sources', async ({page}) => {
   await page.goto('/');
-  await page.getByRole('link', {name:'Browse manufacturers',exact:true}).click();
+  await page.getByRole('link', {name:'See manufacturers',exact:true}).click();
   await page.getByRole('link', {name:/Shimano/}).click();
   await page.getByRole('link', {name:/105/}).click();
   await expect(page.getByText('2018 – end year not documented', {exact:true})).toBeVisible();
@@ -11,9 +11,9 @@ test('browse manufacturer → groupset → component with sources', async ({page
   await expect(page.getByRole('heading', {name:'105 crankset',exact:true})).toBeVisible();
   await expect(page.getByText('713.4 g', {exact:true})).toBeVisible();
   await expect(page.getByText('Manufacturer average: 50–34T chainrings, 170 mm crank arms; excludes bottom bracket.', {exact:true})).toBeVisible();
-  await expect(page.getByRole('link', {name:'Manufacturer technical specification'})).toHaveAttribute('href', 'https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=176');
+  await expect(page.getByRole('link', {name:'Read Shimano technical specification'})).toHaveAttribute('href', 'https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=176');
   await expect(page.getByRole('link', {name:/Shimano FC-R7000 product reference/})).toHaveAttribute('href', /bike.shimano.com/);
-  await expect(page.getByText('Uploads and sign-in are not available yet.',{exact:false})).toBeVisible();
+  await expect(page.getByText('Photo uploads and comments are not available yet.',{exact:false})).toBeVisible();
 });
 
 test('search, URL filters, empty state and reset work at mobile width', async ({page}) => {

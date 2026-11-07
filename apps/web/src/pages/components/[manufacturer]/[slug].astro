@@ -34,17 +34,17 @@ const format = value => value == null ? 'Not documented' : Array.isArray(value) 
             <dt class="text-muted">Weight</dt>
             <dd><span class="font-semibold">{component.weight_g} g</span><p class="mt-2 text-sm leading-6 text-muted">{component.weight_description}</p>{component.weight_excludes_skewers && <p class="mt-2 text-sm font-semibold">Excludes skewers.</p>}</dd>
           </div>
-          <div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">Technical specification</dt><dd><a class="text-link" href={component.technical_document.url}>Manufacturer technical specification</a><p class="mt-2 text-sm leading-6 text-muted">{component.technical_document.title}</p></dd></div>
+          <div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">Technical specification</dt><dd><a class="text-link" href={component.technical_document.url}>Read {manufacturer.name} technical specification</a><p class="mt-2 text-sm leading-6 text-muted">{component.technical_document.title}</p></dd></div>
           <div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">Groupset membership</dt><dd class="space-y-2">{groups.map(g => <p><a class="text-link" href={groupsetUrl(g)}>{g.name} {g.model_number}</a></p>)}</dd></div>
           {Object.entries(component.specifications || {}).map(([key, value]) => <div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">{key.replaceAll('_', ' ')}</dt><dd>{format(value)}</dd></div>)}
         </dl>
         <Sources sources={component.sources}/>
       </div>
       <aside class="panel self-start p-7">
-        <p class="eyebrow mb-4">Community reference</p>
-        <h2 class="text-2xl">More perspectives,<br/>better identification.</h2>
-        <p class="mt-4 text-sm leading-7 text-muted">Community photos and photo comments are planned. Uploads and sign-in are not available yet.</p>
-        <a class="text-link mt-6 inline-block text-sm" href={`https://github.com/drewfreyling/velogroupsets/blob/main/data/components/${component.id}.json`}>Improve this record</a>
+        <p class="eyebrow mb-4">Photos and corrections</p>
+        <h2 class="text-2xl">Component photos and comments</h2>
+        <p class="mt-4 text-sm leading-7 text-muted">Photo uploads and comments are not available yet. Corrections to component specifications can be submitted through GitHub.</p>
+        <a class="text-link mt-6 inline-block text-sm" href={`https://github.com/drewfreyling/velogroupsets/edit/main/data/components/${component.id}.json`}>Edit this component on GitHub</a>
         <p class="mt-6 break-all font-mono text-[10px] text-muted">Reference ID: {component.id}</p>
       </aside>
     </div>
