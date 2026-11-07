@@ -12,14 +12,26 @@
       "url": "https://bike.shimano.com/en-AU/products/components/pdp.P-RD-R7000-GS.html",
       "title": "Shimano RD-R7000-GS product reference",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=167",
+      "title": "Shimano 2022–2023 specifications: RD-R7000-GS (PDF page 167)",
+      "retrieved_on": "2026-11-07"
     }
   ],
   "model_number": "RD-R7000-GS",
   "weight_g": 232,
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=167",
-    "title": "Shimano 2022\u20132023 specifications: RD-R7000-GS (PDF page 167)",
+    "title": "Shimano 2022–2023 specifications: RD-R7000-GS (PDF page 167)",
     "retrieved_on": "2026-11-07"
   },
-  "weight_description": "Manufacturer average for the GS medium-cage model."
+  "weight_description": "Manufacturer average for the GS medium-cage model.",
+  "specifications": {
+    "cage": "GS",
+    "total_capacity_teeth": 39,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16
+  }
 }

@@ -1,0 +1,35 @@
+---
+const explanation = 'SS: short cage. GS: medium cage (sometimes called long). LS/SGS: long cage. A longer cage generally takes up more chain. Names vary by manufacturer; check the model’s published capacity and sprocket limits.';
+---
+<span class="ml-2 inline-block align-middle" data-cage-help>
+  <button type="button" hidden aria-label="Explain rear derailleur cage codes" aria-describedby="rear-derailleur-cage-help" class="rounded border border-line px-2 py-1 text-sm text-link no-underline">?</button>
+  <span id="rear-derailleur-cage-help" role="tooltip" hidden class="absolute left-0 top-full z-20 w-64 max-w-full rounded border border-line bg-surface p-4 text-sm leading-6 text-ink shadow-lg">{explanation}</span>
+  <noscript><span class="block text-sm leading-6 text-muted">{explanation}</span></noscript>
+</span>
+
+<script>
+  const help = document.querySelector<HTMLElement>('[data-cage-help]');
+  const button = help?.querySelector('button');
+  const tooltip = help?.querySelector<HTMLElement>('[role="tooltip"]');
+  if (help && button && tooltip) {
+    button.hidden = false;
+    let hideTimer: ReturnType<typeof setTimeout>;
+    let hovering = false;
+    const show = () => { clearTimeout(hideTimer); tooltip.hidden = false; };
+    const hide = () => { clearTimeout(hideTimer); tooltip.hidden = true; };
+    help.addEventListener('pointerenter', event => {
+      if (event.pointerType !== 'touch') { hovering = true; show(); }
+    });
+    help.addEventListener('pointerleave', () => {
+      hovering = false;
+      hideTimer = setTimeout(() => { if (document.activeElement !== button) hide(); }, 150);
+    });
+    button.addEventListener('focus', show);
+    button.addEventListener('blur', () => { if (!hovering) hide(); });
+    button.addEventListener('click', show);
+    document.addEventListener('keydown', event => { if (event.key === 'Escape') hide(); });
+    document.addEventListener('pointerdown', event => {
+      if (event.target instanceof Node && !help.contains(event.target)) hide();
+    });
+  }
+</script>

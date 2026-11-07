@@ -11,8 +11,8 @@
   "weight_g": 215,
   "weight_description": "Manufacturer-listed: RD-6401 eight-speed SIS rear derailleur in the 1993 catalogue.",
   "technical_document": {
-    "url": "https://si.shimano.com/en/pdfs/ev/RD-6401-1222/EV-RD-6401-1222.pdf",
-    "title": "Shimano RD-6401 exploded view and replacement parts",
+    "url": "https://si.shimano.com/en/pdfs/si/U-107/SI-U-107-000-00-ENG.pdf",
+    "title": "Shimano RD-6401 service instructions SI-U-107: capacity and sprocket limits",
     "retrieved_on": "2026-11-07"
   },
   "sources": [
@@ -20,9 +20,18 @@
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/37-38.htm",
       "title": "Shimano 1993 catalogue, pages 37–38: eight-speed 600 Ultegra update and weights (published September 1992; archived by Charlie Taylor)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/U-107/SI-U-107-000-00-ENG.pdf",
+      "title": "Shimano RD-6401 service instructions SI-U-107: capacity and sprocket limits",
+      "retrieved_on": "2026-11-07"
     }
   ],
   "specifications": {
-    "rear_speeds": 8
+    "rear_speeds": 8,
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 13
   }
 }

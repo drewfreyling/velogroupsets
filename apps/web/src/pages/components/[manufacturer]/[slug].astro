@@ -2,6 +2,7 @@
 import ExternalLink from '../../../components/ExternalLink.astro';
 import Layout from '../../../layouts/Layout.astro';
 import Sources from '../../../components/Sources.astro';
+import DerailleurCageHelp from '../../../components/DerailleurCageHelp.astro';
 import { components, manufacturerFor, manufacturerUrl, groupsFor, groupsetUrl, groupsetName, typeName } from '../../../lib/catalogue.mjs';
 export function getStaticPaths() {
   return components.map(component => ({
@@ -12,6 +13,14 @@ export function getStaticPaths() {
 const { component } = Astro.props;
 const manufacturer = manufacturerFor(component);
 const groups = groupsFor(component);
+const rearDerailleur = component.type === 'rear-derailleur';
+const limits = [
+  ['total_capacity_teeth', 'Total capacity'],
+  ['maximum_sprocket_teeth', 'Largest sprocket'],
+  ['minimum_sprocket_teeth', 'Smallest sprocket'],
+  ['maximum_front_difference_teeth', 'Front chainring tooth difference'],
+];
+const displayedKeys = new Set(rearDerailleur ? ['cage', ...limits.map(([key]) => key)] : []);
 const format = value => value == null ? 'Not documented' : Array.isArray(value) ? value.map(format).join(', ') : String(value);
 ---
 <Layout title={`${manufacturer.name} ${component.model_number} · ${component.name}`}>
@@ -35,9 +44,13 @@ const format = value => value == null ? 'Not documented' : Array.isArray(value) 
             <dt class="text-sm text-muted">Weight</dt>
             <dd><span class="font-semibold">{component.weight_g === null ? 'Not yet sourced' : `${component.weight_g} g`}</span><p class="mt-2 text-sm leading-6 text-muted">{component.weight_description}</p>{component.weight_excludes_skewers && <p class="mt-2 text-sm font-semibold">{component.weight_g === null ? 'Any weight added must exclude skewers.' : 'Excludes skewers.'}</p>}</dd>
           </div>
+          {rearDerailleur && <>
+            <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">Cage code</dt><dd class="relative">{component.specifications.cage || 'Not yet sourced'}<DerailleurCageHelp /></dd></div>
+            {limits.map(([key, label]) => <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">{label}</dt><dd>{component.specifications[key] == null ? 'Not yet sourced' : `${component.specifications[key]}T`}</dd></div>)}
+          </>}
           <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">Technical specification</dt><dd><ExternalLink class="text-link" href={component.technical_document.url}>Read {manufacturer.name} technical specification</ExternalLink><p class="mt-2 text-sm leading-6 text-muted">{component.technical_document.title}</p></dd></div>
           <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">Groupset membership</dt><dd class="space-y-2">{groups.map(g => <p><a class="text-link" href={groupsetUrl(g)}>{groupsetName(g)}</a></p>)}</dd></div>
-          {Object.entries(component.specifications || {}).map(([key, value]) => <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">{key.replaceAll('_', ' ')}</dt><dd>{format(value)}</dd></div>)}
+          {Object.entries(component.specifications || {}).filter(([key]) => !displayedKeys.has(key)).map(([key, value]) => <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">{key.replaceAll('_', ' ')}</dt><dd>{format(value)}</dd></div>)}
         </dl>
         <Sources sources={component.sources}/>
       </div>

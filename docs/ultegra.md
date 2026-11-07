@@ -66,3 +66,19 @@ See the [catalogue guide](catalogue.md) for IDs, variant membership, schema vali
 The [front-hub section of Damon Rinard’s Component Weights](https://sheldonbrown.com/rinard/weights.htm) explicitly excludes skewers unless a row says otherwise. Its HB-6500 entry reports **136 g and 138 g**, with no inclusion exception. The catalogue uses the first published observation, **136 g**, as its reference and discloses both values in the weight description; it does not compute an average or describe the value as a Shimano specification. Spoke count is not supplied, so this weight is not assigned to a particular hole count. The manufacturer’s older 198 g listing is not used as a skewer-free weight.
 
 [Shimano’s HB-6500 drawing](https://si.shimano.com/en/pdfs/ev/HB-6500-1678/EV-HB-6500-1678.pdf) supplies the manufacturer-hosted technical document. The 1998 manufacturer catalogue establishes membership in Ultegra 6500. These sources serve different purposes: the measurement list supplies the weight and the manufacturer material supplies identity and membership.
+
+## Rear derailleur limits
+
+Rear derailleur records distinguish total chain take-up capacity, largest rear sprocket, smallest rear sprocket and maximum front chainring tooth difference. All four values are in teeth. These are individual limits; a drivetrain must also remain within total capacity, so the largest permitted front difference and rear range cannot always be combined.
+
+| Models | Total capacity | Largest sprocket | Smallest sprocket | Front difference | Source |
+| --- | --- | --- | --- | --- | --- |
+| RD-6400 | 28T | 28T | 12T | 13T | [1990 dealer manual, page 20](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html) |
+| RD-6401 | 28T | 28T | 12T | 13T | [Shimano SI-U-107](https://si.shimano.com/en/pdfs/si/U-107/SI-U-107-000-00-ENG.pdf); limits stated with the B-tension adjustment bolt fully tightened |
+| RD-6500-SS | 29T | 28T | 11T | 14T | [Shimano SI-53Z0D](https://si.shimano.com/en/pdfs/si/53Z0D/SI-53Z0D-000-00-ENG.pdf) |
+| RD-6600 / RD-6600-G, SS | 29T | 27T | 11T | 16T | [2008–2009 specifications, PDF page 92](https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=92) |
+| RD-6600 / RD-6600-G, GS | 37T | 27T | 11T | 22T | Same 2008–2009 table |
+| RD-6700, SS | 33T | 28T | 11T | 16T | [2010–2011 specifications, PDF page 78](https://productinfo.shimano.com/pdfs/product/archive/2011_SPECIFICATION.pdf#page=78) |
+| RD-6700, GS | 39T | 28T | 11T | 22T | Same 2010–2011 table |
+
+The selected later specification tables replace the older technical-document links for 6600 and 6700. The 2005 table differs for 6600, and the 2010 table lists a 14T front difference for 6700 SS; the selected 2011 table lists 16T. Record the publication used rather than silently mixing editions. The existing reference weights retain their separately identified sources.

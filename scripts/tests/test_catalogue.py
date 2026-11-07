@@ -22,6 +22,44 @@ def fixture():
 
 
 class CatalogueTests(unittest.TestCase):
+    def rear_derailleur_fixture(self):
+        data = fixture()
+        data['components'][0].update(type='rear-derailleur', specifications={
+            'total_capacity_teeth': 29, 'maximum_sprocket_teeth': 27,
+            'minimum_sprocket_teeth': 11, 'maximum_front_difference_teeth': 16,
+        })
+        return data
+
+    def test_rear_derailleurs_require_all_four_limits(self):
+        for field in self.rear_derailleur_fixture()['components'][0]['specifications']:
+            data = self.rear_derailleur_fixture()
+            del data['components'][0]['specifications'][field]
+            with self.subTest(field=field):
+                self.assertTrue(validate_catalogue(data))
+        data = self.rear_derailleur_fixture()
+        del data['components'][0]['specifications']
+        self.assertTrue(validate_catalogue(data))
+
+    def test_rear_derailleur_limits_are_integer_teeth_or_explicit_unknown(self):
+        for field in self.rear_derailleur_fixture()['components'][0]['specifications']:
+            for value in (-1, 12.5, '28T', True, [28]):
+                data = self.rear_derailleur_fixture()
+                data['components'][0]['specifications'][field] = value
+                with self.subTest(field=field, value=value):
+                    self.assertTrue(validate_catalogue(data))
+            data = self.rear_derailleur_fixture()
+            data['components'][0]['specifications'][field] = None
+            self.assertEqual(validate_catalogue(data), [])
+            data['components'][0]['specifications'][field] = 0
+            self.assertEqual(bool(validate_catalogue(data)), field != 'maximum_front_difference_teeth')
+
+    def test_rear_derailleur_sprocket_bounds_and_independent_maxima(self):
+        data = self.rear_derailleur_fixture()
+        # Published individual limits need not be usable simultaneously.
+        self.assertEqual(validate_catalogue(data), [])
+        data['components'][0]['specifications']['minimum_sprocket_teeth'] = 30
+        self.assertTrue(any('smallest sprocket' in error for error in validate_catalogue(data)))
+
     def test_component_can_be_shared_by_two_groupsets_without_duplication(self):
         data = fixture()
         second = deepcopy(data["groupsets"][0])

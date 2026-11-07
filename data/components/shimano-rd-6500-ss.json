@@ -11,8 +11,8 @@
   "weight_g": 215,
   "weight_description": "Manufacturer-listed: SS short-cage version for a double chainset; excludes GS triple-chainset version.",
   "technical_document": {
-    "url": "https://si.shimano.com/en/pdfs/ev/RD-6500-1688/EV-RD-6500-1688.pdf",
-    "title": "Shimano RD-6500 exploded view and replacement parts",
+    "url": "https://si.shimano.com/en/pdfs/si/53Z0D/SI-53Z0D-000-00-ENG.pdf",
+    "title": "Shimano RD-6500 service instructions SI-53Z0D: SS and GS capacity and sprocket limits",
     "retrieved_on": "2026-11-07"
   },
   "sources": [
@@ -20,10 +20,19 @@
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
       "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/53Z0D/SI-53Z0D-000-00-ENG.pdf",
+      "title": "Shimano RD-6500 service instructions SI-53Z0D: SS and GS capacity and sprocket limits",
+      "retrieved_on": "2026-11-07"
     }
   ],
   "specifications": {
     "rear_speeds": 9,
-    "cage": "SS"
+    "cage": "SS",
+    "total_capacity_teeth": 29,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 14
   }
 }

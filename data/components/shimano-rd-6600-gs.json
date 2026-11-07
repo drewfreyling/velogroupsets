@@ -11,8 +11,8 @@
   "weight_g": 219,
   "weight_description": "Manufacturer-listed: GS cage version; derailleur only.",
   "technical_document": {
-    "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_SPECIFICATION.pdf#page=98",
-    "title": "Shimano 2004–2005 specifications: RD-6600 (PDF page 98)",
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=92",
+    "title": "Shimano 2008–2009 specifications, PDF page 92: RD-6600 and RD-6600-G capacity and sprocket limits",
     "retrieved_on": "2026-11-07"
   },
   "sources": [
@@ -20,10 +20,19 @@
       "url": "https://www.scribd.com/document/901569279/Shimano-Consumer-2007",
       "title": "Shimano 2007 Road & Sport consumer catalogue, printed page 32: Ultegra 6600 specifications and weights (archived scan)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=92",
+      "title": "Shimano 2008–2009 specifications, PDF page 92: RD-6600 and RD-6600-G capacity and sprocket limits",
+      "retrieved_on": "2026-11-07"
     }
   ],
   "specifications": {
     "rear_speeds": 10,
-    "cage": "GS"
+    "cage": "GS",
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 27,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22
   }
 }

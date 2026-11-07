@@ -186,3 +186,18 @@ The original *Dealers’ 1990 Product Manual*, published in August 1989, provide
 The two pedal weights conflict for the same nominal model/configuration. Preserve one component identity and the existing 407 g reference value, cite both tables and disclose the 400 g listing in the weight description. Do not average the values or invent a variant to explain the difference.
 
 The FH-A550's published 420 g includes its quick release, so the catalogue uses an explicit unknown weight. The HB-A550-F front hub is not yet added: its 202 g listing does not explicitly establish skewer exclusion. The HB-RM50 measurement belongs to a different model and is not reused. The manual's cassette row names CS-HG70; its sidebar heading says CS-HG50. Membership follows the component row, with the seven-speed I-group tooth sequence confirmed by Shimano's shared CS-HG90/HG70/HG50 drawing. No seatpost is listed; brakes and the chain remain outside the current taxonomy.
+
+## Rear derailleur limits and cage codes
+
+Every `rear-derailleur` requires these keys inside `specifications`:
+
+| Key | Display label | Known value |
+| --- | --- | --- |
+| `total_capacity_teeth` | Total capacity | Positive integer |
+| `maximum_sprocket_teeth` | Largest sprocket | Positive integer |
+| `minimum_sprocket_teeth` | Smallest sprocket | Positive integer |
+| `maximum_front_difference_teeth` | Front chainring tooth difference | Non-negative integer |
+
+Use explicit `null` when a limit has not been sourced; the page displays “Not yet sourced”. Known values display a `T` suffix. Smallest sprocket cannot exceed largest sprocket. Zero front difference is valid for a single-chainring configuration. Individual maxima need not be usable together: chain take-up is the front chainring difference plus the rear sprocket difference, and must remain within total capacity. Cite the exact model, cage variant and specification edition. See [Ultegra source notes](ultegra.md#rear-derailleur-limits) for the older Shimano records. Cassette sprocket limits do not apply to front derailleurs.
+
+An optional `specifications.cage` records the manufacturer's sourced cage code. Do not infer a code from capacity alone. The shared [cage-help component](../apps/web/src/components/DerailleurCageHelp.astro) defines SS (short), GS (medium, sometimes called long), and LS/SGS (long) once for all rear derailleur pages. These names vary by manufacturer and do not replace model-specific limits. The explanation opens on hover, keyboard focus or tap, stays available while hovered/focused, and closes with Escape or an outside press. Without JavaScript it appears as ordinary text. Keep this explanation out of individual JSON records.

@@ -11,8 +11,8 @@
   "weight_g": 189,
   "weight_description": "Manufacturer-listed in the 2010 dealer catalogue: SS cage version; derailleur only.",
   "technical_document": {
-    "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_SPECIFICATION.pdf#page=93",
-    "title": "Shimano 2009–2010 specifications: RD-6700-SS (PDF page 93)",
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_SPECIFICATION.pdf#page=78",
+    "title": "Shimano 2010–2011 specifications, PDF page 78: RD-6700 SS and GS capacity and sprocket limits",
     "retrieved_on": "2026-11-07"
   },
   "sources": [
@@ -20,10 +20,19 @@
       "url": "https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=69",
       "title": "Shimano 2010 Russian dealer catalogue, PDF page 69: Ultegra 6700 cranks and derailleurs (archived manufacturer PDF)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_SPECIFICATION.pdf#page=78",
+      "title": "Shimano 2010–2011 specifications, PDF page 78: RD-6700 SS and GS capacity and sprocket limits",
+      "retrieved_on": "2026-11-07"
     }
   ],
   "specifications": {
     "rear_speeds": 10,
-    "cage": "SS"
+    "cage": "SS",
+    "total_capacity_teeth": 33,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16
   }
 }

@@ -57,6 +57,8 @@ Use the ordered component-type schema as the single source of type IDs/UI labels
 
 Every component requires `model_number`, `weight_g`, identifying `weight_description`, and a manufacturer-hosted HTTPS `technical_document`. Known weights must be positive. Rear hubs may use explicit `weight_g: null` until a weight without skewers is sourced; render “Not yet sourced” without a gram suffix and preserve null in the search index. Other component types still require positive weights. Both hub types require `weight_excludes_skewers: true`; never use skewer-inclusive hub weights or undocumented deductions. Groupsets require `model_number` and an ordered `year_range`; a null end means undocumented, not ongoing production. Preserve stable IDs when migrating fields. See the catalogue guide for source/variant requirements.
 
+Rear derailleurs require all four sourced-or-null limits in `specifications`: `total_capacity_teeth`, `maximum_sprocket_teeth`, `minimum_sprocket_teeth`, and `maximum_front_difference_teeth`. Display tooth units and explicit unknowns. Keep cage-code explanations in the shared `DerailleurCageHelp` component; never duplicate them in component records or infer compatibility from cage length. Preserve keyboard, hover, touch and no-JavaScript access to the explanation.
+
 ## UI copy
 
 Write as a knowledgeable bicycle component reference: state what a page contains, cite sources and describe limitations precisely. Avoid slogans, lifestyle claims and promises of complete coverage. Link and button labels should name the action or destination, such as “Search the catalogue”, “See Shimano groupsets” and “Add a missing part”. Distinguish working features from planned ones; contribution links should explain the GitHub workflow.

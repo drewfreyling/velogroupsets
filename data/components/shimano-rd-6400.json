@@ -28,6 +28,8 @@
       7
     ],
     "total_capacity_teeth": 28,
-    "maximum_sprocket_teeth": 28
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 13
   }
 }

@@ -162,7 +162,7 @@ Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Co
 
 Run `npm run build` followed by `npm run test:browser`. Playwright starts a local Wrangler server against the built site. Both projects use Chromium: a desktop profile and an emulated Pixel 5 with touch input. This does not claim Firefox, WebKit or physical-device coverage.
 
-The suite exercises catalogue browsing, combined search/type/groupset filters, reload and browser Back navigation, model-number links, shared component pages, sourced/unknown weights, 404 recovery, navigation without JavaScript, cache/security headers, external links and theme behaviour including cross-tab changes. Comments, uploads and authentication are not yet implemented and are not represented as working test flows.
+The suite exercises catalogue browsing, combined search/type/groupset filters, reload and browser Back navigation, model-number links, shared component pages, sourced/unknown weights, rear derailleur limits and accessible cage-code help, 404 recovery, navigation without JavaScript, cache/security headers, external links and theme behaviour including cross-tab changes. Comments, uploads and authentication are not yet implemented and are not represented as working test flows.
 
 | Stage | Browser checks |
 | --- | --- |

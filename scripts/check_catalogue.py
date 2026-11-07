@@ -81,6 +81,12 @@ def validate_catalogue(catalogue):
         if years["end"] is not None and years["end"] < years["start"]:
             failures.append(f"groupsets/{group['id']}: year_range end must not precede start")
     for component in catalogue["components"]:
+        if component['type'] == 'rear-derailleur':
+            specs = component['specifications']
+            smallest = specs['minimum_sprocket_teeth']
+            largest = specs['maximum_sprocket_teeth']
+            if smallest is not None and largest is not None and smallest > largest:
+                failures.append(f"components/{component['id']}: smallest sprocket must not exceed largest sprocket")
         manufacturer = indices["manufacturers"].get(component["manufacturer_id"])
         if manufacturer:
             official_host = urlsplit(manufacturer["website_url"]).hostname

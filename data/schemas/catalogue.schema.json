@@ -300,6 +300,60 @@
               ]
             }
           }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "rear-derailleur"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "specifications"
+            ],
+            "properties": {
+              "specifications": {
+                "required": [
+                  "total_capacity_teeth",
+                  "maximum_sprocket_teeth",
+                  "minimum_sprocket_teeth",
+                  "maximum_front_difference_teeth"
+                ],
+                "properties": {
+                  "total_capacity_teeth": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 1
+                  },
+                  "maximum_sprocket_teeth": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 1
+                  },
+                  "minimum_sprocket_teeth": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 1
+                  },
+                  "maximum_front_difference_teeth": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     },
