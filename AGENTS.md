@@ -56,3 +56,5 @@ Every component requires `model_number`, positive `weight_g`, identifying `weigh
 ## UI copy
 
 Write as a knowledgeable bicycle component reference: state what a page contains, cite sources and describe limitations precisely. Avoid slogans, lifestyle claims and promises of complete coverage. Link and button labels should name the action or destination, such as “Search the catalogue”, “See Shimano groupsets” and “Add a missing part”. Distinguish working features from planned ones; contribution links should explain the GitHub workflow.
+
+Use model numbers as the primary component-page heading, with the component name as supporting text. Render groupset names consistently as name plus model number (for example, “105 R7000”). Avoid redundant eyebrow labels and tiny internal-ID captions. Use sentence-case section headings at a readable size, reserve monospace for actual model identifiers, and keep specification labels close to values in a responsive definition list.

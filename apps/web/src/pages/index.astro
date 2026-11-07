@@ -6,7 +6,6 @@ import { manufacturers, groupsets, components, types, manufacturerUrl } from '..
 <Layout>
   <section class="wrap grid gap-10 py-14 md:grid-cols-[1.3fr_1fr] md:items-center md:py-22">
     <div>
-      <p class="eyebrow mb-6 flex items-center gap-2"><span class="size-2 rounded-full bg-ink"></span> Bicycle component catalogue</p>
       <h1 class="max-w-2xl text-4xl leading-[1.05] font-medium tracking-[-0.045em] sm:text-6xl">Bicycle groupsets<br/>and components</h1>
       <p class="mt-7 max-w-lg text-lg leading-8 text-muted">Specifications for bicycle groupsets and components, each linked to its source.</p>
       <div class="mt-8 flex flex-wrap items-center gap-5"><a class="button" href="/catalogue/">Search the catalogue <span aria-hidden="true"><svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a><a class="text-link text-sm" href="/manufacturers/">See manufacturers</a></div>
@@ -23,19 +22,18 @@ import { manufacturers, groupsets, components, types, manufacturerUrl } from '..
         </g>
         <path d="M50 63h48M74 39v48M315 300h48M339 276v48" stroke="#7b8c73"/>
       </svg>
-      <span class="absolute bottom-5 left-6 font-mono text-[10px] tracking-widest text-muted">FIG. 01 — THE DRIVETRAIN</span>
-      <span class="absolute top-5 right-6 rounded-full border border-[#b5c2a9] px-3 py-1 text-[10px] uppercase tracking-widest">Crankset diagram</span>
+      <span class="absolute bottom-5 left-6 text-sm text-muted">Crankset illustration</span>
     </div>
   </section>
   <section class="border-y border-line bg-white/35 py-6">
     <div class="wrap grid grid-cols-3 gap-4">{[[manufacturers.length,'manufacturer'],[groupsets.length,'groupset'],[components.length,'component']].map(([count,label]) => <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-3"><strong class="text-3xl font-medium tabular-nums">{count}</strong><span class="text-xs text-muted sm:text-sm">{label}{count === 1 ? '' : 's'} catalogued</span></div>)}</div>
   </section>
   <section class="wrap pt-14">
-    <div class="mb-7 flex flex-col items-start gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p class="eyebrow mb-3">Manufacturers</p><h2 class="text-3xl tracking-tight">Groupsets by manufacturer</h2></div><a class="text-link shrink-0 whitespace-nowrap text-sm" href="/manufacturers/">See all manufacturers <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
+    <div class="mb-7 flex flex-col items-start gap-4 sm:flex-row sm:items-end sm:justify-between"><div><h2 class="text-3xl tracking-tight">Groupsets by manufacturer</h2></div><a class="text-link shrink-0 whitespace-nowrap text-sm" href="/manufacturers/">See all manufacturers <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
     <div class="grid gap-4 sm:grid-cols-3">{manufacturers.map(m => <a href={manufacturerUrl(m)} class="panel group flex items-center justify-between p-7"><div><h3 class="text-2xl font-semibold tracking-tight">{m.name}</h3><p class="mt-3 text-sm font-semibold">See {m.name} groupsets</p><p class="mt-3 text-sm text-muted">{groupsets.filter(g=>g.manufacturer_id===m.id).length} groupset{groupsets.filter(g=>g.manufacturer_id===m.id).length === 1 ? '' : 's'} catalogued</p></div><span class="group-hover:translate-x-1" aria-hidden="true"><svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>)}
       <div class="rounded-2xl border border-dashed border-line p-7 sm:col-span-2"><h3 class="font-semibold">Missing components and corrections</h3><p class="mt-2 max-w-lg text-sm leading-6 text-muted">Use the contribution guide to add a missing component or correct a specification. Include a manufacturer technical document as the source.</p><a class="text-link mt-4 inline-block text-sm" href="https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md">Add a missing part <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
     </div>
   </section>
-  <section class="wrap pt-14"><div class="mb-7 flex flex-col items-start gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p class="eyebrow mb-3">Components</p><h2 class="text-3xl tracking-tight">Component specifications</h2></div><a class="text-link shrink-0 whitespace-nowrap text-sm" href="/catalogue/">See all components <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div><ComponentList records={components.slice(0,4)} /></section>
-  <section class="wrap pt-14"><h2 class="eyebrow mb-5">Browse by component type</h2><div class="flex flex-wrap gap-2">{types.map(t=><a class="rounded-full border border-line px-4 py-2 text-sm hover:bg-accent" href={`/catalogue/?type=${t.const}`}>{t.title}</a>)}</div></section>
+  <section class="wrap pt-14"><div class="mb-7 flex flex-col items-start gap-4 sm:flex-row sm:items-end sm:justify-between"><div><h2 class="text-3xl tracking-tight">Component specifications</h2></div><a class="text-link shrink-0 whitespace-nowrap text-sm" href="/catalogue/">See all components <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div><ComponentList records={components.slice(0,4)} /></section>
+  <section class="wrap pt-14"><h2 class="mb-5 text-2xl">Browse by component type</h2><div class="flex flex-wrap gap-2">{types.map(t=><a class="rounded-full border border-line px-4 py-2 text-sm hover:bg-accent" href={`/catalogue/?type=${t.const}`}>{t.title}</a>)}</div></section>
 </Layout>

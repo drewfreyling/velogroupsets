@@ -15,11 +15,12 @@ export const manufacturerUrl = (m) => `/manufacturers/${m.slug}/`;
 export const groupsetUrl = (g) => `/groupsets/${manufacturerFor(g).slug}/${g.slug}/`;
 // Shared components have one canonical URL, independent of groupset membership.
 export const componentUrl = (c) => `/components/${manufacturerFor(c).slug}/${c.slug}/`;
+export const groupsetName = (g) => `${g.name} ${g.model_number}`;
 export const groupsFor = (record) => groupsets.filter(g => record.groupset_ids.includes(g.id));
 export const searchRecords = components.map(c => ({
   id: c.id, name: c.name, model: c.model_number, weight_g: c.weight_g, weight_description: c.weight_description, type: c.type,
   typeName: typeName(c.type), manufacturer: manufacturerFor(c).name,
-  groupsets: groupsFor(c).map(g => `${g.name} ${g.model_number || ''}`).join(' '),
+  groupsets: groupsFor(c).map(groupsetName).join(' '),
   url: componentUrl(c),
 }));
 
