@@ -9,7 +9,7 @@
   "type": "front-hub",
   "model_number": "HB-RM50-F",
   "weight_g": 139,
-  "weight_description": "Contributor-measured: HB-RM50 quick-release front hub, without skewer. Spoke count and axle dimensions not recorded.",
+  "weight_description": "Contributor-measured: 36-hole HB-RM50 quick-release front hub, without skewer. Axle dimensions not recorded.",
   "weight_excludes_skewers": true,
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HB-RM50-0981/EV-HB-RM50-0981B.pdf",
@@ -17,12 +17,13 @@
     "retrieved_on": "2026-11-07"
   },
   "specifications": {
-    "axle_type": "Quick release"
+    "axle_type": "Quick release",
+    "spoke_holes": 36
   },
   "sources": [
     {
       "url": "https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md#hb-rm50-f-contributor-measurement",
-      "title": "Project owner’s HB-RM50 front-hub measurement: 139 g without skewer, reported 7 November 2026"
+      "title": "Project owner’s 36-hole HB-RM50 front-hub measurement: 139 g without skewer, reported 7 November 2026"
     },
     {
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",

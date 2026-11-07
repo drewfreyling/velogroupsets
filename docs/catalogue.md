@@ -151,7 +151,7 @@ Original Shimano material is preserved by Disraeli Gears: [page 30 introduces th
 | Cassette | CS-HG50 | 268 g; seven-speed I group, 13–23T sprockets and spacers |
 | Headset | HP-R500 | 121 g; 22/11.5 mm upper/lower cones; weight's thread variant unspecified |
 | Pedals | PD-A550 | 407 g; pair including size L toe clips |
-| Front hub | HB-RM50-F | 139 g; contributor measurement, without skewer; see measurement note below |
+| Front hub | HB-RM50-F | 139 g; contributor measurement, 36-hole hub without skewer; see measurement note below |
 | Rear hub | FH-HG50 | Not yet sourced; weight without skewer required |
 
 Except for the contributor-measured front hub and the rear hub with unknown weight, these are manufacturer-listed reference weights, not new measurements or claims about every available option. BB-A450, CS-HG50, HP-R500 and PD-A550 retain their own component identities; membership is documented by the group specification table, even where a service drawing labels a shared part as another series.
@@ -160,7 +160,7 @@ The manual lists FH-HG50 at 436 g **with quick release**; this number is not use
 
 ### HB-RM50-F contributor measurement
 
-On 7 November 2026, the project owner reported personally weighing an **HB-RM50 front hub at 139 g without its skewer**. This is the source of the catalogue weight; it is not a Shimano specification or an independently repeated measurement. The date is when the measurement was reported, not a claimed weighing date. Spoke count, axle dimensions and scale details were not supplied, so the record does not infer them or apply this weight to every variant.
+On 7 November 2026, the project owner reported personally weighing a **36-hole HB-RM50 front hub at 139 g without its skewer**. This is the source of the catalogue weight; it is not a Shimano specification or an independently repeated measurement. The date is when the measurement was reported, not a claimed weighing date. The project owner confirmed the 36-hole configuration. Axle dimensions and scale details were not supplied, so the record does not infer them or apply this weight to other spoke counts or every variant.
 
 The dealer manual identifies the front hub as HB-RM50-F and establishes its Exage 500EX membership. [Shimano's exploded drawing](https://si.shimano.com/en/pdfs/ev/HB-RM50-0981/EV-HB-RM50-0981B.pdf) distinguishes the quick-release HB-RM50-FQR from the nutted HB-RM50-FNT. The recorded measurement excludes the skewer and describes the quick-release front hub. Its `sources` link here for measurement provenance and to the dealer manual for membership; its `technical_document` links directly to Shimano.
 
