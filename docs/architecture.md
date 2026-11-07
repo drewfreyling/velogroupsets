@@ -24,7 +24,7 @@ flowchart TD
 
     subgraph Cloudflare["Cloudflare"]
         State[("Private R2: encrypted state, plans and snapshots")]
-        Edge["Custom domain: CDN and available WAF rules"]
+        Edge["Custom domain: TLS 1.3, HSTS, CDN and available WAF rules"]
         Static["Workers Static Assets: HTML, CSS, JS, search index"]
         API["TypeScript Worker API"]
         DB[("D1: users, comments, photo metadata")]
@@ -186,7 +186,7 @@ OpenTofu configuration lives in `infra/opentofu/`, with separate environment inp
 
 | Owner | Scope |
 | --- | --- |
-| OpenTofu | D1, application R2 buckets/CORS/lifecycle/public-domain settings, Turnstile and opt-in website custom domains; future cache/WAF rules |
+| OpenTofu | D1, application R2 buckets/CORS/lifecycle/public-domain settings, Turnstile, website custom domains and shared zone HTTPS/TLS/HSTS settings; future cache/WAF rules |
 | Wrangler + GitHub Actions | Worker definition/code, static assets, bindings, runtime configuration and secret injection |
 | Database migrations | D1 tables, indexes and schema changes |
 | Independent bootstrap | Dedicated private R2 state bucket and its retention/access settings |

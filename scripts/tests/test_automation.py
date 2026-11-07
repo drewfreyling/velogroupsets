@@ -9,10 +9,23 @@ from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from check_commits import valid_header
-from infra import CommandFailure, encryption_env, encrypted, failure_summary, inspect_state, plan_key, require_reviewers, snapshot, verify_plan
+from infra import CommandFailure, encryption_env, encrypted, failure_summary, inspect_state, plan_key, require_reviewers, review_actions, snapshot, verify_plan
 
 
 class PlanSafetyTests(unittest.TestCase):
+    def test_import_only_adoption_is_visible_without_exposing_ids(self):
+        details = {"resource_changes": [
+            {"address": "cloudflare_zone_setting.hsts[0]", "change": {
+                "actions": ["no-op"], "importing": {"id": "private-import-id"}}},
+            {"address": "cloudflare_zone_setting.tls", "change": {
+                "actions": ["update"], "importing": {"id": "private-import-id"}}},
+            {"address": "cloudflare_d1_database.community", "change": {"actions": ["no-op"]}},
+        ]}
+        actions = review_actions(details)
+        self.assertEqual(actions, [("cloudflare_zone_setting.hsts[0]", "import/no-op"),
+                                   ("cloudflare_zone_setting.tls", "import/update")])
+        self.assertNotIn("private-import-id", str(actions))
+
     def test_failure_summary_never_echoes_raw_secret_text(self):
         raw = 'Authentication error HTTP status: 403 {"code":10000,"token":"test-secret-value"} with cloudflare_d1_database.community'
         summary = failure_summary(raw)

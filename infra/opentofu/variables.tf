@@ -68,3 +68,22 @@ variable "site_zone_name" {
     error_message = "site_zone_name must be a lowercase DNS zone name."
   }
 }
+variable "manage_zone_tls" {
+  description = "Own shared zone-wide HTTPS/TLS settings in staging state only. Do not enable in another state for the same zone."
+  type        = bool
+  default     = false
+}
+variable "minimum_tls_version" {
+  description = "Minimum visitor TLS version. TLS 1.3 stays enabled for both choices."
+  type        = string
+  default     = "1.2"
+  validation {
+    condition     = contains(["1.2", "1.3"], var.minimum_tls_version)
+    error_message = "minimum_tls_version must be 1.2 or 1.3; older protocols are prohibited."
+  }
+}
+variable "import_zone_settings" {
+  description = "Adopt existing settings before updates. Keep true for live plans; false only in mocked tests, whose provider cannot import."
+  type        = bool
+  default     = true
+}

@@ -225,6 +225,18 @@ def inspect_state(client, env, environment, inspect_key):
     print("Read-only inspection completed; no remote state or Cloudflare resources changed.")
 
 
+def review_actions(details):
+    """Include import-only state adoption in review, without exposing import IDs."""
+    result = []
+    for item in details.get("resource_changes", []):
+        change = item["change"]
+        importing = change.get("importing") is not None
+        if change["actions"] != ["no-op"] or importing:
+            action = ("import/" if importing else "") + "/".join(change["actions"])
+            result.append((item["address"], action))
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("operation", choices=("validate", "plan", "apply", "show", "inspect"))
@@ -277,7 +289,7 @@ def main():
                 digest = hashlib.sha256(data).hexdigest()
                 verify_plan(data, digest)
                 details = json.loads(tofu(["show", "-json", str(plan)], env))
-                changes = [(item["address"], "/".join(item["change"]["actions"])) for item in details.get("resource_changes", []) if item["change"]["actions"] != ["no-op"]]
+                changes = review_actions(details)
                 client.put_object(Bucket=BUCKET, Key=key, Body=data, IfNoneMatch="*")
                 with open(os.environ["GITHUB_OUTPUT"], "a") as output:
                     output.write(f"plan_key={key}\nplan_sha256={digest}\n")

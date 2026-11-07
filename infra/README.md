@@ -77,7 +77,7 @@ Set these secrets in both the plan and apply environments for a given target:
 | `R2_SECRET_ACCESS_KEY` | Corresponding S3 secret |
 | `TOFU_ENCRYPTION_PASSPHRASE` | Strong passphrase of at least 16 characters; 64 random hex characters recommended; identical in that target's plan/apply environments |
 
-Use provider **read** permissions in plan environments and **edit/write** permissions in apply environments for D1, Workers R2 Storage, and Turnstile Sites. Backend S3 credentials need writes for locking and snapshots even during planning. For website deployment and custom-domain activation, add the permissions described below. General DNS/WAF edit permissions are not used by the current resources. Shared-bucket S3 credentials can access both environment prefixes; use separate state buckets/credentials if stronger environment isolation is required.
+Use provider **read** permissions in plan environments and **edit/write** permissions in apply environments for D1, Workers R2 Storage, and Turnstile Sites. Backend S3 credentials need writes for locking and snapshots even during planning. For website deployment and custom-domain activation, add the permissions described below. General DNS/WAF edit permissions are not used by the current resources; zone TLS/HSTS settings use Zone Settings permissions. Shared-bucket S3 credentials can access both environment prefixes; use separate state buckets/credentials if stronger environment isolation is required.
 
 No secrets belong in Git, environment `.tfvars`, public artifacts, or chat. GitHub needs Environments write permission to configure these settings. Configure required branch checks for **Repository checks**, **OpenTofu checks (no credentials)**, **Workflow lint**, and **Application build and tests**. Fork PR checks have no deployment credentials. Remove unused HCP tokens/variables if you created any previously.
 
@@ -123,8 +123,8 @@ Extend `CLOUDFLARE_API_TOKEN` permissions while retaining existing D1/R2/Turnsti
 
 | Environment | Account permissions | Zone permissions for **velogroupsets.com only** |
 | --- | --- | --- |
-| `staging-plan` | Workers Scripts: Read | Workers Routes: Read; Zone: Read |
-| `staging` | Workers product: **Admin for the initial Worker creation**, then product-level Editor for releases/domain management; retain existing D1/R2/Turnstile permissions | Workers Routes: Edit; Zone: Read |
+| `staging-plan` | Workers Scripts: Read | Workers Routes: Read; Zone: Read; Zone Settings: Read |
+| `staging` | Workers product: **Admin for the initial Worker creation**, then product-level Editor for releases/domain management; retain existing D1/R2/Turnstile permissions | Workers Routes: Edit; Zone: Read; Zone Settings: Edit |
 
 Scope account permissions to `5ccb67114ff0fa1a13cb46ef3d08cb49`. Cloudflare's current granular authorization distinguishes **Admin** (can create/delete Workers) from **Editor** (can deploy existing Workers). Initial creation requires **Workers product-level Admin** on this account; Editor is insufficient for bootstrap. After creation, reduce to Workers product-level Editor while this shared token also manages custom domains. Custom Domains currently do not support per-Worker roles. A separate code-only deployment token can later use per-Worker Editor. For granular roles, use an account-owned API token; do not grant broad Developer Platform administration. See [Cloudflare's Workers permissions](https://developers.cloudflare.com/workers/authorization/workers/). Keep raw tokens only in the GitHub environment secrets. Existing R2 state credentials/encryption passphrases are reused without changing their values.
 
@@ -132,7 +132,7 @@ Bootstrap in this order:
 
 1. Run **Deploy website** on `main` for `staging`; approve the GitHub `staging` deployment after CI. This creates `velogroupsets-staging` with static assets, `/api/health`, and existing D1/R2 bindings. Both `workers.dev` and preview URLs stay disabled. No hostname is reachable yet.
 2. The existing staging `zone_id = "7f6cc6f517450ef96d9f8b2bd891ee80"` is already configured; it is a public identifier. Production retains `site_zone_name = "velogroupsets.com"` as an alternative lookup. Staging now has `enable_site_domain = true` in `opentofu/environments/staging.tfvars` after the successful Worker bootstrap; leave this disabled for an unbootstrapped environment. Commit conventionally. Do not add routes to Wrangler or manually create a conflicting DNS record.
-3. Run the infrastructure **plan-and-apply** workflow. Review the expected single `cloudflare_workers_custom_domain.site[0]` create and approve its exact saved plan. Cloudflare manages the domain's DNS and TLS certificate automatically; activation may take time. This does not expose either photo bucket.
+3. Run the infrastructure **plan-and-apply** workflow. Review the `cloudflare_workers_custom_domain.site[0]` create plus adoption/updates of shared zone HTTPS/TLS/HSTS settings, then approve the exact saved plan. Cloudflare manages the domain's DNS and TLS certificate automatically; activation may take time. This does not expose either photo bucket.
 4. Verify `https://staging.velogroupsets.com/`, a component detail page, `/api/health`, and an unknown path returning HTTP 404. The health response identifies the deployed commit. Confirm search/filter behavior and static asset headers. Staging pages include `noindex`.
 
 Subsequent website releases only need the website workflow. Infrastructure changes continue through separate saved-plan approval. The same instructions apply to production only after its foundation, secrets and reviewer policy are provisioned. Authentication, uploads, comments and database tables are not included in this scaffold. Roll back application code by reverting to a known good commit on `main` and deploying; this does not roll back infrastructure or future database migrations.
@@ -142,3 +142,19 @@ Subsequent website releases only need the website workflow. Infrastructure chang
 The initial website run reached Wrangler but failed before asset upload while listing existing Worker secret **names** at `/accounts/<account>/workers/scripts/velogroupsets-staging/secrets`, with “No access to the specified resource.” This endpoint is part of Wrangler’s normal check for binding/secret-name conflicts; it does not retrieve secret values or require a separate Secrets Store permission.
 
 Check the token stored specifically in the GitHub `staging` environment. It must target the account above and have Workers product-level Admin for first creation, plus the existing infrastructure/zone permissions. Read/edit access scoped only to a zone or to selected existing Workers cannot create the missing Worker. Correct access before rerunning; do not bypass Wrangler’s secret-conflict check. Once bootstrap succeeds, reduce Workers access to Editor and verify subsequent deployment/domain operations.
+
+## Shared HTTPS and TLS policy
+
+Staging configuration enables `manage_zone_tls = true` and `minimum_tls_version = "1.3"`, following the chosen free-plan policy. The reviewed infrastructure apply will enforce:
+
+- TLS 1.3 only for visitor connections; TLS 1.2 and older clients are intentionally rejected.
+- TLS 1.3 enabled, HTTP redirected to HTTPS, and Full (strict) origin TLS. A Worker custom domain has no separate application origin server; strict mode also protects any other proxied origins in this zone.
+- HSTS with `max-age=15768000` (six months), `include_subdomains = false`, `preload = false`, plus nosniff. Cloudflare injects this at the edge for proxied hostnames, including static and API responses; application code does not independently own the header. Only HTTPS responses establish browser HSTS policy.
+
+These are **zone-wide settings**, shared by staging and any future production hostname. The staging state is their sole initial owner. `manage_zone_tls` defaults off and is prohibited in production state to prevent two states managing the same zone policy. A later move to a dedicated shared-zone root must migrate state ownership deliberately, not recreate these resources. DNS-only hosts do not inherit Cloudflare edge settings, and HSTS does not force every subdomain through `includeSubDomains`.
+
+Existing zone settings are adopted with declarative import blocks before changes; the saved plan contains both imports and updates, and public review summaries include import-only actions without printing import IDs/values. Live plans keep `import_zone_settings = true`. Mocked tests disable imports because OpenTofu 1.13.9's mock provider cannot import; the live plan checks real permissions and existing settings.
+
+Cloudflare [requires Advanced Certificate Manager for custom cipher allowlists](https://developers.cloudflare.com/ssl/edge-certificates/additional-options/cipher-suites/customize-cipher-suites/). No paid subscription or custom cipher setting is provisioned. The selected TLS 1.3-only policy limits negotiation to TLS 1.3's authenticated-encryption suites while Cloudflare manages the exact list. This is stronger than allowing TLS 1.2 with the uncustomized free-plan cipher list. Do not describe this as a manually configured cipher allowlist.
+
+After apply, verify HTTPS reachability, HTTP redirects and the HSTS header on both `/` and `/api/health`. Confirm the configured TLS minimum through Cloudflare's API and direct TLS probes from a host without TLS interception; a proxy that terminates TLS can hide the edge's actual protocol/cipher behavior. Keep HTTPS available for the browser's cached HSTS lifetime when changing or rolling back infrastructure. Preload submission and subdomain-wide HSTS require a separate deliberate decision.

@@ -4,7 +4,7 @@ An open-source reference for bicycle groupsets and components, with community ph
 
 VeloGroupsets aims to make component specifications and identification information easy to browse, search, and improve. Most traffic should be served as static content at Cloudflare's edge; a small API handles community contributions.
 
-> **Status: static application and infrastructure foundation.** Astro, Tailwind CSS, a TypeScript Worker, catalogue generation/search, CI and deployment workflows are implemented. The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). Production deployment remains pending. The initial catalogue includes sourced Shimano 105 R7000 records. The staging Worker and static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328); staging custom-domain activation is pending; authentication, uploads and comments remain planned.
+> **Status: static application and infrastructure foundation.** Astro, Tailwind CSS, a TypeScript Worker, catalogue generation/search, CI and deployment workflows are implemented. The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). Production deployment remains pending. The initial catalogue includes sourced Shimano 105 R7000 records. The staging Worker and static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328); staging custom-domain activation and TLS 1.3/HSTS policy apply are pending; authentication, uploads and comments remain planned.
 
 ## Planned features
 
@@ -43,7 +43,7 @@ flowchart TD
 
     subgraph Cloudflare["Cloudflare"]
         State[("Private R2: encrypted state, plans and snapshots")]
-        Edge["Custom domain: CDN and available WAF rules"]
+        Edge["Custom domain: TLS 1.3, HSTS, CDN and available WAF rules"]
         Static["Workers Static Assets: HTML, CSS, JS, search index"]
         API["TypeScript Worker API"]
         DB[("D1: users, comments, photo metadata")]

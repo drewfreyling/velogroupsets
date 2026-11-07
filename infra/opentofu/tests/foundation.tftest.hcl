@@ -3,6 +3,8 @@ variables {
   account_id    = "0123456789abcdef0123456789abcdef"
   environment   = "staging"
   site_hostname = "staging.example.com"
+  # OpenTofu 1.13.9 mocks cannot import existing resources. Live plans do.
+  import_zone_settings = false
 }
 run "private_by_default" {
   command = plan
@@ -77,4 +79,38 @@ run "site_domain_targets_environment_worker" {
     condition     = cloudflare_workers_custom_domain.site[0].hostname == "staging.example.com" && cloudflare_workers_custom_domain.site[0].service == "velogroupsets-staging"
     error_message = "The site domain must target its own environment's Worker."
   }
+}
+run "zone_tls_and_hsts_policy" {
+  command = plan
+  variables {
+    manage_zone_tls = true
+    zone_id         = "0123456789abcdef0123456789abcdef"
+  }
+  assert {
+    condition     = cloudflare_zone_setting.tls["min_tls_version"].value == "1.2" && cloudflare_zone_setting.tls["tls_1_3"].value == "on" && cloudflare_zone_setting.tls["always_use_https"].value == "on" && cloudflare_zone_setting.tls["ssl"].value == "strict"
+    error_message = "Enforce HTTPS, TLS 1.2 or newer, TLS 1.3 support and strict origin TLS."
+  }
+  assert {
+    condition     = cloudflare_zone_setting.hsts[0].value.strict_transport_security.enabled && cloudflare_zone_setting.hsts[0].value.strict_transport_security.max_age == 15768000 && !cloudflare_zone_setting.hsts[0].value.strict_transport_security.include_subdomains && !cloudflare_zone_setting.hsts[0].value.strict_transport_security.preload
+    error_message = "Enable HSTS for six months without subdomain inheritance or preload."
+  }
+}
+run "tls_policy_can_require_tls13" {
+  command = plan
+  variables {
+    manage_zone_tls     = true
+    zone_id             = "0123456789abcdef0123456789abcdef"
+    minimum_tls_version = "1.3"
+  }
+  assert {
+    condition     = cloudflare_zone_setting.tls["min_tls_version"].value == "1.3"
+    error_message = "A TLS 1.3-only policy must not silently allow TLS 1.2."
+  }
+}
+run "reject_legacy_tls" {
+  command = plan
+  variables {
+    minimum_tls_version = "1.1"
+  }
+  expect_failures = [var.minimum_tls_version]
 }

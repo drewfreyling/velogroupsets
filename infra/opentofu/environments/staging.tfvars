@@ -5,3 +5,5 @@ photos_hostname      = "images.staging.velogroupsets.com"
 enable_public_photos = false
 zone_id              = "7f6cc6f517450ef96d9f8b2bd891ee80"
 enable_site_domain   = true
+manage_zone_tls      = true
+minimum_tls_version  = "1.3"
