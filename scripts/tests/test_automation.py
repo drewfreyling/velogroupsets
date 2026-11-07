@@ -1,4 +1,5 @@
 import hashlib
+import base64
 import io
 import json
 from pathlib import Path
@@ -13,12 +14,19 @@ from infra import encryption_env, encrypted, plan_key, require_reviewers, snapsh
 
 class PlanSafetyTests(unittest.TestCase):
     def test_encryption_requires_a_safe_full_length_secret(self):
-        for key in ('', 'short', 'a' * 63, '"\nmethod unsafe {}'):
+        for key in (None, '', 'short', 'a' * 15):
             with self.subTest(key=key), self.assertRaises(ValueError):
                 encryption_env(key)
         config = encryption_env('a' * 64)['TF_ENCRYPTION']
         self.assertIn('aes_gcm', config)
         self.assertEqual(config.count('enforced = true'), 2)
+
+    def test_password_manager_passphrases_are_literal_and_not_interpolated(self):
+        key = 'test-only ${literal} %{literal} "passphrase"\n'
+        config = encryption_env(key)['TF_ENCRYPTION']
+        self.assertNotIn(key, config)
+        encoded = config.split('base64decode("', 1)[1].split('"', 1)[0]
+        self.assertEqual(base64.b64decode(encoded).decode('utf-8'), key)
 
     def test_rejects_corrupt_or_plaintext_plan(self):
         ciphertext = json.dumps({'encryption_version': 'v0', 'encrypted_data': 'example'}).encode()

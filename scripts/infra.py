@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Run OpenTofu checks or transfer an encrypted, commit-bound plan through R2."""
 import argparse
+import base64
 import hashlib
 import json
 import os
@@ -19,12 +20,15 @@ ENDPOINT = f"https://{ACCOUNT}.r2.cloudflarestorage.com"
 
 
 def encryption_env(passphrase):
-    if not re.fullmatch(r"[0-9a-f]{64}", passphrase or ""):
-        raise ValueError("TOFU_ENCRYPTION_PASSPHRASE must be a securely generated 64-character lowercase hex key.")
+    if not isinstance(passphrase, str) or len(passphrase) < 16:
+        raise ValueError("TOFU_ENCRYPTION_PASSPHRASE must contain at least 16 characters.")
+    # HCL decodes the exact string, preserving existing keys while preventing
+    # interpolation/quote injection from password-manager passphrases.
+    encoded = base64.b64encode(passphrase.encode("utf-8")).decode("ascii")
     env = os.environ.copy()
     env.update(TF_INPUT="false", TF_IN_AUTOMATION="true", TF_WORKSPACE="default", AWS_EC2_METADATA_DISABLED="true")
     env["TF_ENCRYPTION"] = f'''
-key_provider "pbkdf2" "state_key" {{ passphrase = "{passphrase}" }}
+key_provider "pbkdf2" "state_key" {{ passphrase = base64decode("{encoded}") }}
 method "aes_gcm" "encrypted" {{ keys = key_provider.pbkdf2.state_key }}
 state {{
   method = method.aes_gcm.encrypted

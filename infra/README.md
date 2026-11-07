@@ -31,7 +31,7 @@ python3 scripts/infra.py validate
 actionlint
 ```
 
-Validation runs formatting, backend-free initialization, schema validation, mocked resource checks, and a real local CLI lock/encryption probe. It uses a public test-only encryption key and never touches Cloudflare/R2. Live operations refuse a missing or malformed secret key.
+Validation runs formatting, backend-free initialization, schema validation, mocked resource checks, and a real local CLI lock/encryption probe. It uses a public test-only encryption key and never touches Cloudflare/R2. Live operations refuse a missing passphrase or one shorter than OpenTofu's 16-character minimum.
 
 ## Bootstrap the state bucket
 
@@ -60,7 +60,7 @@ Set these secrets in both the plan and apply environments for a given target:
 | `CLOUDFLARE_API_TOKEN` | Account-scoped provider API token |
 | `R2_ACCESS_KEY_ID` | S3 key ID for the dedicated state bucket |
 | `R2_SECRET_ACCESS_KEY` | Corresponding S3 secret |
-| `TOFU_ENCRYPTION_PASSPHRASE` | 64 lowercase hex characters; same key in that target's plan/apply environments |
+| `TOFU_ENCRYPTION_PASSPHRASE` | Strong passphrase of at least 16 characters; 64 random hex characters recommended; identical in that target's plan/apply environments |
 
 Use provider **read** permissions in plan environments and **edit/write** permissions in apply environments for D1, Workers R2 Storage, and Turnstile Sites. Backend S3 credentials need writes for locking and snapshots even during planning. No general DNS/WAF edit permissions are needed initially. Shared-bucket S3 credentials can access both environment prefixes; use separate state buckets/credentials if stronger environment isolation is required.
 
