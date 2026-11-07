@@ -1,5 +1,7 @@
 # Shimano 105 generations
 
+The [component weight guidelines](weights-guidelines.md) set the contribution standard. Some weights described in these source notes include bottom brackets or use other configurations that need correction; the cited historical figures do not establish compliance with the current rules.
+
 The catalogue covers all nine Shimano 105 road-series generations, from Golden Arrow to R7100. R7100 has separate mechanical and Di2 groupset records because Shimano offers two shifting systems with different levers and derailleurs. That gives ten browsable groupsets, with 82 component identities and 87 memberships. This is generation coverage with sourced component variants; it does not claim every finish, revision, crank length or sprocket combination.
 
 ## Generations and dates

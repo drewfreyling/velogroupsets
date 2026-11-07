@@ -1,5 +1,7 @@
 # Ultegra in the 1990s and 2000s
 
+The [component weight guidelines](weights-guidelines.md) set the contribution standard. Some weights described in these source notes include bottom brackets or use other configurations that need correction; the cited historical figures do not establish compliance with the current rules.
+
 The catalogue covers the five Ultegra series offered during **1990–2009**: 600 Ultegra 6400, Ultegra 6500, Ultegra 6600, Ultegra SL and Ultegra 6700. It includes the 6400 family introduced before 1990 and the 6700 family sold in 2009 as a 2010 model. This is series coverage with sourced component variants, not a claim to catalogue every component revision, finish or gear ratio.
 
 ## Series and dates

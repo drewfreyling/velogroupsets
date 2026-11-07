@@ -227,6 +227,7 @@ Issues and pull requests are welcome for catalogue corrections, source reference
 
 - Use stable component and groupset IDs; a display-name or URL change must not detach existing community content.
 - Include sources for specifications and distinguish documented facts from estimates.
+- Follow the [component weight guidelines](docs/weights-guidelines.md), including required configurations, inclusions and exclusions.
 - Submit only material you have permission to contribute. Do not copy manufacturer images or manuals without checking their terms.
 - Keep real user data and secrets out of examples and fixtures.
 - Update documentation when behaviour or architecture changes.

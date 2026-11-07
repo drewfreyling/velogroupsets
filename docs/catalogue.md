@@ -2,6 +2,8 @@
 
 The browsing hierarchy is **manufacturer → groupset → component**. Catalogue records live in Git and feed generated static pages and search. User photos/comments remain in R2/D1 and reference stable component IDs.
 
+Before contributing weights, read the [component weight guidelines](weights-guidelines.md) for the required configurations, inclusions and exclusions. Existing source notes below describe historical records, including entries awaiting correction to meet those standards.
+
 Tailwind CSS is the chosen UI styling system. Astro generates the frontend and compiles pinned Tailwind into static CSS served by Cloudflare; npm dependencies are locked. Use semantic HTML, keyboard-visible focus, responsive layouts, and accessible labels. Keep Tailwind class names in source code or explicit mappings so the build can discover them; do not construct utility class names from arbitrary catalogue values. No runtime CSS CDN is required.
 
 See the [colour and theme guide](design.md) for semantic colour tokens, the dark-mode toggle and contrast requirements.
