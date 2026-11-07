@@ -273,6 +273,8 @@ def main():
                     summary.write("\n".join(f"- {address}: {action}" for address, action in changes) or "No resource changes.")
                     summary.write("\n\nValues and the encrypted saved plan stay private in R2. Apply uses this exact plan and rejects stale state.\n")
                 print(f"Encrypted plan saved; {len(changes)} resource changes. Review the job summary.")
+                for address, action in changes:
+                    print(f"Plan change: {address}: {action}", flush=True)
             else:
                 data = client.get_object(Bucket=BUCKET, Key=key)["Body"].read()
                 verify_plan(data, os.environ.get("PLAN_SHA256"))
