@@ -156,11 +156,14 @@ References: [R2 presigned URLs](https://developers.cloudflare.com/r2/api/s3/pres
 
 | Content | Policy |
 | --- | --- |
-| Catalogue HTML | Static serving; refresh on deploy and use appropriate browser revalidation |
+| Catalogue HTML, unversioned assets and search index | `Cache-Control: public, max-age=300, must-revalidate`; browsers may reuse responses for five minutes, then revalidate |
+| Favicon (`/favicon.svg`) | `Cache-Control: public, max-age=86400, must-revalidate`; one day |
 | Hashed JS/CSS and versioned catalogue/search files | Long-lived immutable caching |
 | Approved photo derivatives | Long-lived caching through an R2 custom domain; use new keys when bytes change |
 | Public photo/comment lists | Explicit short shared cache, initially 30–60 seconds |
 | Sessions, upload URLs, private/moderator responses, writes | `Cache-Control: no-store`; no shared caching |
+
+The static-asset `_headers` file owns browser cache headers. The favicon and hashed-asset rules detach the inherited `Cache-Control` header before setting their own value, so each response has one cache lifetime. The API sets its own cache headers.
 
 Configure public API caching explicitly. A general Cloudflare proxy does not cache HTML or JSON by default, and a cache lookup inside a Worker still invokes the Worker. Do not assume a cached API response eliminates Worker request accounting.
 
