@@ -1,0 +1,38 @@
+{
+  "id": "shimano-fc-7701",
+  "slug": "fc-7701",
+  "name": "Dura-Ace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7700"
+  ],
+  "type": "crankset",
+  "model_number": "FC-7701",
+  "weight_g": 594,
+  "weight_description": "Manufacturer-listed: 170 mm crank arms, 53/39T chainrings; excludes the separately listed bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-7701-2005/EV-FC-7701-2005.pdf",
+    "title": "Shimano FC-7701 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7701-2005/EV-FC-7701-2005.pdf",
+      "title": "Shimano FC-7701 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/28-29.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 28–29: Dura-Ace (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      53,
+      39
+    ],
+    "includes_bottom_bracket": false
+  }
+}

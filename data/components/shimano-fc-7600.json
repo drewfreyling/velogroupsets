@@ -1,0 +1,25 @@
+{
+  "id": "shimano-fc-7600",
+  "slug": "fc-7600",
+  "name": "Dura-Ace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-track"
+  ],
+  "type": "crankset",
+  "model_number": "FC-7600",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-7600-0719/EV-FC-7600-0719A.pdf",
+    "title": "Shimano FC-7600 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7600-0719/EV-FC-7600-0719A.pdf",
+      "title": "Shimano FC-7600 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

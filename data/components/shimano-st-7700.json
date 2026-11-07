@@ -1,0 +1,34 @@
+{
+  "id": "shimano-st-7700",
+  "slug": "st-7700",
+  "name": "Dura-Ace shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7700"
+  ],
+  "type": "shifters",
+  "model_number": "ST-7700",
+  "weight_g": 390,
+  "weight_description": "Manufacturer-listed: pair of ST-7700 nine-speed Dual Control levers, without Flight Deck compatibility.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-7700-1661/EV-ST-7700-1661A.pdf",
+    "title": "Shimano ST-7700 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-7700-1661/EV-ST-7700-1661A.pdf",
+      "title": "Shimano ST-7700 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/28-29.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 28–29: Dura-Ace (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "weight_basis": "Pair"
+  }
+}

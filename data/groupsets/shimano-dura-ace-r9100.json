@@ -1,0 +1,24 @@
+{
+  "id": "shimano-dura-ace-r9100",
+  "slug": "dura-ace-r9100",
+  "name": "Dura-Ace",
+  "manufacturer_id": "shimano",
+  "model_number": "R9100",
+  "generation": "Eleven-speed mechanical; rim and hydraulic-disc levers",
+  "year_range": {
+    "start": 2016,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=158",
+      "title": "Shimano 2017–2018 specifications, PDF page 158",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

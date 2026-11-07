@@ -1,0 +1,25 @@
+{
+  "id": "shimano-sm-fc7800",
+  "slug": "sm-fc7800",
+  "name": "Dura-Ace bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-FC7800",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-7800-2251/EV-FC-7800-2251E.pdf",
+    "title": "Shimano SM-FC7800 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7800-2251/EV-FC-7800-2251E.pdf",
+      "title": "Shimano SM-FC7800 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

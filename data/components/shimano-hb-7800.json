@@ -1,0 +1,31 @@
+{
+  "id": "shimano-hb-7800",
+  "slug": "hb-7800",
+  "name": "Dura-Ace front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-7800",
+  "weight_g": 129,
+  "weight_description": "Manufacturer-listed: hub only, without the separately listed quick-release skewer. Reference spoke count is not identified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-7800-2246/EV-HB-7800-2246A.pdf",
+    "title": "Shimano HB-7800 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-7800-2246/EV-HB-7800-2246A.pdf",
+      "title": "Shimano HB-7800 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=7",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 7: Dura-Ace 7800",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

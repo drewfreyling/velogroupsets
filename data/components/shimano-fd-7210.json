@@ -1,0 +1,25 @@
+{
+  "id": "shimano-fd-7210",
+  "slug": "fd-7210",
+  "name": "Dura-Ace front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-7210",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-7200_7210-0341/EV-FD-7200_7210-0341A.pdf",
+    "title": "Shimano FD-7210 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-7200_7210-0341/EV-FD-7200_7210-0341A.pdf",
+      "title": "Shimano FD-7210 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

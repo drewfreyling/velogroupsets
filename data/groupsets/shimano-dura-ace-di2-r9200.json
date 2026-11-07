@@ -1,0 +1,29 @@
+{
+  "id": "shimano-dura-ace-di2-r9200",
+  "slug": "dura-ace-di2-r9200",
+  "name": "Dura-Ace Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "R9200",
+  "generation": "Twelve-speed electronic Di2; rim and hydraulic-disc levers",
+  "year_range": {
+    "start": 2021,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.shimano.com/en/csr/news/news_detail_1.html",
+      "title": "Shimano, 7 December 2021: R9200 release in autumn 2021",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf",
+      "title": "Shimano 2025–2026 product line-up: Dura-Ace and track components",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

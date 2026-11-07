@@ -1,0 +1,37 @@
+{
+  "id": "shimano-rd-7700",
+  "slug": "rd-7700",
+  "name": "Dura-Ace rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7700"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-7700",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-7700-1656/EV-RD-7700-1656A.pdf",
+    "title": "Shimano RD-7700 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-7700-1656/EV-RD-7700-1656A.pdf",
+      "title": "Shimano RD-7700 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5TJ1G/SI-5TJ1G-000-00-ENG.pdf",
+      "title": "Shimano rear derailleur service instructions SI-5TJ1G",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 26,
+    "maximum_sprocket_teeth": 27,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 14,
+    "cage": "SS"
+  }
+}

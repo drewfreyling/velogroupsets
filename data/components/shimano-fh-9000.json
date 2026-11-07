@@ -1,0 +1,27 @@
+{
+  "id": "shimano-fh-9000",
+  "slug": "fh-9000",
+  "name": "Dura-Ace rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-9000",
+    "shimano-dura-ace-di2-9070"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-9000",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-9000-3327/EV-FH-9000-3327.pdf",
+    "title": "Shimano FH-9000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-9000-3327/EV-FH-9000-3327.pdf",
+      "title": "Shimano FH-9000 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

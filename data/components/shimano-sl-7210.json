@@ -1,0 +1,25 @@
+{
+  "id": "shimano-sl-7210",
+  "slug": "sl-7210",
+  "name": "Dura-Ace shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "shifters",
+  "model_number": "SL-7210",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-7210_7220-0528/EV-SL-7210_7220-0528.pdf",
+    "title": "Shimano SL-7210 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-7210_7220-0528/EV-SL-7210_7220-0528.pdf",
+      "title": "Shimano SL-7210 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

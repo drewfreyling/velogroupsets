@@ -1,0 +1,24 @@
+{
+  "id": "shimano-dura-ace-di2-7970",
+  "slug": "dura-ace-di2-7970",
+  "name": "Dura-Ace Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "7970",
+  "generation": "Ten-speed electronic Di2",
+  "year_range": {
+    "start": 2009,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_LINE-UP_CHART.pdf#page=23",
+      "title": "Shimano 2011 product line-up, PDF page 23: Dura-Ace 7900 and 7970",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

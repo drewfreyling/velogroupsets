@@ -1,0 +1,34 @@
+{
+  "id": "shimano-st-r9100",
+  "slug": "st-r9100",
+  "name": "Dura-Ace shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-r9100"
+  ],
+  "type": "shifters",
+  "model_number": "ST-R9100",
+  "weight_g": 365,
+  "weight_description": "Manufacturer average: pair of left and right shift/brake levers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-R9100-4057/EV-ST-R9100-4057.pdf",
+    "title": "Shimano ST-R9100 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-R9100-4057/EV-ST-R9100-4057.pdf",
+      "title": "Shimano ST-R9100 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=135",
+      "title": "Shimano 2017–2018 specifications, PDF page 135",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 11
+  }
+}

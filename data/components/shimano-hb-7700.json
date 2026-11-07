@@ -1,0 +1,26 @@
+{
+  "id": "shimano-hb-7700",
+  "slug": "hb-7700",
+  "name": "Dura-Ace front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7700"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-7700",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-7700-1653/EV-HB-7700-1653.pdf",
+    "title": "Shimano HB-7700 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-7700-1653/EV-HB-7700-1653.pdf",
+      "title": "Shimano HB-7700 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

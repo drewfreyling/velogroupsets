@@ -1,0 +1,37 @@
+{
+  "id": "shimano-rd-7401",
+  "slug": "rd-7401",
+  "name": "Dura-Ace rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-7401",
+  "weight_g": 205,
+  "weight_description": "Manufacturer-listed: seven-speed RD-7401 rear derailleur only.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-7401-0752/EV-RD-7401-0752B.pdf",
+    "title": "Shimano RD-7401 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-7401-0752/EV-RD-7401-0752B.pdf",
+      "title": "Shimano RD-7401 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_10.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 10 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 26,
+    "maximum_sprocket_teeth": 26,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": null,
+    "rear_speeds": 7
+  }
+}

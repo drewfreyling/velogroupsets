@@ -1,0 +1,31 @@
+{
+  "id": "shimano-cs-7900",
+  "slug": "cs-7900",
+  "name": "Dura-Ace cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7900",
+    "shimano-dura-ace-di2-7970"
+  ],
+  "type": "cassette",
+  "model_number": "CS-7900",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-7900-2869/EV-CS-7900-2869A.pdf",
+    "title": "Shimano CS-7900 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/CS-7900-2869/EV-CS-7900-2869A.pdf",
+      "title": "Shimano CS-7900 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_LINE-UP_CHART.pdf#page=23",
+      "title": "Shimano 2011 product line-up, PDF page 23: Dura-Ace 7900 and 7970",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

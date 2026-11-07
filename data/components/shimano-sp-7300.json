@@ -1,0 +1,25 @@
+{
+  "id": "shimano-sp-7300",
+  "slug": "sp-7300",
+  "name": "Dura-Ace seatpost",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "seatpost",
+  "model_number": "SP-7300",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SP-7300_7310_7320-0451/EV-SP-7300_7310_7320-0451A.pdf",
+    "title": "Shimano SP-7300 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SP-7300_7310_7320-0451/EV-SP-7300_7310_7320-0451A.pdf",
+      "title": "Shimano SP-7300 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

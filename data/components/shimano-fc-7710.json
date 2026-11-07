@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fc-7710",
+  "slug": "fc-7710",
+  "name": "Dura-Ace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-track"
+  ],
+  "type": "crankset",
+  "model_number": "FC-7710",
+  "weight_g": 566,
+  "weight_description": "Manufacturer average: 170 mm crank arms, single 52T chainring for 1/2 inch × 1/8 inch chain; excludes bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-7710-1841/EV-FC-7710-1841C.pdf",
+    "title": "Shimano FC-7710 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7710-1841/EV-FC-7710-1841C.pdf",
+      "title": "Shimano FC-7710 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=166",
+      "title": "Shimano 2025–2026 specifications, PDF page 166: FC-7710",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52
+    ],
+    "includes_bottom_bracket": false,
+    "chain_pitch_mm": 12.7,
+    "chain_width_inches": "1/8"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shimano-sm-bb9000",
+  "slug": "sm-bb9000",
+  "name": "Dura-Ace bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-9000",
+    "shimano-dura-ace-di2-9070"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-BB9000",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-9000-3325/EV-FC-9000-3325B.pdf",
+    "title": "Shimano SM-BB9000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-9000-3325/EV-FC-9000-3325B.pdf",
+      "title": "Shimano SM-BB9000 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

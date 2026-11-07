@@ -1,0 +1,29 @@
+{
+  "id": "shimano-hb-7600-r",
+  "slug": "hb-7600-r",
+  "name": "Dura-Ace track rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-track"
+  ],
+  "type": "rear-hub",
+  "model_number": "HB-7600-R",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-7600-R-728/EV-HB-7600-R-728A.pdf",
+    "title": "Shimano HB-7600 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-7600-R-728/EV-HB-7600-R-728A.pdf",
+      "title": "Shimano HB-7600 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Solid axle with nuts"
+  },
+  "weight_excludes_skewers": true
+}

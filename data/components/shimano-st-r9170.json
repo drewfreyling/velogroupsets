@@ -1,0 +1,25 @@
+{
+  "id": "shimano-st-r9170",
+  "slug": "st-r9170",
+  "name": "Dura-Ace shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-di2-r9150"
+  ],
+  "type": "shifters",
+  "model_number": "ST-R9170",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-R9170-4079/EV-ST-R9170-4079A.pdf",
+    "title": "Shimano ST-R9170 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-R9170-4079/EV-ST-R9170-4079A.pdf",
+      "title": "Shimano ST-R9170 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

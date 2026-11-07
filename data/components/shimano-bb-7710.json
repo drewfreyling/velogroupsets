@@ -1,0 +1,28 @@
+{
+  "id": "shimano-bb-7710",
+  "slug": "bb-7710",
+  "name": "Dura-Ace bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-track"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-7710",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BB-7710-1786/EV-BB-7710-1786B.pdf",
+    "title": "Shimano BB-7710 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BB-7710-1786/EV-BB-7710-1786B.pdf",
+      "title": "Shimano BB-7710 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "interface": "Octalink V1"
+  }
+}

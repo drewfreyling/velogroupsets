@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fc-7950",
+  "slug": "fc-7950",
+  "name": "Dura-Ace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7900",
+    "shimano-dura-ace-di2-7970"
+  ],
+  "type": "crankset",
+  "model_number": "FC-7950",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-7950-2878/EV-FC-7950-2878.pdf",
+    "title": "Shimano FC-7950 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7950-2878/EV-FC-7950-2878.pdf",
+      "title": "Shimano FC-7950 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_LINE-UP_CHART.pdf#page=23",
+      "title": "Shimano 2011 product line-up, PDF page 23: Dura-Ace 7900 and 7970",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

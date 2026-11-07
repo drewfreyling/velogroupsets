@@ -1,0 +1,33 @@
+{
+  "id": "shimano-pd-7810",
+  "slug": "pd-7810",
+  "name": "Dura-Ace pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800"
+  ],
+  "type": "pedals",
+  "model_number": "PD-7810",
+  "weight_g": 278,
+  "weight_description": "Manufacturer-listed: pedal pair, without the separately listed cleats.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-7810-2662/EV-PD-7810-2662.pdf",
+    "title": "Shimano PD-7810 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-7810-2662/EV-PD-7810-2662.pdf",
+      "title": "Shimano PD-7810 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=7",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 7: Dura-Ace 7800",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair, without cleats"
+  }
+}

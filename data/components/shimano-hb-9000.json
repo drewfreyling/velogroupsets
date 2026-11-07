@@ -1,0 +1,27 @@
+{
+  "id": "shimano-hb-9000",
+  "slug": "hb-9000",
+  "name": "Dura-Ace front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-9000",
+    "shimano-dura-ace-di2-9070"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-9000",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-9000-3328/EV-HB-9000-3328.pdf",
+    "title": "Shimano HB-9000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-9000-3328/EV-HB-9000-3328.pdf",
+      "title": "Shimano HB-9000 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

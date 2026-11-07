@@ -1,0 +1,24 @@
+{
+  "id": "shimano-dura-ace-9000",
+  "slug": "dura-ace-9000",
+  "name": "Dura-Ace",
+  "manufacturer_id": "shimano",
+  "model_number": "9000",
+  "generation": "Eleven-speed mechanical",
+  "year_range": {
+    "start": 2012,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=158",
+      "title": "Shimano 2017–2018 specifications, PDF page 158",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

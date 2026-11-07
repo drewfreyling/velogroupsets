@@ -1,0 +1,35 @@
+{
+  "id": "shimano-bb-r9100",
+  "slug": "bb-r9100",
+  "name": "Dura-Ace bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-r9100",
+    "shimano-dura-ace-di2-r9150",
+    "shimano-dura-ace-di2-r9200"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-R9100",
+  "weight_g": 65,
+  "weight_description": "Manufacturer average: threaded HOLLOWTECH II bottom-bracket cup assembly.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-P-4810/EV-FC-R9200-P-4810B.pdf",
+    "title": "Shimano BB-R9100 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-P-4810/EV-FC-R9200-P-4810B.pdf",
+      "title": "Shimano BB-R9100 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=171",
+      "title": "Shimano 2025–2026 specifications, PDF page 171",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II"
+  }
+}

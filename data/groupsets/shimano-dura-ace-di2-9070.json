@@ -1,0 +1,24 @@
+{
+  "id": "shimano-dura-ace-di2-9070",
+  "slug": "dura-ace-di2-9070",
+  "name": "Dura-Ace Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "9070",
+  "generation": "Eleven-speed electronic Di2",
+  "year_range": {
+    "start": 2013,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=193",
+      "title": "Shimano 2014–2015 specifications, PDF page 193",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

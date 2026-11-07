@@ -1,0 +1,34 @@
+{
+  "id": "shimano-st-7801",
+  "slug": "st-7801",
+  "name": "Dura-Ace shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800"
+  ],
+  "type": "shifters",
+  "model_number": "ST-7801",
+  "weight_g": 420,
+  "weight_description": "Manufacturer-listed: pair of ST-7801 ten-speed Dual Control levers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-7801-2435/EV-ST-7801-2435.pdf",
+    "title": "Shimano ST-7801 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-7801-2435/EV-ST-7801-2435.pdf",
+      "title": "Shimano ST-7801 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=7",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 7: Dura-Ace 7800",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "weight_basis": "Pair"
+  }
+}

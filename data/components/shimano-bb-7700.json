@@ -1,0 +1,40 @@
+{
+  "id": "shimano-bb-7700",
+  "slug": "bb-7700",
+  "name": "Dura-Ace bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7700",
+    "shimano-dura-ace-track"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-7700",
+  "weight_g": 173,
+  "weight_description": "Manufacturer-listed: Octalink bottom bracket for a 68 mm shell.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BB-7700-1657/EV-BB-7700-1657B.pdf",
+    "title": "Shimano BB-7700 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BB-7700-1657/EV-BB-7700-1657B.pdf",
+      "title": "Shimano BB-7700 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/28-29.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 28–29: Dura-Ace (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_SPECIFICATION.pdf#page=118",
+      "title": "Shimano 2005 specifications, PDF page 118: BB-7700 and BB-7710 for FC-7710",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "interface": "Octalink V1",
+    "bb_shell_width_mm": 68
+  }
+}

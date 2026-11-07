@@ -1,0 +1,26 @@
+{
+  "id": "shimano-cs-9000",
+  "slug": "cs-9000",
+  "name": "Dura-Ace cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-9000",
+    "shimano-dura-ace-di2-9070"
+  ],
+  "type": "cassette",
+  "model_number": "CS-9000",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-9000-3324/EV-CS-9000-3324B.pdf",
+    "title": "Shimano CS-9000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/CS-9000-3324/EV-CS-9000-3324B.pdf",
+      "title": "Shimano CS-9000 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

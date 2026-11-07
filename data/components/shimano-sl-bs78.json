@@ -1,0 +1,25 @@
+{
+  "id": "shimano-sl-bs78",
+  "slug": "sl-bs78",
+  "name": "Dura-Ace shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800"
+  ],
+  "type": "shifters",
+  "model_number": "SL-BS78",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-BS78-2282/EV-SL-BS78-2282.pdf",
+    "title": "Shimano SL-BS78 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-BS78-2282/EV-SL-BS78-2282.pdf",
+      "title": "Shimano SL-BS78 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

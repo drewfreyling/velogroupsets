@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fc-7000",
+  "slug": "fc-7000",
+  "name": "Dura-Ace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-10-7000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-7000",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-7000-DURA-ACE%2010-0292/EV-FC-7000-DURA-ACE%2010-0292A.pdf",
+    "title": "Shimano FC-7000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7000-DURA-ACE%2010-0292/EV-FC-7000-DURA-ACE%2010-0292A.pdf",
+      "title": "Shimano FC-7000 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "chain_pitch_mm": 10
+  }
+}

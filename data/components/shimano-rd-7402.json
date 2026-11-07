@@ -1,0 +1,36 @@
+{
+  "id": "shimano-rd-7402",
+  "slug": "rd-7402",
+  "name": "Dura-Ace rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-7402",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-7402-0956/EV-RD-7402-0956B.pdf",
+    "title": "Shimano RD-7402 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-7402-0956/EV-RD-7402-0956B.pdf",
+      "title": "Shimano RD-7402 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/R-83/SI-R-83-000-00-ENG.pdf",
+      "title": "Shimano rear derailleur service instructions SI-R-83",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 26,
+    "maximum_sprocket_teeth": 26,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 14
+  }
+}

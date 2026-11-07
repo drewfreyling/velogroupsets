@@ -1,0 +1,24 @@
+{
+  "id": "shimano-dura-ace-10-7000",
+  "slug": "dura-ace-10-7000",
+  "name": "Dura-Ace 10",
+  "manufacturer_id": "shimano",
+  "model_number": "7000",
+  "generation": "Track system with 10 mm chain pitch, not ten-speed",
+  "year_range": {
+    "start": 1976,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7000-DURA-ACE%2010-0292/EV-FC-7000-DURA-ACE%2010-0292A.pdf",
+      "title": "Shimano FC-7000 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

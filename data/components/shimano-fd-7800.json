@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fd-7800",
+  "slug": "fd-7800",
+  "name": "Dura-Ace front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-7800",
+  "weight_g": 74,
+  "weight_description": "Manufacturer-listed: braze-on double front derailleur.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-7800-2255/EV-FD-7800-2255A.pdf",
+    "title": "Shimano FD-7800 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-7800-2255/EV-FD-7800-2255A.pdf",
+      "title": "Shimano FD-7800 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=7",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 7: Dura-Ace 7800",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2
+  }
+}

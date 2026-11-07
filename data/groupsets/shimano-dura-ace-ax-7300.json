@@ -1,0 +1,19 @@
+{
+  "id": "shimano-dura-ace-ax-7300",
+  "slug": "dura-ace-ax-7300",
+  "name": "Dura-Ace AX",
+  "manufacturer_id": "shimano",
+  "model_number": "7300",
+  "generation": "Aerodynamic road range",
+  "year_range": {
+    "start": 1980,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fd-r9150",
+  "slug": "fd-r9150",
+  "name": "Dura-Ace front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-di2-r9150"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R9150",
+  "weight_g": 104,
+  "weight_description": "Manufacturer average: braze-on double front derailleur.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-R9150-4063/EV-FD-R9150-4063C.pdf",
+    "title": "Shimano FD-R9150 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-R9150-4063/EV-FD-R9150-4063C.pdf",
+      "title": "Shimano FD-R9150 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=130",
+      "title": "Shimano 2025–2026 specifications, PDF page 130",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2
+  }
+}

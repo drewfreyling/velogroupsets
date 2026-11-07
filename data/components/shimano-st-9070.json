@@ -1,0 +1,34 @@
+{
+  "id": "shimano-st-9070",
+  "slug": "st-9070",
+  "name": "Dura-Ace shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-di2-9070"
+  ],
+  "type": "shifters",
+  "model_number": "ST-9070",
+  "weight_g": 237,
+  "weight_description": "Manufacturer average: pair of left and right shift/brake levers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-9070-3332/EV-ST-9070-3332B.pdf",
+    "title": "Shimano ST-9070 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-9070-3332/EV-ST-9070-3332B.pdf",
+      "title": "Shimano ST-9070 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=191",
+      "title": "Shimano 2014–2015 specifications, PDF page 191",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 11
+  }
+}

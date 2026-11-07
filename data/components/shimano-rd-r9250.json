@@ -1,0 +1,37 @@
+{
+  "id": "shimano-rd-r9250",
+  "slug": "rd-r9250",
+  "name": "Dura-Ace rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-di2-r9200"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-R9250",
+  "weight_g": 215,
+  "weight_description": "Manufacturer average: rear derailleur only; reference edition linked in Sources.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-R9250-4812/EV-RD-R9250-4812.pdf",
+    "title": "Shimano RD-R9250 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-R9250-4812/EV-RD-R9250-4812.pdf",
+      "title": "Shimano RD-R9250 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=128",
+      "title": "Shimano 2025–2026 specifications, PDF page 128",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16,
+    "rear_speeds": 12
+  }
+}

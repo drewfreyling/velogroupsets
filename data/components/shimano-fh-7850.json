@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fh-7850",
+  "slug": "fh-7850",
+  "name": "Dura-Ace rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-7850",
+  "weight_g": 267,
+  "weight_description": "Manufacturer-listed: hub only, without the separately listed quick-release skewer. Reference spoke count is not identified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-7850-2714/EV-FH-7850-2714A.pdf",
+    "title": "Shimano FH-7850 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-7850-2714/EV-FH-7850-2714A.pdf",
+      "title": "Shimano FH-7850 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=7",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 7: Dura-Ace 7800",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

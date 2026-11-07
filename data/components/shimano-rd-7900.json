@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-7900",
+  "slug": "rd-7900",
+  "name": "Dura-Ace rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7900"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-7900",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-7900-2871/EV-RD-7900-2871B.pdf",
+    "title": "Shimano RD-7900 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-7900-2871/EV-RD-7900-2871B.pdf",
+      "title": "Shimano RD-7900 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=92",
+      "title": "Shimano 2008–2009 specifications, PDF page 92",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 33,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16,
+    "rear_speeds": 10,
+    "cage": "SS"
+  }
+}

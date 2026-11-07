@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-9070",
+  "slug": "rd-9070",
+  "name": "Dura-Ace rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-di2-9070"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-9070",
+  "weight_g": 217,
+  "weight_description": "Manufacturer average: rear derailleur only; reference edition linked in Sources.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-9070-3442/EV-RD-9070-3442.pdf",
+    "title": "Shimano RD-9070 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-9070-3442/EV-RD-9070-3442.pdf",
+      "title": "Shimano RD-9070 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=193",
+      "title": "Shimano 2014–2015 specifications, PDF page 193",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 33,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16,
+    "rear_speeds": 11,
+    "cage": "SS"
+  }
+}

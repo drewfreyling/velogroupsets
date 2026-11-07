@@ -1,0 +1,38 @@
+{
+  "id": "shimano-fc-r9200",
+  "slug": "fc-r9200",
+  "name": "Dura-Ace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-di2-r9200"
+  ],
+  "type": "crankset",
+  "model_number": "FC-R9200",
+  "weight_g": 685,
+  "weight_description": "Manufacturer average: 170 mm crank arms, 50/34T chainrings; excludes bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-4809/EV-FC-R9200-4809A.pdf",
+    "title": "Shimano FC-R9200 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-4809/EV-FC-R9200-4809A.pdf",
+      "title": "Shimano FC-R9200 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=165",
+      "title": "Shimano 2025–2026 specifications, PDF page 165",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      34
+    ],
+    "includes_bottom_bracket": false
+  }
+}

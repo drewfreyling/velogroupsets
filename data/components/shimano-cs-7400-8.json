@@ -1,0 +1,28 @@
+{
+  "id": "shimano-cs-7400-8",
+  "slug": "cs-7400-8",
+  "name": "Dura-Ace cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "cassette",
+  "model_number": "CS-7400-8",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-7402_CS-7400-8-0957/EV-FH-7402_CS-7400-8-0957.pdf",
+    "title": "Shimano CS-7400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-7402_CS-7400-8-0957/EV-FH-7402_CS-7400-8-0957.pdf",
+      "title": "Shimano CS-7400 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-cs-7800",
+  "slug": "cs-7800",
+  "name": "Dura-Ace cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800"
+  ],
+  "type": "cassette",
+  "model_number": "CS-7800",
+  "weight_g": 173,
+  "weight_description": "Manufacturer-listed: ten-speed 11–23T cassette.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-7800-2253/EV-CS-7800-2253.pdf",
+    "title": "Shimano CS-7800 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/CS-7800-2253/EV-CS-7800-2253.pdf",
+      "title": "Shimano CS-7800 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=7",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 7: Dura-Ace 7800",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–23T"
+  }
+}

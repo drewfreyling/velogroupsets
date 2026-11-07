@@ -1,0 +1,25 @@
+{
+  "id": "shimano-st-7400",
+  "slug": "st-7400",
+  "name": "Dura-Ace shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "shifters",
+  "model_number": "ST-7400",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-7400-1144/EV-ST-7400-1144F.pdf",
+    "title": "Shimano ST-7400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-7400-1144/EV-ST-7400-1144F.pdf",
+      "title": "Shimano ST-7400 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fc-9000",
+  "slug": "fc-9000",
+  "name": "Dura-Ace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-9000",
+    "shimano-dura-ace-di2-9070"
+  ],
+  "type": "crankset",
+  "model_number": "FC-9000",
+  "weight_g": 618,
+  "weight_description": "Manufacturer average: 170 mm crank arms, 53/39T chainrings; excludes bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-9000-3325/EV-FC-9000-3325B.pdf",
+    "title": "Shimano FC-9000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-9000-3325/EV-FC-9000-3325B.pdf",
+      "title": "Shimano FC-9000 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=170",
+      "title": "Shimano 2017–2018 specifications, PDF page 170",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      53,
+      39
+    ],
+    "includes_bottom_bracket": false
+  }
+}

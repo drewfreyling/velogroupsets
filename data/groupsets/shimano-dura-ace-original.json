@@ -1,0 +1,24 @@
+{
+  "id": "shimano-dura-ace-original",
+  "slug": "dura-ace-original",
+  "name": "Dura-Ace",
+  "manufacturer_id": "shimano",
+  "model_number": "Original",
+  "generation": "Original road range; no numbered series in the 1973 brochure",
+  "year_range": {
+    "start": 1973,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.sheldonbrown.com/shimano1973/",
+      "title": "Shimano original Dura-Ace 1973 brochure (archived by Sheldon Brown)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

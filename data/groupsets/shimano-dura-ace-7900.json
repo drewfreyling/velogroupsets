@@ -1,0 +1,24 @@
+{
+  "id": "shimano-dura-ace-7900",
+  "slug": "dura-ace-7900",
+  "name": "Dura-Ace",
+  "manufacturer_id": "shimano",
+  "model_number": "7900",
+  "generation": "Ten-speed mechanical",
+  "year_range": {
+    "start": 2008,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_LINE-UP_CHART.pdf#page=23",
+      "title": "Shimano 2011 product line-up, PDF page 23: Dura-Ace 7900 and 7970",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

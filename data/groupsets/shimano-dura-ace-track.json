@@ -1,0 +1,29 @@
+{
+  "id": "shimano-dura-ace-track",
+  "slug": "dura-ace-track",
+  "name": "Dura-Ace Track",
+  "manufacturer_id": "shimano",
+  "model_number": "7600/7710",
+  "generation": "Conventional-pitch track range; square-taper 7600 and Octalink 7710 variants",
+  "year_range": {
+    "start": 1985,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7600-0719/EV-FC-7600-0719A.pdf",
+      "title": "Shimano FC-7600 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_SPECIFICATION.pdf#page=118",
+      "title": "Shimano 2005 specifications, PDF page 118: BB-7700 and BB-7710 for FC-7710",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "shimano-fd-7803",
+  "slug": "fd-7803",
+  "name": "Dura-Ace front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-7803",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-7803-2447/EV-FD-7803-2447A.pdf",
+    "title": "Shimano FD-7803 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-7803-2447/EV-FD-7803-2447A.pdf",
+      "title": "Shimano FD-7803 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-st-r9150",
+  "slug": "st-r9150",
+  "name": "Dura-Ace shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-di2-r9150"
+  ],
+  "type": "shifters",
+  "model_number": "ST-R9150",
+  "weight_g": 230,
+  "weight_description": "Manufacturer average: pair of left and right shift/brake levers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-R9150-4062/EV-ST-R9150-4062.pdf",
+    "title": "Shimano ST-R9150 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-R9150-4062/EV-ST-R9150-4062.pdf",
+      "title": "Shimano ST-R9150 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=125",
+      "title": "Shimano 2025–2026 specifications, PDF page 125",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 11
+  }
+}

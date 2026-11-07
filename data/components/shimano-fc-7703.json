@@ -1,0 +1,25 @@
+{
+  "id": "shimano-fc-7703",
+  "slug": "fc-7703",
+  "name": "Dura-Ace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7700"
+  ],
+  "type": "crankset",
+  "model_number": "FC-7703",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-7703-2064/EV-FC-7703-2064A.pdf",
+    "title": "Shimano FC-7703 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7703-2064/EV-FC-7703-2064A.pdf",
+      "title": "Shimano FC-7703 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

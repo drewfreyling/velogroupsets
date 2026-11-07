@@ -1,0 +1,24 @@
+{
+  "id": "shimano-dura-ace-7700",
+  "slug": "dura-ace-7700",
+  "name": "Dura-Ace",
+  "manufacturer_id": "shimano",
+  "model_number": "7700",
+  "generation": "Nine-speed mechanical; double and later triple variants",
+  "year_range": {
+    "start": 1996,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/28-29.htm",
+      "title": "Shimano 2001 Bicycle Components, pages 28–29: Dura-Ace (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

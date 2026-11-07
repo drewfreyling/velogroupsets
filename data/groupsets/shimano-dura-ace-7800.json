@@ -1,0 +1,24 @@
+{
+  "id": "shimano-dura-ace-7800",
+  "slug": "dura-ace-7800",
+  "name": "Dura-Ace",
+  "manufacturer_id": "shimano",
+  "model_number": "7800",
+  "generation": "Ten-speed mechanical; double and triple variants",
+  "year_range": {
+    "start": 2004,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=7",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 7: Dura-Ace 7800",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "shimano-pd-7700",
+  "slug": "pd-7700",
+  "name": "Dura-Ace pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7700"
+  ],
+  "type": "pedals",
+  "model_number": "PD-7700",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-7700-1708/EV-PD-7700-1708C.pdf",
+    "title": "Shimano PD-7700 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-7700-1708/EV-PD-7700-1708C.pdf",
+      "title": "Shimano PD-7700 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

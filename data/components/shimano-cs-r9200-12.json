@@ -1,0 +1,34 @@
+{
+  "id": "shimano-cs-r9200-12",
+  "slug": "cs-r9200-12",
+  "name": "Dura-Ace cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-di2-r9200"
+  ],
+  "type": "cassette",
+  "model_number": "CS-R9200-12",
+  "weight_g": 223,
+  "weight_description": "Manufacturer average: twelve-speed 11–30T cassette.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-R9200-4808/EV-CS-R9200-4808A.pdf",
+    "title": "Shimano CS-R9200-12 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/CS-R9200-4808/EV-CS-R9200-4808A.pdf",
+      "title": "Shimano CS-R9200-12 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=173",
+      "title": "Shimano 2025–2026 specifications, PDF page 173",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_range": "11–30T"
+  }
+}

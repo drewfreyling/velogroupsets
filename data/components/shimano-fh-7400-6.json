@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fh-7400-6",
+  "slug": "fh-7400-6",
+  "name": "Dura-Ace rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-7400-6",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-7400-6-0680/EV-FH-7400-6-0680D.pdf",
+    "title": "Shimano FH-7400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-7400-6-0680/EV-FH-7400-6-0680D.pdf",
+      "title": "Shimano FH-7400 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

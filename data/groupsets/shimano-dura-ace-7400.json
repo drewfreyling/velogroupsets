@@ -1,0 +1,29 @@
+{
+  "id": "shimano-dura-ace-7400",
+  "slug": "dura-ace-7400",
+  "name": "Dura-Ace",
+  "manufacturer_id": "shimano",
+  "model_number": "7400",
+  "generation": "Six-, seven- and eight-speed SIS; later STI variants",
+  "year_range": {
+    "start": 1984,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace, original range through R9100/R9150",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_10.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 10 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_11.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 11 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}
