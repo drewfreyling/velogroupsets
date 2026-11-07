@@ -4,7 +4,7 @@ An open-source reference for bicycle groupsets and components, with community ph
 
 VeloGroupsets aims to make component specifications and identification information easy to browse, search, and improve. Most traffic should be served as static content at Cloudflare's edge; a small API handles community contributions.
 
-> **Status: infrastructure and catalogue foundation.** OpenTofu configuration, CI, catalogue schemas and validation are implemented. R2 state-bucket/GitHub environment setup and the first reviewed infrastructure apply are still required. The application and Wrangler deployment are not implemented yet.
+> **Status: infrastructure and catalogue foundation.** OpenTofu configuration, CI, catalogue schemas and validation are implemented. The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). Production deployment remains pending. The application and Wrangler deployment are not implemented yet.
 
 ## Planned features
 
@@ -217,7 +217,8 @@ Use `!` and/or a `BREAKING CHANGE:` footer for breaking changes. See [AGENTS.md]
 - [ ] Add photo comments, reporting, and contributor quotas.
 - [x] Implement credential-free CI and a manual OpenTofu plan/approval/apply workflow.
 - [x] Define initial D1, R2, upload policies, and Turnstile OpenTofu resources.
-- [ ] Bootstrap the private R2 state bucket and protected GitHub environments and complete the first reviewed staging/production applies.
+- [x] Bootstrap the private R2 state backend and staging GitHub environments; complete the reviewed staging foundation apply.
+- [ ] Configure production environments and complete a reviewed production foundation apply.
 - [ ] Add isolated app previews, website DNS/routes, cache/WAF rules, and Wrangler production deployment.
 - [ ] Establish backup, restore, deletion, and usage-monitoring procedures.
 - [ ] Finalize catalogue licensing and user contribution/photo terms before accepting uploads.

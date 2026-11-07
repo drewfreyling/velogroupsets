@@ -1,6 +1,19 @@
 # Infrastructure and CI
 
-OpenTofu manages Cloudflare resources; GitHub Actions runs checks, creates plans, and applies reviewed saved plans. A dedicated **private R2 bucket** stores encrypted state, plans, and recovery snapshots. No HCP account is needed. These files have not provisioned live resources yet.
+OpenTofu manages Cloudflare resources; GitHub Actions runs checks, creates plans, and applies reviewed saved plans. A dedicated **private R2 bucket** stores encrypted state, plans, and recovery snapshots. No HCP account is needed. The staging foundation was [successfully applied on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). Production deployment remains pending.
+
+## Deployed staging foundation
+
+| Resource | Name |
+| --- | --- |
+| D1 database | `velogroupsets-staging-community` |
+| Private temporary-upload R2 bucket | `velogroupsets-staging-uploads` |
+| Approved-photo R2 bucket, public access disabled | `velogroupsets-staging-photos` |
+| Turnstile widget | `velogroupsets-staging-submissions` |
+
+The apply also configured upload CORS, lifecycle policies, and disabled public `r2.dev` access. State and saved plans use the separately bootstrapped `velogroupsets-infra-state` bucket, with encrypted pre/post-apply snapshots. The staging GitHub environment has a required reviewer. Runtime binding IDs and the public Turnstile site key are available in secured OpenTofu outputs; the widget secret stays private.
+
+This provisions the data/storage/abuse-prevention foundation. Worker/static-site deployment, website DNS and a browsable staging site remain to be implemented.
 
 ## Included resources
 
@@ -88,7 +101,7 @@ Snapshots use immutable keys under `snapshots/<environment>/<run>/<attempt>/`. T
 
 Inventory existing resources before applying. D1, R2 buckets, and Turnstile widgets support import; several R2 settings resources in provider 5.28.1 do not. Review supported IDs and deliberately reconcile existing CORS/lifecycle/domain settings. `prevent_destroy` only protects a resource while its block remains in configuration. State snapshots do not back up D1 rows or photo bytes.
 
-No live Terraform state has been created by this project, so this switch requires no live state migration. If you have independently created state elsewhere, stop and plan its encrypted migration first.
+The switch from Terraform to OpenTofu occurred before provisioning, so no Terraform state migration was needed. Staging OpenTofu state is now live. Preserve its backend key and encryption material, and plan any future state/backend migration explicitly.
 
 ### Failed deployment inspection
 

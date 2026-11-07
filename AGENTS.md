@@ -33,7 +33,7 @@ feat(api)!: change photo comment response format
 
 ## Project context
 
-Read [README.md](README.md) and [docs/architecture.md](docs/architecture.md) before changing the design. OpenTofu configuration, CI and catalogue schemas/validation are implemented; Cloudflare resources have not yet been provisioned and the application remains planned. Read [infra/README.md](infra/README.md) before infrastructure or workflow changes. Describe implemented and planned capabilities accurately.
+Read [README.md](README.md) and [docs/architecture.md](docs/architecture.md) before changing the design. OpenTofu configuration, CI and catalogue schemas/validation are implemented; The staging Cloudflare D1/R2/Turnstile foundation is provisioned; production deployment and the application remain planned. Existing staging state is live: inspect it and review plans before infrastructure changes. Read [infra/README.md](infra/README.md) before infrastructure or workflow changes. Describe implemented and planned capabilities accurately.
 
 Keep curated catalogue data in Git; keep real user accounts, comments, photos, database exports, and secrets out of the repository. Preserve stable catalogue IDs and cite sources for component facts.
 

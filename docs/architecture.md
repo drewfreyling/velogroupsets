@@ -1,6 +1,6 @@
 # Architecture
 
-**Status:** initial OpenTofu, CI and catalogue schemas/validation are implemented; Cloudflare resources have not yet been provisioned. Application components and Wrangler deployment remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
+**Status:** initial OpenTofu, CI and catalogue schemas/validation are implemented; The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273); production deployment remains pending. Application components and Wrangler deployment remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
 
 ## Goals and starting decisions
 
@@ -226,5 +226,5 @@ D1 uses SQLite semantics. Versioned JSON catalogue records, SQL migrations, and 
 - Supported image formats, byte/pixel limits, quota values, and retention periods.
 - Moderation policy, reporting, privacy/deletion policy, and user-photo permissions.
 - Populate sourced catalogue records, refine type-specific specifications, and finalize dedicated data licensing.
-- Bootstrap the private R2 state bucket, validate live locking, configure protected GitHub environments and the first reviewed applies for the configured Cloudflare account.
+- Configure production GitHub environments and complete the reviewed production apply. Staging state storage, live locking and the reviewed foundation apply are complete.
 - Website DNS/Worker route ownership and targets, image-domain activation, and application deployment coordination.
