@@ -117,7 +117,9 @@ Schema migrations, cache/WAF rules, image processing, application backups and qu
 
 ## Website deployment
 
-The [Deploy website workflow](../.github/workflows/deploy-web.yml) is manual, `main`-only and protected by the target GitHub environment. It runs full CI, builds Astro/Tailwind for the target hostname, reads the encrypted R2 state privately with OpenTofu, exports only expected database/bucket bindings, and deploys code/static assets with pinned Wrangler. It never creates new D1/R2 resources, publishes state/plan artifacts, or changes infrastructure state. The generated binding file is deleted after deployment and ignored by Git.
+The [Deploy website workflow](../.github/workflows/deploy-web.yml) is manual, `main`-only and protected by the target GitHub environment. Its `checks` job calls the reusable CI workflow for the selected commit. The deploy job has `needs: checks` and explicitly requires `needs.checks.result == 'success'`: all CI jobs, including the application build and tests, must pass before deployment can reach environment approval. Failed, cancelled or skipped checks do not permit deployment.
+
+After approval, it builds Astro/Tailwind for the target hostname, reads the encrypted R2 state privately with OpenTofu, exports only expected database/bucket bindings, and deploys code/static assets with pinned Wrangler. It never creates new D1/R2 resources, publishes state/plan artifacts, or changes infrastructure state. The generated binding file is deleted after deployment and ignored by Git.
 
 Extend `CLOUDFLARE_API_TOKEN` permissions while retaining existing D1/R2/Turnstile permissions:
 

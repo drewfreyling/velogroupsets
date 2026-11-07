@@ -43,6 +43,8 @@ For implementation changes, run the relevant checks that actually exist and docu
 
 Keep infrastructure under `infra/opentofu/`. OpenTofu owns provisioned Cloudflare resources; Wrangler owns Worker code, static assets, and bindings. Never give both tools ownership of the same setting. Private R2 stores encrypted state and plans. GitHub Actions runs OpenTofu with verified backend locking; require GitHub environment approval and apply the exact checksum-verified saved plan. Never regenerate the plan in the apply job. Do not add state, saved plans, credentials, or secret outputs to Git or public CI artifacts.
 
+Keep website deployment manual through `workflow_dispatch`. The deploy job must depend on successful reusable CI for the same commit, with an explicit success condition before GitHub environment approval.
+
 Run the credential-free checks listed in [infra/README.md](infra/README.md#toolchain-and-checks). Mocked OpenTofu tests do not prove live API access or provisioning. Keep production credentials out of PR checks and use Conventional Commits for all changes.
 
 ## Catalogue and UI
