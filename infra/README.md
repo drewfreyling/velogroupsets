@@ -119,6 +119,8 @@ Schema migrations, cache/WAF rules, image processing, application backups and qu
 
 The [Deploy website workflow](../.github/workflows/deploy-web.yml) is manual, `main`-only and protected by the target GitHub environment. Its `checks` job calls the reusable CI workflow for the selected commit. The deploy job has `needs: checks` and explicitly requires `needs.checks.result == 'success'`: all CI jobs, including the application build and tests, must pass before deployment can reach environment approval. Failed, cancelled or skipped checks do not permit deployment.
 
+The application CI job includes the full [Playwright functionality suite](../README.md#browser-functionality-checks) in desktop and mobile Chromium configurations. Browser failures block this same gate; the tests are not an optional deployment-only step. Failure artifacts contain only the browser report, screenshots and traces from the local test server, with seven-day retention. State, plans and deployment credentials are not part of those artifacts.
+
 After approval, it builds Astro/Tailwind for the target hostname, reads the encrypted R2 state privately with OpenTofu, exports only expected database/bucket bindings, and deploys code/static assets with pinned Wrangler. It never creates new D1/R2 resources, publishes state/plan artifacts, or changes infrastructure state. The generated binding file is deleted after deployment and ignored by Git.
 
 Extend `CLOUDFLARE_API_TOKEN` permissions while retaining existing D1/R2/Turnstile permissions:

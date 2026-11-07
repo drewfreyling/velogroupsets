@@ -156,7 +156,21 @@ Wrangler serves the built site at `http://localhost:8787`; `GET /api/health` rep
 
 Set `SITE_URL` during builds to generate environment-specific canonical URLs. Staging/localhost builds include `noindex`; normal assets bypass Worker execution, while `/api` and `/api/*` explicitly run the Worker.
 
-Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, catalogue schemas/relationships, automation tests, OpenTofu formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, private R2 backend setup, environment configuration, and the manual plan/approval/apply workflow. CI also builds the static site, tests generated links and Worker routing, checks the Wrangler bundle, and runs Chromium browser tests.
+Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, catalogue schemas/relationships, automation tests, OpenTofu formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, private R2 backend setup, environment configuration, and the manual plan/approval/apply workflow. CI also builds the static site, tests generated links and Worker routing, checks the Wrangler bundle, and runs Playwright in desktop and mobile Chromium configurations.
+
+### Browser functionality checks
+
+Run `npm run build` followed by `npm run test:browser`. Playwright starts a local Wrangler server against the built site. Both projects use Chromium: a desktop profile and an emulated Pixel 5 with touch input. This does not claim Firefox, WebKit or physical-device coverage.
+
+The suite exercises catalogue browsing, combined search/type/groupset filters, reload and browser Back navigation, model-number links, shared component pages, sourced/unknown weights, 404 recovery, navigation without JavaScript, cache/security headers, external links and theme behaviour including cross-tab changes. Comments, uploads and authentication are not yet implemented and are not represented as working test flows.
+
+| Stage | Browser checks |
+| --- | --- |
+| Pull requests and pushes to `main` | Full Playwright suite in the **Application build and tests** CI job |
+| Manual website deployment | Reuses the same CI suite for the selected commit; a browser-test failure blocks environment approval and deployment |
+| Live staging verification | Separate manual **Verify staging HTTPS** smoke workflow checks public HTTP/TLS behaviour; it does not replace the local functionality suite |
+
+Browser failures fail CI. On failure, GitHub retains the HTML report, screenshots and Playwright traces for seven days under the `playwright-failures-…` artifact. Locally, use `npx --no-install playwright show-report` to inspect the report. These generated files are ignored by Git; CI tests use local public catalogue fixtures and no deployment credentials.
 
 ## Infrastructure ownership
 

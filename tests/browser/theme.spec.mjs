@@ -62,11 +62,27 @@ test('the toggle works when storage is blocked and remains usable on mobile', as
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
-test('without JavaScript the system dark palette still renders and the inactive toggle stays hidden', async ({browser}) => {
-  const context = await browser.newContext({javaScriptEnabled:false,colorScheme:'dark'});
-  const page = await context.newPage();
-  await page.goto('http://127.0.0.1:8787/');
-  await expect(page.locator('body')).toHaveCSS('background-color', 'rgb(11, 21, 20)');
-  await expect(page.getByRole('button', {name:'Dark mode',exact:true})).toHaveCount(0);
-  await context.close();
+test('saved theme changes synchronize between tabs', async ({page, context}) => {
+  await page.emulateMedia({colorScheme:'light'});
+  await page.goto('/');
+  const other = await context.newPage();
+  await other.emulateMedia({colorScheme:'light'});
+  await other.goto('/catalogue/');
+  const firstToggle = page.getByRole('button', {name:'Dark mode',exact:true});
+  const otherToggle = other.getByRole('button', {name:'Dark mode',exact:true});
+  await firstToggle.click();
+  await expect(otherToggle).toHaveAttribute('aria-pressed', 'true');
+  await otherToggle.click();
+  await expect(firstToggle).toHaveAttribute('aria-pressed', 'false');
+});
+
+test.describe('without JavaScript', () => {
+  test.use({javaScriptEnabled:false});
+
+  test('the system dark palette renders and the inactive toggle stays hidden', async ({page}) => {
+    await page.emulateMedia({colorScheme:'dark'});
+    await page.goto('/');
+    await expect(page.locator('body')).toHaveCSS('background-color', 'rgb(11, 21, 20)');
+    await expect(page.getByRole('button', {name:'Dark mode',exact:true})).toHaveCount(0);
+  });
 });

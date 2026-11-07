@@ -92,4 +92,16 @@ jobs:
       - run: npm test
       - run: npm run worker:check
       - run: npx --no-install playwright install --with-deps chromium
-      - run: npm run test:browser
+      - name: Playwright functionality (desktop and mobile)
+        id: browser-tests
+        run: npm run test:browser
+      - name: Upload Playwright failure report and traces
+        if: ${{ failure() && steps.browser-tests.outcome == 'failure' }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: playwright-failures-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
+          if-no-files-found: error

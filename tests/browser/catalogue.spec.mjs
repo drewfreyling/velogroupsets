@@ -102,7 +102,7 @@ test('external links announce and open a new tab; internal navigation stays in t
     contentType:'text/html', body:'<title>GitHub contribution guide</title><p>Contribution guide</p>',
   }));
   await page.goto('/components/shimano/rd-r7000-gs/');
-  const external = page.locator('a[href^="https://"]');
+  const external = page.locator('a[href^="https://"]:visible');
   for (const link of await external.all()) {
     await expect(link).toHaveAttribute('target', '_blank');
     await expect(link).toHaveAttribute('rel', /noopener/);

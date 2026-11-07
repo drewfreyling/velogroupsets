@@ -45,6 +45,8 @@ Keep infrastructure under `infra/opentofu/`. OpenTofu owns provisioned Cloudflar
 
 Keep website deployment manual through `workflow_dispatch`. The deploy job must depend on successful reusable CI for the same commit, with an explicit success condition before GitHub environment approval.
 
+Run Playwright functionality tests in credential-free CI for both desktop and mobile Chromium; manual website deployment reuses that CI result. Browser failures must fail CI and block deployment. Keep failure artifacts limited to generated Playwright reports/screenshots/traces from the local test server, never infrastructure state, plans or credentials.
+
 Run the credential-free checks listed in [infra/README.md](infra/README.md#toolchain-and-checks). Mocked OpenTofu tests do not prove live API access or provisioning. Keep production credentials out of PR checks and use Conventional Commits for all changes.
 
 ## Catalogue and UI
