@@ -1,6 +1,6 @@
 # Architecture
 
-**Status:** initial OpenTofu, CI and catalogue schemas/validation are implemented; The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273); production deployment remains pending. Astro/Tailwind catalogue pages, browser search, a TypeScript Worker health endpoint and a manual Wrangler deployment workflow are implemented. The first app deployment/custom-domain activation is pending; community features remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
+**Status:** initial OpenTofu, CI and catalogue schemas/validation are implemented; The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273); production deployment remains pending. Astro/Tailwind catalogue pages, browser search, a TypeScript Worker health endpoint and a manual Wrangler deployment workflow are implemented. The staging Worker/static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328); staging custom-domain activation is pending; community features remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
 
 ## Goals and starting decisions
 

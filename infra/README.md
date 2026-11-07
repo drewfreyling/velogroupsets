@@ -15,7 +15,7 @@ The apply also configured upload CORS, lifecycle policies, and disabled public `
 
 D1 read replication is explicitly disabled, matching the provisioned single-primary default. Change that setting deliberately if the application later needs read replicas.
 
-This provisions the data/storage/abuse-prevention foundation. The Worker/static catalogue and a manual Wrangler deployment workflow are now implemented. The first Worker deployment and opt-in website custom-domain activation remain pending.
+This provisions the data/storage/abuse-prevention foundation. The Worker/static catalogue and a manual Wrangler deployment workflow are now implemented. The staging Worker `velogroupsets-staging` and 13 static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328), with existing D1/R2 bindings and version `cc33e3e1-2028-4223-8f4f-6b9dec1f88d4`. Both workers.dev and preview URLs are disabled. Staging custom-domain activation is enabled in configuration and awaits its reviewed OpenTofu apply; the website is not publicly reachable yet.
 
 ## Included resources
 
@@ -131,7 +131,7 @@ Scope account permissions to `5ccb67114ff0fa1a13cb46ef3d08cb49`. Cloudflare's cu
 Bootstrap in this order:
 
 1. Run **Deploy website** on `main` for `staging`; approve the GitHub `staging` deployment after CI. This creates `velogroupsets-staging` with static assets, `/api/health`, and existing D1/R2 bindings. Both `workers.dev` and preview URLs stay disabled. No hostname is reachable yet.
-2. The existing staging `zone_id = "7f6cc6f517450ef96d9f8b2bd891ee80"` is already configured; it is a public identifier. Production retains `site_zone_name = "velogroupsets.com"` as an alternative lookup. Set `enable_site_domain = true` in `opentofu/environments/staging.tfvars`. Commit conventionally. Do not add routes to Wrangler or manually create a conflicting DNS record.
+2. The existing staging `zone_id = "7f6cc6f517450ef96d9f8b2bd891ee80"` is already configured; it is a public identifier. Production retains `site_zone_name = "velogroupsets.com"` as an alternative lookup. Staging now has `enable_site_domain = true` in `opentofu/environments/staging.tfvars` after the successful Worker bootstrap; leave this disabled for an unbootstrapped environment. Commit conventionally. Do not add routes to Wrangler or manually create a conflicting DNS record.
 3. Run the infrastructure **plan-and-apply** workflow. Review the expected single `cloudflare_workers_custom_domain.site[0]` create and approve its exact saved plan. Cloudflare manages the domain's DNS and TLS certificate automatically; activation may take time. This does not expose either photo bucket.
 4. Verify `https://staging.velogroupsets.com/`, a component detail page, `/api/health`, and an unknown path returning HTTP 404. The health response identifies the deployed commit. Confirm search/filter behavior and static asset headers. Staging pages include `noindex`.
 
