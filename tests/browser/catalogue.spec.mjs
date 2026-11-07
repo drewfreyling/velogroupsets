@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { components } from '../../apps/web/src/lib/catalogue.mjs';
 
 test('browse manufacturer → groupset → component with sources', async ({page}) => {
   await page.goto('/');
@@ -21,13 +22,13 @@ test('browse manufacturer → groupset → component with sources', async ({page
 
 test('search, URL filters, empty state and reset work at mobile width', async ({page}) => {
   await page.setViewportSize({width:390,height:844});
-  await page.goto('/catalogue/?type=cassette');
+  await page.goto('/catalogue/?type=cassette&groupset=shimano-105-r7000');
   await expect(page.locator('#result-count')).toHaveText('1 component');
   await expect(page.getByRole('link', {name:/105 cassette/})).toBeVisible();
   await page.getByLabel('Search components').fill('does-not-exist');
   await expect(page.getByRole('heading', {name:'No components found'})).toBeVisible();
   await page.getByRole('button', {name:'Clear filters'}).click();
-  await expect(page.locator('#result-count')).toHaveText('3 components');
+  await expect(page.locator('#result-count')).toHaveText(`${components.length} components`);
   await page.getByLabel('Search components').fill('FC-R7000');
   await expect(page.locator('#result-count')).toHaveText('1 component');
   expect(new URL(page.url()).searchParams.get('q')).toBe('FC-R7000');

@@ -1,0 +1,29 @@
+{
+  "id": "shimano-hp-r500",
+  "slug": "hp-r500",
+  "name": "Shimano threaded road headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "headset",
+  "model_number": "HP-R500",
+  "weight_g": 121,
+  "weight_description": "Manufacturer-listed: threaded road headset, 22 mm upper cone and 11.5 mm lower cone. The thread variant for this weight is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HP-R500-1051/EV-HP-R500-1051.pdf",
+    "title": "Shimano HP-R500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "upper_cone_height_mm": 22,
+    "lower_cone_height_mm": 11.5
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fc-a500",
+  "slug": "fc-a500",
+  "name": "Exage 500EX Biopace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "crankset",
+  "model_number": "FC-A500",
+  "weight_g": 720,
+  "weight_description": "Manufacturer-listed: 170 mm crank arms, 52/42T Biopace double chainrings; bottom bracket listed separately.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-A500-1079/EV-FC-A500-1079.pdf",
+    "title": "Shimano FC-A500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      42
+    ],
+    "bolt_circle_diameter_mm": 130,
+    "front_speeds": 2
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

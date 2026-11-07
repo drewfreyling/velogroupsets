@@ -131,6 +131,27 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The starter catalogue contains Shimano, 105 R7000, and three components with official manufacturer citations. It is intentionally incomplete.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains Shimano 105 R7000 (three components) and Exage 500EX A500 (eight components). Coverage remains incomplete.
 
 The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
+
+## Historical Shimano Exage 500EX
+
+The road groupset is **Exage 500EX, A500 series**, distinct from the Exage 500LX mountain-bike group. Its record starts in **1989**, the first documented appearance in the evidence cited here: Shimano's *Dealers’ 1990 Product Manual*, published in August 1989. The cover's 1990 model year is not used as an inferred release date. This establishes a documented listing, not an exact retail launch date; the end year remains undocumented.
+
+Original Shimano material is preserved by Disraeli Gears: [page 30 introduces the group](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_30.html), [page 31 shows the group](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_31.html), and [page 32 lists its components, configurations and weights](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html). These are manufacturer documents hosted by an independent archive. Component `sources` cite that specification page; each `technical_document` separately links to the relevant original exploded drawing on Shimano's own service site. Exploded drawings identify parts and variants; the dealer manual supplies the weights.
+
+| Component | Model | Published weight and basis |
+| --- | --- | --- |
+| Crankset | FC-A500 | 720 g; 170 mm, 52/42T Biopace; bottom bracket separate |
+| Bottom bracket | BB-A450 | 333 g; set with 113 mm spindle; weight's thread variant unspecified |
+| Front derailleur | FD-A500-B | 115 g; band-on, 28.0–28.6 mm |
+| Rear derailleur | RD-A500 | 279 g; double-chainset version, 28T total capacity |
+| Shifters | SL-A500-FCAI | 76 g; seven-speed braze-on downtube lever set, M5 Italian-type bosses |
+| Cassette | CS-HG50 | 268 g; seven-speed I group, 13–23T sprockets and spacers |
+| Headset | HP-R500 | 121 g; 22/11.5 mm upper/lower cones; weight's thread variant unspecified |
+| Pedals | PD-A550 | 407 g; pair including size L toe clips |
+
+These are manufacturer-listed reference weights, not new measurements or claims about every available option. BB-A450, CS-HG50, HP-R500 and PD-A550 retain their own component identities; membership is documented by the group specification table, even where a service drawing labels a shared part as another series.
+
+The manual lists FH-HG50 at 436 g **with quick release**. Its HB-RM50-F front-hub weight does not explicitly establish skewer exclusion. Neither hub is included until a sourced weight without skewers is available. No seatpost is listed on that page. Brakes and the chain are outside the current component taxonomy; their absence from the catalogue does not imply absence from the original groupset.

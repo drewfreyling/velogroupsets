@@ -1,0 +1,38 @@
+{
+  "id": "shimano-cs-hg50-7-i",
+  "slug": "cs-hg50-7-i",
+  "name": "Exage seven-speed cassette (I group)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG50",
+  "weight_g": 268,
+  "weight_description": "Manufacturer-listed: seven-speed I-group 13–23T sprockets and spacers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-HG90_HG70_HG50-7I-1132/EV-CS-HG90_HG70_HG50-7I-1132.pdf",
+    "title": "Shimano CS-HG50 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "rear_speeds": 7,
+    "sprockets_teeth": [
+      13,
+      14,
+      15,
+      17,
+      19,
+      21,
+      23
+    ],
+    "sprocket_group": "I"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

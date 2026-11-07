@@ -1,0 +1,29 @@
+{
+  "id": "shimano-pd-a550",
+  "slug": "pd-a550",
+  "name": "Shimano road pedals with toe clips",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "pedals",
+  "model_number": "PD-A550",
+  "weight_g": 407,
+  "weight_description": "Manufacturer-listed: pair of pedals including size L toe clips.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-A550-1008/EV-PD-A550-1008A.pdf",
+    "title": "Shimano PD-A550 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "toe_clip_size": "L",
+    "pedal_thread": "BC 9/16 × 20 TPI"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

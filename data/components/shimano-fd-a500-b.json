@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fd-a500-b",
+  "slug": "fd-a500-b",
+  "name": "Exage 500EX band-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-A500-B",
+  "weight_g": 115,
+  "weight_description": "Manufacturer-listed: band-on version for 28.0–28.6 mm seat tubes; excludes the braze-on version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-A500-1001/EV-FD-A500-1001A.pdf",
+    "title": "Shimano FD-A500-B exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "mount": "Band-on",
+    "clamp_diameter_mm": [
+      28,
+      28.6
+    ],
+    "capacity_teeth": 14
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

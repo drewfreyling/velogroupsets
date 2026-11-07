@@ -1,0 +1,28 @@
+{
+  "id": "shimano-exage-500ex",
+  "slug": "exage-500ex",
+  "name": "Exage 500EX",
+  "manufacturer_id": "shimano",
+  "model_number": "A500",
+  "year_range": {
+    "start": 1989,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_30.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 30: introduction of Exage 500EX (A500); published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_31.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 31: Exage 500EX road groupset (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

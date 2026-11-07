@@ -1,0 +1,33 @@
+{
+  "id": "shimano-sl-a500-fcai",
+  "slug": "sl-a500-fcai",
+  "name": "Exage 500EX braze-on downtube shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "shifters",
+  "model_number": "SL-A500-FCAI",
+  "weight_g": 76,
+  "weight_description": "Manufacturer-listed: SL-A500-FCAI braze-on downtube lever set, seven-speed SIS, Italian-type bosses with 5 mm fixing bolts.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-A500-1057/EV-SL-A500-1057A.pdf",
+    "title": "Shimano SL-A500-FCAI exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "rear_speeds": 7,
+    "mount": "Braze-on, Italian type (M5)",
+    "shifting_modes": [
+      "SIS",
+      "Friction"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}
