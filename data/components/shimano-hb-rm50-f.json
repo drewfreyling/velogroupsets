@@ -1,0 +1,33 @@
+{
+  "id": "shimano-hb-rm50-f",
+  "slug": "hb-rm50-f",
+  "name": "Shimano quick-release front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-RM50-F",
+  "weight_g": 139,
+  "weight_description": "Contributor-measured: HB-RM50 quick-release front hub, without skewer. Spoke count and axle dimensions not recorded.",
+  "weight_excludes_skewers": true,
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-RM50-0981/EV-HB-RM50-0981B.pdf",
+    "title": "Shimano HB-RM50 front hub exploded view: quick-release and nutted versions",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "axle_type": "Quick release"
+  },
+  "sources": [
+    {
+      "url": "https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md#hb-rm50-f-contributor-measurement",
+      "title": "Project owner’s HB-RM50 front-hub measurement: 139 g without skewer, reported 7 November 2026"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: HB-RM50-F membership in Exage 500EX; not the source of the measured weight",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}
