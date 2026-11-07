@@ -9,7 +9,7 @@
   "type": "cassette",
   "model_number": "CS-1000",
   "weight_g": 221,
-  "weight_description": "Manufacturer-listed: six-speed 13–24T sprockets and spacers; excludes freehub. Lockring inclusion is not identified by the cited weight row.",
+  "weight_description": "Manufacturer-listed: six-speed 13–24T sprockets and spacers; excludes freehub.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/CS-1000-0985/EV-CS-1000-0985.pdf",
     "title": "Shimano CS-1000 exploded view and replacement parts",

@@ -34,7 +34,7 @@ Use a measured or manufacturer-published pair weight. An individual lever weight
 
 **Cassette weights must state the tooth-count configuration.** Give the smallest-to-largest sprocket range, such as 11–28T, and the number of sprockets. Include the full sequence of tooth counts when the source provides it. A model number or a list of available ranges does not identify which cassette was weighed.
 
-State whether the weight includes the lockring and any spacers; explicitly say when the source does not identify those inclusions. Do not infer a tooth sequence or apply one range’s weight to another.
+Assume cassette weights include the lockring; explicit verification of lockring inclusion is not required. State known spacer inclusions or exclusions, and preserve any explicit source statement that the lockring is excluded. Do not infer a tooth sequence or apply one range’s weight to another.
 
 ## Brakes
 
