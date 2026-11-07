@@ -124,9 +124,9 @@ Extend `CLOUDFLARE_API_TOKEN` permissions while retaining existing D1/R2/Turnsti
 | Environment | Account permissions | Zone permissions for **velogroupsets.com only** |
 | --- | --- | --- |
 | `staging-plan` | Workers Scripts: Read | Workers Routes: Read; Zone: Read |
-| `staging` | Workers Scripts: Edit | Workers Routes: Edit; Zone: Read |
+| `staging` | Workers product: **Admin for the initial Worker creation**, then product-level Editor for releases/domain management; retain existing D1/R2/Turnstile permissions | Workers Routes: Edit; Zone: Read |
 
-Scope account permissions to `5ccb67114ff0fa1a13cb46ef3d08cb49`. Cloudflare's newer Workers authorization calls Workers Scripts Edit **Editor**; if available, limit it to the relevant Worker after its first creation. Creating a new Worker needs product/account-level permission. Keep raw tokens only in the GitHub environment secrets. Existing R2 state credentials/encryption passphrases are reused without changing their values.
+Scope account permissions to `5ccb67114ff0fa1a13cb46ef3d08cb49`. Cloudflare's current granular authorization distinguishes **Admin** (can create/delete Workers) from **Editor** (can deploy existing Workers). Initial creation requires **Workers product-level Admin** on this account; Editor is insufficient for bootstrap. After creation, reduce to Workers product-level Editor while this shared token also manages custom domains. Custom Domains currently do not support per-Worker roles. A separate code-only deployment token can later use per-Worker Editor. For granular roles, use an account-owned API token; do not grant broad Developer Platform administration. See [Cloudflare's Workers permissions](https://developers.cloudflare.com/workers/authorization/workers/). Keep raw tokens only in the GitHub environment secrets. Existing R2 state credentials/encryption passphrases are reused without changing their values.
 
 Bootstrap in this order:
 
@@ -136,3 +136,9 @@ Bootstrap in this order:
 4. Verify `https://staging.velogroupsets.com/`, a component detail page, `/api/health`, and an unknown path returning HTTP 404. The health response identifies the deployed commit. Confirm search/filter behavior and static asset headers. Staging pages include `noindex`.
 
 Subsequent website releases only need the website workflow. Infrastructure changes continue through separate saved-plan approval. The same instructions apply to production only after its foundation, secrets and reviewer policy are provisioned. Authentication, uploads, comments and database tables are not included in this scaffold. Roll back application code by reverting to a known good commit on `main` and deploying; this does not roll back infrastructure or future database migrations.
+
+### Worker authorization failures
+
+The initial website run reached Wrangler but failed before asset upload while listing existing Worker secret **names** at `/accounts/<account>/workers/scripts/velogroupsets-staging/secrets`, with “No access to the specified resource.” This endpoint is part of Wrangler’s normal check for binding/secret-name conflicts; it does not retrieve secret values or require a separate Secrets Store permission.
+
+Check the token stored specifically in the GitHub `staging` environment. It must target the account above and have Workers product-level Admin for first creation, plus the existing infrastructure/zone permissions. Read/edit access scoped only to a zone or to selected existing Workers cannot create the missing Worker. Correct access before rerunning; do not bypass Wrangler’s secret-conflict check. Once bootstrap succeeds, reduce Workers access to Editor and verify subsequent deployment/domain operations.
