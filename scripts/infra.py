@@ -205,6 +205,19 @@ def inspect_state(client, env, environment, inspect_key):
                 print(f"Saved plan decrypts successfully; {len(changes)} resource entries:")
                 for change in changes:
                     print(change["address"] + ": " + "/".join(change["change"]["actions"]))
+                    before, after = change["change"].get("before") or {}, change["change"].get("after") or {}
+                    fields = sorted(k for k in before.keys() | after.keys() if before.get(k) != after.get(k))
+                    if fields:
+                        print("Changed attribute names: " + ", ".join(fields))
+                    # Finite, non-secret provider-setting diagnostics; never dump values.
+                    if change["address"] == "cloudflare_d1_database.community":
+                        previous = before.get("read_replication") or {}
+                        desired = after.get("read_replication") or {}
+                        for label, value in (("API", previous.get("mode")), ("configuration", desired.get("mode"))):
+                            if value in ("auto", "disabled"):
+                                print(f"D1 {label} read-replication mode: {value}")
+                            elif value is None:
+                                print(f"D1 {label} read-replication mode: omitted")
             else:
                 print(f"Stored state decrypts successfully; {len(records)} managed resources:")
                 for record in records:
