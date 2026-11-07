@@ -1,0 +1,76 @@
+name: Deploy website
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Environment with an already-provisioned OpenTofu foundation
+        type: choice
+        required: true
+        options: [staging, production]
+        default: staging
+
+permissions:
+  contents: read
+
+# The same release lock as OpenTofu, held across checks and approval.
+concurrency:
+  group: deploy-${{ inputs.environment }}
+  cancel-in-progress: false
+
+jobs:
+  checks:
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/ci.yml
+
+  deploy:
+    name: Deploy Worker and static catalogue
+    if: github.ref == 'refs/heads/main'
+    needs: checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment:
+      name: ${{ inputs.environment }}
+      url: ${{ inputs.environment == 'staging' && 'https://staging.velogroupsets.com' || 'https://velogroupsets.com' }}
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+      WRANGLER_SEND_METRICS: 'false'
+      CI: 'true'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.13'
+      - uses: opentofu/setup-opentofu@a1320f892987e89d278cc92dc5adc984fb93aca4 # v2.0.2
+        with:
+          tofu_version: 1.13.9
+          tofu_wrapper: false
+      - run: npm ci --no-audit --no-fund
+      - run: python3 -m pip install -r scripts/requirements-infra.txt
+      - name: Build exact approved commit
+        env:
+          SITE_URL: ${{ inputs.environment == 'staging' && 'https://staging.velogroupsets.com' || 'https://velogroupsets.com' }}
+        run: npm run build
+      - name: Read existing infrastructure bindings privately
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_ENVIRONMENT: ${{ inputs.environment }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          TOFU_ENCRYPTION_PASSPHRASE: ${{ secrets.TOFU_ENCRYPTION_PASSPHRASE }}
+        run: python3 scripts/prepare_web_deploy.py
+      - name: Deploy code and assets with Wrangler
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 5ccb67114ff0fa1a13cb46ef3d08cb49
+        run: npx --no-install wrangler deploy --config wrangler.generated.json
+      - name: Remove generated binding configuration
+        if: always()
+        run: rm -f wrangler.generated.json

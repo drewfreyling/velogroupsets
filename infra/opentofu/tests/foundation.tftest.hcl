@@ -60,3 +60,21 @@ run "reject_wildcard_origin" {
   }
   expect_failures = [var.site_hostname]
 }
+run "site_domain_requires_zone" {
+  command = plan
+  variables {
+    enable_site_domain = true
+  }
+  expect_failures = [cloudflare_workers_custom_domain.site]
+}
+run "site_domain_targets_environment_worker" {
+  command = plan
+  variables {
+    enable_site_domain = true
+    zone_id            = "0123456789abcdef0123456789abcdef"
+  }
+  assert {
+    condition     = cloudflare_workers_custom_domain.site[0].hostname == "staging.example.com" && cloudflare_workers_custom_domain.site[0].service == "velogroupsets-staging"
+    error_message = "The site domain must target its own environment's Worker."
+  }
+}

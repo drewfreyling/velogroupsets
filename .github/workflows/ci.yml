@@ -70,3 +70,26 @@ jobs:
           go-version: '1.25.0'
           cache: false
       - run: go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.12 -color
+
+  application:
+    name: Application build and tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+      WRANGLER_SEND_METRICS: 'false'
+      SITE_URL: https://staging.velogroupsets.com
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npm run build
+      - run: npm test
+      - run: npm run worker:check
+      - run: npx --no-install playwright install --with-deps chromium
+      - run: npm run test:browser

@@ -1,0 +1,18 @@
+{
+  "id": "shimano-105-r7000",
+  "slug": "105-r7000",
+  "name": "105",
+  "generation": "R7000",
+  "manufacturer_id": "shimano",
+  "sources": [
+    {
+      "url": "https://bike.shimano.com/en-AU/products/components/pdp.P-FC-R7000.html",
+      "title": "Shimano FC-R7000 product reference",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/zh-CN/pdfs/ev/SHIMANO_105_R7000_WOP-001/SHIMANO_105_R7000_WOP_v01.pdf",
+      "title": "Shimano R7000 series genuine parts"
+    }
+  ]
+}

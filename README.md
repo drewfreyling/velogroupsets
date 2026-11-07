@@ -4,7 +4,7 @@ An open-source reference for bicycle groupsets and components, with community ph
 
 VeloGroupsets aims to make component specifications and identification information easy to browse, search, and improve. Most traffic should be served as static content at Cloudflare's edge; a small API handles community contributions.
 
-> **Status: infrastructure and catalogue foundation.** OpenTofu configuration, CI, catalogue schemas and validation are implemented. The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). Production deployment remains pending. The application and Wrangler deployment are not implemented yet.
+> **Status: static application and infrastructure foundation.** Astro, Tailwind CSS, a TypeScript Worker, catalogue generation/search, CI and deployment workflows are implemented. The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). Production deployment remains pending. The initial catalogue includes sourced Shimano 105 R7000 records. The first Worker deployment and staging custom-domain activation are pending; authentication, uploads and comments remain planned.
 
 ## Planned features
 
@@ -23,7 +23,7 @@ Use **Tailwind CSS** for the UI, compiled into static CSS during the frontend bu
 
 The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
 
-See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. The frontend and Tailwind package integration remain to be scaffolded.
+See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. Astro generates the frontend with Tailwind compiled at build time; browser search and type/groupset filters work without API requests.
 
 ## Architecture
 
@@ -98,7 +98,7 @@ See [the architecture document](docs/architecture.md) for request flows, upload 
 
 ## Repository layout
 
-Application directories below remain planned. Catalogue schemas/record directories, infrastructure, automation scripts, documentation, and CI are present today.
+The web and API apps, catalogue, infrastructure and CI are implemented. Shared packages and database migrations remain planned.
 
 ```text
 velogroupsets/
@@ -130,14 +130,29 @@ Keep one repository initially so catalogue, frontend, and API changes can be rev
 
 ## Local development
 
-There is no runnable application or package setup yet. Clone the repository to work on infrastructure and documentation:
+Use Node 24.22.1 (see `.node-version`). Run commands from the repository root:
 
 ```sh
 git clone https://github.com/drewfreyling/velogroupsets.git
 cd velogroupsets
+npm ci
+npm run dev
 ```
 
-Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, catalogue schemas/relationships, automation tests, OpenTofu formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, private R2 backend setup, environment configuration, and the manual plan/approval/apply workflow. Application build and development commands will be added with the scaffold.
+The Astro development server runs at `http://localhost:4321`. To exercise the production-style Worker routing and asset headers locally:
+
+```sh
+npm run build
+npm test
+npm run worker:check
+npm run worker:dev
+```
+
+Wrangler serves the built site at `http://localhost:8787`; `GET /api/health` reports the environment/release. Unknown API paths return JSON 404s. Community writes are not implemented and local development uses no live D1/R2 resources. Run `npx playwright install chromium` once, then `npm run test:browser` for browser checks.
+
+Set `SITE_URL` during builds to generate environment-specific canonical URLs. Staging/localhost builds include `noindex`; normal assets bypass Worker execution, while `/api` and `/api/*` explicitly run the Worker.
+
+Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, catalogue schemas/relationships, automation tests, OpenTofu formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, private R2 backend setup, environment configuration, and the manual plan/approval/apply workflow. CI also builds the static site, tests generated links and Worker routing, checks the Wrangler bundle, and runs Chromium browser tests.
 
 ## Infrastructure ownership
 
@@ -162,6 +177,12 @@ See [infrastructure and deployment](docs/architecture.md#infrastructure-and-depl
 5. Verify the deployment, community API, and static routing.
 
 Use explicit `/api/*` routing so API requests cannot fall through to static pages. Untrusted fork pull requests must not receive deployment credentials or access to production data. Prefer migrations compatible with both old and new application versions; an application rollback does not reverse database changes.
+
+## Website releases
+
+The manual [Deploy website workflow](.github/workflows/deploy-web.yml) builds a pinned commit from `main`, reruns CI, then waits for the target GitHub environment approval. It reads only allowlisted non-secret D1/R2 bindings from encrypted infrastructure state and deploys with Wrangler. It shares `deploy-<environment>` concurrency with OpenTofu. There is no automatic production deployment or PR access to live resources.
+
+For the first release, deploy the Worker before enabling the OpenTofu `enable_site_domain` resource. OpenTofu owns the custom domain and its automatically provisioned DNS/TLS; Wrangler has no routes configured and keeps `workers.dev` and preview URLs disabled. A successful bootstrap Worker deploy alone does not make the staging hostname browsable. See [website deployment](infra/README.md#website-deployment) for token permissions, domain activation and verification.
 
 ## Cost approach
 
@@ -209,8 +230,8 @@ Use `!` and/or a `BREAKING CHANGE:` footer for breaking changes. See [AGENTS.md]
 ## Initial milestones
 
 - [x] Define catalogue schemas, stable IDs, manufacturer/groupset/component relationships, component types, and source requirements.
-- [ ] Scaffold the static frontend, Worker, and shared validation.
-- [ ] Add catalogue generation and client-side search.
+- [x] Scaffold the Astro/Tailwind static frontend and TypeScript Worker; retain catalogue schema validation in CI.
+- [x] Add catalogue generation, canonical component pages and client-side search/type/groupset filters.
 - [ ] Select authentication and implement sessions and authorization.
 - [ ] Add D1 migrations and paginated public community reads.
 - [ ] Implement private uploads, image processing, and moderation.

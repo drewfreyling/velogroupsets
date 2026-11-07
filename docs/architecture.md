@@ -1,6 +1,6 @@
 # Architecture
 
-**Status:** initial OpenTofu, CI and catalogue schemas/validation are implemented; The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273); production deployment remains pending. Application components and Wrangler deployment remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
+**Status:** initial OpenTofu, CI and catalogue schemas/validation are implemented; The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273); production deployment remains pending. Astro/Tailwind catalogue pages, browser search, a TypeScript Worker health endpoint and a manual Wrangler deployment workflow are implemented. The first app deployment/custom-domain activation is pending; community features remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
 
 ## Goals and starting decisions
 
@@ -65,13 +65,13 @@ The image-processing runtime and trigger are unresolved. The processor may need 
 
 ## UI and catalogue model
 
-Tailwind CSS is the chosen styling system and will be compiled into the static frontend bundle. The UI browses manufacturer → groupset → component, with breadcrumbs and component-type filtering. Styling is chosen; the frontend framework, package setup, routes and Tailwind integration have not been implemented yet.
+Astro generates static HTML and compiles Tailwind CSS into the frontend bundle. The UI browses manufacturer → groupset → component, with breadcrumbs and component-type filtering. Manufacturers, groupsets and canonical component pages are generated at build time. Search and type/groupset filters run in the browser; no database is used for catalogue reads.
 
 Curated records are JSON files in `data/manufacturers/`, `data/groupsets/`, and `data/components/`. Groupsets reference a manufacturer ID; components reference a manufacturer ID and one or more groupset IDs. References preserve one component identity and photo/comment history when shared across groupsets. Catalogue IDs are stable and separate from slugs/display names. Manufacturer here means the catalogue brand, not necessarily the physical factory.
 
 The initial taxonomy is Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub. A groupset need not contain every category; absence of a record means not yet catalogued. Membership and specifications need sources.
 
-See [the catalogue and UI guide](catalogue.md) for schemas, stable type IDs, examples, and validation rules. CI now validates record structure, source formatting, IDs, slugs, filenames, and references offline; real catalogue records and the static build remain to be added.
+See [the catalogue and UI guide](catalogue.md) for schemas, stable type IDs, examples, and validation rules. CI now validates record structure, source formatting, IDs, slugs, filenames, and references offline; the starter Shimano 105 R7000 records and static build now exercise the hierarchy end to end.
 
 ## Catalogue reads
 
@@ -186,7 +186,7 @@ OpenTofu configuration lives in `infra/opentofu/`, with separate environment inp
 
 | Owner | Scope |
 | --- | --- |
-| OpenTofu | D1, application R2 buckets/CORS/lifecycle/public-domain settings, Turnstile; future DNS, cache/WAF and explicitly assigned route/domain resources |
+| OpenTofu | D1, application R2 buckets/CORS/lifecycle/public-domain settings, Turnstile and opt-in website custom domains; future cache/WAF rules |
 | Wrangler + GitHub Actions | Worker definition/code, static assets, bindings, runtime configuration and secret injection |
 | Database migrations | D1 tables, indexes and schema changes |
 | Independent bootstrap | Dedicated private R2 state bucket and its retention/access settings |
@@ -210,7 +210,7 @@ Every live plan/apply first probes actual lock contention and release using an i
 
 Inventory/import existing resources before adopting them. Persistent D1/R2 resources use destruction protection, which does not survive removing their resource blocks. Several R2 settings resources in the pinned provider cannot be imported; inspect and reconcile them explicitly. State recovery is not database/object-data recovery.
 
-The implemented foundation defines D1, private-by-default R2 buckets/policies, Turnstile, and opt-in image-domain access. Website DNS/Worker routes, cache/WAF rules, Worker deployment and application schema remain planned. Assign each setting one owner. Avoid independent rulesets for the same phase/zone across environments; avoid declaring Wrangler-owned Worker deployments in OpenTofu.
+The implemented foundation defines D1, private-by-default R2 buckets/policies, Turnstile, and opt-in image-domain access. It also defines an opt-in website custom domain targeting an existing Wrangler-created Worker; Cloudflare creates its DNS record and TLS certificate. Activate it only after the first Worker deploy. The manual website workflow reads existing bindings from encrypted state and shares the infrastructure release lock and required-reviewer policy. Cache/WAF rules and application database schema remain planned. Assign each setting one owner. Avoid independent rulesets for the same phase/zone across environments; avoid declaring Wrangler-owned Worker deployments in OpenTofu.
 
 ## Cost and portability
 

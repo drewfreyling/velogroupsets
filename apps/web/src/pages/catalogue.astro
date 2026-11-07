@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { components, groupsets, types, manufacturerFor, componentUrl, typeName } from '../lib/catalogue.mjs';
+---
+<Layout title="Component catalogue"><div class="wrap py-12"><p class="eyebrow mb-4">Find the right detail</p><h1 class="text-5xl tracking-tight">Component catalogue</h1><p class="mt-5 text-muted">Search model codes, manufacturers and groupsets. Every record links back to its sources.</p>
+  <form id="filters" class="panel mt-9 grid gap-5 p-6 md:grid-cols-[2fr_1fr_1fr]" role="search">
+    <label class="text-xs font-semibold">Search components<input id="query" name="q" type="search" autocomplete="off" placeholder="Try FC-R7000 or Shimano…" class="mt-2 w-full rounded-lg border border-line bg-white px-4 py-3 text-base font-normal"/></label>
+    <label class="text-xs font-semibold">Component type<select id="type" name="type" class="mt-2 w-full rounded-lg border border-line bg-white px-3 py-3 text-base font-normal"><option value="">All component types</option>{types.map(t=><option value={t.const}>{t.title}</option>)}</select></label>
+    <label class="text-xs font-semibold">Groupset<select id="groupset" name="groupset" class="mt-2 w-full rounded-lg border border-line bg-white px-3 py-3 text-base font-normal"><option value="">All groupsets</option>{groupsets.map(g=><option value={g.id}>{manufacturerFor(g).name} {g.name} {g.generation}</option>)}</select></label>
+    <button class="button md:hidden" type="submit">Search</button>
+  </form>
+  <p id="result-count" class="my-6 text-sm text-muted" role="status" aria-live="polite">{components.length} components</p>
+  <div class="divide-y divide-line border-y border-line" id="results">{components.map(c=><article data-record data-groups={c.groupset_ids.join(' ')} data-type={c.type} data-search={`${c.name} ${c.model_code || ''} ${manufacturerFor(c).name} ${groupsets.filter(g=>c.groupset_ids.includes(g.id)).map(g=>`${g.name} ${g.generation || ''}`).join(' ')}`.toLowerCase()}><a class="group grid grid-cols-[1fr_auto] items-center gap-4 py-6 sm:grid-cols-[1fr_1fr_auto]" href={componentUrl(c)}><div><p class="eyebrow text-[10px]">{manufacturerFor(c).name}</p><h2 class="mt-1 text-lg font-semibold group-hover:underline">{c.name}</h2></div><p class="hidden text-sm text-muted sm:block">{typeName(c.type)} <span class="ml-3 font-mono">{c.model_code}</span></p><span aria-hidden="true"><svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a></article>)}</div>
+  <div id="empty" class="panel p-10 text-center" hidden><h2 class="text-2xl">No components found</h2><p class="mt-3 text-muted">Try a different search. This category may not be catalogued yet.</p><button id="reset" class="button mt-5" type="button">Clear filters</button></div>
+  <noscript><p class="mt-6 text-muted">All components are listed above. Enable JavaScript to search and filter.</p></noscript>
+</div></Layout>
+<script>
+  const form = document.querySelector<HTMLFormElement>('#filters')!;
+  const query = document.querySelector<HTMLInputElement>('#query')!;
+  const type = document.querySelector<HTMLSelectElement>('#type')!;
+  const groupset = document.querySelector<HTMLSelectElement>('#groupset')!;
+  const records = [...document.querySelectorAll<HTMLElement>('[data-record]')];
+  function restore() { const p = new URLSearchParams(location.search); query.value=p.get('q') || ''; type.value=p.get('type') || ''; groupset.value=p.get('groupset') || ''; }
+  function filter(updateUrl=true) {
+    const words=query.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    let count=0;
+    for (const row of records) { row.hidden=!(words.every(word=>row.dataset.search!.includes(word)) && (!type.value || row.dataset.type===type.value) && (!groupset.value || row.dataset.groups!.split(' ').includes(groupset.value))); if(!row.hidden) count++; }
+    document.querySelector('#result-count')!.textContent=`${count} component${count===1?'':'s'}`;
+    document.querySelector<HTMLElement>('#empty')!.hidden=count>0;
+    if(updateUrl) { const p=new URLSearchParams(); if(query.value) p.set('q',query.value); if(type.value) p.set('type',type.value); if(groupset.value) p.set('groupset',groupset.value); history.replaceState(null,'',`${location.pathname}${p.size?'?'+p:''}`); }
+  }
+  restore(); filter(false);
+  form.addEventListener('input',()=>filter());
+  form.addEventListener('submit',event=>{event.preventDefault();filter();});
+  document.querySelector('#reset')!.addEventListener('click',()=>{form.reset();filter();query.focus();});
+  window.addEventListener('popstate',()=>{restore();filter(false);});
+</script>

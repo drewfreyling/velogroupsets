@@ -37,3 +37,9 @@ terraform.rc
 credentials.tfrc.json
 work/
 *.tar.gz
+
+# Generated application configuration and browser reports
+wrangler.generated.json
+.astro/
+playwright-report/
+test-results/

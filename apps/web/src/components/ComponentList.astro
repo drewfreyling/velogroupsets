@@ -1,0 +1,11 @@
+---
+import { componentUrl, manufacturerFor, typeName } from '../lib/catalogue.mjs';
+const { records } = Astro.props;
+---
+<div class="divide-y divide-line border-y border-line">
+  {records.map(c => <a href={componentUrl(c)} class="group grid grid-cols-[1fr_auto] items-center gap-3 py-6 sm:grid-cols-[1fr_1fr_auto]">
+    <div><span class="eyebrow text-[10px]">{manufacturerFor(c).name}</span><h3 class="mt-1 text-lg font-semibold group-hover:underline">{c.name}</h3></div>
+    <span class="hidden text-sm text-muted sm:block">{typeName(c.type)} <span class="ml-3 font-mono">{c.model_code}</span></span>
+    <span class="flex size-9 items-center justify-center rounded-full border border-line transition group-hover:bg-accent" aria-hidden="true"><svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span>
+  </a>)}
+</div>

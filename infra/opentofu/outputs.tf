@@ -20,3 +20,7 @@ output "photos_base_url" {
   description = "Null until public access is enabled; domain activation still needs verification."
   value       = var.enable_public_photos && var.photos_hostname != null ? "https://${var.photos_hostname}" : null
 }
+output "site_url" {
+  description = "Website URL after custom domain attachment; verify DNS and TLS separately."
+  value       = var.enable_site_domain ? "https://${var.site_hostname}" : null
+}

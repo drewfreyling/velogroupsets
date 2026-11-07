@@ -1,0 +1,18 @@
+{
+  "id": "shimano-rd-r7000-gs",
+  "slug": "rd-r7000-gs",
+  "name": "105 rear derailleur (GS)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7000"
+  ],
+  "type": "rear-derailleur",
+  "model_code": "RD-R7000-GS",
+  "sources": [
+    {
+      "url": "https://bike.shimano.com/en-AU/products/components/pdp.P-RD-R7000-GS.html",
+      "title": "Shimano RD-R7000-GS product reference",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

@@ -15,7 +15,7 @@ The apply also configured upload CORS, lifecycle policies, and disabled public `
 
 D1 read replication is explicitly disabled, matching the provisioned single-primary default. Change that setting deliberately if the application later needs read replicas.
 
-This provisions the data/storage/abuse-prevention foundation. Worker/static-site deployment, website DNS and a browsable staging site remain to be implemented.
+This provisions the data/storage/abuse-prevention foundation. The Worker/static catalogue and a manual Wrangler deployment workflow are now implemented. The first Worker deployment and opt-in website custom-domain activation remain pending.
 
 ## Included resources
 
@@ -77,9 +77,9 @@ Set these secrets in both the plan and apply environments for a given target:
 | `R2_SECRET_ACCESS_KEY` | Corresponding S3 secret |
 | `TOFU_ENCRYPTION_PASSPHRASE` | Strong passphrase of at least 16 characters; 64 random hex characters recommended; identical in that target's plan/apply environments |
 
-Use provider **read** permissions in plan environments and **edit/write** permissions in apply environments for D1, Workers R2 Storage, and Turnstile Sites. Backend S3 credentials need writes for locking and snapshots even during planning. No general DNS/WAF edit permissions are needed initially. Shared-bucket S3 credentials can access both environment prefixes; use separate state buckets/credentials if stronger environment isolation is required.
+Use provider **read** permissions in plan environments and **edit/write** permissions in apply environments for D1, Workers R2 Storage, and Turnstile Sites. Backend S3 credentials need writes for locking and snapshots even during planning. For website deployment and custom-domain activation, add the permissions described below. General DNS/WAF edit permissions are not used by the current resources. Shared-bucket S3 credentials can access both environment prefixes; use separate state buckets/credentials if stronger environment isolation is required.
 
-No secrets belong in Git, environment `.tfvars`, public artifacts, or chat. GitHub needs Environments write permission to configure these settings. Configure required branch checks for **Repository checks**, **OpenTofu checks (no credentials)**, and **Workflow lint**. Fork PR checks have no deployment credentials. Remove unused HCP tokens/variables if you created any previously.
+No secrets belong in Git, environment `.tfvars`, public artifacts, or chat. GitHub needs Environments write permission to configure these settings. Configure required branch checks for **Repository checks**, **OpenTofu checks (no credentials)**, **Workflow lint**, and **Application build and tests**. Fork PR checks have no deployment credentials. Remove unused HCP tokens/variables if you created any previously.
 
 ## Plan and apply
 
@@ -95,7 +95,7 @@ No secrets belong in Git, environment `.tfvars`, public artifacts, or chat. GitH
 6. The apply job verifies the required-reviewer policy, commit/run/environment binding and SHA-256 checksum, checks locking, snapshots state, and applies **that exact saved plan**. It does not regenerate a plan. OpenTofu rejects a plan if the state has changed. Dispatch a new workflow when replanning is needed.
 7. A post-apply snapshot runs on success or partial failure. Check job results before proceeding to production. If a snapshot fails after a successful apply, changes may already be live: inspect before retrying.
 
-Workflow concurrency `deploy-<environment>` spans planning, approval and apply; it does not cancel an active apply. Backend locking protects against other writers, including local CLI operations. All future application deployments must share the release coordination policy. Review promptly: plans expire after two days, and a newer pending GitHub run can replace an older pending run.
+Workflow concurrency `deploy-<environment>` spans planning, approval and apply; it does not cancel an active apply. Backend locking protects against other writers, including local CLI operations. The website deployment workflow uses this same release lock. Review promptly: plans expire after two days, and a newer pending GitHub run can replace an older pending run.
 
 Snapshots use immutable keys under `snapshots/<environment>/<run>/<attempt>/`. They are taken before plans, before applies, and after applies; a first deployment may have no pre-existing state. Live command output is suppressed because provider/backend errors and plan values may be sensitive. Diagnose failures in an authorized private terminal; do not enable `TF_LOG` or upload debug logs publicly. No automated destroy operation is provided. The isolated lock probe's local `terraform_data` apply/destroy does not create Cloudflare resources.
 
@@ -113,4 +113,26 @@ New apply failures preserve raw command output as an encrypted native OpenTofu s
 
 For full private review, download the diagnostic with an authorized R2 client and use `python3 scripts/infra.py show --json --plan-file /absolute/path/apply-failure.tfstate` with the secured encryption passphrase in your environment. This JSON includes sensitive values and must never be printed in public CI or chat. Fix the diagnosed cause, then create and review a new plan using the actual current state. Do not blindly rerun a saved plan after partial provisioning.
 
-Worker/static-site scaffolding, Wrangler deployment, schema migrations, website DNS/routes, cache/WAF rules, image processing, application backups and quotas remain future work. Enabling public image access still requires a zone ID and the completed validation/moderation flow. Keep one owner per setting: OpenTofu owns Cloudflare infrastructure, Wrangler owns Worker code/assets/bindings, and migration tooling owns D1 schema.
+Schema migrations, cache/WAF rules, image processing, application backups and quotas remain future work. Worker/static-site deployment and an opt-in OpenTofu website custom domain are implemented; first activation is pending. Enabling public image access still requires a zone ID and the completed validation/moderation flow. Keep one owner per setting: OpenTofu owns Cloudflare infrastructure, Wrangler owns Worker code/assets/bindings, and migration tooling owns D1 schema.
+
+## Website deployment
+
+The [Deploy website workflow](../.github/workflows/deploy-web.yml) is manual, `main`-only and protected by the target GitHub environment. It runs full CI, builds Astro/Tailwind for the target hostname, reads the encrypted R2 state privately with OpenTofu, exports only expected database/bucket bindings, and deploys code/static assets with pinned Wrangler. It never creates new D1/R2 resources, publishes state/plan artifacts, or changes infrastructure state. The generated binding file is deleted after deployment and ignored by Git.
+
+Extend `CLOUDFLARE_API_TOKEN` permissions while retaining existing D1/R2/Turnstile permissions:
+
+| Environment | Account permissions | Zone permissions for **velogroupsets.com only** |
+| --- | --- | --- |
+| `staging-plan` | Workers Scripts: Read | Workers Routes: Read; Zone: Read |
+| `staging` | Workers Scripts: Edit | Workers Routes: Edit; Zone: Read |
+
+Scope account permissions to `5ccb67114ff0fa1a13cb46ef3d08cb49`. Cloudflare's newer Workers authorization calls Workers Scripts Edit **Editor**; if available, limit it to the relevant Worker after its first creation. Creating a new Worker needs product/account-level permission. Keep raw tokens only in the GitHub environment secrets. Existing R2 state credentials/encryption passphrases are reused without changing their values.
+
+Bootstrap in this order:
+
+1. Run **Deploy website** on `main` for `staging`; approve the GitHub `staging` deployment after CI. This creates `velogroupsets-staging` with static assets, `/api/health`, and existing D1/R2 bindings. Both `workers.dev` and preview URLs stay disabled. No hostname is reachable yet.
+2. Set the non-secret `zone_id` in `opentofu/environments/staging.tfvars` and `enable_site_domain = true`. Commit conventionally. Do not add routes to Wrangler or manually create a conflicting DNS record.
+3. Run the infrastructure **plan-and-apply** workflow. Review the expected single `cloudflare_workers_custom_domain.site[0]` create and approve its exact saved plan. Cloudflare manages the domain's DNS and TLS certificate automatically; activation may take time. This does not expose either photo bucket.
+4. Verify `https://staging.velogroupsets.com/`, a component detail page, `/api/health`, and an unknown path returning HTTP 404. The health response identifies the deployed commit. Confirm search/filter behavior and static asset headers. Staging pages include `noindex`.
+
+Subsequent website releases only need the website workflow. Infrastructure changes continue through separate saved-plan approval. The same instructions apply to production only after its foundation, secrets and reviewer policy are provisioned. Authentication, uploads, comments and database tables are not included in this scaffold. Roll back application code by reverting to a known good commit on `main` and deploying; this does not roll back infrastructure or future database migrations.

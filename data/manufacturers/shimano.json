@@ -1,0 +1,11 @@
+{
+  "id": "shimano",
+  "slug": "shimano",
+  "name": "Shimano",
+  "sources": [
+    {
+      "url": "https://bike.shimano.com/",
+      "title": "Shimano bicycle components"
+    }
+  ]
+}

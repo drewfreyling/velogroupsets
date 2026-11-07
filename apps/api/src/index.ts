@@ -1,0 +1,30 @@
+interface Env {
+  ASSETS: { fetch(request: Request): Promise<Response> };
+  ENVIRONMENT: string;
+  RELEASE_SHA?: string;
+}
+
+export default {
+  async fetch(request: Request, env: Env): Promise<Response> {
+    const path = new URL(request.url).pathname;
+    if (path === '/api' || path.startsWith('/api/')) {
+      const headers = {
+        'Content-Type': 'application/json; charset=utf-8',
+        'Cache-Control': 'no-store',
+        'X-Content-Type-Options': 'nosniff',
+      };
+      if (path === '/api/health' && ['GET', 'HEAD'].includes(request.method)) {
+        return new Response(request.method === 'HEAD' ? null : JSON.stringify({
+          status: 'ok', environment: env.ENVIRONMENT, release: env.RELEASE_SHA || 'local',
+        }), { headers });
+      }
+      if (path === '/api/health') {
+        return new Response(JSON.stringify({ error: 'Method not allowed' }), {
+          status: 405, headers: { ...headers, Allow: 'GET, HEAD' },
+        });
+      }
+      return new Response(JSON.stringify({ error: 'API endpoint not found' }), { status: 404, headers });
+    }
+    return env.ASSETS.fetch(request);
+  },
+};

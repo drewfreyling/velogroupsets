@@ -1,0 +1,27 @@
+{
+  "id": "shimano-fc-r7000",
+  "slug": "fc-r7000",
+  "name": "105 crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7000"
+  ],
+  "type": "crankset",
+  "model_code": "FC-R7000",
+  "sources": [
+    {
+      "url": "https://bike.shimano.com/en-AU/products/components/pdp.P-FC-R7000.html",
+      "title": "Shimano FC-R7000 product reference",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "chainring_options": [
+      "50-34T",
+      "52-36T",
+      "53-39T"
+    ]
+  }
+}

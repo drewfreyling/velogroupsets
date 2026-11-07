@@ -46,11 +46,16 @@ variable "photos_hostname" {
   }
 }
 variable "zone_id" {
-  description = "Existing zone ID, required only when enabling the photo custom domain."
+  description = "Existing zone ID, required when enabling website or photo custom domains."
   type        = string
   default     = null
   validation {
     condition     = var.zone_id == null ? true : can(regex("^[0-9a-f]{32}$", var.zone_id))
     error_message = "zone_id must be a 32-character lowercase hexadecimal Cloudflare zone ID."
   }
+}
+variable "enable_site_domain" {
+  description = "Attach the site hostname after Wrangler has created this environment's Worker."
+  type        = bool
+  default     = false
 }
