@@ -90,4 +90,12 @@ Inventory existing resources before applying. D1, R2 buckets, and Turnstile widg
 
 No live Terraform state has been created by this project, so this switch requires no live state migration. If you have independently created state elsewhere, stop and plan its encrypted migration first.
 
+### Failed deployment inspection
+
+Use the manual workflow's `inspect` operation with the target environment to read existing state without changing remote state or Cloudflare resources. Optionally provide `inspect_key`, either a saved-plan key from that environment or `diagnostics/<environment>/<run>/<attempt>/apply-failure.tfstate`. Public inspection output lists managed resource addresses, plan actions, and allowlisted error categories/HTTP/API codes; it never prints resource values or raw provider errors. This distinguishes a pre-apply failure from partial provisioning before generating a recovery plan.
+
+New apply failures preserve raw command output as an encrypted native OpenTofu state object under the private `diagnostics/` prefix. A local built-in data resource performs only encryption; it provisions no Cloudflare resources. Diagnostic upload or post-failure snapshot errors must not hide the original apply error. Define an appropriate retention period for `diagnostics/` (for example 30 days), and protect it like state: raw errors can contain credentials. Older failures that predate this capture cannot be recovered from the ephemeral runner.
+
+For full private review, download the diagnostic with an authorized R2 client and use `python3 scripts/infra.py show --json --plan-file /absolute/path/apply-failure.tfstate` with the secured encryption passphrase in your environment. This JSON includes sensitive values and must never be printed in public CI or chat. Fix the diagnosed cause, then create and review a new plan using the actual current state. Do not blindly rerun a saved plan after partial provisioning.
+
 Worker/static-site scaffolding, Wrangler deployment, schema migrations, website DNS/routes, cache/WAF rules, image processing, application backups and quotas remain future work. Enabling public image access still requires a zone ID and the completed validation/moderation flow. Keep one owner per setting: OpenTofu owns Cloudflare infrastructure, Wrangler owns Worker code/assets/bindings, and migration tooling owns D1 schema.

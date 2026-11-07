@@ -19,6 +19,36 @@ BUCKET = "velogroupsets-infra-state"
 ENDPOINT = f"https://{ACCOUNT}.r2.cloudflarestorage.com"
 
 
+def failure_summary(text):
+    """Allowlist categories/codes; never echo arbitrary provider error text."""
+    categories = []
+    patterns = {
+        "decryption failed; check the unchanged encryption key": r"decrypt|cipher: message authentication failed",
+        "saved plan is stale; generate a new plan": r"saved plan is stale|saved plan does not match|different state lineage",
+        "authentication or permission error": r"authentication|unauthorized|forbidden|accessdenied|permission denied|authorization",
+        "resource already exists; inspect/import before retrying": r"already exists|already_exists",
+        "provider returned inconsistent state": r"provider produced inconsistent|inconsistent result",
+        "state lock error": r"error acquiring the state lock|error releasing the state lock",
+        "rate limit": r"rate.limit|too many requests",
+    }
+    for label, pattern in patterns.items():
+        if re.search(pattern, text, re.I):
+            categories.append(label)
+    statuses = sorted(set(re.findall(r"\b(?:HTTP(?: status)?[ :=]*|StatusCode[ :=]*|status[ :=]*)([45][0-9]{2})\b", text, re.I)))
+    codes = sorted(set(re.findall(r'["\x27]?code["\x27]?\s*[:=]\s*([0-9]{3,8})\b', text, re.I)))
+    addresses = sorted(set(re.findall(r"\bcloudflare_[a-z0-9_]+\.[a-z0-9_]+\b", text)))
+    parts = categories + (["HTTP " + ",".join(statuses)] if statuses else []) + (["API codes " + ",".join(codes)] if codes else [])
+    if addresses:
+        parts.append("resources: " + ", ".join(addresses))
+    return "; ".join(parts) or "unclassified command failure; inspect the encrypted private diagnostic"
+
+
+class CommandFailure(RuntimeError):
+    def __init__(self, operation, stdout, stderr):
+        self.operation, self.stdout, self.stderr = operation, stdout, stderr
+        super().__init__(f"OpenTofu {operation} failed: {failure_summary(stdout + chr(10) + stderr)}")
+
+
 def encryption_env(passphrase):
     if not isinstance(passphrase, str) or len(passphrase) < 16:
         raise ValueError("TOFU_ENCRYPTION_PASSPHRASE must contain at least 16 characters.")
@@ -51,7 +81,7 @@ def tofu(args, env, cwd=CONFIG, public=False):
         print(result.stdout, end="")
         print(result.stderr, end="", file=sys.stderr)
     if result.returncode:
-        raise RuntimeError(f"OpenTofu {args[0]} failed; detailed live output is suppressed to protect state/plan values. Reproduce in an authorized private terminal.")
+        raise CommandFailure(args[0], result.stdout, result.stderr)
     return result.stdout
 
 
@@ -112,11 +142,83 @@ def snapshot(client, environment, run_id, attempt, phase):
     client.put_object(Bucket=BUCKET, Key=f"snapshots/{environment}/{run_id}/{attempt}/{phase}.tfstate", Body=data, IfNoneMatch="*")
 
 
+def save_failure(client, error, env, environment, run_id, attempt):
+    """Use native OpenTofu encryption for a private diagnostic, with no API resources."""
+    key = f"diagnostics/{environment}/{run_id}/{attempt}/apply-failure.tfstate"
+    with tempfile.TemporaryDirectory() as temp:
+        root = Path(temp)
+        (root / "main.tf").write_text('''terraform {
+  backend "local" {}
+}
+variable "details" {
+  type = string
+  sensitive = true
+}
+resource "terraform_data" "failure" {
+  input = var.details
+}
+''')
+        payload = json.dumps({"operation": error.operation, "stdout": error.stdout, "stderr": error.stderr})
+        (root / "failure.auto.tfvars.json").write_text(json.dumps({"details": payload}))
+        tofu(["init"], env, cwd=root)
+        tofu(["apply", "-auto-approve"], env, cwd=root)
+        data = (root / "terraform.tfstate").read_bytes()
+        if not encrypted(data):
+            raise ValueError("Refusing to upload unencrypted diagnostics.")
+        client.put_object(Bucket=BUCKET, Key=key, Body=data, IfNoneMatch="*")
+    print(f"Encrypted private diagnostic saved: {key}", flush=True)
+
+
+def resources_in(module):
+    return module.get("resources", []) + [r for child in module.get("child_modules", []) for r in resources_in(child)]
+
+
+def inspect_state(client, env, environment, inspect_key):
+    from botocore.exceptions import ClientError
+    tofu(["init", "-backend=false", "-lockfile=readonly"], env)
+    keys = [f"state/{environment}/terraform.tfstate"]
+    if inspect_key:
+        if not re.fullmatch(rf"(?:plans/{environment}/[0-9]+/[0-9]+/[a-f0-9]{{40}}/plan\.tofuplan|diagnostics/{environment}/[0-9]+/[0-9]+/apply-failure\.tfstate)", inspect_key):
+            raise ValueError("Inspection key must be a saved plan or diagnostic in the selected environment.")
+        keys.append(inspect_key)
+    with tempfile.TemporaryDirectory() as temp:
+        path = Path(temp) / "encrypted-input"
+        for key in keys:
+            try:
+                data = client.get_object(Bucket=BUCKET, Key=key)["Body"].read()
+            except ClientError as error:
+                if error.response["Error"]["Code"] in ("NoSuchKey", "404"):
+                    print(f"No stored object at {key}.")
+                    continue
+                raise
+            if not encrypted(data):
+                raise ValueError("Refusing unencrypted inspection input.")
+            path.write_bytes(data)
+            details = json.loads(tofu(["show", "-json", str(path)], env))
+            records = resources_in(details.get("values", {}).get("root_module", {}))
+            if key.startswith("diagnostics/"):
+                record = next(r for r in records if r["address"] == "terraform_data.failure")
+                diagnostic = json.loads(record["values"]["input"])
+                print("Private diagnostic classification: " + failure_summary(diagnostic["stdout"] + "\n" + diagnostic["stderr"]))
+            elif key.startswith("plans/"):
+                changes = details.get("resource_changes", [])
+                print(f"Saved plan decrypts successfully; {len(changes)} resource entries:")
+                for change in changes:
+                    print(change["address"] + ": " + "/".join(change["change"]["actions"]))
+            else:
+                print(f"Stored state decrypts successfully; {len(records)} managed resources:")
+                for record in records:
+                    print(record["address"])
+    print("Read-only inspection completed; no remote state or Cloudflare resources changed.")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("operation", choices=("validate", "plan", "apply", "show"))
+    parser.add_argument("operation", choices=("validate", "plan", "apply", "show", "inspect"))
     parser.add_argument("--environment", choices=("staging", "production"))
     parser.add_argument("--plan-file", type=Path)
+    parser.add_argument("--json", dest="json_output", action="store_true", help="Private-terminal show only: includes sensitive values.")
+    parser.add_argument("--inspect-key", default="")
     args = parser.parse_args()
     try:
         # A public test-only key is used solely for offline, mocked checks.
@@ -130,7 +232,7 @@ def main():
         if args.operation == "show":
             if not args.plan_file:
                 raise ValueError("show requires --plan-file in a trusted private terminal.")
-            print(tofu(["show", str(args.plan_file.resolve())], env))
+            print(tofu(["show", *(["-json"] if args.json_output else []), str(args.plan_file.resolve())], env))
             return 0
         if not args.environment or os.environ.get("GITHUB_REF") != "refs/heads/main":
             raise ValueError("Live operations require an explicit environment and main branch.")
@@ -146,6 +248,9 @@ def main():
             if not re.fullmatch(pattern, key):
                 raise ValueError("Saved plan belongs to another commit, run or environment.")
         client = s3_client()
+        if args.operation == "inspect":
+            inspect_state(client, env, args.environment, args.inspect_key)
+            return 0
         backend = CONFIG / "backends" / f"{args.environment}.hcl"
         from check_state_locking import check_locking
         check_locking(env, backend, client)
@@ -173,9 +278,23 @@ def main():
                 verify_plan(data, os.environ.get("PLAN_SHA256"))
                 plan.write_bytes(data)
                 try:
+                    # Diagnose decryption/schema problems before any resource mutation.
+                    tofu(["show", "-json", str(plan)], env)
                     tofu(["apply", "-lock-timeout=60s", str(plan)], env)
+                except CommandFailure as error:
+                    try:
+                        save_failure(client, error, env, args.environment, run_id, attempt)
+                    except Exception:
+                        print("Private diagnostic upload failed; original failure preserved.", file=sys.stderr)
+                    raise
                 finally:
-                    snapshot(client, args.environment, run_id, attempt, "after-apply")
+                    active_failure = sys.exc_info()[0] is not None
+                    try:
+                        snapshot(client, args.environment, run_id, attempt, "after-apply")
+                    except Exception:
+                        if not active_failure:
+                            raise
+                        print("Post-apply snapshot failed; original failure preserved.", file=sys.stderr)
                 print("Saved plan applied successfully. No plan was regenerated.")
         return 0
     except Exception as error:

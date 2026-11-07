@@ -13,8 +13,12 @@ on:
         description: Save a plan, or save then wait for approval to apply that exact plan
         type: choice
         required: true
-        options: [plan, plan-and-apply]
+        options: [plan, plan-and-apply, inspect]
         default: plan
+      inspect_key:
+        description: Optional saved-plan or private-diagnostic R2 key for read-only inspection
+        type: string
+        default: ''
 
 permissions:
   contents: read
@@ -30,7 +34,7 @@ jobs:
     uses: ./.github/workflows/ci.yml
 
   plan:
-    name: Save encrypted plan
+    name: ${{ inputs.operation == 'inspect' && 'Inspect deployment state' || 'Save encrypted plan' }}
     if: github.ref == 'refs/heads/main'
     needs: checks
     runs-on: ubuntu-24.04
@@ -52,7 +56,7 @@ jobs:
           tofu_version: 1.13.9
           tofu_wrapper: false
       - run: python3 -m pip install -r scripts/requirements-infra.txt
-      - name: Check R2 locking, snapshot state and save plan
+      - name: Inspect state or verify R2 locking and save plan
         id: plan
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -60,7 +64,14 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           TOFU_ENCRYPTION_PASSPHRASE: ${{ secrets.TOFU_ENCRYPTION_PASSPHRASE }}
           TARGET_ENVIRONMENT: ${{ inputs.environment }}
-        run: python3 scripts/infra.py plan --environment "$TARGET_ENVIRONMENT"
+          OPERATION: ${{ inputs.operation }}
+          INSPECT_KEY: ${{ inputs.inspect_key }}
+        run: |
+          if [[ "$OPERATION" == "inspect" ]]; then
+            python3 scripts/infra.py inspect --environment "$TARGET_ENVIRONMENT" --inspect-key "$INSPECT_KEY"
+          else
+            python3 scripts/infra.py plan --environment "$TARGET_ENVIRONMENT"
+          fi
 
   apply:
     name: Apply reviewed saved plan

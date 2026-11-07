@@ -9,10 +9,40 @@ from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from check_commits import valid_header
-from infra import encryption_env, encrypted, plan_key, require_reviewers, snapshot, verify_plan
+from infra import CommandFailure, encryption_env, encrypted, failure_summary, inspect_state, plan_key, require_reviewers, snapshot, verify_plan
 
 
 class PlanSafetyTests(unittest.TestCase):
+    def test_failure_summary_never_echoes_raw_secret_text(self):
+        raw = 'Authentication error HTTP status: 403 {"code":10000,"token":"test-secret-value"} with cloudflare_d1_database.community'
+        summary = failure_summary(raw)
+        self.assertIn('authentication or permission error', summary)
+        self.assertIn('403', summary)
+        self.assertIn('10000', summary)
+        self.assertIn('cloudflare_d1_database.community', summary)
+        self.assertNotIn('test-secret-value', summary)
+        self.assertNotIn('test-secret-value', str(CommandFailure('apply', '', raw)))
+        self.assertNotIn('test-secret-value', failure_summary('opaque response: test-secret-value'))
+
+    def test_inspect_only_reads_objects_and_reports_resource_addresses(self):
+        client = Mock()
+        client.get_object.return_value = {'Body': io.BytesIO(b'{"encryption_version":"v0"}')}
+        details = {'values': {'root_module': {'resources': [
+            {'address': 'cloudflare_d1_database.community', 'values': {'secret': 'test-private-state-value'}},
+        ]}}}
+        with patch('infra.tofu', side_effect=['', json.dumps(details)]), patch('sys.stdout', new_callable=io.StringIO) as output:
+            inspect_state(client, {}, 'staging', '')
+        self.assertIn('cloudflare_d1_database.community', output.getvalue())
+        self.assertNotIn('test-private-state-value', output.getvalue())
+        client.put_object.assert_not_called()
+        client.delete_object.assert_not_called()
+
+    def test_inspection_rejects_cross_environment_keys_before_reading(self):
+        client = Mock()
+        with patch('infra.tofu'), self.assertRaises(ValueError):
+            inspect_state(client, {}, 'staging', 'diagnostics/production/42/1/apply-failure.tfstate')
+        client.get_object.assert_not_called()
+
     def test_encryption_requires_a_safe_full_length_secret(self):
         for key in (None, '', 'short', 'a' * 15):
             with self.subTest(key=key), self.assertRaises(ValueError):
