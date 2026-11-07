@@ -21,6 +21,8 @@ Compatibility claims should identify their source and any limitations. Unknown i
 
 Use **Tailwind CSS** for the UI, compiled into static CSS during the frontend build. Browse data as **manufacturer → groupset → component**. Components use stable IDs and can be referenced by multiple groupsets, keeping shared photo/comment history together.
 
+Each component requires a model number, weight in grams with an identifying description, and a manufacturer-hosted technical specification. Hub weights exclude skewers. Groupsets require a model number and year range; unknown end years are labelled explicitly.
+
 The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
 
 See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. Astro generates the frontend with Tailwind compiled at build time; browser search and type/groupset filters work without API requests.

@@ -13,6 +13,16 @@
     {
       "url": "https://si.shimano.com/zh-CN/pdfs/ev/SHIMANO_105_R7000_WOP-001/SHIMANO_105_R7000_WOP_v01.pdf",
       "title": "Shimano R7000 series genuine parts"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000032496.html",
+      "title": "Shimano Sales R7000 announcement, 4 April 2018; planned release June 2018",
+      "retrieved_on": "2026-11-07"
     }
-  ]
+  ],
+  "model_number": "R7000",
+  "year_range": {
+    "start": 2018,
+    "end": null
+  }
 }

@@ -57,19 +57,38 @@ def validate_catalogue(catalogue):
             if scope in slugs:
                 failures.append(f"{kind}/{identifier}: duplicate slug within its manufacturer")
             slugs.add(scope)
-            for source in record["sources"]:
+            urls = [source["url"] for source in record["sources"]]
+            if kind == "manufacturers":
+                urls.append(record["website_url"])
+            if kind == "components":
+                urls.append(record["technical_document"]["url"])
+            for source_url in urls:
                 try:
-                    url = urlsplit(source["url"])
-                    valid = url.scheme in ("http", "https") and url.hostname and not url.username and not url.password and not any(c.isspace() for c in source["url"])
+                    url = urlsplit(source_url)
+                    valid = url.scheme in ("http", "https") and url.hostname and not url.username and not url.password and not any(c.isspace() for c in source_url)
                 except ValueError:
                     valid = False
                 if not valid:
                     failures.append(f"{kind}/{identifier}: source must be an HTTP(S) URL without credentials")
+    if failures:
+        return failures
     for kind in ("groupsets", "components"):
         for record in catalogue[kind]:
             if record["manufacturer_id"] not in indices["manufacturers"]:
                 failures.append(f"{kind}/{record['id']}: unknown manufacturer_id")
+    for group in catalogue["groupsets"]:
+        years = group["year_range"]
+        if years["end"] is not None and years["end"] < years["start"]:
+            failures.append(f"groupsets/{group['id']}: year_range end must not precede start")
     for component in catalogue["components"]:
+        manufacturer = indices["manufacturers"].get(component["manufacturer_id"])
+        if manufacturer:
+            official_host = urlsplit(manufacturer["website_url"]).hostname
+            if official_host.startswith("www."):
+                official_host = official_host[4:]
+            document_host = urlsplit(component["technical_document"]["url"]).hostname
+            if not document_host or not (document_host == official_host or document_host.endswith("." + official_host)):
+                failures.append(f"components/{component['id']}: technical_document must be on the manufacturer's website or a subdomain")
         for group_id in component["groupset_ids"]:
             group = indices["groupsets"].get(group_id)
             if group is None:

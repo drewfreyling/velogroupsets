@@ -84,13 +84,17 @@
         },
         "sources": {
           "$ref": "#/$defs/sources"
+        },
+        "website_url": {
+          "$ref": "#/$defs/https_url"
         }
       },
       "required": [
         "id",
         "slug",
         "name",
-        "sources"
+        "sources",
+        "website_url"
       ],
       "additionalProperties": false
     },
@@ -119,13 +123,31 @@
           ],
           "minLength": 1
         },
-        "introduced_year": {
-          "type": [
-            "integer",
-            "null"
+        "model_number": {
+          "$ref": "#/$defs/text"
+        },
+        "year_range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "start",
+            "end"
           ],
-          "minimum": 1800,
-          "maximum": 2100
+          "properties": {
+            "start": {
+              "$ref": "#/$defs/year"
+            },
+            "end": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/year"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
         }
       },
       "required": [
@@ -133,7 +155,9 @@
         "slug",
         "name",
         "sources",
-        "manufacturer_id"
+        "manufacturer_id",
+        "model_number",
+        "year_range"
       ],
       "additionalProperties": false
     },
@@ -166,17 +190,21 @@
         "type": {
           "$ref": "https://velogroupsets.com/schemas/component-type.schema.json"
         },
-        "model_code": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "minLength": 1
-        },
         "specifications": {
           "type": "object",
           "propertyNames": {
-            "pattern": "^[a-z][a-z0-9_]*$"
+            "pattern": "^[a-z][a-z0-9_]*$",
+            "not": {
+              "enum": [
+                "weight_g",
+                "model_code",
+                "model_number",
+                "technical_document",
+                "year_range",
+                "weight_description",
+                "weight_excludes_skewers"
+              ]
+            }
           },
           "additionalProperties": {
             "anyOf": [
@@ -201,6 +229,24 @@
               }
             ]
           }
+        },
+        "model_number": {
+          "$ref": "#/$defs/text"
+        },
+        "weight_g": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "technical_document": {
+          "$ref": "#/$defs/technical_document"
+        },
+        "weight_description": {
+          "$ref": "#/$defs/text"
+        },
+        "weight_excludes_skewers": {
+          "type": "boolean",
+          "const": true,
+          "description": "Required for front/rear hubs; weights must exclude skewers."
         }
       },
       "required": [
@@ -210,9 +256,69 @@
         "sources",
         "manufacturer_id",
         "groupset_ids",
-        "type"
+        "type",
+        "model_number",
+        "weight_g",
+        "technical_document",
+        "weight_description"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "front-hub",
+                  "rear-hub"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "weight_excludes_skewers"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "weight_excludes_skewers"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "https_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "technical_document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "title"
+      ],
+      "properties": {
+        "url": {
+          "$ref": "#/$defs/https_url"
+        },
+        "title": {
+          "$ref": "#/$defs/text"
+        },
+        "retrieved_on": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1800,
+      "maximum": 2100
     }
   }
 }

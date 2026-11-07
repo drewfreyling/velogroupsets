@@ -34,6 +34,18 @@ data/
 
 Pages offer manufacturer/group breadcrumbs, component-type filtering, and component details. Resolve navigation through the references. Shared components need a consistent canonical URL and stable identity across groupset browsing contexts. Canonical component URLs are `/components/<manufacturer-slug>/<component-slug>/`, independent of groupset context. Groupsets use `/groupsets/<manufacturer-slug>/<groupset-slug>/`; manufacturers use `/manufacturers/<slug>/`. Slug changes still need explicit redirects.
 
+## Required component and groupset details
+
+Every component must have a non-empty `model_number`, a positive numeric `weight_g` in grams, a non-empty `weight_description`, and a `technical_document` citation (`url`, `title`, optional `retrieved_on`). Required weights and model numbers cannot be null or omitted. Hold incomplete records for research rather than inventing values. The previous optional `model_code` is replaced by `model_number`; existing stable IDs and canonical URLs are unchanged.
+
+The weight description identifies the weighed configuration: crank length and chainring teeth, cassette sprocket range, derailleur cage length, pedal pair versus single pedal, or hub dimensions/variant as relevant. Distinguish manufacturer average weights from measurements and record exclusions. The starter Shimano weights are manufacturer averages, with a linked handbook and PDF page for each component. A model-wide record may cite one explicitly identified reference configuration; do not imply the same weight applies to every option or silently change the record's identity into a different variant.
+
+**All front and rear hub weights exclude skewers.** Hub records additionally require `weight_excludes_skewers: true`; false/missing values fail validation. Include the hub's identifying configuration in `weight_description` and ensure the source supports the weight without skewers. Do not copy a skewer-inclusive weight or estimate an undocumented skewer deduction. The UI always states the exclusion beside a hub's weight.
+
+Each manufacturer declares an official `website_url`. Technical documents must use HTTPS on that hostname (ignoring a leading `www.`) or one of its subdomains. Retailer/mirror domains, lookalike suffixes and credential-bearing URLs are rejected. Contributor review must verify domain ownership, that the document covers the exact component, and that the cited page supports the weight/description; offline validation cannot establish these facts. Manufacturer-owned specification pages or PDFs are valid; a generic homepage is not a technical specification. External CDNs need an explicit future ownership/validation design rather than weakening this rule.
+
+Every groupset requires a non-empty `model_number` and `year_range: {"start": <year>, "end": <year or null>}`. Start is the documented introduction/availability year, not an inferred marketing model year. A known end is inclusive and cannot precede start. Null end means **end year not documented**, not proof that production continues. The UI uses that wording rather than “present”. The old `introduced_year` is replaced by this single range. Optional `generation` remains a descriptive label, separate from the manufacturer's model number.
+
 ## Component types
 
 The ordered [component-type schema](../data/schemas/component-type.schema.json) is the single source for valid IDs and UI labels. Its `oneOf` entries provide `const` and `title`; the catalogue schema references it directly.
@@ -65,6 +77,7 @@ Manufacturer, saved as `data/manufacturers/example-maker.json`:
   "id": "example-maker",
   "slug": "example-maker",
   "name": "Example Manufacturer",
+  "website_url": "https://example.com/",
   "sources": [{"url": "https://example.com/catalogue", "title": "Example catalogue"}]
 }
 ```
@@ -78,7 +91,8 @@ Groupset, saved as `data/groupsets/example-group.json`:
   "name": "Example Road",
   "manufacturer_id": "example-maker",
   "generation": "First generation",
-  "introduced_year": null,
+  "model_number": "ER-100",
+  "year_range": {"start": 2000, "end": null},
   "sources": [{"url": "https://example.com/catalogue", "title": "Example catalogue"}]
 }
 ```
@@ -93,15 +107,18 @@ Component, saved as `data/components/example-crankset.json`:
   "manufacturer_id": "example-maker",
   "groupset_ids": ["example-group"],
   "type": "crankset",
-  "model_code": null,
-  "specifications": {"weight_g": null},
+  "model_number": "EC-100",
+  "weight_g": 500,
+  "weight_description": "170 mm crank arms, 50/34T chainrings; excludes bottom bracket",
+  "technical_document": {"url": "https://docs.example.com/specification.pdf", "title": "Example manufacturer technical specification"},
+  "specifications": {"crank_length_mm": 170},
   "sources": [{"url": "https://example.com/catalogue", "title": "Example catalogue"}]
 }
 ```
 
 Every record needs a non-empty source list. Use HTTP(S) URLs and descriptive titles; `retrieved_on` is an optional ISO date. Schema checks validate citation structure/URL syntax offline, not page availability or the truth of a specification. Reviewers must assess evidence, attribution, and permission to contribute it.
 
-Unknown optional information should be omitted or `null`, never invented. Specification keys use lowercase underscores and explicit units where applicable, such as `crank_length_mm` or `weight_g`. Values can be scalars or lists of scalars; type-specific specification contracts can be tightened later. Do not treat flexible specification fields as a substitute for sourced facts.
+Unknown optional information should be omitted or `null`, never invented. Specification keys use lowercase underscores and explicit units where applicable, such as `crank_length_mm` or `chainline_mm`. Values can be scalars or lists of scalars; type-specific specification contracts can be tightened later. Do not treat flexible specification fields as a substitute for sourced facts.
 
 ## Validation and current status
 

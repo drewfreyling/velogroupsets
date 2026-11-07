@@ -7,7 +7,6 @@
     "shimano-105-r7000"
   ],
   "type": "crankset",
-  "model_code": "FC-R7000",
   "sources": [
     {
       "url": "https://bike.shimano.com/en-AU/products/components/pdp.P-FC-R7000.html",
@@ -23,5 +22,13 @@
       "52-36T",
       "53-39T"
     ]
-  }
+  },
+  "model_number": "FC-R7000",
+  "weight_g": 713.4,
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=176",
+    "title": "Shimano 2022\u20132023 specifications: FC-R7000 (PDF page 176)",
+    "retrieved_on": "2026-11-07"
+  },
+  "weight_description": "Manufacturer average: 50\u201334T chainrings, 170 mm crank arms; excludes bottom bracket."
 }

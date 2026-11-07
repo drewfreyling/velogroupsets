@@ -2,10 +2,51 @@
 import Layout from '../../../layouts/Layout.astro';
 import Sources from '../../../components/Sources.astro';
 import { components, manufacturerFor, manufacturerUrl, groupsFor, groupsetUrl, typeName } from '../../../lib/catalogue.mjs';
-export function getStaticPaths() { return components.map(component=>({params:{manufacturer:manufacturerFor(component).slug,slug:component.slug},props:{component}})); }
+export function getStaticPaths() {
+  return components.map(component => ({
+    params: { manufacturer: manufacturerFor(component).slug, slug: component.slug },
+    props: { component },
+  }));
+}
 const { component } = Astro.props;
 const manufacturer = manufacturerFor(component);
 const groups = groupsFor(component);
 const format = value => value == null ? 'Not documented' : Array.isArray(value) ? value.map(format).join(', ') : String(value);
 ---
-<Layout title={`${manufacturer.name} ${component.name}`}><div class="wrap py-12"><nav aria-label="Breadcrumb" class="mb-8 flex flex-wrap gap-2 text-sm text-muted"><a class="text-link" href="/manufacturers/">Manufacturers</a> / <a class="text-link" href={manufacturerUrl(manufacturer)}>{manufacturer.name}</a> / {groups.length===1 && <><a class="text-link" href={groupsetUrl(groups[0])}>{groups[0].name}</a> /</>} {component.model_code || component.name}</nav><p class="eyebrow mb-4">{manufacturer.name} · {typeName(component.type)}</p><h1 class="text-4xl tracking-tight sm:text-5xl">{component.name}</h1><p class="mt-4 font-mono text-lg text-muted">{component.model_code}</p><div class="mt-10 grid gap-10 md:grid-cols-[1fr_320px]"><div><h2 class="mb-5 text-2xl">Component details</h2><dl class="divide-y divide-line border-y border-line"><div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">Component type</dt><dd>{typeName(component.type)}</dd></div><div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">Groupset membership</dt><dd class="space-y-2">{groups.map(g=><p><a class="text-link" href={groupsetUrl(g)}>{g.name} {g.generation}</a></p>)}</dd></div>{Object.entries(component.specifications || {}).map(([key,value])=><div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">{key.replaceAll('_',' ')}</dt><dd>{format(value)}</dd></div>)}</dl>{!Object.keys(component.specifications || {}).length && <p class="mt-5 text-sm text-muted">Detailed specifications have not been catalogued yet.</p>}<Sources sources={component.sources}/></div><aside class="panel self-start p-7"><p class="eyebrow mb-4">Community reference</p><h2 class="text-2xl">More perspectives,<br/>better identification.</h2><p class="mt-4 text-sm leading-7 text-muted">Community photos and photo comments are planned. Uploads and sign-in are not available yet.</p><a class="text-link mt-6 inline-block text-sm" href={`https://github.com/drewfreyling/velogroupsets/blob/main/data/components/${component.id}.json`}>Improve this record <svg class="inline-block size-4 shrink-0 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><p class="mt-6 break-all font-mono text-[10px] text-muted">Reference ID: {component.id}</p></aside></div></div></Layout>
+<Layout title={`${manufacturer.name} ${component.name} ${component.model_number}`}>
+  <div class="wrap py-12">
+    <nav aria-label="Breadcrumb" class="mb-8 flex flex-wrap gap-2 text-sm text-muted">
+      <a class="text-link" href="/manufacturers/">Manufacturers</a> /
+      <a class="text-link" href={manufacturerUrl(manufacturer)}>{manufacturer.name}</a> /
+      {groups.length === 1 && <><a class="text-link" href={groupsetUrl(groups[0])}>{groups[0].name}</a> /</>}
+      {component.model_number}
+    </nav>
+    <p class="eyebrow mb-4">{manufacturer.name} · {typeName(component.type)}</p>
+    <h1 class="text-4xl tracking-tight sm:text-5xl">{component.name}</h1>
+    <p class="mt-4 font-mono text-lg text-muted">{component.model_number}</p>
+    <div class="mt-10 grid gap-10 md:grid-cols-[1fr_320px]">
+      <div>
+        <h2 class="mb-5 text-2xl">Component details</h2>
+        <dl class="divide-y divide-line border-y border-line">
+          <div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">Model number</dt><dd class="font-mono">{component.model_number}</dd></div>
+          <div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">Component type</dt><dd>{typeName(component.type)}</dd></div>
+          <div class="grid grid-cols-2 gap-4 py-4">
+            <dt class="text-muted">Weight</dt>
+            <dd><span class="font-semibold">{component.weight_g} g</span><p class="mt-2 text-sm leading-6 text-muted">{component.weight_description}</p>{component.weight_excludes_skewers && <p class="mt-2 text-sm font-semibold">Excludes skewers.</p>}</dd>
+          </div>
+          <div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">Technical specification</dt><dd><a class="text-link" href={component.technical_document.url}>Manufacturer technical specification</a><p class="mt-2 text-sm leading-6 text-muted">{component.technical_document.title}</p></dd></div>
+          <div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">Groupset membership</dt><dd class="space-y-2">{groups.map(g => <p><a class="text-link" href={groupsetUrl(g)}>{g.name} {g.model_number}</a></p>)}</dd></div>
+          {Object.entries(component.specifications || {}).map(([key, value]) => <div class="grid grid-cols-2 gap-4 py-4"><dt class="text-muted">{key.replaceAll('_', ' ')}</dt><dd>{format(value)}</dd></div>)}
+        </dl>
+        <Sources sources={component.sources}/>
+      </div>
+      <aside class="panel self-start p-7">
+        <p class="eyebrow mb-4">Community reference</p>
+        <h2 class="text-2xl">More perspectives,<br/>better identification.</h2>
+        <p class="mt-4 text-sm leading-7 text-muted">Community photos and photo comments are planned. Uploads and sign-in are not available yet.</p>
+        <a class="text-link mt-6 inline-block text-sm" href={`https://github.com/drewfreyling/velogroupsets/blob/main/data/components/${component.id}.json`}>Improve this record</a>
+        <p class="mt-6 break-all font-mono text-[10px] text-muted">Reference ID: {component.id}</p>
+      </aside>
+    </div>
+  </div>
+</Layout>
