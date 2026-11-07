@@ -1,0 +1,23 @@
+{
+  "id": "shimano-ultegra-6500",
+  "slug": "ultegra-6500",
+  "name": "Ultegra",
+  "manufacturer_id": "shimano",
+  "model_number": "6500",
+  "year_range": {
+    "start": 1997,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/41.html",
+      "title": "Shimano 100 products history: 600 Ultegra, 6500, 6600, Ultegra SL and 6700 chronology",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
+      "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

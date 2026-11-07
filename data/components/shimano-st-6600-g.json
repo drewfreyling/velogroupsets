@@ -1,0 +1,30 @@
+{
+  "id": "shimano-st-6600-g",
+  "slug": "st-6600-g",
+  "name": "Ultegra SL Dual Control levers",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-sl-6600"
+  ],
+  "type": "shifters",
+  "model_number": "ST-6600-G",
+  "weight_g": 447,
+  "weight_description": "Manufacturer-listed: ice-grey ST-6600-G shift/brake lever pair for the double chainset; includes brake lever assemblies.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=104",
+    "title": "Shimano 2008–2009 specifications: ST-6600-G (PDF page 104)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=9",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 9: Ultegra SL and shared components, including separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "front_speeds": 2,
+    "finish": "Ice grey"
+  }
+}

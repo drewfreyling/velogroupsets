@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fc-6604-g",
+  "slug": "fc-6604-g",
+  "name": "Ultegra SL triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-sl-6600"
+  ],
+  "type": "crankset",
+  "model_number": "FC-6604-G",
+  "weight_g": 893,
+  "weight_description": "Manufacturer-listed: 170 mm crank arms, 52/39/30T chainrings, including integrated bottom bracket.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=114",
+    "title": "Shimano 2008–2009 specifications: FC-6604-G (PDF page 114)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=9",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 9: Ultegra SL and shared components, including separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      39,
+      30
+    ],
+    "front_speeds": 3,
+    "rear_speeds": 10,
+    "finish": "Ice grey"
+  }
+}

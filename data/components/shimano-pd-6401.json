@@ -1,0 +1,25 @@
+{
+  "id": "shimano-pd-6401",
+  "slug": "pd-6401",
+  "name": "600 Ultegra clipless pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "pedals",
+  "model_number": "PD-6401",
+  "weight_g": 450,
+  "weight_description": "Manufacturer-listed: pedal pair, excluding the separately listed 92 g cleats and hardware.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-6401-0958/EV-PD-6401-0958B.pdf",
+    "title": "Shimano PD-6401 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shimano-hb-6700",
+  "slug": "hb-6700",
+  "name": "Ultegra front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6700"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-6700",
+  "weight_g": 156,
+  "weight_description": "Manufacturer-listed: HB-6700 front hub, excluding the separately listed 59 g skewer. Reference spoke count is not stated.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_SPECIFICATION.pdf#page=122",
+    "title": "Shimano 2009–2010 specifications: HB-6700 (PDF page 122)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=70",
+      "title": "Shimano 2010 Russian dealer catalogue, PDF page 70: Ultegra 6700 levers, cassette, pedals and separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

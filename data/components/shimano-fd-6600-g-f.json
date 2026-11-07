@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-6600-g-f",
+  "slug": "fd-6600-g-f",
+  "name": "Ultegra SL braze-on double front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-sl-6600"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-6600-G-F",
+  "weight_g": 89,
+  "weight_description": "Manufacturer-listed: ice-grey braze-on double-chainset version.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=94",
+    "title": "Shimano 2008–2009 specifications: FD-6600-G-F (PDF page 94)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=9",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 9: Ultegra SL and shared components, including separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "finish": "Ice grey"
+  }
+}

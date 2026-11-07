@@ -1,0 +1,32 @@
+{
+  "id": "shimano-fd-6400-b",
+  "slug": "fd-6400-b",
+  "name": "600 Ultegra band-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-6400-B",
+  "weight_g": 104,
+  "weight_description": "Manufacturer-listed: band-on version for 28.0–28.6 mm seat tubes.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-6400-0830/EV-FD-6400-0830A.pdf",
+    "title": "Shimano FD-6400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "mount": "Band-on",
+    "clamp_diameter_mm": [
+      28,
+      28.6
+    ]
+  }
+}

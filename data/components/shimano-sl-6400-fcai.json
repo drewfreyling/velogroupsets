@@ -1,0 +1,32 @@
+{
+  "id": "shimano-sl-6400-fcai",
+  "slug": "sl-6400-fcai",
+  "name": "600 Ultegra downtube shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "shifters",
+  "model_number": "SL-6400-FCAI",
+  "weight_g": 60,
+  "weight_description": "Manufacturer-listed: braze-on downtube lever set for six/seven-speed SIS, Italian-type bosses with 5 mm fixing bolts.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-6400_6401-0845/EV-SL-6400_6401-0845B.pdf",
+    "title": "Shimano SL-6400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": [
+      6,
+      7
+    ],
+    "mount": "Braze-on, Italian type (M5)"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "shimano-600-ultegra-6400",
+  "slug": "600-ultegra-6400",
+  "name": "600 Ultegra",
+  "manufacturer_id": "shimano",
+  "model_number": "6400",
+  "year_range": {
+    "start": 1987,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/41.html",
+      "title": "Shimano 100 products history: 600 Ultegra, 6500, 6600, Ultegra SL and 6700 chronology",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/37-38.htm",
+      "title": "Shimano 1993 catalogue, pages 37–38: eight-speed 600 Ultegra update and weights (published September 1992; archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

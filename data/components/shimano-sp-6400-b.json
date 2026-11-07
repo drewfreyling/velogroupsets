@@ -1,0 +1,29 @@
+{
+  "id": "shimano-sp-6400-b",
+  "slug": "sp-6400-b",
+  "name": "600 Ultegra semi-oval seatpost",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "seatpost",
+  "model_number": "SP-6400-B",
+  "weight_g": 284,
+  "weight_description": "Manufacturer-listed: B-type semi-oval seatpost, 27.2 mm reference configuration.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SP-6400-0842/EV-SP-6400-0842.pdf",
+    "title": "Shimano SP-6400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "diameter_mm": 27.2,
+    "shaft_type": "Semi-oval, B type"
+  }
+}

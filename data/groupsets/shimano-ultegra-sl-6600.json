@@ -1,0 +1,33 @@
+{
+  "id": "shimano-ultegra-sl-6600",
+  "slug": "ultegra-sl-6600",
+  "name": "Ultegra SL",
+  "manufacturer_id": "shimano",
+  "model_number": "6600-G",
+  "year_range": {
+    "start": 2007,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.cyclingweekly.com/news/product-news/first-ride-shimano-ultegra-sl-groupset-87891",
+      "title": "Cycling Weekly first ride of Ultegra SL, 26 November 2007: contemporary evidence of availability",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/41.html",
+      "title": "Shimano 100 products history: 600 Ultegra, 6500, 6600, Ultegra SL and 6700 chronology",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=9",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 9: Ultegra SL and shared components, including separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_LINE-UP_CHART.pdf",
+      "title": "Shimano 2008–2009 line-up chart: standard Ultegra and Ultegra SL double, compact and triple systems",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

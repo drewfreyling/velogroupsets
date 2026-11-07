@@ -1,0 +1,25 @@
+{
+  "id": "shimano-bb-6400",
+  "slug": "bb-6400",
+  "name": "600 Ultegra bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-6400",
+  "weight_g": 308,
+  "weight_description": "Manufacturer-listed: bottom bracket set. The table lists 113 and 115 mm spindles but does not identify the weighed variant or thread.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BB-6400-1151/EV-BB-6400-1151.pdf",
+    "title": "Shimano BB-6400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

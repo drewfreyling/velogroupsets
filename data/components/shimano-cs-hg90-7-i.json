@@ -1,0 +1,38 @@
+{
+  "id": "shimano-cs-hg90-7-i",
+  "slug": "cs-hg90-7-i",
+  "name": "Shimano seven-speed cassette (I group)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG90",
+  "weight_g": 286,
+  "weight_description": "Manufacturer-listed: seven-speed I-group 13–23T sprockets and spacers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-HG90_HG70_HG50-7I-1132/EV-CS-HG90_HG70_HG50-7I-1132.pdf",
+    "title": "Shimano CS-HG90/HG70/HG50 seven-speed I-group exploded view",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "sprockets_teeth": [
+      13,
+      14,
+      15,
+      17,
+      19,
+      21,
+      23
+    ],
+    "sprocket_group": "I"
+  }
+}

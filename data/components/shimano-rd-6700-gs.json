@@ -1,0 +1,29 @@
+{
+  "id": "shimano-rd-6700-gs",
+  "slug": "rd-6700-gs",
+  "name": "Ultegra GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6700"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6700-GS",
+  "weight_g": 199,
+  "weight_description": "Manufacturer-listed in the 2010 dealer catalogue: GS cage version; derailleur only.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_SPECIFICATION.pdf#page=93",
+    "title": "Shimano 2009–2010 specifications: RD-6700-GS (PDF page 93)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=69",
+      "title": "Shimano 2010 Russian dealer catalogue, PDF page 69: Ultegra 6700 cranks and derailleurs (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "cage": "GS"
+  }
+}

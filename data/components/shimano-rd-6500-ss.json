@@ -1,0 +1,29 @@
+{
+  "id": "shimano-rd-6500-ss",
+  "slug": "rd-6500-ss",
+  "name": "Ultegra nine-speed short-cage rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6500-SS",
+  "weight_g": 215,
+  "weight_description": "Manufacturer-listed: SS short-cage version for a double chainset; excludes GS triple-chainset version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-6500-1688/EV-RD-6500-1688.pdf",
+    "title": "Shimano RD-6500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
+      "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "cage": "SS"
+  }
+}

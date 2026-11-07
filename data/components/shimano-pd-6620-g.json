@@ -1,0 +1,28 @@
+{
+  "id": "shimano-pd-6620-g",
+  "slug": "pd-6620-g",
+  "name": "Ultegra SL SPD-SL pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-sl-6600"
+  ],
+  "type": "pedals",
+  "model_number": "PD-6620-G",
+  "weight_g": 317,
+  "weight_description": "Manufacturer-listed: ice-grey pedal pair, excluding separately listed 70 g cleats.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=140",
+    "title": "Shimano 2008–2009 specifications: PD-6620-G (PDF page 140)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=9",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 9: Ultegra SL and shared components, including separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "finish": "Ice grey"
+  }
+}

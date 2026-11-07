@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fc-6400-sg",
+  "slug": "fc-6400-sg",
+  "name": "600 Ultegra SG crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "crankset",
+  "model_number": "FC-6400-SG",
+  "weight_g": 650,
+  "weight_description": "Manufacturer-listed: 170 mm crank arms, 52/42T SG double chainrings; bottom bracket separate.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-6400-SG-1150/EV-FC-6400-SG-1150A.pdf",
+    "title": "Shimano FC-6400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/37-38.htm",
+      "title": "Shimano 1993 catalogue, pages 37–38: eight-speed 600 Ultegra update and weights (published September 1992; archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      42
+    ],
+    "front_speeds": 2
+  }
+}

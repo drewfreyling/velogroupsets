@@ -1,0 +1,34 @@
+{
+  "id": "shimano-sp-6600",
+  "slug": "sp-6600",
+  "name": "Ultegra single-bolt seatpost",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6600",
+    "shimano-ultegra-sl-6600"
+  ],
+  "type": "seatpost",
+  "model_number": "SP-6600",
+  "weight_g": 214,
+  "weight_description": "Manufacturer-listed: SP-6600 single-bolt seatpost, 270 mm long; the weight’s reference diameter is not stated.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_SPECIFICATION.pdf#page=132",
+    "title": "Shimano 2004–2005 specifications: SP-6600 (PDF page 132)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.scribd.com/document/901569279/Shimano-Consumer-2007",
+      "title": "Shimano 2007 Road & Sport consumer catalogue, printed page 32: Ultegra 6600 specifications and weights (archived scan)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=9",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 9: Ultegra SL and shared components, including separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "length_mm": 270
+  }
+}

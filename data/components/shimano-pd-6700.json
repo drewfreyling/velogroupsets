@@ -1,0 +1,25 @@
+{
+  "id": "shimano-pd-6700",
+  "slug": "pd-6700",
+  "name": "Ultegra SPD-SL pedals",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6700"
+  ],
+  "type": "pedals",
+  "model_number": "PD-6700",
+  "weight_g": 314,
+  "weight_description": "Manufacturer-listed in the 2010 dealer catalogue: pedal pair, excluding separately listed 70 g cleats.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_SPECIFICATION.pdf#page=142",
+    "title": "Shimano 2009–2010 specifications: PD-6700 (PDF page 142)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=70",
+      "title": "Shimano 2010 Russian dealer catalogue, PDF page 70: Ultegra 6700 levers, cassette, pedals and separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

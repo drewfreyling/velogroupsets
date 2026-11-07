@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fc-6503",
+  "slug": "fc-6503",
+  "name": "Ultegra nine-speed triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "crankset",
+  "model_number": "FC-6503",
+  "weight_g": 760,
+  "weight_description": "Manufacturer-listed: 172.5 mm crank arms, 52/42/30T triple chainrings; BB-6500 listed separately.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-6503-1702/EV-FC-6503-1702A.pdf",
+    "title": "Shimano FC-6503 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
+      "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 172.5,
+    "chainrings_teeth": [
+      52,
+      42,
+      30
+    ],
+    "front_speeds": 3,
+    "rear_speeds": 9
+  }
+}

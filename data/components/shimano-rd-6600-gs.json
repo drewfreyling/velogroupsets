@@ -1,0 +1,29 @@
+{
+  "id": "shimano-rd-6600-gs",
+  "slug": "rd-6600-gs",
+  "name": "Ultegra ten-speed GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6600"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6600-GS",
+  "weight_g": 219,
+  "weight_description": "Manufacturer-listed: GS cage version; derailleur only.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_SPECIFICATION.pdf#page=98",
+    "title": "Shimano 2004–2005 specifications: RD-6600 (PDF page 98)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.scribd.com/document/901569279/Shimano-Consumer-2007",
+      "title": "Shimano 2007 Road & Sport consumer catalogue, printed page 32: Ultegra 6600 specifications and weights (archived scan)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "cage": "GS"
+  }
+}

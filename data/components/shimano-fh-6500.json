@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fh-6500",
+  "slug": "fh-6500",
+  "name": "Ultegra nine-speed rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-6500",
+  "weight_g": null,
+  "weight_description": "Nine-speed quick-release rear hub. The cited catalogue does not establish a weight without the skewer.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-6500-1679/EV-FH-6500-1679.pdf",
+    "title": "Shimano FH-6500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
+      "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "axle_type": "Quick release"
+  },
+  "weight_excludes_skewers": true
+}

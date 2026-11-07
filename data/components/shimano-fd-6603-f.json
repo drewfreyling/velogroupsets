@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-6603-f",
+  "slug": "fd-6603-f",
+  "name": "Ultegra ten-speed braze-on triple front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6600"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-6603-F",
+  "weight_g": 113,
+  "weight_description": "Manufacturer-listed: braze-on triple-chainset version.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_SPECIFICATION.pdf#page=101",
+    "title": "Shimano 2004–2005 specifications: FD-6603-F (PDF page 101)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.scribd.com/document/901569279/Shimano-Consumer-2007",
+      "title": "Shimano 2007 Road & Sport consumer catalogue, printed page 32: Ultegra 6600 specifications and weights (archived scan)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 3
+  }
+}

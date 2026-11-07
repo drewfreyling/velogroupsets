@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-6500",
+  "slug": "cs-6500",
+  "name": "Ultegra nine-speed cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "cassette",
+  "model_number": "CS-6500",
+  "weight_g": 203,
+  "weight_description": "Manufacturer-listed: nine-speed 12–23T cassette.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-6500-1680/EV-CS-6500-1680A.pdf",
+    "title": "Shimano CS-6500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
+      "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "12–23T"
+  }
+}

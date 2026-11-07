@@ -1,0 +1,29 @@
+{
+  "id": "shimano-hp-6400",
+  "slug": "hp-6400",
+  "name": "600 Ultegra threaded headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "headset",
+  "model_number": "HP-6400",
+  "weight_g": 100,
+  "weight_description": "Manufacturer-listed: threaded road headset, 22 mm upper cone and 11.5 mm lower cone; reference thread variant not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HP-6400-0819/EV-HP-6400-0819D.pdf",
+    "title": "Shimano HP-6400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "upper_cone_height_mm": 22,
+    "lower_cone_height_mm": 11.5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fh-6700",
+  "slug": "fh-6700",
+  "name": "Ultegra rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6700"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-6700",
+  "weight_g": 354,
+  "weight_description": "Manufacturer-listed: FH-6700 rear hub, excluding the separately listed 64 g skewer. Reference spoke count is not stated.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_SPECIFICATION.pdf#page=120",
+    "title": "Shimano 2009–2010 specifications: FH-6700 (PDF page 120)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=70",
+      "title": "Shimano 2010 Russian dealer catalogue, PDF page 70: Ultegra 6700 levers, cassette, pedals and separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

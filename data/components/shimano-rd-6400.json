@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-6400",
+  "slug": "rd-6400",
+  "name": "600 Ultegra rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6400",
+  "weight_g": 216,
+  "weight_description": "Manufacturer-listed: six/seven-speed double-chainset derailleur, 28T total capacity and 28T maximum sprocket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-6400-0832/EV-RD-6400-0832B.pdf",
+    "title": "Shimano RD-6400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": [
+      6,
+      7
+    ],
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "shimano-rd-6600-g-ss",
+  "slug": "rd-6600-g-ss",
+  "name": "Ultegra SL SS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-sl-6600"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6600-G-SS",
+  "weight_g": 200,
+  "weight_description": "Manufacturer-listed: ice-grey SS cage version; derailleur only.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=92",
+    "title": "Shimano 2008–2009 specifications: RD-6600-G-SS (PDF page 92)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=9",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 9: Ultegra SL and shared components, including separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "cage": "SS",
+    "finish": "Ice grey"
+  }
+}

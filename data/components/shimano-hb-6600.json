@@ -1,0 +1,32 @@
+{
+  "id": "shimano-hb-6600",
+  "slug": "hb-6600",
+  "name": "Ultegra front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6600",
+    "shimano-ultegra-sl-6600"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-6600",
+  "weight_g": 140,
+  "weight_description": "Manufacturer-listed: HB-6600 front hub, excluding the separately listed 60 g skewer. Reference spoke count is not stated.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=122",
+    "title": "Shimano 2008–2009 specifications: HB-6600 (PDF page 122)",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.scribd.com/document/901569279/Shimano-Consumer-2007",
+      "title": "Shimano 2007 Road & Sport consumer catalogue, printed page 32: Ultegra 6600 specifications and weights (archived scan)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=9",
+      "title": "Shimano 2008 Road consumer catalogue, PDF page 9: Ultegra SL and shared components, including separate hub/skewer weights (archived manufacturer PDF)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

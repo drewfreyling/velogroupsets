@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-6500-f",
+  "slug": "fd-6500-f",
+  "name": "Ultegra nine-speed braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-6500-F",
+  "weight_g": 81,
+  "weight_description": "Manufacturer-listed: FD-6500 braze-on double-chainset version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-6500-1700/EV-FD-6500-1700B.pdf",
+    "title": "Shimano FD-6500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
+      "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2
+  }
+}

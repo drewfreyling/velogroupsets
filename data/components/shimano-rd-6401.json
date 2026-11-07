@@ -1,0 +1,28 @@
+{
+  "id": "shimano-rd-6401",
+  "slug": "rd-6401",
+  "name": "600 Ultegra eight-speed rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6401",
+  "weight_g": 215,
+  "weight_description": "Manufacturer-listed: RD-6401 eight-speed SIS rear derailleur in the 1993 catalogue.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-6401-1222/EV-RD-6401-1222.pdf",
+    "title": "Shimano RD-6401 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/37-38.htm",
+      "title": "Shimano 1993 catalogue, pages 37–38: eight-speed 600 Ultegra update and weights (published September 1992; archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8
+  }
+}

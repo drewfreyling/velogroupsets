@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fc-6400-bp",
+  "slug": "fc-6400-bp",
+  "name": "600 Ultegra Biopace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "crankset",
+  "model_number": "FC-6400-BP",
+  "weight_g": 650,
+  "weight_description": "Manufacturer-listed: 170 mm crank arms, 52/42T Biopace double chainrings; bottom bracket listed separately.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-6400_BB-6400-0834/EV-FC-6400_BB-6400-0834B.pdf",
+    "title": "Shimano FC-6400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      42
+    ],
+    "front_speeds": 2
+  }
+}
