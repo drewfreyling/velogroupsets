@@ -12,21 +12,21 @@ import { manufacturers, groupsets, components, types, manufacturerUrl } from '..
       <div class="mt-8 flex flex-wrap items-center gap-5"><a class="button" href="/catalogue/">Search the catalogue </a><a class="text-link text-sm" href="/manufacturers/">See manufacturers</a></div>
       <p class="mt-8 text-xs text-muted">The catalogue is incomplete. Contributions need a manufacturer specification.</p>
     </div>
-    <div class="relative flex aspect-square max-h-104 items-center justify-center overflow-hidden rounded-3xl bg-[#e5e8de]" aria-hidden="true">
+    <div class="relative flex aspect-square max-h-104 items-center justify-center overflow-hidden rounded-3xl diagram-panel" aria-hidden="true">
       <svg viewBox="0 0 400 400" class="size-full p-7" fill="none">
-        <defs><pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" stroke="#cbd2c3" stroke-width=".5"/></pattern></defs>
+        <defs><pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" stroke="var(--border)" stroke-width=".5"/></pattern></defs>
         <path fill="url(#grid)" d="M0 0h400v400H0z"/>
-        <circle cx="200" cy="195" r="132" stroke="#a4b19d" stroke-dasharray="4 6"/>
-        <g stroke="#27372d" stroke-width="2"><circle cx="200" cy="195" r="106"/><circle cx="200" cy="195" r="94" stroke-width="12" stroke-dasharray="2 7"/><circle cx="200" cy="195" r="78"/><circle cx="200" cy="195" r="50"/>
-          <path d="m200 180 55-53 24 34-64 45 15 130-28 3-20-127-69-47 22-33 55 48Z" fill="#344839"/>
-          <circle cx="200" cy="195" r="21" fill="#e5e8de"/><circle cx="200" cy="195" r="9"/><circle cx="214" cy="326" r="6" fill="#e5e8de"/>
+        <circle cx="200" cy="195" r="132" stroke="var(--brand-base)" stroke-dasharray="4 6"/>
+        <g stroke="var(--diagram-line)" stroke-width="2"><circle cx="200" cy="195" r="106"/><circle cx="200" cy="195" r="94" stroke-width="12" stroke-dasharray="2 7"/><circle cx="200" cy="195" r="78"/><circle cx="200" cy="195" r="50"/>
+          <path d="m200 180 55-53 24 34-64 45 15 130-28 3-20-127-69-47 22-33 55 48Z" fill="var(--diagram-fill)"/>
+          <circle cx="200" cy="195" r="21" fill="var(--diagram-bg)"/><circle cx="200" cy="195" r="9"/><circle cx="214" cy="326" r="6" fill="var(--diagram-bg)"/>
         </g>
-        <path d="M50 63h48M74 39v48M315 300h48M339 276v48" stroke="#7b8c73"/>
+        <path d="M50 63h48M74 39v48M315 300h48M339 276v48" stroke="var(--diagram-line)"/>
       </svg>
       <span class="absolute bottom-5 left-6 text-sm text-muted">Crankset illustration</span>
     </div>
   </section>
-  <section class="border-y border-line bg-white/35 py-6">
+  <section class="border-y border-line bg-surface py-6">
     <div class="wrap grid grid-cols-3 gap-4">{[[manufacturers.length,'manufacturer'],[groupsets.length,'groupset'],[components.length,'component']].map(([count,label]) => <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-3"><strong class="text-3xl font-medium tabular-nums">{count}</strong><span class="text-xs text-muted sm:text-sm">{label}{count === 1 ? '' : 's'} catalogued</span></div>)}</div>
   </section>
   <section class="wrap pt-14">
@@ -36,5 +36,5 @@ import { manufacturers, groupsets, components, types, manufacturerUrl } from '..
     </div>
   </section>
   <section class="wrap pt-14"><div class="mb-7 flex flex-col items-start gap-4 sm:flex-row sm:items-end sm:justify-between"><div><h2 class="text-3xl tracking-tight">Component specifications</h2></div><a class="text-link shrink-0 whitespace-nowrap text-sm" href="/catalogue/">See all components </a></div><ComponentList records={components.slice(0,4)} /></section>
-  <section class="wrap pt-14"><h2 class="mb-5 text-2xl">Browse by component type</h2><div class="flex flex-wrap gap-2">{types.map(t=><a class="rounded-full border border-line px-4 py-2 text-sm hover:bg-accent" href={`/catalogue/?type=${t.const}`}>{t.title}</a>)}</div></section>
+  <section class="wrap pt-14"><h2 class="mb-5 text-2xl">Browse by component type</h2><div class="flex flex-wrap gap-2">{types.map(t=><a class="category-link rounded-full border border-line px-4 py-2 text-sm" href={`/catalogue/?type=${t.const}`}>{t.title}</a>)}</div></section>
 </Layout>

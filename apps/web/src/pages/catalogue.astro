@@ -4,9 +4,9 @@ import { components, groupsets, types, manufacturerFor, componentUrl, groupsetNa
 ---
 <Layout title="Component catalogue"><div class="wrap py-12"><h1 class="text-5xl tracking-tight">Component catalogue</h1><p class="mt-5 text-muted">Search by model number, manufacturer or groupset. Filter by component type to narrow the results.</p>
   <form id="filters" class="panel mt-9 grid gap-5 p-6 md:grid-cols-[2fr_1fr_1fr]" role="search">
-    <label class="text-xs font-semibold">Search components<input id="query" name="q" type="search" autocomplete="off" placeholder="Try FC-R7000 or Shimano…" class="mt-2 w-full rounded-lg border border-line bg-white px-4 py-3 text-base font-normal"/></label>
-    <label class="text-xs font-semibold">Component type<select id="type" name="type" class="mt-2 w-full rounded-lg border border-line bg-white px-3 py-3 text-base font-normal"><option value="">All component types</option>{types.map(t=><option value={t.const}>{t.title}</option>)}</select></label>
-    <label class="text-xs font-semibold">Groupset<select id="groupset" name="groupset" class="mt-2 w-full rounded-lg border border-line bg-white px-3 py-3 text-base font-normal"><option value="">All groupsets</option>{groupsets.map(g=><option value={g.id}>{manufacturerFor(g).name} {groupsetName(g)}</option>)}</select></label>
+    <label class="text-xs font-semibold">Search components<input id="query" name="q" type="search" autocomplete="off" placeholder="Try FC-R7000 or Shimano…" class="mt-2 w-full rounded-lg border bg-surface px-4 py-3 text-base font-normal"/></label>
+    <label class="text-xs font-semibold">Component type<select id="type" name="type" class="mt-2 w-full rounded-lg border bg-surface px-3 py-3 text-base font-normal"><option value="">All component types</option>{types.map(t=><option value={t.const}>{t.title}</option>)}</select></label>
+    <label class="text-xs font-semibold">Groupset<select id="groupset" name="groupset" class="mt-2 w-full rounded-lg border bg-surface px-3 py-3 text-base font-normal"><option value="">All groupsets</option>{groupsets.map(g=><option value={g.id}>{manufacturerFor(g).name} {groupsetName(g)}</option>)}</select></label>
     <button class="button md:hidden" type="submit">Search the catalogue</button>
   </form>
   <p id="result-count" class="my-6 text-sm text-muted" role="status" aria-live="polite">{components.length} components</p>

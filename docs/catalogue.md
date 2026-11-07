@@ -4,6 +4,8 @@ The browsing hierarchy is **manufacturer → groupset → component**. Catalogue
 
 Tailwind CSS is the chosen UI styling system. Astro generates the frontend and compiles pinned Tailwind into static CSS served by Cloudflare; npm dependencies are locked. Use semantic HTML, keyboard-visible focus, responsive layouts, and accessible labels. Keep Tailwind class names in source code or explicit mappings so the build can discover them; do not construct utility class names from arbitrary catalogue values. No runtime CSS CDN is required.
 
+See the [colour and theme guide](design.md) for semantic colour tokens, the dark-mode toggle and contrast requirements.
+
 ## Hierarchy and storage
 
 ```mermaid

@@ -27,6 +27,8 @@ The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear
 
 See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. Astro generates the frontend with Tailwind compiled at build time; browser search and type/groupset filters work without API requests.
 
+The [colour and theme guide](docs/design.md) documents the teal palette, contrast rules and dark-mode behaviour.
+
 ## Architecture
 
 The starting design uses **Cloudflare Workers Static Assets + a TypeScript Worker + D1 + R2**, with OpenTofu managing Cloudflare infrastructure in this repository and GitHub Actions deploying the application through Wrangler. This keeps the initial stack small and aims to fit a modest community within free allowances.

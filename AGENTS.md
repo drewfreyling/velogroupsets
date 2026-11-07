@@ -60,3 +60,7 @@ Write as a knowledgeable bicycle component reference: state what a page contains
 Use model numbers as the primary component-page heading, with the component name as supporting text. Render groupset names consistently as name plus model number (for example, “105 R7000”). Avoid redundant eyebrow labels and tiny internal-ID captions. Use sentence-case section headings at a readable size, reserve monospace for actual model identifiers, and keep specification labels close to values in a responsive definition list.
 
 Use the shared `ExternalLink` component for off-site links: only these links show ↗, open in a new tab, and announce “(opens in new tab)” in their accessible name. Internal navigation stays in the same tab without an external-link arrow.
+
+## Colour and themes
+
+Read [docs/design.md](docs/design.md) before changing visual styles. Use the shared semantic colour tokens for both light and dark modes. Base teal `#3DCFC2` takes `#10201F` ink, never white text; small links on light backgrounds use `#0B6B65`. Preserve system-theme fallback, the accessible persistent dark-mode toggle and the external pre-paint script without weakening CSP. Check responsive pages and contrast in both themes.
