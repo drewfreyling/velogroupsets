@@ -28,7 +28,7 @@ Ultegra Di2 6770 (2011), 6800 (2013), R8000 and later series are outside this da
 
 ## Sources and component coverage
 
-Manufacturer material supplies the specifications and most reference weights. HB-6500 instead uses published measurements from Damon Rinard’s component-weight list. Independent archives host some original documents; component technical-document links point directly to Shimano's service site or specifications archive.
+Manufacturer material supplies the specifications and most reference weights. HB-6500 and FH-6500 instead use published measurements from Damon Rinard’s component-weight list. Independent archives host some original documents; component technical-document links point directly to Shimano's service site or specifications archive.
 
 | Evidence | Use |
 | --- | --- |
@@ -47,13 +47,13 @@ The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset
 
 ## Weight rules and differences between publications
 
-The JSON `weight_description` states the weighed reference configuration and inclusions. Except for the HB-6500 measurements described below, these are manufacturer-listed figures, not fresh measurements. They do not imply an identical weight for every arm length, gear combination, spoke count or finish.
+The JSON `weight_description` states the weighed reference configuration and inclusions. Except for the HB-6500 and FH-6500 measurements described below, these are manufacturer-listed figures, not fresh measurements. They do not imply an identical weight for every arm length, gear combination, spoke count or finish.
 
 - Original 6400 and 6500 crank reference weights exclude the separately listed bottom bracket. For 6600, SL and 6700, the cited crank figures **include the integrated bottom bracket**. Do not add a separate bottom-bracket weight to those figures when comparing totals.
 - Dual Control lever weights are for a **pair**, including the brake lever assemblies. They do not describe just the shift mechanisms. The ST-6500 weight is not silently assigned to ST-6501.
 - Pedal pairs exclude cleats where the catalogue lists cleats separately. PD-6400 instead includes size L toe clips.
 - The 2008 catalogue lists HB-6600 at **140 g** plus a separate **60 g** skewer and FH-6600 at **347 g** plus a separate **64 g** skewer. The 2010 catalogue similarly separates HB-6700 **156 g / 59 g skewer** and FH-6700 **354 g / 64 g skewer**. Catalogue weights use the hub-only values. Reference spoke counts are not supplied and are not guessed.
-- FH-6401 and FH-6500 use explicit unknown weights because the selected older catalogues do not establish a hub-only weight. Front hubs with the same evidence gap remain unlisted under the current front-hub requirement. The measured 36-hole HB-RM50 weight belongs to another model and is not reused.
+- FH-6401 retains an explicit unknown weight because the selected older catalogue does not establish a hub-only weight. FH-6500 uses the independently measured hub-only weight described below. Front hubs with the same evidence gap remain unlisted under the current front-hub requirement. The measured 36-hole HB-RM50 weight belongs to another model and is not reused.
 - The selected 2010 dealer catalogue gives FC-6700 **790 g** (170 mm, 53/39T with bottom bracket), ST-6700 **447 g** per pair, RD-6700-SS **189 g**, and CS-6700 **209 g** (11–23T). Launch reports can contain different preliminary figures. Preserve the cited publication's values and configuration rather than averaging publications or mixing reference bases.
 
 Where a source omits the reference thread, diameter or spoke count, the description says so. The BB-6400 source lists both 113 and 115 mm spindle options without identifying which supplied its 308 g reference weight; the record does not select one by inference.
@@ -82,3 +82,9 @@ Rear derailleur records distinguish total chain take-up capacity, largest rear s
 | RD-6700, GS | 39T | 28T | 11T | 22T | Same 2010–2011 table |
 
 The selected later specification tables replace the older technical-document links for 6600 and 6700. The 2005 table differs for 6600, and the 2010 table lists a 14T front difference for 6700 SS; the selected 2011 table lists 16T. Record the publication used rather than silently mixing editions. The existing reference weights retain their separately identified sources.
+
+## FH-6500 measured weight
+
+The [cassette-hub section of Damon Rinard’s Component Weights](https://sheldonbrown.com/rinard/weights.htm) lists Shimano Ultegra FH-6500 at **346 g**, with two identical measurements, nine sprockets and **130 mm spacing**. The section states that weights exclude skewers unless noted otherwise; this row has no skewer-inclusion exception. The catalogue uses 346 g as a published measurement, not a Shimano average. Spoke count is not supplied and is not inferred.
+
+[Shimano’s FH-6500 drawing](https://si.shimano.com/en/pdfs/ev/FH-6500-1679/EV-FH-6500-1679.pdf) remains the manufacturer-hosted technical document, and the 1998 manufacturer catalogue establishes Ultegra 6500 membership. Rinard’s measurement replaces the previous unknown weight without changing the component identity or canonical URL.

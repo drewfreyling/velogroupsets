@@ -8,14 +8,19 @@
   ],
   "type": "rear-hub",
   "model_number": "FH-6500",
-  "weight_g": null,
-  "weight_description": "Nine-speed quick-release rear hub. The cited catalogue does not establish a weight without the skewer.",
+  "weight_g": 346,
+  "weight_description": "Published measured reference: FH-6500 nine-speed quick-release rear hub, 130 mm spacing, without skewer. Damon Rinard’s list reports two measurements of 346 g. Spoke count is not stated.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FH-6500-1679/EV-FH-6500-1679.pdf",
     "title": "Shimano FH-6500 exploded view and replacement parts",
     "retrieved_on": "2026-11-07"
   },
   "sources": [
+    {
+      "url": "https://sheldonbrown.com/rinard/weights.htm",
+      "title": "Damon Rinard, Component Weights: cassette hubs weighed without skewers; FH-6500, 130 mm spacing, measurements 346 and 346 g",
+      "retrieved_on": "2026-11-07"
+    },
     {
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
       "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
@@ -24,7 +29,8 @@
   ],
   "specifications": {
     "rear_speeds": 9,
-    "axle_type": "Quick release"
+    "axle_type": "Quick release",
+    "over_locknut_dimension_mm": 130
   },
   "weight_excludes_skewers": true
 }
