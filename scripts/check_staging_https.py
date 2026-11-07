@@ -5,7 +5,7 @@ import os
 import socket
 import ssl
 from urllib.error import HTTPError
-from urllib.request import HTTPRedirectHandler, build_opener, urlopen
+from urllib.request import HTTPRedirectHandler, Request, build_opener, urlopen
 
 HOST = "staging.velogroupsets.com"
 BASE = f"https://{HOST}"
@@ -13,7 +13,8 @@ BASE = f"https://{HOST}"
 
 def get(url, opener=urlopen):
     try:
-        response = opener(url, timeout=20)
+        request = Request(url, headers={"User-Agent": "VeloGroupsets-HTTPS-SmokeCheck/1.0"})
+        response = opener(request, timeout=20)
     except HTTPError as error:
         response = error
     with response:
