@@ -1,0 +1,32 @@
+{
+  "id": "shimano-fh-a550",
+  "slug": "fh-a550",
+  "name": "RX100 seven-speed rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rx100-a550"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-A550",
+  "weight_g": null,
+  "weight_description": "Seven-speed quick-release rear hub, 126 mm over locknuts and 137 mm axle. A weight without the skewer has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-A550-1094/EV-FH-A550-1094.pdf",
+    "title": "Shimano FH-A550 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "rear_speeds": 7,
+    "axle_type": "Quick release",
+    "over_locknut_dimension_mm": 126,
+    "axle_length_mm": 137
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 28: FH-A550 membership and specifications; listed weight includes quick release and is not used",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

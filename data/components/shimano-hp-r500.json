@@ -4,7 +4,8 @@
   "name": "Shimano threaded road headset",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-exage-500ex"
+    "shimano-exage-500ex",
+    "shimano-rx100-a550"
   ],
   "type": "headset",
   "model_number": "HP-R500",
@@ -23,6 +24,11 @@
     {
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 28: RX100 component specifications and weights (published August 1989; archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
     }
   ]

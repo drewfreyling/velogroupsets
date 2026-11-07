@@ -131,7 +131,7 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains Shimano 105 R7000 (three components) and Exage 500EX A500 (ten components). Coverage remains incomplete.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains Shimano 105 R7000 (three components), Exage 500EX A500 (ten components) and RX100 A550 (nine components). There are twenty unique components: RX100 and Exage share the same HP-R500 and PD-A550 records. Coverage remains incomplete.
 
 The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
 
@@ -163,3 +163,26 @@ The manual lists FH-HG50 at 436 g **with quick release**; this number is not use
 On 7 November 2026, the project owner reported personally weighing an **HB-RM50 front hub at 139 g without its skewer**. This is the source of the catalogue weight; it is not a Shimano specification or an independently repeated measurement. The date is when the measurement was reported, not a claimed weighing date. Spoke count, axle dimensions and scale details were not supplied, so the record does not infer them or apply this weight to every variant.
 
 The dealer manual identifies the front hub as HB-RM50-F and establishes its Exage 500EX membership. [Shimano's exploded drawing](https://si.shimano.com/en/pdfs/ev/HB-RM50-0981/EV-HB-RM50-0981B.pdf) distinguishes the quick-release HB-RM50-FQR from the nutted HB-RM50-FNT. The recorded measurement excludes the skewer and describes the quick-release front hub. Its `sources` link here for measurement provenance and to the dealer manual for membership; its `technical_document` links directly to Shimano.
+
+
+## Historical Shimano RX100
+
+The **RX100 A550** record covers the original seven-speed road group with downtube shifters. [Shimano's RX100 history](https://www.shimano.com/en/100th/history/products/result.html?id=50) dates its introduction to **1989** and describes later dual-control levers. The end year remains undocumented in this record. Later STI, triple-chainset and other revisions are not implied by the initial component list.
+
+The original *Dealers’ 1990 Product Manual*, published in August 1989, provides the evidence: [page 26 introduces RX100](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_26.html), [page 27 shows the group](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_27.html), and [page 28 lists its components and weights](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html). These original Shimano scans are hosted by Disraeli Gears. Each component also links to its relevant technical drawing on Shimano's service site.
+
+| Component | Model | Weight and basis |
+| --- | --- | --- |
+| Crankset | FC-A550 | 700 g; 170 mm, 52/42T double; bottom bracket separate |
+| Bottom bracket | BB-A550 | 327 g; set with 113 mm spindle; weight's thread variant unspecified |
+| Front derailleur | FD-A550-B | 100 g; band-on, 28.0–28.6 mm |
+| Rear derailleur | RD-A550 | 280 g; double-chainset version, 28T total capacity |
+| Shifters | SL-A550-FCAI | 72 g; seven-speed braze-on downtube lever set, M5 Italian-type bosses |
+| Cassette | CS-HG70 | 325 g; seven-speed I group, 13–23T sprockets and spacers |
+| Headset | HP-R500 | 121 g; shared with Exage 500EX |
+| Pedals | PD-A550 | Shared record retains the Exage table's 407 g; RX100 table lists 400 g, both including size L toe clips |
+| Rear hub | FH-A550 | Not yet sourced without skewer; seven-speed quick release, 126 mm over locknuts, 137 mm axle |
+
+The two pedal weights conflict for the same nominal model/configuration. Preserve one component identity and the existing 407 g reference value, cite both tables and disclose the 400 g listing in the weight description. Do not average the values or invent a variant to explain the difference.
+
+The FH-A550's published 420 g includes its quick release, so the catalogue uses an explicit unknown weight. The HB-A550-F front hub is not yet added: its 202 g listing does not explicitly establish skewer exclusion. The HB-RM50 measurement belongs to a different model and is not reused. The manual's cassette row names CS-HG70; its sidebar heading says CS-HG50. Membership follows the component row, with the seven-speed I-group tooth sequence confirmed by Shimano's shared CS-HG90/HG70/HG50 drawing. No seatpost is listed; brakes and the chain remain outside the current taxonomy.

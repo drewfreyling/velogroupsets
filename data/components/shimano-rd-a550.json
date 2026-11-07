@@ -1,0 +1,35 @@
+{
+  "id": "shimano-rd-a550",
+  "slug": "rd-a550",
+  "name": "RX100 rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rx100-a550"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-A550",
+  "weight_g": 280,
+  "weight_description": "Manufacturer-listed: double-chainset derailleur with 28T total capacity and a 28T maximum rear sprocket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-A550-1025/EV-RD-A550-1025D.pdf",
+    "title": "Shimano RD-A550 exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "rear_speeds": [
+      6,
+      7
+    ],
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 13
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 28: RX100 component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

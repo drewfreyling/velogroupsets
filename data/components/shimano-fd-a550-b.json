@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fd-a550-b",
+  "slug": "fd-a550-b",
+  "name": "RX100 band-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rx100-a550"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-A550-B",
+  "weight_g": 100,
+  "weight_description": "Manufacturer-listed: band-on version for 28.0–28.6 mm seat tubes; excludes the braze-on version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-A550-1017/EV-FD-A550-1017A.pdf",
+    "title": "Shimano FD-A550-B exploded view and replacement parts",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "mount": "Band-on",
+    "clamp_diameter_mm": [
+      28,
+      28.6
+    ],
+    "capacity_teeth": 14
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 28: RX100 component specifications and weights (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}
