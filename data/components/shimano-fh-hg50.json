@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fh-hg50",
+  "slug": "fh-hg50",
+  "name": "Exage seven-speed rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-HG50",
+  "weight_g": null,
+  "weight_description": "Seven-speed quick-release rear hub. A weight without the skewer has not yet been sourced.",
+  "weight_excludes_skewers": true,
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-HG50-1107/EV-FH-HG50-1107A.pdf",
+    "title": "Shimano FH-HG50 seven-speed rear hub exploded view: quick-release and nutted versions",
+    "retrieved_on": "2026-11-07"
+  },
+  "specifications": {
+    "rear_speeds": 7,
+    "axle_type": "Quick release"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: FH-HG50 membership and specifications; listed weight includes quick release and is not used",
+      "retrieved_on": "2026-11-07"
+    }
+  ]
+}

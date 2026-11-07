@@ -129,6 +129,33 @@ class CatalogueTests(unittest.TestCase):
         data['components'][0]['specifications'] = {'weight_g':500}
         self.assertTrue(validate_catalogue(data), 'Weight must not have two conflicting locations')
 
+    def test_rear_hubs_can_have_unknown_weight_but_cannot_bypass_weight_rules(self):
+        for kind in ('rear-hub', 'front-hub', 'crankset'):
+            data = fixture()
+            component = data['components'][0]
+            component.update(type=kind, weight_g=None, weight_description='Weight without skewer not yet sourced')
+            if kind.endswith('hub'):
+                component['weight_excludes_skewers'] = True
+            with self.subTest(kind=kind):
+                self.assertEqual(bool(validate_catalogue(data)), kind != 'rear-hub')
+        for value in (0, -1, 'unknown', True):
+            data = fixture()
+            data['components'][0].update(type='rear-hub', weight_g=value, weight_excludes_skewers=True)
+            with self.subTest(weight=value):
+                self.assertTrue(validate_catalogue(data))
+        for excludes in (False, None):
+            data = fixture()
+            component = data['components'][0]
+            component.update(type='rear-hub', weight_g=None)
+            if excludes is not None:
+                component['weight_excludes_skewers'] = excludes
+            self.assertTrue(validate_catalogue(data))
+        data = fixture()
+        component = data['components'][0]
+        component.update(type='rear-hub', weight_excludes_skewers=True)
+        del component['weight_g']
+        self.assertTrue(validate_catalogue(data), 'Unknown weights must be explicit nulls')
+
     def test_json_keys_cannot_silently_overwrite_each_other(self):
         with self.assertRaises(ValueError):
             json.loads('{"id":"first","id":"second"}', object_pairs_hook=unique_keys)

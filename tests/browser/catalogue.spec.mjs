@@ -48,6 +48,19 @@ test('Worker routing, 404 status and asset security headers', async ({request}) 
   expect((await health.json()).status).toBe('ok');
 });
 
+test('a rear hub with unknown weight remains searchable and shows no numeric weight', async ({page, request}) => {
+  await page.goto('/catalogue/?type=rear-hub&groupset=shimano-exage-500ex');
+  await expect(page.locator('#result-count')).toHaveText('1 component');
+  await page.getByRole('link', {name:/Exage seven-speed rear hub/}).click();
+  await expect(page.getByRole('heading', {name:'FH-HG50',level:1})).toBeVisible();
+  const weight = page.locator('dl > div').filter({has:page.locator('dt', {hasText:/^Weight$/})});
+  await expect(weight.locator('dd > span')).toHaveText('Not yet sourced');
+  await expect(weight).toContainText('Any weight added must exclude skewers.');
+  await expect(page.getByRole('link', {name:'Read Shimano technical specification'})).toHaveAttribute('href', 'https://si.shimano.com/en/pdfs/ev/FH-HG50-1107/EV-FH-HG50-1107A.pdf');
+  const index = await (await request.get('/search-index.json')).json();
+  expect(index.find(record => record.id === 'shimano-fh-hg50').weight_g).toBeNull();
+});
+
 test('CSP permits the Cloudflare beacon and reporting, and blocks other script origins', async ({page}) => {
   let reports = 0;
   await page.route('https://cloudflareinsights.com/cdn-cgi/rum', async route => {
