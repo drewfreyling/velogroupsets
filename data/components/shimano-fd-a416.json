@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-a416",
+  "slug": "fd-a416",
+  "name": "RSX eight-speed double front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-A416",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-A416-1823/EV-FD-A416-1823.pdf",
+    "title": "Shimano FD-A416 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5US0B/SI-5US0B-000-00-ENG.pdf",
+      "title": "Shimano RD-A416 service instructions SI-5US0B",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 8
+  }
+}

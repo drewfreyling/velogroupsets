@@ -16,7 +16,7 @@ def fixture():
         return {"id": identifier, "slug": identifier, "name": identifier, "sources": [deepcopy(source)]}
     return {
         "manufacturers": [dict(record("example-maker"), website_url="https://example.com/")],
-        "groupsets": [dict(record("example-group"), manufacturer_id="example-maker", model_number="EG-100", year_range={"start":2000,"end":None})],
+        "groupsets": [dict(record("example-group"), manufacturer_id="example-maker", model_number="EG-100", start_year=2000)],
         "components": [dict(record("example-crankset"), manufacturer_id="example-maker", groupset_ids=["example-group"], type="crankset", model_number="EC-100", weight_g=500, weight_description="170 mm crank arms, 50/34T chainrings; no bottom bracket", technical_document=deepcopy(source), specifications={"crank_length_mm":170, "chainrings_teeth":[50,34], "includes_bottom_bracket":False})],
     }
 
@@ -207,21 +207,20 @@ class CatalogueTests(unittest.TestCase):
         data['components'][0]['technical_document']['url'] = 'https://docs.example.com/spec.pdf#page=2'
         self.assertEqual(validate_catalogue(data), [])
 
-    def test_groupset_model_and_ordered_year_range_are_required(self):
-        for field in ('model_number', 'year_range'):
+    def test_groupset_model_and_single_start_year_are_required(self):
+        for field in ('model_number', 'start_year'):
             data = fixture()
             del data['groupsets'][0][field]
             self.assertTrue(validate_catalogue(data))
-        for value in ({'start':2000}, {'start':None,'end':2005}, {'start':2005,'end':2000},
-                      {'start':2000,'end':'present'}):
+        for value in (None, '2000', True, 2000.5, 1700, 2200):
             data = fixture()
-            data['groupsets'][0]['year_range'] = value
-            with self.subTest(years=value):
+            data['groupsets'][0]['start_year'] = value
+            with self.subTest(year=value):
                 self.assertTrue(validate_catalogue(data))
-        for value in ({'start':2000,'end':None}, {'start':2000,'end':2000}, {'start':2000,'end':2005}):
-            data = fixture()
-            data['groupsets'][0]['year_range'] = value
-            self.assertEqual(validate_catalogue(data), [])
+        data = fixture()
+        self.assertEqual(validate_catalogue(data), [])
+        data['groupsets'][0]['year_range'] = {'start':2000, 'end':None}
+        self.assertTrue(validate_catalogue(data))
 
     def test_hub_weights_must_explicitly_exclude_skewers(self):
         for kind in ('front-hub', 'rear-hub'):

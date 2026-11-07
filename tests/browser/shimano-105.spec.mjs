@@ -17,7 +17,7 @@ test('browse every Shimano 105 generation and both current shifting systems', as
   for (const [name, model, year] of offerings) {
     await page.goto('/manufacturers/shimano/');
     const card = page.getByRole('link').filter({has:page.getByRole('heading', {name,level:3,exact:true})});
-    await expect(card).toContainText(`${year} – end year not documented`);
+    await expect(card).toContainText(`Start year: ${year}`);
     await card.click();
     await expect(page.getByRole('heading', {name,level:1,exact:true})).toBeVisible();
     await page.getByRole('link', {name:model,exact:true}).click();

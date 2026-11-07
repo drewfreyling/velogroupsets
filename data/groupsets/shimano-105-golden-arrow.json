@@ -4,10 +4,6 @@
   "name": "105 Golden Arrow",
   "manufacturer_id": "shimano",
   "model_number": "A105",
-  "year_range": {
-    "start": 1982,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.shimano.com/en/100th/history/products/result.html?id=30",
@@ -24,5 +20,6 @@
       "title": "Shimano Bicycle System Components, June 1984, page 29 (manufacturer catalogue archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
     }
-  ]
+  ],
+  "start_year": 1982
 }

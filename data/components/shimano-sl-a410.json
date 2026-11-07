@@ -1,0 +1,29 @@
+{
+  "id": "shimano-sl-a410",
+  "slug": "sl-a410",
+  "name": "RSX seven-speed downtube shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "shifters",
+  "model_number": "SL-A410",
+  "weight_g": null,
+  "weight_description": "A published weight for the left/right downtube lever pair has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-A410-1496/EV-SL-A410-1496A.pdf",
+    "title": "Shimano SL-A410 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_53.html",
+      "title": "Shimano Bicycle System Components ’95, page 53; published July 1994 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "mount": "Braze-on downtube"
+  }
+}

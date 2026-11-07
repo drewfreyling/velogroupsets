@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-l513-gs",
+  "slug": "rd-l513-gs",
+  "name": "Light Action original GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-light-action"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-L513-GS",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-L513-0692/EV-RD-L513-0692A.pdf",
+    "title": "Shimano RD-L513 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/N-78A/SI-N-78A-000-00-ENG.pdf",
+      "title": "Shimano RD-L513 service instructions SI-N-78A",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 34,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 14,
+    "cage": "GS",
+    "capacity_notes": "October 1984 instructions warn that actual capacities depend on fork-end and frame dimensions. Smallest sprocket is not specified; no SIS compatibility is claimed for these original models."
+  }
+}

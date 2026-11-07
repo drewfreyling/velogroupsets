@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { components } from '../../apps/web/src/lib/catalogue.mjs';
+import { components, componentUrl } from '../../apps/web/src/lib/catalogue.mjs';
 
 const limits = [
   ['total_capacity_teeth', 'Total capacity'],
@@ -10,7 +10,7 @@ const limits = [
 
 for (const component of components.filter(part => part.type === 'rear-derailleur')) {
   test(`${component.model_number} shows all four sourced limits with tooth units`, async ({page}) => {
-    await page.goto(`/components/shimano/${component.slug}/`);
+    await page.goto(componentUrl(component));
     for (const [key, label] of limits) {
       const row = page.locator('dl > div').filter({has:page.getByRole('term').filter({hasText:new RegExp(`^${label}$`)})});
       await expect(row).toHaveCount(1);

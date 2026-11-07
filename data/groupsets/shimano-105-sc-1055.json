@@ -4,10 +4,6 @@
   "name": "105 SC",
   "manufacturer_id": "shimano",
   "model_number": "1055",
-  "year_range": {
-    "start": 1989,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.shimano.com/en/100th/history/products/result.html?id=30",
@@ -25,5 +21,6 @@
       "retrieved_on": "2026-11-07"
     }
   ],
-  "generation": "Seven-speed 1055 and eight-speed 1056 family"
+  "generation": "Seven-speed 1055 and eight-speed 1056 family",
+  "start_year": 1989
 }

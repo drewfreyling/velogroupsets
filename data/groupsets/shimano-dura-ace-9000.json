@@ -5,10 +5,6 @@
   "manufacturer_id": "shimano",
   "model_number": "9000",
   "generation": "Eleven-speed mechanical",
-  "year_range": {
-    "start": 2012,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.shimano.com/en/100th/history/products/14.html",
@@ -20,5 +16,6 @@
       "title": "Shimano 2017–2018 specifications, PDF page 158",
       "retrieved_on": "2026-11-08"
     }
-  ]
+  ],
+  "start_year": 2012
 }

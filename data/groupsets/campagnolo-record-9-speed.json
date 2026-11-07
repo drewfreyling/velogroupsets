@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-record-9-speed",
+  "slug": "record-9-speed",
+  "name": "Record",
+  "manufacturer_id": "campagnolo",
+  "model_number": "9-speed",
+  "start_year": 1997,
+  "generation": "9-speed road range; components documented in the 1997 spare-parts edition",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue: Record offered in both eight- and nine-speed versions",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

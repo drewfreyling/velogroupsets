@@ -1,0 +1,28 @@
+{
+  "id": "shimano-bb-lp27",
+  "slug": "bb-lp27",
+  "name": "RSX square-taper cartridge bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-LP27",
+  "weight_g": null,
+  "weight_description": "A weight tied to a specific spindle length and thread variant has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BB-LP27-1856/EV-BB-LP27-1856.pdf",
+    "title": "Shimano BB-LP27 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/1C20A/SI-1C20A-000-00-ENG.pdf",
+      "title": "Shimano FC-A416 service instructions SI-1C20A",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "shimano-hb-a410",
+  "slug": "hb-a410",
+  "name": "RSX front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-A410",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-A410-1505/EV-HB-A410-1505A.pdf",
+    "title": "Shimano HB-A410 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-A410-1505/EV-HB-A410-1505A.pdf",
+      "title": "Shimano HB-A410 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5UH0B/SI-5UH0B-000-00-ENG.pdf",
+      "title": "Shimano RD-A410 service instructions SI-5UH0B",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

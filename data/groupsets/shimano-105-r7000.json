@@ -26,8 +26,5 @@
     }
   ],
   "model_number": "R7000",
-  "year_range": {
-    "start": 2018,
-    "end": null
-  }
+  "start_year": 2018
 }

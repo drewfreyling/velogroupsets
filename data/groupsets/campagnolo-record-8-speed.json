@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-record-8-speed",
+  "slug": "record-8-speed",
+  "name": "Record",
+  "manufacturer_id": "campagnolo",
+  "model_number": "8-speed",
+  "start_year": 1991,
+  "generation": "8-speed road range; components documented in the 1997 spare-parts edition",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_1992_road_range.html",
+      "title": "Campagnolo 1992 Road Range, published September 1991: eight-speed Record",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue: Record offered in both eight- and nine-speed versions",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fc-a410",
+  "slug": "fc-a410",
+  "name": "RSX 7-speed double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "crankset",
+  "model_number": "FC-A410",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-A410-1500/EV-FC-A410-1500A.pdf",
+    "title": "Shimano FC-A410 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/1DA0A/SI-1DA0A-000-00-ENG.pdf",
+      "title": "Shimano FC-A410 service instructions SI-1DA0A",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "chainrings_teeth": [
+      46,
+      36
+    ],
+    "front_speeds": 2,
+    "rear_speeds": 7
+  }
+}

@@ -23,7 +23,3 @@ export const searchRecords = components.map(c => ({
   groupsets: groupsFor(c).map(groupsetName).join(' '),
   url: componentUrl(c),
 }));
-
-export const yearRangeLabel = ({ start, end }) => end === null
-  ? `${start} – end year not documented`
-  : start === end ? String(start) : `${start}–${end}`;

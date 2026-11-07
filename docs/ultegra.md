@@ -24,7 +24,7 @@ The catalogue stores **6400 as one series**. Its 6401/6402 component revisions a
 - The [Ultegra SL first-ride report from 26 November 2007](https://www.cyclingweekly.com/news/product-news/first-ride-shimano-ultegra-sl-groupset-87891) establishes that the group was already in use during 2007.
 - The [Ultegra 6700 first-ride report from 29 July 2009](https://www.bikeradar.com/reviews/components/groupsets/groupset-road/first-ride-shimano-ultegra-6700-review) establishes availability during 2009.
 
-Shimano's retrospective lists 6600, SL and 6700 under 2005, 2008 and 2010 respectively. The records retain both that history and the contemporary evidence as sources; they do not silently convert model years into introduction years. All five end years remain null because an exact end has not been established here. The arrival of a successor alone does not prove when earlier equipment stopped being offered.
+Shimano's retrospective lists 6600, SL and 6700 under 2005, 2008 and 2010 respectively. The records retain both that history and the contemporary evidence as sources; they do not silently convert model years into introduction years. Only documented start years are recorded; end years are not collected.
 
 Ultegra Di2 6770 (2011), 6800 (2013), R8000 and later series are outside this date range. Earlier Shimano 600 AX/EX equipment is also outside this addition.
 

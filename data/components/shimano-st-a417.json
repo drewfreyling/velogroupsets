@@ -1,0 +1,29 @@
+{
+  "id": "shimano-st-a417",
+  "slug": "st-a417",
+  "name": "RSX 8-speed Dual Control lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "shifters",
+  "model_number": "ST-A417",
+  "weight_g": null,
+  "weight_description": "A published weight for the left/right lever pair has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-A416_A417-1815/EV-ST-A416_A417-1815.pdf",
+    "title": "Shimano ST-A417 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5US0B/SI-5US0B-000-00-ENG.pdf",
+      "title": "Shimano RD-A416 service instructions SI-5US0B",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "front_speeds": 3
+  }
+}

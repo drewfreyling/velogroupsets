@@ -4,10 +4,6 @@
   "name": "Exage 500EX",
   "manufacturer_id": "shimano",
   "model_number": "A500",
-  "year_range": {
-    "start": 1989,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_30.html",
@@ -24,5 +20,6 @@
       "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
     }
-  ]
+  ],
+  "start_year": 1989
 }

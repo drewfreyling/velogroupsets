@@ -5,10 +5,6 @@
   "manufacturer_id": "shimano",
   "model_number": "Original",
   "generation": "Original road range; no numbered series in the 1973 brochure",
-  "year_range": {
-    "start": 1973,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.shimano.com/en/100th/history/products/14.html",
@@ -20,5 +16,6 @@
       "title": "Shimano original Dura-Ace 1973 brochure (archived by Sheldon Brown)",
       "retrieved_on": "2026-11-08"
     }
-  ]
+  ],
+  "start_year": 1973
 }

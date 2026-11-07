@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fh-a416",
+  "slug": "fh-a416",
+  "name": "RSX 8-speed freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-A416",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-A416-1813/EV-FH-A416-1813.pdf",
+    "title": "Shimano FH-A416 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-A416-1813/EV-FH-A416-1813.pdf",
+      "title": "Shimano FH-A416 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5US0B/SI-5US0B-000-00-ENG.pdf",
+      "title": "Shimano RD-A416 service instructions SI-5US0B",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8
+  },
+  "weight_excludes_skewers": true
+}

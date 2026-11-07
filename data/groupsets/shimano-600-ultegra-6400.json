@@ -4,10 +4,6 @@
   "name": "600 Ultegra",
   "manufacturer_id": "shimano",
   "model_number": "6400",
-  "year_range": {
-    "start": 1987,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.shimano.com/en/100th/history/products/41.html",
@@ -24,5 +20,6 @@
       "title": "Shimano 1993 catalogue, pages 37–38: eight-speed 600 Ultegra update and weights (published September 1992; archived by Charlie Taylor)",
       "retrieved_on": "2026-11-07"
     }
-  ]
+  ],
+  "start_year": 1987
 }

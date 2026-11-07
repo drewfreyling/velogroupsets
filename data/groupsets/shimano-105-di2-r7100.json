@@ -4,10 +4,6 @@
   "name": "105 Di2",
   "manufacturer_id": "shimano",
   "model_number": "R7100",
-  "year_range": {
-    "start": 2022,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://bike.shimano.com/stories/article/shimano-105-di2-it-is-a-new-day.html",
@@ -20,5 +16,6 @@
       "retrieved_on": "2026-11-07"
     }
   ],
-  "generation": "Twelve-speed electronic Di2"
+  "generation": "Twelve-speed electronic Di2",
+  "start_year": 2022
 }

@@ -1,0 +1,18 @@
+{
+  "id": "campagnolo",
+  "slug": "campagnolo",
+  "name": "Campagnolo",
+  "website_url": "https://www.campagnolo.com/",
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/",
+      "title": "Campagnolo official website",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo official technical documentation",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

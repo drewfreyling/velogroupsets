@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fc-a417",
+  "slug": "fc-a417",
+  "name": "RSX 8-speed triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "crankset",
+  "model_number": "FC-A417",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-A417-1812/EV-FC-A417-1812.pdf",
+    "title": "Shimano FC-A417 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/1C20A/SI-1C20A-000-00-ENG.pdf",
+      "title": "Shimano FC-A416 service instructions SI-1C20A",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "chainrings_teeth": [
+      52,
+      42,
+      30
+    ],
+    "front_speeds": 3,
+    "rear_speeds": 8
+  }
+}

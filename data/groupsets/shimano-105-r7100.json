@@ -4,10 +4,6 @@
   "name": "105",
   "manufacturer_id": "shimano",
   "model_number": "R7100",
-  "year_range": {
-    "start": 2023,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.bscycle.co.jp/anchor/news/2023/09/2024.html",
@@ -20,5 +16,6 @@
       "retrieved_on": "2026-11-07"
     }
   ],
-  "generation": "Twelve-speed mechanical"
+  "generation": "Twelve-speed mechanical",
+  "start_year": 2023
 }

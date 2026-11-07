@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-hg50-7-11-24",
+  "slug": "cs-hg50-7-11-24",
+  "name": "RSX seven-speed 11–24T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG50",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/si/5UH0B/SI-5UH0B-000-00-ENG.pdf",
+    "title": "Shimano RD-A410 service instructions SI-5UH0B",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5UH0B/SI-5UH0B-000-00-ENG.pdf",
+      "title": "Shimano RD-A410 service instructions SI-5UH0B",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "sprocket_range": "11–24T"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shimano-rsx",
+  "slug": "rsx",
+  "name": "RSX",
+  "manufacturer_id": "shimano",
+  "model_number": "A410/A416",
+  "start_year": 1994,
+  "generation": "Original seven-speed A410 and later eight-speed A416 road equipment",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_51.html",
+      "title": "Shimano Bicycle System Components ’95, page 51; published July 1994 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_53.html",
+      "title": "Shimano Bicycle System Components ’95, page 53; published July 1994 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5US0B/SI-5US0B-000-00-ENG.pdf",
+      "title": "Shimano RD-A416 service instructions SI-5US0B",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

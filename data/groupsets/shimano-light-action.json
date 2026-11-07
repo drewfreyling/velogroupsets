@@ -1,0 +1,26 @@
+{
+  "id": "shimano-light-action",
+  "slug": "light-action",
+  "name": "Light Action",
+  "manufacturer_id": "shimano",
+  "model_number": "L series",
+  "start_year": 1984,
+  "generation": "Light Action rear-derailleur family: original friction and later SIS revisions",
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-L513-0692/EV-RD-L513-0692A.pdf",
+      "title": "Shimano RD-L513 exploded view and replacement parts",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/N-78A/SI-N-78A-000-00-ENG.pdf",
+      "title": "Shimano RD-L513 service instructions SI-N-78A",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_31.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 31: L532/L541 cage variants and weights (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

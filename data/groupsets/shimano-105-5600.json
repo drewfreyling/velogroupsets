@@ -4,10 +4,6 @@
   "name": "105",
   "manufacturer_id": "shimano",
   "model_number": "5600",
-  "year_range": {
-    "start": 2005,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.shimano.com/en/100th/history/products/result.html?id=30",
@@ -20,5 +16,6 @@
       "retrieved_on": "2026-11-07"
     }
   ],
-  "generation": "Ten-speed mechanical"
+  "generation": "Ten-speed mechanical",
+  "start_year": 2005
 }

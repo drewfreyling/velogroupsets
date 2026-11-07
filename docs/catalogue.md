@@ -48,7 +48,7 @@ The weight description identifies the weighed configuration: crank length and ch
 
 Each manufacturer declares an official `website_url`. Technical documents must use HTTPS on that hostname (ignoring a leading `www.`) or one of its subdomains. Retailer/mirror domains, lookalike suffixes and credential-bearing URLs are rejected. Contributor review must verify domain ownership, that the document covers the exact component, and that the cited page supports the weight/description; offline validation cannot establish these facts. Manufacturer-owned specification pages or PDFs are valid; a generic homepage is not a technical specification. External CDNs need an explicit future ownership/validation design rather than weakening this rule.
 
-Every groupset requires a non-empty `model_number` and `year_range: {"start": <year>, "end": <year or null>}`. Start is the documented introduction/availability year, not an inferred marketing model year. A known end is inclusive and cannot precede start. Null end means **end year not documented**, not proof that production continues. The UI uses that wording rather than “present”. The old `introduced_year` is replaced by this single range. Optional `generation` remains a descriptive label, separate from the manufacturer's model number.
+Every groupset requires a non-empty `model_number` and integer `start_year`. This is the documented introduction/availability year, not an inferred marketing model year. End years are not collected or displayed. Existing starts and stable IDs are preserved when migrating from the former range field. Optional `generation` remains a descriptive label, separate from the manufacturer’s model number. Manufacturer pages list groupsets by ascending start year, then by name for ties.
 
 ## Component types
 
@@ -96,7 +96,7 @@ Groupset, saved as `data/groupsets/example-group.json`:
   "manufacturer_id": "example-maker",
   "generation": "First generation",
   "model_number": "ER-100",
-  "year_range": {"start": 2000, "end": null},
+  "start_year": 2000,
   "sources": [{"url": "https://example.com/catalogue", "title": "Example catalogue"}]
 }
 ```
@@ -133,13 +133,13 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 36 Shimano groupsets and 303 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 40 groupsets from Shimano and Campagnolo and 336 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
 
 The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
 
 ## Historical Shimano Exage 500EX
 
-The road groupset is **Exage 500EX, A500 series**, distinct from the Exage 500LX mountain-bike group. Its record starts in **1989**, the first documented appearance in the evidence cited here: Shimano's *Dealers’ 1990 Product Manual*, published in August 1989. The cover's 1990 model year is not used as an inferred release date. This establishes a documented listing, not an exact retail launch date; the end year remains undocumented.
+The road groupset is **Exage 500EX, A500 series**, distinct from the Exage 500LX mountain-bike group. Its record starts in **1989**, the first documented appearance in the evidence cited here: Shimano's *Dealers’ 1990 Product Manual*, published in August 1989. The cover's 1990 model year is not used as an inferred release date. This establishes a documented listing, not an exact retail launch date.
 
 Original Shimano material is preserved by Disraeli Gears: [page 30 introduces the group](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_30.html), [page 31 shows the group](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_31.html), and [page 32 lists its components, configurations and weights](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html). These are manufacturer documents hosted by an independent archive. Component `sources` cite that specification page; each `technical_document` separately links to the relevant original exploded drawing on Shimano's own service site. Exploded drawings identify parts and variants; the dealer manual supplies the manufacturer-listed weights. The front hub instead uses a contributor-reported weight, cited in its component record.
 
@@ -162,7 +162,7 @@ The manual lists FH-HG50 at 436 g **with quick release**; this number is not use
 
 ## Historical Shimano RX100
 
-The **RX100 A550** record covers the original seven-speed road group with downtube shifters. [Shimano's RX100 history](https://www.shimano.com/en/100th/history/products/result.html?id=50) dates its introduction to **1989** and describes later dual-control levers. The end year remains undocumented in this record. Later STI, triple-chainset and other revisions are not implied by the initial component list.
+The **RX100 A550** record covers the original seven-speed road group with downtube shifters. [Shimano's RX100 history](https://www.shimano.com/en/100th/history/products/result.html?id=50) dates its introduction to **1989** and describes later dual-control levers. Later STI, triple-chainset and other revisions are not implied by the initial component list.
 
 The original *Dealers’ 1990 Product Manual*, published in August 1989, provides the evidence: [page 26 introduces RX100](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_26.html), [page 27 shows the group](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_27.html), and [page 28 lists its components and weights](https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html). These original Shimano scans are hosted by Disraeli Gears. Each component also links to its relevant technical drawing on Shimano's service site.
 
@@ -199,7 +199,7 @@ An optional `specifications.cage` records the manufacturer's sourced cage code. 
 
 ## Shimano 105 generation coverage
 
-The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 82 105 component identities across 87 memberships, including the three original R7000 records; the expansion adds nine groupsets and 79 component identities. The whole catalogue now contains one manufacturer, 36 groupsets and 303 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
+The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 82 105 component identities across 87 memberships, including the three original R7000 records; the expansion adds nine groupsets and 79 component identities. The whole catalogue now contains two manufacturers, 40 groupsets and 336 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
 
 ## Shimano Dura-Ace coverage
 
@@ -208,3 +208,7 @@ The [Dura-Ace source guide](dura-ace.md) documents 15 road/track offerings and 1
 ## Exage road range coverage
 
 The [Exage road source guide](exage.md) covers Sport A450/A451, Motion A250, 300EX A300 and 400EX A400 alongside the existing 500EX A500. The expansion adds four groupsets and 25 component identities across 45 memberships, reusing seven existing records for shared parts. It distinguishes the earlier six-speed Uniglide equipment from seven-speed Hyperglide, records only compliant weights and documents the original/revised Sport controls and Motion shifter options.
+
+## RSX, Light Action and Campagnolo Record
+
+The [RSX and Light Action guide](rsx-light-action.md) documents 23 RSX components across seven- and eight-speed revisions and ten Light Action rear-derailleur variants. The [Campagnolo Record guide](campagnolo-record.md) records separate eight- and nine-speed family starts and the unresolved manufacturer-hosted technical-document gap for their component lists.

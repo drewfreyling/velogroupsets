@@ -4,10 +4,6 @@
   "name": "Ultegra",
   "manufacturer_id": "shimano",
   "model_number": "6500",
-  "year_range": {
-    "start": 1997,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.shimano.com/en/100th/history/products/41.html",
@@ -19,5 +15,6 @@
       "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
       "retrieved_on": "2026-11-07"
     }
-  ]
+  ],
+  "start_year": 1997
 }

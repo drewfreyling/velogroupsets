@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-l541-gs",
+  "slug": "rd-l541-gs",
+  "name": "Light Action L541 GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-light-action"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-L541-GS",
+  "weight_g": 342,
+  "weight_description": "Manufacturer-listed: GS cage version; rear derailleur only.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-L541-0886/EV-RD-L541-0886B.pdf",
+    "title": "Shimano RD-L541 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_31.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 31: L532/L541 cage variants and weights (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/P-51B/SI-P-51B-000-00-ENG.pdf",
+      "title": "Shimano RD-L532 service instructions SI-P-51B",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 36,
+    "maximum_sprocket_teeth": 30,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 20,
+    "cage": "GS",
+    "capacity_notes": "All three L541 cages are listed SIS compatible. Largest-sprocket maxima follow the 1987 catalogue and SI-P-51B. Smallest sprocket is not stated."
+  }
+}

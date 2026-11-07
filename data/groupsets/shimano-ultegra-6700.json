@@ -4,10 +4,6 @@
   "name": "Ultegra",
   "manufacturer_id": "shimano",
   "model_number": "6700",
-  "year_range": {
-    "start": 2009,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.bikeradar.com/reviews/components/groupsets/groupset-road/first-ride-shimano-ultegra-6700-review",
@@ -29,5 +25,6 @@
       "title": "Shimano 2010 Russian dealer catalogue, PDF page 70: Ultegra 6700 levers, cassette, pedals and separate hub/skewer weights (archived manufacturer PDF)",
       "retrieved_on": "2026-11-07"
     }
-  ]
+  ],
+  "start_year": 2009
 }

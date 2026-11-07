@@ -23,7 +23,7 @@ The catalogue covers all nine Shimano 105 road-series generations, from Golden A
 
 The [Shimano 105 Di2 introduction](https://bike.shimano.com/stories/article/shimano-105-di2-it-is-a-new-day.html) marks the original group's fortieth anniversary in 2022. [Bridgestone's September 2023 announcement](https://www.bscycle.co.jp/anchor/news/2023/09/2024.html) documents bikes using the new mechanical R7100 system. Shimano's [2025–2026 line-up, PDF pages 65–66](https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=65), distinguishes the two systems and identifies their common parts.
 
-All end years remain null because these sources do not establish exact final availability. The appearance of a successor is not treated as the predecessor's discontinuation date. The 1051 and 1056 updates, 5501/5504 crank revisions, triple/compact variants and RD-5701 revision stay within their parent families. They do not become extra generations solely because an individual model number changed.
+Only documented start years are recorded; end years are not collected. The 1051 and 1056 updates, 5501/5504 crank revisions, triple/compact variants and RD-5701 revision stay within their parent families. They do not become extra generations solely because an individual model number changed.
 
 ## Component evidence
 

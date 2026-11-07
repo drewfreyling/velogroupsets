@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-a417",
+  "slug": "fd-a417",
+  "name": "RSX eight-speed triple front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-A417",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-A417-1824/EV-FD-A417-1824.pdf",
+    "title": "Shimano FD-A417 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5US0B/SI-5US0B-000-00-ENG.pdf",
+      "title": "Shimano RD-A416 service instructions SI-5US0B",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 8
+  }
+}

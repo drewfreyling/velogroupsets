@@ -12,7 +12,7 @@ The catalogue includes Exage Sport, Exage Motion, 300EX, 400EX and the previousl
 | Exage 400EX | A400 | 1989 | Listed in the same manual |
 | Exage 500EX | A500 | 1989 | Listed in the same manual; existing catalogue record |
 
-[Shimano’s Exage history](https://www.shimano.com/en/100th/history/products/result.html?id=40) identifies Sport in 1987 and the EX range in 1989. It does not separately date Motion. Motion’s start is therefore the documented August 1988 brochure listing, rather than an inferred launch year for the entire Exage family. The 1990 dealer manual was published in August 1989: its cover model year is not substituted for the publication date. No discontinuation dates have been established, so all end years remain null.
+[Shimano’s Exage history](https://www.shimano.com/en/100th/history/products/result.html?id=40) identifies Sport in 1987 and the EX range in 1989. It does not separately date Motion. Motion’s start is therefore the documented August 1988 brochure listing, rather than an inferred launch year for the entire Exage family. The 1990 dealer manual was published in August 1989: its cover model year is not substituted for the publication date. Only the documented start year is recorded; end years are not collected.
 
 The principal component sources are original Shimano publications preserved by Disraeli Gears:
 

@@ -140,10 +140,6 @@ def validate_catalogue(catalogue):
         for record in catalogue[kind]:
             if record["manufacturer_id"] not in indices["manufacturers"]:
                 failures.append(f"{kind}/{record['id']}: unknown manufacturer_id")
-    for group in catalogue["groupsets"]:
-        years = group["year_range"]
-        if years["end"] is not None and years["end"] < years["start"]:
-            failures.append(f"groupsets/{group['id']}: year_range end must not precede start")
     for component in catalogue["components"]:
         failures.extend(f"components/{component['id']}: {error}" for error in weight_configuration_errors(component))
         if component['type'] == 'rear-derailleur':

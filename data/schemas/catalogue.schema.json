@@ -126,28 +126,8 @@
         "model_number": {
           "$ref": "#/$defs/text"
         },
-        "year_range": {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "start",
-            "end"
-          ],
-          "properties": {
-            "start": {
-              "$ref": "#/$defs/year"
-            },
-            "end": {
-              "anyOf": [
-                {
-                  "$ref": "#/$defs/year"
-                },
-                {
-                  "type": "null"
-                }
-              ]
-            }
-          }
+        "start_year": {
+          "$ref": "#/$defs/year"
         }
       },
       "required": [
@@ -157,7 +137,7 @@
         "sources",
         "manufacturer_id",
         "model_number",
-        "year_range"
+        "start_year"
       ],
       "additionalProperties": false
     },
@@ -200,7 +180,7 @@
                 "model_code",
                 "model_number",
                 "technical_document",
-                "year_range",
+                "start_year",
                 "weight_description",
                 "weight_excludes_skewers"
               ]
@@ -234,7 +214,10 @@
           "$ref": "#/$defs/text"
         },
         "weight_g": {
-          "type": ["number", "null"],
+          "type": [
+            "number",
+            "null"
+          ],
           "exclusiveMinimum": 0,
           "description": "Positive weight in grams for a compliant identified configuration, or explicit null when no compliant weight is sourced."
         },

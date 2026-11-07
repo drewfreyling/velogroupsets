@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-a410",
+  "slug": "fd-a410",
+  "name": "RSX seven-speed front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-A410",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-A410-1499/EV-FD-A410-1499A.pdf",
+    "title": "Shimano FD-A410 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_53.html",
+      "title": "Shimano Bicycle System Components ’95, page 53; published July 1994 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "capacity_teeth": 20,
+    "mount": "Clamp",
+    "rear_speeds": 7
+  }
+}

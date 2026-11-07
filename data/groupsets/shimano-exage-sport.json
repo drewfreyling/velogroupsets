@@ -5,10 +5,6 @@
   "manufacturer_id": "shimano",
   "model_number": "A450/A451",
   "generation": "Six-speed road range; original A450 and revised A451 controls",
-  "year_range": {
-    "start": 1987,
-    "end": null
-  },
   "sources": [
     {
       "url": "https://www.shimano.com/en/100th/history/products/result.html?id=40",
@@ -25,5 +21,6 @@
       "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
     }
-  ]
+  ],
+  "start_year": 1987
 }
