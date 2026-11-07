@@ -15,7 +15,7 @@ The apply also configured upload CORS, lifecycle policies, and disabled public `
 
 D1 read replication is explicitly disabled, matching the provisioned single-primary default. Change that setting deliberately if the application later needs read replicas.
 
-This provisions the data/storage/abuse-prevention foundation. The Worker/static catalogue and a manual Wrangler deployment workflow are now implemented. The staging Worker `velogroupsets-staging` and 13 static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328), with existing D1/R2 bindings and version `cc33e3e1-2028-4223-8f4f-6b9dec1f88d4`. Both workers.dev and preview URLs are disabled. Staging custom-domain activation is enabled in configuration and awaits its reviewed OpenTofu apply; the website is not publicly reachable yet.
+This provisions the data/storage/abuse-prevention foundation. The Worker/static catalogue and a manual Wrangler deployment workflow are now implemented. The staging Worker `velogroupsets-staging` and 13 static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328), with existing D1/R2 bindings and version `cc33e3e1-2028-4223-8f4f-6b9dec1f88d4`. Both workers.dev and preview URLs are disabled. The [reviewed domain/TLS/HSTS apply](https://github.com/drewfreyling/velogroupsets/actions/runs/42339179675) succeeded; [staging.velogroupsets.com](https://staging.velogroupsets.com/) is publicly reachable. HTTPS, HTTP redirects and the HSTS header were verified on static pages and API responses.
 
 ## Included resources
 
@@ -58,7 +58,7 @@ Create `velogroupsets-infra-state` in account `5ccb67114ff0fa1a13cb46ef3d08cb49`
 - Create bucket-scoped **Object Read & Write** R2 S3 credentials for this bucket. These supply `R2_ACCESS_KEY_ID` and `R2_SECRET_ACCESS_KEY`; they are different from a Cloudflare API bearer token.
 - Restrict bucket administration and retain an independent encrypted copy of important recovery snapshots. Same-bucket snapshots do not survive bucket deletion. Do not assume that S3 bucket versioning is available on R2.
 
-The backend enables `use_lockfile = true` and the R2-specific S3 compatibility flags. Before **every live plan and apply**, the script initializes a unique `lock-checks/<random>/terraform.tfstate` key, holds a lock using the built-in `terraform_data` resource, verifies that another OpenTofu process fails with a lock error, releases it, verifies a subsequent operation succeeds, and cleans up that disposable state. This checks actual pinned CLI/backend behavior, not just raw S3 conditional writes. A local probe cannot establish R2 compatibility: live verification remains pending until credentials are configured.
+The backend enables `use_lockfile = true` and the R2-specific S3 compatibility flags. Before **every live plan and apply**, the script initializes a unique `lock-checks/<random>/terraform.tfstate` key, holds a lock using the built-in `terraform_data` resource, verifies that another OpenTofu process fails with a lock error, releases it, verifies a subsequent operation succeeds, and cleans up that disposable state. This checks actual pinned CLI/backend behavior, not just raw S3 conditional writes. A local probe cannot establish R2 compatibility: the successful live plan/apply runs have now passed this R2 locking probe.
 
 There is a reported [conditional-write retry/orphan-lock edge case](https://github.com/opentofu/opentofu/issues/4405). Passing a probe does not prove all network failures are safe. If a lock remains, first confirm all writers have stopped, inspect the lock ID and owning operation in a private terminal, and use a targeted `tofu force-unlock` only after investigation. Never disable locking, automatically force-unlock, or delete a real lock to make CI pass.
 
@@ -113,7 +113,7 @@ New apply failures preserve raw command output as an encrypted native OpenTofu s
 
 For full private review, download the diagnostic with an authorized R2 client and use `python3 scripts/infra.py show --json --plan-file /absolute/path/apply-failure.tfstate` with the secured encryption passphrase in your environment. This JSON includes sensitive values and must never be printed in public CI or chat. Fix the diagnosed cause, then create and review a new plan using the actual current state. Do not blindly rerun a saved plan after partial provisioning.
 
-Schema migrations, cache/WAF rules, image processing, application backups and quotas remain future work. Worker/static-site deployment and an opt-in OpenTofu website custom domain are implemented; first activation is pending. Enabling public image access still requires a zone ID and the completed validation/moderation flow. Keep one owner per setting: OpenTofu owns Cloudflare infrastructure, Wrangler owns Worker code/assets/bindings, and migration tooling owns D1 schema.
+Schema migrations, cache/WAF rules, image processing, application backups and quotas remain future work. Worker/static-site deployment and an opt-in OpenTofu website custom domain are implemented; staging activation is live. Enabling public image access still requires a zone ID and the completed validation/moderation flow. Keep one owner per setting: OpenTofu owns Cloudflare infrastructure, Wrangler owns Worker code/assets/bindings, and migration tooling owns D1 schema.
 
 ## Website deployment
 
@@ -145,7 +145,7 @@ Check the token stored specifically in the GitHub `staging` environment. It must
 
 ## Shared HTTPS and TLS policy
 
-Staging configuration enables `manage_zone_tls = true` and `minimum_tls_version = "1.3"`, following the chosen free-plan policy. The reviewed infrastructure apply will enforce:
+Staging configuration enables `manage_zone_tls = true` and `minimum_tls_version = "1.3"`, following the chosen free-plan policy. The successful reviewed infrastructure apply enforces:
 
 - TLS 1.3 only for visitor connections; TLS 1.2 and older clients are intentionally rejected.
 - TLS 1.3 enabled, HTTP redirected to HTTPS, and Full (strict) origin TLS. A Worker custom domain has no separate application origin server; strict mode also protects any other proxied origins in this zone.
@@ -158,3 +158,7 @@ Existing zone settings are adopted with declarative import blocks before changes
 Cloudflare [requires Advanced Certificate Manager for custom cipher allowlists](https://developers.cloudflare.com/ssl/edge-certificates/additional-options/cipher-suites/customize-cipher-suites/). No paid subscription or custom cipher setting is provisioned. The selected TLS 1.3-only policy limits negotiation to TLS 1.3's authenticated-encryption suites while Cloudflare manages the exact list. This is stronger than allowing TLS 1.2 with the uncustomized free-plan cipher list. Do not describe this as a manually configured cipher allowlist.
 
 After apply, verify HTTPS reachability, HTTP redirects and the HSTS header on both `/` and `/api/health`. Confirm the configured TLS minimum through Cloudflare's API and direct TLS probes from a host without TLS interception; a proxy that terminates TLS can hide the edge's actual protocol/cipher behavior. Keep HTTPS available for the browser's cached HSTS lifetime when changing or rolling back infrastructure. Subdomain-wide HSTS and the preload directive were explicitly selected for this new domain. The directive does not submit the domain to browser preload lists. Actual preload-list submission remains pending until the apex site is reachable over HTTPS and satisfies the preload service requirements.
+
+### Public staging smoke checks
+
+The manual [Verify staging HTTPS workflow](../.github/workflows/verify-staging.yml) is read-only and needs no deployment credentials or environment approval. It checks HTTPS page/API status codes, real 404 responses, one-year HSTS with `includeSubDomains`/`preload`, and HTTP redirects. Direct probes from the GitHub runner validate the certificate, negotiate TLS 1.3 and require a protocol-version alert for TLS 1.2. The script refuses TLS probing when proxy variables are configured, because intercepted TLS would not establish the edge's behavior. Run this after domain/TLS changes; it is separate from offline PR checks and does not mutate Cloudflare.
