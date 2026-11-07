@@ -1,0 +1,38 @@
+{
+  "id": "shimano-fd-a250",
+  "slug": "fd-a250",
+  "name": "Exage Motion band-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-motion"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-A250",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-A250-0912/EV-FD-A250-0912.pdf",
+    "title": "Shimano FD-A250 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_9.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 9 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/R-41/SI-R-41-000-00-ENG.pdf",
+      "title": "Shimano service instructions SI-R-41",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
+      28,
+      28.6
+    ],
+    "front_speeds": 2
+  }
+}

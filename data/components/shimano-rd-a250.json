@@ -1,0 +1,37 @@
+{
+  "id": "shimano-rd-a250",
+  "slug": "rd-a250",
+  "name": "Exage Motion rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-motion"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-A250",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-A250-0951/EV-RD-A250-0951.pdf",
+    "title": "Shimano RD-A250 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/R-39/SI-R-39-000-00-ENG.pdf",
+      "title": "Shimano service instructions SI-R-39",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_9.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 9 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 13,
+    "maximum_front_difference_teeth": 13,
+    "rear_speeds": 6
+  }
+}

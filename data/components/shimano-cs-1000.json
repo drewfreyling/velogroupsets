@@ -1,10 +1,12 @@
 {
   "id": "shimano-cs-1000",
   "slug": "cs-1000",
-  "name": "105 six-speed Uniglide cassette",
+  "name": "Six-speed Uniglide cassette",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-105-1050"
+    "shimano-105-1050",
+    "shimano-exage-sport",
+    "shimano-exage-motion"
   ],
   "type": "cassette",
   "model_number": "CS-1000",
@@ -20,6 +22,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_23.html",
       "title": "Shimano Bicycle System Components, December 1987, scan 23 (manufacturer catalogue archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_10.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {

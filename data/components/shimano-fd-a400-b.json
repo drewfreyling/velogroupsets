@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fd-a400-b",
+  "slug": "fd-a400-b",
+  "name": "Exage 400EX band-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400ex"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-A400-B",
+  "weight_g": 113,
+  "weight_description": "Manufacturer-listed: band-mounted double-chainset version, 28.0–28.6 mm clamp band.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-A400-1002/EV-FD-A400-1002.pdf",
+    "title": "Shimano FD-A400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_33.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 33; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
+      28,
+      28.6
+    ],
+    "front_speeds": 2,
+    "capacity_teeth": 14
+  }
+}

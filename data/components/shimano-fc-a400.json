@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fc-a400",
+  "slug": "fc-a400",
+  "name": "Exage 400EX Biopace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400ex"
+  ],
+  "type": "crankset",
+  "model_number": "FC-A400",
+  "weight_g": 920,
+  "weight_description": "Manufacturer-listed: 170 mm crank arms, 52/42T Biopace double chainrings; excludes the separately listed bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-A400-1080/EV-FC-A400-1080.pdf",
+    "title": "Shimano FC-A400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_33.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 33; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      42
+    ],
+    "front_speeds": 2,
+    "includes_bottom_bracket": false
+  }
+}

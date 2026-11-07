@@ -1,0 +1,37 @@
+{
+  "id": "shimano-rd-a450",
+  "slug": "rd-a450",
+  "name": "Exage Sport rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-sport"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-A450",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-A450-0863/EV-RD-A450-0863.pdf",
+    "title": "Shimano RD-A450 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/P-86/SI-P-86-000-00-ENG.pdf",
+      "title": "Shimano service instructions SI-P-86",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_9.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 9 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 13,
+    "maximum_front_difference_teeth": 13,
+    "rear_speeds": 6
+  }
+}

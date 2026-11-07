@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fc-a452",
+  "slug": "fc-a452",
+  "name": "Exage Sport optional non-front-SIS Biopace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-sport"
+  ],
+  "type": "crankset",
+  "model_number": "FC-A452",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-A452-0971/EV-FC-A452-0971.pdf",
+    "title": "Shimano FC-A452 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_9.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 9 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_10.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "front_sis_compatible": false
+  }
+}

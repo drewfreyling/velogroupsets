@@ -1,0 +1,36 @@
+{
+  "id": "shimano-rd-a300",
+  "slug": "rd-a300",
+  "name": "Exage 300EX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300ex"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-A300",
+  "weight_g": 282,
+  "weight_description": "Manufacturer-listed: rear derailleur for a double chainset; separate cage code is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-A300-1069/EV-RD-A300-1069A.pdf",
+    "title": "Shimano RD-A300 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 34; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 13,
+    "rear_speeds": 7,
+    "compatible_rear_speeds": [
+      6,
+      7
+    ]
+  }
+}

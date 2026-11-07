@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-a452",
+  "slug": "sl-a452",
+  "name": "Exage six-speed downtube shifters without front SIS",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-sport",
+    "shimano-exage-motion"
+  ],
+  "type": "shifters",
+  "model_number": "SL-A452",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-A452-0931/EV-SL-A452-0931.pdf",
+    "title": "Shimano SL-A452 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_9.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 9 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_10.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 6,
+    "front_shifting": "Friction"
+  }
+}

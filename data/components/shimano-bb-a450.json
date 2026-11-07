@@ -4,7 +4,11 @@
   "name": "Exage bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-exage-500ex"
+    "shimano-exage-500ex",
+    "shimano-exage-400ex",
+    "shimano-exage-300ex",
+    "shimano-exage-sport",
+    "shimano-exage-motion"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-A450",
@@ -24,6 +28,21 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX component specifications and weights (published August 1989; archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_33.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 33; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 34; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_9.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 9 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
     }
   ]
 }

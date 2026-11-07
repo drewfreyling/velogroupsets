@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fd-a300-b",
+  "slug": "fd-a300-b",
+  "name": "Exage 300EX band-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300ex"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-A300-B",
+  "weight_g": 123,
+  "weight_description": "Manufacturer-listed: band-mounted double-chainset version, 28.0–28.6 mm clamp band.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-A300-1003/EV-FD-A300-1003.pdf",
+    "title": "Shimano FD-A300 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 34; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
+      28,
+      28.6
+    ],
+    "front_speeds": 2,
+    "capacity_teeth": 14
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "shimano-exage-sport",
+  "slug": "exage-sport",
+  "name": "Exage Sport",
+  "manufacturer_id": "shimano",
+  "model_number": "A450/A451",
+  "generation": "Six-speed road range; original A450 and revised A451 controls",
+  "year_range": {
+    "start": 1987,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=40",
+      "title": "Shimano 100 Products History: Exage Sport in 1987; Exage EX in 1989",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_9.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 9 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_10.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

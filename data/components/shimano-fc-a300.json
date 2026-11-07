@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fc-a300",
+  "slug": "fc-a300",
+  "name": "Exage 300EX Biopace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300ex"
+  ],
+  "type": "crankset",
+  "model_number": "FC-A300",
+  "weight_g": 860,
+  "weight_description": "Manufacturer-listed: 170 mm crank arms, 52/42T Biopace double chainrings; excludes the separately listed bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-A300-1095/EV-FC-A300-1095A.pdf",
+    "title": "Shimano FC-A300 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 34; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      42
+    ],
+    "front_speeds": 2,
+    "includes_bottom_bracket": false
+  }
+}

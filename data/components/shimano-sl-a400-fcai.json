@@ -1,0 +1,40 @@
+{
+  "id": "shimano-sl-a400-fcai",
+  "slug": "sl-a400-fcai",
+  "name": "Exage seven-speed braze-on downtube shifters",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400ex",
+    "shimano-exage-300ex"
+  ],
+  "type": "shifters",
+  "model_number": "SL-A400-FCAI",
+  "weight_g": 71,
+  "weight_description": "Manufacturer-listed: SL-A400-FCAI left/right downtube lever pair, seven-speed SIS; Italian-type M5 bosses.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-A400-1059/EV-SL-A400-1059A.pdf",
+    "title": "Shimano SL-A400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_33.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 33; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 34; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "weight_basis": "Pair",
+    "mount": "Braze-on, Italian type (M5)",
+    "shifting_modes": [
+      "SIS",
+      "Friction"
+    ]
+  }
+}

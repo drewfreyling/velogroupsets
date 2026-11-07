@@ -1,0 +1,29 @@
+{
+  "id": "shimano-exage-400ex",
+  "slug": "exage-400ex",
+  "name": "Exage 400EX",
+  "manufacturer_id": "shimano",
+  "model_number": "A400",
+  "generation": "Seven-speed SIS road range",
+  "year_range": {
+    "start": 1989,
+    "end": null
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=40",
+      "title": "Shimano 100 Products History: Exage Sport in 1987; Exage EX in 1989",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_30.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 30; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_33.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 33; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -4,7 +4,9 @@
   "name": "Exage seven-speed rear hub",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-exage-500ex"
+    "shimano-exage-500ex",
+    "shimano-exage-400ex",
+    "shimano-exage-300ex"
   ],
   "type": "rear-hub",
   "model_number": "FH-HG50",
@@ -25,6 +27,16 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 32: FH-HG50 membership and specifications; listed weight includes quick release and is not used",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_33.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 33; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 34; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
     }
   ]
 }

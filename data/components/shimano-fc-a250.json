@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fc-a250",
+  "slug": "fc-a250",
+  "name": "Exage Motion Biopace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-motion"
+  ],
+  "type": "crankset",
+  "model_number": "FC-A250",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-A250-0974/EV-FC-A250-0974A.pdf",
+    "title": "Shimano FC-A250 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_9.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 9 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2
+  }
+}
