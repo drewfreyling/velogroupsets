@@ -38,3 +38,38 @@ test('Worker routing, 404 status and asset security headers', async ({request}) 
   const health=await request.get('/api/health');
   expect((await health.json()).status).toBe('ok');
 });
+
+test('CSP permits the Cloudflare beacon and reporting, and blocks other script origins', async ({page}) => {
+  let reports = 0;
+  await page.route('https://cloudflareinsights.com/cdn-cgi/rum', async route => {
+    reports++;
+    await route.fulfill({status:204});
+  });
+  await page.route('https://static.cloudflareinsights.com/**', route => route.fulfill({
+    contentType:'application/javascript',
+    body:'window.__beaconLoaded = true; fetch("https://cloudflareinsights.com/cdn-cgi/rum", {method:"POST",mode:"no-cors",body:"test"});',
+  }));
+  await page.route('https://untrusted.example/**', route => route.fulfill({
+    contentType:'application/javascript', body:'window.__untrustedLoaded = true;',
+  }));
+  await page.goto('/');
+  const allowed = await page.evaluate(() => new Promise(resolve => {
+    const script = document.createElement('script');
+    script.src = 'https://static.cloudflareinsights.com/beacon.min.js/versioned-test';
+    script.onload = () => resolve(true);
+    script.onerror = () => resolve(false);
+    document.head.append(script);
+  }));
+  expect(allowed).toBe(true);
+  expect(await page.evaluate(() => window.__beaconLoaded)).toBe(true);
+  await expect.poll(() => reports).toBe(1);
+  const untrusted = await page.evaluate(() => new Promise(resolve => {
+    const script = document.createElement('script');
+    script.src = 'https://untrusted.example/tracker.js';
+    script.onload = () => resolve(true);
+    script.onerror = () => resolve(false);
+    document.head.append(script);
+  }));
+  expect(untrusted).toBe(false);
+  expect(await page.evaluate(() => window.__untrustedLoaded)).toBeUndefined();
+});

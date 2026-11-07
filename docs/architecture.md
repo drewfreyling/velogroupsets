@@ -73,6 +73,10 @@ The initial taxonomy is Crankset, Bottom Bracket, Front Derailleur, Rear Deraill
 
 See [the catalogue and UI guide](catalogue.md) for schemas, stable type IDs, examples, and validation rules. CI now validates record structure, source formatting, IDs, slugs, filenames, and references offline; the starter Shimano 105 R7000 records and static build now exercise the hierarchy end to end.
 
+## Response headers
+
+Workers Static Assets serves the CSP from `apps/web/public/_headers`. It permits same-origin application scripts plus `https://static.cloudflareinsights.com` for Cloudflare's injected analytics beacon; `connect-src` permits same-origin requests and `https://cloudflareinsights.com` for analytics reporting. No inline-script or eval exceptions are added. Other script origins remain blocked. These are the [Cloudflare-documented Web Analytics CSP requirements](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/content-security-policies/); enabling analytics remains a Cloudflare account setting, rather than adding another beacon in the application.
+
 ## Catalogue reads
 
 1. A contributor changes JSON catalogue records through a pull request.
