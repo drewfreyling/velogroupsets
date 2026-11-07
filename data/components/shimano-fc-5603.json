@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-5603",
-  "weight_g": 922,
-  "weight_description": "Manufacturer-listed: 170 mm arms, 50/39/30T chainrings, including integrated bottom bracket.",
+  "weight_g": null,
+  "weight_description": "Weight withheld: the cited figure includes a bottom bracket. A crankset-only weight for an identified crank length and chainring combination has not been sourced.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-5603-2440/EV-FC-5603-2440B.pdf",
     "title": "Shimano FC-5603 exploded view and replacement parts",
@@ -29,7 +29,6 @@
       39,
       30
     ],
-    "rear_speeds": 10,
-    "includes_bottom_bracket": true
+    "rear_speeds": 10
   }
 }

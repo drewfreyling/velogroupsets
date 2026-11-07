@@ -236,7 +236,7 @@
         "weight_g": {
           "type": ["number", "null"],
           "exclusiveMinimum": 0,
-          "description": "Positive weight in grams; rear hubs may use null until a weight without skewers is sourced."
+          "description": "Positive weight in grams for a compliant identified configuration, or explicit null when no compliant weight is sourced."
         },
         "technical_document": {
           "$ref": "#/$defs/technical_document"
@@ -265,18 +265,6 @@
       ],
       "additionalProperties": false,
       "allOf": [
-        {
-          "if": {
-            "properties": {
-              "type": {"const": "rear-hub"}
-            }
-          },
-          "else": {
-            "properties": {
-              "weight_g": {"type": "number"}
-            }
-          }
-        },
         {
           "if": {
             "properties": {

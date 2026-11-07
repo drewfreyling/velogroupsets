@@ -28,6 +28,7 @@
       53,
       39
     ],
-    "rear_speeds": 9
+    "rear_speeds": 9,
+    "includes_bottom_bracket": false
   }
 }

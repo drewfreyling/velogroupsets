@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-6601-G",
-  "weight_g": 788,
-  "weight_description": "Manufacturer-listed: 170 mm crank arms, 53/39T chainrings, including integrated bottom bracket.",
+  "weight_g": null,
+  "weight_description": "Weight withheld: the cited figure includes a bottom bracket. A crankset-only weight for an identified crank length and chainring combination has not been sourced.",
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=114",
     "title": "Shimano 2008–2009 specifications: FC-6601-G (PDF page 114)",

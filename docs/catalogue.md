@@ -40,7 +40,7 @@ Component hyperlinks use the model number as their entire link text in catalogue
 
 ## Required component and groupset details
 
-Every component must have a non-empty `model_number`, a `weight_g` field, a non-empty `weight_description`, and a `technical_document` citation (`url`, `title`, optional `retrieved_on`). Known weights are positive numbers in grams. Rear hubs may use explicit `weight_g: null` while a weight without skewers is being researched; the page displays “Not yet sourced” and the search index preserves null. Other component types still require a positive weight. Never substitute zero, omit the field or invent a value. The previous optional `model_code` is replaced by `model_number`; existing stable IDs and canonical URLs are unchanged.
+Every component must have a non-empty `model_number`, a `weight_g` field, a non-empty `weight_description`, and a `technical_document` citation (`url`, `title`, optional `retrieved_on`). Known weights are positive numbers in grams. Any component without a sourced weight for a configuration that meets the [weight guidelines](weights-guidelines.md) must use explicit `weight_g: null`; the page displays “Not yet sourced” and the search index preserves null. `weight_description` explains why the weight is unavailable. Never substitute zero, omit the field or invent a value. The previous optional `model_code` is replaced by `model_number`; existing stable IDs and canonical URLs are unchanged.
 
 The weight description identifies the weighed configuration: crank length and chainring teeth, cassette sprocket range, derailleur cage length, pedal pair versus single pedal, or hub dimensions/variant as relevant. Distinguish manufacturer average weights from measurements and record exclusions. The starter Shimano weights are manufacturer averages, with a linked handbook and PDF page for each component. A model-wide record may cite one explicitly identified reference configuration; do not imply the same weight applies to every option or silently change the record's identity into a different variant.
 
@@ -115,14 +115,14 @@ Component, saved as `data/components/example-crankset.json`:
   "weight_g": 500,
   "weight_description": "170 mm crank arms, 50/34T chainrings; excludes bottom bracket",
   "technical_document": {"url": "https://docs.example.com/specification.pdf", "title": "Example manufacturer technical specification"},
-  "specifications": {"crank_length_mm": 170},
+  "specifications": {"crank_length_mm": 170, "chainrings_teeth": [50, 34], "includes_bottom_bracket": false},
   "sources": [{"url": "https://example.com/catalogue", "title": "Example catalogue"}]
 }
 ```
 
 Every record needs a non-empty source list. Use HTTP(S) URLs and descriptive titles; `retrieved_on` is an optional ISO date. Schema checks validate citation structure/URL syntax offline, not page availability or the truth of a specification. Reviewers must assess evidence, attribution, and permission to contribute it.
 
-Unknown optional information should be omitted or `null`, never invented. Specification keys use lowercase underscores and explicit units where applicable, such as `crank_length_mm` or `chainline_mm`. Values can be scalars or lists of scalars; type-specific specification contracts can be tightened later. Do not treat flexible specification fields as a substitute for sourced facts.
+Unknown optional information should be omitted or `null`, never invented. Specification keys use lowercase underscores and explicit units where applicable, such as `crank_length_mm` or `chainline_mm`. Values can be scalars or lists of scalars. Known weights additionally require the type-specific reference fields listed in the [weight guide](weights-guidelines.md#validation-fields). These identify the weighed configuration, rather than every option sold under a model number. Do not treat flexible specification fields as a substitute for sourced facts.
 
 ## Validation and current status
 

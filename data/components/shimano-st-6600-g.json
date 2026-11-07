@@ -25,6 +25,7 @@
   "specifications": {
     "rear_speeds": 10,
     "front_speeds": 2,
-    "finish": "Ice grey"
+    "finish": "Ice grey",
+    "weight_basis": "Pair"
   }
 }

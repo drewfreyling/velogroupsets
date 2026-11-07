@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-5700",
-  "weight_g": 846,
-  "weight_description": "Manufacturer-listed in the 2014–2015 handbook: 53/39T chainrings, including integrated bottom bracket; reference crank length is not stated.",
+  "weight_g": null,
+  "weight_description": "Weight withheld: the cited figure includes a bottom bracket. A crankset-only weight for an identified crank length and chainring combination has not been sourced.",
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=127",
     "title": "Shimano 2014–2015 specifications, PDF page 127",
@@ -27,7 +27,6 @@
       53,
       39
     ],
-    "rear_speeds": 10,
-    "includes_bottom_bracket": true
+    "rear_speeds": 10
   }
 }

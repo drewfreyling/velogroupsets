@@ -9,19 +9,19 @@
   "type": "front-derailleur",
   "model_number": "FD-A500-B",
   "weight_g": 115,
-  "weight_description": "Manufacturer-listed: band-on version for 28.0–28.6 mm seat tubes; excludes the braze-on version.",
+  "weight_description": "Manufacturer-listed: band-on version for 28.0–28.6 mm clamp band; excludes the braze-on version.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-A500-1001/EV-FD-A500-1001A.pdf",
     "title": "Shimano FD-A500-B exploded view and replacement parts",
     "retrieved_on": "2026-11-07"
   },
   "specifications": {
-    "mount": "Band-on",
-    "clamp_diameter_mm": [
+    "mount": "Clamp",
+    "capacity_teeth": 14,
+    "clamp_diameter_range_mm": [
       28,
       28.6
-    ],
-    "capacity_teeth": 14
+    ]
   },
   "sources": [
     {

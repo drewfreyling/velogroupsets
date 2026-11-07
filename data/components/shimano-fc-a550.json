@@ -22,7 +22,8 @@
       42
     ],
     "bolt_circle_diameter_mm": 130,
-    "front_speeds": 2
+    "front_speeds": 2,
+    "includes_bottom_bracket": false
   },
   "sources": [
     {

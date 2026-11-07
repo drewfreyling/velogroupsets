@@ -8,18 +8,23 @@
   ],
   "type": "crankset",
   "model_number": "FC-6703",
-  "weight_g": 892,
-  "weight_description": "Manufacturer-listed in the 2010 dealer catalogue: 170 mm crank arms, 52/39/30T chainrings, including integrated bottom bracket.",
+  "weight_g": 803,
+  "weight_description": "Manufacturer average: 170 mm crank arms, 52/39/30T chainrings; excludes bottom bracket. Reference from the 2017–2018 handbook.",
   "technical_document": {
-    "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_SPECIFICATION.pdf#page=113",
-    "title": "Shimano 2009–2010 specifications: FC-6703 (PDF page 113)",
-    "retrieved_on": "2026-11-07"
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=171",
+    "title": "Shimano 2017–2018 specifications, PDF page 171: 170 mm crankset weights without bottom brackets",
+    "retrieved_on": "2026-11-08"
   },
   "sources": [
     {
       "url": "https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=69",
       "title": "Shimano 2010 Russian dealer catalogue, PDF page 69: Ultegra 6700 cranks and derailleurs (archived manufacturer PDF)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=171",
+      "title": "Shimano 2017–2018 specifications, PDF page 171: 170 mm crankset weights without bottom brackets",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {
@@ -30,6 +35,7 @@
       30
     ],
     "front_speeds": 3,
-    "rear_speeds": 10
+    "rear_speeds": 10,
+    "includes_bottom_bracket": false
   }
 }

@@ -1,6 +1,6 @@
 # Ultegra in the 1990s and 2000s
 
-The [component weight guidelines](weights-guidelines.md) set the contribution standard. Some weights described in these source notes include bottom brackets or use other configurations that need correction; the cited historical figures do not establish compliance with the current rules.
+The [component weight guidelines](weights-guidelines.md) set the contribution standard. Canonical weights have been audited against those rules. Noncompliant figures are withheld as explicit unknowns; the source notes below distinguish the selected replacement references from older publications.
 
 The catalogue covers the five Ultegra series offered during **1990–2009**: 600 Ultegra 6400, Ultegra 6500, Ultegra 6600, Ultegra SL and Ultegra 6700. It includes the 6400 family introduced before 1990 and the 6700 family sold in 2009 as a 2010 model. This is series coverage with sourced component variants, not a claim to catalogue every component revision, finish or gear ratio.
 
@@ -45,20 +45,20 @@ Manufacturer material supplies the specifications and most reference weights. HB
 
 The 56 Ultegra component identities produce 60 memberships across the five groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
 
-The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs where the selected sources support their required weights; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Standalone bottom brackets without a verified reference weight remain unlisted; an included bottom bracket is described with its crankset. Brakes, chains and complete wheels remain outside the current component taxonomy.
+The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs, with unknown weights where no compliant reference is sourced; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Bottom brackets are separate components. Existing identities remain listed when their weight must be withheld. Brakes, chains and complete wheels remain outside the current component taxonomy.
 
 ## Weight rules and differences between publications
 
 The JSON `weight_description` states the weighed reference configuration and inclusions. Except for the HB-6500 and FH-6500 measurements described below, these are manufacturer-listed figures, not fresh measurements. They do not imply an identical weight for every arm length, gear combination, spoke count or finish.
 
-- Original 6400 and 6500 crank reference weights exclude the separately listed bottom bracket. For 6600, SL and 6700, the cited crank figures **include the integrated bottom bracket**. Do not add a separate bottom-bracket weight to those figures when comparing totals.
+- Original 6400 and 6500 crank reference weights exclude the separately listed bottom bracket. The older 6600, SL and 6700 publications include the bottom bracket in their crank totals, so those figures are not used as crankset weights. FC-6750 now uses **699 g** (170 mm, 50/34T) and FC-6703 **803 g** (170 mm, 52/39/30T), both explicitly without a bottom bracket in the [2017–2018 handbook, PDF page 171](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=171). Other affected cranksets retain unknown weights.
 - Dual Control lever weights are for a **pair**, including the brake lever assemblies. They do not describe just the shift mechanisms. The ST-6500 weight is not silently assigned to ST-6501.
 - Pedal pairs exclude cleats where the catalogue lists cleats separately. PD-6400 instead includes size L toe clips.
 - The 2008 catalogue lists HB-6600 at **140 g** plus a separate **60 g** skewer and FH-6600 at **347 g** plus a separate **64 g** skewer. The 2010 catalogue similarly separates HB-6700 **156 g / 59 g skewer** and FH-6700 **354 g / 64 g skewer**. Catalogue weights use the hub-only values. Reference spoke counts are not supplied and are not guessed.
 - FH-6401 retains an explicit unknown weight because the selected older catalogue does not establish a hub-only weight. FH-6500 uses the independently measured hub-only weight described below. Front hubs with the same evidence gap remain unlisted under the current front-hub requirement. The measured 36-hole HB-RM50 weight belongs to another model and is not reused.
-- The selected 2010 dealer catalogue gives FC-6700 **790 g** (170 mm, 53/39T with bottom bracket), ST-6700 **447 g** per pair, RD-6700-SS **189 g**, and CS-6700 **209 g** (11–23T). Launch reports can contain different preliminary figures. Preserve the cited publication's values and configuration rather than averaging publications or mixing reference bases.
+- The selected 2010 dealer catalogue gives a combined FC-6700/bottom-bracket figure that is now withheld, ST-6700 **447 g** per pair, RD-6700-SS **189 g**, and CS-6700 **209 g** (11–23T). Launch reports can contain different preliminary figures. Preserve the cited publication's values and configuration rather than averaging publications or mixing reference bases.
 
-Where a source omits the reference thread, diameter or spoke count, the description says so. The BB-6400 source lists both 113 and 115 mm spindle options without identifying which supplied its 308 g reference weight; the record does not select one by inference.
+Where a source omits the reference thread, diameter or spoke count, the description says so. The BB-6400 source lists both 113 and 115 mm spindle options without identifying the weighed variant; its weight is now null rather than selecting a spindle length by inference.
 
 See the [catalogue guide](catalogue.md) for IDs, variant membership, schema validation and the meaning of unknown weights and year-range ends.
 

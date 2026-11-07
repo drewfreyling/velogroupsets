@@ -17,11 +17,81 @@ def fixture():
     return {
         "manufacturers": [dict(record("example-maker"), website_url="https://example.com/")],
         "groupsets": [dict(record("example-group"), manufacturer_id="example-maker", model_number="EG-100", year_range={"start":2000,"end":None})],
-        "components": [dict(record("example-crankset"), manufacturer_id="example-maker", groupset_ids=["example-group"], type="crankset", model_number="EC-100", weight_g=500, weight_description="170 mm crank arms, 50/34T chainrings; no bottom bracket", technical_document=deepcopy(source))],
+        "components": [dict(record("example-crankset"), manufacturer_id="example-maker", groupset_ids=["example-group"], type="crankset", model_number="EC-100", weight_g=500, weight_description="170 mm crank arms, 50/34T chainrings; no bottom bracket", technical_document=deepcopy(source), specifications={"crank_length_mm":170, "chainrings_teeth":[50,34], "includes_bottom_bracket":False})],
     }
 
 
 class CatalogueTests(unittest.TestCase):
+    def test_known_crankset_weights_require_the_exact_configuration_without_bb(self):
+        for field, value in [('includes_bottom_bracket', True), ('crank_length_mm', None),
+                             ('crank_length_mm', True), ('crank_length_mm', [170, 175]),
+                             ('chainrings_teeth', ['50/34T']), ('chainrings_teeth', [])]:
+            data = fixture()
+            data['components'][0]['specifications'][field] = value
+            with self.subTest(field=field, value=value):
+                self.assertTrue(validate_catalogue(data))
+        data['components'][0]['weight_g'] = None
+        self.assertEqual(validate_catalogue(data), [])
+
+    def test_square_taper_weight_requires_spindle_length_not_just_shell_width(self):
+        data = fixture()
+        part = data['components'][0]
+        part.update(type='bottom-bracket', specifications={'interface':'Square taper', 'bb_shell_width_mm':68})
+        self.assertTrue(validate_catalogue(data))
+        part['specifications']['spindle_length_mm'] = [113, 115]
+        self.assertTrue(validate_catalogue(data))
+        part['specifications']['spindle_length_mm'] = 113
+        self.assertEqual(validate_catalogue(data), [])
+        part['specifications'] = {'interface':'External cups'}
+        self.assertEqual(validate_catalogue(data), [])
+
+    def test_individual_shifter_weights_cannot_be_used_as_pair_weights(self):
+        data = fixture()
+        part = data['components'][0]
+        part.update(type='shifters', specifications={'weight_basis':'Single lever'})
+        self.assertTrue(validate_catalogue(data))
+        part['weight_g'] = None
+        self.assertEqual(validate_catalogue(data), [])
+        part.update(weight_g=500, specifications={'weight_basis':'Pair'})
+        self.assertEqual(validate_catalogue(data), [])
+
+    def test_front_derailleur_weights_require_mount_and_the_actual_clamp_size(self):
+        data = fixture()
+        part = data['components'][0]
+        part.update(type='front-derailleur', specifications={'mount':'Clamp'})
+        self.assertTrue(validate_catalogue(data))
+        for size in (True, None, -1, [28.6, 31.8]):
+            part['specifications']['clamp_diameter_mm'] = size
+            with self.subTest(size=size):
+                self.assertTrue(validate_catalogue(data))
+        part['specifications']['clamp_diameter_mm'] = 28.6
+        self.assertEqual(validate_catalogue(data), [])
+        part['specifications']['clamp_diameter_range_mm'] = [28, 28.6]
+        self.assertTrue(validate_catalogue(data), 'Cannot claim two different reference configurations')
+        del part['specifications']['clamp_diameter_mm']
+        self.assertEqual(validate_catalogue(data), [])
+        part['specifications']['clamp_diameter_range_mm'] = [31.8, 28.6]
+        self.assertTrue(validate_catalogue(data))
+        part['specifications'] = {'mount':'Braze-on'}
+        self.assertEqual(validate_catalogue(data), [])
+
+    def test_cassette_weights_require_matching_tooth_counts_and_speed(self):
+        data = fixture()
+        part = data['components'][0]
+        part.update(type='cassette', specifications={'rear_speeds':7, 'sprocket_range':'13–23T'})
+        self.assertEqual(validate_catalogue(data), [])
+        part['specifications']['sprockets_teeth'] = [13,14,15,17,19,21,23]
+        self.assertEqual(validate_catalogue(data), [])
+        for field, value in [('rear_speeds',8), ('rear_speeds',True), ('sprocket_range','23–13T'),
+                             ('sprocket_range','11–28T'), ('sprockets_teeth',[13,13,15,17,19,21,23])]:
+            original = deepcopy(part['specifications'])
+            part['specifications'][field] = value
+            with self.subTest(field=field, value=value):
+                self.assertTrue(validate_catalogue(data))
+            part['specifications'] = original
+        part['specifications'] = {'rear_speeds':7, 'sprocket_group':'I'}
+        self.assertTrue(validate_catalogue(data), 'A group name alone does not identify the tooth range')
+
     def rear_derailleur_fixture(self):
         data = fixture()
         data['components'][0].update(type='rear-derailleur', specifications={
@@ -102,7 +172,7 @@ class CatalogueTests(unittest.TestCase):
 
     def test_variants_and_unknown_specifications_are_allowed(self):
         data = fixture()
-        data["components"][0]["specifications"] = {"crank_length_mm": 170, "chainrings_teeth": [50, 34], "chainline_mm": None}
+        data["components"][0]["specifications"] = {"crank_length_mm": 170, "chainrings_teeth": [50, 34], "chainline_mm": None, "includes_bottom_bracket": False}
         variant = deepcopy(data["components"][0])
         variant.update(id="another-crankset", slug="another-crankset")
         data["components"].append(variant)
@@ -114,7 +184,7 @@ class CatalogueTests(unittest.TestCase):
             del data['components'][0][field]
             with self.subTest(field=field):
                 self.assertTrue(validate_catalogue(data))
-        for value in (0, -1, None, '500 g', True):
+        for value in (0, -1, '500 g', True):
             data = fixture()
             data['components'][0]['weight_g'] = value
             with self.subTest(weight=value):
@@ -167,7 +237,7 @@ class CatalogueTests(unittest.TestCase):
         data['components'][0]['specifications'] = {'weight_g':500}
         self.assertTrue(validate_catalogue(data), 'Weight must not have two conflicting locations')
 
-    def test_rear_hubs_can_have_unknown_weight_but_cannot_bypass_weight_rules(self):
+    def test_unknown_weights_are_explicit_and_do_not_bypass_hub_rules(self):
         for kind in ('rear-hub', 'front-hub', 'crankset'):
             data = fixture()
             component = data['components'][0]
@@ -175,7 +245,7 @@ class CatalogueTests(unittest.TestCase):
             if kind.endswith('hub'):
                 component['weight_excludes_skewers'] = True
             with self.subTest(kind=kind):
-                self.assertEqual(bool(validate_catalogue(data)), kind != 'rear-hub')
+                self.assertEqual(validate_catalogue(data), [])
         for value in (0, -1, 'unknown', True):
             data = fixture()
             data['components'][0].update(type='rear-hub', weight_g=value, weight_excludes_skewers=True)

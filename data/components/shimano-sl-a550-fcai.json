@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-A550-FCAI",
   "weight_g": 72,
-  "weight_description": "Manufacturer-listed: SL-A550-FCAI braze-on downtube lever set, seven-speed SIS, Italian-type bosses with 5 mm fixing bolts.",
+  "weight_description": "Manufacturer-listed: SL-A550-FCAI braze-on downtube lever pair, seven-speed SIS, Italian-type bosses with 5 mm fixing bolts.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-A550-A550-T-1015/EV-SL-A550-A550-T-1015B.pdf",
     "title": "Shimano SL-A550-FCAI exploded view and replacement parts",
@@ -21,7 +21,8 @@
     "shifting_modes": [
       "SIS",
       "Friction"
-    ]
+    ],
+    "weight_basis": "Pair"
   },
   "sources": [
     {

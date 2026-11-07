@@ -9,7 +9,7 @@
   "type": "cassette",
   "model_number": "CS-HG50",
   "weight_g": 268,
-  "weight_description": "Manufacturer-listed: seven-speed I-group 13–23T sprockets and spacers.",
+  "weight_description": "Manufacturer-listed: seven-speed I-group 13–23T sprockets and spacers. Lockring inclusion is not identified by the cited weight row.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/CS-HG90_HG70_HG50-7I-1132/EV-CS-HG90_HG70_HG50-7I-1132.pdf",
     "title": "Shimano CS-HG50 exploded view and replacement parts",
@@ -26,7 +26,8 @@
       21,
       23
     ],
-    "sprocket_group": "I"
+    "sprocket_group": "I",
+    "sprocket_range": "13–23T"
   },
   "sources": [
     {

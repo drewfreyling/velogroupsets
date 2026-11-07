@@ -9,7 +9,7 @@
   "type": "front-derailleur",
   "model_number": "FD-6400-B",
   "weight_g": 104,
-  "weight_description": "Manufacturer-listed: band-on version for 28.0–28.6 mm seat tubes.",
+  "weight_description": "Manufacturer-listed: band-on version for 28.0–28.6 mm clamp band.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-6400-0830/EV-FD-6400-0830A.pdf",
     "title": "Shimano FD-6400 exploded view and replacement parts",
@@ -23,8 +23,8 @@
     }
   ],
   "specifications": {
-    "mount": "Band-on",
-    "clamp_diameter_mm": [
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
       28,
       28.6
     ]

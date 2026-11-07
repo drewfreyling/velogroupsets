@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-1050-FCAI",
   "weight_g": 68,
-  "weight_description": "Manufacturer-listed: six-speed SIS, Italian braze-on A lever set (FCAI); friction mode also available.",
+  "weight_description": "Manufacturer-listed: six-speed SIS, Italian braze-on A lever pair (FCAI); friction mode also available.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/si/P-25/SI-P-25-000-00-ENG.pdf",
     "title": "Shimano SL-1050 service instructions SI-P-25",
@@ -24,6 +24,7 @@
   ],
   "specifications": {
     "rear_speeds": 6,
-    "mount": "Italian braze-on A"
+    "mount": "Italian braze-on A",
+    "weight_basis": "Pair"
   }
 }

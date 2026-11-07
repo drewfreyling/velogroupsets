@@ -8,18 +8,23 @@
   ],
   "type": "crankset",
   "model_number": "FC-5800",
-  "weight_g": 802,
-  "weight_description": "Manufacturer average: 50/34T chainrings; excludes bottom bracket. Reference crank length is not stated.",
+  "weight_g": 757,
+  "weight_description": "Manufacturer average: 170 mm crank arms, 50/34T chainrings; excludes bottom bracket. Reference from the 2017–2018 handbook.",
   "technical_document": {
-    "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=125",
-    "title": "Shimano 2014–2015 specifications, PDF page 125",
-    "retrieved_on": "2026-11-07"
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=170",
+    "title": "Shimano 2017–2018 specifications, PDF page 170: 170 mm crankset weights without bottom brackets",
+    "retrieved_on": "2026-11-08"
   },
   "sources": [
     {
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=125",
       "title": "Shimano 2014–2015 specifications, PDF page 125",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=170",
+      "title": "Shimano 2017–2018 specifications, PDF page 170: 170 mm crankset weights without bottom brackets",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {
@@ -28,6 +33,7 @@
       34
     ],
     "rear_speeds": 11,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "crank_length_mm": 170
   }
 }

@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-6603",
-  "weight_g": 922,
-  "weight_description": "Manufacturer-listed: 170 mm crank arms, 52/39/30T chainrings, including integrated bottom bracket.",
+  "weight_g": null,
+  "weight_description": "Weight withheld: the cited figure includes a bottom bracket. A crankset-only weight for an identified crank length and chainring combination has not been sourced.",
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_SPECIFICATION.pdf#page=114",
     "title": "Shimano 2004–2005 specifications: FC-6603 (PDF page 114)",

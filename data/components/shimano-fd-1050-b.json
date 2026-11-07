@@ -24,6 +24,11 @@
   ],
   "specifications": {
     "front_speeds": 2,
-    "capacity_teeth": 14
+    "capacity_teeth": 14,
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
+      28,
+      28.6
+    ]
   }
 }

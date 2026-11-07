@@ -21,14 +21,20 @@
       "50-34T",
       "52-36T",
       "53-39T"
+    ],
+    "includes_bottom_bracket": false,
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      34
     ]
   },
   "model_number": "FC-R7000",
   "weight_g": 713.4,
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=176",
-    "title": "Shimano 2022\u20132023 specifications: FC-R7000 (PDF page 176)",
+    "title": "Shimano 2022–2023 specifications: FC-R7000 (PDF page 176)",
     "retrieved_on": "2026-11-07"
   },
-  "weight_description": "Manufacturer average: 50\u201334T chainrings, 170 mm crank arms; excludes bottom bracket."
+  "weight_description": "Manufacturer average: 50–34T chainrings, 170 mm crank arms; excludes bottom bracket."
 }

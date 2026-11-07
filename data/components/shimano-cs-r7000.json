@@ -18,8 +18,12 @@
   "weight_g": 284,
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=184",
-    "title": "Shimano 2022\u20132023 specifications: CS-R7000 (PDF page 184)",
+    "title": "Shimano 2022–2023 specifications: CS-R7000 (PDF page 184)",
     "retrieved_on": "2026-11-07"
   },
-  "weight_description": "Manufacturer average for the 11\u201328T cassette."
+  "weight_description": "Manufacturer average: eleven-speed 11–28T cassette. Lockring inclusion is not identified by the cited weight row.",
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–28T"
+  }
 }

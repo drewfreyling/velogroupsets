@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-R7000-L",
-  "weight_g": 249,
-  "weight_description": "Manufacturer average: single left-hand double-chainring shift/brake lever; not a pair.",
+  "weight_g": null,
+  "weight_description": "Weight withheld: this record identifies a single left-hand lever. Catalogue shifter weights must describe a complete left/right pair; the individual-lever mass is not used as a pair weight.",
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=136",
     "title": "Shimano 2025–2026 specifications, PDF page 136",

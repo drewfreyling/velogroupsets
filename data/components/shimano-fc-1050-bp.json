@@ -28,6 +28,7 @@
       52,
       42
     ],
-    "chainring_shape": "Biopace"
+    "chainring_shape": "Biopace",
+    "includes_bottom_bracket": false
   }
 }

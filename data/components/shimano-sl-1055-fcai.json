@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-1055-FCAI",
   "weight_g": 70,
-  "weight_description": "Manufacturer-listed: seven-speed SIS Italian braze-on A lever set (FCAI).",
+  "weight_description": "Manufacturer-listed: seven-speed SIS Italian braze-on A lever pair (FCAI).",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-1056_1055-1014/EV-SL-1056_1055-1014B.pdf",
     "title": "Shimano SL-1055 exploded view and replacement parts",
@@ -24,6 +24,7 @@
   ],
   "specifications": {
     "rear_speeds": 7,
-    "mount": "Italian braze-on A"
+    "mount": "Italian braze-on A",
+    "weight_basis": "Pair"
   }
 }

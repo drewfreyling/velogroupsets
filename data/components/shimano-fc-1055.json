@@ -27,6 +27,7 @@
     "chainrings_teeth": [
       52,
       42
-    ]
+    ],
+    "includes_bottom_bracket": false
   }
 }

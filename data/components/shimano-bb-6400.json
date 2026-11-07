@@ -8,8 +8,8 @@
   ],
   "type": "bottom-bracket",
   "model_number": "BB-6400",
-  "weight_g": 308,
-  "weight_description": "Manufacturer-listed: bottom bracket set. The table lists 113 and 115 mm spindles but does not identify the weighed variant or thread.",
+  "weight_g": null,
+  "weight_description": "Weight withheld: the cited square-taper assembly weight does not identify the weighed spindle length. Listing available spindle lengths does not establish the reference configuration.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/BB-6400-1151/EV-BB-6400-1151.pdf",
     "title": "Shimano BB-6400 exploded view and replacement parts",
@@ -21,5 +21,9 @@
       "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
     }
-  ]
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_mm": null
+  }
 }

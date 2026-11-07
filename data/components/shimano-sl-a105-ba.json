@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-A105-BA",
   "weight_g": 63,
-  "weight_description": "Manufacturer-listed: Band A downtube lever set, 28.6 mm clamp; friction shifting.",
+  "weight_description": "Manufacturer-listed: Band A downtube lever pair, 28.6 mm clamp; friction shifting.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-A105-0540/EV-SL-A105-0540C.pdf",
     "title": "Shimano SL-A105 exploded view and replacement parts",
@@ -24,6 +24,7 @@
   ],
   "specifications": {
     "shifting": "Friction",
-    "mount": "Band A, 28.6 mm"
+    "mount": "Band A, 28.6 mm",
+    "weight_basis": "Pair"
   }
 }

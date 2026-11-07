@@ -24,7 +24,8 @@
   ],
   "specifications": {
     "front_speeds": 2,
-    "band_diameter_mm": 28.6,
-    "capacity_teeth": 14
+    "capacity_teeth": 14,
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.6
   }
 }

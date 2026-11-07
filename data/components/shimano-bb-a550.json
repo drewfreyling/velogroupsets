@@ -16,7 +16,8 @@
     "retrieved_on": "2026-11-07"
   },
   "specifications": {
-    "spindle_length_mm": 113
+    "spindle_length_mm": 113,
+    "interface": "Square taper"
   },
   "sources": [
     {
