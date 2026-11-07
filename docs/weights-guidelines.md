@@ -30,6 +30,12 @@ Keep spindle length separate from bottom-bracket shell width. For example, a squ
 
 Use a measured or manufacturer-published pair weight. An individual lever weight is not a compliant pair weight; do not double one side's figure, because the two sides can differ.
 
+## Cassettes
+
+**Cassette weights must state the tooth-count configuration.** Give the smallest-to-largest sprocket range, such as 11–28T, and the number of sprockets. Include the full sequence of tooth counts when the source provides it. A model number or a list of available ranges does not identify which cassette was weighed.
+
+State whether the weight includes the lockring and any spacers. Do not infer a tooth sequence or apply one range’s weight to another.
+
 ## Brakes
 
 **Front and rear brakes must have separate weights. Each brake must be weighed with its brake pads and mounting bolts attached.** Identify whether the record describes the front or rear brake and the exact model and mounting configuration.
