@@ -9,10 +9,17 @@ export async function challenge(container:HTMLElement,siteKey:string,action:stri
   const win=window as any;
   if(!turnstileScript)turnstileScript=new Promise<void>((resolve,reject)=>{
     if(win.turnstile){resolve();return;}
-    const script=document.createElement('script');script.src='https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';script.async=true;script.onload=()=>resolve();script.onerror=()=>reject(new Error('The anti-spam check could not load. Please use the contact email if the problem continues.'));document.head.append(script);
+    // With async loading, Cloudflare's onload callback signals API readiness.
+    // turnstile.ready() requires a synchronous script and rejects async/defer.
+    const callback='__veloGroupsetsTurnstileReady';
+    win[callback]=()=>{delete win[callback];resolve();};
+    const script=document.createElement('script');
+    script.src=`https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=${callback}`;
+    script.async=true;
+    script.onerror=()=>{delete win[callback];reject(new Error('The anti-spam check could not load. Please use the contact email if the problem continues.'));};
+    document.head.append(script);
   });
   await turnstileScript;
-  await new Promise<void>(resolve=>win.turnstile.ready(resolve));
   const id=win.turnstile.render(container,{sitekey:siteKey,action,callback:(token:string)=>{input.value=token;},'expired-callback':()=>{input.value='';},'error-callback':()=>{input.value='';}});
   return ()=>{input.value='';win.turnstile.reset(id);};
 }

@@ -6,7 +6,7 @@ const photoId='00000000-0000-4000-8000-000000000001';
 const publicConfig={signInAvailable:true,uploadsAvailable:true,policyVersion:POLICY_VERSION,turnstileSiteKey:'fictional-site-key',contactEmail:'contact@example.test',operator:'Example Operator',maxUploadBytes:5*1024*1024};
 const member={id:'00000000-0000-4000-8000-000000000002',displayName:'Test contributor',moderator:false};
 const jpeg=await sharp({create:{width:64,height:48,channels:3,background:'#3dcfc2'}}).jpeg().toBuffer();
-async function mockCommunity(page,{user=member,config={}}={}) {
+async function mockCommunity(page,{user=member,config={},manualTurnstileLoad=false}={}) {
   await page.route('**/api/session',route=>route.fulfill({json:{...publicConfig,...config,user,csrfToken:user?'fictional-csrf':null}}));
   await page.route('**/api/community/config',route=>route.fulfill({json:{...publicConfig,...config}}));
   await page.route('**/api/account/photos',route=>route.fulfill({json:{photos:[]}}));
@@ -14,12 +14,27 @@ async function mockCommunity(page,{user=member,config={}}={}) {
   await page.route('**/api/photos/*/preview',route=>route.fulfill({contentType:'image/jpeg',body:jpeg}));
   await page.route('https://challenges.cloudflare.com/turnstile/v0/api.js*',route=>route.fulfill({contentType:'application/javascript',body:`
     window.turnstile={
-      ready(fn){fn()},
-      render(node,options){this.options=options;node.textContent='Test anti-spam check passed';options.callback('proof-'+options.action);return 'test-widget'},
+      ready(){throw new Error('Remove async/defer before using turnstile.ready()')},
+      render(node,options){if(!window.__testTurnstileReady)throw new Error('Rendered before Turnstile onload callback');this.options=options;node.textContent='Test anti-spam check passed';options.callback('proof-'+options.action);return 'test-widget'},
       reset(){this.options.callback('fresh-proof-'+this.options.action)}
     };
+    const callback=new URL(document.currentScript.src).searchParams.get('onload');
+    window.__releaseTestTurnstile=()=>{window.__testTurnstileReady=true;window[callback]();};
+    ${manualTurnstileLoad?'':'setTimeout(window.__releaseTestTurnstile,25);'}
   `}));
 }
+
+test('async Turnstile loading waits for its provider callback before enabling sign-in',async({page})=>{
+  const errors=[];page.on('pageerror',error=>errors.push(error.message));
+  await mockCommunity(page,{user:null,manualTurnstileLoad:true});
+  await page.goto('/account/');
+  await expect.poll(()=>page.evaluate(()=>typeof window.__releaseTestTurnstile)).toBe('function');
+  const button=page.getByRole('button',{name:'Continue with Google',exact:true});
+  await expect(button).toBeDisabled();await expect(page.locator('#sign-in-challenge')).toBeEmpty();
+  await page.evaluate(()=>window.__releaseTestTurnstile());
+  await expect(button).toBeEnabled();await expect(page.locator('#sign-in-challenge')).toContainText('Test anti-spam check passed');
+  await expect(page.locator('#sign-in-token')).toHaveValue('proof-sign-in');expect(errors).toEqual([]);
+});
 
 test('sign-in requires an unchecked agreement before starting Google authentication',async({page})=>{
   await mockCommunity(page,{user:null});let starts=0,submitted;
