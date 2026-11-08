@@ -117,3 +117,22 @@ variable "email_contact_metadata" {
   default   = null
   sensitive = true
 }
+variable "google_site_verification_content" {
+  description = "Existing public Search Console TXT value; owned only by staging state. Null leaves it unmanaged."
+  type        = string
+  default     = null
+  validation {
+    condition     = var.google_site_verification_content == null ? true : can(regex("^google-site-verification=[A-Za-z0-9_-]+$", var.google_site_verification_content))
+    error_message = "Use the complete existing Google site-verification TXT value."
+  }
+}
+variable "google_site_verification_metadata" {
+  description = "Existing DNS record ID and metadata discovered read-only by the planning runner."
+  type = object({
+    id      = string
+    ttl     = number
+    comment = optional(string)
+    tags    = optional(list(string), [])
+  })
+  default = null
+}

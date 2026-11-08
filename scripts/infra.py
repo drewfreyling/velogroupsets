@@ -284,6 +284,13 @@ def main():
         with tempfile.TemporaryDirectory() as temp:
             plan = Path(temp) / "saved.tofuplan"
             if args.operation == "plan":
+                verification = re.search(r'^\s*google_site_verification_content\s*=\s*"(google-site-verification=[A-Za-z0-9_-]+)"\s*(?:#.*)?$', (CONFIG / 'environments' / f'{args.environment}.tfvars').read_text(), re.M)
+                if verification:
+                    if args.environment != 'staging':
+                        raise ValueError('Shared Google verification must use staging-state ownership.')
+                    from cloudflare_services import google_verification_metadata
+                    metadata = google_verification_metadata('7f6cc6f517450ef96d9f8b2bd891ee80', 'velogroupsets.com', verification[1], os.environ['CLOUDFLARE_API_TOKEN'])
+                    env['TF_VAR_google_site_verification_metadata'] = json.dumps(metadata)
                 mail_enabled = re.search(r"^\s*manage_zone_email\s*=\s*true\s*(?:#.*)?$", (CONFIG / 'environments' / f'{args.environment}.tfvars').read_text(), re.M)
                 if mail_enabled:
                     if args.environment != 'staging':
@@ -302,6 +309,9 @@ def main():
                 if mail_enabled:
                     from cloudflare_services import check_mail_adoption
                     check_mail_adoption(details)
+                if verification:
+                    from cloudflare_services import check_google_verification_adoption
+                    check_google_verification_adoption(details)
                 changes = review_actions(details)
                 client.put_object(Bucket=BUCKET, Key=key, Body=data, IfNoneMatch="*")
                 with open(os.environ["GITHUB_OUTPUT"], "a") as output:

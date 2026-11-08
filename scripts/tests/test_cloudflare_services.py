@@ -7,7 +7,7 @@ from unittest.mock import Mock, patch
 from urllib.error import HTTPError
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from cloudflare_services import check_mail_adoption, cloudflare_json, contact_metadata, csam_status, mail_plan_environment
+from cloudflare_services import check_google_verification_adoption, google_verification_metadata, check_mail_adoption, cloudflare_json, contact_metadata, csam_status, mail_plan_environment
 
 ZONE = 'a' * 32
 DESTINATION = 'private-destination@example.test'
@@ -73,3 +73,50 @@ class CloudflareServicesTests(unittest.TestCase):
                 check_mail_adoption({'resource_changes': [entries[0], {'address': addresses[1], 'change': {'actions': actions}}]})
         with self.assertRaises(ValueError):
             check_mail_adoption({'resource_changes': entries[:1]})
+
+
+class GoogleVerificationTests(unittest.TestCase):
+    def record(self, **changes):
+        return dict({'id': 'c' * 32, 'name': 'example.test', 'type': 'TXT',
+                     'content': 'google-site-verification=fictional-proof', 'ttl': 1,
+                     'proxied': False, 'comment': 'Existing note', 'tags': ['owner:example']}, **changes)
+
+    def discover(self, records, **response):
+        fetch = Mock(return_value={'result': records, **response})
+        return google_verification_metadata(ZONE, 'example.test', 'google-site-verification=fictional-proof', 'token', fetch)
+
+    def test_discovery_preserves_existing_metadata_and_ignores_other_txt_records(self):
+        spf = self.record(content='v=spf1 -all')
+        fetch = Mock(side_effect=[{'result': [spf], 'result_info': {'total_pages': 2}},
+                                  {'result': [self.record()], 'result_info': {'total_pages': 2}}])
+        result = google_verification_metadata(ZONE, 'example.test', 'google-site-verification=fictional-proof', 'token', fetch)
+        self.assertEqual(result, {'id': 'c' * 32, 'ttl': 1, 'comment': 'Existing note', 'tags': ['owner:example']})
+        self.assertIn('page=2', fetch.call_args.args[0])
+        self.assertIn('type=TXT', fetch.call_args.args[0])
+
+    def test_missing_ambiguous_or_mismatched_records_fail_without_guessing(self):
+        for records in [[], [self.record(), self.record()],
+                        [self.record(name='sub.example.test')], [self.record(type='CNAME')],
+                        [self.record(content='google-site-verification=another-proof')]]:
+            with self.subTest(records=records), self.assertRaises(ValueError):
+                self.discover(records)
+
+    def test_malformed_metadata_and_unbounded_pagination_are_rejected(self):
+        for changes in [{'ttl': True}, {'ttl': 0}, {'id': '../record'}, {'proxied': True},
+                        {'tags': 'owner:example'}, {'comment': []}]:
+            with self.subTest(changes=changes), self.assertRaises(ValueError):
+                self.discover([self.record(**changes)])
+        for total in [True, 0, 21, '2']:
+            with self.subTest(total=total), self.assertRaises(ValueError):
+                self.discover([], result_info={'total_pages': total})
+
+    def test_only_import_or_noop_is_accepted_for_the_existing_record(self):
+        def plan(actions):
+            return {'resource_changes': [{'address': 'cloudflare_dns_record.google_site_verification[0]',
+                                          'change': {'actions': actions, 'importing': {'id': 'opaque'}}}]}
+        check_google_verification_adoption(plan(['no-op']))
+        for actions in [['create'], ['update'], ['delete'], ['delete', 'create']]:
+            with self.subTest(actions=actions), self.assertRaises(ValueError):
+                check_google_verification_adoption(plan(actions))
+        with self.assertRaises(ValueError):
+            check_google_verification_adoption({'resource_changes': []})

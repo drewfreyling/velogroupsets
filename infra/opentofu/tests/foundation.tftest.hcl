@@ -9,6 +9,10 @@ variables {
 run "private_by_default" {
   command = plan
   assert {
+    condition     = length(cloudflare_dns_record.google_site_verification) == 0
+    error_message = "Shared Google verification ownership must be absent by default."
+  }
+  assert {
     condition     = length(cloudflare_dns_record.caa) == 0
     error_message = "CAA must be opt-in so production cannot duplicate shared zone ownership."
   }
@@ -179,4 +183,52 @@ run "reject_duplicate_email_ownership" {
     email_contact_metadata       = { id = "0123456789abcdef0123456789abcdef", name = "Existing contact", priority = 17 }
   }
   expect_failures = [cloudflare_email_routing_dns.mail, cloudflare_email_routing_rule.contact]
+}
+
+run "google_verification_preserves_existing_dns" {
+  command = plan
+  variables {
+    zone_id                          = "0123456789abcdef0123456789abcdef"
+    site_zone_name                   = "example.com"
+    google_site_verification_content = "google-site-verification=fictional-public-proof"
+    google_site_verification_metadata = {
+      id      = "11111111111111111111111111111111"
+      ttl     = 1
+      comment = "Existing verification"
+      tags    = ["owner:example"]
+    }
+  }
+  assert {
+    condition = (
+      cloudflare_dns_record.google_site_verification[0].name == "example.com" &&
+      cloudflare_dns_record.google_site_verification[0].type == "TXT" &&
+      cloudflare_dns_record.google_site_verification[0].content == "google-site-verification=fictional-public-proof" &&
+      cloudflare_dns_record.google_site_verification[0].ttl == 1 &&
+      cloudflare_dns_record.google_site_verification[0].proxied == false &&
+      cloudflare_dns_record.google_site_verification[0].comment == "Existing verification" &&
+      toset(cloudflare_dns_record.google_site_verification[0].tags) == toset(["owner:example"])
+    )
+    error_message = "Adoption must preserve the existing TXT content, automatic TTL, comment and tags."
+  }
+}
+run "reject_google_verification_without_discovery" {
+  command = plan
+  variables {
+    zone_id                          = "0123456789abcdef0123456789abcdef"
+    site_zone_name                   = "example.com"
+    google_site_verification_content = "google-site-verification=fictional-public-proof"
+  }
+  expect_failures = [cloudflare_dns_record.google_site_verification]
+}
+run "reject_duplicate_google_verification_ownership" {
+  command = plan
+  variables {
+    environment                       = "production"
+    site_hostname                     = "example.com"
+    zone_id                           = "0123456789abcdef0123456789abcdef"
+    site_zone_name                    = "example.com"
+    google_site_verification_content  = "google-site-verification=fictional-public-proof"
+    google_site_verification_metadata = { id = "11111111111111111111111111111111", ttl = 300 }
+  }
+  expect_failures = [cloudflare_dns_record.google_site_verification]
 }

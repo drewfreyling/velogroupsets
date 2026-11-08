@@ -88,3 +88,44 @@ def check_mail_adoption(details):
                 raise ValueError('Mail adoption would change ' + item['address'] + '; refusing to save that plan. Changed attribute names: ' + ', '.join(fields) + '. Values remain private.')
     if found != addresses:
         raise ValueError('Mail adoption plan is missing an expected resource; refusing to save it.')
+
+
+def google_verification_metadata(zone, domain, content, token, fetcher=cloudflare_json):
+    """Find one exact existing public verification record without changing DNS."""
+    from urllib.parse import urlencode
+    if not re.fullmatch('[a-f0-9]{32}', zone) or not re.fullmatch(r'[a-z0-9.-]+', domain):
+        raise ValueError('Invalid verification zone configuration.')
+    if not isinstance(content, str) or not re.fullmatch(r'google-site-verification=[A-Za-z0-9_-]+', content):
+        raise ValueError('Invalid Google site-verification TXT value.')
+    matches = []
+    for page in range(1, 21):
+        query = urlencode({'type': 'TXT', 'name': domain, 'page': page, 'per_page': 100})
+        data = fetcher(f'/zones/{zone}/dns_records?{query}', token)
+        for record in data.get('result', []):
+            if record.get('type') == 'TXT' and record.get('name') == domain and record.get('content') == content:
+                matches.append(record)
+        total = (data.get('result_info') or {}).get('total_pages', 1)
+        if type(total) is not int or not 1 <= total <= 20:
+            raise ValueError('DNS pagination could not be safely inspected.')
+        if page >= total:
+            break
+    if len(matches) != 1:
+        raise ValueError('Expected exactly one existing matching Google verification TXT record; no DNS was changed.')
+    record = matches[0]
+    identifier, ttl = record.get('id'), record.get('ttl')
+    comment, tags = record.get('comment'), record.get('tags', [])
+    if (not isinstance(identifier, str) or not re.fullmatch('[a-f0-9]{32}', identifier)
+            or type(ttl) is not int or not (ttl == 1 or 30 <= ttl <= 86400)
+            or record.get('proxied') is not False
+            or (comment is not None and not isinstance(comment, str))
+            or not isinstance(tags, list) or not all(isinstance(tag, str) for tag in tags)):
+        raise ValueError('Existing verification record metadata is unsupported; no DNS was changed.')
+    return {'id': identifier, 'ttl': ttl, 'comment': comment, 'tags': tags}
+
+
+def check_google_verification_adoption(details):
+    """Keep working ownership verification unchanged during state adoption."""
+    matches = [item for item in details.get('resource_changes', [])
+               if item['address'] == 'cloudflare_dns_record.google_site_verification[0]']
+    if len(matches) != 1 or matches[0]['change']['actions'] != ['no-op']:
+        raise ValueError('Google verification adoption must import/no-op the existing TXT record; refusing to save a DNS-changing plan.')
