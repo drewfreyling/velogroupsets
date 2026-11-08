@@ -59,7 +59,7 @@ test('bottom-bracket-inclusive reference does not become a crank-only weight', a
 test('archived Dura-Ace configurations expose sourced weights and retain manufacturer technical links', async ({page,request}) => {
   const index=await (await request.get('/search-index.json')).json();
   for (const [model,grams,configuration] of [
-    ['FD-7400',93,'28.6 mm clamp'],
+    ['FD-7400',93,'28.6 mm clamp'],['FC-7402',643,'52/42T Shimano SG'],
     ['CS-7400-8',255,'eight-speed 12–21T'],['FC-7600',605,'48T chainring'],
     ['BB-7600',305,'109 mm spindle'],['SP-7300',224,'26.8 mm shaft'],
   ]) {
@@ -78,8 +78,7 @@ test('catalogue evidence preserves unknown pair, clamp and skewer configurations
   const index=await (await request.get('/search-index.json')).json();
   for (const [model,reason] of [
     ['BL-7300','single-lever figure is not doubled'],['FD-7300','without identifying which was weighed'],
-    ['FC-7402','does not distinguish the weighed FC-7402 and FC-7402-BP'],
-    ['SL-7402-FCAI','left/right pair weight'],['FH-7402','does not establish quick-release exclusion'],
+    ['SL-7402-FCAI','left/right pair weight'],['FH-7402','with quick release'],
   ]) {
     const part=index.find(p=>p.model===model);
     expect(part.weight_g).toBeNull();

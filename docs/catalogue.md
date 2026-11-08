@@ -136,7 +136,7 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 42 groupsets from Shimano and Campagnolo and 406 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 42 groupsets from Shimano and Campagnolo and 408 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
 
 The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
 
@@ -178,7 +178,7 @@ The original *Dealers’ 1990 Product Manual*, published in August 1989, provide
 | Rear derailleur | RD-A550 | 280 g; double-chainset version, 28T total capacity |
 | Shifters | SL-A550-FCAI | 72 g; seven-speed braze-on downtube lever set, M5 Italian-type bosses |
 | Brake levers | BL-A550 | 252 g; pair of aero levers for 23.8–24.2 mm handlebars |
-| Cassette | CS-HG70 | 325 g; seven-speed I group, 13–23T sprockets and spacers |
+| Cassette | CS-HG70 | Weight withheld: seven-speed I group, 13–23T; conflicting 286/325 g references in the 1991 catalogue |
 | Headset | HP-R500 | 121 g; shared with Exage 500EX |
 | Pedals | PD-A550 | Shared record retains the Exage table's 407 g; RX100 table lists 400 g, both including size L toe clips |
 | Rear hub | FH-A550 | Not yet sourced without skewer; seven-speed quick release, 126 mm over locknuts, 137 mm axle |
@@ -204,11 +204,11 @@ An optional `specifications.cage` records the manufacturer's sourced cage code. 
 
 ## Shimano 105 generation coverage
 
-The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 86 105 component identities across 91 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains two manufacturers, 42 groupsets and 406 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
+The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 88 105 component identities across 93 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains two manufacturers, 42 groupsets and 408 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
 
 ## Shimano Dura-Ace coverage
 
-The [Dura-Ace source guide](dura-ace.md) documents 15 road/track offerings and 139 component identities, from the original 1973 family through R9200. Mechanical/Di2 parts share canonical identities where listed by Shimano. The original family has no component records until suitable manufacturer-hosted technical documents are found. See the guide for dates, source editions, weight configurations and remaining variant gaps.
+The [Dura-Ace source guide](dura-ace.md) documents 15 road/track offerings and 140 component identities, from the original 1973 family through R9200. Mechanical/Di2 parts share canonical identities where listed by Shimano. The original family has no component records until suitable manufacturer-hosted technical documents are found. See the guide for dates, source editions, weight configurations and remaining variant gaps.
 
 ## Exage road range coverage
 
@@ -226,3 +226,5 @@ Every shifter record describes a complete left/right pair, including those with 
 ST-R7000 replaces the separate ST-R7000-L/R catalogue entries with one pair. Its `aliases` array reserves their former IDs and slugs (`shimano-st-r7000-l` / `st-r7000-l` and `shimano-st-r7000-r` / `st-r7000-r`). Aliases are historical identity mappings, not additional searchable components or sitemap entries. Validation rejects collisions between aliases and live catalogue IDs or manufacturer-scoped component slugs. The corresponding old component URLs issue permanent redirects through [the static-asset redirect rules](../apps/web/public/_redirects).
 
 Prefer 170 mm crank arms when selecting a weight reference; other explicitly identified lengths remain valid. See the [weight guidelines](weights-guidelines.md#cranksets).
+
+The [1991 dealer catalogue review](shimano-1991.md) records newly recovered weights, 105 SC seven-speed membership, nut-fastened track hub references and the unresolved CS-HG70 cassette discrepancy.

@@ -4,12 +4,13 @@
   "name": "Shimano seven-speed cassette (I group)",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-rx100-a550"
+    "shimano-rx100-a550",
+    "shimano-105-sc-1055"
   ],
   "type": "cassette",
   "model_number": "CS-HG70",
-  "weight_g": 325,
-  "weight_description": "Manufacturer-listed: seven-speed I-group 13–23T sprockets and spacers.",
+  "weight_g": null,
+  "weight_description": "Weight withheld because the manufacturer references conflict: the 1991 105 SC table lists 286 g including spacers, while the same edition’s RX100 table lists 325 g for the same seven-speed I-group 13–23T cassette. The earlier RX100 reference also gives 325 g. No distinguishing weighed variant is identified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/CS-HG90_HG70_HG50-7I-1132/EV-CS-HG90_HG70_HG50-7I-1132.pdf",
     "title": "Shimano CS-HG70 exploded view and replacement parts",
@@ -34,6 +35,16 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 28: RX100 component specifications and weights (published August 1989; archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=40",
+      "title": "Shimano 1991 dealer catalogue, printed page 37 (PDF page 40): 105 SC CS-HG70 I-group 13–23T cassette, 286 g including spacers; manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=43",
+      "title": "Shimano 1991 dealer catalogue, printed page 40 (PDF page 43): RX100 CS-HG70 I-group 13–23T cassette, conflicting 325 g reference; manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-08"
     }
   ]
 }

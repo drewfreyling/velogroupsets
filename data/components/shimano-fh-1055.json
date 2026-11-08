@@ -9,7 +9,7 @@
   "type": "rear-hub",
   "model_number": "FH-1055",
   "weight_g": null,
-  "weight_description": "Seven-speed quick-release freehub, 126 mm over locknuts. The catalogue’s 415 g includes the quick release, so a weight without it remains unsourced.",
+  "weight_description": "Seven-speed quick-release freehub, 126 mm over locknuts. The 1991 catalogue explicitly lists 415 g with quick release; a hub-only weight without the skewer remains unsourced.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FH-1055-1093/EV-FH-1055-1093A.pdf",
     "title": "Shimano FH-1055 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 24; published August 1989 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=39",
+      "title": "Shimano 1991 dealer catalogue, printed page 36 (PDF page 39): FH-1055-HG seven-speed freehub, 415 g explicitly with quick release; manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {

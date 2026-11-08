@@ -1,0 +1,29 @@
+{
+  "id": "shimano-hp-7600",
+  "slug": "hp-7600",
+  "name": "Dura-Ace track threaded headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-track"
+  ],
+  "type": "headset",
+  "model_number": "HP-7600",
+  "weight_g": 90,
+  "weight_description": "Manufacturer-listed: HP-7600 track headset assembly, 19.5 mm upper-cone height and 11.5 mm lower-cone height. The weighed thread variant is not identified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HP-7600-0724/EV-HP-7600-0724E.pdf",
+    "title": "Shimano HP-7600 Dura-Ace track headset exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=29",
+      "title": "Shimano 1991 dealer catalogue, printed page 26 (PDF page 29): HP-7600 track headset, 90 g and reference dimensions; manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "upper_cone_height_mm": 19.5,
+    "lower_cone_height_mm": 11.5
+  }
+}

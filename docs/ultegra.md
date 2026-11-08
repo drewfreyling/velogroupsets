@@ -57,7 +57,7 @@ The JSON `weight_description` states the weighed reference configuration and inc
 - Dual Control lever weights are for a **pair**, including the brake lever assemblies. They do not describe just the shift mechanisms. The ST-6500 weight is not silently assigned to ST-6501.
 - Pedal pairs exclude cleats where the catalogue lists cleats separately. PD-6400 instead includes size L toe clips.
 - The 2008 catalogue lists HB-6600 at **140 g** plus a separate **60 g** skewer and FH-6600 at **347 g** plus a separate **64 g** skewer. The 2010 catalogue similarly separates HB-6700 **156 g / 59 g skewer** and FH-6700 **354 g / 64 g skewer**. Catalogue weights use the hub-only values. Reference spoke counts are not supplied and are not guessed.
-- FH-6401 retains an explicit unknown weight because the selected older catalogue does not establish a hub-only weight. FH-6500 uses the independently measured hub-only weight described below. Front hubs with the same evidence gap remain unlisted under the current front-hub requirement. The measured 36-hole HB-RM50 weight belongs to another model and is not reused.
+- FH-6401 retains an explicit unknown weight because the selected older catalogue does not establish a hub-only weight. FH-6500 uses the independently measured hub-only weight described below. Front hubs with the same evidence gap remain unlisted in this series. The measured 36-hole HB-RM50 weight belongs to another model and is not reused.
 - The selected 2010 dealer catalogue gives a combined FC-6700/bottom-bracket figure that is now withheld, ST-6700 **447 g** per pair, RD-6700-SS **189 g**, and CS-6700 **209 g** (11–23T). Launch reports can contain different preliminary figures. Preserve the cited publication's values and configuration rather than averaging publications or mixing reference bases.
 
 Where a source omits the reference thread, diameter or spoke count, the description says so. The BB-6400 source lists both 113 and 115 mm spindle options without identifying the weighed variant; its weight is now null rather than selecting a spindle length by inference.
@@ -112,3 +112,5 @@ ST-6800 is 425 g per pair (page 135), and ST-R8020 is 554 g per pair (page 142).
 | RD-R8000-GS | 39T | 34T | 11T | 16T | 210 g |
 
 All four rear-derailleur rows use the same 2017–2018 specification page (PDF page 158). The shared cage-code explanation remains the single definition of SS/GS/SGS.
+
+The [1991 dealer catalogue review](shimano-1991.md) supplies the explicit **272 g pair** reference for BL-6403 (printed page 29 / PDF page 32). Its other hub figures include quick release and do not replace the catalogue’s hub-only weights.

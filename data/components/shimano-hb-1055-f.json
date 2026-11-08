@@ -1,0 +1,42 @@
+{
+  "id": "shimano-hb-1055-f",
+  "slug": "hb-1055-f",
+  "name": "105 SC front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-1055-F",
+  "weight_g": null,
+  "weight_description": "Weight without skewer not yet sourced: the 1991 catalogue lists 216 g with quick release. It offers 100 mm and 96 mm over-locknut variants and 32/36 spoke holes without identifying the weighed variant.",
+  "weight_excludes_skewers": true,
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-1055-1113/EV-HB-1055-1113.pdf",
+    "title": "Shimano HB-1055-F front hub exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=39",
+      "title": "Shimano 1991 dealer catalogue, printed page 36 (PDF page 39): HB-1055-F 105 SC membership, axle options and skewer-inclusive weight; manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Quick release",
+    "over_locknut_dimension_options_mm": [
+      96,
+      100
+    ],
+    "axle_length_options_mm": [
+      104,
+      108
+    ],
+    "spoke_hole_options": [
+      32,
+      36
+    ],
+    "flange_pitch_circle_diameter_mm": 38
+  }
+}

@@ -29,7 +29,7 @@ The 2007 line-up explicitly includes BL-R600 as a separate-control option alongs
 
 ## Weights and variants
 
-The period catalogues explicitly establish pair weights for BL-A351 (302 g), BL-A500 (258 g), BL-A251 (310 g), BL-A550 (252 g), BL-1050 (202 g), BL-1051 (252 g), BL-1055 (252 g), BL-6401 (260 g), BL-7400 (216 g) and BL-7402 (240 g). The BL-TT79 average is 89 g per pair in Shimano’s April 2026 specification edition; its 7900 membership comes separately from the 2011 line-up. Each record identifies the weighed model and the source edition.
+The period catalogues explicitly establish pair weights for BL-A351 (302 g), BL-A500 (258 g), BL-A251 (310 g), BL-A550 (252 g), BL-1050 (202 g), BL-1051 (252 g), BL-1055 (252 g), BL-6401 (260 g), BL-6403 (272 g), BL-7400 (216 g) and BL-7402 (240 g). The BL-TT79 average is 89 g per pair in Shimano’s April 2026 specification edition; its 7900 membership comes separately from the 2011 line-up. Each record identifies the weighed model and the source edition.
 
 Other added lever weights remain null. In particular:
 
@@ -37,7 +37,7 @@ Other added lever weights remain null. In particular:
 - BL-A251-EX has auxiliary extension levers. The standard BL-A251 pair weight does not describe this assembly.
 - BL-1052 and BL-6402 are short-reach models; neighbouring standard-reach weights are not substituted.
 - BL-A410’s RSX weight column is blank. Adjacent RX100 figures are not RSX weights.
-- The cited BL-6403 and BL-7401 entries do not explicitly identify a pair weight, so their figures are withheld pending a compliant reference.
+- BL-6403 now uses the explicitly labelled 272 g pair in the [1991 catalogue, PDF page 32](https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=32). The earlier July 1994 table alone did not establish pair basis. BL-7401 remains withheld pending a compliant pair reference.
 
 ## Remaining coverage gaps
 

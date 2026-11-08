@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-7402",
-  "weight_g": null,
-  "weight_description": "Weight withheld: the archived 1989 catalogue lists a 643 g reference for 170 mm, 52/42T cranks separately from the bottom bracket, but does not distinguish the weighed FC-7402 and FC-7402-BP chainring profiles.",
+  "weight_g": 643,
+  "weight_description": "Manufacturer-listed 1991 FC-7402-SG reference: 170 mm crank arms, 52/42T Shimano SG double chainrings; excludes the separately listed 292 g BB-7400 bottom bracket. This is the SG configuration, not an unidentified Biopace variant.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-7402_BB-7400-0955/EV-FC-7402_BB-7400-0955.pdf",
     "title": "Shimano FC-7402 exploded view and replacement parts",
@@ -25,6 +25,21 @@
       "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHqhCyBMqO7zixBpoM6aDO4do8Ob4wNhom2F6AoFMhpDguKhnjNozfOgt-AaDZNoW9GefT4JtzD15SmI-OdXAVfZZokIEZYI9C00cAgnrbBvCXQxShxssO8-i-O87PE7nx7Z_uEsUkwJq0/s1600/SHIMANO+CATALOG+1989+%25287%2529.jpg",
       "title": "Exact archived Shimano 1989 scan 7: Dura-Ace road component specifications",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=23",
+      "title": "Shimano 1991 dealer catalogue, printed page 20 (PDF page 23): FC-7402-SG reference weight and separately listed BB-7400; manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-08"
     }
-  ]
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      42
+    ],
+    "includes_bottom_bracket": false,
+    "chainring_profile": "Shimano SG",
+    "front_speeds": 2
+  }
 }

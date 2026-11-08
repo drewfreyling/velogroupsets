@@ -9,7 +9,7 @@
   "type": "bottom-bracket",
   "model_number": "BB-1055",
   "weight_g": null,
-  "weight_description": "Weight withheld: the cited square-taper assembly weight does not identify the weighed spindle length. Listing available spindle lengths does not establish the reference configuration.",
+  "weight_description": "Weight withheld: the 1991 catalogue lists a 340 g square-taper assembly alongside 113 mm and 115 mm spindle options, without identifying the weighed spindle length. Available options do not establish the reference configuration.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/BB-1055-1110/EV-BB-1055-1110.pdf",
     "title": "Shimano BB-1055 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 24; published August 1989 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=39",
+      "title": "Shimano 1991 dealer catalogue, printed page 36 (PDF page 39): BB-1055 340 g assembly reference and 113/115 mm spindle options; manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {

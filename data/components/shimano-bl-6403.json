@@ -8,8 +8,8 @@
   ],
   "type": "brake-levers",
   "model_number": "BL-6403",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the July 1994 table lists 272 g for BL-6403 without explicitly establishing a left/right pair reference.",
+  "weight_g": 272,
+  "weight_description": "Manufacturer-listed: left/right pair of BL-6403 aero brake levers, 23.8–24.2 mm handlebar clamp, 84 mm lever stroke. Reference hood colour and cable inclusion are not specified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/si/8BC0B/SI-8BC0B-000-00-ENG.pdf",
     "title": "Shimano BL-6403 brake system service instructions",
@@ -20,6 +20,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_52.html",
       "title": "Shimano Bicycle System Components ’95, page 52: group membership and specifications; published July 1994 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=32",
+      "title": "Shimano 1991 dealer catalogue, printed page 29 (PDF page 32): BL-6403 explicitly listed at 272 g per pair; manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {
@@ -28,6 +33,8 @@
       23.8,
       24.2
     ],
-    "brake_system": "Super SLR"
+    "brake_system": "Super SLR",
+    "weight_basis": "Pair",
+    "lever_stroke_mm": 84
   }
 }

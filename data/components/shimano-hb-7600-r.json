@@ -8,8 +8,8 @@
   ],
   "type": "rear-hub",
   "model_number": "HB-7600-R",
-  "weight_g": null,
-  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "weight_g": 313,
+  "weight_description": "Manufacturer-listed 1991 reference: large-flange HB-7600 rear track hub, 120 mm over locknuts, hollow axle with hub nuts; no quick-release skewer is used. Includes the lockring; the sprocket is listed separately. Reference spoke-hole count is not identified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HB-7600-R-728/EV-HB-7600-R-728A.pdf",
     "title": "Shimano HB-7600 exploded view and replacement parts",
@@ -20,10 +20,24 @@
       "url": "https://si.shimano.com/en/pdfs/ev/HB-7600-R-728/EV-HB-7600-R-728A.pdf",
       "title": "Shimano HB-7600 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=29",
+      "title": "Shimano 1991 dealer catalogue, printed page 26 (PDF page 29): large-flange HB-7600 nut-fastened track hub weights and hollow-axle configuration; manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {
-    "axle_type": "Solid axle with nuts"
+    "axle_type": "Bolt-on with hub nuts; 1991 hollow-axle reference",
+    "flange_type": "Large flange",
+    "over_locknut_dimension_mm": 120,
+    "spoke_hole_options": [
+      24,
+      28,
+      32,
+      36
+    ],
+    "includes_lockring": true
   },
   "weight_excludes_skewers": true
 }
