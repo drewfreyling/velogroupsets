@@ -23,7 +23,7 @@ Use **Tailwind CSS** for the UI, compiled into static CSS during the frontend bu
 
 Each component requires a model number, a weight field with an identifying description, and a manufacturer-hosted technical specification or an [explicitly approved archived manufacturer document](docs/campagnolo-record.md#approved-archived-manufacturer-documents). Known weights are positive grams for a configuration that meets the [weight guidelines](docs/weights-guidelines.md); any component awaiting a compliant sourced weight uses explicit null, displayed as “Not yet sourced”. Hub weights exclude skewers. Groupsets require a model number and a documented start year. Manufacturer pages list groupsets oldest first.
 
-The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
+The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Brake Levers, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
 
 See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. Astro generates the frontend with Tailwind compiled at build time; browser search and type/groupset filters work without API requests.
 

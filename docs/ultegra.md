@@ -45,7 +45,7 @@ Manufacturer material supplies the specifications and most reference weights. HB
 
 The 56 Ultegra component identities produce 60 memberships across the five groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
 
-The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs, with unknown weights where no compliant reference is sourced; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Bottom brackets are separate components. Existing identities remain listed when their weight must be withheld. Brakes, chains and complete wheels remain outside the current component taxonomy.
+The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs, with unknown weights where no compliant reference is sourced; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Bottom brackets are separate components. Existing identities remain listed when their weight must be withheld. Brake calipers, chains and complete wheels remain outside the current component taxonomy.
 
 ## Weight rules and differences between publications
 

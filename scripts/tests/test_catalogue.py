@@ -45,15 +45,17 @@ class CatalogueTests(unittest.TestCase):
         part['specifications'] = {'interface':'External cups'}
         self.assertEqual(validate_catalogue(data), [])
 
-    def test_individual_shifter_weights_cannot_be_used_as_pair_weights(self):
-        data = fixture()
-        part = data['components'][0]
-        part.update(type='shifters', specifications={'weight_basis':'Single lever'})
-        self.assertTrue(validate_catalogue(data))
-        part['weight_g'] = None
-        self.assertEqual(validate_catalogue(data), [])
-        part.update(weight_g=500, specifications={'weight_basis':'Pair'})
-        self.assertEqual(validate_catalogue(data), [])
+    def test_individual_control_lever_weights_cannot_be_used_as_pair_weights(self):
+        for kind in ('shifters', 'brake-levers'):
+            with self.subTest(kind=kind):
+                data = fixture()
+                part = data['components'][0]
+                part.update(type=kind, specifications={'weight_basis':'Single lever'})
+                self.assertTrue(validate_catalogue(data))
+                part['weight_g'] = None
+                self.assertEqual(validate_catalogue(data), [])
+                part.update(weight_g=500, specifications={'weight_basis':'Pair'})
+                self.assertEqual(validate_catalogue(data), [])
 
     def test_front_derailleur_weights_require_mount_and_the_actual_clamp_size(self):
         data = fixture()

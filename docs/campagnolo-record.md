@@ -34,4 +34,6 @@ The catalogue includes **16 component identities across 23 memberships**, docume
 
 Common Record parts retain one identity and both groupset memberships. The eight- and nine-speed rear derailleurs, Ergopower controls, rear freehubs and cassettes remain separate. Membership does not assert that all parts from the two systems are interchangeable, or that an earlier/later Record revision has identical specifications. The headset is specifically the 1997 HS-21RE revision.
 
-The spare-parts drawings establish model identities and revisions but do not establish compliant component weights. All 16 weights remain null under the [weight guidelines](weights-guidelines.md); rear-derailleur limits also remain unknown until sourced. No modern Record figures are applied retrospectively, and hub weights must exclude skewers. Brakes, standalone brake levers, chains and complete wheelsets remain outside the current taxonomy.
+The spare-parts drawings establish model identities and revisions but do not establish compliant component weights. All 16 weights remain null under the [weight guidelines](weights-guidelines.md); rear-derailleur limits also remain unknown until sourced. No modern Record figures are applied retrospectively, and hub weights must exclude skewers. Brake calipers, chains and complete wheelsets remain outside the current taxonomy.
+
+Standalone brake levers are a supported category; this family’s separate brake-only controls have not yet been added.

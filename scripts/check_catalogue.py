@@ -54,9 +54,9 @@ def weight_configuration_errors(component):
             errors.append('a bottom-bracket weight requires an identified interface')
         elif interface.casefold().replace('-', ' ').startswith('square taper') and not positive(specs.get('spindle_length_mm')):
             errors.append('a square-taper bottom-bracket weight requires the weighed spindle_length_mm')
-    elif kind == 'shifters':
+    elif kind in ('shifters', 'brake-levers'):
         if specs.get('weight_basis') != 'Pair':
-            errors.append('a shifter weight requires weight_basis: Pair')
+            errors.append(f'a {kind.removesuffix("s")} weight requires weight_basis: Pair')
     elif kind == 'front-derailleur':
         if specs.get('mount') not in ('Braze-on', 'Clamp'):
             errors.append('a front-derailleur weight requires mount: Braze-on or Clamp')

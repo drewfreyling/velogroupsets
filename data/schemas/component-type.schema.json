@@ -25,6 +25,10 @@
       "title": "Shifters"
     },
     {
+      "const": "brake-levers",
+      "title": "Brake Levers"
+    },
+    {
       "const": "cassette",
       "title": "Cassettes"
     },

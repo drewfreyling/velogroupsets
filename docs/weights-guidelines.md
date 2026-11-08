@@ -30,6 +30,10 @@ Keep spindle length separate from bottom-bracket shell width. For example, a squ
 
 Use a measured or manufacturer-published pair weight. An individual lever weight is not a compliant pair weight; do not double one side's figure, because the two sides can differ.
 
+## Standalone brake levers
+
+**Standalone brake levers are recorded as a left/right pair**, separately from brake calipers and integrated shift/brake controls. Use a published or measured pair weight, identify the model and lever style, and describe included cables or other hardware where the source establishes it. Do not double an individual lever weight. Known weights require `specifications.weight_basis: "Pair"`; use null when a compliant pair weight is unavailable.
+
 ## Cassettes
 
 **Cassette weights must state the tooth-count configuration.** Give the smallest-to-largest sprocket range, such as 11–28T, and the number of sprockets. Include the full sequence of tooth counts when the source provides it. A model number or a list of available ranges does not identify which cassette was weighed.
@@ -42,7 +46,7 @@ Assume cassette weights include the lockring; explicit verification of lockring 
 
 Do not use a brake-pair total or divide it in half. State any further inclusions or exclusions, such as a hose, adapter or rotor, so the configuration is clear.
 
-Brakes are not yet supported by the catalogue's component-type schema. This rule defines the weight standard for their future addition; adding brake records also requires the corresponding schema and UI support.
+Brake calipers are not yet supported by the catalogue's component-type schema; standalone brake levers have their own category. This rule defines the weight standard for their future addition; adding brake records also requires the corresponding schema and UI support.
 
 ## Front derailleurs
 
@@ -62,7 +66,7 @@ For a known `weight_g`, the following `specifications` fields identify the actua
 | --- | --- |
 | Crankset | Positive `crank_length_mm`, positive integer `chainrings_teeth` list, `includes_bottom_bracket: false` |
 | Bottom bracket | `interface`; square-taper assemblies also require positive `spindle_length_mm` |
-| Shifters | `weight_basis: "Pair"` |
+| Shifters / standalone brake levers | `weight_basis: "Pair"` |
 | Front derailleur | `mount: "Braze-on"` or `"Clamp"`; clamp weights require positive `clamp_diameter_mm` or a two-value increasing `clamp_diameter_range_mm` for one documented band |
 | Cassette | Integer `rear_speeds` of at least two; an increasing `sprocket_range` such as `11–28T` or a complete increasing `sprockets_teeth` list whose length matches the speed count; if both are present they must agree |
 

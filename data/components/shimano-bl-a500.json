@@ -1,0 +1,36 @@
+{
+  "id": "shimano-bl-a500",
+  "slug": "bl-a500",
+  "name": "Exage 500EX aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-A500",
+  "weight_g": 258,
+  "weight_description": "Manufacturer-listed: pair of BL-A500 aero brake levers for 23.8–24.2 mm handlebars. Reference hood colour is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-A500-1023/EV-BL-A500-1023.pdf",
+    "title": "Shimano BL-A500 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: Exage 500EX brake lever specifications and pair weight; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ],
+    "lever_stroke_mm": 84,
+    "brake_system": "Super SLR",
+    "compatibility_notes": "The 1989 dealer manual specifies BL-A500 with BR-A500 brakes and Shimano outer cable as a set."
+  }
+}

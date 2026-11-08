@@ -12,7 +12,7 @@ The seven-speed double FC-A410 uses 46/36T chainrings; FC-A413 uses 46/36/26T. [
 
 The original seven-speed CS-HG50 reference is 11–24T. It has a distinct record from the existing 13–23T I-group cassette used by Exage; a shared base model name does not erase a different tooth configuration.
 
-The RSX columns in the July 1994 specification table leave weights blank. All RSX weights remain null until a compliant sourced configuration is recorded. Neighbouring RX100 weights are not copied into the RSX columns, and hub weights must exclude skewers. Brakes, standalone brake levers and chains remain outside the current taxonomy. Later mount and finish variants are not claimed to be exhaustively catalogued.
+The RSX columns in the July 1994 specification table leave weights blank. All RSX weights remain null until a compliant sourced configuration is recorded. Neighbouring RX100 weights are not copied into the RSX columns, and hub weights must exclude skewers. Brake calipers and chains remain outside the current taxonomy. Later mount and finish variants are not claimed to be exhaustively catalogued.
 
 ## Light Action L series
 
@@ -34,3 +34,5 @@ The later references are [Shimano’s December 1987 catalogue, scan 31](https://
 These are manufacturer-listed derailleur-only weights for the named cage, not estimates. The L532 catalogue specifies SIS compatibility only for SS; GS/SGS must not be treated as indexed-compatible merely because the series name matches. All three L541 cages are listed as SIS compatible. Cage codes come from the documents, not from guessed capacities. The smallest sprocket remains null because the cited tables do not specify it.
 
 Further Light Action revisions and other component types require their own source evidence. A service instruction’s compatibility recommendation alone does not prove membership of an independently sold crank, hub or headset in this family.
+
+Standalone brake levers are a supported category; this family’s separate brake-only controls have not yet been added.

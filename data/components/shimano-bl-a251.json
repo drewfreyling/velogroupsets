@@ -1,0 +1,42 @@
+{
+  "id": "shimano-bl-a251",
+  "slug": "bl-a251",
+  "name": "Exage aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300ex",
+    "shimano-exage-motion"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-A251",
+  "weight_g": 310,
+  "weight_description": "Manufacturer-listed: pair of standard BL-A251 aero brake levers for 23.8–24.2 mm handlebars. Reference hood colour is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-A251-0900/EV-BL-A251-0900A.pdf",
+    "title": "Shimano BL-A251 exploded view and replacement parts; standard lever model",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 34: BL-A251 membership in Exage 300EX and 310 g pair weight; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_10.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10: BL-A251 listed for Exage Motion (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ],
+    "lever_stroke_mm": 88,
+    "brake_system": "SLR",
+    "compatibility_notes": "The 1989 dealer manual specifies SLR-compatible brakes and Shimano outer cable with a liner. BL-A251-EX with auxiliary extension levers is a separate model."
+  }
+}
