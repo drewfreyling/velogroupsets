@@ -1,0 +1,35 @@
+{
+  "id": "sram-rd-frc-1e-d2",
+  "slug": "rd-frc-1e-d2",
+  "name": "Force XPLR AXS rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-force-xplr-axs-d2"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-FRC-1E-D2",
+  "weight_g": null,
+  "weight_description": "A weight for the identified component configuration has not yet been established from the cited manufacturer reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/rd-frc-1e-d2",
+    "title": "SRAM RD-FRC-1E-D2 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/rd-frc-1e-d2",
+      "title": "SRAM RD-FRC-1E-D2 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 44,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "rear_speeds": 12,
+    "minimum_largest_sprocket_variants": "36T; these values describe the largest sprocket, not the smallest",
+    "shifting_protocol": "AXS",
+    "drivetrain_configuration": "1x"
+  }
+}

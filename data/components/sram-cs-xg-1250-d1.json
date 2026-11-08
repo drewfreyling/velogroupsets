@@ -1,0 +1,36 @@
+{
+  "id": "sram-cs-xg-1250-d1",
+  "slug": "cs-xg-1250-d1",
+  "name": "Rival eTap AXS cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-rival-etap-axs-d1",
+    "sram-rival-axs-e1"
+  ],
+  "type": "cassette",
+  "model_number": "CS-XG-1250-D1",
+  "weight_g": null,
+  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/cs-xg-1250-d1",
+    "title": "SRAM CS-XG-1250-D1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/cs-xg-1250-d1",
+      "title": "SRAM CS-XG-1250-D1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/36349928086043-What-cassette-options-are-available-with-the-Rival-AXS-groupset",
+      "title": "SRAM Rival AXS E1 cassette options: 10–30T and 10–36T",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_options": "10-30T, 10-36T",
+    "freehub_interface": "XDR"
+  }
+}

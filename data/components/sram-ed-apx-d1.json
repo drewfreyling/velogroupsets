@@ -1,0 +1,28 @@
+{
+  "id": "sram-ed-apx-d1",
+  "slug": "ed-apx-d1",
+  "name": "Apex XPLR AXS shift/brake control pair",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-apex-xplr-axs-d1"
+  ],
+  "type": "shifters",
+  "model_number": "ED-APX-D1",
+  "weight_g": null,
+  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/ed-apx-d1",
+    "title": "SRAM ED-APX-D1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/ed-apx-d1",
+      "title": "SRAM ED-APX-D1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

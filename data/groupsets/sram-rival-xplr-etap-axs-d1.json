@@ -1,0 +1,16 @@
+{
+  "id": "sram-rival-xplr-etap-axs-d1",
+  "slug": "rival-xplr-etap-axs-d1",
+  "name": "Rival XPLR eTap AXS",
+  "manufacturer_id": "sram",
+  "model_number": "D1",
+  "start_year": 2021,
+  "generation": "Twelve-speed 1x gravel, conventional derailleur hanger, 44T maximum",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/news/sram-zipp-and-rockshox-combine-to-create-xplr-a-new-gravel-component-range/",
+      "title": "Cyclingnews XPLR launch report, 10 August 2021: RED/Force/Rival rear derailleurs, shared controls and XG-1271/XG-1251 cassettes",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

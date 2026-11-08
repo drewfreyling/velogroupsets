@@ -1,0 +1,42 @@
+{
+  "id": "sram-sb-apx-b1-with-bl-apx-a1",
+  "slug": "sb-apx-b1-with-bl-apx-a1",
+  "name": "Apex 1 left/right control pair (brake-only left lever)",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-apex-1-11-speed"
+  ],
+  "type": "shifters",
+  "model_number": "SB-APX-B1 / BL-APX-A1",
+  "weight_g": null,
+  "weight_description": "Complete left/right control pair: right shift/brake control and brake-only left lever. No weight for this exact pair has been sourced; an individual lever or complete brake-system figure is not doubled.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/sb-apx-b1",
+    "title": "SRAM SB-APX-B1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/sb-apx-b1",
+      "title": "SRAM SB-APX-B1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.sram.com/en/service/models/bl-apx-a1",
+      "title": "SRAM BL-APX-A1 left brake-lever specifications",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.sram.com/en/sram/road/series/sram-apex-1",
+      "title": "SRAM Apex 1 manufacturer component list",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 11,
+    "front_speeds": 1,
+    "left_model": "BL-APX-A1",
+    "right_model": "SB-APX-B1"
+  }
+}

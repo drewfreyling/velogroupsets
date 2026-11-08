@@ -1,0 +1,16 @@
+{
+  "id": "sram-apex-10-speed",
+  "slug": "apex-10-speed",
+  "name": "Apex",
+  "manufacturer_id": "sram",
+  "model_number": "10-speed",
+  "start_year": 2010,
+  "generation": "Mechanical double; 2010 availability rather than inferred 2011 marketing model year",
+  "sources": [
+    {
+      "url": "https://bicycleretailer.com/north-america/2010/04/16/sram-abuzz-over-2011-products",
+      "title": "SRAM Apex launch presentation, reported 16 April 2010; PG-1050 cassette",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

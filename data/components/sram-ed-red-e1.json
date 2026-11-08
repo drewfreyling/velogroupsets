@@ -1,0 +1,34 @@
+{
+  "id": "sram-ed-red-e1",
+  "slug": "ed-red-e1",
+  "name": "RED AXS shift/brake control pair",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-axs-e1",
+    "sram-red-xplr-axs-e1"
+  ],
+  "type": "shifters",
+  "model_number": "ED-RED-E1",
+  "weight_g": null,
+  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/ed-red-e1",
+    "title": "SRAM ED-RED-E1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/ed-red-e1",
+      "title": "SRAM ED-RED-E1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/27120409998235-What-parts-are-available-with-the-SRAM-RED-XPLR-AXS-product-line-When-will-they-be-available",
+      "title": "SRAM RED XPLR AXS product availability: 1 August 2024; XG-1391 cassette and shared RED AXS controls",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

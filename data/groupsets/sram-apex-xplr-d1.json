@@ -1,0 +1,16 @@
+{
+  "id": "sram-apex-xplr-d1",
+  "slug": "apex-xplr-d1",
+  "name": "Apex XPLR",
+  "manufacturer_id": "sram",
+  "model_number": "D1",
+  "start_year": 2023,
+  "generation": "Twelve-speed mechanical 1x gravel; DoubleTap controls",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/news/sram-extends-12-speed-electronic-shifting-to-its-fourth-tier-axs-groupset/",
+      "title": "Cyclingnews Apex launch report, 15 June 2023: 12-speed mechanical and AXS options",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

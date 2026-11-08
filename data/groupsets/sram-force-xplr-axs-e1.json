@@ -1,0 +1,16 @@
+{
+  "id": "sram-force-xplr-axs-e1",
+  "slug": "force-xplr-axs-e1",
+  "name": "Force XPLR AXS",
+  "manufacturer_id": "sram",
+  "model_number": "E1",
+  "start_year": 2025,
+  "generation": "Thirteen-speed 1x gravel, Full Mount / UDH required",
+  "sources": [
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/36350528178331-What-parts-are-available-with-the-Force-XPLR-AXS-product-line-When-will-they-be-available",
+      "title": "SRAM Force XPLR AXS product availability: 17 June 2025; XG-1371 cassette and shared Force AXS controls",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

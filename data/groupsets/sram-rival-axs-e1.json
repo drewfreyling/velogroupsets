@@ -1,0 +1,16 @@
+{
+  "id": "sram-rival-axs-e1",
+  "slug": "rival-axs-e1",
+  "name": "Rival AXS",
+  "manufacturer_id": "sram",
+  "model_number": "E1",
+  "start_year": 2025,
+  "generation": "Twelve-speed road AXS, 2025 revision",
+  "sources": [
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/36350045647515-What-parts-are-available-with-the-Rival-AXS-product-line-When-will-they-be-available",
+      "title": "SRAM Rival AXS product availability: 17 June 2025",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

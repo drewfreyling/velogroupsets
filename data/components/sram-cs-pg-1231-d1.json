@@ -1,0 +1,36 @@
+{
+  "id": "sram-cs-pg-1231-d1",
+  "slug": "cs-pg-1231-d1",
+  "name": "Apex XPLR cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-apex-xplr-d1",
+    "sram-apex-xplr-axs-d1"
+  ],
+  "type": "cassette",
+  "model_number": "CS-PG-1231-D1",
+  "weight_g": null,
+  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/cs-pg-1231-d1",
+    "title": "SRAM CS-PG-1231-D1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/cs-pg-1231-d1",
+      "title": "SRAM CS-PG-1231-D1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.cyclingnews.com/news/sram-extends-12-speed-electronic-shifting-to-its-fourth-tier-axs-groupset/",
+      "title": "Cyclingnews Apex launch report, 15 June 2023: 12-speed mechanical and AXS options",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_options": "11-44T",
+    "freehub_interface": "Splined 11"
+  }
+}

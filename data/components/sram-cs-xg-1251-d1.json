@@ -1,0 +1,35 @@
+{
+  "id": "sram-cs-xg-1251-d1",
+  "slug": "cs-xg-1251-d1",
+  "name": "Rival XPLR eTap AXS cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-rival-xplr-etap-axs-d1"
+  ],
+  "type": "cassette",
+  "model_number": "CS-XG-1251-D1",
+  "weight_g": null,
+  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/cs-xg-1251-d1",
+    "title": "SRAM CS-XG-1251-D1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/cs-xg-1251-d1",
+      "title": "SRAM CS-XG-1251-D1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.cyclingnews.com/news/sram-zipp-and-rockshox-combine-to-create-xplr-a-new-gravel-component-range/",
+      "title": "Cyclingnews XPLR launch report, 10 August 2021: RED/Force/Rival rear derailleurs, shared controls and XG-1271/XG-1251 cassettes",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_options": "10-44T",
+    "freehub_interface": "XDR"
+  }
+}

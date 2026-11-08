@@ -1,0 +1,16 @@
+{
+  "id": "sram-rival-10-speed",
+  "slug": "rival-10-speed",
+  "name": "Rival",
+  "manufacturer_id": "sram",
+  "model_number": "10-speed",
+  "start_year": 2006,
+  "generation": "Mechanical double; later reference components do not all date to the original 2006 launch",
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/company/about/history",
+      "title": "SRAM company history: road launches in 2006/2007, Force CX1 in 2014, RED eTap in 2015 and AXS in 2019/2021",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

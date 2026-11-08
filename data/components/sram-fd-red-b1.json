@@ -1,0 +1,29 @@
+{
+  "id": "sram-fd-red-b1",
+  "slug": "fd-red-b1",
+  "name": "RED braze-on front derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-b1-10-speed"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-RED-B1",
+  "weight_g": null,
+  "weight_description": "Braze-on reference; a compliant weight for this mount has not yet been sourced. Clamp variants are not used as this reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/fd-red-b1",
+    "title": "SRAM FD-RED-B1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/fd-red-b1",
+      "title": "SRAM FD-RED-B1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "sram-cs-pg-1050-a1",
+  "slug": "cs-pg-1050-a1",
+  "name": "Apex cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-apex-10-speed"
+  ],
+  "type": "cassette",
+  "model_number": "CS-PG-1050-A1",
+  "weight_g": null,
+  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/cs-pg-1050-a1",
+    "title": "SRAM CS-PG-1050-A1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/cs-pg-1050-a1",
+      "title": "SRAM CS-PG-1050-A1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://bicycleretailer.com/north-america/2010/04/16/sram-abuzz-over-2011-products",
+      "title": "SRAM Apex launch presentation, reported 16 April 2010; PG-1050 cassette",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_options": "11-23T, 11-26T, 11-28T, 11-32T, 11-36T, 12-25T, 12-26T, 12-27T, 12-28T, 12-32T, 12-36T",
+    "freehub_interface": "n/a, Splined 8, 9, 10"
+  }
+}

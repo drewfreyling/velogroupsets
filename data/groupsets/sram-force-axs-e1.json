@@ -1,0 +1,16 @@
+{
+  "id": "sram-force-axs-e1",
+  "slug": "force-axs-e1",
+  "name": "Force AXS",
+  "manufacturer_id": "sram",
+  "model_number": "E1",
+  "start_year": 2025,
+  "generation": "Twelve-speed road AXS, 2025 revision",
+  "sources": [
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/36351108594331-What-parts-are-available-with-the-Force-AXS-product-line-When-will-they-be-available",
+      "title": "SRAM Force AXS product availability: 17 June 2025",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

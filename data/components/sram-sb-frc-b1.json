@@ -1,0 +1,28 @@
+{
+  "id": "sram-sb-frc-b1",
+  "slug": "sb-frc-b1",
+  "name": "Force shift/brake control pair",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-force-10-speed"
+  ],
+  "type": "shifters",
+  "model_number": "SB-FRC-B1",
+  "weight_g": 302,
+  "weight_description": "Manufacturer-listed left/right SB-FRC-B1 mechanical shift/brake control pair. Cable and housing inclusion is not stated in the reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/sb-frc-b1",
+    "title": "SRAM SB-FRC-B1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/sb-frc-b1",
+      "title": "SRAM SB-FRC-B1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

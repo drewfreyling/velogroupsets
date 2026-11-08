@@ -1,0 +1,16 @@
+{
+  "id": "sram-force-axs-d2",
+  "slug": "force-axs-d2",
+  "name": "Force AXS",
+  "manufacturer_id": "sram",
+  "model_number": "D2",
+  "start_year": 2023,
+  "generation": "Twelve-speed road AXS, 2023 revision",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/news/sram-overhauls-force-with-new-look-new-shifters-and-an-integrated-power-meter/",
+      "title": "Cyclingnews Force AXS launch report, 1 March 2023",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

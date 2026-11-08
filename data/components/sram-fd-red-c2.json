@@ -1,0 +1,29 @@
+{
+  "id": "sram-fd-red-c2",
+  "slug": "fd-red-c2",
+  "name": "RED braze-on front derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-22"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-RED-C2",
+  "weight_g": null,
+  "weight_description": "Braze-on reference; a compliant weight for this mount has not yet been sourced. Clamp variants are not used as this reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/fd-red-c2",
+    "title": "SRAM FD-RED-C2 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/fd-red-c2",
+      "title": "SRAM FD-RED-C2 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2
+  }
+}

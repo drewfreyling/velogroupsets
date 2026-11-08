@@ -1,0 +1,35 @@
+{
+  "id": "sram-cs-xg-1190-a2",
+  "slug": "cs-xg-1190-a2",
+  "name": "RED cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-22"
+  ],
+  "type": "cassette",
+  "model_number": "CS-XG-1190-A2",
+  "weight_g": null,
+  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/cs-xg-1190-a2",
+    "title": "SRAM CS-XG-1190-A2 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/cs-xg-1190-a2",
+      "title": "SRAM CS-XG-1190-A2 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.cyclingnews.com/features/sram-unveils-its-red-22-11-speed-hydraulic-mechanical-group/",
+      "title": "Cyclingnews launch report, 15 April 2013: SRAM RED 22 and Force 22",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_options": "11-25T, 11-26T, 11-28T, 11-30T, 11-32T",
+    "freehub_interface": "n/a, Splined 11"
+  }
+}

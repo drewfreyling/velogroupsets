@@ -1,0 +1,50 @@
+{
+  "id": "sram-cs-xg-1290-e1",
+  "slug": "cs-xg-1290-e1",
+  "name": "RED AXS cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-axs-e1"
+  ],
+  "type": "cassette",
+  "model_number": "CS-XG-1290-E1",
+  "weight_g": 180,
+  "weight_description": "Manufacturer-listed XG-1290 E1 twelve-speed cassette, 10–28T reference configuration; lockring included by catalogue convention.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/cs-xg-1290-e1",
+    "title": "SRAM CS-XG-1290-E1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/cs-xg-1290-e1",
+      "title": "SRAM CS-XG-1290-E1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.cyclingnews.com/news/new-sram-red-groupset-lightest-ever-with-faster-shifting-but-theres-one-thing-we-just-dont-understand/",
+      "title": "Cyclingnews RED AXS launch report, 15 May 2024",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_options": "10-28T, 10-30T, 10-33T, 10-36T",
+    "freehub_interface": "XDR",
+    "sprocket_range": "10–28T",
+    "sprockets_teeth": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      21,
+      24,
+      28
+    ]
+  }
+}

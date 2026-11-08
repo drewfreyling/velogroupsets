@@ -1,0 +1,34 @@
+{
+  "id": "sram-ed-riv-e1",
+  "slug": "ed-riv-e1",
+  "name": "Rival AXS shift/brake control pair",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-rival-axs-e1",
+    "sram-rival-xplr-axs-e1"
+  ],
+  "type": "shifters",
+  "model_number": "ED-RIV-E1",
+  "weight_g": null,
+  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/ed-riv-e1",
+    "title": "SRAM ED-RIV-E1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/ed-riv-e1",
+      "title": "SRAM ED-RIV-E1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/36348635440155-What-parts-are-available-with-the-Rival-XPLR-AXS-product-line-When-will-they-be-available",
+      "title": "SRAM Rival XPLR AXS product availability: 17 June 2025; XG-1351 cassette and shared Rival AXS controls",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

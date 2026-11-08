@@ -1,0 +1,35 @@
+{
+  "id": "sram-cs-xg-1351-e1",
+  "slug": "cs-xg-1351-e1",
+  "name": "Rival XPLR AXS cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-rival-xplr-axs-e1"
+  ],
+  "type": "cassette",
+  "model_number": "CS-XG-1351-E1",
+  "weight_g": null,
+  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/cs-xg-1351-e1",
+    "title": "SRAM CS-XG-1351-E1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/cs-xg-1351-e1",
+      "title": "SRAM CS-XG-1351-E1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/36348635440155-What-parts-are-available-with-the-Rival-XPLR-AXS-product-line-When-will-they-be-available",
+      "title": "SRAM Rival XPLR AXS product availability: 17 June 2025; XG-1351 cassette and shared Rival AXS controls",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 13,
+    "sprocket_options": "10-46T",
+    "freehub_interface": "XDR"
+  }
+}

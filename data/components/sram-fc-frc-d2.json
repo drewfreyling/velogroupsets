@@ -1,0 +1,29 @@
+{
+  "id": "sram-fc-frc-d2",
+  "slug": "fc-frc-d2",
+  "name": "Force AXS crankset",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-force-axs-d2"
+  ],
+  "type": "crankset",
+  "model_number": "FC-FRC-D2",
+  "weight_g": null,
+  "weight_description": "A crank-only weight identifying crank length, chainring tooth counts and bottom-bracket exclusion has not yet been established from the cited reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/fc-frc-d2",
+    "title": "SRAM FC-FRC-D2 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/fc-frc-d2",
+      "title": "SRAM FC-FRC-D2 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "spindle_interfaces": "DUB"
+  }
+}

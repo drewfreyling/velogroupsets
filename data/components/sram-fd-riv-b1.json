@@ -1,0 +1,29 @@
+{
+  "id": "sram-fd-riv-b1",
+  "slug": "fd-riv-b1",
+  "name": "Rival braze-on front derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-rival-22"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-RIV-B1",
+  "weight_g": null,
+  "weight_description": "Braze-on reference; a compliant weight for this mount has not yet been sourced. Clamp variants are not used as this reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/fd-riv-b1",
+    "title": "SRAM FD-RIV-B1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/fd-riv-b1",
+      "title": "SRAM FD-RIV-B1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2
+  }
+}

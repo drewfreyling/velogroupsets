@@ -1,0 +1,16 @@
+{
+  "id": "sram-force-etap-axs-d1",
+  "slug": "force-etap-axs-d1",
+  "name": "Force eTap AXS",
+  "manufacturer_id": "sram",
+  "model_number": "D1",
+  "start_year": 2019,
+  "generation": "Twelve-speed road AXS; later 36T variants are not dated to the original 2019 launch",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/news/sram-launches-force-etap-axs-groupset/",
+      "title": "SRAM Force eTap AXS launch report, 3 April 2019",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "sram-ed-riv-d1",
+  "slug": "ed-riv-d1",
+  "name": "Rival eTap AXS shift/brake control pair",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-rival-etap-axs-d1",
+    "sram-rival-xplr-etap-axs-d1"
+  ],
+  "type": "shifters",
+  "model_number": "ED-RIV-D1",
+  "weight_g": null,
+  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/ed-riv-d1",
+    "title": "SRAM ED-RIV-D1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/ed-riv-d1",
+      "title": "SRAM ED-RIV-D1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.cyclingnews.com/news/sram-zipp-and-rockshox-combine-to-create-xplr-a-new-gravel-component-range/",
+      "title": "Cyclingnews XPLR launch report, 10 August 2021: RED/Force/Rival rear derailleurs, shared controls and XG-1271/XG-1251 cassettes",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

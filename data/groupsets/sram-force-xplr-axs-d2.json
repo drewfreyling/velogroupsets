@@ -1,0 +1,16 @@
+{
+  "id": "sram-force-xplr-axs-d2",
+  "slug": "force-xplr-axs-d2",
+  "name": "Force XPLR AXS",
+  "manufacturer_id": "sram",
+  "model_number": "D2",
+  "start_year": 2023,
+  "generation": "Twelve-speed XPLR AXS, 2023 revision; not thirteen-speed Full Mount",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/news/sram-overhauls-force-with-new-look-new-shifters-and-an-integrated-power-meter/",
+      "title": "Cyclingnews Force AXS launch report, 1 March 2023",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

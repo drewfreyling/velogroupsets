@@ -1,0 +1,35 @@
+{
+  "id": "sram-rd-apx-1-a1",
+  "slug": "rd-apx-1-a1",
+  "name": "Apex 1 rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-apex-1-11-speed"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-APX-1-A1",
+  "weight_g": null,
+  "weight_description": "A weight for the identified component configuration has not yet been established from the cited manufacturer reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/rd-apx-1-a1",
+    "title": "SRAM RD-APX-1-A1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/rd-apx-1-a1",
+      "title": "SRAM RD-APX-1-A1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 42,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "rear_speeds": 11,
+    "minimum_largest_sprocket_variants": "36T; these values describe the largest sprocket, not the smallest",
+    "cage_variants": "Long",
+    "drivetrain_configuration": "1x"
+  }
+}

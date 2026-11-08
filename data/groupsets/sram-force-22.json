@@ -1,0 +1,16 @@
+{
+  "id": "sram-force-22",
+  "slug": "force-22",
+  "name": "Force",
+  "manufacturer_id": "sram",
+  "model_number": "22",
+  "start_year": 2013,
+  "generation": "Eleven-speed mechanical double; reference components include later control revisions",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/features/sram-unveils-its-red-22-11-speed-hydraulic-mechanical-group/",
+      "title": "Cyclingnews launch report, 15 April 2013: SRAM RED 22 and Force 22",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

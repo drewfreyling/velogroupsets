@@ -1,0 +1,56 @@
+{
+  "id": "sram-cs-xg-1391-e1",
+  "slug": "cs-xg-1391-e1",
+  "name": "RED XPLR AXS cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-xplr-axs-e1"
+  ],
+  "type": "cassette",
+  "model_number": "CS-XG-1391-E1",
+  "weight_g": 288,
+  "weight_description": "Manufacturer-listed XG-1391 E1 thirteen-speed XPLR cassette, 10–46T; lockring included by catalogue convention.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/cs-xg-1391-e1",
+    "title": "SRAM CS-XG-1391-E1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/cs-xg-1391-e1",
+      "title": "SRAM CS-XG-1391-E1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/27120409998235-What-parts-are-available-with-the-SRAM-RED-XPLR-AXS-product-line-When-will-they-be-available",
+      "title": "SRAM RED XPLR AXS product availability: 1 August 2024; XG-1391 cassette and shared RED AXS controls",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.sram.com/en/sram/models/CS-XG-1391-E1",
+      "title": "SRAM RED XPLR XG-1391 product specification: 288 g, thirteen-speed, 10–46T",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 13,
+    "sprocket_options": "10-46T",
+    "freehub_interface": "XDR",
+    "sprocket_range": "10–46T",
+    "sprockets_teeth": [
+      10,
+      11,
+      12,
+      13,
+      15,
+      17,
+      19,
+      21,
+      24,
+      28,
+      32,
+      38,
+      46
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sram-fd-red-e-a1",
+  "slug": "fd-red-e-a1",
+  "name": "RED eTap braze-on front derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-etap-11-speed"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-RED-E-A1",
+  "weight_g": null,
+  "weight_description": "Braze-on reference; a compliant weight for this mount has not yet been sourced. Clamp variants are not used as this reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/fd-red-e-a1",
+    "title": "SRAM FD-RED-E-A1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/fd-red-e-a1",
+      "title": "SRAM FD-RED-E-A1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2
+  }
+}

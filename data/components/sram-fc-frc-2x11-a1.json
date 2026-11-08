@@ -1,0 +1,28 @@
+{
+  "id": "sram-fc-frc-2x11-a1",
+  "slug": "fc-frc-2x11-a1",
+  "name": "Force crankset",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-force-22"
+  ],
+  "type": "crankset",
+  "model_number": "FC-FRC-2X11-A1",
+  "weight_g": null,
+  "weight_description": "A crank-only weight identifying crank length, chainring tooth counts and bottom-bracket exclusion has not yet been established from the cited reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/fc-frc-2x11-a1",
+    "title": "SRAM FC-FRC-2X11-A1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/fc-frc-2x11-a1",
+      "title": "SRAM FC-FRC-2X11-A1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2
+  }
+}

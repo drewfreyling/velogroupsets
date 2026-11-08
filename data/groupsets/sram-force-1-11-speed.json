@@ -1,0 +1,16 @@
+{
+  "id": "sram-force-1-11-speed",
+  "slug": "force-1-11-speed",
+  "name": "Force 1",
+  "manufacturer_id": "sram",
+  "model_number": "11-speed",
+  "start_year": 2014,
+  "generation": "Original Force CX1 cyclocross family, renamed/expanded as Force 1 in 2015; later variants documented separately from launch date",
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/company/about/history",
+      "title": "SRAM company history: road launches in 2006/2007, Force CX1 in 2014, RED eTap in 2015 and AXS in 2019/2021",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

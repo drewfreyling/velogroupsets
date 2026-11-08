@@ -1,0 +1,29 @@
+{
+  "id": "sram-fc-red-d1",
+  "slug": "fc-red-d1",
+  "name": "RED eTap AXS crankset",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-etap-axs-d1"
+  ],
+  "type": "crankset",
+  "model_number": "FC-RED-D1",
+  "weight_g": null,
+  "weight_description": "A crank-only weight identifying crank length, chainring tooth counts and bottom-bracket exclusion has not yet been established from the cited reference.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/fc-red-d1",
+    "title": "SRAM FC-RED-D1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/fc-red-d1",
+      "title": "SRAM FC-RED-D1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "spindle_interfaces": "DUB, GXP"
+  }
+}

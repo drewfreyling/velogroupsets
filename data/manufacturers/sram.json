@@ -1,0 +1,18 @@
+{
+  "id": "sram",
+  "slug": "sram",
+  "name": "SRAM",
+  "website_url": "https://www.sram.com/",
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/company/about/history",
+      "title": "SRAM company history: road launches in 2006/2007, Force CX1 in 2014, RED eTap in 2015 and AXS in 2019/2021",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.sram.com/en/service",
+      "title": "SRAM manufacturer service and technical documentation",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

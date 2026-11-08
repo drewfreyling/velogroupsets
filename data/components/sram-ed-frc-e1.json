@@ -1,0 +1,34 @@
+{
+  "id": "sram-ed-frc-e1",
+  "slug": "ed-frc-e1",
+  "name": "Force AXS shift/brake control pair",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-force-axs-e1",
+    "sram-force-xplr-axs-e1"
+  ],
+  "type": "shifters",
+  "model_number": "ED-FRC-E1",
+  "weight_g": null,
+  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/ed-frc-e1",
+    "title": "SRAM ED-FRC-E1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/ed-frc-e1",
+      "title": "SRAM ED-FRC-E1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/36350528178331-What-parts-are-available-with-the-Force-XPLR-AXS-product-line-When-will-they-be-available",
+      "title": "SRAM Force XPLR AXS product availability: 17 June 2025; XG-1371 cassette and shared Force AXS controls",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

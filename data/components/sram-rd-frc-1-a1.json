@@ -1,0 +1,36 @@
+{
+  "id": "sram-rd-frc-1-a1",
+  "slug": "rd-frc-1-a1",
+  "name": "Force 1 rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-force-1-11-speed"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-FRC-1-A1",
+  "weight_g": null,
+  "weight_description": "The service reference combines cage/version options. A configuration-specific weight and a single set of derailleur limits have not yet been established.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/rd-frc-1-a1",
+    "title": "SRAM RD-FRC-1-A1 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/rd-frc-1-a1",
+      "title": "SRAM RD-FRC-1-A1 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "rear_speeds": 11,
+    "largest_sprocket_variants": "28, 36, 42T; select the exact cage/version before applying a limit",
+    "minimum_largest_sprocket_variants": "25, 36T; these values describe the largest sprocket, not the smallest",
+    "cage_variants": "Long, Medium, Short",
+    "drivetrain_configuration": "1x"
+  }
+}

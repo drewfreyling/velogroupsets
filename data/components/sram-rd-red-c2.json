@@ -1,0 +1,36 @@
+{
+  "id": "sram-rd-red-c2",
+  "slug": "rd-red-c2",
+  "name": "RED rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-22"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-RED-C2",
+  "weight_g": null,
+  "weight_description": "The service reference combines cage/version options. A configuration-specific weight and a single set of derailleur limits have not yet been established.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/rd-red-c2",
+    "title": "SRAM RD-RED-C2 manufacturer service specifications and technical documents",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/rd-red-c2",
+      "title": "SRAM RD-RED-C2 manufacturer service specifications and technical documents",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "rear_speeds": 11,
+    "largest_sprocket_variants": "28, 32T; select the exact cage/version before applying a limit",
+    "minimum_largest_sprocket_variants": "25T; these values describe the largest sprocket, not the smallest",
+    "cage_variants": "Mid (WiFLi), Short",
+    "drivetrain_configuration": "2x"
+  }
+}

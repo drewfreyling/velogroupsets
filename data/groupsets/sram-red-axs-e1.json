@@ -1,0 +1,16 @@
+{
+  "id": "sram-red-axs-e1",
+  "slug": "red-axs-e1",
+  "name": "RED AXS",
+  "manufacturer_id": "sram",
+  "model_number": "E1",
+  "start_year": 2024,
+  "generation": "Twelve-speed road AXS, 2024 revision",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/news/new-sram-red-groupset-lightest-ever-with-faster-shifting-but-theres-one-thing-we-just-dont-understand/",
+      "title": "Cyclingnews RED AXS launch report, 15 May 2024",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

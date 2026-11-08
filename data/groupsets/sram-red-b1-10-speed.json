@@ -1,0 +1,16 @@
+{
+  "id": "sram-red-b1-10-speed",
+  "slug": "red-b1-10-speed",
+  "name": "RED",
+  "manufacturer_id": "sram",
+  "model_number": "B1 (10-speed)",
+  "start_year": 2012,
+  "generation": "Second-generation ten-speed mechanical RED; not RED 22",
+  "sources": [
+    {
+      "url": "https://bicycleretailer.com/product-tech/2012/02/01/sram-releases-new-red-group-details",
+      "title": "SRAM RED launch announcement, 1 February 2012",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}
