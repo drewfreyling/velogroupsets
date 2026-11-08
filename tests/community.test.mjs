@@ -242,3 +242,13 @@ test('genuine PNG and WebP inputs are re-encoded as metadata-free JPEGs',async()
     const object=await env.UPLOADS.get(row.pending_key);const output=Buffer.from(await object.arrayBuffer());assert.equal(output[0],255);assert.equal(output[1],216);assert.equal((await sharp(output).metadata()).format,'jpeg');assert.equal((await sharp(output).metadata()).exif,undefined);
   }
 });
+
+
+test('evidence preservation survives an interrupted publication with an absent public copy',async()=>{
+  const id=await pending();
+  await env.COMMUNITY_DB.prepare("UPDATE photos SET status='processing',public_key='photos/interrupted.jpg' WHERE id=?").bind(id).run();
+  const response=await moderate(id,'hold');assert.equal(response.status,200,await response.clone().text());
+  assert.equal((await call(`/api/photos/${id}/file`)).status,404);
+  const row=await env.COMMUNITY_DB.prepare('SELECT evidence_key,legal_hold FROM photos WHERE id=?').bind(id).first();
+  assert.equal(row.legal_hold,1);assert.ok(await env.EVIDENCE.get(row.evidence_key));assert.equal((await env.UPLOADS.list()).objects.length,0);
+});

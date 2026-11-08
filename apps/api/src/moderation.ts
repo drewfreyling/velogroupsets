@@ -33,7 +33,7 @@ export async function moderatePhoto(request:Request,env:Env,id:string,action:str
       // Read the complete bounded derivative so the cache fetch is not cancelled early.
       if(primedOk)await boundedBody(new Request('https://image.internal',{method:'POST',body:primed.body,duplex:'half'} as RequestInit),MAX_OUTPUT_BYTES);
       else await primed.body?.cancel().catch(()=>{});
-      if([403,451].includes(primed.status))await db(env).prepare("UPDATE photos SET status='blocked',review_reason='Image CDN blocked this image. Review the Cloudflare notification and incident runbook.' WHERE id=?").bind(id).run();
+      if([403,451].includes(primed.status))await db(env).prepare("UPDATE photos SET status='blocked',review_reason='Image CDN blocked this image. Review the Cloudflare notification and incident runbook.' WHERE id=? AND status='processing' AND reviewed_by=?").bind(id,session.user.id).run();
       if(!primedOk)throw new HttpError(503,'The image CDN did not accept this photo. It has not been published.');
       const published=await db(env).prepare("UPDATE photos SET status='approved',published_at=?,review_reason=?,pending_key=NULL WHERE id=? AND status='processing' AND reviewed_by=?").bind(Date.now(),reason,id,session.user.id).run();
       if(published.meta.changes!==1)throw new HttpError(409,'Photo state changed during publication.');
@@ -55,7 +55,8 @@ export async function moderatePhoto(request:Request,env:Env,id:string,action:str
     await db(env).prepare("UPDATE photos SET evidence_key=COALESCE(evidence_key,?),legal_hold=1,status='blocked',review_reason=? WHERE id=?").bind(proposed,reason,id).run();
     const {evidence_key:key}=await db(env).prepare('SELECT evidence_key FROM photos WHERE id=?').bind(id).first();
     if(!await env.EVIDENCE.head(key)){
-      const source=photo.public_key?await env.PHOTOS.get(photo.public_key):photo.pending_key?await env.UPLOADS.get(photo.pending_key):null;
+      const source=(photo.public_key?await env.PHOTOS.get(photo.public_key):null)
+        || (photo.pending_key?await env.UPLOADS.get(photo.pending_key):null);
       if(source)await env.EVIDENCE.put(key,source.body,{httpMetadata:{contentType:'image/jpeg',cacheControl:'no-store'}});
       else if(!await env.EVIDENCE.head(key))throw new HttpError(410,'No stored image remains to preserve. Record and investigate the report.');
     }
