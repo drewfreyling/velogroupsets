@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-7402-fcai",
+  "slug": "sl-7402-fcai",
+  "name": "Dura-Ace braze-on downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "shifters",
+  "model_number": "SL-7402-FCAI",
+  "weight_g": null,
+  "weight_description": "Weight withheld: the catalogue identifies SL-7402-FCAI but does not explicitly establish a left/right pair weight for its listed figure.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-7402-0922/EV-SL-7402-0922A.pdf",
+    "title": "Shimano SL-7402-FCAI exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1989.html",
+      "title": "Shimano catalogue archived under 1989, Dura-Ace road component specifications; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHqhCyBMqO7zixBpoM6aDO4do8Ob4wNhom2F6AoFMhpDguKhnjNozfOgt-AaDZNoW9GefT4JtzD15SmI-OdXAVfZZokIEZYI9C00cAgnrbBvCXQxShxssO8-i-O87PE7nx7Z_uEsUkwJq0/s1600/SHIMANO+CATALOG+1989+%25287%2529.jpg",
+      "title": "Exact archived Shimano 1989 scan 7: Dura-Ace road component specifications",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "mount": "Braze-on",
+    "boss_standard": "Italian M5"
+  }
+}

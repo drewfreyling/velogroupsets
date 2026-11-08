@@ -1,0 +1,34 @@
+{
+  "id": "shimano-pd-7401",
+  "slug": "pd-7401",
+  "name": "Dura-Ace clipless pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "pedals",
+  "model_number": "PD-7401",
+  "weight_g": 416,
+  "weight_description": "Manufacturer-listed: pair of PD-7401 clipless pedals; excludes the separately listed cleats and hardware.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-7401-0821/EV-PD-7401-0821E.pdf",
+    "title": "Shimano PD-7401 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1989.html",
+      "title": "Shimano catalogue archived under 1989, Dura-Ace road component specifications; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHqhCyBMqO7zixBpoM6aDO4do8Ob4wNhom2F6AoFMhpDguKhnjNozfOgt-AaDZNoW9GefT4JtzD15SmI-OdXAVfZZokIEZYI9C00cAgnrbBvCXQxShxssO8-i-O87PE7nx7Z_uEsUkwJq0/s1600/SHIMANO+CATALOG+1989+%25287%2529.jpg",
+      "title": "Exact archived Shimano 1989 scan 7: Dura-Ace road component specifications",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "includes_cleats": false
+  }
+}

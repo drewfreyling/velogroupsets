@@ -1,0 +1,33 @@
+{
+  "id": "shimano-sp-7400-a",
+  "slug": "sp-7400-a",
+  "name": "Dura-Ace round tube, a-type seatpost",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "seatpost",
+  "model_number": "SP-7400-A",
+  "weight_g": 224,
+  "weight_description": "Manufacturer-listed: SP-7400-A round tube, a-type seatpost. Reference shaft diameter is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SP-7400-0747/EV-SP-7400-0747.pdf",
+    "title": "Shimano SP-7400-A exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1989.html",
+      "title": "Shimano catalogue archived under 1989, Dura-Ace road component specifications; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNinssQHXY2j7F8KRo8NpgA12PbMhyRId3_19YEhs4ijFdD5OXSWsIjFA11zURTuOfJM-d65mpL8OB3exKMVRQjKZOV6EjQPsoAjeMJ4Bys8onAVCv9lDt2Ezuz3Fzdt3z7W_C5baMPDfh/s1600/SHIMANO+CATALOG+1989+%25288%2529.jpg",
+      "title": "Exact archived Shimano 1989 scan 8: Dura-Ace road component specifications",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "seatpost_style": "Round tube, A-type"
+  }
+}

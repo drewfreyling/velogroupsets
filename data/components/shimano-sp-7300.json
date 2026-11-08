@@ -8,8 +8,8 @@
   ],
   "type": "seatpost",
   "model_number": "SP-7300",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 224,
+  "weight_description": "Manufacturer-listed: SP-7300 A-type seatpost, 26.8 mm shaft diameter; 1982 catalogue reference.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SP-7300_7310_7320-0451/EV-SP-7300_7310_7320-0451A.pdf",
     "title": "Shimano SP-7300 exploded view and replacement parts",
@@ -20,6 +20,20 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SP-7300_7310_7320-0451/EV-SP-7300_7310_7320-0451A.pdf",
       "title": "Shimano SP-7300 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1982.html",
+      "title": "Shimano catalogue archived under 1982, printed page 16, Dura-Ace AX seatpost variants; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3ceUiQnLgtq0q46nVPXGlBE8LxDoO7Saereub2jeJrGAuTv2Uj2WpUZaB36bsMgSy4Muo7k16Pxvs7gDR-z6sv_JGRh9HgmnH-fI6yjWXajIJEm_uX55ySe-GCvJEkyS_vLz6bYL5T2Yt/s1600/SHIMANO+CYCLE+CATALOG+1982+%252819%2529.jpg",
+      "title": "Exact archived Shimano 1982 scan 19: printed page 16, Dura-Ace AX seatpost variants",
+      "retrieved_on": "2026-11-08"
     }
-  ]
+  ],
+  "specifications": {
+    "shaft_diameter_mm": 26.8,
+    "seatpost_style": "A-type"
+  }
 }

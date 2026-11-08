@@ -17,7 +17,7 @@ Standalone brake levers have their own **Brake Levers** category. Integrated ST 
 | 105 SC 1055 | BL-1055 | 1990 dealer manual, page 24 |
 | 600 Ultegra 6400 | BL-6400, BL-6401, BL-6402; later BL-6403 | Same manual, page 20; July 1994 catalogue, page 52 |
 | Dura-Ace EX 7200 | BL-7200 | Manufacturer exploded view identifying Dura-Ace EX |
-| Dura-Ace AX 7300 | BL-7300 | Manufacturer exploded view and Dura-Ace generation history |
+| Dura-Ace AX 7300 | BL-7300 | Manufacturer exploded view and 1982 catalogue, printed page 16 |
 | Dura-Ace 7400 | BL-7400, BL-7401; later BL-7402 | December 1987 catalogue, scan 11; July 1994 catalogue, page 52 |
 | Dura-Ace 7800, Ultegra 6600, 105 5600 | BL-R600 | Manufacturer 2007 line-up, PDF pages 20–22 |
 | Dura-Ace 7900 mechanical | BL-TT79 | Manufacturer 2011 line-up, PDF page 23 |
@@ -33,6 +33,7 @@ The period catalogues explicitly establish pair weights for BL-A351 (302 g), BL-
 
 Other added lever weights remain null. In particular:
 
+- BL-7300 is listed at 107 g each with pad in the [archived 1982 catalogue](https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1982.html), printed page 16. It remains null because an individual lever weight is not a pair weight.
 - BL-A251-EX has auxiliary extension levers. The standard BL-A251 pair weight does not describe this assembly.
 - BL-1052 and BL-6402 are short-reach models; neighbouring standard-reach weights are not substituted.
 - BL-A410’s RSX weight column is blank. Adjacent RX100 figures are not RSX weights.

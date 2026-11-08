@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-7600",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 605,
+  "weight_description": "Manufacturer-listed: FC-7600 track crankset, 170 mm crank arms and 48T chainring; excludes the separately listed bottom bracket.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-7600-0719/EV-FC-7600-0719A.pdf",
     "title": "Shimano FC-7600 exploded view and replacement parts",
@@ -20,6 +20,24 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-7600-0719/EV-FC-7600-0719A.pdf",
       "title": "Shimano FC-7600 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1989.html",
+      "title": "Shimano catalogue archived under 1989, Dura-Ace track crankset and separately listed bottom bracket; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNinssQHXY2j7F8KRo8NpgA12PbMhyRId3_19YEhs4ijFdD5OXSWsIjFA11zURTuOfJM-d65mpL8OB3exKMVRQjKZOV6EjQPsoAjeMJ4Bys8onAVCv9lDt2Ezuz3Fzdt3z7W_C5baMPDfh/s1600/SHIMANO+CATALOG+1989+%25288%2529.jpg",
+      "title": "Exact archived Shimano 1989 scan 8: Dura-Ace track crankset and separately listed bottom bracket",
+      "retrieved_on": "2026-11-08"
     }
-  ]
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      48
+    ],
+    "includes_bottom_bracket": false,
+    "chain_pitch_mm": 12.7
+  }
 }

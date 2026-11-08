@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-7300",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 214,
+  "weight_description": "Manufacturer-listed: RD-7300 Dura-Ace AX rear derailleur only; 1982 catalogue reference.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-7300-0459/EV-RD-7300-0459C.pdf",
     "title": "Shimano RD-7300 exploded view and replacement parts",
@@ -20,12 +20,22 @@
       "url": "https://si.shimano.com/en/pdfs/ev/RD-7300-0459/EV-RD-7300-0459C.pdf",
       "title": "Shimano RD-7300 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1982.html",
+      "title": "Shimano catalogue archived under 1982, printed page 13, Dura-Ace AX rear derailleur; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeLlPEPLuER3lcIBMLYk1s-5JAIEFbrPH7ZpZL9tvmqTKKClQSe-A0hke3meJ2rwjzrRVm4imdlrDKwCP5Iv17eM8HcuOikKoZCUwA-46qhZ5JX4DfwoZNxpkFr2bYKt-ktwvpAuYsWTD9/s1600/SHIMANO+CYCLE+CATALOG+1982+%252816%2529.jpg",
+      "title": "Exact archived Shimano 1982 scan 16: printed page 13, Dura-Ace AX rear derailleur",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {
     "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
+    "maximum_sprocket_teeth": 26,
     "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null
+    "maximum_front_difference_teeth": 13
   }
 }

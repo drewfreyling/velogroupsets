@@ -8,8 +8,8 @@
   ],
   "type": "bottom-bracket",
   "model_number": "BB-7600",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 305,
+  "weight_description": "Manufacturer-listed: BB-7600 square-taper bottom-bracket assembly, 109 mm spindle. The catalogue lists 68 mm and 70 mm shell options with this spindle length; the weighed thread variant is not specified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/BB-7400_7600-0729/EV-BB-7400_7600-0729.pdf",
     "title": "Shimano BB-7600 exploded view and replacement parts",
@@ -20,9 +20,20 @@
       "url": "https://si.shimano.com/en/pdfs/ev/BB-7400_7600-0729/EV-BB-7400_7600-0729.pdf",
       "title": "Shimano BB-7600 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1989.html",
+      "title": "Shimano catalogue archived under 1989, Dura-Ace track bottom bracket and spindle dimensions; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNinssQHXY2j7F8KRo8NpgA12PbMhyRId3_19YEhs4ijFdD5OXSWsIjFA11zURTuOfJM-d65mpL8OB3exKMVRQjKZOV6EjQPsoAjeMJ4Bys8onAVCv9lDt2Ezuz3Fzdt3z7W_C5baMPDfh/s1600/SHIMANO+CATALOG+1989+%25288%2529.jpg",
+      "title": "Exact archived Shimano 1989 scan 8: Dura-Ace track bottom bracket and spindle dimensions",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {
-    "interface": "Square taper"
+    "interface": "Square taper",
+    "spindle_length_mm": 109
   }
 }

@@ -9,7 +9,7 @@
   "type": "brake-levers",
   "model_number": "BL-7300",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant left/right pair weight for BL-7300 aero brake levers has not been established.",
+  "weight_description": "Weight withheld: the 1982 catalogue lists 107 g for each BL-7300 lever with pad. A published or measured left/right pair weight has not been established; the single-lever figure is not doubled.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/BL-7300-0436/EV-BL-7300-0436D.pdf",
     "title": "Shimano BL-7300 exploded view and replacement parts",
@@ -20,9 +20,23 @@
       "url": "https://www.shimano.com/en/100th/history/products/14.html",
       "title": "Shimano 100 Products History: Dura-Ace EX and AX generations",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1982.html",
+      "title": "Shimano catalogue archived under 1982, printed page 16, Dura-Ace AX brake lever; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3ceUiQnLgtq0q46nVPXGlBE8LxDoO7Saereub2jeJrGAuTv2Uj2WpUZaB36bsMgSy4Muo7k16Pxvs7gDR-z6sv_JGRh9HgmnH-fI6yjWXajIJEm_uX55ySe-GCvJEkyS_vLz6bYL5T2Yt/s1600/SHIMANO+CYCLE+CATALOG+1982+%252819%2529.jpg",
+      "title": "Exact archived Shimano 1982 scan 19: printed page 16, Dura-Ace AX brake lever",
+      "retrieved_on": "2026-11-08"
     }
   ],
   "specifications": {
-    "lever_style": "Aero"
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_options_mm": [
+      23.8,
+      24.2
+    ]
   }
 }

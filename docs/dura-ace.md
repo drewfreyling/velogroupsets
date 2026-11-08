@@ -1,6 +1,6 @@
 # Shimano Dura-Ace coverage
 
-The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the 7600/7710 track range. There are 15 groupset records and 130 component identities across 153 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
+The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the 7600/7710 track range. There are 15 groupset records and 139 component identities across 162 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
 
 ## Dates and families
 
@@ -45,11 +45,30 @@ Shared cranksets, cassettes, pedals and bottom brackets keep one identity across
 
 Dura-Ace 10 means **10 mm chain pitch**, not ten sprockets. Its crank belongs to that dedicated track system; do not assume compatibility with conventional 12.7 mm chain-pitch track equipment. Likewise, a 7400-series membership is not a claim of universal SIS cable-pull compatibility across later generations. Consult the linked service instructions for a proposed combination.
 
+## Archived catalogue scans
+
+[La Bible du Vélo’s Dura-Ace history](https://labibleduvelocataloguesshimano.blogspot.com/p/dura-ace-history.html) is a useful index to period material. Catalogue facts below come from the actual manufacturer scans, rather than the history article’s narrative or assembled groupset photographs. Shimano’s own chronology remains the basis for family start years.
+
+- [Catalogue archived under 1982](https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1982.html): printed page 13 identifies RD-7300 at 214 g, with a 26T largest sprocket and 13T maximum front difference. It does not establish total capacity or the smallest sprocket. Printed page 16 gives SP-7300 at 224 g for the 26.8 mm A-type and BL-7300 at 107 g **each**, including the pad. Printed page 20 establishes RD-7200’s 13T front difference.
+- [Catalogue archived under 1989](https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1989.html): the road drivetrain spread (image 7) lists FC-7402, FD-7400, RD-7402, CS-7400-8, the two pedal models, later downtube controls and FH-7402. The following road/track spread (image 8) identifies HP-7400, the distinct SP-7400-A/B seatposts and the FC-7600/BB-7600 configurations. Each updated record includes both the archive page and exact scan image so these references remain identifiable.
+
+The new 7400-series identities are FC-7402, PD-7400, PD-7401, HP-7400, SP-7400-A, SP-7400-B, FH-7402, SL-7401-FCAI and SL-7402-FCAI. They supplement the existing family without creating another groupset or changing existing IDs. Shimano-hosted exploded drawings cover all nine additions.
+
+| Model | Selected manufacturer reference | Configuration |
+| --- | --- | --- |
+| FC-7402 | Withheld | The 643 g, 170 mm, 52/42T reference does not distinguish the listed standard/Biopace profiles |
+| FD-7400 | 93 g | FD-7400-B band version, 28.6 mm clamp; not the braze-on version |
+| CS-7400-8 | 255 g | Eight-speed 12–21T: 12-13-14-15-16-17-19-21T, including spacer |
+| FC-7600 | 605 g | 170 mm, 48T track crank; bottom bracket separate |
+| BB-7600 | 305 g | Square taper, 109 mm spindle; thread variant unspecified |
+
+The archive year identifies the edition as filed by the host; it does not establish an exact publication or component launch date. Some older external image links no longer resolve. The original 1973 component-document gap remains open; citing these scans as supplementary evidence does not expand the approved technical-document archive exception.
+
 ## Weights and remaining gaps
 
-37 component records have sourced weights compliant with the [weight guidelines](weights-guidelines.md). The other 86 retain explicit null weights. Null means an acceptable reference configuration has not yet been recorded, not that the component cannot be weighed.
+52 component records have sourced weights compliant with the [weight guidelines](weights-guidelines.md). The other 87 retain explicit null weights. Null means an acceptable reference configuration has not yet been recorded, not that the component cannot be weighed.
 
-Crank weights identify arm length and chainrings and exclude the bottom bracket. FC-7800 remains unknown because the 2008 figure includes the bottom bracket; it is not reduced by an estimated bearing weight. Front-derailleur weights identify braze-on mounting. Shifter weights are published pair weights. Cassette weights identify speed count and tooth range; lockring inclusion is assumed under the contribution policy. Hub weights are used only where Shimano separately lists the hub and quick-release skewer. The 2001 hub figures and track hub figures have not been treated as skewer-free measurements without evidence.
+Crank weights identify arm length and chainrings and exclude the bottom bracket. FC-7800 remains unknown because the 2008 figure includes the bottom bracket; it is not reduced by an estimated bearing weight. Front-derailleur weights identify the mount, including the 28.6 mm clamp for the FD-7400-B reference. Shifter weights are published pair weights. The new SL-7401-FCAI and SL-7402-FCAI entries remain null because their source figures do not explicitly establish a pair. BL-7300’s single-lever figure is not doubled. FD-7300 also remains null: the catalogue lists two band sizes without identifying the weighed clamp. Cassette weights identify speed count and tooth range; lockring inclusion is assumed under the contribution policy. Hub weights are used only where Shimano separately lists the hub and quick-release skewer. FH-7402’s “without sprockets” figure does not establish skewer exclusion and remains null. The 2001 hub figures and track hub figures have not been treated as skewer-free measurements without evidence.
 
 Published average weights can differ between specification editions. Each numeric weight cites the edition and reference configuration used; values from different editions have not been averaged. Unknown rear-derailleur capacity limits remain null and display as unsourced. RD-7800-SS follows the 14T front difference in SI-5V50E; its record notes that the 2008 consumer catalogue instead lists 16T.
 

@@ -9,7 +9,7 @@
   "type": "front-derailleur",
   "model_number": "FD-7300",
   "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Weight withheld: the 1982 catalogue lists 96 g for band-mounted FD-7300 but offers both 28.0 mm and 28.6 mm clamps without identifying which was weighed.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-7300_7310_7320-0441/EV-FD-7300_7310_7320-0441B.pdf",
     "title": "Shimano FD-7300 exploded view and replacement parts",
@@ -20,6 +20,24 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-7300_7310_7320-0441/EV-FD-7300_7310_7320-0441B.pdf",
       "title": "Shimano FD-7300 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1982.html",
+      "title": "Shimano catalogue archived under 1982, printed page 13, Dura-Ace AX front-derailleur variants; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeLlPEPLuER3lcIBMLYk1s-5JAIEFbrPH7ZpZL9tvmqTKKClQSe-A0hke3meJ2rwjzrRVm4imdlrDKwCP5Iv17eM8HcuOikKoZCUwA-46qhZ5JX4DfwoZNxpkFr2bYKt-ktwvpAuYsWTD9/s1600/SHIMANO+CYCLE+CATALOG+1982+%252816%2529.jpg",
+      "title": "Exact archived Shimano 1982 scan 16: printed page 13, Dura-Ace AX front-derailleur variants",
+      "retrieved_on": "2026-11-08"
     }
-  ]
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "available_clamp_diameters_mm": [
+      28.0,
+      28.6
+    ],
+    "maximum_front_difference_teeth": 14
+  }
 }

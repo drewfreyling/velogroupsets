@@ -1,0 +1,33 @@
+{
+  "id": "shimano-hp-7400",
+  "slug": "hp-7400",
+  "name": "Dura-Ace threaded headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "headset",
+  "model_number": "HP-7400",
+  "weight_g": 113,
+  "weight_description": "Manufacturer-listed: HP-7400 threaded road headset with 36.3 mm total stack height. The reference thread variant is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HP-7400-0672/EV-HP-7400-0672B.pdf",
+    "title": "Shimano HP-7400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1989.html",
+      "title": "Shimano catalogue archived under 1989, Dura-Ace road component specifications; original manufacturer scan preserved by La Bible du Vélo",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNinssQHXY2j7F8KRo8NpgA12PbMhyRId3_19YEhs4ijFdD5OXSWsIjFA11zURTuOfJM-d65mpL8OB3exKMVRQjKZOV6EjQPsoAjeMJ4Bys8onAVCv9lDt2Ezuz3Fzdt3z7W_C5baMPDfh/s1600/SHIMANO+CATALOG+1989+%25288%2529.jpg",
+      "title": "Exact archived Shimano 1989 scan 8: Dura-Ace road component specifications",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_stack_height_mm": 36.3
+  }
+}
