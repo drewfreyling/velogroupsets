@@ -8,8 +8,8 @@
   ],
   "type": "rear-hub",
   "model_number": "FH-1056",
-  "weight_g": null,
-  "weight_description": "Eight-speed quick-release freehub. The 1993 catalogue’s 427 g includes the quick release; a hub-only weight remains unsourced.",
+  "weight_g": 345,
+  "weight_description": "Contributor-measured: 36-hole FH-1056 eight-speed quick-release rear hub, without skewer. Axle dimensions and scale resolution were not reported.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FH-1056-8-1295/EV-FH-1056-8-1295A.pdf",
     "title": "Shimano FH-1056 exploded view and replacement parts",
@@ -17,13 +17,20 @@
   },
   "sources": [
     {
+      "url": "https://github.com/drewfreyling/velogroupsets/blob/main/docs/shimano-105.md#fh-1056-contributor-measurement",
+      "title": "Project owner’s FH-1056 measurement: 345 g, 36-hole hub without skewer, reported 8 November 2026",
+      "retrieved_on": "2026-11-08"
+    },
+    {
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/39-40.htm",
       "title": "Shimano 1993 catalogue, pages 39–40: 105 SC eight-speed update (archived by Charlie Taylor)",
       "retrieved_on": "2026-11-07"
     }
   ],
   "specifications": {
-    "rear_speeds": 8
+    "rear_speeds": 8,
+    "spoke_holes": 36,
+    "axle_type": "Quick release"
   },
   "weight_excludes_skewers": true
 }
