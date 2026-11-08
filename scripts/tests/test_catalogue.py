@@ -207,6 +207,44 @@ class CatalogueTests(unittest.TestCase):
         data['components'][0]['technical_document']['url'] = 'https://docs.example.com/spec.pdf#page=2'
         self.assertEqual(validate_catalogue(data), [])
 
+    def test_reviewed_campagnolo_archives_are_allowed_only_for_campagnolo(self):
+        data = fixture()
+        data['manufacturers'][0].update(id='campagnolo', website_url='https://www.campagnolo.com/')
+        data['groupsets'][0]['manufacturer_id'] = 'campagnolo'
+        data['components'][0]['manufacturer_id'] = 'campagnolo'
+        base = 'https://www.disraeligears.co.uk/site/'
+        for path in ('campagnolo_spare_parts_catalogue_-_1994_product_range_page_1.html',
+                     'campagnolo_spare_parts_catalogue_-_1994_product_range_page_58.html',
+                     'campagnolo_spare_parts_catalogue_-_1997_page_1.html',
+                     'campagnolo_spare_parts_catalogue_-_1997_page_88.html#drawing'):
+            data['components'][0]['technical_document']['url'] = base + path
+            with self.subTest(path=path):
+                self.assertEqual(validate_catalogue(data), [])
+        valid_url = base + 'campagnolo_spare_parts_catalogue_-_1997_page_24.html'
+        invalid_urls = (
+            valid_url.replace('https:', 'http:'),
+            valid_url.replace('www.disraeligears.co.uk', 'www.disraeligears.co.uk.attacker.test'),
+            valid_url.replace('www.disraeligears.co.uk', 'shop.disraeligears.co.uk'),
+            valid_url.replace('www.disraeligears.co.uk', 'user:password@www.disraeligears.co.uk'),
+            valid_url.replace('www.disraeligears.co.uk', 'www.disraeligears.co.uk:8080'),
+            valid_url + '?redirect=https://attacker.test',
+            base + 'campagnolo_spare_parts_catalogue_-_1998_page_24.html',
+            base + 'campagnolo_spare_parts_catalogue_-_1997_page_0.html',
+            base + 'campagnolo_spare_parts_catalogue_-_1997_page_89.html',
+            base + 'campagnolo_spare_parts_catalogue_-_1994_product_range_page_59.html',
+            base + 'campagnolo_-_1992_road_range.html',
+        )
+        for url in invalid_urls:
+            data['components'][0]['technical_document']['url'] = url
+            with self.subTest(url=url):
+                self.assertTrue(validate_catalogue(data))
+        unrelated = fixture()
+        unrelated['components'][0]['technical_document']['url'] = valid_url
+        self.assertTrue(validate_catalogue(unrelated))
+        data['components'][0]['technical_document']['url'] = valid_url
+        data['manufacturers'][0]['website_url'] = 'https://example.com/'
+        self.assertTrue(validate_catalogue(data))
+
     def test_groupset_model_and_single_start_year_are_required(self):
         for field in ('model_number', 'start_year'):
             data = fixture()

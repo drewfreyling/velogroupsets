@@ -21,7 +21,7 @@ Compatibility claims should identify their source and any limitations. Unknown i
 
 Use **Tailwind CSS** for the UI, compiled into static CSS during the frontend build. Browse data as **manufacturer → groupset → component**. Components use stable IDs and can be referenced by multiple groupsets, keeping shared photo/comment history together.
 
-Each component requires a model number, a weight field with an identifying description, and a manufacturer-hosted technical specification. Known weights are positive grams for a configuration that meets the [weight guidelines](docs/weights-guidelines.md); any component awaiting a compliant sourced weight uses explicit null, displayed as “Not yet sourced”. Hub weights exclude skewers. Groupsets require a model number and a documented start year. Manufacturer pages list groupsets oldest first.
+Each component requires a model number, a weight field with an identifying description, and a manufacturer-hosted technical specification or an [explicitly approved archived manufacturer document](docs/campagnolo-record.md#approved-archived-manufacturer-documents). Known weights are positive grams for a configuration that meets the [weight guidelines](docs/weights-guidelines.md); any component awaiting a compliant sourced weight uses explicit null, displayed as “Not yet sourced”. Hub weights exclude skewers. Groupsets require a model number and a documented start year. Manufacturer pages list groupsets oldest first.
 
 The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
 

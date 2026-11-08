@@ -14,6 +14,17 @@ DATA = Path(__file__).resolve().parents[1] / "data"
 KINDS = ("manufacturers", "groupsets", "components")
 
 
+def approved_archived_document(manufacturer, document_url):
+    """Allow the reviewed Campagnolo manuals; other archive URLs need review."""
+    if manufacturer['id'] != 'campagnolo' or urlsplit(manufacturer['website_url']).hostname not in ('campagnolo.com', 'www.campagnolo.com'):
+        return False
+    url = urlsplit(document_url)
+    if url.scheme != 'https' or url.netloc not in ('www.disraeligears.co.uk', 'disraeligears.co.uk') or url.query:
+        return False
+    match = re.fullmatch(r'/site/campagnolo_spare_parts_catalogue_-_(1994_product_range|1997)_page_([1-9][0-9]?)\.html', url.path)
+    return bool(match and int(match[2]) <= {'1994_product_range': 58, '1997': 88}[match[1]])
+
+
 def weight_configuration_errors(component):
     """Check declared weight configurations; source truth still needs review."""
     if component['weight_g'] is None:
@@ -154,8 +165,9 @@ def validate_catalogue(catalogue):
             if official_host.startswith("www."):
                 official_host = official_host[4:]
             document_host = urlsplit(component["technical_document"]["url"]).hostname
-            if not document_host or not (document_host == official_host or document_host.endswith("." + official_host)):
-                failures.append(f"components/{component['id']}: technical_document must be on the manufacturer's website or a subdomain")
+            official_document = document_host and (document_host == official_host or document_host.endswith("." + official_host))
+            if not official_document and not approved_archived_document(manufacturer, component['technical_document']['url']):
+                failures.append(f"components/{component['id']}: technical_document must be on the manufacturer's website, a subdomain, or an explicitly approved archived manufacturer document")
         for group_id in component["groupset_ids"]:
             group = indices["groupsets"].get(group_id)
             if group is None:

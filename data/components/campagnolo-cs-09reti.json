@@ -1,0 +1,29 @@
+{
+  "id": "campagnolo-cs-09reti",
+  "slug": "cs-09reti",
+  "name": "Record nine-speed titanium cassette",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-9-speed"
+  ],
+  "type": "cassette",
+  "model_number": "CS-09RETI",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_63.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 63 (manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_63.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 63 (manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "12–23T"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "campagnolo-hs-21re",
+  "slug": "hs-21re",
+  "name": "Record threaded headset (1997 revision)",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-8-speed",
+    "campagnolo-record-9-speed"
+  ],
+  "type": "headset",
+  "model_number": "HS-21RE",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_4.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 4 (manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_4.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 4 (manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

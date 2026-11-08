@@ -1,0 +1,32 @@
+{
+  "id": "campagnolo-rd-08re",
+  "slug": "rd-08re",
+  "name": "Record eight-speed rear derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-8-speed"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-08RE",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_24.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 24 (manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_24.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 24 (manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

@@ -7,6 +7,7 @@ test('each manufacturer lists its groupsets oldest first with a single start yea
     const cards=page.getByRole('link').filter({has:page.getByRole('heading',{level:3})});
     await expect(cards).toHaveCount(groupsets.filter(g=>g.manufacturer_id===manufacturer.id).length);
     const labels=await cards.locator('p').filter({hasText:/^Start year: /}).allTextContents();
+    expect(labels).toHaveLength(await cards.count());
     const years=labels.map(label=>Number(label.replace('Start year: ','')));
     expect(years.every(year=>Number.isInteger(year))).toBe(true);
     expect(years).toEqual([...years].sort((a,b)=>a-b));

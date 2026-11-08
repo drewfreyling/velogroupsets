@@ -1,0 +1,27 @@
+{
+  "id": "campagnolo-hb-30re",
+  "slug": "hb-30re",
+  "name": "Record front hub",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-8-speed",
+    "campagnolo-record-9-speed"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-30RE",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_57.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 57 (manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_57.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 57 (manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

@@ -1,0 +1,29 @@
+{
+  "id": "campagnolo-cs-008ti",
+  "slug": "cs-008ti",
+  "name": "Record eight-speed titanium cassette",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-8-speed"
+  ],
+  "type": "cassette",
+  "model_number": "CS-008TI",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_65.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 65 (manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_65.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 65 (manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "sprocket_range": "13–23T"
+  }
+}

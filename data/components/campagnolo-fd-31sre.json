@@ -1,0 +1,30 @@
+{
+  "id": "campagnolo-fd-31sre",
+  "slug": "fd-31sre",
+  "name": "Record braze-on front derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-8-speed",
+    "campagnolo-record-9-speed"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-31SRE",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_31.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 31 (manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_31.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 31 (manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2
+  }
+}
