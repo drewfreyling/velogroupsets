@@ -160,7 +160,7 @@ run "adopt_shared_mail_with_private_destination" {
     email_contact_metadata       = { id = "0123456789abcdef0123456789abcdef", name = "Existing contact", priority = 17 }
   }
   assert {
-    condition     = cloudflare_email_routing_dns.mail[0].zone_id == var.zone_id && cloudflare_email_routing_dns.mail[0].name == "example.com"
+    condition     = cloudflare_email_routing_dns.mail[0].zone_id == var.zone_id && cloudflare_email_routing_dns.mail[0].name == null
     error_message = "Mail DNS ownership must target the existing apex zone."
   }
   assert {

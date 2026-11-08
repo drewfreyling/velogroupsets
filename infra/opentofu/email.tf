@@ -4,7 +4,8 @@
 resource "cloudflare_email_routing_dns" "mail" {
   count   = var.manage_zone_email ? 1 : 0
   zone_id = var.zone_id
-  name    = var.site_zone_name
+  # Provider 5.28.1 marks name no_refresh: imports cannot recover it. Setting
+  # this optional creation parameter would cause a needless update on adoption.
 
   lifecycle {
     prevent_destroy = true

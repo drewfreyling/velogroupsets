@@ -85,6 +85,6 @@ def check_mail_adoption(details):
                 before, after = change.get('before') or {}, change.get('after') or {}
                 allowed = {'actions', 'matchers', 'enabled', 'name', 'priority', 'source', 'owner_worker_tag', 'zone_id', 'subdomain', 'support_subaddress'}
                 fields = sorted(key for key in allowed if before.get(key) != after.get(key))
-                raise ValueError('Mail adoption would change existing routing or DNS; refusing to save that plan. Changed attribute names: ' + ', '.join(fields) + '. Values remain private.')
+                raise ValueError('Mail adoption would change ' + item['address'] + '; refusing to save that plan. Changed attribute names: ' + ', '.join(fields) + '. Values remain private.')
     if found != addresses:
         raise ValueError('Mail adoption plan is missing an expected resource; refusing to save it.')
