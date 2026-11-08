@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-chorus-9-speed",
+  "slug": "chorus-9-speed",
+  "name": "Chorus",
+  "manufacturer_id": "campagnolo",
+  "model_number": "9-speed",
+  "start_year": 1997,
+  "generation": "1997 spare-parts edition, nine-speed road range",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997.html",
+      "title": "Campagnolo 1997 spare-parts edition, nine-speed road range",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

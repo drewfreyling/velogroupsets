@@ -1,0 +1,29 @@
+{
+  "id": "campagnolo-ec-08chcg",
+  "slug": "ec-08chcg",
+  "name": "Chorus 8-speed Ergopower lever pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-chorus-8-speed"
+  ],
+  "type": "shifters",
+  "model_number": "EC-08CHCG",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_41.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 41 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_41.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 41 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "weight_basis": "Pair"
+  }
+}

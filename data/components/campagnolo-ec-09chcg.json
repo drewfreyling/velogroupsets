@@ -1,0 +1,29 @@
+{
+  "id": "campagnolo-ec-09chcg",
+  "slug": "ec-09chcg",
+  "name": "Chorus 9-speed Ergopower lever pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-chorus-9-speed"
+  ],
+  "type": "shifters",
+  "model_number": "EC-09CHCG",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_39.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 39 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_39.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 39 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "weight_basis": "Pair"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "campagnolo-303-101",
+  "slug": "303-101",
+  "name": "C-Record bottom bracket",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-c-record-180"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "303/101",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_6.html",
+    "title": "Campagnolo catalogue n.18 bis, April 1985, page 6 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_6.html",
+      "title": "Campagnolo catalogue n.18 bis, April 1985, page 6 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "campagnolo-306-101",
+  "slug": "306-101",
+  "name": "C-Record double crankset",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-c-record-180"
+  ],
+  "type": "crankset",
+  "model_number": "306/101",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_38.html",
+    "title": "Campagnolo catalogue n.18 bis, April 1985, page 38 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_38.html",
+      "title": "Campagnolo catalogue n.18 bis, April 1985, page 38 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2
+  }
+}

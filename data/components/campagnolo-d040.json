@@ -1,0 +1,28 @@
+{
+  "id": "campagnolo-d040",
+  "slug": "d040",
+  "name": "Athena double crankset",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-athena-d000a"
+  ],
+  "type": "crankset",
+  "model_number": "D040",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_-_athena_scan_9.html",
+    "title": "Campagnolo Athena, April 1989, scan 9 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_athena_scan_9.html",
+      "title": "Campagnolo Athena, April 1989, scan 9 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2
+  }
+}

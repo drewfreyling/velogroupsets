@@ -1,0 +1,30 @@
+{
+  "id": "campagnolo-bb-01chcart",
+  "slug": "bb-01chcart",
+  "name": "Chorus square-taper cartridge bottom bracket",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-chorus-8-speed",
+    "campagnolo-chorus-9-speed"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-01CHCART",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_8.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 8 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_8.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 8 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "thread": "Italian"
+  }
+}

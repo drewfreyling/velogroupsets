@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-veloce-8-speed",
+  "slug": "veloce-8-speed",
+  "name": "Veloce",
+  "manufacturer_id": "campagnolo",
+  "model_number": "8-speed",
+  "start_year": 1993,
+  "generation": "1993 road range; components documented in the 1997 spare-parts edition",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1993_product_range.html",
+      "title": "Campagnolo 1993 road range; components documented in the 1997 spare-parts edition",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "campagnolo-hsi01mi",
+  "slug": "hsi01mi",
+  "name": "Mirage threaded headset",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-mirage-8-speed"
+  ],
+  "type": "headset",
+  "model_number": "HSI01MI",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_7.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 7 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_7.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 7 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

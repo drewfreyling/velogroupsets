@@ -237,7 +237,11 @@ class CatalogueTests(unittest.TestCase):
         for path in ('campagnolo_spare_parts_catalogue_-_1994_product_range_page_1.html',
                      'campagnolo_spare_parts_catalogue_-_1994_product_range_page_58.html',
                      'campagnolo_spare_parts_catalogue_-_1997_page_1.html',
-                     'campagnolo_spare_parts_catalogue_-_1997_page_88.html#drawing'):
+                     'campagnolo_spare_parts_catalogue_-_1997_page_88.html#drawing',
+                     'campagnolo_-_catalogue_n_18_bis_april_1985_version_page_56.html',
+                     'campagnolo_-_chorus_july_1987_version_scan_14.html',
+                     'campagnolo_-_croce_daune_november_1987_version_scan_12.html',
+                     'campagnolo_-_athena_scan_10.html'):
             data['components'][0]['technical_document']['url'] = base + path
             with self.subTest(path=path):
                 self.assertEqual(validate_catalogue(data), [])
@@ -254,6 +258,13 @@ class CatalogueTests(unittest.TestCase):
             base + 'campagnolo_spare_parts_catalogue_-_1997_page_89.html',
             base + 'campagnolo_spare_parts_catalogue_-_1994_product_range_page_59.html',
             base + 'campagnolo_-_1992_road_range.html',
+            base + 'campagnolo_-_catalogue_n_18_bis_april_1985_version_page_57.html',
+            base + 'campagnolo_-_chorus_july_1987_version_scan_15.html',
+            base + 'campagnolo_-_croce_daune_november_1987_version_scan_13.html',
+            base + 'campagnolo_-_athena_scan_11.html',
+            base + 'campagnolo_-_athena_scan_0.html',
+            base + 'campagnolo_-_athena_scan_01.html',
+            base + 'campagnolo_-_athena_scan_1.html?redirect=evil',
         )
         for url in invalid_urls:
             data['components'][0]['technical_document']['url'] = url

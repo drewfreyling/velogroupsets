@@ -1,0 +1,28 @@
+{
+  "id": "campagnolo-903-100",
+  "slug": "903-100",
+  "name": "Triomphe bottom bracket",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-triomphe-267"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "903/100",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_14.html",
+    "title": "Campagnolo catalogue n.18 bis, April 1985, page 14 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_14.html",
+      "title": "Campagnolo catalogue n.18 bis, April 1985, page 14 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper"
+  }
+}

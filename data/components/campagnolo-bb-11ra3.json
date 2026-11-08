@@ -1,0 +1,29 @@
+{
+  "id": "campagnolo-bb-11ra3",
+  "slug": "bb-11ra3",
+  "name": "Racing Triple square-taper cartridge bottom bracket",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-racing-triple-8-speed"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-11RA3",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_9.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 9 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_9.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 9 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "thread": "Italian"
+  }
+}

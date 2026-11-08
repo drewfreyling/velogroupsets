@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-c-record-180",
+  "slug": "c-record-180",
+  "name": "C-Record",
+  "manufacturer_id": "campagnolo",
+  "model_number": "180",
+  "start_year": 1985,
+  "generation": "catalogue n.18 bis, April 1985: Record corsa group 180",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version.html",
+      "title": "Campagnolo catalogue n.18 bis, April 1985: Record corsa group 180",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

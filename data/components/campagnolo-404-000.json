@@ -1,0 +1,25 @@
+{
+  "id": "campagnolo-404-000",
+  "slug": "404-000",
+  "name": "Victory threaded headset",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-victory-269"
+  ],
+  "type": "headset",
+  "model_number": "404/000",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_10.html",
+    "title": "Campagnolo catalogue n.18 bis, April 1985, page 10 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_10.html",
+      "title": "Campagnolo catalogue n.18 bis, April 1985, page 10 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

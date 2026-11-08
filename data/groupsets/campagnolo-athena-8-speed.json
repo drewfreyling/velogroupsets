@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-athena-8-speed",
+  "slug": "athena-8-speed",
+  "name": "Athena",
+  "manufacturer_id": "campagnolo",
+  "model_number": "8-speed",
+  "start_year": 1991,
+  "generation": "1992 Road Range, published September 1991; components documented in the 1997 spare-parts edition",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_1992_road_range.html",
+      "title": "Campagnolo 1992 Road Range, published September 1991; components documented in the 1997 spare-parts edition",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

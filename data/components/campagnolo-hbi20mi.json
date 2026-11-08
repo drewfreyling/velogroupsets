@@ -1,0 +1,26 @@
+{
+  "id": "campagnolo-hbi20mi",
+  "slug": "hbi20mi",
+  "name": "Mirage front hub",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-mirage-8-speed"
+  ],
+  "type": "front-hub",
+  "model_number": "HBI20MI",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_60.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 60 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_60.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 60 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "weight_excludes_skewers": true
+}

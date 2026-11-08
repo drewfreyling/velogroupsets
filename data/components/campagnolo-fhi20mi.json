@@ -1,0 +1,29 @@
+{
+  "id": "campagnolo-fhi20mi",
+  "slug": "fhi20mi",
+  "name": "Mirage 8-speed freehub",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-mirage-8-speed"
+  ],
+  "type": "rear-hub",
+  "model_number": "FHI20MI",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_60.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 60 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_60.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 60 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8
+  },
+  "weight_excludes_skewers": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "campagnolo-704-101",
+  "slug": "704-101",
+  "name": "Chorus threaded headset",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-chorus-700"
+  ],
+  "type": "headset",
+  "model_number": "704/101",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_-_chorus_july_1987_version_scan_2.html",
+    "title": "Campagnolo Chorus, July 1987, scan 2 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_chorus_july_1987_version_scan_2.html",
+      "title": "Campagnolo Chorus, July 1987, scan 2 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

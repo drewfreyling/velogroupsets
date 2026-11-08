@@ -1,0 +1,25 @@
+{
+  "id": "campagnolo-hs-11at",
+  "slug": "hs-11at",
+  "name": "Athena threaded headset",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-athena-8-speed"
+  ],
+  "type": "headset",
+  "model_number": "HS-11AT",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_6.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 6 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_6.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 6 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "campagnolo-sp-10at",
+  "slug": "sp-10at",
+  "name": "Athena seatpost",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-athena-8-speed"
+  ],
+  "type": "seatpost",
+  "model_number": "SP-10AT",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_67.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 67 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_67.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 67 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

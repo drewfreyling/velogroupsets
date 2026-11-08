@@ -22,7 +22,17 @@ def approved_archived_document(manufacturer, document_url):
     if url.scheme != 'https' or url.netloc not in ('www.disraeligears.co.uk', 'disraeligears.co.uk') or url.query:
         return False
     match = re.fullmatch(r'/site/campagnolo_spare_parts_catalogue_-_(1994_product_range|1997)_page_([1-9][0-9]?)\.html', url.path)
-    return bool(match and int(match[2]) <= {'1994_product_range': 58, '1997': 88}[match[1]])
+    if match:
+        return int(match[2]) <= {'1994_product_range': 58, '1997': 88}[match[1]]
+    # Reviewed original Campagnolo brochures, not arbitrary archive commentary.
+    brochures = {
+        'catalogue_n_18_bis_april_1985_version_page': 56,
+        'chorus_july_1987_version_scan': 14,
+        'croce_daune_november_1987_version_scan': 12,
+        'athena_scan': 10,
+    }
+    match = re.fullmatch(r'/site/campagnolo_-_(.+)_([1-9][0-9]?)\.html', url.path)
+    return bool(match and match[1] in brochures and int(match[2]) <= brochures[match[1]])
 
 
 def weight_configuration_errors(component):

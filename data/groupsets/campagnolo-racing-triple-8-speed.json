@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-racing-triple-8-speed",
+  "slug": "racing-triple-8-speed",
+  "name": "Racing Triple",
+  "manufacturer_id": "campagnolo",
+  "model_number": "8-speed",
+  "start_year": 1995,
+  "generation": "1995 triple road range; components documented in the 1997 spare-parts edition",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1995_product_range.html",
+      "title": "Campagnolo 1995 triple road range; components documented in the 1997 spare-parts edition",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

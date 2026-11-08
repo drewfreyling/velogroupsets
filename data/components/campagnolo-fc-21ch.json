@@ -1,0 +1,29 @@
+{
+  "id": "campagnolo-fc-21ch",
+  "slug": "fc-21ch",
+  "name": "Chorus crankset",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-chorus-8-speed",
+    "campagnolo-chorus-9-speed"
+  ],
+  "type": "crankset",
+  "model_number": "FC-21CH",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_13.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 13 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_13.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 13 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2
+  }
+}

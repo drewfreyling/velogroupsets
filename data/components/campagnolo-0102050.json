@@ -1,0 +1,31 @@
+{
+  "id": "campagnolo-0102050",
+  "slug": "0102050",
+  "name": "C-Record rear derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-c-record-180"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "0102050",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_19.html",
+    "title": "Campagnolo catalogue n.18 bis, April 1985, page 19 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_18_bis_april_1985_version_page_19.html",
+      "title": "Campagnolo catalogue n.18 bis, April 1985, page 19 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

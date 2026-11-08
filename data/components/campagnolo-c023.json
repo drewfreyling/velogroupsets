@@ -1,0 +1,38 @@
+{
+  "id": "campagnolo-c023",
+  "slug": "c023",
+  "name": "Croce d’Aune / Athena clamp-mounted front derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-croce-daune-b000",
+    "campagnolo-athena-d000a"
+  ],
+  "type": "front-derailleur",
+  "model_number": "C023",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_-_croce_daune_november_1987_version_scan_11.html",
+    "title": "Campagnolo Croce d’Aune, November 1987, scan 11 (original manufacturer brochure archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_croce_daune_november_1987_version_scan_11.html",
+      "title": "Campagnolo Croce d’Aune, November 1987, scan 11 (original manufacturer brochure archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_athena_scan_9.html",
+      "title": "Campagnolo Athena, April 1989, scan 9 (original manufacturer brochure archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
+      28,
+      33
+    ]
+  }
+}

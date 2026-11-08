@@ -1,0 +1,28 @@
+{
+  "id": "campagnolo-bli02av",
+  "slug": "bli02av",
+  "name": "Avanti standalone brake-lever pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-avanti-8-speed"
+  ],
+  "type": "brake-levers",
+  "model_number": "BLI02AV",
+  "weight_g": null,
+  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_54.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 54 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_54.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 54 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

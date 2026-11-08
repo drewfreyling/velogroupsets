@@ -1,0 +1,29 @@
+{
+  "id": "campagnolo-fh-08ch",
+  "slug": "fh-08ch",
+  "name": "Chorus 8-speed freehub",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-chorus-8-speed"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-08CH",
+  "weight_g": null,
+  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_59.html",
+    "title": "Campagnolo 1997 Spare Parts Catalogue, page 59 (original manufacturer document archived by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_59.html",
+      "title": "Campagnolo 1997 Spare Parts Catalogue, page 59 (original manufacturer document archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8
+  },
+  "weight_excludes_skewers": true
+}
