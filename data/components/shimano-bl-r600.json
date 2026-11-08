@@ -1,0 +1,41 @@
+{
+  "id": "shimano-bl-r600",
+  "slug": "bl-r600",
+  "name": "Road aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7800",
+    "shimano-ultegra-6600",
+    "shimano-105-5600"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-R600",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant left/right pair weight for BL-R600 aero brake levers has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-R600-1817/EV-BL-R600-1817.pdf",
+    "title": "Shimano BL-R600 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2007_LINE-UP_CHART.pdf#page=20",
+      "title": "Shimano 2007 product line-up, PDF page 20: Dura-Ace 7800 standalone brake-lever option",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2007_LINE-UP_CHART.pdf#page=21",
+      "title": "Shimano 2007 product line-up, PDF page 21: Ultegra 6600 standalone brake-lever option",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2007_LINE-UP_CHART.pdf#page=22",
+      "title": "Shimano 2007 product line-up, PDF page 22: 105 5600 standalone brake-lever option",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero",
+    "membership_notes": "Listed as a separate-control option in the 2007 Dura-Ace, Ultegra and 105 line-ups; this does not make BL-R600 a series-numbered component."
+  }
+}

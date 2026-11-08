@@ -1,0 +1,36 @@
+{
+  "id": "shimano-bl-1055",
+  "slug": "bl-1055",
+  "name": "105 SC aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-1055",
+  "weight_g": 252,
+  "weight_description": "Manufacturer-listed: pair of BL-1055 aero brake levers for 23.8–24.2 mm handlebars. Reference hood colour is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-1055-1021/EV-BL-1055-1021.pdf",
+    "title": "Shimano BL-1055 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 24: component specifications; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ],
+    "lever_stroke_mm": 84,
+    "brake_system": "Super SLR",
+    "compatibility_notes": "The 1989 dealer manual specifies BL-1055 with BR-1055 brakes and Shimano SLR outer cable as a set.",
+    "weight_basis": "Pair"
+  }
+}

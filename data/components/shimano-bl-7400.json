@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bl-7400",
+  "slug": "bl-7400",
+  "name": "Dura-Ace standard brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-7400",
+  "weight_g": 216,
+  "weight_description": "Manufacturer-listed: pair of BL-7400 standard brake levers with rubber bracket covers; 24.2 mm handlebar clamp. Reference cover colour is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-7400-0677/EV-BL-7400-0677A.pdf",
+    "title": "Shimano BL-7400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_11.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 11: group membership and brake lever specifications (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Standard",
+    "handlebar_clamp_diameter_mm": 24.2,
+    "weight_basis": "Pair"
+  }
+}

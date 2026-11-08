@@ -1,0 +1,34 @@
+{
+  "id": "shimano-bl-7402",
+  "slug": "bl-7402",
+  "name": "Dura-Ace aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-7402",
+  "weight_g": 240,
+  "weight_description": "Manufacturer-listed: pair of BL-7402 aero brake levers for 23.8–24.2 mm handlebars. Reference hood colour is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-7402-0948/EV-BL-7402-0948.pdf",
+    "title": "Shimano BL-7402 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_52.html",
+      "title": "Shimano Bicycle System Components ’95, page 52: group membership and specifications; published July 1994 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ],
+    "lever_stroke_mm": 88,
+    "weight_basis": "Pair"
+  }
+}

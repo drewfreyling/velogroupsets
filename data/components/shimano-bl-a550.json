@@ -1,0 +1,36 @@
+{
+  "id": "shimano-bl-a550",
+  "slug": "bl-a550",
+  "name": "RX100 aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rx100-a550"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-A550",
+  "weight_g": 252,
+  "weight_description": "Manufacturer-listed: pair of BL-A550 aero brake levers for 23.8–24.2 mm handlebars. Reference hood colour is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-A550-1022/EV-BL-A550-1022.pdf",
+    "title": "Shimano BL-A550 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 28: component specifications; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ],
+    "lever_stroke_mm": 84,
+    "brake_system": "Super SLR",
+    "compatibility_notes": "The 1989 dealer manual specifies BL-A550 with BR-A550 brakes and Shimano SLR outer cable as a set.",
+    "weight_basis": "Pair"
+  }
+}

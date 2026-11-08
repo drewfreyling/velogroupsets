@@ -1,0 +1,43 @@
+{
+  "id": "shimano-bl-tt79",
+  "slug": "bl-tt79",
+  "name": "Dura-Ace time-trial brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7900"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-TT79",
+  "weight_g": 89,
+  "weight_description": "Manufacturer average: pair of BL-TT79 carbon-fibre time-trial brake levers, using the expanding-plug bar-end mount; reference from the April 2026 specification edition.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-TT79-2897/EV-BL-TT79-2897.pdf",
+    "title": "Shimano BL-TT79 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_LINE-UP_CHART.pdf#page=23",
+      "title": "Shimano 2011 product line-up, PDF page 23: BL-TT79 listed with mechanical Dura-Ace 7900",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=144",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 144 (printed page 141): BL-TT79 current pair reference",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Bar-end time-trial",
+    "lever_material": "CFRP",
+    "handlebar_inside_diameter_range_mm": [
+      19.0,
+      22.5
+    ],
+    "handlebar_outside_diameter_range_mm": [
+      22.2,
+      24.0
+    ],
+    "weight_basis": "Pair"
+  }
+}

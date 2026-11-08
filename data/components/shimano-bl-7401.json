@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bl-7401",
+  "slug": "bl-7401",
+  "name": "Dura-Ace aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7400"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-7401",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the December 1987 catalogue lists 254 g for BL-7401 without explicitly establishing a left/right pair reference.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-7401-0773/EV-BL-7401-0773A.pdf",
+    "title": "Shimano BL-7401 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_11.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 11: group membership and brake lever specifications (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_mm": 24.2
+  }
+}

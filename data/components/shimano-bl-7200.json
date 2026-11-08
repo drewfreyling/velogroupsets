@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bl-7200",
+  "slug": "bl-7200",
+  "name": "Dura-Ace EX brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-7200",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant left/right pair weight for BL-7200 road brake levers has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-7200-DURA-ACE%20EX-0297/EV-BL-7200-DURA-ACE%20EX-0297A.pdf",
+    "title": "Shimano BL-7200 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace EX and AX generations",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Road",
+    "handlebar_clamp_diameter_mm": 24.2
+  }
+}

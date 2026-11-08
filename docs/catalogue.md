@@ -71,7 +71,7 @@ The ordered [component-type schema](../data/schemas/component-type.schema.json) 
 
 These are the supported categories. A groupset need not contain every category, and membership must be sourced rather than inferred. In the UI, a missing category means **not yet catalogued**, not proof that the manufacturer never offered it. Additional categories can be added through a schema/documentation change without renaming existing IDs.
 
-Standalone brake levers use `brake-levers` and a left/right pair weight with `specifications.weight_basis: "Pair"`. Integrated shift/brake controls remain `shifters`. Brake calipers are a separate future category. BL-A500 is the first standalone brake-lever record; its source specifies pairing with BR-A500 brakes and Shimano outer cable.
+Standalone brake levers use `brake-levers` and a left/right pair weight with `specifications.weight_basis: "Pair"`. Integrated shift/brake controls remain `shifters`. Brake calipers are a separate future category. See the [standalone brake-lever source notes](brake-levers.md) for documented group membership, variants and remaining gaps. BL-A500’s source specifies pairing with BR-A500 brakes and Shimano outer cable.
 
 ## Record examples
 
@@ -136,7 +136,7 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 40 groupsets from Shimano and Campagnolo and 354 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 40 groupsets from Shimano and Campagnolo and 378 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
 
 The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
 
@@ -177,6 +177,7 @@ The original *Dealers’ 1990 Product Manual*, published in August 1989, provide
 | Front derailleur | FD-A550-B | 100 g; band-on, 28.0–28.6 mm |
 | Rear derailleur | RD-A550 | 280 g; double-chainset version, 28T total capacity |
 | Shifters | SL-A550-FCAI | 72 g; seven-speed braze-on downtube lever set, M5 Italian-type bosses |
+| Brake levers | BL-A550 | 252 g; pair of aero levers for 23.8–24.2 mm handlebars |
 | Cassette | CS-HG70 | 325 g; seven-speed I group, 13–23T sprockets and spacers |
 | Headset | HP-R500 | 121 g; shared with Exage 500EX |
 | Pedals | PD-A550 | Shared record retains the Exage table's 407 g; RX100 table lists 400 g, both including size L toe clips |
@@ -203,16 +204,16 @@ An optional `specifications.cage` records the manufacturer's sourced cage code. 
 
 ## Shimano 105 generation coverage
 
-The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 82 105 component identities across 87 memberships, including the three original R7000 records; the expansion adds nine groupsets and 79 component identities. The whole catalogue now contains two manufacturers, 40 groupsets and 354 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
+The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 87 105 component identities across 92 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains two manufacturers, 40 groupsets and 378 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
 
 ## Shimano Dura-Ace coverage
 
-The [Dura-Ace source guide](dura-ace.md) documents 15 road/track offerings and 123 component identities, from the original 1973 family through R9200. Mechanical/Di2 parts share canonical identities where listed by Shimano. The original family has no component records until suitable manufacturer-hosted technical documents are found. See the guide for dates, source editions, weight configurations and remaining variant gaps.
+The [Dura-Ace source guide](dura-ace.md) documents 15 road/track offerings and 130 component identities, from the original 1973 family through R9200. Mechanical/Di2 parts share canonical identities where listed by Shimano. The original family has no component records until suitable manufacturer-hosted technical documents are found. See the guide for dates, source editions, weight configurations and remaining variant gaps.
 
 ## Exage road range coverage
 
-The [Exage road source guide](exage.md) covers Sport A450/A451, Motion A250, 300EX A300 and 400EX A400 alongside the existing 500EX A500. The five Exage road groupsets now cover 38 unique component identities across 58 memberships, including the shared BL-A251 brake lever pair in 300EX and Motion. It distinguishes the earlier six-speed Uniglide equipment from seven-speed Hyperglide, records only compliant weights and documents the original/revised Sport controls and Motion shifter options.
+The [Exage road source guide](exage.md) covers Sport A450/A451, Motion A250, 300EX A300 and 400EX A400 alongside the existing 500EX A500. The five Exage road groupsets now cover 44 unique component identities across 64 memberships, including the shared BL-A251 brake lever pair in 300EX and Motion. It distinguishes the earlier six-speed Uniglide equipment from seven-speed Hyperglide, records only compliant weights and documents the original/revised Sport controls and Motion shifter options.
 
 ## RSX, Light Action and Campagnolo Record
 
-The [RSX and Light Action guide](rsx-light-action.md) documents 23 RSX components across seven- and eight-speed revisions and ten Light Action rear-derailleur variants. The [Campagnolo Record guide](campagnolo-record.md) records separate eight- and nine-speed family starts and 16 component identities, using the approved archived manufacturer documents.
+The [RSX and Light Action guide](rsx-light-action.md) documents 24 RSX components across seven- and eight-speed revisions and ten Light Action rear-derailleur variants. The [Campagnolo Record guide](campagnolo-record.md) records separate eight- and nine-speed family starts and 17 component identities, using the approved archived manufacturer documents.

@@ -1,0 +1,32 @@
+{
+  "id": "shimano-bl-a410",
+  "slug": "bl-a410",
+  "name": "RSX aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-A410",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the RSX column in the July 1994 specification table leaves the BL-A410 weight blank. The adjacent RX100 and 300EX figures do not apply.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-A410-1497/EV-BL-A410-1497A.pdf",
+    "title": "Shimano BL-A410 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_53.html",
+      "title": "Shimano Bicycle System Components ’95, page 53: group membership and specifications; published July 1994 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ]
+  }
+}

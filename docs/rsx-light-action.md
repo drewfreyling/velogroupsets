@@ -4,7 +4,7 @@
 
 The RSX family has a documented start year of **1994**. Shimano’s *Bicycle System Components ’95* catalogue was published in July 1994: [page 51 introduces RSX](https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_51.html), and [page 53 lists its components and specifications](https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_53.html). The cover’s model year is not substituted for the publication year.
 
-One family record covers original seven-speed A410 equipment and the later eight-speed A416 revision. It includes 23 component identities: four rear-derailleur variants, four double/triple cranks, three front derailleurs, four shifter models, two bottom brackets, four hubs and two cassette configurations. Every component links to Shimano-hosted service instructions or an exploded view.
+One family record covers original seven-speed A410 equipment and the later eight-speed A416 revision. It includes 24 component identities: four rear-derailleur variants, four double/triple cranks, three front derailleurs, four shifter models, two bottom brackets, four hubs, two cassette configurations and BL-A410 standalone brake levers. Every component links to Shimano-hosted service instructions or an exploded view.
 
 The seven-speed double FC-A410 uses 46/36T chainrings; FC-A413 uses 46/36/26T. [SI-1DA0A](https://si.shimano.com/en/pdfs/si/1DA0A/SI-1DA0A-000-00-ENG.pdf) lists BB-LP25 with 110 mm and 118 mm spindles for the respective configurations. The catalogue lists SS and GS rear derailleurs at 28T and 36T total capacity, both with 28T largest and 11T smallest sprockets; maximum front differences are 13T and 20T. Later SI-5UH0B describes an SGS version at 37T capacity. That later figure is not substituted for the catalogue’s GS version.
 
@@ -35,4 +35,4 @@ These are manufacturer-listed derailleur-only weights for the named cage, not es
 
 Further Light Action revisions and other component types require their own source evidence. A service instruction’s compatibility recommendation alone does not prove membership of an independently sold crank, hub or headset in this family.
 
-Standalone brake levers are a supported category; this family’s separate brake-only controls have not yet been added.
+RSX includes BL-A410 alongside its integrated ST controls. No standalone brake lever is assigned to the Light Action derailleur family without explicit membership evidence. See the [brake-lever source notes](brake-levers.md).

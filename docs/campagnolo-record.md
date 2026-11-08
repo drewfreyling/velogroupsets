@@ -17,12 +17,13 @@ The catalogue validator permits only HTTPS URLs on `disraeligears.co.uk` or `www
 
 ## Components and reference edition
 
-The catalogue includes **16 component identities across 23 memberships**, documenting the 1997 Record offering rather than claiming these revisions all launched with the eight-speed family in 1991.
+The catalogue includes **17 component identities across 25 memberships**, documenting the 1997 Record offering rather than claiming these revisions all launched with the eight-speed family in 1991.
 
 | Component | Record 8-speed | Record 9-speed | 1997 catalogue page |
 | --- | --- | --- | --- |
 | Rear derailleur | RD-08RE | RD-09RE | 24 / 22 |
 | Ergopower lever pair | EC-08RECG | EC-09RECG | 40 / 38 |
+| Standalone brake lever pair | BL-22RECG | BL-22RECG | 54 |
 | Double crankset | FC-21RE | FC-21RE | 11 |
 | Braze-on front derailleur | FD-31SRE | FD-31SRE | 31 |
 | Bottom brackets | BB-31RECART / BB-33RECART | BB-31RECART / BB-33RECART | 8 |
@@ -36,4 +37,4 @@ Common Record parts retain one identity and both groupset memberships. The eight
 
 The spare-parts drawings establish model identities and revisions but do not establish compliant component weights. All 16 weights remain null under the [weight guidelines](weights-guidelines.md); rear-derailleur limits also remain unknown until sourced. No modern Record figures are applied retrospectively, and hub weights must exclude skewers. Brake calipers, chains and complete wheelsets remain outside the current taxonomy.
 
-Standalone brake levers are a supported category; this family’s separate brake-only controls have not yet been added.
+BL-22RECG is a separate standalone brake-lever pair, shared by both contemporary Record offerings and documented on approved archive page 54. Its weight remains null because the spare-parts page supplies no pair weight. See the [brake-lever source notes](brake-levers.md).

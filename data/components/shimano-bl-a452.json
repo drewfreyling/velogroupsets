@@ -1,0 +1,28 @@
+{
+  "id": "shimano-bl-a452",
+  "slug": "bl-a452",
+  "name": "Exage Sport brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-sport"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-A452",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant left/right pair weight for BL-A452 road brake levers has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-A451_A452-0825/EV-BL-A451_A452-0825C.pdf",
+    "title": "Shimano BL-A452 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_10.html",
+      "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10: Exage Sport and Motion brake-lever options (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Road"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "shimano-bl-7300",
+  "slug": "bl-7300",
+  "name": "Dura-Ace AX brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-7300",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant left/right pair weight for BL-7300 aero brake levers has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-7300-0436/EV-BL-7300-0436D.pdf",
+    "title": "Shimano BL-7300 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/14.html",
+      "title": "Shimano 100 Products History: Dura-Ace EX and AX generations",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero"
+  }
+}

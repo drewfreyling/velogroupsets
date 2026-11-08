@@ -71,24 +71,3 @@ For a known `weight_g`, the following `specifications` fields identify the actua
 | Cassette | Integer `rear_speeds` of at least two; an increasing `sprocket_range` such as `11–28T` or a complete increasing `sprockets_teeth` list whose length matches the speed count; if both are present they must agree |
 
 Hub-skewer exclusions remain mandatory even when the weight is unknown. All records still require a `weight_g` field, description and sources. Unknown weights use null, never zero or an invented number.
-
-## Catalogue audit — 8 November 2026
-
-All existing records were reviewed. Five crankset weights were replaced with directly published crank-only figures from [Shimano's 2017–2018 handbook](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf):
-
-| Model | Weight without bottom bracket | Reference | PDF page |
-| --- | --- | --- | --- |
-| FC-5800 | 757 g | 170 mm, 50/34T | 170 |
-| FC-6750 | 699 g | 170 mm, 50/34T | 171 |
-| FC-6703 | 803 g | 170 mm, 52/39/30T | 171 |
-| FC-5750 | 716 g | 170 mm, 50/34T | 171 |
-| FC-5703 | 831 g | 170 mm, 50/39/30T | 172 |
-
-Sixteen previously numeric weights are now null:
-
-- Ten cranksets with only combined bottom-bracket totals: FC-5600, FC-5603, FC-5700, FC-6600, FC-6601-G, FC-6603, FC-6604-G, FC-6650-G, FC-6650-S and FC-6700.
-- Three square-taper bottom brackets without an identified weighed spindle length: BB-1050, BB-1055 and BB-6400.
-- ST-R7000-L and ST-R7000-R, whose records identify individual levers rather than a pair.
-- FD-1056-B, whose cited weight does not identify the clamp size.
-
-The audit also makes pair weights explicit, records the documented clamp dimensions, and identifies every cassette's speed and tooth range. The eight-speed U-group cassette uses Shimano's documented 12-13-14-15-17-19-21-23T sequence. Original IDs and catalogue memberships are preserved. The seven previously unknown hub weights remain unknown, bringing the total to 23 unknown weights; no undocumented deductions or pair calculations were used.

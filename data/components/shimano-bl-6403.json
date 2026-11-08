@@ -1,0 +1,33 @@
+{
+  "id": "shimano-bl-6403",
+  "slug": "bl-6403",
+  "name": "600 Ultegra aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-6403",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the July 1994 table lists 272 g for BL-6403 without explicitly establishing a left/right pair reference.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/si/8BC0B/SI-8BC0B-000-00-ENG.pdf",
+    "title": "Shimano BL-6403 brake system service instructions",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_52.html",
+      "title": "Shimano Bicycle System Components ’95, page 52: group membership and specifications; published July 1994 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ],
+    "brake_system": "Super SLR"
+  }
+}

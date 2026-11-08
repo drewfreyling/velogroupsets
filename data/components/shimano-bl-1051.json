@@ -1,0 +1,34 @@
+{
+  "id": "shimano-bl-1051",
+  "slug": "bl-1051",
+  "name": "105 aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-1051",
+  "weight_g": 252,
+  "weight_description": "Manufacturer-listed: pair of BL-1051 aero brake levers, including rubber covers; 23.8–24.2 mm handlebar clamp. Reference cover colour is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-1051_1052-0762/EV-BL-1051_1052-0762F.pdf",
+    "title": "Shimano BL-1051 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_23.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 23: group membership and brake lever specifications (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ],
+    "brake_system": "SLR",
+    "weight_basis": "Pair"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "campagnolo-bl-22recg",
+  "slug": "bl-22recg",
+  "name": "Record standalone brake lever pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-8-speed",
+    "campagnolo-record-9-speed"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-22RECG",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the 1997 Record spare-parts page identifies BL-22RECG but supplies no left/right pair weight.",
+  "technical_document": {
+    "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_54.html",
+    "title": "Campagnolo 1997 spare-parts catalogue, page 54: Record BL-22RECG brake levers (approved archived manufacturer document, preserved by Disraeli Gears)",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_54.html",
+      "title": "Campagnolo 1997 spare-parts catalogue, page 54: Record BL-22RECG brake levers (approved archived manufacturer document, preserved by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Road",
+    "membership_notes": "The 1997 catalogue lists one Record standalone brake-lever assembly alongside the separate eight- and nine-speed Ergopower systems. This shared lever has one identity for both contemporary Record offerings."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-bl-6402",
+  "slug": "bl-6402",
+  "name": "600 Ultegra aero, short reach brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-6402",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the 1989 dealer manual lists BL-6402 but assigns its 260 g pair figure specifically to BL-6401.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-6401_6402-0816/EV-BL-6401_6402-0816A.pdf",
+    "title": "Shimano BL-6402 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: component specifications; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero, short reach",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ],
+    "lever_stroke_mm": 79,
+    "brake_system": "SLR"
+  }
+}

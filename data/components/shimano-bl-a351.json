@@ -1,0 +1,35 @@
+{
+  "id": "shimano-bl-a351",
+  "slug": "bl-a351",
+  "name": "Exage 400EX aero brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400ex"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-A351",
+  "weight_g": 302,
+  "weight_description": "Manufacturer-listed: pair of BL-A351 aero brake levers for 23.8–24.2 mm handlebars. Reference hood colour is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-A351-0926/EV-BL-A351-0926.pdf",
+    "title": "Shimano BL-A351 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_33.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 33: component specifications; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "lever_style": "Aero",
+    "handlebar_clamp_diameter_range_mm": [
+      23.8,
+      24.2
+    ],
+    "lever_stroke_mm": 88,
+    "brake_system": "SLR",
+    "weight_basis": "Pair"
+  }
+}

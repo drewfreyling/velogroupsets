@@ -1,6 +1,6 @@
 # Shimano Dura-Ace coverage
 
-The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the 7600/7710 track range. There are 15 groupset records and 123 component identities across 146 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
+The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the 7600/7710 track range. There are 15 groupset records and 130 component identities across 153 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
 
 ## Dates and families
 
@@ -54,3 +54,5 @@ Crank weights identify arm length and chainrings and exclude the bottom bracket.
 Published average weights can differ between specification editions. Each numeric weight cites the edition and reference configuration used; values from different editions have not been averaged. Unknown rear-derailleur capacity limits remain null and display as unsourced. RD-7800-SS follows the 14T front difference in SI-5V50E; its record notes that the 2008 consumer catalogue instead lists 16T.
 
 Still to add: manufacturer-documented original 1973 components, further early track parts, additional cage/mount/chainring/cassette variants, and missing configurations or weights. Brake calipers, chains, fixed track sprockets, batteries and complete wheelsets are outside the current component taxonomy. Their omission does not imply they were absent from a groupset.
+
+Standalone brake-lever models and their source limitations are documented in the [brake-lever source notes](brake-levers.md). Integrated shift/brake controls remain in the Shifters category.
