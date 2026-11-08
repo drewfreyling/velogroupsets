@@ -53,6 +53,8 @@ jobs:
           python-version: '3.13'
       - name: Install checksum-verified OpenTofu
         run: bash scripts/install_opentofu.sh
+      - name: Prepare lock-verified Cloudflare provider mirror
+        run: bash scripts/install_cloudflare_provider.sh
       - run: python3 -m pip install -r scripts/requirements-infra.txt
       - name: Inspect state or verify R2 locking and save plan
         id: plan
@@ -89,6 +91,8 @@ jobs:
           python-version: '3.13'
       - name: Install checksum-verified OpenTofu
         run: bash scripts/install_opentofu.sh
+      - name: Prepare lock-verified Cloudflare provider mirror
+        run: bash scripts/install_cloudflare_provider.sh
       - run: python3 -m pip install -r scripts/requirements-infra.txt
       - name: Verify approval policy and apply exact plan
         env:

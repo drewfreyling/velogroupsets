@@ -33,3 +33,26 @@ class InstallerTests(unittest.TestCase):
 
     def test_failed_download_never_installs(self):
         self.run_installer('1.13.9','exit 22')
+
+    def run_provider_installer(self,lock):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            (root/'infra/opentofu').mkdir(parents=True)
+            (root/'infra/opentofu/.terraform.lock.hcl').write_text(lock)
+            (root/'curl').write_text('#!/usr/bin/env bash\nwhile [[ $# -gt 0 ]]; do\n if [[ $1 == --output ]]; then printf corrupt > "$2"; exit 0; fi\n shift\ndone\nexit 1\n')
+            (root/'curl').chmod(0o755)
+            env={**os.environ,'PATH':str(root)+':'+os.environ['PATH'],
+                 'RUNNER_TEMP':str(root),'GITHUB_ENV':str(root/'runner-env')}
+            result=subprocess.run(['bash',str(ROOT/'scripts/install_cloudflare_provider.sh')],cwd=root,env=env,capture_output=True,text=True)
+            self.assertNotEqual(result.returncode,0)
+            self.assertFalse((root/'runner-env').exists())
+            self.assertFalse((root/'provider-mirror.tfrc').exists())
+            return result
+
+    def test_provider_mirror_rejects_unlocked_version(self):
+        result=self.run_provider_installer('version = "0.0.0"')
+        self.assertIn('must match the committed dependency lock',result.stderr)
+
+    def test_provider_mirror_rejects_corrupt_download(self):
+        result=self.run_provider_installer((ROOT/'infra/opentofu/.terraform.lock.hcl').read_text())
+        self.assertIn('FAILED',result.stdout)
