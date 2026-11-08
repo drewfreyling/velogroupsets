@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "@fontsource-variable/source-sans-3";
 
 /* Brand values stay fixed. Semantic pairs follow the root color-scheme. */
 :root {
@@ -43,12 +44,12 @@
   --color-warning-text: var(--warning-text);
   --color-error-bg: var(--error-bg);
   --color-error-text: var(--error-text);
-  --font-sans: "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Source Sans 3 Variable", "Segoe UI", system-ui, sans-serif;
 }
 
 @layer base {
   html { scroll-behavior: smooth; accent-color: var(--brand-base); }
-  body { @apply bg-paper text-ink antialiased; }
+  body { @apply bg-paper text-ink font-sans antialiased; }
   a { color: var(--link); }
   a:hover { color: var(--link-hover); }
   a, button, input, select { @apply focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-accent; }

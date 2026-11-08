@@ -1,6 +1,14 @@
-# Colour and theme guide
+# Colour, typography and theme guide
 
 The interface uses a teal brand palette with cool, teal-tinted neutrals. Keep colour values in [global.css](../apps/web/src/styles/global.css) and use semantic Tailwind utilities in templates. The favicon is a standalone SVG and uses the same brand values.
+
+## Typography
+
+**Source Sans 3** is the main typeface for body copy, headings, navigation and form controls in both themes. The variable font supports weights 200–900. Model identifiers retain the existing monospace font.
+
+The pinned `@fontsource-variable/source-sans-3` dependency supplies the font files. Astro bundles them as self-hosted, content-hashed WOFF2 assets under `/_astro/`, using the existing one-year immutable cache policy. Unicode subsets load only when needed; the shared layout preloads the main Latin subset. `font-display: swap` keeps text readable during loading, with Segoe UI/system sans-serif fallbacks. No external font stylesheet, font service or CSP exception is required.
+
+Source Sans 3 is distributed under the SIL Open Font License 1.1; its [licence notice](../apps/web/public/fonts/source-sans-3-LICENSE.txt) is included in the public assets.
 
 ## Brand colours
 

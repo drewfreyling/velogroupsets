@@ -1,6 +1,7 @@
 ---
 import ExternalLink from '../components/ExternalLink.astro';
 import '../styles/global.css';
+import sourceSansFont from '@fontsource-variable/source-sans-3/files/source-sans-3-latin-wght-normal.woff2?url';
 const { title = 'Bicycle groupset and component specifications', description = 'Specifications for bicycle groupsets and components, each linked to its source.', noindex = false } = Astro.props;
 const staging = import.meta.env.SITE.includes('staging.') || import.meta.env.SITE.includes('localhost');
 const canonical = new URL(Astro.url.pathname, Astro.site);
@@ -10,6 +11,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" href={sourceSansFont} as="font" type="font/woff2" crossorigin="anonymous" />
     <script is:inline src="/theme.js"></script>
     <title>{title} · VeloGroupsets</title>
     <meta name="description" content={description} />

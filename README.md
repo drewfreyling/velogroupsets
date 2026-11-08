@@ -27,7 +27,7 @@ The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear
 
 See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. Astro generates the frontend with Tailwind compiled at build time; browser search and type/groupset filters work without API requests.
 
-The [colour and theme guide](docs/design.md) documents the teal palette, contrast rules and dark-mode behaviour.
+The [design guide](docs/design.md) documents the teal palette, self-hosted Source Sans 3 typography, contrast rules and dark-mode behaviour.
 
 ## Architecture
 
