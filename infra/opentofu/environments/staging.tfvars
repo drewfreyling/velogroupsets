@@ -9,3 +9,4 @@ manage_zone_tls      = true
 minimum_tls_version  = "1.3"
 site_zone_name       = "velogroupsets.com"
 manage_zone_caa      = true
+manage_zone_email    = true

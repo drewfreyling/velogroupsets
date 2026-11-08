@@ -177,7 +177,7 @@ OpenTofu configuration lives in `infra/opentofu/`, with separate environment inp
 
 | Owner | Scope |
 | --- | --- |
-| OpenTofu | D1, application R2 buckets/CORS/lifecycle/public-domain settings, Turnstile, website custom domains and shared zone HTTPS/TLS/HSTS settings; future cache/WAF rules |
+| OpenTofu | D1, application R2 buckets/CORS/lifecycle/public-domain settings, Turnstile, website custom domains, shared zone HTTPS/TLS/HSTS, CAA and imported Email Routing DNS/contact rule; future cache/WAF rules |
 | Wrangler + GitHub Actions | Worker definition/code, static assets, bindings, runtime configuration and secret injection |
 | Database migrations | D1 tables, indexes and schema changes |
 | Independent bootstrap | Dedicated private R2 state bucket and its retention/access settings |

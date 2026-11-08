@@ -66,6 +66,7 @@ jobs:
           TARGET_ENVIRONMENT: ${{ inputs.environment }}
           OPERATION: ${{ inputs.operation }}
           INSPECT_KEY: ${{ inputs.inspect_key }}
+          EMAIL_FORWARDING_DESTINATION: ${{ secrets.EMAIL_FORWARDING_DESTINATION }}
         run: |
           if [[ "$OPERATION" == "inspect" ]]; then
             python3 scripts/infra.py inspect --environment "$TARGET_ENVIRONMENT" --inspect-key "$INSPECT_KEY"
@@ -103,4 +104,5 @@ jobs:
           TARGET_ENVIRONMENT: ${{ inputs.environment }}
           PLAN_KEY: ${{ needs.plan.outputs.plan_key }}
           PLAN_SHA256: ${{ needs.plan.outputs.plan_sha256 }}
+          EMAIL_FORWARDING_DESTINATION: ${{ secrets.EMAIL_FORWARDING_DESTINATION }}
         run: python3 scripts/infra.py apply --environment "$TARGET_ENVIRONMENT"

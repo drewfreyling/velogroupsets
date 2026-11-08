@@ -92,3 +92,28 @@ variable "import_zone_settings" {
   type        = bool
   default     = true
 }
+variable "manage_zone_email" {
+  description = "Import and own shared Email Routing DNS and contact forwarding in staging state only."
+  type        = bool
+  default     = false
+}
+variable "email_forwarding_destination" {
+  description = "Private existing verified destination, supplied only by GitHub environment secret. Retained in encrypted state/plan."
+  type        = string
+  default     = null
+  sensitive   = true
+  validation {
+    condition     = var.email_forwarding_destination == null ? true : can(regex("^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$", var.email_forwarding_destination))
+    error_message = "The forwarding secret must contain one email address without surrounding whitespace."
+  }
+}
+variable "email_contact_metadata" {
+  description = "Private runner-discovered import metadata; no destination is committed to configuration."
+  type = object({
+    id       = string
+    name     = optional(string)
+    priority = optional(number)
+  })
+  default   = null
+  sensitive = true
+}

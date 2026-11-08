@@ -25,6 +25,8 @@ The source-code licence does **not** apply to user photos. The upload licence is
 3. Use this contact for privacy/copyright/takedown requests and the Cloudflare CSAM notifications. Review the inbox and moderation queue daily. Reports submitted through the website enter the private moderation queue; the application does not send report notification emails.
 4. Set the public operator/address and `CONTACT_READY=true` only after those checks. Policy pages otherwise display a draft notice and sign-in stays closed. The flag records the operator’s confirmation; code cannot prove that an inbox is being monitored.
 
+The existing mail configuration is adopted through the infrastructure workflow, using the private `EMAIL_FORWARDING_DESTINATION` environment secret and sensitive OpenTofu variables. The forwarding address is not committed or published; it does remain in encrypted private state/plans. See [Email Routing ownership](../infra/README.md#email-routing-ownership). Infrastructure plans also inspect the CSAM API and print only enabled/verification status; they do not enable the application upload feature.
+
 ### Google sign-in
 
 Create a Google OAuth **Web application** client and configure its consent screen. Use separate clients/secrets for staging and production where practical. Basic OpenID/email scopes do not require access to Google’s mail, files or contacts.

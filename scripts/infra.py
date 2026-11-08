@@ -284,11 +284,24 @@ def main():
         with tempfile.TemporaryDirectory() as temp:
             plan = Path(temp) / "saved.tofuplan"
             if args.operation == "plan":
+                mail_enabled = re.search(r"^\s*manage_zone_email\s*=\s*true\s*(?:#.*)?$", (CONFIG / 'environments' / f'{args.environment}.tfvars').read_text(), re.M)
+                if mail_enabled:
+                    if args.environment != 'staging':
+                        raise ValueError('Shared mail resources must use staging-state ownership.')
+                    from cloudflare_services import mail_plan_environment, csam_status
+                    # These are the already-reviewed public zone identifiers.
+                    zone, domain = '7f6cc6f517450ef96d9f8b2bd891ee80', 'velogroupsets.com'
+                    env.update(mail_plan_environment(zone, domain, os.environ.get('EMAIL_FORWARDING_DESTINATION'), os.environ['CLOUDFLARE_API_TOKEN']))
+                    status = csam_status(zone, os.environ['CLOUDFLARE_API_TOKEN'])
+                    print(f"CSAM configuration: enabled={str(status['enabled']).lower()}, email_state={status['email_state']}. Notification address not logged.")
                 tofu(["plan", "-lock-timeout=60s", f"-var-file=environments/{args.environment}.tfvars", f"-out={plan}"], env)
                 data = plan.read_bytes()
                 digest = hashlib.sha256(data).hexdigest()
                 verify_plan(data, digest)
                 details = json.loads(tofu(["show", "-json", str(plan)], env))
+                if mail_enabled:
+                    from cloudflare_services import check_mail_adoption
+                    check_mail_adoption(details)
                 changes = review_actions(details)
                 client.put_object(Bucket=BUCKET, Key=key, Body=data, IfNoneMatch="*")
                 with open(os.environ["GITHUB_OUTPUT"], "a") as output:

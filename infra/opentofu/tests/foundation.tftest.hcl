@@ -13,6 +13,10 @@ run "private_by_default" {
     error_message = "CAA must be opt-in so production cannot duplicate shared zone ownership."
   }
   assert {
+    condition     = length(cloudflare_email_routing_dns.mail) == 0 && length(cloudflare_email_routing_rule.contact) == 0
+    error_message = "Shared mail ownership must be opt-in and absent from production defaults."
+  }
+  assert {
     condition     = !cloudflare_r2_managed_domain.uploads.enabled && !cloudflare_r2_managed_domain.photos.enabled && !cloudflare_r2_managed_domain.evidence.enabled && length(cloudflare_r2_custom_domain.photos) == 0
     error_message = "Storage must not expose a public endpoint by default."
   }
@@ -145,4 +149,34 @@ run "reject_legacy_tls" {
     minimum_tls_version = "1.1"
   }
   expect_failures = [var.minimum_tls_version]
+}
+run "adopt_shared_mail_with_private_destination" {
+  command = plan
+  variables {
+    manage_zone_email            = true
+    zone_id                      = "0123456789abcdef0123456789abcdef"
+    site_zone_name               = "example.com"
+    email_forwarding_destination = "private-recipient@example.test"
+    email_contact_metadata       = { id = "0123456789abcdef0123456789abcdef", name = "Existing contact", priority = 17 }
+  }
+  assert {
+    condition     = cloudflare_email_routing_dns.mail[0].zone_id == var.zone_id && cloudflare_email_routing_dns.mail[0].name == "example.com"
+    error_message = "Mail DNS ownership must target the existing apex zone."
+  }
+  assert {
+    condition     = cloudflare_email_routing_rule.contact[0].actions[0].value[0] == var.email_forwarding_destination && cloudflare_email_routing_rule.contact[0].matchers[0].value == "contact@example.com" && cloudflare_email_routing_rule.contact[0].priority == 17 && cloudflare_email_routing_rule.contact[0].enabled
+    error_message = "Preserve the contact destination, matching address, priority and enabled status."
+  }
+}
+run "reject_duplicate_email_ownership" {
+  command = plan
+  variables {
+    environment                  = "production"
+    manage_zone_email            = true
+    zone_id                      = "0123456789abcdef0123456789abcdef"
+    site_zone_name               = "example.com"
+    email_forwarding_destination = "private-recipient@example.test"
+    email_contact_metadata       = { id = "0123456789abcdef0123456789abcdef", name = "Existing contact", priority = 17 }
+  }
+  expect_failures = [cloudflare_email_routing_dns.mail, cloudflare_email_routing_rule.contact]
 }
