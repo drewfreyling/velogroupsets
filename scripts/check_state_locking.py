@@ -18,6 +18,9 @@ resource "terraform_data" "hold" {
   provisioner "local-exec" { command = "python3 hold.py" }
 }
 ''')
+        if not backend:
+            with (root / "main.tf").open("a") as config:
+                config.write('\noutput "probe_public" { value = "synthetic public output" }\noutput "probe_private" {\n value = "synthetic private output"\n sensitive = true\n}\n')
         (root / "hold.py").write_text('''from pathlib import Path
 import time
 Path("ready").touch()
@@ -60,6 +63,13 @@ else:
             raise RuntimeError("OpenTofu did not encrypt the saved probe plan.")
         if not backend and not encrypted((root / "terraform.tfstate").read_bytes()):
             raise RuntimeError("OpenTofu did not encrypt local state.")
+        if not backend:
+            from prepare_web_deploy import read_state_outputs
+            outputs = read_state_outputs((root / "terraform.tfstate").read_bytes(), env)
+            if (outputs["probe_public"]["value"] != "synthetic public output"
+                    or outputs["probe_public"]["sensitive"] is not False
+                    or outputs["probe_private"]["sensitive"] is not True):
+                raise RuntimeError("Isolated encrypted output extraction lost values or sensitivity metadata.")
         tofu(["destroy", "-auto-approve", "-lock-timeout=1s"], env, cwd=root)
         success = True
     if success and client:
