@@ -90,9 +90,17 @@ class GoogleVerificationTests(unittest.TestCase):
         fetch = Mock(side_effect=[{'result': [spf], 'result_info': {'total_pages': 2}},
                                   {'result': [self.record()], 'result_info': {'total_pages': 2}}])
         result = google_verification_metadata(ZONE, 'example.test', 'google-site-verification=fictional-proof', 'token', fetch)
-        self.assertEqual(result, {'id': 'c' * 32, 'ttl': 1, 'comment': 'Existing note', 'tags': ['owner:example']})
+        self.assertEqual(result, {'id': 'c' * 32, 'content': 'google-site-verification=fictional-proof', 'ttl': 1, 'comment': 'Existing note', 'tags': ['owner:example']})
         self.assertIn('page=2', fetch.call_args.args[0])
         self.assertIn('type=TXT', fetch.call_args.args[0])
+
+    def test_quoted_txt_content_is_matched_without_changing_its_api_representation(self):
+        quoted = json.dumps('google-site-verification=fictional-proof')
+        self.assertEqual(self.discover([self.record(content=quoted)])['content'], quoted)
+        for value in [quoted + ' "another-chunk"', '""google-site-verification=fictional-proof""',
+                      'google-site-verification=fictional-proof ']:
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                self.discover([self.record(content=value)])
 
     def test_missing_ambiguous_or_mismatched_records_fail_without_guessing(self):
         for records in [[], [self.record(), self.record()],

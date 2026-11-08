@@ -127,9 +127,10 @@ variable "google_site_verification_content" {
   }
 }
 variable "google_site_verification_metadata" {
-  description = "Existing DNS record ID and metadata discovered read-only by the planning runner."
+  description = "Existing DNS record ID, exact API content and metadata discovered read-only by the planning runner."
   type = object({
     id      = string
+    content = string
     ttl     = number
     comment = optional(string)
     tags    = optional(list(string), [])

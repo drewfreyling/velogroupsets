@@ -102,7 +102,7 @@ def google_verification_metadata(zone, domain, content, token, fetcher=cloudflar
         query = urlencode({'type': 'TXT', 'name': domain, 'page': page, 'per_page': 100})
         data = fetcher(f'/zones/{zone}/dns_records?{query}', token)
         for record in data.get('result', []):
-            if record.get('type') == 'TXT' and record.get('name') == domain and record.get('content') == content:
+            if record.get('type') == 'TXT' and record.get('name') == domain and record.get('content') in (content, json.dumps(content)):
                 matches.append(record)
         total = (data.get('result_info') or {}).get('total_pages', 1)
         if type(total) is not int or not 1 <= total <= 20:
@@ -110,7 +110,7 @@ def google_verification_metadata(zone, domain, content, token, fetcher=cloudflar
         if page >= total:
             break
     if len(matches) != 1:
-        raise ValueError('Expected exactly one existing matching Google verification TXT record; no DNS was changed.')
+        raise ValueError(f'Expected exactly one existing matching Google verification TXT record (found {len(matches)}); no DNS was changed.')
     record = matches[0]
     identifier, ttl = record.get('id'), record.get('ttl')
     comment, tags = record.get('comment'), record.get('tags', [])
@@ -120,7 +120,9 @@ def google_verification_metadata(zone, domain, content, token, fetcher=cloudflar
             or (comment is not None and not isinstance(comment, str))
             or not isinstance(tags, list) or not all(isinstance(tag, str) for tag in tags)):
         raise ValueError('Existing verification record metadata is unsupported; no DNS was changed.')
-    return {'id': identifier, 'ttl': ttl, 'comment': comment, 'tags': tags}
+    # Cloudflare may store a TXT proof with wrapping quotes. Preserve that exact
+    # representation in configuration so import does not propose rewriting it.
+    return {'id': identifier, 'content': record['content'], 'ttl': ttl, 'comment': comment, 'tags': tags}
 
 
 def check_google_verification_adoption(details):

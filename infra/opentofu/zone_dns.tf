@@ -34,7 +34,7 @@ resource "cloudflare_dns_record" "google_site_verification" {
   zone_id = var.zone_id
   name    = var.site_zone_name
   type    = "TXT"
-  content = var.google_site_verification_content
+  content = try(var.google_site_verification_metadata.content, var.google_site_verification_content)
   ttl     = try(var.google_site_verification_metadata.ttl, 1)
   proxied = false
   comment = try(var.google_site_verification_metadata.comment, null)

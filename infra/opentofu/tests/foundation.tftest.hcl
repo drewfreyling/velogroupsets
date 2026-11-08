@@ -193,6 +193,7 @@ run "google_verification_preserves_existing_dns" {
     google_site_verification_content = "google-site-verification=fictional-public-proof"
     google_site_verification_metadata = {
       id      = "11111111111111111111111111111111"
+      content = jsonencode("google-site-verification=fictional-public-proof")
       ttl     = 1
       comment = "Existing verification"
       tags    = ["owner:example"]
@@ -202,7 +203,7 @@ run "google_verification_preserves_existing_dns" {
     condition = (
       cloudflare_dns_record.google_site_verification[0].name == "example.com" &&
       cloudflare_dns_record.google_site_verification[0].type == "TXT" &&
-      cloudflare_dns_record.google_site_verification[0].content == "google-site-verification=fictional-public-proof" &&
+      cloudflare_dns_record.google_site_verification[0].content == jsonencode("google-site-verification=fictional-public-proof") &&
       cloudflare_dns_record.google_site_verification[0].ttl == 1 &&
       cloudflare_dns_record.google_site_verification[0].proxied == false &&
       cloudflare_dns_record.google_site_verification[0].comment == "Existing verification" &&
@@ -228,7 +229,7 @@ run "reject_duplicate_google_verification_ownership" {
     zone_id                           = "0123456789abcdef0123456789abcdef"
     site_zone_name                    = "example.com"
     google_site_verification_content  = "google-site-verification=fictional-public-proof"
-    google_site_verification_metadata = { id = "11111111111111111111111111111111", ttl = 300 }
+    google_site_verification_metadata = { id = "11111111111111111111111111111111", content = "google-site-verification=fictional-public-proof", ttl = 300 }
   }
   expect_failures = [cloudflare_dns_record.google_site_verification]
 }
