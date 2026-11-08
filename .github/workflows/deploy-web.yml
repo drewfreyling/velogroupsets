@@ -39,16 +39,7 @@ jobs:
         with:
           python-version: '3.13'
       - name: Install checksum-verified OpenTofu
-        # Pinned linux_amd64 ZIP digest from the 1.13.9 release SHA256SUMS.
-        # Keep this aligned with .opentofu-version; never skip verification.
-        env:
-          TOFU_ZIP_SHA256: bc44eb6b06446ba83bd4072114891987f590f66cca712737a7f1147c50c539ce
-        run: |
-          curl --fail --location --retry 3 --retry-all-errors --connect-timeout 15 --max-time 120 --output "$RUNNER_TEMP/opentofu.zip" https://github.com/opentofu/opentofu/releases/download/v1.13.9/tofu_1.13.9_linux_amd64.zip
-          printf '%s  %s\n' "$TOFU_ZIP_SHA256" "$RUNNER_TEMP/opentofu.zip" | sha256sum --check
-          mkdir -p "$RUNNER_TEMP/opentofu"
-          unzip -o "$RUNNER_TEMP/opentofu.zip" tofu -d "$RUNNER_TEMP/opentofu"
-          echo "$RUNNER_TEMP/opentofu" >> "$GITHUB_PATH"
+        run: bash scripts/install_opentofu.sh
       - run: python3 -m pip install -r scripts/requirements-infra.txt
       - name: Validate existing state and bindings without infrastructure writes
         env:
@@ -95,16 +86,7 @@ jobs:
         with:
           python-version: '3.13'
       - name: Install checksum-verified OpenTofu
-        # Pinned linux_amd64 ZIP digest from the 1.13.9 release SHA256SUMS.
-        # Keep this aligned with .opentofu-version; never skip verification.
-        env:
-          TOFU_ZIP_SHA256: bc44eb6b06446ba83bd4072114891987f590f66cca712737a7f1147c50c539ce
-        run: |
-          curl --fail --location --retry 3 --retry-all-errors --connect-timeout 15 --max-time 120 --output "$RUNNER_TEMP/opentofu.zip" https://github.com/opentofu/opentofu/releases/download/v1.13.9/tofu_1.13.9_linux_amd64.zip
-          printf '%s  %s\n' "$TOFU_ZIP_SHA256" "$RUNNER_TEMP/opentofu.zip" | sha256sum --check
-          mkdir -p "$RUNNER_TEMP/opentofu"
-          unzip -o "$RUNNER_TEMP/opentofu.zip" tofu -d "$RUNNER_TEMP/opentofu"
-          echo "$RUNNER_TEMP/opentofu" >> "$GITHUB_PATH"
+        run: bash scripts/install_opentofu.sh
       - run: npm ci --no-audit --no-fund
       - run: python3 -m pip install -r scripts/requirements-infra.txt
       - name: Build exact approved commit

@@ -51,10 +51,8 @@ jobs:
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.13'
-      - uses: opentofu/setup-opentofu@a1320f892987e89d278cc92dc5adc984fb93aca4 # v2.0.2
-        with:
-          tofu_version: 1.13.9
-          tofu_wrapper: false
+      - name: Install checksum-verified OpenTofu
+        run: bash scripts/install_opentofu.sh
       - run: python3 -m pip install -r scripts/requirements-infra.txt
       - name: Inspect state or verify R2 locking and save plan
         id: plan
@@ -89,10 +87,8 @@ jobs:
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.13'
-      - uses: opentofu/setup-opentofu@a1320f892987e89d278cc92dc5adc984fb93aca4 # v2.0.2
-        with:
-          tofu_version: 1.13.9
-          tofu_wrapper: false
+      - name: Install checksum-verified OpenTofu
+        run: bash scripts/install_opentofu.sh
       - run: python3 -m pip install -r scripts/requirements-infra.txt
       - name: Verify approval policy and apply exact plan
         env:
