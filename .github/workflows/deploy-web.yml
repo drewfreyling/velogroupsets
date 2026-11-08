@@ -36,8 +36,8 @@ jobs:
       ASTRO_TELEMETRY_DISABLED: '1'
       WRANGLER_SEND_METRICS: 'false'
       CI: 'true'
-      PUBLIC_SITE_OPERATOR: ${{ vars.PUBLIC_SITE_OPERATOR }}
-      PUBLIC_CONTACT_EMAIL: ${{ vars.PUBLIC_CONTACT_EMAIL }}
+      PUBLIC_SITE_OPERATOR: ${{ vars.PUBLIC_SITE_OPERATOR || 'Drew Freyling' }}
+      PUBLIC_CONTACT_EMAIL: ${{ vars.PUBLIC_CONTACT_EMAIL || 'contact@velogroupsets.com' }}
       CONTACT_READY: ${{ vars.CONTACT_READY }}
       GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_CLIENT_ID }}
       UPLOADS_ENABLED: ${{ vars.UPLOADS_ENABLED }}

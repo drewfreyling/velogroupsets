@@ -85,6 +85,8 @@ OpenTofu adds `velogroupsets-<environment>-evidence` as private R2 storage with 
 5. Enable uploads deliberately, redeploy and submit your own harmless test photo. Check the actual Turnstile challenge, pending-only visibility, decoded/metadata-free result, moderator approval, published gallery, anonymous report, owner removal, and a report removal while the CDN copy is cached. Verify the CSAM enrolment in the dashboard; an ordinary test photo cannot prove a known-hash match.
 6. Verify `GET /api/community/config` reports the intended availability. Do not mark external-provider tests complete merely because mocked tests pass.
 
+The deployment defaults to **Drew Freyling** as operator and **contact@velogroupsets.com** as the public contact. The corresponding variables can override these public defaults. The private forwarding destination belongs only in Cloudflare Email Routing, never Git. These defaults do not set `CONTACT_READY`; verify delivery and monitoring before confirming it.
+
 ### Local checks
 
 `npm run worker:dev` applies local D1 migrations before starting Wrangler. Local configuration uses separate local D1/R2 resources and keeps community launch disabled. Use `.dev.vars` for local credentials if needed; never commit it. Local synthetic tests do not need Google/Cloudflare credentials or real user photos.
