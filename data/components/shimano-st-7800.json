@@ -1,7 +1,7 @@
 {
   "id": "shimano-st-7800",
   "slug": "st-7800",
-  "name": "Dura-Ace shifters",
+  "name": "Dura-Ace shifter pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-dura-ace-7800"
@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "ST-7800",
   "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-7800-2258/EV-ST-7800-2258.pdf",
     "title": "Shimano ST-7800 exploded view and replacement parts",
@@ -21,5 +21,8 @@
       "title": "Shimano ST-7800 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
     }
-  ]
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
 }

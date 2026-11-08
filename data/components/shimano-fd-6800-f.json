@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-6800-f",
+  "slug": "fd-6800-f",
+  "name": "Ultegra eleven-speed braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6800"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-6800-F",
+  "weight_g": 89,
+  "weight_description": "Manufacturer average: FD-6800-F braze-on front derailleur; excludes any clamp adapter.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-6800-3604/EV-FD-6800-3604E.pdf",
+    "title": "Shimano FD-6800-F exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=50",
+      "title": "Shimano 2014–2015 product line-up, PDF page 50: mechanical Ultegra 6800 and listed options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=163",
+      "title": "Shimano 2017–2018 specifications, PDF page 163",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "maximum_front_difference_teeth": 16
+  }
+}

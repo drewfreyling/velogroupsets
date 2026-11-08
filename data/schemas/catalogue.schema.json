@@ -231,6 +231,28 @@
           "type": "boolean",
           "const": true,
           "description": "Required for front/rear hubs; weights must exclude skewers."
+        },
+        "aliases": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Reserved previous component IDs and slugs merged into this canonical record.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "slug"
+            ],
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/id"
+              },
+              "slug": {
+                "$ref": "#/$defs/slug"
+              }
+            }
+          }
         }
       },
       "required": [
@@ -320,6 +342,32 @@
                       "null"
                     ],
                     "minimum": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "shifters"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "specifications"
+            ],
+            "properties": {
+              "specifications": {
+                "required": [
+                  "weight_basis"
+                ],
+                "properties": {
+                  "weight_basis": {
+                    "const": "Pair"
                   }
                 }
               }

@@ -1,0 +1,32 @@
+{
+  "id": "shimano-hb-rs770",
+  "slug": "hb-rs770",
+  "name": "Ultegra front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-r8000"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-RS770",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a reference weight for HB-RS770 explicitly excluding skewers has not been established. Any weight added must exclude skewers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-RS770-4242/EV-HB-RS770-4242.pdf",
+    "title": "Shimano HB-RS770 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=73",
+      "title": "Shimano 2017–2018 product line-up, PDF page 73: mechanical Ultegra R8000, rim/disc options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=183",
+      "title": "Shimano 2017–2018 specifications, PDF page 183",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {},
+  "weight_excludes_skewers": true
+}

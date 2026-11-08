@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-r8000-f",
+  "slug": "fd-r8000-f",
+  "name": "Ultegra eleven-speed braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-r8000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R8000-F",
+  "weight_g": 92,
+  "weight_description": "Manufacturer average: FD-R8000-F braze-on front derailleur; excludes any clamp adapter.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-R8000-4282/EV-FD-R8000-4282C.pdf",
+    "title": "Shimano FD-R8000-F exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=73",
+      "title": "Shimano 2017–2018 product line-up, PDF page 73: mechanical Ultegra R8000, rim/disc options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=162",
+      "title": "Shimano 2017–2018 specifications, PDF page 162",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "maximum_front_difference_teeth": 16
+  }
+}

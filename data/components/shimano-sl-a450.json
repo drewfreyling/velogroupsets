@@ -1,7 +1,7 @@
 {
   "id": "shimano-sl-a450",
   "slug": "sl-a450",
-  "name": "Exage Sport original front/rear SIS downtube shifters",
+  "name": "Exage Sport original front/rear SIS downtube shifter pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-exage-sport"
@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-A450",
   "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-A450-0869/EV-SL-A450-0869A.pdf",
     "title": "Shimano SL-A450 exploded view and replacement parts",
@@ -30,6 +30,7 @@
   "specifications": {
     "rear_speeds": 6,
     "front_speeds": 2,
-    "front_shifting": "SIS or friction"
+    "front_shifting": "SIS or friction",
+    "weight_basis": "Pair"
   }
 }

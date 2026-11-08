@@ -1,0 +1,21 @@
+{
+  "id": "shimano-ultegra-6800",
+  "slug": "ultegra-6800",
+  "name": "Ultegra",
+  "manufacturer_id": "shimano",
+  "model_number": "6800",
+  "start_year": 2013,
+  "generation": "Eleven-speed mechanical",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/41.html",
+      "title": "Shimano 100 Products History: Ultegra 6800 introduced in 2013 and R8000 in 2017",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=50",
+      "title": "Shimano 2014–2015 product line-up, PDF page 50: mechanical Ultegra 6800 and listed options",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

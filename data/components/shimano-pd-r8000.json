@@ -1,0 +1,33 @@
+{
+  "id": "shimano-pd-r8000",
+  "slug": "pd-r8000",
+  "name": "Ultegra SPD-SL pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-r8000"
+  ],
+  "type": "pedals",
+  "model_number": "PD-R8000",
+  "weight_g": 248,
+  "weight_description": "Manufacturer average: pair of PD-R8000 SPD-SL pedals; standard axle version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-R8000-4232/EV-PD-R8000-4232.pdf",
+    "title": "Shimano PD-R8000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=73",
+      "title": "Shimano 2017–2018 product line-up, PDF page 73: mechanical Ultegra R8000, rim/disc options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=222",
+      "title": "Shimano 2017–2018 specifications, PDF page 222",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

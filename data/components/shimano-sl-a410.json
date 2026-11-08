@@ -1,7 +1,7 @@
 {
   "id": "shimano-sl-a410",
   "slug": "sl-a410",
-  "name": "RSX seven-speed downtube shifters",
+  "name": "RSX seven-speed downtube shifter pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-rsx"
@@ -24,6 +24,7 @@
   ],
   "specifications": {
     "rear_speeds": 7,
-    "mount": "Braze-on downtube"
+    "mount": "Braze-on downtube",
+    "weight_basis": "Pair"
   }
 }

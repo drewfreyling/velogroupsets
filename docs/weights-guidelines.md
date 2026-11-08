@@ -16,6 +16,8 @@ Use these rules when adding or correcting catalogue weights. Each weight must de
 
 A list of available crank lengths or chainring options is not enough: identify the exact combination to which the weight applies.
 
+**Prefer 170 mm crank arms when choosing or contributing a reference weight.** This gives readers a consistent basis for comparison. Other lengths are valid when that is the sourced or measured configuration; record the actual length and never convert another length’s weight into an estimated 170 mm figure.
+
 An example configuration is “170 mm crank arms, 50/34T chainrings; excludes bottom bracket.” A manufacturer figure for a crankset with an integrated bottom bracket does not meet this rule. Find a weight for the crankset alone rather than silently relabelling the combined figure or subtracting an assumed bottom-bracket weight.
 
 ## Bottom brackets
@@ -27,6 +29,8 @@ Keep spindle length separate from bottom-bracket shell width. For example, a squ
 ## Shifters
 
 **Shifters are weighed as a pair: the left and right units together.** Say that the weight is for a pair and identify the shifting system and speed configuration. For integrated shift/brake levers, include both complete lever units and describe any additional included hardware.
+
+Catalogue shifter records also represent complete left/right pairs, including records with unknown weights. Use `specifications.weight_basis: "Pair"` and a name that says “pair”. When the two sides have separate manufacturer model numbers, identify both in the record instead of listing them as two standalone shifters.
 
 Use a measured or manufacturer-published pair weight. An individual lever weight is not a compliant pair weight; do not double one side's figure, because the two sides can differ.
 

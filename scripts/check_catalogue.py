@@ -147,6 +147,17 @@ def validate_catalogue(catalogue):
                     failures.append(f"{kind}/{identifier}: source must be an HTTP(S) URL without credentials")
     if failures:
         return failures
+    # Merged records reserve their previous IDs and manufacturer-scoped slugs.
+    component_slugs = {(c['manufacturer_id'], c['slug']) for c in catalogue['components']}
+    for component in catalogue['components']:
+        for alias in component.get('aliases', []):
+            if alias['id'] in ids:
+                failures.append(f"components/{component['id']}: alias ID conflicts with a catalogue ID or alias")
+            ids.add(alias['id'])
+            scope = (component['manufacturer_id'], alias['slug'])
+            if scope in component_slugs:
+                failures.append(f"components/{component['id']}: alias slug conflicts within its manufacturer")
+            component_slugs.add(scope)
     for kind in ("groupsets", "components"):
         for record in catalogue[kind]:
             if record["manufacturer_id"] not in indices["manufacturers"]:

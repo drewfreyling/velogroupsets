@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-r8000",
+  "slug": "fc-r8000",
+  "name": "Ultegra eleven-speed double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-r8000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-R8000",
+  "weight_g": 681,
+  "weight_description": "Manufacturer average: FC-R8000, 170 mm crank arms and 52/36T chainrings; excludes bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-R8000-4256/EV-FC-R8000-4256B.pdf",
+    "title": "Shimano FC-R8000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=73",
+      "title": "Shimano 2017–2018 product line-up, PDF page 73: mechanical Ultegra R8000, rim/disc options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=170",
+      "title": "Shimano 2017–2018 specifications, PDF page 170",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      36
+    ],
+    "includes_bottom_bracket": false,
+    "rear_speeds": 11,
+    "front_speeds": 2
+  }
+}

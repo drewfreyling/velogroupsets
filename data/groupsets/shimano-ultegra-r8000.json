@@ -1,0 +1,21 @@
+{
+  "id": "shimano-ultegra-r8000",
+  "slug": "ultegra-r8000",
+  "name": "Ultegra",
+  "manufacturer_id": "shimano",
+  "model_number": "R8000",
+  "start_year": 2017,
+  "generation": "Eleven-speed mechanical",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/41.html",
+      "title": "Shimano 100 Products History: Ultegra 6800 introduced in 2013 and R8000 in 2017",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=73",
+      "title": "Shimano 2017–2018 product line-up, PDF page 73: mechanical Ultegra R8000, rim/disc options",
+      "retrieved_on": "2026-11-08"
+    }
+  ]
+}

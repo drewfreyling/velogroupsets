@@ -1,8 +1,8 @@
-# Ultegra in the 1990s and 2000s
+# Shimano Ultegra groupsets
 
 The [component weight guidelines](weights-guidelines.md) set the contribution standard. Canonical weights have been audited against those rules. Noncompliant figures are withheld as explicit unknowns; the source notes below distinguish the selected replacement references from older publications.
 
-The catalogue covers the five Ultegra series offered during **1990–2009**: 600 Ultegra 6400, Ultegra 6500, Ultegra 6600, Ultegra SL and Ultegra 6700. It includes the 6400 family introduced before 1990 and the 6700 family sold in 2009 as a 2010 model. This is series coverage with sourced component variants, not a claim to catalogue every component revision, finish or gear ratio.
+The catalogue covers seven Ultegra offerings: the five series offered during **1990–2009** (600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700), plus mechanical **6800 (2013)** and **R8000 (2017)**. It includes the 6400 family introduced before 1990 and the 6700 family sold in 2009 as a 2010 model. This is series coverage with sourced component variants, not a claim to catalogue every component revision, finish or gear ratio.
 
 ## Series and dates
 
@@ -13,6 +13,8 @@ The catalogue covers the five Ultegra series offered during **1990–2009**: 600
 | Ultegra 6600 | 2004 | 14 | Ten-speed double, triple and later compact cranksets, plus SS/GS rear and double/triple front derailleurs |
 | Ultegra SL 6600-G | 2007 | 13 | Lighter ice-grey components, double/triple/compact cranks and shared standard parts |
 | Ultegra 6700 | 2009 | 12 | Ten-speed double, triple and compact variants, plus SS/GS rear derailleurs |
+| Ultegra 6800 | 2013 | 10 | Eleven-speed mechanical, SS/GS rear derailleurs, rim-brake lever pair, hubs and threaded cups |
+| Ultegra R8000 | 2017 | 11 | Eleven-speed mechanical, SS/GS rear derailleurs, rim/hydraulic lever pairs and disc hubs |
 
 Membership does not establish that every listed part can be combined: the 6400 six/seven-speed equipment and its eight-speed STI update are different configurations.
 
@@ -26,7 +28,7 @@ The catalogue stores **6400 as one series**. Its 6401/6402 component revisions a
 
 Shimano's retrospective lists 6600, SL and 6700 under 2005, 2008 and 2010 respectively. The records retain both that history and the contemporary evidence as sources; they do not silently convert model years into introduction years. Only documented start years are recorded; end years are not collected.
 
-Ultegra Di2 6770 (2011), 6800 (2013), R8000 and later series are outside this date range. Earlier Shimano 600 AX/EX equipment is also outside this addition.
+Shimano’s history explicitly dates 6800 to 2013 and R8000 to 2017. The added records cover their mechanical systems; Di2 6770/6870/R8050, R8100 and earlier Shimano 600 AX/EX equipment remain outside this coverage.
 
 ## Sources and component coverage
 
@@ -43,7 +45,7 @@ Manufacturer material supplies the specifications and most reference weights. HB
 | [2010 Russian dealer catalogue, PDF pages 69–70](https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=69) | 6700 reference configurations and weights, including separate hub/skewer figures |
 | [2008–2009 line-up chart](https://productinfo.shimano.com/pdfs/product/archive/2009_LINE-UP_CHART.pdf) | Standard 6600 and SL system membership and variants |
 
-The 61 Ultegra component identities produce 65 memberships across the five groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
+The 81 Ultegra component identities produce 86 memberships across the seven groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
 
 The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs, with unknown weights where no compliant reference is sourced; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Bottom brackets are separate components. Existing identities remain listed when their weight must be withheld. Brake calipers, chains and complete wheels remain outside the current component taxonomy.
 
@@ -60,7 +62,7 @@ The JSON `weight_description` states the weighed reference configuration and inc
 
 Where a source omits the reference thread, diameter or spoke count, the description says so. The BB-6400 source lists both 113 and 115 mm spindle options without identifying the weighed variant; its weight is now null rather than selecting a spindle length by inference.
 
-See the [catalogue guide](catalogue.md) for IDs, variant membership, schema validation and the meaning of unknown weights and year-range ends.
+See the [catalogue guide](catalogue.md) for IDs, variant membership, schema validation and the meaning of unknown weights and documented start years.
 
 
 ## HB-6500 measured weight
@@ -92,3 +94,21 @@ The [cassette-hub section of Damon Rinard’s Component Weights](https://sheldon
 [Shimano’s FH-6500 drawing](https://si.shimano.com/en/pdfs/ev/FH-6500-1679/EV-FH-6500-1679.pdf) remains the manufacturer-hosted technical document, and the 1998 manufacturer catalogue establishes Ultegra 6500 membership. Rinard’s measurement replaces the previous unknown weight without changing the component identity or canonical URL.
 
 Standalone brake-lever models and their source limitations are documented in the [brake-lever source notes](brake-levers.md). Integrated shift/brake controls remain in the Shifters category.
+
+
+## Eleven-speed 6800 and R8000
+
+Membership comes from Shimano’s [2014–2015 line-up, PDF page 50](https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=50) and [2017–2018 line-up, PDF page 73](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=73). The R8000 page includes mechanical rim-brake ST-R8000 and hydraulic ST-R8020 controls, plus HB-RS770/FH-RS770 disc hubs. Di2 models are not assigned to these mechanical groups. SM-BBR60 has one shared identity and both memberships. Each added component links to a Shimano-hosted exploded drawing.
+
+Selected weights use [Shimano’s 2017–2018 specifications](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf). FC-6800 is 689 g and FC-R8000 681 g, both for **170 mm, 52/36T, without bottom bracket** (PDF page 170). Braze-on FD-6800-F and FD-R8000-F are 89 g and 92 g (pages 163 and 162). CS-6800 is 212 g for eleven-speed 11–23T; CS-R8000 is 232 g for eleven-speed 11–25T (page 178). Full tooth sequences are recorded. Pedal weights are pairs: PD-6800 260 g from the 2014–2015 handbook, page 151; PD-R8000 248 g from the 2017–2018 handbook, page 222.
+
+ST-6800 is 425 g per pair (page 135), and ST-R8020 is 554 g per pair (page 142). ST-R8000 is explicitly represented as a pair but retains a null weight: the selected table gives individual side weights, which are not added together. Hub weights also remain null until a reference explicitly excluding skewers is established. These are sourced component selections, not every crank, clamp, cassette, hub or control variant.
+
+| Rear derailleur | Total capacity | Largest sprocket | Smallest sprocket | Front difference | Weight |
+| --- | --- | --- | --- | --- | --- |
+| RD-6800-SS | 33T | 28T | 11T | 16T | 195 g |
+| RD-6800-GS | 37T | 32T | 11T | 16T | 207 g |
+| RD-R8000-SS | 35T | 30T | 11T | 16T | 200 g |
+| RD-R8000-GS | 39T | 34T | 11T | 16T | 210 g |
+
+All four rear-derailleur rows use the same 2017–2018 specification page (PDF page 158). The shared cage-code explanation remains the single definition of SS/GS/SGS.

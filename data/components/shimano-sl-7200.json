@@ -1,7 +1,7 @@
 {
   "id": "shimano-sl-7200",
   "slug": "sl-7200",
-  "name": "Dura-Ace shifters",
+  "name": "Dura-Ace shifter pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-dura-ace-ex-7200"
@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-7200",
   "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-7200-0338/EV-SL-7200-0338D.pdf",
     "title": "Shimano SL-7200 exploded view and replacement parts",
@@ -21,5 +21,8 @@
       "title": "Shimano SL-7200 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
     }
-  ]
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
 }

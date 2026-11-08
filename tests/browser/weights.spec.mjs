@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 const withheld = [
   'FC-5600', 'FC-5603', 'FC-5700', 'FC-6600', 'FC-6601-G', 'FC-6603',
   'FC-6604-G', 'FC-6650-G', 'FC-6650-S', 'FC-6700',
-  'BB-1050', 'BB-1055', 'BB-6400', 'ST-R7000-L', 'ST-R7000-R', 'FD-1056-B',
+  'BB-1050', 'BB-1055', 'BB-6400', 'ST-R7000', 'FD-1056-B',
 ];
 
 test('withheld weights remain null in search and readable on their original component pages', async ({page, request}) => {

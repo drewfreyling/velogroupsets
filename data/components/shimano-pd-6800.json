@@ -1,0 +1,33 @@
+{
+  "id": "shimano-pd-6800",
+  "slug": "pd-6800",
+  "name": "Ultegra SPD-SL pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6800"
+  ],
+  "type": "pedals",
+  "model_number": "PD-6800",
+  "weight_g": 260,
+  "weight_description": "Manufacturer average: pair of PD-6800 SPD-SL pedals; standard axle version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-6800-3607/EV-PD-6800-3607A.pdf",
+    "title": "Shimano PD-6800 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=50",
+      "title": "Shimano 2014–2015 product line-up, PDF page 50: mechanical Ultegra 6800 and listed options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=151",
+      "title": "Shimano 2014–2015 specifications, PDF page 151",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

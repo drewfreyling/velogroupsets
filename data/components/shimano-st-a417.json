@@ -24,6 +24,7 @@
   ],
   "specifications": {
     "rear_speeds": 8,
-    "front_speeds": 3
+    "front_speeds": 3,
+    "weight_basis": "Pair"
   }
 }

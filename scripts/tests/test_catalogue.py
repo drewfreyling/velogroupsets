@@ -53,9 +53,28 @@ class CatalogueTests(unittest.TestCase):
                 part.update(type=kind, specifications={'weight_basis':'Single lever'})
                 self.assertTrue(validate_catalogue(data))
                 part['weight_g'] = None
-                self.assertEqual(validate_catalogue(data), [])
+                self.assertEqual(bool(validate_catalogue(data)), kind == 'shifters')
                 part.update(weight_g=500, specifications={'weight_basis':'Pair'})
                 self.assertEqual(validate_catalogue(data), [])
+
+    def test_unknown_shifters_still_represent_pairs(self):
+        data = fixture()
+        part = data['components'][0]
+        part.update(type='shifters', weight_g=None, specifications={'weight_basis':'Pair'})
+        self.assertEqual(validate_catalogue(data), [])
+        part['specifications'] = {}
+        self.assertTrue(validate_catalogue(data))
+
+    def test_merged_component_aliases_reserve_identifiers_and_slugs(self):
+        data = fixture()
+        part = data['components'][0]
+        part['aliases'] = [{'id':'old-crankset', 'slug':'old-crankset'}]
+        self.assertEqual(validate_catalogue(data), [])
+        for alias in [{'id':part['id'],'slug':'old-crankset'},
+                      {'id':'old-crankset','slug':part['slug']},
+                      {'id':data['groupsets'][0]['id'],'slug':'old-crankset'}]:
+            part['aliases'] = [alias]
+            self.assertTrue(validate_catalogue(data))
 
     def test_front_derailleur_weights_require_mount_and_the_actual_clamp_size(self):
         data = fixture()

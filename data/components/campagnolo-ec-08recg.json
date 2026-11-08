@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "EC-08RECG",
   "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced from the cited reference edition.",
   "technical_document": {
     "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_40.html",
     "title": "Campagnolo 1997 Spare Parts Catalogue, page 40 (manufacturer document archived by Disraeli Gears)",
@@ -23,6 +23,7 @@
     }
   ],
   "specifications": {
-    "rear_speeds": 8
+    "rear_speeds": 8,
+    "weight_basis": "Pair"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "shimano-sm-bbr60",
+  "slug": "sm-bbr60",
+  "name": "Ultegra threaded bottom-bracket cups",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6800",
+    "shimano-ultegra-r8000"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-BBR60",
+  "weight_g": 77,
+  "weight_description": "Manufacturer average: SM-BBR60 threaded Hollowtech II bottom-bracket cup assembly; reference thread variant not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-R8000-4256/EV-FC-R8000-4256B.pdf",
+    "title": "Shimano SM-BBR60 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=50",
+      "title": "Shimano 2014–2015 product line-up, PDF page 50: mechanical Ultegra 6800 and listed options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=73",
+      "title": "Shimano 2017–2018 product line-up, PDF page 73: mechanical Ultegra R8000, rim/disc options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=176",
+      "title": "Shimano 2017–2018 specifications, PDF page 176",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "interface": "External cups"
+  }
+}

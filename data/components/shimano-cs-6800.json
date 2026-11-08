@@ -1,0 +1,47 @@
+{
+  "id": "shimano-cs-6800",
+  "slug": "cs-6800",
+  "name": "Ultegra eleven-speed cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6800"
+  ],
+  "type": "cassette",
+  "model_number": "CS-6800",
+  "weight_g": 212,
+  "weight_description": "Manufacturer average: CS-6800 eleven-speed 11–23T cassette.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-6800-3602/EV-CS-6800-3602E.pdf",
+    "title": "Shimano CS-6800 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=50",
+      "title": "Shimano 2014–2015 product line-up, PDF page 50: mechanical Ultegra 6800 and listed options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=178",
+      "title": "Shimano 2017–2018 specifications, PDF page 178",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–23T",
+    "sprockets_teeth": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      23
+    ]
+  }
+}

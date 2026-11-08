@@ -1,0 +1,42 @@
+{
+  "id": "shimano-st-r7000",
+  "slug": "st-r7000",
+  "name": "105 eleven-speed Dual Control lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7000"
+  ],
+  "type": "shifters",
+  "model_number": "ST-R7000",
+  "weight_g": null,
+  "weight_description": "Weight withheld: a complete left/right ST-R7000-L and ST-R7000-R lever pair weight has not been sourced. The specification table lists individual lever weights, which are not added together.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=136",
+    "title": "Shimano 2025–2026 specifications, PDF page 136",
+    "retrieved_on": "2026-11-07"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=136",
+      "title": "Shimano 2025–2026 specifications, PDF page 136",
+      "retrieved_on": "2026-11-07"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "left_model": "ST-R7000-L",
+    "right_model": "ST-R7000-R",
+    "rear_speeds": 11,
+    "front_speeds": 2
+  },
+  "aliases": [
+    {
+      "id": "shimano-st-r7000-l",
+      "slug": "st-r7000-l"
+    },
+    {
+      "id": "shimano-st-r7000-r",
+      "slug": "st-r7000-r"
+    }
+  ]
+}

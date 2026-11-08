@@ -17,8 +17,11 @@ export const groupsetUrl = (g) => `/groupsets/${manufacturerFor(g).slug}/${g.slu
 export const componentUrl = (c) => `/components/${manufacturerFor(c).slug}/${c.slug}/`;
 export const groupsetName = (g) => `${g.name} ${g.model_number}`;
 export const groupsFor = (record) => groupsets.filter(g => record.groupset_ids.includes(g.id));
+export const modelNumbersFor = (record) => [...new Set([
+  record.model_number, record.specifications?.left_model, record.specifications?.right_model,
+].filter(Boolean))];
 export const searchRecords = components.map(c => ({
-  id: c.id, name: c.name, model: c.model_number, weight_g: c.weight_g, weight_description: c.weight_description, type: c.type,
+  id: c.id, name: c.name, model: c.model_number, models: modelNumbersFor(c), weight_g: c.weight_g, weight_description: c.weight_description, type: c.type,
   typeName: typeName(c.type), manufacturer: manufacturerFor(c).name,
   groupsets: groupsFor(c).map(groupsetName).join(' '),
   url: componentUrl(c),

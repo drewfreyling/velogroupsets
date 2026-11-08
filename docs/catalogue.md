@@ -136,7 +136,7 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 40 groupsets from Shimano and Campagnolo and 387 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 42 groupsets from Shimano and Campagnolo and 406 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
 
 The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
 
@@ -204,7 +204,7 @@ An optional `specifications.cage` records the manufacturer's sourced cage code. 
 
 ## Shimano 105 generation coverage
 
-The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 87 105 component identities across 92 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains two manufacturers, 40 groupsets and 387 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
+The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 86 105 component identities across 91 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains two manufacturers, 42 groupsets and 406 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
 
 ## Shimano Dura-Ace coverage
 
@@ -217,3 +217,12 @@ The [Exage road source guide](exage.md) covers Sport A450/A451, Motion A250, 300
 ## RSX, Light Action and Campagnolo Record
 
 The [RSX and Light Action guide](rsx-light-action.md) documents 24 RSX components across seven- and eight-speed revisions and ten Light Action rear-derailleur variants. The [Campagnolo Record guide](campagnolo-record.md) records separate eight- and nine-speed family starts and 17 component identities, using the approved archived manufacturer documents.
+
+
+## Shifter pair identities and aliases
+
+Every shifter record describes a complete left/right pair, including those with null weights. The schema requires `specifications.weight_basis: "Pair"` for all shifters. Separate manufacturer codes belong in `left_model` and `right_model` and remain searchable alongside the pair’s model number; an individual-side weight is never doubled or added to another side’s figure to create an unpublished pair weight.
+
+ST-R7000 replaces the separate ST-R7000-L/R catalogue entries with one pair. Its `aliases` array reserves their former IDs and slugs (`shimano-st-r7000-l` / `st-r7000-l` and `shimano-st-r7000-r` / `st-r7000-r`). Aliases are historical identity mappings, not additional searchable components or sitemap entries. Validation rejects collisions between aliases and live catalogue IDs or manufacturer-scoped component slugs. The corresponding old component URLs issue permanent redirects through [the static-asset redirect rules](../apps/web/public/_redirects).
+
+Prefer 170 mm crank arms when selecting a weight reference; other explicitly identified lengths remain valid. See the [weight guidelines](weights-guidelines.md#cranksets).

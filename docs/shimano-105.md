@@ -2,7 +2,7 @@
 
 The [component weight guidelines](weights-guidelines.md) set the contribution standard. Canonical weights have been audited against those rules. Noncompliant figures are withheld as explicit unknowns; the source notes below distinguish the selected replacement references from older publications.
 
-The catalogue covers all nine Shimano 105 road-series generations, from Golden Arrow to R7100. R7100 has separate mechanical and Di2 groupset records because Shimano offers two shifting systems with different levers and derailleurs. That gives ten browsable groupsets, with 87 component identities and 92 memberships. This is generation coverage with sourced component variants; it does not claim every finish, revision, crank length or sprocket combination.
+The catalogue covers all nine Shimano 105 road-series generations, from Golden Arrow to R7100. R7100 has separate mechanical and Di2 groupset records because Shimano offers two shifting systems with different levers and derailleurs. That gives ten browsable groupsets, with 86 component identities and 91 memberships. This is generation coverage with sourced component variants; it does not claim every finish, revision, crank length or sprocket combination.
 
 ## Generations and dates
 
@@ -15,7 +15,7 @@ The catalogue covers all nine Shimano 105 road-series generations, from Golden A
 | 105 5600 | 2005 | 12 | Ten-speed double/triple cranks, front derailleurs, SS/GS rear derailleurs, levers, cassette, pedals and hubs |
 | 105 5700 | 2010 | 10 | Ten-speed double/compact/triple cranks and levers, front derailleurs, later RD-5701 SS/GS revisions and cassette |
 | 105 5800 | 2014 | 7 | Eleven-speed crank, front derailleur, SS/GS rear derailleurs, levers, cassette and pedals |
-| 105 R7000 | 2018 | 8 | Existing crank, cassette and GS derailleur, plus SS derailleur, front derailleur, individual right/left levers and pedals |
+| 105 R7000 | 2018 | 7 | Existing crank, cassette and GS derailleur, plus SS derailleur, front derailleur, a left/right lever pair and pedals |
 | 105 Di2 R7100 | 2022 | 7 | Electronic twelve-speed shifting, hydraulic brake levers and shared drivetrain parts |
 | 105 R7100 | 2023 | 7 | Mechanical twelve-speed shifting, hydraulic brake levers and shared drivetrain parts |
 
@@ -45,7 +45,7 @@ Original manufacturer catalogues hosted by independent archives remain manufactu
 
 - Every known weight identifies its configuration. The 1050 and 105 SC cranks exclude separately listed bottom brackets, as do the 5500 crank weights. The older 5600/5700 publications include the bottom bracket in their crank totals; those values are now withheld. Later Shimano handbook references supply crank-only weights for FC-5750 (**716 g**, 170 mm, 50/34T), FC-5703 (**831 g**, 170 mm, 50/39/30T) and FC-5800 (**757 g**, 170 mm, 50/34T). Their records cite the exact pages. R7000/R7100 reference figures already exclude the bottom bracket.
 - Missing mandatory weight configurations cause the weight to be withheld. Optional source details such as a hub spoke count remain explicitly unknown. Available options do not establish which one supplied the reference weight. Later handbooks can list different figures; the catalogue preserves the cited edition rather than averaging them.
-- Levers and pedals state whether the weight describes a pair or one item. The individual ST-R7000-R and ST-R7000-L weights are now withheld because the catalogue requires a pair weight; the single-lever identities remain unchanged. The R7100 lever figures are pairs. Platform pedal descriptions state toe-clip inclusions, and clipless pedal figures exclude separately listed cleats.
+- Shifters are listed as complete left/right pairs, with a pair weight or an explicit unknown. ST-R7000 now has one complete left/right pair record. Its former individual-side IDs are reserved as aliases, and their URLs redirect to the pair. The weight remains null because the selected reference supplies only individual side weights. The R7100 lever figures are pairs. Platform pedal descriptions state toe-clip inclusions, and clipless pedal figures exclude separately listed cleats.
 - **Hub weights exclude skewers.** The 2008 publication separates HB-5600's 150 g hub from its 60 g skewer and FH-5600's 353 g hub from its 64 g skewer. Older FH-1050-6, FH-1055, FH-1056 and FH-5500 entries retain unknown weights where the selected publication does not establish hub-only mass. No skewer deduction is guessed. Older front hubs without this evidence remain unlisted.
 - Every rear derailleur has the four required limit fields. Golden Arrow's smallest-sprocket values remain null. Its short-cage independent front difference also remains null: the 1984 combined-capacity table does not establish an unconditional maximum. [February 1985 service instructions SI-N-83](https://si.shimano.com/en/pdfs/si/N-83/SI-N-83-000-00-ENG.pdf) give the GS model a 22T front difference and show its largest sprocket changing with the fork end: 34T requires the specified 30 mm bracket/end. Those conditions appear in the record.
 - RD-5701-GS supports a largest sprocket of 32T with a double chainset or 30T with a triple, and front differences of 16T or 22T respectively. Its record states these conditions. Individual maxima and total capacity must all be respected; the largest published front and rear ranges cannot always be combined.

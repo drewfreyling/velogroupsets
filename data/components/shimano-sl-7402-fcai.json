@@ -30,6 +30,7 @@
   "specifications": {
     "rear_speeds": 8,
     "mount": "Braze-on",
-    "boss_standard": "Italian M5"
+    "boss_standard": "Italian M5",
+    "weight_basis": "Pair"
   }
 }

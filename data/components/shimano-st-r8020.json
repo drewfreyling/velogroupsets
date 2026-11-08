@@ -1,0 +1,37 @@
+{
+  "id": "shimano-st-r8020",
+  "slug": "st-r8020",
+  "name": "Ultegra eleven-speed hydraulic Dual Control lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-r8000"
+  ],
+  "type": "shifters",
+  "model_number": "ST-R8020",
+  "weight_g": 554,
+  "weight_description": "Manufacturer average: complete left/right ST-R8020 mechanical eleven-speed hydraulic Dual Control lever pair; lever assemblies, without brake calipers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-R8020-4245/EV-ST-R8020-4245E.pdf",
+    "title": "Shimano ST-R8020 exploded view and replacement parts",
+    "retrieved_on": "2026-11-08"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=73",
+      "title": "Shimano 2017–2018 product line-up, PDF page 73: mechanical Ultegra R8000, rim/disc options",
+      "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=142",
+      "title": "Shimano 2017–2018 specifications, PDF page 142",
+      "retrieved_on": "2026-11-08"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "front_speeds": 2,
+    "left_model": "ST-R8020-L",
+    "right_model": "ST-R8020-R",
+    "weight_basis": "Pair"
+  }
+}

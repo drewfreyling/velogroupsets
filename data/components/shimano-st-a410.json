@@ -23,6 +23,7 @@
     }
   ],
   "specifications": {
-    "rear_speeds": 7
+    "rear_speeds": 7,
+    "weight_basis": "Pair"
   }
 }
