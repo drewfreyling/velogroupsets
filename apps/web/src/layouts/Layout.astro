@@ -30,6 +30,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <div class="flex w-full flex-wrap items-center justify-between gap-3 sm:w-auto sm:justify-start">
         <nav aria-label="Main navigation" class="flex items-center gap-2 text-sm sm:gap-4">
           <a href="/manufacturers/" class="nav-link" aria-current={Astro.url.pathname === '/manufacturers/' ? 'page' : undefined}>Manufacturers</a>
+          <a href="/account/" class="nav-link" aria-current={Astro.url.pathname === '/account/' ? 'page' : undefined}>Account</a>
           <a href="/catalogue/" class="nav-link" aria-current={Astro.url.pathname === '/catalogue/' ? 'page' : undefined}>Catalogue</a>
           <ExternalLink href="https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md" class="hidden items-center gap-2 font-semibold sm:flex">Add a missing part</ExternalLink>
         </nav>
@@ -46,6 +47,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <p>An independent catalogue of bicycle groupsets and components.</p>
         <div class="flex gap-6"><ExternalLink class="text-link" href="https://github.com/drewfreyling/velogroupsets">Source code on GitHub</ExternalLink><ExternalLink class="text-link" href="https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md">Contribution guide</ExternalLink></div>
       </div>
+      <nav class="wrap mt-6 flex flex-wrap gap-x-6 gap-y-3 text-sm" aria-label="Policies"><a class="text-link" href="/policies/terms/">Terms of Service</a><a class="text-link" href="/policies/privacy/">Privacy Policy</a><a class="text-link" href="/policies/community/">Community Guidelines</a><a class="text-link" href="/policies/copyright/">Copyright and takedowns</a></nav>
     </footer>
   </body>
 </html>

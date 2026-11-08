@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ExternalLink from '../components/ExternalLink.astro';
+---
+<Layout title="Review photos and reports" noindex>
+  <div class="wrap max-w-5xl py-12"><h1 class="text-4xl font-semibold">Review photos and reports</h1><p class="mt-4 leading-7 text-muted">Moderator access is required. Review captions, image descriptions and permissions before approving a photo. For suspected illegal material, follow the <ExternalLink class="text-link" href="https://github.com/drewfreyling/velogroupsets/blob/main/docs/photo-uploads.md">incident procedure</ExternalLink> and avoid unnecessary viewing or copying.</p>
+    <p id="moderation-message" class="mt-6" role="status">Checking moderator access…</p>
+    <div id="moderation-content" hidden><h2 class="mt-10 text-2xl font-semibold">Pending and blocked photos</h2><div id="pending-photos" class="mt-6 grid gap-6 md:grid-cols-2"></div><h2 class="mt-12 text-2xl font-semibold">Unresolved reports</h2><div id="photo-reports" class="mt-6 space-y-6"></div></div>
+    <noscript><p class="mt-6">The moderation console requires JavaScript and a signed-in moderator account.</p></noscript>
+  </div>
+</Layout>
+<script>
+window.addEventListener('pageshow',event=>{if(event.persisted)location.reload();});
+import { api, element, jsonOptions, message } from '../scripts/community';
+const status=document.querySelector<HTMLElement>('#moderation-message')!;
+function reasonField(id:string,label:string){const wrap=element('label','block',label);const input=document.createElement('textarea');input.className='field mt-2';input.id=id;input.minLength=5;input.maxLength=1000;input.rows=3;wrap.append(input);return {wrap,input};}
+try{
+  const session=await api('/api/session');if(!session.user?.moderator)throw new Error('Sign in with a moderator account to review photos and reports.');
+  document.querySelector<HTMLElement>('#moderation-content')!.hidden=false;message(status,'');
+  async function load(){
+    const result=await api('/api/moderation');const photos=document.querySelector('#pending-photos')!,reports=document.querySelector('#photo-reports')!;photos.replaceChildren();reports.replaceChildren();
+    if(!result.photos.length)photos.append(element('p','text-muted','No photos are awaiting review.'));
+    for(const photo of result.photos){
+      const article=element('article','panel space-y-4 p-5');article.append(element('h3','text-lg font-semibold',photo.caption),element('p','text-sm text-muted',`${photo.display_name} · ${photo.status}`),element('p','text-sm',`Image description: ${photo.alt_text}`));
+      if(photo.previewUrl){const img=document.createElement('img');img.src=photo.previewUrl;img.alt=photo.alt_text;img.className='max-h-80 w-full rounded-lg object-contain';article.append(img);}
+      if(photo.review_reason)article.append(element('p','text-sm',photo.review_reason));
+      const reason=reasonField(`reason-${photo.id}`,'Review reason');article.append(reason.wrap);const controls=element('div','flex flex-wrap gap-3');
+      const actions=photo.status==='pending'?[['approve','Approve photo'],['reject','Reject photo'],['hold','Preserve privately and hide']]:[['remove','Remove public photo'],['hold','Preserve privately and hide']];
+      for(const [action,label] of actions){const button=element('button','button',label) as HTMLButtonElement;button.type='button';button.addEventListener('click',async()=>{if(reason.input.value.trim().length<5){message(status,'Enter a review reason of at least five characters.',true);reason.input.focus();return;}button.disabled=true;try{await api(`/api/moderation/photos/${photo.id}/${action}`,jsonOptions({reason:reason.input.value},session.csrfToken));message(status,action==='approve'?'Photo approved.':action==='hold'?'Photo hidden and held in private evidence storage.':'Photo removed.');await load();}catch(error){message(status,(error as Error).message,true);}finally{button.disabled=false;}});controls.append(button);}
+      if(photo.user_id!==session.user.id){const disable=element('button','text-link text-sm','Disable uploader account') as HTMLButtonElement;disable.type='button';disable.addEventListener('click',async()=>{if(reason.input.value.trim().length<5){message(status,'Enter a suspension reason first.',true);return;}if(!confirm('Disable this uploader’s account and end their sessions? Approved photos must be removed separately.'))return;disable.disabled=true;try{await api(`/api/moderation/users/${photo.user_id}/disable`,jsonOptions({reason:reason.input.value},session.csrfToken));message(status,'Account disabled and sessions revoked.');await load();}catch(error){message(status,(error as Error).message,true);}finally{disable.disabled=false;}});controls.append(disable);}
+      article.append(controls,element('p','text-xs text-muted','Use preservation only for a justified legal request or investigation. Held copies are private and have no automatic expiry; review them under the incident procedure.'));photos.append(article);
+    }
+    if(!result.reports.length)reports.append(element('p','text-muted','No unresolved reports.'));
+    for(const report of result.reports){
+      const article=element('article','panel space-y-4 p-5');article.append(element('h3','text-lg font-semibold',`Report: ${report.reason}`),element('p','text-sm',report.details));if(report.contact_email)article.append(element('p','text-sm text-muted',`Reply contact: ${report.contact_email}`));
+      const reason=reasonField(`report-${report.id}`,'Resolution or action reason');article.append(reason.wrap);const controls=element('div','flex flex-wrap gap-3');
+      for(const [action,label] of [['remove','Hide and remove photo'],['hold','Preserve privately and hide'],['resolve','Resolve report']]){const button=element('button','button',label) as HTMLButtonElement;button.type='button';button.addEventListener('click',async()=>{if(reason.input.value.trim().length<5){message(status,'Enter an action reason of at least five characters.',true);reason.input.focus();return;}button.disabled=true;try{if(action==='resolve')await api(`/api/moderation/reports/${report.id}/resolve`,jsonOptions({resolution:reason.input.value},session.csrfToken));else await api(`/api/moderation/photos/${report.photo_id}/${action}`,jsonOptions({reason:reason.input.value},session.csrfToken));message(status,'Moderation action recorded.');await load();}catch(error){message(status,(error as Error).message,true);}finally{button.disabled=false;}});controls.append(button);}
+      article.append(controls);reports.append(article);
+    }
+  }
+  await load();
+}catch(error){message(status,(error as Error).message,true);}
+</script>

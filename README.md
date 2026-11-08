@@ -4,7 +4,7 @@ An open-source reference for bicycle groupsets and components, with community ph
 
 VeloGroupsets aims to make component specifications and identification information easy to browse, search, and improve. Most traffic should be served as static content at Cloudflare's edge; a small API handles community contributions.
 
-> **Status: static application and infrastructure foundation.** Astro, Tailwind CSS, a TypeScript Worker, catalogue generation/search, CI and deployment workflows are implemented. The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). Production deployment remains pending. The catalogue includes [Shimano Dura-Ace road generations and documented track families](docs/dura-ace.md), all nine [Shimano 105 generations](docs/shimano-105.md), including separate R7100 mechanical and Di2 offerings, plus [Exage Sport, Motion, 300EX, 400EX and 500EX](docs/exage.md), RX100 A550, [RSX and Light Action](docs/rsx-light-action.md), [Campagnolo Record 8- and 9-speed](docs/campagnolo-record.md), and all five [Ultegra series offered in 1990–2009](docs/ultegra.md), including Ultegra SL, plus mechanical 6800 and R8000; see the [catalogue notes](docs/catalogue.md#validation-and-current-status) for sources and coverage. The staging Worker and static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328); [staging.velogroupsets.com](https://staging.velogroupsets.com/) is live after the [domain and TLS/HSTS apply](https://github.com/drewfreyling/velogroupsets/actions/runs/42339179675), using TLS 1.3 only and one-year HSTS with subdomains/preload; authentication, uploads and comments remain planned.
+> **Status: static application and infrastructure foundation.** Astro, Tailwind CSS, a TypeScript Worker, catalogue generation/search, CI and deployment workflows are implemented. The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). Production deployment remains pending. The catalogue includes [Shimano Dura-Ace road generations and documented track families](docs/dura-ace.md), all nine [Shimano 105 generations](docs/shimano-105.md), including separate R7100 mechanical and Di2 offerings, plus [Exage Sport, Motion, 300EX, 400EX and 500EX](docs/exage.md), RX100 A550, [RSX and Light Action](docs/rsx-light-action.md), [Campagnolo Record 8- and 9-speed](docs/campagnolo-record.md), and all five [Ultegra series offered in 1990–2009](docs/ultegra.md), including Ultegra SL, plus mechanical 6800 and R8000; see the [catalogue notes](docs/catalogue.md#validation-and-current-status) for sources and coverage. The staging Worker and static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328); [staging.velogroupsets.com](https://staging.velogroupsets.com/) is live after the [domain and TLS/HSTS apply](https://github.com/drewfreyling/velogroupsets/actions/runs/42339179675), using TLS 1.3 only and one-year HSTS with subdomains/preload; Google sign-in, moderated photo uploads, reports, owner removal and policy pages are implemented behind readiness gates; comments remain planned. Operator/mailbox verification, provider credentials and CSAM enrolment must be completed before community launch; see [photo setup and operations](docs/photo-uploads.md).
 
 ## Planned features
 
@@ -31,11 +31,13 @@ The [design guide](docs/design.md) documents the teal palette, self-hosted Sourc
 
 ## Architecture
 
-The starting design uses **Cloudflare Workers Static Assets + a TypeScript Worker + D1 + R2**, with OpenTofu managing Cloudflare infrastructure in this repository and GitHub Actions deploying the application through Wrangler. This keeps the initial stack small and aims to fit a modest community within free allowances.
+The starting design uses **Cloudflare Workers Static Assets + a TypeScript Worker + D1 + R2 + an Images optimization binding**, with OpenTofu managing Cloudflare infrastructure in this repository and GitHub Actions deploying the application through Wrangler. This keeps the initial stack small and aims to fit a modest community within free allowances.
 
 ```mermaid
 flowchart TD
     Browser["Browser"]
+    Google["Google OpenID Connect"]
+    Operator["Operator: moderation and monitored inbox"]
 
     subgraph GitHub["GitHub"]
         Repo["Source code and curated catalogue"]
@@ -48,41 +50,48 @@ flowchart TD
     subgraph Cloudflare["Cloudflare"]
         State[("Private R2: encrypted state, plans and snapshots")]
         Edge["Custom domain: TLS 1.3, HSTS, CDN and available WAF rules"]
-        Static["Workers Static Assets: HTML, CSS, JS, search index"]
-        API["TypeScript Worker API"]
-        DB[("D1: users, comments, photo metadata")]
-        Staging[("Private R2 staging bucket")]
-        Processing["Image validation, processing and moderation"]
-        Photos[("Public R2 approved photos")]
-        ImageCDN["images.example.com: CDN cache"]
+        Static["Workers Static Assets: catalogue and policy pages"]
+        API["TypeScript Worker: accounts, uploads, reports and image proxy"]
+        DB[("D1: users, consent, photos and moderation")]
+        Pending[("Private R2: sanitised pending photos")]
+        Images["Images binding: decode, resize and JPEG encoding"]
+        Photos[("R2: approved sanitised photos")]
+        Evidence[("Private R2: justified incident holds")]
+        ImageCDN["Approved-photo custom domain and cache"]
+        Scanner["CSAM Scanning Tool: known-hash matching"]
         Turnstile["Turnstile verification"]
-
         Edge -->|"Catalogue and assets"| Static
-        Edge -->|"/api/*: community reads and writes"| API
+        Edge -->|"Community API and approved image delivery"| API
         API --> DB
-        API -->|"Verify submission token"| Turnstile
-        API -->|"Issue upload URL; verify completion"| Staging
-        Staging --> Processing
-        Processing -->|"Publish approved derivatives"| Photos
-        Processing -->|"Update photo status"| DB
+        API -->|"Verify action and hostname"| Turnstile
+        API -->|"Bounded input bytes"| Images
+        Images -->|"JPEG, then metadata stripping"| API
+        API --> Pending
+        API -->|"Moderator-approved copy"| Photos
+        API -->|"Private preservation when justified"| Evidence
+        API -->|"State-checked image fetch"| ImageCDN
         ImageCDN --> Photos
+        ImageCDN --> Scanner
     end
 
     TF ---|"Native state locking"| State
     Browser --> Edge
-    Browser -->|"Signed PUT to R2 S3 endpoint"| Staging
-    Browser -->|"View approved photos"| ImageCDN
+    Browser <-->|"Sign in"| Google
+    API <-->|"Code exchange and token verification"| Google
+    Operator -->|"Review photos and reports"| API
+    Scanner -.->|"Detection notices"| Operator
     CI -.->|"Deploy"| Static
     CI -.->|"Deploy"| API
     CI -.->|"Apply reviewed migrations"| DB
-    TF -.->|"Provision database"| DB
-    TF -.->|"Provision private bucket and policies"| Staging
-    TF -.->|"Provision public bucket and domain"| Photos
-    TF -.->|"Configure DNS, cache and security rules"| Edge
+    TF -.->|"Provision"| DB
+    TF -.->|"Provision private storage and policies"| Pending
+    TF -.->|"Provision private storage"| Evidence
+    TF -.->|"Provision approved storage and domain"| Photos
+    TF -.->|"Configure DNS and security settings"| Edge
     TF -.->|"Configure widget"| Turnstile
 ```
 
-The processing box describes a required capability; its runtime and trigger are still to be selected. It must not be assumed to fit within a free Worker's image-processing budget. `images.example.com` is an illustrative hostname, not a configured domain.
+Cloudflare Images performs decoding and re-encoding through a binding; the Worker bounds requests, removes remaining metadata and stores sanitised derivatives. Private submissions require moderator approval. CSAM matching runs on the approved-photo domain’s cache, not on private uploads. External setup and live activation remain gated; see [the photo guide](docs/photo-uploads.md).
 
 See [the architecture document](docs/architecture.md) for request flows, upload safeguards, caching, data ownership, and outstanding decisions.
 
@@ -94,7 +103,9 @@ See [the architecture document](docs/architecture.md) for request flows, upload 
 | Catalogue pages and search | Generated HTML, Tailwind CSS and a static search index |
 | Community API | TypeScript Worker for reads, comments, upload authorization, and moderation |
 | Community records | D1 for user references, comments, photo metadata, and moderation state |
-| Original uploads | Private R2 staging bucket |
+| Incoming originals | Bounded processing in memory; not retained in R2 |
+| Pending photos | Sanitised JPEGs in private temporary R2 storage |
+| Incident holds | Separate private R2 evidence bucket, only for justified cases |
 | Published photos | Approved image derivatives in a separate public R2 bucket, served through a custom domain |
 | Abuse prevention | Server-validated Turnstile, authentication, per-user quotas, and rate limits |
 | Infrastructure | OpenTofu in `infra/opentofu/` for Cloudflare resources and settings |
@@ -102,7 +113,7 @@ See [the architecture document](docs/architecture.md) for request flows, upload 
 
 ## Repository layout
 
-The web and API apps, catalogue, infrastructure and CI are implemented. Shared packages and database migrations remain planned.
+The web/API apps, shared community constants, catalogue, D1 migrations, infrastructure and CI are implemented. Community activation requires the external setup in the photo guide.
 
 ```text
 velogroupsets/
@@ -152,7 +163,7 @@ npm run worker:check
 npm run worker:dev
 ```
 
-Wrangler serves the built site at `http://localhost:8787`; `GET /api/health` reports the environment/release. Unknown API paths return JSON 404s. Community writes are not implemented and local development uses no live D1/R2 resources. Run `npx playwright install chromium` once, then `npm run test:browser` for browser checks.
+Wrangler serves the built site at `http://localhost:8787`; `GET /api/health` reports the environment/release. Unknown API paths return JSON 404s. Community endpoints use local D1/R2 bindings and the offline Images implementation; `worker:dev` applies local migrations. Sign-in/uploads stay disabled by default. Local tests use fictional accounts, synthetic images and provider fixtures, with no deployment credentials. Run `npx playwright install chromium` once, then `npm run test:browser` for browser checks.
 
 Set `SITE_URL` during builds to generate environment-specific canonical URLs and `/sitemap.xml`. The sitemap includes the home page, manufacturer index, catalogue and every canonical manufacturer/groupset/component page, with shared components listed once. Production `robots.txt` advertises the sitemap; other builds disallow crawling, and staging/localhost pages retain `noindex`. Normal assets bypass Worker execution, while `/api` and `/api/*` explicitly run the Worker. See the [CAA policy](infra/README.md#dns-caa-policy) for certificate-authority DNS records owned by the shared-zone state.
 
@@ -162,7 +173,7 @@ Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Co
 
 Run `npm run build` followed by `npm run test:browser`. Playwright starts a local Wrangler server against the built site. Both projects use Chromium: a desktop profile and an emulated Pixel 5 with touch input. This does not claim Firefox, WebKit or physical-device coverage.
 
-The suite exercises catalogue browsing, combined search/type/groupset filters, reload and browser Back navigation, model-number links, shared component pages, sourced/unknown weights, rear derailleur limits and accessible cage-code help, 404 recovery, navigation without JavaScript, cache/security headers, external links and theme behaviour including cross-tab changes. Comments, uploads and authentication are not yet implemented and are not represented as working test flows.
+The suite exercises catalogue browsing, combined search/type/groupset filters, reload and browser Back navigation, model-number links, shared component pages, sourced/unknown weights, rear derailleur limits and accessible cage-code help, 404 recovery, navigation without JavaScript, cache/security headers, external links and theme behaviour including cross-tab changes. Photo/sign-in/report/moderation form tests use explicit local provider/API fixtures; separate integration tests exercise D1/R2 and real local image processing. They do not prove live Google credentials, CSAM enrolment or external inbox monitoring. Comments remain unimplemented.
 
 | Stage | Browser checks |
 | --- | --- |
@@ -212,10 +223,11 @@ Indicative Cloudflare allowances checked on **7 November 2026**:
 | --- | --- |
 | Workers Static Assets | Free, unlimited requests served directly as static assets; platform file limits apply |
 | Workers API | 100,000 requests per day and 10 ms CPU time per invocation |
+| Images Free optimization | 5,000 unique transformations/month; raw-byte Images binding with R2 storage |
 | D1 | 5 million rows read/day, 100,000 rows written/day, 5 GB total storage; 500 MB maximum per database on Free |
 | R2 Standard | 10 GB-month storage, 1 million Class A operations/month, 10 million Class B operations/month; no egress bandwidth fees |
 
-D1 usage counts rows scanned/written, not just API calls. Add indexes and pagination. Image originals, derivatives, and abandoned uploads all consume storage.
+D1 usage counts rows scanned/written, not just API calls. Add indexes and pagination. Pending/approved derivatives and justified evidence holds consume storage; original uploads are not retained. The app caps attempts and active/preserved photo records before transformation. See the [photo limits and pricing](docs/photo-uploads.md#limits-and-cost-controls).
 
 Free-plan limits can cause requests or queries to fail. R2 and paid services can accrue usage charges. Budget alerts are notifications, not a hard spending cap: enforce upload quotas, size limits, cleanup policies, and usage monitoring in the application. Image processing, identity-provider features, and enhanced security features need their own pricing checks.
 

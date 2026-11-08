@@ -1,0 +1,26 @@
+---
+const { componentId } = Astro.props;
+---
+<section data-photo-gallery data-component={componentId} class="panel self-start p-7" aria-label="Community photos">
+  <h2 class="text-2xl">Community photos</h2><p class="mt-4 text-sm leading-7 text-muted">Photos are reviewed before publication. Comments are not available yet.</p>
+  <p data-photo-status class="mt-4 text-sm" role="status">Loading community photos…</p><div data-photo-list class="mt-5 space-y-7"></div>
+  <button data-more-photos type="button" class="text-link mt-5" hidden>Load more photos</button>
+  <p data-upload-availability class="mt-4 text-sm text-muted"></p>
+  <a data-add-photo class="button mt-6" href={`/upload/?component=${componentId}`} hidden>Add a photo</a>
+  <noscript><p class="mt-4 text-sm">Enable JavaScript to view community photos. Component specifications remain available without it.</p></noscript>
+</section>
+<script>
+import { api, element, message } from '../scripts/community';
+for(const gallery of document.querySelectorAll<HTMLElement>('[data-photo-gallery]')){
+  const id=gallery.dataset.component!,status=gallery.querySelector<HTMLElement>('[data-photo-status]')!,list=gallery.querySelector('[data-photo-list]')!,more=gallery.querySelector<HTMLButtonElement>('[data-more-photos]')!;let cursor:string|null=null;
+  async function load(){
+    more.disabled=true;
+    try{const result=await api(`/api/components/${id}/photos${cursor?'?cursor='+encodeURIComponent(cursor):''}`);
+      for(const photo of result.photos){const figure=element('figure','space-y-3');const img=document.createElement('img');img.src=photo.imageUrl;img.alt=photo.alt;img.loading='lazy';img.className='max-h-80 w-full rounded-lg object-contain';if(photo.width)img.width=photo.width;if(photo.height)img.height=photo.height;const caption=element('figcaption','space-y-2');caption.append(element('p','text-sm',photo.caption),element('p','text-sm text-muted',`Photo by ${photo.contributor}`));const report=document.createElement('a');report.href=`/report/?photo=${photo.id}`;report.className='text-link inline-block text-sm';report.textContent='Report this photo';caption.append(report);figure.append(img,caption);list.append(figure);}
+      cursor=result.nextCursor;more.hidden=!cursor;message(status,list.children.length?'':'No approved photos yet.');
+    }catch{message(status,'Community photos could not be loaded. Please try again later.',true);}finally{more.disabled=false;}
+  }
+  more.addEventListener('click',load);void load();
+  api('/api/community/config').then(config=>{if(config.uploadsAvailable)gallery.querySelector<HTMLElement>('[data-add-photo]')!.hidden=false;else message(gallery.querySelector<HTMLElement>('[data-upload-availability]'),'Photo uploads are not open yet.');}).catch(()=>{});
+}
+</script>

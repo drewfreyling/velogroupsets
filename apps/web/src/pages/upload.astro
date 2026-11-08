@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { POLICY_VERSION } from '../../../../packages/shared/community';
+---
+<Layout title="Add a component photo" noindex>
+  <div class="wrap max-w-3xl py-12"><h1 class="text-4xl font-semibold">Add a component photo</h1><p id="component-label" class="mt-4 text-lg"></p>
+    <p class="mt-4 leading-7 text-muted">Choose a JPEG, PNG or WebP photo up to 5 MiB and 20 megapixels. We re-encode it, remove embedded metadata and limit the display size to 2,000 pixels. Crop out faces, addresses and other identifying details first. A moderator reviews the photo before it becomes public. Each account can submit up to ten photos per UTC day; site-wide limits also apply.</p>
+    <p id="upload-message" class="mt-6" role="status">Checking upload availability…</p><a id="upload-sign-in" class="text-link mt-4 inline-block" href="/account/" hidden>Sign in with Google to add a photo</a>
+    <form method="post" id="upload-form" class="panel mt-8 space-y-5 p-6" hidden>
+      <input id="component-id" type="hidden" name="component_id"/><input type="hidden" name="policy_version" value={POLICY_VERSION}/><input id="upload-token" type="hidden" name="turnstile_token"/>
+      <label class="block">Photo<input class="field mt-2" type="file" name="photo" accept="image/jpeg,image/png,image/webp" required/></label>
+      <label class="block">Caption<textarea class="field mt-2" name="caption" maxlength="500" rows="3" required placeholder="What does this photo show?"></textarea></label>
+      <label class="block">Image description<textarea class="field mt-2" name="alt_text" maxlength="250" rows="2" required aria-describedby="alt-help"></textarea></label><p id="alt-help" class="text-sm text-muted">Describe the visible markings or details for someone who cannot see the photo.</p>
+      <label class="flex items-start gap-3 leading-7"><input class="mt-2 size-5 shrink-0" type="checkbox" name="accepted_licence" required/><span>I own this photo or have permission to upload it. I grant the upload licence in the <a class="text-link" href="/policies/terms/">Terms of Service</a>, agree to the <a class="text-link" href="/policies/community/">Community Guidelines</a>, and have read the <a class="text-link" href="/policies/privacy/">Privacy Policy</a>.</span></label>
+      <div id="upload-challenge"></div><button class="button" type="submit" disabled>Submit photo for review</button>
+    </form><noscript><p class="mt-6">Photo submissions require JavaScript. Please read the policies before submitting a photo.</p></noscript>
+  </div>
+</Layout>
+<script>
+import { api, challenge, message } from '../scripts/community';
+const form=document.querySelector<HTMLFormElement>('#upload-form')!,status=document.querySelector<HTMLElement>('#upload-message')!;
+let reset=()=>{};
+try {
+  const componentId=new URL(location.href).searchParams.get('component');
+  const [session,index]=await Promise.all([api('/api/session'),api('/search-index.json')]);
+  const component=index.find((p:any)=>p.id===componentId);
+  if(!component)throw new Error('Choose a component from the catalogue before uploading a photo.');
+  const link=document.createElement('a');link.className='text-link';link.href=component.url;link.textContent=component.model;document.querySelector('#component-label')!.append(link);
+  if(!session.uploadsAvailable)message(status,'Photo uploads are not open yet. Please check back once the operator has completed setup.');
+  else if(!session.user){message(status,'Sign in before submitting a photo.');const login=document.querySelector<HTMLAnchorElement>('#upload-sign-in')!;login.hidden=false;login.href='/account/?returnTo='+encodeURIComponent(location.pathname+location.search);}
+  else {
+    const componentField=document.querySelector<HTMLInputElement>('#component-id')!;componentField.value=componentField.defaultValue=component.id;form.hidden=false;message(status,'');
+    reset=await challenge(document.querySelector('#upload-challenge')!,session.turnstileSiteKey,'upload-photo',document.querySelector('#upload-token')!);
+  form.querySelector<HTMLButtonElement>('button[type=submit]')!.disabled=false;
+    form.addEventListener('submit',async event=>{
+      event.preventDefault();if(!form.reportValidity())return;const button=form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+      const data=new FormData(form),file=data.get('photo') as File;
+      if(!file||file.size>session.maxUploadBytes){message(status,'Choose a photo no larger than 5 MiB.',true);return;}
+      if(!data.get('turnstile_token')){message(status,'Complete the anti-spam check before submitting.',true);return;}
+      button.disabled=true;message(status,'Processing your photo…');
+      try{const result=await api('/api/uploads',{method:'POST',headers:{'X-CSRF-Token':session.csrfToken},body:data});message(status,result.message);form.reset();reset();}
+      catch(error){message(status,(error as Error).message,true);reset();}finally{button.disabled=false;}
+    });
+  }
+}catch(error){message(status,(error as Error).message,true);}
+</script>

@@ -72,3 +72,12 @@ Use the shared `ExternalLink` component for off-site links: only these links sho
 ## Colour and themes
 
 Read [docs/design.md](docs/design.md) before changing visual styles. Use the shared semantic colour tokens for both light and dark modes. Base teal `#3DCFC2` takes `#10201F` ink, never white text; small links on light backgrounds use `#0B6B65`. Preserve system-theme fallback, the accessible persistent dark-mode toggle and the external pre-paint script without weakening CSP. Check responsive pages and contrast in both themes.
+
+
+## Community uploads and policies
+
+Read [photo uploads](docs/photo-uploads.md) before changing community code or enabling uploads. Google sign-in, sessions, moderated photos, reports, owner removal and policy drafts are implemented; comments remain planned. Do not mark a mailbox, Google credentials or Cloudflare CSAM enrolment complete without evidence. Uploads stay disabled until operator/contact confirmation, provider secrets, private evidence storage and the approved-photo domain are ready. Keep identity/client/provider credentials and real community data out of Git and logs.
+
+Require active, unchecked acceptance at sign-in and for each upload. Material policy changes need a new `POLICY_VERSION` and corresponding acceptance records. Decode/re-encode server-side, remove metadata before storage, enforce byte/pixel/output limits and atomic quotas, and never publish originals or pending bytes. CSAM matching runs on images entering the zone cache; it is not a private-upload scanner or a guarantee that an image is safe. Preserve human moderation, private reports and a monitored contact channel.
+
+Keep temporary, approved/public and evidence storage separate. Evidence must have no public domain or automatic expiry. Public image requests must check current D1 status before fetching through the scanned CDN and must not fall back to private storage. Removals hide first and queue deletion/purge retries. Use only synthetic fixtures in CI; provider mocks do not prove live OAuth, scanning, mailbox monitoring or production image transformation behaviour. Run the community API integration tests and desktop/mobile browser tests, and review actual OpenTofu plans before infrastructure changes.

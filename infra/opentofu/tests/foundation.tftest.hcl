@@ -13,7 +13,7 @@ run "private_by_default" {
     error_message = "CAA must be opt-in so production cannot duplicate shared zone ownership."
   }
   assert {
-    condition     = !cloudflare_r2_managed_domain.uploads.enabled && !cloudflare_r2_managed_domain.photos.enabled && length(cloudflare_r2_custom_domain.photos) == 0
+    condition     = !cloudflare_r2_managed_domain.uploads.enabled && !cloudflare_r2_managed_domain.photos.enabled && !cloudflare_r2_managed_domain.evidence.enabled && length(cloudflare_r2_custom_domain.photos) == 0
     error_message = "Storage must not expose a public endpoint by default."
   }
   assert {
@@ -64,7 +64,7 @@ run "production_has_separate_names" {
     site_hostname = "example.com"
   }
   assert {
-    condition     = cloudflare_d1_database.community.name == "velogroupsets-production-community" && cloudflare_r2_bucket.uploads.name == "velogroupsets-production-uploads" && cloudflare_r2_bucket.photos.name == "velogroupsets-production-photos"
+    condition     = cloudflare_d1_database.community.name == "velogroupsets-production-community" && cloudflare_r2_bucket.uploads.name == "velogroupsets-production-uploads" && cloudflare_r2_bucket.photos.name == "velogroupsets-production-photos" && cloudflare_r2_bucket.evidence.name == "velogroupsets-production-evidence"
     error_message = "Environments must not share persistent resource names."
   }
 }
@@ -83,7 +83,7 @@ run "publish_only_approved_bucket" {
     zone_id              = "0123456789abcdef0123456789abcdef"
   }
   assert {
-    condition     = cloudflare_r2_custom_domain.photos[0].bucket_name == cloudflare_r2_bucket.photos.name && cloudflare_r2_custom_domain.photos[0].min_tls == "1.2" && !cloudflare_r2_managed_domain.uploads.enabled
+    condition     = cloudflare_r2_custom_domain.photos[0].bucket_name == cloudflare_r2_bucket.photos.name && cloudflare_r2_custom_domain.photos[0].min_tls == "1.3" && !cloudflare_r2_managed_domain.uploads.enabled
     error_message = "Publication must target the approved bucket and keep staging private."
   }
 }

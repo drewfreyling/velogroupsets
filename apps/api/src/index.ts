@@ -1,11 +1,11 @@
-interface Env {
-  ASSETS: { fetch(request: Request): Promise<Response> };
-  ENVIRONMENT: string;
-  RELEASE_SHA?: string;
-}
+import type { Context, Env } from './types.ts';
+import { communityApi } from './community.ts';
+import { cleanup } from './moderation.ts';
+
 
 export default {
-  async fetch(request: Request, env: Env): Promise<Response> {
+  async scheduled(_event:unknown,env:Env,ctx:Context) { ctx.waitUntil(cleanup(env)); },
+  async fetch(request: Request, env: Env, ctx?: Context): Promise<Response> {
     const path = new URL(request.url).pathname;
     if (path === '/api' || path.startsWith('/api/')) {
       const headers = {
@@ -23,7 +23,7 @@ export default {
           status: 405, headers: { ...headers, Allow: 'GET, HEAD' },
         });
       }
-      return new Response(JSON.stringify({ error: 'API endpoint not found' }), { status: 404, headers });
+      return communityApi(request,env,ctx);
     }
     return env.ASSETS.fetch(request);
   },

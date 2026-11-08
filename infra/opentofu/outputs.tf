@@ -9,6 +9,7 @@ output "wrangler_bindings" {
     r2_buckets = [
       { binding = "UPLOADS", bucket_name = cloudflare_r2_bucket.uploads.name },
       { binding = "PHOTOS", bucket_name = cloudflare_r2_bucket.photos.name },
+      { binding = "EVIDENCE", bucket_name = cloudflare_r2_bucket.evidence.name },
     ]
   }
 }

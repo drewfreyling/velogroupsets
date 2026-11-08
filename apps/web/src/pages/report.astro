@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Report a photo" noindex>
+  <div class="wrap max-w-3xl py-12"><h1 class="text-4xl font-semibold">Report a photo</h1>
+    <p class="mt-4 leading-7 text-muted">Reports are private and do not require an account. Explain the concern and include only information needed to review it. Do not download or attach suspected illegal material.</p>
+    <p class="mt-4">For a formal copyright or privacy request, use the monitored email in the <a class="text-link" href="/policies/copyright/">Copyright and Takedown Policy</a>.</p>
+    <p id="report-message" class="mt-6" role="status">Checking reporting availability…</p>
+    <form method="post" id="report-form" class="panel mt-8 space-y-5 p-6" hidden>
+      <label class="block" for="report-reason">Reason</label><select id="report-reason" class="field mt-2" name="reason" required><option value="">Choose a reason</option><option value="copyright">Copyright</option><option value="privacy">Privacy or personal information</option><option value="inappropriate">Inappropriate or irrelevant content</option><option value="illegal">Suspected illegal content</option><option value="other">Other concern</option></select>
+      <label class="block">Details<textarea class="field mt-2" name="details" minlength="5" maxlength="2000" rows="5" required></textarea></label>
+      <label class="block">Contact email <span class="text-muted">(optional)</span><input class="field mt-2" type="email" name="contact_email" maxlength="254" autocomplete="email"/></label>
+      <input type="hidden" name="turnstile_token" id="report-token"/><div id="report-challenge"></div><button class="button" type="submit" disabled>Send photo report</button>
+    </form><noscript><p class="mt-6">The report form requires JavaScript. Use the monitored email listed in the copyright policy instead.</p></noscript>
+  </div>
+</Layout>
+<script>
+import { api, challenge, jsonOptions, message } from '../scripts/community';
+const form=document.querySelector<HTMLFormElement>('#report-form')!,status=document.querySelector<HTMLElement>('#report-message')!;
+try {
+  const id=new URL(location.href).searchParams.get('photo');if(!id||!/^[a-f0-9-]{36}$/.test(id))throw new Error('Choose “Report this photo” beside a published photo.');
+  const config=await api('/api/community/config');
+  if(!config.contactEmail||!config.turnstileSiteKey)throw new Error('Reporting is not configured yet. See the copyright policy for current contact details.');
+  form.hidden=false;message(status,'');const reset=await challenge(document.querySelector('#report-challenge')!,config.turnstileSiteKey,'report-photo',document.querySelector('#report-token')!);
+  form.querySelector<HTMLButtonElement>('button[type=submit]')!.disabled=false;
+  form.addEventListener('submit',async event=>{
+    event.preventDefault();if(!form.reportValidity())return;const button=form.querySelector<HTMLButtonElement>('button[type=submit]')!;const body=Object.fromEntries(new FormData(form));
+    if(!body.turnstile_token){message(status,'Complete the anti-spam check before submitting.',true);return;}
+    button.disabled=true;try{const result=await api(`/api/photos/${id}/reports`,jsonOptions(body));message(status,result.message);form.reset();reset();}catch(error){message(status,(error as Error).message,true);reset();}finally{button.disabled=false;}
+  });
+}catch(error){message(status,(error as Error).message,true);}
+</script>

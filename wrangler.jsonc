@@ -10,7 +10,52 @@
     "binding": "ASSETS",
     "html_handling": "force-trailing-slash",
     "not_found_handling": "404-page",
-    "run_worker_first": ["/api", "/api/*"]
+    "run_worker_first": [
+      "/api",
+      "/api/*"
+    ]
   },
-  "vars": { "ENVIRONMENT": "local" }
+  "vars": {
+    "ENVIRONMENT": "local",
+    "SITE_ORIGIN": "http://127.0.0.1:8787",
+    "UPLOADS_ENABLED": "false",
+    "CONTACT_READY": "false",
+    "CSAM_SCANNING_CONFIRMED": "false"
+  },
+  "build": {
+    "command": "node scripts/build-api-catalogue.mjs",
+    "watch_dir": [
+      "data"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "COMMUNITY_DB",
+      "database_name": "velogroupsets-local-community",
+      "database_id": "00000000-0000-0000-0000-000000000001",
+      "migrations_dir": "db/migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "UPLOADS",
+      "bucket_name": "velogroupsets-local-uploads"
+    },
+    {
+      "binding": "PHOTOS",
+      "bucket_name": "velogroupsets-local-photos"
+    },
+    {
+      "binding": "EVIDENCE",
+      "bucket_name": "velogroupsets-local-evidence"
+    }
+  ],
+  "images": {
+    "binding": "IMAGES"
+  },
+  "triggers": {
+    "crons": [
+      "17 * * * *"
+    ]
+  }
 }

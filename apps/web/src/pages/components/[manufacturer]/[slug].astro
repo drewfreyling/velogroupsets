@@ -2,6 +2,7 @@
 import ExternalLink from '../../../components/ExternalLink.astro';
 import Layout from '../../../layouts/Layout.astro';
 import Sources from '../../../components/Sources.astro';
+import PhotoGallery from '../../../components/PhotoGallery.astro';
 import DerailleurCageHelp from '../../../components/DerailleurCageHelp.astro';
 import { components, manufacturerFor, manufacturerUrl, groupsFor, groupsetUrl, groupsetName, typeName } from '../../../lib/catalogue.mjs';
 export function getStaticPaths() {
@@ -54,10 +55,9 @@ const format = value => value == null ? 'Not documented' : Array.isArray(value) 
         </dl>
         <Sources sources={component.sources}/>
       </div>
-      <aside class="panel self-start p-7">
-        <h2 class="text-2xl">Component photos and comments</h2>
-        <p class="mt-4 text-sm leading-7 text-muted">Photo uploads and comments are not available yet. Corrections to component specifications can be submitted through GitHub.</p>
-        <ExternalLink class="text-link mt-6 inline-block text-sm" href={`https://github.com/drewfreyling/velogroupsets/edit/main/data/components/${component.id}.json`}>Edit this component on GitHub</ExternalLink>
+      <aside class="self-start space-y-6">
+        <PhotoGallery componentId={component.id}/>
+        <div class="panel p-7"><h2 class="text-xl">Correct a specification</h2><p class="mt-3 text-sm leading-7 text-muted">Catalogue corrections are reviewed through GitHub.</p><ExternalLink class="text-link mt-4 inline-block text-sm" href={`https://github.com/drewfreyling/velogroupsets/edit/main/data/components/${component.id}.json`}>Edit this component on GitHub</ExternalLink></div>
       </aside>
     </div>
   </div>

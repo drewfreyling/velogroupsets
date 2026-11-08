@@ -1,0 +1,9 @@
+export const POLICY_VERSION = '2026-11-08-v1';
+export const MAX_UPLOAD_BYTES = 5 * 1024 * 1024;
+export const MAX_PIXELS = 20_000_000;
+export const MAX_OUTPUT_BYTES = 3 * 1024 * 1024;
+export const MAX_EDGE = 2000;
+export const USER_DAILY_LIMIT = 10;
+export const SITE_DAILY_LIMIT = 100;
+export const MAX_STORED_PHOTOS = 1000;
+export const REPORT_REASONS = ['copyright', 'privacy', 'inappropriate', 'illegal', 'other'] as const;

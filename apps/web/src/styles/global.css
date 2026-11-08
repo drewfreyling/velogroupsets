@@ -52,12 +52,12 @@
   body { @apply bg-paper text-ink font-sans antialiased; }
   a { color: var(--link); }
   a:hover { color: var(--link-hover); }
-  a, button, input, select { @apply focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-accent; }
-  :is(a, button, input, select):focus-visible { box-shadow: 0 0 0 6px var(--focus-contrast); }
+  a, button, input, select, textarea { @apply focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-accent; }
+  :is(a, button, input, select, textarea):focus-visible { box-shadow: 0 0 0 6px var(--focus-contrast); }
   button, select { cursor: pointer; }
   h1, h2, h3 { color: var(--text); text-wrap: balance; }
   input::placeholder { color: var(--muted); opacity: 1; }
-  input, select { border-color: var(--control-border); }
+  input, select, textarea { border-color: var(--control-border); }
   option:checked { background: var(--selected); color: var(--text); }
   [hidden] { display: none !important; }
   ::selection { background: var(--brand-base); color: var(--brand-ink); }
@@ -102,3 +102,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+
+@layer components {
+  .field { @apply block w-full rounded-lg border bg-surface px-4 py-3 text-base text-ink; }
+  .button:disabled { cursor: wait; opacity: 0.65; }
+}

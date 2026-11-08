@@ -43,3 +43,6 @@ wrangler.generated.json
 .astro/
 playwright-report/
 test-results/
+
+# Generated API catalogue, rebuilt from canonical records
+apps/api/generated/

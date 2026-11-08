@@ -36,6 +36,12 @@ jobs:
       ASTRO_TELEMETRY_DISABLED: '1'
       WRANGLER_SEND_METRICS: 'false'
       CI: 'true'
+      PUBLIC_SITE_OPERATOR: ${{ vars.PUBLIC_SITE_OPERATOR }}
+      PUBLIC_CONTACT_EMAIL: ${{ vars.PUBLIC_CONTACT_EMAIL }}
+      CONTACT_READY: ${{ vars.CONTACT_READY }}
+      GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_CLIENT_ID }}
+      UPLOADS_ENABLED: ${{ vars.UPLOADS_ENABLED }}
+      CSAM_SCANNING_CONFIRMED: ${{ vars.CSAM_SCANNING_CONFIRMED }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -66,6 +72,20 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           TOFU_ENCRYPTION_PASSPHRASE: ${{ secrets.TOFU_ENCRYPTION_PASSPHRASE }}
         run: python3 scripts/prepare_web_deploy.py
+      - name: Apply backward-compatible community migrations
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 5ccb67114ff0fa1a13cb46ef3d08cb49
+        run: npx --no-install wrangler d1 migrations apply COMMUNITY_DB --remote --config wrangler.generated.json
+      - name: Configure community Worker secrets privately
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 5ccb67114ff0fa1a13cb46ef3d08cb49
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          TURNSTILE_SECRET: ${{ secrets.TURNSTILE_SECRET }}
+          MODERATOR_EMAILS: ${{ secrets.MODERATOR_EMAILS }}
+          PHOTO_CACHE_PURGE_TOKEN: ${{ secrets.PHOTO_CACHE_PURGE_TOKEN }}
+        run: python3 scripts/configure_worker_secrets.py
       - name: Deploy code and assets with Wrangler
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

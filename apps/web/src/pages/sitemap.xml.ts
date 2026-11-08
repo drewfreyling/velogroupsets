@@ -8,6 +8,7 @@ const escapeXml = (value: string) => value.replace(/[<>&"']/g, char => ({
 export const GET: APIRoute = () => {
   const paths = [
     '/', '/manufacturers/', '/catalogue/',
+    '/policies/terms/', '/policies/privacy/', '/policies/community/', '/policies/copyright/',
     ...manufacturers.map(manufacturerUrl),
     ...groupsets.map(groupsetUrl),
     ...components.map(componentUrl),

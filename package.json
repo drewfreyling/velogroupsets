@@ -2,16 +2,30 @@
   "name": "velogroupsets",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=24.22.1 <25" },
+  "engines": {
+    "node": ">=24.22.1 <25"
+  },
   "scripts": {
     "dev": "astro dev --root apps/web --host 0.0.0.0",
-    "build": "astro build --root apps/web",
+    "build": "node scripts/build-api-catalogue.mjs && astro build --root apps/web",
     "preview": "astro preview --root apps/web --host 0.0.0.0",
     "test": "node --test tests/*.test.mjs",
     "test:browser": "playwright test",
-    "worker:dev": "wrangler dev --config wrangler.jsonc",
-    "worker:check": "wrangler deploy --dry-run --config wrangler.jsonc --outdir /tmp/velogroupsets-worker"
+    "worker:dev": "npm run db:migrate:local && wrangler dev --config wrangler.jsonc",
+    "worker:check": "wrangler deploy --dry-run --config wrangler.jsonc --outdir /tmp/velogroupsets-worker",
+    "db:migrate:local": "wrangler d1 migrations apply COMMUNITY_DB --local --config wrangler.jsonc"
   },
-  "dependencies": { "@fontsource-variable/source-sans-3": "5.3.1", "astro": "7.4.7", "tailwindcss": "4.3.5", "@tailwindcss/vite": "4.3.5" },
-  "devDependencies": { "wrangler": "4.158.0", "@playwright/test": "1.65.0" }
+  "dependencies": {
+    "@fontsource-variable/source-sans-3": "5.3.1",
+    "@tailwindcss/vite": "4.3.5",
+    "astro": "7.4.7",
+    "jose": "6.2.15",
+    "tailwindcss": "4.3.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "miniflare": "5.20261104.0-beta",
+    "sharp": "0.35.5",
+    "wrangler": "4.158.0"
+  }
 }

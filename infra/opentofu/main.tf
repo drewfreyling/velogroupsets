@@ -106,7 +106,7 @@ resource "cloudflare_r2_custom_domain" "photos" {
   domain      = var.photos_hostname
   zone_id     = var.zone_id
   enabled     = true
-  min_tls     = "1.2"
+  min_tls     = "1.3"
 
   lifecycle {
     precondition {
@@ -114,4 +114,19 @@ resource "cloudflare_r2_custom_domain" "photos" {
       error_message = "Public photos require a zone_id and a distinct photos_hostname."
     }
   }
+}
+
+# Incident preservation must not inherit temporary-upload expiry or public access.
+resource "cloudflare_r2_bucket" "evidence" {
+  account_id    = var.account_id
+  name          = "${local.name}-evidence"
+  storage_class = "Standard"
+  lifecycle {
+    prevent_destroy = true
+  }
+}
+resource "cloudflare_r2_managed_domain" "evidence" {
+  account_id  = var.account_id
+  bucket_name = cloudflare_r2_bucket.evidence.name
+  enabled     = false
 }

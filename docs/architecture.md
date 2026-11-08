@@ -1,6 +1,6 @@
 # Architecture
 
-**Status:** initial OpenTofu, CI and catalogue schemas/validation are implemented; The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273); production deployment remains pending. Astro/Tailwind catalogue pages, browser search, a TypeScript Worker health endpoint and a manual Wrangler deployment workflow are implemented. The staging Worker/static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328); [staging.velogroupsets.com](https://staging.velogroupsets.com/) is live with TLS 1.3-only and one-year HSTS including subdomains/preload after its [reviewed infrastructure apply](https://github.com/drewfreyling/velogroupsets/actions/runs/42339179675); community features remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
+**Status:** initial OpenTofu, CI and catalogue schemas/validation are implemented; The staging D1/R2/Turnstile foundation was [provisioned on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273); production deployment remains pending. Astro/Tailwind catalogue pages, browser search, a TypeScript Worker health endpoint and a manual Wrangler deployment workflow are implemented. The staging Worker/static assets were [deployed successfully](https://github.com/drewfreyling/velogroupsets/actions/runs/42338589328); [staging.velogroupsets.com](https://staging.velogroupsets.com/) is live with TLS 1.3-only and one-year HSTS including subdomains/preload after its [reviewed infrastructure apply](https://github.com/drewfreyling/velogroupsets/actions/runs/42339179675); Google sign-in, moderated uploads, reports, owner removal and policy pages are implemented behind readiness gates; external provider/mailbox/CSAM setup remains required. Comments remain planned. See [the infrastructure guide](../infra/README.md) for the implemented scope and bootstrap steps.
 
 ## Goals and starting decisions
 
@@ -13,6 +13,8 @@ Use one GitHub repository for code, curated catalogue data, database migrations,
 ```mermaid
 flowchart TD
     Browser["Browser"]
+    Google["Google OpenID Connect"]
+    Operator["Operator: moderation and monitored inbox"]
 
     subgraph GitHub["GitHub"]
         Repo["Source code and curated catalogue"]
@@ -25,43 +27,50 @@ flowchart TD
     subgraph Cloudflare["Cloudflare"]
         State[("Private R2: encrypted state, plans and snapshots")]
         Edge["Custom domain: TLS 1.3, HSTS, CDN and available WAF rules"]
-        Static["Workers Static Assets: HTML, CSS, JS, search index"]
-        API["TypeScript Worker API"]
-        DB[("D1: users, comments, photo metadata")]
-        Staging[("Private R2 staging bucket")]
-        Processing["Image validation, processing and moderation"]
-        Photos[("Public R2 approved photos")]
-        ImageCDN["images.example.com: CDN cache"]
+        Static["Workers Static Assets: catalogue and policy pages"]
+        API["TypeScript Worker: accounts, uploads, reports and image proxy"]
+        DB[("D1: users, consent, photos and moderation")]
+        Pending[("Private R2: sanitised pending photos")]
+        Images["Images binding: decode, resize and JPEG encoding"]
+        Photos[("R2: approved sanitised photos")]
+        Evidence[("Private R2: justified incident holds")]
+        ImageCDN["Approved-photo custom domain and cache"]
+        Scanner["CSAM Scanning Tool: known-hash matching"]
         Turnstile["Turnstile verification"]
-
         Edge -->|"Catalogue and assets"| Static
-        Edge -->|"/api/*: community reads and writes"| API
+        Edge -->|"Community API and approved image delivery"| API
         API --> DB
-        API -->|"Verify submission token"| Turnstile
-        API -->|"Issue upload URL; verify completion"| Staging
-        Staging --> Processing
-        Processing -->|"Publish approved derivatives"| Photos
-        Processing -->|"Update photo status"| DB
+        API -->|"Verify action and hostname"| Turnstile
+        API -->|"Bounded input bytes"| Images
+        Images -->|"JPEG, then metadata stripping"| API
+        API --> Pending
+        API -->|"Moderator-approved copy"| Photos
+        API -->|"Private preservation when justified"| Evidence
+        API -->|"State-checked image fetch"| ImageCDN
         ImageCDN --> Photos
+        ImageCDN --> Scanner
     end
 
     TF ---|"Native state locking"| State
     Browser --> Edge
-    Browser -->|"Signed PUT to R2 S3 endpoint"| Staging
-    Browser -->|"View approved photos"| ImageCDN
+    Browser <-->|"Sign in"| Google
+    API <-->|"Code exchange and token verification"| Google
+    Operator -->|"Review photos and reports"| API
+    Scanner -.->|"Detection notices"| Operator
     CI -.->|"Deploy"| Static
     CI -.->|"Deploy"| API
     CI -.->|"Apply reviewed migrations"| DB
-    TF -.->|"Provision database"| DB
-    TF -.->|"Provision private bucket and policies"| Staging
-    TF -.->|"Provision public bucket and domain"| Photos
-    TF -.->|"Configure DNS, cache and security rules"| Edge
+    TF -.->|"Provision"| DB
+    TF -.->|"Provision private storage and policies"| Pending
+    TF -.->|"Provision private storage"| Evidence
+    TF -.->|"Provision approved storage and domain"| Photos
+    TF -.->|"Configure DNS and security settings"| Edge
     TF -.->|"Configure widget"| Turnstile
 ```
 
 The diagram is logical, not a deployment manifest. WAF capabilities depend on the Cloudflare plan. Turnstile is a browser widget with backend verification, not a universal network filter. Direct signed uploads go to the R2 S3 endpoint and must not rely on the site's WAF rules for protection.
 
-The image-processing runtime and trigger are unresolved. The processor may need a separately priced service or compute budget. Photo uploads must remain disabled until validation, publication, and cleanup work end to end.
+The Images optimization binding performs server-side decoding and JPEG encoding without running a decoder in the free Worker’s CPU budget. The Worker validates limits, strips metadata, controls publication and reconciles cleanup. Uploads remain disabled until the configured identity, legal contact, scanning and storage readiness checks pass. See [photo uploads](photo-uploads.md) for implementation and activation details.
 
 ## UI and catalogue model
 
@@ -75,7 +84,7 @@ See [the catalogue and UI guide](catalogue.md) for schemas, stable type IDs, exa
 
 ## Response headers
 
-Workers Static Assets serves the CSP from `apps/web/public/_headers`. It permits same-origin application scripts plus `https://static.cloudflareinsights.com` for Cloudflare's injected analytics beacon; `connect-src` permits same-origin requests and `https://cloudflareinsights.com` for analytics reporting. No inline-script or eval exceptions are added. Other script origins remain blocked. These are the [Cloudflare-documented Web Analytics CSP requirements](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/content-security-policies/); enabling analytics remains a Cloudflare account setting, rather than adding another beacon in the application.
+Workers Static Assets serves the CSP from `apps/web/public/_headers`. It permits same-origin application scripts plus `https://challenges.cloudflare.com` for Turnstile and `https://static.cloudflareinsights.com` for Cloudflare's injected analytics beacon; `connect-src` permits same-origin requests and `https://cloudflareinsights.com` for analytics reporting. Turnstile frames are restricted to `https://challenges.cloudflare.com`; no inline-script or eval exceptions are added. Other script origins remain blocked. These are the [Cloudflare-documented Web Analytics CSP requirements](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/content-security-policies/); enabling analytics remains a Cloudflare account setting, rather than adding another beacon in the application.
 
 ## Catalogue reads
 
@@ -88,22 +97,9 @@ Use a stable ID for each component and groupset, separate from its URL slug and 
 
 ## Community reads and writes
 
-The Worker serves both public reads and authenticated writes. Illustrative routes:
+The Worker implements Google sign-in, server-side sessions, policy acceptance, moderated uploads, owner removal, approved-photo reads, anonymous reports and moderator-only actions. The [photo guide](photo-uploads.md#routes-and-data) defines the implemented routes. Comment endpoints remain planned and return API 404s.
 
-| Route | Responsibility |
-| --- | --- |
-| `GET /api/components/:id/photos` | Paginated list of approved photo metadata |
-| `GET /api/photos/:id/comments` | Paginated list of visible photo comments |
-| `POST /api/photos/:id/comments` | Authorized, validated comment submission |
-| `POST /api/uploads` | Reserve quota, create pending record, issue signed URL |
-| `POST /api/uploads/:id/complete` | Verify ownership and uploaded object, schedule validation |
-| Moderator-only routes | Approve, hide, remove, and review reports |
-
-Routes are proposals, not an implemented API contract. Requests that edit or delete content must check ownership or moderator permissions. Hidden photos and comments must not leak through public APIs.
-
-D1 stores identity-provider references, user roles, comments, photo metadata, upload reservations, reports, and moderation status. Store image object keys in D1, not image bytes or expiring signed URLs. Authentication provider and session design are still to be chosen; visitors do not need accounts to browse public content.
-
-Use parameterized SQL, indexes, bounded queries, and pagination. API writes should be retry-safe where duplicate submissions are possible.
+D1 stores Google account references, hashed sessions, versioned consent records, photo metadata, quota reservations, reports and moderation state. Google passwords/tokens and image originals are not stored. SQL is parameterised, lists are indexed/bounded and hidden content is excluded from public responses. The API validates component IDs and historical aliases against an allowlist built from the curated catalogue.
 
 ## Upload and publication flow
 
@@ -113,44 +109,32 @@ sequenceDiagram
     participant Browser
     participant API as Worker API
     participant DB as D1
-    participant R2 as Private R2 staging
-    participant Processor as Validation and moderation
-    participant Public as Public R2 photos
-
-    User->>Browser: Select component photo
-    Browser->>API: Request upload with session and Turnstile token
-    API->>API: Verify identity, token, component ID and quota
-    API->>DB: Reserve upload allowance and create pending record
-    API-->>Browser: Short-lived signed PUT URL and upload ID
-    Browser->>R2: Upload directly to assigned object key
-    Browser->>API: Complete upload
-    API->>R2: Check actual object metadata
-    API->>DB: Mark validation pending
-    API-->>Browser: Processing status
-    Processor->>R2: Read and validate actual image
-    Processor->>Processor: Re-encode, strip EXIF, resize and moderate
-    Processor->>Public: Write approved derivatives under new immutable keys
-    Processor->>DB: Mark approved and record published object keys
-    Browser->>API: Fetch approved photo metadata
-    API-->>Browser: Public image URLs
+    participant Images as Images binding
+    participant Pending as Private pending R2
+    actor Moderator
+    participant Public as Approved R2 and scanned CDN
+    User->>Browser: Select photo and actively agree to upload licence
+    Browser->>API: Bounded multipart POST, session, CSRF and Turnstile
+    API->>API: Verify identity, origin, consent version and component
+    API->>DB: Atomically reserve quota and storage allowance
+    API->>Images: Inspect, resize and re-encode
+    Images-->>API: Still JPEG
+    API->>API: Strip metadata and enforce output limits
+    API->>Pending: Store sanitised pending JPEG only
+    API->>DB: Record consent and pending photo
+    API-->>Browser: Awaiting review
+    Moderator->>API: Private preview, reason and approval
+    API->>Public: Copy under new key and prime zone cache
+    API->>DB: Mark approved
+    Browser->>API: Read approved metadata and image
+    API->>DB: Check current approval before image delivery
+    API->>Public: Fetch through cache with CSAM matching enabled
+    API-->>Browser: Approved JPEG, no-store
 ```
 
-Required safeguards:
+CSAM enrolment and its verified notification email are operator setup steps. Hash matching is not a prepublication clean verdict or a complete safety classifier. Human review, a monitored takedown address and private report handling remain required. Public delivery never falls back to private/original R2 data when the CDN blocks an image.
 
-- Require authentication and server-side Turnstile verification when authorizing submissions. Check the expected hostname/action. Turnstile does not replace authorization.
-- Generate unpredictable object keys on the server. Bind each upload to its owner, component, expiry, and reserved quota.
-- Sign only the required operation and object key, with a short expiry and expected content type. Signed URLs are bearer capabilities and can be reused until expiry; do not treat them as one-time credentials.
-- Configure staging-bucket CORS for the site's origin and required methods/headers. CORS is a browser policy, not access control against other clients.
-- Treat declared size, MIME type, and browser checks as untrusted. Verify actual uploaded size, decode the image, and enforce format, pixel-count, and processing-resource limits. Reject active content such as SVG initially.
-- A signed PUT alone is not a sufficient maximum-size enforcement mechanism. Define a separate approach if strict ingress size enforcement is needed; otherwise account for temporary oversized objects and reject/delete them before publication.
-- Publish from validated bytes to a new key in a separate bucket. Never expose staging keys directly: a still-valid signed URL could overwrite an uploaded original after validation.
-- Re-encode approved images, remove EXIF/GPS metadata, and generate bounded display sizes before public release.
-- Keep rejected uploads private; expire abandoned objects and reservations, and handle retries without publishing duplicates.
-- Make publication state transitions recoverable: D1 updates and R2 writes are not one cross-service transaction. Reconcile orphaned objects and records after failures.
-
-A private staging bucket and a public approved bucket are a security boundary. Attaching a public custom domain to the staging bucket would defeat that boundary.
-
-References: [R2 presigned URLs](https://developers.cloudflare.com/r2/api/s3/presigned-urls/), [R2 CORS](https://developers.cloudflare.com/r2/buckets/cors/), and [Turnstile validation](https://developers.cloudflare.com/turnstile/get-started/server-side-validation/).
+Uploads are private until review; originals are processed in memory and are never stored. The prior signed-URL proposal is superseded by bounded Worker uploads, avoiding reusable client PUT capabilities and strict-ingress-size gaps. Evidence holds use a separate private bucket without the temporary bucket’s expiry. Owner/moderator removal blocks site image delivery first, then deletes public storage and purges the cache, with a persistent retry/reconciliation queue. See [the photo guide](photo-uploads.md) for format limits, retention, evidence handling and incident procedures.
 
 ## Caching and routing
 
@@ -160,18 +144,18 @@ References: [R2 presigned URLs](https://developers.cloudflare.com/r2/api/s3/pres
 | Favicon (`/favicon.svg`) | `Cache-Control: public, max-age=86400, must-revalidate`; one day |
 | Hashed JS/CSS and versioned catalogue/search files | Long-lived immutable caching |
 | Approved photo derivatives | Long-lived caching through an R2 custom domain; use new keys when bytes change |
-| Public photo/comment lists | Explicit short shared cache, initially 30–60 seconds |
-| Sessions, upload URLs, private/moderator responses, writes | `Cache-Control: no-store`; no shared caching |
+| Public photo lists | `Cache-Control: no-store` so moderation takes effect immediately; comment lists remain planned |
+| Sessions, private/moderator responses, writes | `Cache-Control: no-store`; no shared caching |
 
 The static-asset `_headers` file owns browser cache headers. The favicon and hashed-asset rules detach the inherited `Cache-Control` header before setting their own value, so each response has one cache lifetime. The API sets its own cache headers.
 
 Configure public API caching explicitly. A general Cloudflare proxy does not cache HTML or JSON by default, and a cache lookup inside a Worker still invokes the Worker. Do not assume a cached API response eliminates Worker request accounting.
 
-Keep personalized information out of public cached responses. Skip shared caching for authenticated requests initially, and never cache a response containing session cookies or a signed upload URL.
+Keep personalized information out of public cached responses. Skip shared caching for authenticated requests initially, and never cache a response containing session cookies or private upload data.
 
-The public image bucket should use a custom domain such as `images.example.com`; `r2.dev` is for development and is not the production caching path. Presigned upload URLs use `<ACCOUNT_ID>.r2.cloudflarestorage.com`, not the public image domain.
+The approved image bucket uses an environment-specific custom domain, `images.staging.velogroupsets.com` or `images.velogroupsets.com`, for zone caching and CSAM matching. `r2.dev` is disabled. Uploads go through the Worker, without presigned client upload URLs.
 
-On comment/photo moderation or deletion, invalidate affected API caches and purge public image URLs as applicable. Long cache lifetimes require an explicit removal procedure; deleting an origin object alone does not immediately remove cached copies.
+On photo moderation or deletion, hide the D1 record before deleting storage and purging public image URLs. Long cache lifetimes require an explicit removal procedure; deleting an origin object alone does not immediately remove cached copies.
 
 References: [default CDN cache behaviour](https://developers.cloudflare.com/cache/concepts/default-cache-behavior/) and [R2 caching](https://developers.cloudflare.com/cache/interaction-cloudflare-products/r2/).
 
@@ -183,8 +167,8 @@ References: [default CDN cache behaviour](https://developers.cloudflare.com/cach
 - Protect cookie-authenticated writes against CSRF and enforce restrictive session-cookie settings.
 - Apply per-user upload/storage/comment quotas and appropriate IP rate limits. Use application checks alongside the available WAF features.
 - Record moderation actions, provide reporting, and define account/content deletion procedures.
-- Back up D1 with a documented retention and restore process; test restoration. Define retention and recovery needs for R2 originals and published derivatives separately.
-- Track usage, failed requests, pending-upload age, processor failures, and storage growth. Avoid logging secrets, session tokens, or signed URLs.
+- Back up D1 with a documented retention and restore process; test restoration. Define retention and recovery needs for private submissions, published derivatives and evidence separately; originals are never stored.
+- Track usage, failed requests, pending-upload age, processor failures, and storage growth. Avoid logging secrets, session tokens, or private storage keys.
 - Degrade community widgets gracefully when the API is unavailable, preserving static catalogue browsing.
 
 ## Infrastructure and deployment
@@ -217,7 +201,7 @@ Every live plan/apply first probes actual lock contention and release using an i
 
 Inventory/import existing resources before adopting them. Persistent D1/R2 resources use destruction protection, which does not survive removing their resource blocks. Several R2 settings resources in the pinned provider cannot be imported; inspect and reconcile them explicitly. State recovery is not database/object-data recovery.
 
-The implemented foundation defines D1, private-by-default R2 buckets/policies, Turnstile, and opt-in image-domain access. It also defines an opt-in website custom domain targeting an existing Wrangler-created Worker; Cloudflare creates its DNS record and TLS certificate. Activate it only after the first Worker deploy. The manual website workflow reads existing bindings from encrypted state and shares the infrastructure release lock and required-reviewer policy. Cache/WAF rules and application database schema remain planned. Assign each setting one owner. Avoid independent rulesets for the same phase/zone across environments; avoid declaring Wrangler-owned Worker deployments in OpenTofu.
+The implemented foundation defines D1, private-by-default R2 buckets/policies, Turnstile, and opt-in image-domain access. It also defines an opt-in website custom domain targeting an existing Wrangler-created Worker; Cloudflare creates its DNS record and TLS certificate. Activate it only after the first Worker deploy. The manual website workflow reads existing bindings from encrypted state and shares the infrastructure release lock and required-reviewer policy. The application schema uses additive D1 migrations. Additional cache/WAF rules remain planned. Assign each setting one owner. Avoid independent rulesets for the same phase/zone across environments; avoid declaring Wrangler-owned Worker deployments in OpenTofu.
 
 ## Cost and portability
 
@@ -231,7 +215,7 @@ D1 uses SQLite semantics. Versioned JSON catalogue records, SQL migrations, and 
 - Authentication provider, sessions, account recovery, and moderator provisioning.
 - Image-processing runtime, triggering/retry mechanism, and resource/cost limits.
 - Supported image formats, byte/pixel limits, quota values, and retention periods.
-- Moderation policy, reporting, privacy/deletion policy, and user-photo permissions.
+- Confirm the actual operator and monitored mailbox, finalise policy identity details, enrol the CSAM tool and complete the photo guide’s live activation checks.
 - Populate sourced catalogue records, refine type-specific specifications, and finalize dedicated data licensing.
 - Configure production GitHub environments and complete the reviewed production apply. Staging state storage, live locking and the reviewed foundation apply are complete.
 - Website DNS/Worker route ownership and targets, image-domain activation, and application deployment coordination.
