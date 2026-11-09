@@ -1,0 +1,21 @@
+{
+  "id": "shimano-ultegra-di2-6770",
+  "slug": "ultegra-di2-6770",
+  "name": "Ultegra Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "6770",
+  "start_year": 2011,
+  "generation": "10-speed electronic Di2 road range; component membership follows the cited reference edition",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/41.html",
+      "title": "Shimano Ultegra history: Di2 6770 introduced in 2011",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=46",
+      "title": "Shimano 2012-2013 line-up chart, PDF page 46: Ultegra Di2 6770 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

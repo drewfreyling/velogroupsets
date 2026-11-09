@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fc-2300",
+  "slug": "fc-2300",
+  "name": "Road crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-2300"
+  ],
+  "type": "crankset",
+  "model_number": "FC-2300",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FC-2300 has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-2300-2942/EV-FC-2300-2942A.pdf",
+    "title": "Shimano FC-2300 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_LINE-UP_CHART.pdf#page=24",
+      "title": "Shimano 2010 line-up chart, PDF page 24: 2300 2300 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8
+  }
+}

@@ -4,7 +4,8 @@
   "name": "Ultegra rear freehub",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-ultegra-r8000"
+    "shimano-ultegra-r8000",
+    "shimano-ultegra-di2-r8050"
   ],
   "type": "rear-hub",
   "model_number": "FH-RS770",
@@ -25,6 +26,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=185",
       "title": "Shimano 2017–2018 specifications, PDF page 185",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=75",
+      "title": "Shimano 2017-2018 line-up chart, PDF page 75: Ultegra Di2 R8050 and listed component options",
+      "retrieved_on": "2026-11-09"
     }
   ],
   "specifications": {},

@@ -1,0 +1,27 @@
+{
+  "id": "shimano-fh-rs300",
+  "slug": "fh-rs300",
+  "name": "Sora rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sora-r3000"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-RS300",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FH-RS300 has not been established. Any measurement must exclude skewers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-RS300-3996/EV-FH-RS300-3996.pdf",
+    "title": "Shimano FH-RS300 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2016-2017_Line-up_chart_v017_en.pdf#page=65",
+      "title": "Shimano 2016-2017 line-up chart, PDF page 65: Sora R3000 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {},
+  "weight_excludes_skewers": true
+}

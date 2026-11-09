@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-centaur-triple-10-speed",
+  "slug": "centaur-triple-10-speed",
+  "name": "Centaur Triple",
+  "manufacturer_id": "campagnolo",
+  "model_number": "10-speed",
+  "start_year": 2012,
+  "generation": "Road reference range; start year is documented availability in the cited edition where an exact introduction is unverified; component list incomplete",
+  "sources": [
+    {
+      "url": "https://www.bicycleretailer.com/new-products/2012/05/16/campy-offers-new-triples-wider-range-gearing",
+      "title": "Centaur triple introduction, May 2012",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "shimano-sante-5000",
+  "slug": "sante-5000",
+  "name": "Santé",
+  "manufacturer_id": "shimano",
+  "model_number": "5000",
+  "start_year": 1986,
+  "generation": "Historical road series; reviewed components only",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/company/history.html",
+      "title": "Shimano company history: Santé released in 1986",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

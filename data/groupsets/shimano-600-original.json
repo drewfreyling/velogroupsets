@@ -1,0 +1,16 @@
+{
+  "id": "shimano-600-original",
+  "slug": "600-original",
+  "name": "600",
+  "manufacturer_id": "shimano",
+  "model_number": "Original",
+  "start_year": 1975,
+  "generation": "Historical road series; reviewed components only",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/17.html",
+      "title": "Shimano 600 history: original 1975, Arabesque EX 1978, AX 1980 and New EX 1983",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

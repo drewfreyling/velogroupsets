@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-super-record-1x13",
+  "slug": "super-record-1x13",
+  "name": "Super Record",
+  "manufacturer_id": "campagnolo",
+  "model_number": "1x13",
+  "start_year": 2025,
+  "generation": "Electronic wireless road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/gb-en/products/super-record-road-1x13%3A-the-essence-of-road-performance/0277.html",
+      "title": "Campagnolo Super Record Road 1x13 announcement, November 2025",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

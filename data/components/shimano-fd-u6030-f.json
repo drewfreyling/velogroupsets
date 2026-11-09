@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fd-u6030-f",
+  "slug": "fd-u6030-f",
+  "name": "CUES Drop Bar front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-cues-drop-bar-u6030",
+    "shimano-cues-drop-bar-u3030"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-U6030-F",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-U6030-5066/EV-FD-U6030-5066A.pdf",
+    "title": "Shimano FD-U6030-F exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=85",
+      "title": "Shimano 2025–2026 line-up, PDF page 85: drop-bar U6030 listed configuration",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=87",
+      "title": "Shimano 2025–2026 line-up, PDF page 87: drop-bar U3030 listed configuration",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=95",
+      "title": "Shimano 2025–2026 line-up, PDF page 95: drop-bar U3030 listed configuration",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on"
+  }
+}

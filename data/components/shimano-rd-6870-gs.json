@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-6870-gs",
+  "slug": "rd-6870-gs",
+  "name": "Ultegra Di2 rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-di2-6870"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6870-GS",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-6870-GS has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-6870-3641/EV-RD-6870-3641A.pdf",
+    "title": "Shimano RD-6870-GS exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=51",
+      "title": "Shimano 2014-2015 line-up chart, PDF page 51: Ultegra Di2 6870 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "cage": "GS"
+  }
+}

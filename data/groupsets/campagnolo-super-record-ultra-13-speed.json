@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-super-record-ultra-13-speed",
+  "slug": "super-record-ultra-13-speed",
+  "name": "Super Record Ultra",
+  "manufacturer_id": "campagnolo",
+  "model_number": "13-speed",
+  "start_year": 2025,
+  "generation": "Electronic wireless road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/gb-en/products/super-record-13-ultra%3A-the-ultimate-in-lightness%2C-precision-and-style/0271.html",
+      "title": "Campagnolo Super Record 13 Ultra announcement, October 2025",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

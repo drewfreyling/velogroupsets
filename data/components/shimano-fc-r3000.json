@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fc-r3000",
+  "slug": "fc-r3000",
+  "name": "Sora crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sora-r3000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-R3000",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FC-R3000 has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-R3000-3992/EV-FC-R3000-3992B.pdf",
+    "title": "Shimano FC-R3000 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2016-2017_Line-up_chart_v017_en.pdf#page=65",
+      "title": "Shimano 2016-2017 line-up chart, PDF page 65: Sora R3000 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9
+  }
+}

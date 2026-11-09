@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-record-13-speed",
+  "slug": "record-13-speed",
+  "name": "Record",
+  "manufacturer_id": "campagnolo",
+  "model_number": "13-speed",
+  "start_year": 2026,
+  "generation": "Electronic wireless road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/gb-en/corporate/record-13%3A-from-the-same-stone/0294.html",
+      "title": "Campagnolo Record 13 announcement, April 2026",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

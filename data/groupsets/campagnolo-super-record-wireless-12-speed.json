@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-super-record-wireless-12-speed",
+  "slug": "super-record-wireless-12-speed",
+  "name": "Super Record Wireless",
+  "manufacturer_id": "campagnolo",
+  "model_number": "12-speed",
+  "start_year": 2023,
+  "generation": "Electronic wireless road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/on/demandware.static/-/Library-Sites-campagnoloLibrary/default/dw80959432/pdf/User_manual_12s_SR_WL_RD_Campagnolo_Rev01_06_2023.pdf",
+      "title": "Campagnolo original Super Record Wireless rear derailleur manual, June 2023",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

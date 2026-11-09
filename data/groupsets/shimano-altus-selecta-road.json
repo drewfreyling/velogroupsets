@@ -1,0 +1,16 @@
+{
+  "id": "shimano-altus-selecta-road",
+  "slug": "altus-selecta-road",
+  "name": "Altus",
+  "manufacturer_id": "shimano",
+  "model_number": "Selecta",
+  "start_year": 1978,
+  "generation": "Historical road series; reviewed components only; original Altus road series is distinct from later MTB Altus",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=21",
+      "title": "Shimano Altus history: 1978 drop-bar sports-bike Altus Selecta and 1980 Altus AX",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

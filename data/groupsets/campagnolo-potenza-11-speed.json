@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-potenza-11-speed",
+  "slug": "potenza-11-speed",
+  "name": "Potenza",
+  "manufacturer_id": "campagnolo",
+  "model_number": "11-speed",
+  "start_year": 2016,
+  "generation": "Mechanical road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://road.cc/content/tech-news/182759-campagnolo-unveils-new-potenza-groupset-first-ride",
+      "title": "Potenza 11 introduction, March 2016",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

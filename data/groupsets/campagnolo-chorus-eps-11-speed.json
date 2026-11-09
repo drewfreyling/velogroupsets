@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-chorus-eps-11-speed",
+  "slug": "chorus-eps-11-speed",
+  "name": "Chorus EPS",
+  "manufacturer_id": "campagnolo",
+  "model_number": "11-speed",
+  "start_year": 2014,
+  "generation": "Electronic EPS wired road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.bicycleretailer.com/product-tech/2014/06/03/campy-adds-chorus-eps-group-updates-athena-and-veloce-2015",
+      "title": "Chorus EPS introduction, June 2014, for the 2015 range",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

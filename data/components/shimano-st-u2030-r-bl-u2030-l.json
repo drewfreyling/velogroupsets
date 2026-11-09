@@ -1,0 +1,32 @@
+{
+  "id": "shimano-st-u2030-r-bl-u2030-l",
+  "slug": "st-u2030-r-bl-u2030-l",
+  "name": "ESSA Drop Bar shifters pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-essa-drop-bar-u2030"
+  ],
+  "type": "shifters",
+  "model_number": "ST-U2030-R / BL-U2030-L",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant complete left/right pair weight has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-U2030-R-4858/EV-ST-U2030-R-4858.pdf",
+    "title": "Shimano ST-U2030-R / BL-U2030-L exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=98",
+      "title": "Shimano 2025–2026 line-up, PDF page 98: drop-bar U2030 listed configuration",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "weight_basis": "Pair",
+    "left_model": "BL-U2030-L",
+    "right_model": "ST-U2030-R",
+    "front_speeds": 1
+  }
+}

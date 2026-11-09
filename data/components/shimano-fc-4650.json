@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fc-4650",
+  "slug": "fc-4650",
+  "name": "Tiagra crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4600"
+  ],
+  "type": "crankset",
+  "model_number": "FC-4650",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FC-4650 has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-4650-3146/EV-FC-4650-3146.pdf",
+    "title": "Shimano FC-4650 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=30",
+      "title": "Shimano 2012-2013 line-up chart, PDF page 30: Tiagra 4600 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10
+  }
+}

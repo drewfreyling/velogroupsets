@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fc-5000",
+  "slug": "fc-5000",
+  "name": "Santé crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sante-5000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-5000",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-5000_BB-5000-0836/EV-FC-5000_BB-5000-0836.pdf",
+    "title": "Shimano FC-5000 original Santé exploded view",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/company/history.html",
+      "title": "Shimano company history: Santé released in 1986",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-5000_BB-5000-0836/EV-FC-5000_BB-5000-0836.pdf",
+      "title": "Shimano FC-5000 original Santé exploded view",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {}
+}

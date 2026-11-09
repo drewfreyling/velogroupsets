@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-nuovo-record-original",
+  "slug": "nuovo-record-original",
+  "name": "Nuovo Record",
+  "manufacturer_id": "campagnolo",
+  "model_number": "Original",
+  "start_year": 1967,
+  "generation": "Road reference range; start year is documented availability in the cited edition where an exact introduction is unverified; component list incomplete",
+  "sources": [
+    {
+      "url": "https://ebykr.com/library/campagnolo-catalog-15/",
+      "title": "Original Campagnolo catalogue 15, circa 1967: Nuovo Record generation",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

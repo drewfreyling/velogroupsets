@@ -1,0 +1,30 @@
+{
+  "id": "campagnolo-ep15-vlbxc",
+  "slug": "ep15-vlbxc",
+  "name": "Veloce ten-speed Ergopower control pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-veloce-10-speed"
+  ],
+  "type": "shifters",
+  "model_number": "EP15-VLBXC",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant left/right pair weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://media.campagnolo.com/seecommerce/original/C-FD-VELOCE-SILVER-10S-SP1",
+    "title": "Campagnolo 2018 spare parts catalogue, part A: cranksets, bottom brackets, derailleurs and Ergopower assemblies",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=20",
+      "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 20; archived copy",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "reference_edition": "2017 assembly-code table; not necessarily original launch equipment",
+    "rear_speeds": 10,
+    "weight_basis": "Pair"
+  }
+}

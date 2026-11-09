@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-r4000-f",
+  "slug": "fd-r4000-f",
+  "name": "Tiagra front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-r4000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R4000-F",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-R4000-F has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-R4000-4904/EV-FD-R4000-4904.pdf",
+    "title": "Shimano FD-R4000-F exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=69",
+      "title": "Shimano 2025-2026 line-up chart, PDF page 69: Tiagra R4000 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "mount": "Braze-on"
+  }
+}

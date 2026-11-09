@@ -1,0 +1,33 @@
+{
+  "id": "shimano-hb-3300",
+  "slug": "hb-3300",
+  "name": "Sora front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sora-3300",
+    "shimano-sora-3400"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-3300",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for HB-3300 has not been established. Any measurement must exclude skewers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-3300-1860/EV-HB-3300-1860.pdf",
+    "title": "Shimano HB-3300 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=27",
+      "title": "Shimano 2005 line-up chart, PDF page 27: Sora 3300 and listed component options",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2008_LINE-UP_CHART.pdf#page=25",
+      "title": "Shimano 2008 line-up chart, PDF page 25: Sora 3400 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {},
+  "weight_excludes_skewers": true
+}

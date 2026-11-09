@@ -1,0 +1,30 @@
+{
+  "id": "campagnolo-ep23-srd12",
+  "slug": "ep23-srd12",
+  "name": "Super Record wireless Ergopower control pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-super-record-wireless-12-speed"
+  ],
+  "type": "shifters",
+  "model_number": "EP23-SRD12",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant left/right pair weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://media.campagnolo.com/seecommerce/original/C-CL-SUPER-RECORD-S-WRL-DB-12S-CT2EN",
+    "title": "Campagnolo Super Record S / Super Record Wireless compatibility and component markings, December 2024",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://media.campagnolo.com/seecommerce/original/C-CL-SUPER-RECORD-S-WRL-DB-12S-CT2EN",
+      "title": "Campagnolo Super Record S / Super Record Wireless compatibility and component markings, December 2024",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "weight_basis": "Pair",
+    "identity_note": "Original Super Record Wireless reference only; matching compatibility markings do not establish that Super Record S uses an identical complete assembly"
+  }
+}

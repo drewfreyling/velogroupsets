@@ -1,0 +1,21 @@
+{
+  "id": "shimano-claris-2400",
+  "slug": "claris-2400",
+  "name": "Claris",
+  "manufacturer_id": "shimano",
+  "model_number": "2400",
+  "start_year": 2013,
+  "generation": "8-speed mechanical road range; component membership follows the cited reference edition",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=97",
+      "title": "Shimano 100 Products History: Claris introduction and generation timeline",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=61",
+      "title": "Shimano 2014-2015 line-up chart, PDF page 61: Claris 2400 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

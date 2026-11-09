@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-gran-sport-original",
+  "slug": "gran-sport-original",
+  "name": "Gran Sport",
+  "manufacturer_id": "campagnolo",
+  "model_number": "1003",
+  "start_year": 1955,
+  "generation": "Road reference range; start year is documented availability in the cited edition where an exact introduction is unverified; component list incomplete",
+  "sources": [
+    {
+      "url": "https://ebykr.com/library/campagnolo-catalog-12/",
+      "title": "Original Campagnolo catalogue 12, circa 1955: Gran Sport group 1003; conservative dated-reference year",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-daytona-10-speed",
+  "slug": "daytona-10-speed",
+  "name": "Daytona",
+  "manufacturer_id": "campagnolo",
+  "model_number": "10-speed",
+  "start_year": 2001,
+  "generation": "Mechanical road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_2001_spare_parts_tools_catalogue.html",
+      "title": "Original Campagnolo 2001 reference edition: Daytona 10-speed",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

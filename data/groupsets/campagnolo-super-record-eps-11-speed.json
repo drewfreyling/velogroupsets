@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-super-record-eps-11-speed",
+  "slug": "super-record-eps-11-speed",
+  "name": "Super Record EPS",
+  "manufacturer_id": "campagnolo",
+  "model_number": "11-speed",
+  "start_year": 2011,
+  "generation": "Electronic EPS wired road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://bicycleretailer.com/product-tech/2012/02/01/campy-talks-pricing-tech-training-eps",
+      "title": "Campagnolo EPS global debut in November 2011, reported February 2012",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

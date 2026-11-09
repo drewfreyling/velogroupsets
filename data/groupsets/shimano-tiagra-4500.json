@@ -1,0 +1,21 @@
+{
+  "id": "shimano-tiagra-4500",
+  "slug": "tiagra-4500",
+  "name": "Tiagra",
+  "manufacturer_id": "shimano",
+  "model_number": "4500",
+  "start_year": 2006,
+  "generation": "9-speed mechanical road range; component membership follows the cited reference edition",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=73",
+      "title": "Shimano 100 Products History: Tiagra introduction and generation timeline",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2008_LINE-UP_CHART.pdf#page=24",
+      "title": "Shimano 2008 line-up chart, PDF page 24: Tiagra 4500 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

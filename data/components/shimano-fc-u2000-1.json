@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fc-u2000-1",
+  "slug": "fc-u2000-1",
+  "name": "ESSA Drop Bar crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-essa-drop-bar-u2030"
+  ],
+  "type": "crankset",
+  "model_number": "FC-U2000-1",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-U2000-5036/EV-FC-U2000-5036A.pdf",
+    "title": "Shimano FC-U2000-1 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=98",
+      "title": "Shimano 2025–2026 line-up, PDF page 98: drop-bar U2030 listed configuration",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8
+  }
+}

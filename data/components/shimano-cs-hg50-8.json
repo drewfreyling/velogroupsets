@@ -4,7 +4,10 @@
   "name": "RSX eight-speed cassette",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-rsx"
+    "shimano-rsx",
+    "shimano-sora-3300",
+    "shimano-2200",
+    "shimano-2300"
   ],
   "type": "cassette",
   "model_number": "CS-HG50-8",
@@ -20,6 +23,21 @@
       "url": "https://si.shimano.com/en/pdfs/si/5US0B/SI-5US0B-000-00-ENG.pdf",
       "title": "Shimano RD-A416 service instructions SI-5US0B",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=27",
+      "title": "Shimano 2005 line-up chart, PDF page 27: Sora 3300 and listed component options",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=28",
+      "title": "Shimano 2005 line-up chart, PDF page 28: 2200 2200 and listed component options",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_LINE-UP_CHART.pdf#page=24",
+      "title": "Shimano 2010 line-up chart, PDF page 24: 2300 2300 and listed component options",
+      "retrieved_on": "2026-11-09"
     }
   ],
   "specifications": {

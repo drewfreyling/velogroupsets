@@ -1,0 +1,21 @@
+{
+  "id": "shimano-claris-r2000",
+  "slug": "claris-r2000",
+  "name": "Claris",
+  "manufacturer_id": "shimano",
+  "model_number": "R2000",
+  "start_year": 2017,
+  "generation": "8-speed mechanical road range; component membership follows the cited reference edition",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=97",
+      "title": "Shimano 100 Products History: Claris introduction and generation timeline",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=93",
+      "title": "Shimano 2017-2018 line-up chart, PDF page 93: Claris R2000 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

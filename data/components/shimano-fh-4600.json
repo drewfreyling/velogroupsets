@@ -1,0 +1,27 @@
+{
+  "id": "shimano-fh-4600",
+  "slug": "fh-4600",
+  "name": "Tiagra rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4600"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-4600",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FH-4600 has not been established. Any measurement must exclude skewers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-4600-3149/EV-FH-4600-3149.pdf",
+    "title": "Shimano FH-4600 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=30",
+      "title": "Shimano 2012-2013 line-up chart, PDF page 30: Tiagra 4600 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {},
+  "weight_excludes_skewers": true
+}

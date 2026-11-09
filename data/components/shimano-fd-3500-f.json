@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-3500-f",
+  "slug": "fd-3500-f",
+  "name": "Sora front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sora-3500"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-3500-F",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-3500-F has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-3500-3415/EV-FD-3500-3415.pdf",
+    "title": "Shimano FD-3500-F exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=32",
+      "title": "Shimano 2012-2013 line-up chart, PDF page 32: Sora 3500 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "mount": "Braze-on"
+  }
+}

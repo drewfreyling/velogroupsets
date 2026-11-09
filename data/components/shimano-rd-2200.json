@@ -1,0 +1,32 @@
+{
+  "id": "shimano-rd-2200",
+  "slug": "rd-2200",
+  "name": "Road rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-2200"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-2200",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-2200 has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-2200-2209/EV-RD-2200-2209.pdf",
+    "title": "Shimano RD-2200 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=28",
+      "title": "Shimano 2005 line-up chart, PDF page 28: 2200 2200 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

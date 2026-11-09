@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-athena-11-speed",
+  "slug": "athena-11-speed",
+  "name": "Athena",
+  "manufacturer_id": "campagnolo",
+  "model_number": "11-speed",
+  "start_year": 2009,
+  "generation": "Mechanical road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.bicycleretailer.com/product-tech/2009/05/19/campy-targets-oem-athena-groupset",
+      "title": "Contemporary Athena 11-speed introduction, May 2009",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

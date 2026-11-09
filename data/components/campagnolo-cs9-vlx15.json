@@ -1,0 +1,30 @@
+{
+  "id": "campagnolo-cs9-vlx15",
+  "slug": "cs9-vlx15",
+  "name": "Veloce ten-speed cassette (11–25T)",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-veloce-10-speed"
+  ],
+  "type": "cassette",
+  "model_number": "CS9-VLX15",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://media.campagnolo.com/seecommerce/original/C-BR-ATHENA-BLACK-11S-SP1",
+    "title": "Campagnolo 2017 spare parts catalogue, part B: hubs and cassettes",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=21",
+      "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 21; archived copy",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "reference_edition": "2017 assembly-code table; not necessarily original launch equipment",
+    "rear_speeds": 10,
+    "sprocket_range": "11–25T"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "campagnolo-fc15-re040c",
+  "slug": "fc15-re040c",
+  "name": "Record eleven-speed 170 mm crankset (50/34T)",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-11-speed",
+    "campagnolo-record-eps-11-speed"
+  ],
+  "type": "crankset",
+  "model_number": "FC15-RE040C",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://media.campagnolo.com/seecommerce/original/C-FD-VELOCE-SILVER-10S-SP1",
+    "title": "Campagnolo 2018 spare parts catalogue, part A: cranksets, bottom brackets, derailleurs and Ergopower assemblies",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=8",
+      "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 8; archived copy",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=11",
+      "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 11; archived copy",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "reference_edition": "2017 assembly-code table; not necessarily original launch equipment",
+    "rear_speeds": 11,
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      34
+    ]
+  }
+}

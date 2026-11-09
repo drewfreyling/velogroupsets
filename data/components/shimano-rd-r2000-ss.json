@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-r2000-ss",
+  "slug": "rd-r2000-ss",
+  "name": "Claris rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-claris-r2000"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-R2000-SS",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-R2000-SS has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-R2000-4159/EV-RD-R2000-4159B.pdf",
+    "title": "Shimano RD-R2000-SS exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=93",
+      "title": "Shimano 2017-2018 line-up chart, PDF page 93: Claris R2000 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "cage": "SS"
+  }
+}

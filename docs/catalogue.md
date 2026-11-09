@@ -136,7 +136,7 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 83 groupsets from Shimano, Campagnolo and SRAM and 598 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 158 groupsets from Shimano, Campagnolo and SRAM and 808 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
 
 The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
 
@@ -204,7 +204,7 @@ An optional `specifications.cage` records the manufacturer's sourced cage code. 
 
 ## Shimano 105 generation coverage
 
-The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 88 105 component identities across 93 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains three manufacturers, 83 groupsets and 598 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
+The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 88 105 component identities across 93 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains three manufacturers, 158 groupsets and 808 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
 
 ## Shimano Dura-Ace coverage
 
@@ -235,4 +235,8 @@ The [Campagnolo expansion guide](campagnolo-groupsets.md) documents early C-Reco
 
 ## SRAM road and gravel
 
-The [SRAM guide](sram.md) documents 28 road/cyclocross/gravel offerings and 99 component identities, including mechanical ten/eleven-speed, original RED eTap, road AXS and both XPLR systems. Shared controls and cassettes have one identity. It also explains pair weights, the distinction between SRAM’s minimum-largest-sprocket field and the smallest sprocket, manufacturer reference editions and remaining coverage gaps.
+The [SRAM guide](sram.md) documents 28 road/cyclocross/gravel offerings and 103 component identities, including mechanical ten/eleven-speed, original RED eTap, road AXS and both XPLR systems. Shared controls and cassettes have one identity. It also explains pair weights, the distinction between SRAM’s minimum-largest-sprocket field and the smallest sprocket, manufacturer reference editions and remaining coverage gaps.
+
+## Additional road coverage
+
+The [road groupset review](road-groupsets.md) adds 29 Shimano and 46 Campagnolo ranges, plus SRAM Wide options within existing families. It documents dated sources, shared parts, reference-year limits, unknown weights and 36 groups awaiting verified component lists.

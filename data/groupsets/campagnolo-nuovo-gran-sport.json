@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-nuovo-gran-sport",
+  "slug": "nuovo-gran-sport",
+  "name": "Nuovo Gran Sport",
+  "manufacturer_id": "campagnolo",
+  "model_number": "Original",
+  "start_year": 1974,
+  "generation": "Road reference range; start year is documented availability in the cited edition where an exact introduction is unverified; component list incomplete",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_17.html",
+      "title": "Original Campagnolo catalogue 17, 1974: Nuovo Gran Sport range",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

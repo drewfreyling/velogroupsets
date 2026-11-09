@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-record-original",
+  "slug": "record-original",
+  "name": "Record",
+  "manufacturer_id": "campagnolo",
+  "model_number": "1032",
+  "start_year": 1958,
+  "generation": "Original Record Strada road group; complete group code 1032; circa-1958 manufacturer catalogue reference; component list incomplete",
+  "sources": [
+    {
+      "url": "https://ebykr.com/library/campagnolo-catalog-14/",
+      "title": "Original Campagnolo catalogue 14, circa 1958: Record road group",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

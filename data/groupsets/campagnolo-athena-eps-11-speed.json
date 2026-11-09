@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-athena-eps-11-speed",
+  "slug": "athena-eps-11-speed",
+  "name": "Athena EPS",
+  "manufacturer_id": "campagnolo",
+  "model_number": "11-speed",
+  "start_year": 2012,
+  "generation": "Electronic EPS wired road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.bicycleretailer.com/new-products/2012/07/16/campy-expands-eps-athena-groupset",
+      "title": "Athena EPS introduction, July 2012",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

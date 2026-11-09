@@ -1,0 +1,27 @@
+{
+  "id": "shimano-fh-rs400",
+  "slug": "fh-rs400",
+  "name": "Tiagra rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4700"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-RS400",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FH-RS400 has not been established. Any measurement must exclude skewers.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-RS400-3870/EV-FH-RS400-3870.pdf",
+    "title": "Shimano FH-RS400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=87",
+      "title": "Shimano 2017-2018 line-up chart, PDF page 87: Tiagra 4700 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {},
+  "weight_excludes_skewers": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "shimano-tiagra-r4000",
+  "slug": "tiagra-r4000",
+  "name": "Tiagra",
+  "manufacturer_id": "shimano",
+  "model_number": "R4000",
+  "start_year": 2026,
+  "generation": "11-speed mechanical road range; component membership follows the cited reference edition",
+  "sources": [
+    {
+      "url": "https://media.shimano.com.ar/es-LAM/262756-shimano-lanza-la-nueva-serie-tiagra-r4000-transmision-ligera-de-carretera-2x11-con-mandos-de-cambio-accesibles-y-ergonomicos/",
+      "title": "Shimano press release, 3 March 2026: Tiagra R4000 2x11",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=69",
+      "title": "Shimano 2025-2026 line-up chart, PDF page 69: Tiagra R4000 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

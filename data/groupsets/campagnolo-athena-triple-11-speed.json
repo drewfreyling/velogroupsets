@@ -1,0 +1,16 @@
+{
+  "id": "campagnolo-athena-triple-11-speed",
+  "slug": "athena-triple-11-speed",
+  "name": "Athena Triple",
+  "manufacturer_id": "campagnolo",
+  "model_number": "11-speed",
+  "start_year": 2012,
+  "generation": "Road reference range; start year is documented availability in the cited edition where an exact introduction is unverified; component list incomplete",
+  "sources": [
+    {
+      "url": "https://www.bicycleretailer.com/new-products/2012/05/16/campy-offers-new-triples-wider-range-gearing",
+      "title": "Athena, Centaur and Veloce triple introduction, May 2012, for the 2013 range",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

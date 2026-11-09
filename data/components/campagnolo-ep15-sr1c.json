@@ -1,0 +1,30 @@
+{
+  "id": "campagnolo-ep15-sr1c",
+  "slug": "ep15-sr1c",
+  "name": "Super Record eleven-speed Ergopower control pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-super-record-11-speed"
+  ],
+  "type": "shifters",
+  "model_number": "EP15-SR1C",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant left/right pair weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://media.campagnolo.com/seecommerce/original/C-FD-VELOCE-SILVER-10S-SP1",
+    "title": "Campagnolo 2018 spare parts catalogue, part A: cranksets, bottom brackets, derailleurs and Ergopower assemblies",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=2",
+      "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 2; archived copy",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "reference_edition": "2017 assembly-code table; not necessarily original launch equipment",
+    "rear_speeds": 11,
+    "weight_basis": "Pair"
+  }
+}

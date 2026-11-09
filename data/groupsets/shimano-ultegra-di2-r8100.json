@@ -1,0 +1,21 @@
+{
+  "id": "shimano-ultegra-di2-r8100",
+  "slug": "ultegra-di2-r8100",
+  "name": "Ultegra Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "R8100",
+  "start_year": 2021,
+  "generation": "12-speed electronic Di2 road range; component membership follows the cited reference edition",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/news/shimano-launches-new-ultegra-r8100-groupset-alongside-dura-ace/",
+      "title": "Ultegra R8100 introduction, 31 August 2021; availability October 2021",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=55",
+      "title": "Shimano 2025-2026 line-up chart, PDF page 55: Ultegra Di2 R8100 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "campagnolo-cs10-sr129",
+  "slug": "cs10-sr129",
+  "name": "Super Record eleven-speed cassette (12–29T)",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-super-record-11-speed",
+    "campagnolo-super-record-eps-11-speed"
+  ],
+  "type": "cassette",
+  "model_number": "CS10-SR129",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://media.campagnolo.com/seecommerce/original/C-BR-ATHENA-BLACK-11S-SP1",
+    "title": "Campagnolo 2017 spare parts catalogue, part B: hubs and cassettes",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=2",
+      "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 2; archived copy",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=5",
+      "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 5; archived copy",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "reference_edition": "2017 assembly-code table; not necessarily original launch equipment",
+    "rear_speeds": 11,
+    "sprocket_range": "12–29T"
+  }
+}

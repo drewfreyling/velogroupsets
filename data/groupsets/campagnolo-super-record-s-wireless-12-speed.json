@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-super-record-s-wireless-12-speed",
+  "slug": "super-record-s-wireless-12-speed",
+  "name": "Super Record S Wireless",
+  "manufacturer_id": "campagnolo",
+  "model_number": "12-speed",
+  "start_year": 2024,
+  "generation": "Electronic wireless road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/news/campagnolo-launches-super-record-s-wireless-groupset-with-new-gearing-options-and-a-slightly-more-affordable-price/",
+      "title": "Super Record S Wireless introduction, September 2024",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "shimano-600-ax-6300",
+  "slug": "600-ax-6300",
+  "name": "600 AX",
+  "manufacturer_id": "shimano",
+  "model_number": "6300",
+  "start_year": 1980,
+  "generation": "Historical road series; reviewed components only",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/17.html",
+      "title": "Shimano 600 history: original 1975, Arabesque EX 1978, AX 1980 and New EX 1983",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

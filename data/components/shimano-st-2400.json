@@ -1,0 +1,29 @@
+{
+  "id": "shimano-st-2400",
+  "slug": "st-2400",
+  "name": "Claris shift/brake control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-claris-2400"
+  ],
+  "type": "shifters",
+  "model_number": "ST-2400",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for ST-2400 as a complete left/right pair has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-2400-3492/EV-ST-2400-3492.pdf",
+    "title": "Shimano ST-2400 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=61",
+      "title": "Shimano 2014-2015 line-up chart, PDF page 61: Claris 2400 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "weight_basis": "Pair"
+  }
+}

@@ -1,6 +1,6 @@
 # SRAM road and gravel groupsets
 
-The catalogue adds **28 SRAM groupset records and 99 component identities across 114 memberships**. This pass covers road, cyclocross and XPLR gravel. It does not claim every component variant or complete SRAM MTB coverage.
+The catalogue contains **28 SRAM groupset records and 103 component identities across 118 memberships**. This pass covers road, cyclocross and XPLR gravel. It does not claim every component variant or complete SRAM MTB coverage.
 
 ## Generations and dates
 
@@ -67,7 +67,7 @@ Six weights meet the [contribution guidelines](weights-guidelines.md). These are
 
 Cable/housing inclusion is not stated for those mechanical control pair figures. Cassette lockring inclusion follows the project’s convention. Other sprocket options remain model options; the reference weight is not applied to every tooth range.
 
-The other **93 weights remain null**. Crank references must establish length, chainrings and bottom-bracket exclusion before a figure is published. A manufacturer field labelled “Weight Based On” without an actual weight is not a measurement. Complete hydraulic brake-system figures are not used as control-only pair weights, and individual-side figures are not doubled. All shifter records represent left/right pairs, including records with unknown weights.
+The other **97 weights remain null**. Crank references must establish length, chainrings and bottom-bracket exclusion before a figure is published. A manufacturer field labelled “Weight Based On” without an actual weight is not a measurement. Complete hydraulic brake-system figures are not used as control-only pair weights, and individual-side figures are not doubled. All shifter records represent left/right pairs, including records with unknown weights.
 
 For mechanical 1x controls, the left unit is a brake-only lever. The complete curated pair identifies both actual model numbers: SB-FRC-HRD-A1 / BL-FRC-A1, SB-RIV-B1 / BL-RIV-A1 or SB-APX-B1 / BL-APX-A1. These are different assemblies from a two-shifter 2x pair; the known SB-RIV-B1 2x pair weight is not reused for the Rival 1 pair.
 
@@ -80,3 +80,7 @@ All four rear-derailleur limit fields are present. Published fixed largest-sproc
 ## Remaining coverage
 
 The original RED family currently has only its documented rear derailleur. Early Force and RED B1 cranksets, some 12-speed XPLR crank variants, power-meter options and additional cage revisions remain gaps. Generic GXP/DUB bottom brackets, wheel hubs, headsets, seatposts and pedals are not assigned to every family just because they could be used with it. Brake calipers, chains, batteries and single flat-bar controls remain outside the current component/pair conventions. Further manufacturer evidence can add these records without changing existing IDs.
+
+## Wide road options
+
+The [additional road review](road-groupsets.md) adds four manufacturer-documented Wide front-derailleur/crankset options to existing Force/Rival AXS D1 families: FD-FRC-EW-D1, FC-FRC-W-D1, FD-RIV-EW-D1 and FC-RIV-W-D1. Their 47.5 mm chainline and 43/30T configuration remain distinct from standard options. All four weights are unknown. Wide equipment is a component option, so this review does not invent another SRAM groupset family.

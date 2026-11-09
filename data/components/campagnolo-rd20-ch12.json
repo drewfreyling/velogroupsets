@@ -1,0 +1,32 @@
+{
+  "id": "campagnolo-rd20-ch12",
+  "slug": "rd20-ch12",
+  "name": "Chorus twelve-speed rear derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-chorus-12-speed"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD20-CH12",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://www.campagnolo.com/gb-en/chorus-rear-derailleur/CRDCHORUS12S.html",
+    "title": "Campagnolo Chorus twelve-speed rear derailleur specification and technical downloads",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.campagnolo-sirer.cz/products/prehazovacka-chorus-12s/",
+      "title": "Campagnolo distributor model identification: RD20-CH12",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "rear_speeds": 12
+  }
+}

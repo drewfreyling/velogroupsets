@@ -1,0 +1,36 @@
+{
+  "id": "shimano-rd-5000",
+  "slug": "rd-5000",
+  "name": "Santé rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sante-5000"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-5000",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-5000-0799/EV-RD-5000-0799.pdf",
+    "title": "Shimano RD-5000 original Santé exploded view",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/company/history.html",
+      "title": "Shimano company history: Santé released in 1986",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-5000-0799/EV-RD-5000-0799.pdf",
+      "title": "Shimano RD-5000 original Santé exploded view",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

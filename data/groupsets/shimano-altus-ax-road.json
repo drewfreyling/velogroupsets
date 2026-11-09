@@ -1,0 +1,16 @@
+{
+  "id": "shimano-altus-ax-road",
+  "slug": "altus-ax-road",
+  "name": "Altus",
+  "manufacturer_id": "shimano",
+  "model_number": "AX",
+  "start_year": 1980,
+  "generation": "Historical road series; reviewed components only; original Altus road series is distinct from later MTB Altus",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=21",
+      "title": "Shimano Altus history: the 1980 Altus AX generation, before the later MTB Altus ranges",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

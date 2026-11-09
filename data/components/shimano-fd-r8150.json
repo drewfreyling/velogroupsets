@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fd-r8150",
+  "slug": "fd-r8150",
+  "name": "Ultegra Di2 front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-di2-r8100"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R8150",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-R8150 has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-R8150-4863/EV-FD-R8150-4863.pdf",
+    "title": "Shimano FD-R8150 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=55",
+      "title": "Shimano 2025-2026 line-up chart, PDF page 55: Ultegra Di2 R8100 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12
+  }
+}

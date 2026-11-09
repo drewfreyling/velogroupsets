@@ -1,0 +1,33 @@
+{
+  "id": "campagnolo-rd13-atb13",
+  "slug": "rd13-atb13",
+  "name": "Athena Triple eleven-speed rear derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-athena-triple-11-speed"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD13-ATB13",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://media.campagnolo.com/seecommerce/original/C-FD-VELOCE-SILVER-10S-SP1",
+    "title": "Campagnolo 2018 spare parts catalogue, part A: cranksets, bottom brackets, derailleurs and Ergopower assemblies",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=25",
+      "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 25; archived copy",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "reference_edition": "2017 assembly-code table; not necessarily original launch equipment",
+    "rear_speeds": 11,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

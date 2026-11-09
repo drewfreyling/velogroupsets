@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-r2000-f",
+  "slug": "fd-r2000-f",
+  "name": "Claris front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-claris-r2000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R2000-F",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-R2000-F has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-R2000-4160/EV-FD-R2000-4160.pdf",
+    "title": "Shimano FD-R2000-F exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=93",
+      "title": "Shimano 2017-2018 line-up chart, PDF page 93: Claris R2000 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "mount": "Braze-on"
+  }
+}

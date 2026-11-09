@@ -1,0 +1,21 @@
+{
+  "id": "shimano-ultegra-di2-6870",
+  "slug": "ultegra-di2-6870",
+  "name": "Ultegra Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "6870",
+  "start_year": 2013,
+  "generation": "11-speed electronic Di2 road range; component membership follows the cited reference edition",
+  "sources": [
+    {
+      "url": "https://bike.shimano.com/stories/article/10-years-of-innovation.html",
+      "title": "Shimano Di2 history: Ultegra 6870 launched in 2013",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=51",
+      "title": "Shimano 2014-2015 line-up chart, PDF page 51: Ultegra Di2 6870 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

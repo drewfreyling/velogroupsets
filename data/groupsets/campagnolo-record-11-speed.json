@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-record-11-speed",
+  "slug": "record-11-speed",
+  "name": "Record",
+  "manufacturer_id": "campagnolo",
+  "model_number": "11-speed",
+  "start_year": 2008,
+  "generation": "Mechanical road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.bicycleretailer.com/product-tech/2008/06/25/campy-going-eleven-speeds-2009",
+      "title": "Campagnolo 11-speed range announcement, June 2008; sold as the 2009 range",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

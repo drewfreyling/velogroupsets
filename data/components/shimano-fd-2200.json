@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fd-2200",
+  "slug": "fd-2200",
+  "name": "Road front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-2200"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-2200",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-2200 has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-2200_2203-2210/EV-FD-2200_2203-2210.pdf",
+    "title": "Shimano FD-2200 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=28",
+      "title": "Shimano 2005 line-up chart, PDF page 28: 2200 2200 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8
+  }
+}

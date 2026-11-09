@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-champ-triple-9-speed",
+  "slug": "champ-triple-9-speed",
+  "name": "Champ Triple",
+  "manufacturer_id": "campagnolo",
+  "model_number": "9-speed",
+  "start_year": 2007,
+  "generation": "Mechanical road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.disraeligears.co.uk/site/campagnolo_-_trade_catalogue_2008.html",
+      "title": "Original Campagnolo 2007 reference edition: Champ Triple 9-speed",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

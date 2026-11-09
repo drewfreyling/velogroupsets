@@ -1,0 +1,28 @@
+{
+  "id": "shimano-cs-rs400-11",
+  "slug": "cs-rs400-11",
+  "name": "Tiagra cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-r4000"
+  ],
+  "type": "cassette",
+  "model_number": "CS-RS400-11",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for CS-RS400-11 has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-RS400-11-4914/EV-CS-RS400-11-4914.pdf",
+    "title": "Shimano CS-RS400-11 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=69",
+      "title": "Shimano 2025-2026 line-up chart, PDF page 69: Tiagra R4000 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11
+  }
+}

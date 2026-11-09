@@ -1,0 +1,32 @@
+{
+  "id": "campagnolo-fd23-sr12wrl",
+  "slug": "fd23-sr12wrl",
+  "name": "Super Record Wireless front derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-super-record-wireless-12-speed"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD23-SR12WRL",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://media.campagnolo.com/seecommerce/original/C-CL-SUPER-RECORD-S-WRL-DB-12S-CT2EN",
+    "title": "Campagnolo Super Record S / Super Record Wireless compatibility and component markings, December 2024",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://media.campagnolo.com/seecommerce/original/C-CL-SUPER-RECORD-S-WRL-DB-12S-CT2EN",
+      "title": "Campagnolo Super Record S / Super Record Wireless compatibility and component markings, December 2024",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "front_speeds": 2,
+    "mount": "Braze-on",
+    "mounting_reference": "Original single mounting-hole version; later FD01 dual-position version is distinct",
+    "identity_note": "Original Super Record Wireless reference only; matching compatibility markings do not establish that Super Record S uses an identical complete assembly"
+  }
+}

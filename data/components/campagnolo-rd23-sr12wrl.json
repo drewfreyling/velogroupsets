@@ -1,0 +1,38 @@
+{
+  "id": "campagnolo-rd23-sr12wrl",
+  "slug": "rd23-sr12wrl",
+  "name": "Super Record wireless rear derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-super-record-wireless-12-speed"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD23-SR12WRL",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "technical_document": {
+    "url": "https://www.campagnolo.com/on/demandware.static/-/Library-Sites-campagnoloLibrary/default/dw80959432/pdf/User_manual_12s_SR_WL_RD_Campagnolo_Rev01_06_2023.pdf",
+    "title": "Campagnolo Super Record Wireless rear derailleur user manual, June 2023",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://media.campagnolo.com/seecommerce/original/C-CL-SUPER-RECORD-S-WRL-DB-12S-CT2EN",
+      "title": "Campagnolo Super Record S / Super Record Wireless compatibility and component markings, December 2024",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/on/demandware.static/-/Library-Sites-campagnoloLibrary/default/dw80959432/pdf/User_manual_12s_SR_WL_RD_Campagnolo_Rev01_06_2023.pdf",
+      "title": "Campagnolo Super Record Wireless rear derailleur user manual, June 2023",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "rear_speeds": 12,
+    "identity_note": "Original Super Record Wireless reference only; matching compatibility markings do not establish that Super Record S uses an identical complete assembly"
+  }
+}

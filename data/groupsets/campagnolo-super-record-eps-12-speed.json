@@ -1,0 +1,21 @@
+{
+  "id": "campagnolo-super-record-eps-12-speed",
+  "slug": "super-record-eps-12-speed",
+  "name": "Super Record EPS",
+  "manufacturer_id": "campagnolo",
+  "model_number": "12-speed",
+  "start_year": 2019,
+  "generation": "Electronic EPS wired road range; component coverage follows reviewed reference editions",
+  "sources": [
+    {
+      "url": "https://www.cyclingnews.com/news/campagnolo-launches-super-record-12-speed-eps-electronic-groupset/",
+      "title": "Super Record EPS twelve-speed introduction, March 2019",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/gb-en/technical-support-area/documentation/",
+      "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

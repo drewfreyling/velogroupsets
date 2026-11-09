@@ -1,0 +1,16 @@
+{
+  "id": "shimano-2300",
+  "slug": "2300",
+  "name": "Road",
+  "manufacturer_id": "shimano",
+  "model_number": "2300",
+  "start_year": 2009,
+  "generation": "8-speed mechanical road range; component membership follows the cited reference edition",
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_LINE-UP_CHART.pdf#page=24",
+      "title": "Shimano 2010 line-up chart, PDF page 24: 2300 2300 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

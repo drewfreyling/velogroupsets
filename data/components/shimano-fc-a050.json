@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fc-a050",
+  "slug": "fc-a050",
+  "name": "Road crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-a050"
+  ],
+  "type": "crankset",
+  "model_number": "FC-A050",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FC-A050 has not been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-A050-2219/EV-FC-A050-2219.pdf",
+    "title": "Shimano FC-A050 exploded view and replacement parts",
+    "retrieved_on": "2026-11-09"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=28",
+      "title": "Shimano 2005 line-up chart, PDF page 28: A050 A050 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7
+  }
+}

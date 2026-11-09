@@ -1,0 +1,16 @@
+{
+  "id": "shimano-600-ex-6207",
+  "slug": "600-ex-6207",
+  "name": "600 EX",
+  "manufacturer_id": "shimano",
+  "model_number": "6207",
+  "start_year": 1983,
+  "generation": "Historical road series; reviewed components only",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/17.html",
+      "title": "Shimano 600 history: original 1975, Arabesque EX 1978, AX 1980 and New EX 1983",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

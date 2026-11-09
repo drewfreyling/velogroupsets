@@ -1,0 +1,21 @@
+{
+  "id": "shimano-tiagra-4700",
+  "slug": "tiagra-4700",
+  "name": "Tiagra",
+  "manufacturer_id": "shimano",
+  "model_number": "4700",
+  "start_year": 2015,
+  "generation": "10-speed mechanical road range; component membership follows the cited reference edition",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/result.html?id=73",
+      "title": "Shimano 100 Products History: Tiagra introduction and generation timeline",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=87",
+      "title": "Shimano 2017-2018 line-up chart, PDF page 87: Tiagra 4700 and listed component options",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}

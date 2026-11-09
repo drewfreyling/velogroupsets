@@ -1,0 +1,26 @@
+{
+  "id": "shimano-cues-drop-bar-u3030",
+  "slug": "cues-drop-bar-u3030",
+  "name": "CUES Drop Bar",
+  "manufacturer_id": "shimano",
+  "model_number": "U3030",
+  "start_year": 2025,
+  "generation": "Drop-bar road/recreational range; match the exact lever and drivetrain speed option; earlier flat-bar launch is not the start of this record",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/jp/img/pdf/shareholderletter/sh_2024_12.pdf",
+      "title": "Shimano shareholder report: drop-bar CUES introduced in January 2025",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=87",
+      "title": "Shimano 2025–2026 line-up, PDF page 87: drop-bar U3030 listed configuration",
+      "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=95",
+      "title": "Shimano 2025–2026 line-up, PDF page 95: drop-bar U3030 listed configuration",
+      "retrieved_on": "2026-11-09"
+    }
+  ]
+}
