@@ -1,10 +1,10 @@
 # Additional road groupsets
 
-The 9 November 2026 review adds **75 groupset records**: 29 Shimano and 46 Campagnolo. SRAM already has its main road families represented in the [SRAM guide](sram.md); four Wide front-derailleur/crankset options extend its existing Force and Rival AXS records. The catalogue now contains **158 groupsets and 807 component identities across three manufacturers**.
+The 9 November 2026 review adds **75 groupset records**: 29 Shimano and 46 Campagnolo. SRAM already has its main road families represented in the [SRAM guide](sram.md); four Wide front-derailleur/crankset options extend its existing Force and Rival AXS records. The catalogue now contains **158 groupsets and 808 component identities across three manufacturers**.
 
 This is a review of named road families and drivetrain generations, including historical road equipment and newer recreational drop-bar systems. It does not treat every finish, crank length, limited-edition presentation or power-meter option as a separate groupset. Existing SRAM XPLR records remain; this review does not add MTB, track, gravel-only GRX or Ekar families. Later disc-brake controls and revised parts belong to their documented family unless the drivetrain system itself is distinct.
 
-**Component coverage is incomplete.** There are 209 new component identities, all with unknown weights, and 36 of the newly added groupsets currently have no verified component list. A group entry establishes a documented range and date; it does not imply that a complete build kit has been catalogued. Manufacturer-hosted technical documents, exact assembly codes and membership still need review before further component records are added. The existing archive exceptions are unchanged.
+**Component coverage is incomplete.** The review added 209 component identities with initially unknown weights, and 36 of the newly added groupsets currently have no verified component list. A group entry establishes a documented range and date; it does not imply that a complete build kit has been catalogued. Manufacturer-hosted technical documents, exact assembly codes and membership still need review before further component records are added. The existing archive exceptions are unchanged.
 
 ## Dates and identifiers
 
@@ -114,7 +114,7 @@ SRAM’s four Wide records use the actual FD-FRC-EW-D1, FD-RIV-EW-D1, FC-FRC-W-D
 
 ## Weights, pairs and limits
 
-All 209 newly added weights remain explicitly null. No retail figure, single control’s weight, complete hydraulic brake-system weight or undocumented skewer deduction is promoted to a compliant component weight. Shifters are complete left/right pairs; the ESSA pair includes a brake-only left lever. Front-derailleur clamp diameters, crank configurations and cassette gearing are recorded only where supported by the exact source. Future measurements must follow the [weight guidelines](weights-guidelines.md).
+The initial review left all 209 new weights null. Subsequent [contributor weight reports](contributor-weights.md) are recorded separately and cited by the affected components. No retail figure, single control’s weight, complete hydraulic brake-system weight or undocumented skewer deduction is promoted to a compliant component weight. Shifters are complete left/right pairs; the ESSA pair includes a brake-only left lever. Front-derailleur clamp diameters, crank configurations and cassette gearing are recorded only where supported by the exact source. Future measurements must follow the [weight guidelines](weights-guidelines.md).
 
 Every added rear derailleur has the four required limit fields. Unknown limits remain null, with no cage-based or arithmetic inference. The Super Record thirteen-speed road reference uses the manufacturer’s explicit 41T capacity, 36T largest sprocket, 10T smallest sprocket and 16T front difference. A generic technical manual’s other cage rows are not applied to an unspecified older assembly. Component coverage and unknown values remain visible in catalogue pages and the search index.
 

@@ -8,14 +8,19 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-3300-SS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-3300-SS has not been established.",
+  "weight_g": 266,
+  "weight_description": "Contributor-measured: RD-3300-SS short-cage rear derailleur. Scale resolution, component condition and included hardware were not reported.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-3300-1882/EV-RD-3300-1882.pdf",
     "title": "Shimano RD-3300-SS exploded view and replacement parts",
     "retrieved_on": "2026-11-09"
   },
   "sources": [
+    {
+      "url": "https://github.com/drewfreyling/velogroupsets/blob/main/docs/contributor-weights.md#rear-derailleur-weights-reported-on-9-november-2026",
+      "title": "Project owner’s personally measured short-cage rear-derailleur weights, 9 November 2026",
+      "retrieved_on": "2026-11-09"
+    },
     {
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=27",
       "title": "Shimano 2005 line-up chart, PDF page 27: Sora 3300 and listed component options",
