@@ -2,7 +2,7 @@
 import ExternalLink from '../components/ExternalLink.astro';
 import '../styles/global.css';
 import sourceSansFont from '@fontsource-variable/source-sans-3/files/source-sans-3-latin-wght-normal.woff2?url';
-const { title = 'Bicycle groupset and component specifications', description = 'Specifications for bicycle groupsets and components, each linked to its source.', noindex = false } = Astro.props;
+const { title = 'Bicycle groupset and component specifications', description = 'The open source reference for bicycle groupsets and components.', noindex = false } = Astro.props;
 const staging = import.meta.env.SITE.includes('staging.') || import.meta.env.SITE.includes('localhost');
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
