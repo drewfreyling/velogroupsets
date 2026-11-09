@@ -1,10 +1,10 @@
 # Additional road groupsets
 
-The 9 November 2026 review adds **75 groupset records**: 29 Shimano and 46 Campagnolo. SRAM already has its main road families represented in the [SRAM guide](sram.md); four Wide front-derailleur/crankset options extend its existing Force and Rival AXS records. The catalogue now contains **158 groupsets and 808 component identities across three manufacturers**.
+The 9 November 2026 review adds **75 groupset records**: 29 Shimano and 46 Campagnolo. SRAM already has its main road families represented in the [SRAM guide](sram.md); four Wide front-derailleur/crankset options extend its existing Force and Rival AXS records. The catalogue now contains **158 groupsets and 807 component identities across three manufacturers**.
 
 This is a review of named road families and drivetrain generations, including historical road equipment and newer recreational drop-bar systems. It does not treat every finish, crank length, limited-edition presentation or power-meter option as a separate groupset. Existing SRAM XPLR records remain; this review does not add MTB, track, gravel-only GRX or Ekar families. Later disc-brake controls and revised parts belong to their documented family unless the drivetrain system itself is distinct.
 
-**Component coverage is incomplete.** There are 210 new component identities, all with unknown weights, and 36 of the newly added groupsets currently have no verified component list. A group entry establishes a documented range and date; it does not imply that a complete build kit has been catalogued. Manufacturer-hosted technical documents, exact assembly codes and membership still need review before further component records are added. The existing archive exceptions are unchanged.
+**Component coverage is incomplete.** There are 209 new component identities, all with unknown weights, and 36 of the newly added groupsets currently have no verified component list. A group entry establishes a documented range and date; it does not imply that a complete build kit has been catalogued. Manufacturer-hosted technical documents, exact assembly codes and membership still need review before further component records are added. The existing archive exceptions are unchanged.
 
 ## Dates and identifiers
 
@@ -40,24 +40,24 @@ The component count is the currently reviewed membership count, including canoni
 | Campagnolo | Centaur 10-speed | 2002 | 0 | [Original Campagnolo 2002 reference edition: Centaur 10-speed](https://www.disraeligears.co.uk/site/campagnolo_-_2002_spare_parts_tools_catalogue.html) |
 | Campagnolo | Centaur 9-speed | 2002 | 0 | [Original Campagnolo 2002 reference edition: Centaur 9-speed](https://www.disraeligears.co.uk/site/campagnolo_-_2002_spare_parts_tools_catalogue.html) |
 | Campagnolo | Xenon 9-speed | 2002 | 0 | [Original Campagnolo 2002 reference edition: Xenon 9-speed](https://www.disraeligears.co.uk/site/campagnolo_-_2002_spare_parts_tools_catalogue.html) |
-| Campagnolo | Veloce 10-speed | 2004 | 11 | [Original Campagnolo 2004 reference edition: Veloce 10-speed](https://www.disraeligears.co.uk/site/campagnolo_-_2004_products_range.html) |
+| Campagnolo | Veloce 10-speed | 2004 | 10 | [Original Campagnolo 2004 reference edition: Veloce 10-speed](https://www.disraeligears.co.uk/site/campagnolo_-_2004_products_range.html) |
 | Campagnolo | Champ Triple 9-speed | 2007 | 0 | [Original Campagnolo 2007 reference edition: Champ Triple 9-speed](https://www.disraeligears.co.uk/site/campagnolo_-_trade_catalogue_2008.html) |
 | Campagnolo | Comp Triple 10-speed | 2007 | 0 | [Original Campagnolo 2007 reference edition: Comp Triple 10-speed](https://www.disraeligears.co.uk/site/campagnolo_-_trade_catalogue_2008.html) |
 | Campagnolo | Mirage 10-speed | 2007 | 0 | [Original Campagnolo 2007 reference edition: Mirage 10-speed](https://www.disraeligears.co.uk/site/campagnolo_-_trade_catalogue_2008.html) |
 | Campagnolo | Race Triple 10-speed | 2007 | 0 | [Original Campagnolo 2007 reference edition: Race Triple 10-speed](https://www.disraeligears.co.uk/site/campagnolo_-_trade_catalogue_2008.html) |
 | Campagnolo | Xenon 10-speed | 2007 | 0 | [Original Campagnolo 2007 reference edition: Xenon 10-speed](https://www.disraeligears.co.uk/site/campagnolo_-_trade_catalogue_2008.html) |
-| Campagnolo | Chorus 11-speed | 2008 | 11 | [Campagnolo 11-speed range announcement, June 2008; sold as the 2009 range](https://www.bicycleretailer.com/product-tech/2008/06/25/campy-going-eleven-speeds-2009) |
-| Campagnolo | Record 11-speed | 2008 | 13 | [Campagnolo 11-speed range announcement, June 2008; sold as the 2009 range](https://www.bicycleretailer.com/product-tech/2008/06/25/campy-going-eleven-speeds-2009) |
-| Campagnolo | Super Record 11-speed | 2008 | 13 | [Campagnolo 11-speed range announcement, June 2008; sold as the 2009 range](https://www.bicycleretailer.com/product-tech/2008/06/25/campy-going-eleven-speeds-2009) |
+| Campagnolo | Chorus 11-speed | 2008 | 10 | [Campagnolo 11-speed range announcement, June 2008; sold as the 2009 range](https://www.bicycleretailer.com/product-tech/2008/06/25/campy-going-eleven-speeds-2009) |
+| Campagnolo | Record 11-speed | 2008 | 12 | [Campagnolo 11-speed range announcement, June 2008; sold as the 2009 range](https://www.bicycleretailer.com/product-tech/2008/06/25/campy-going-eleven-speeds-2009) |
+| Campagnolo | Super Record 11-speed | 2008 | 12 | [Campagnolo 11-speed range announcement, June 2008; sold as the 2009 range](https://www.bicycleretailer.com/product-tech/2008/06/25/campy-going-eleven-speeds-2009) |
 | Campagnolo | Athena 11-speed | 2009 | 0 | [Contemporary Athena 11-speed introduction, May 2009](https://www.bicycleretailer.com/product-tech/2009/05/19/campy-targets-oem-athena-groupset) |
-| Campagnolo | Record EPS 11-speed | 2011 | 10 | [Campagnolo EPS global debut in November 2011, reported February 2012](https://bicycleretailer.com/product-tech/2012/02/01/campy-talks-pricing-tech-training-eps) |
-| Campagnolo | Super Record EPS 11-speed | 2011 | 10 | [Campagnolo EPS global debut in November 2011, reported February 2012](https://bicycleretailer.com/product-tech/2012/02/01/campy-talks-pricing-tech-training-eps) |
+| Campagnolo | Record EPS 11-speed | 2011 | 9 | [Campagnolo EPS global debut in November 2011, reported February 2012](https://bicycleretailer.com/product-tech/2012/02/01/campy-talks-pricing-tech-training-eps) |
+| Campagnolo | Super Record EPS 11-speed | 2011 | 9 | [Campagnolo EPS global debut in November 2011, reported February 2012](https://bicycleretailer.com/product-tech/2012/02/01/campy-talks-pricing-tech-training-eps) |
 | Campagnolo | Athena EPS 11-speed | 2012 | 0 | [Athena EPS introduction, July 2012](https://www.bicycleretailer.com/new-products/2012/07/16/campy-expands-eps-athena-groupset) |
 | Campagnolo | Athena Triple 11-speed | 2012 | 8 | [Athena, Centaur and Veloce triple introduction, May 2012, for the 2013 range](https://www.bicycleretailer.com/new-products/2012/05/16/campy-offers-new-triples-wider-range-gearing) |
 | Campagnolo | Centaur Triple 10-speed | 2012 | 0 | [Centaur triple introduction, May 2012](https://www.bicycleretailer.com/new-products/2012/05/16/campy-offers-new-triples-wider-range-gearing) |
 | Campagnolo | Veloce Triple 10-speed | 2012 | 0 | [Veloce triple introduction, May 2012](https://www.bicycleretailer.com/new-products/2012/05/16/campy-offers-new-triples-wider-range-gearing) |
-| Campagnolo | Chorus EPS 11-speed | 2014 | 10 | [Chorus EPS introduction, June 2014, for the 2015 range](https://www.bicycleretailer.com/product-tech/2014/06/03/campy-adds-chorus-eps-group-updates-athena-and-veloce-2015) |
-| Campagnolo | Potenza 11-speed | 2016 | 11 | [Potenza 11 introduction, March 2016](https://road.cc/content/tech-news/182759-campagnolo-unveils-new-potenza-groupset-first-ride) |
+| Campagnolo | Chorus EPS 11-speed | 2014 | 9 | [Chorus EPS introduction, June 2014, for the 2015 range](https://www.bicycleretailer.com/product-tech/2014/06/03/campy-adds-chorus-eps-group-updates-athena-and-veloce-2015) |
+| Campagnolo | Potenza 11-speed | 2016 | 10 | [Potenza 11 introduction, March 2016](https://road.cc/content/tech-news/182759-campagnolo-unveils-new-potenza-groupset-first-ride) |
 | Campagnolo | Centaur 11-speed | 2017 | 1 | [Centaur 11-speed introduction, May 2017](https://www.cyclingweekly.com/news/product-news/campagnolo-centaur-329848) |
 | Campagnolo | Record 12-speed | 2018 | 0 | [Campagnolo Record and Super Record mechanical twelve-speed introduction, April 2018](https://www.bicycleretailer.com/product-tech/2018/04/09/campagnolo-rolling-out-12-speed-road-groups) |
 | Campagnolo | Super Record 12-speed | 2018 | 0 | [Campagnolo Record and Super Record mechanical twelve-speed introduction, April 2018](https://www.bicycleretailer.com/product-tech/2018/04/09/campagnolo-rolling-out-12-speed-road-groups) |
@@ -114,7 +114,7 @@ SRAM’s four Wide records use the actual FD-FRC-EW-D1, FD-RIV-EW-D1, FC-FRC-W-D
 
 ## Weights, pairs and limits
 
-All 210 newly added weights remain explicitly null. No retail figure, single control’s weight, complete hydraulic brake-system weight or undocumented skewer deduction is promoted to a compliant component weight. Shifters are complete left/right pairs; the ESSA pair includes a brake-only left lever. Front-derailleur clamp diameters, crank configurations and cassette gearing are recorded only where supported by the exact source. Future measurements must follow the [weight guidelines](weights-guidelines.md).
+All 209 newly added weights remain explicitly null. No retail figure, single control’s weight, complete hydraulic brake-system weight or undocumented skewer deduction is promoted to a compliant component weight. Shifters are complete left/right pairs; the ESSA pair includes a brake-only left lever. Front-derailleur clamp diameters, crank configurations and cassette gearing are recorded only where supported by the exact source. Future measurements must follow the [weight guidelines](weights-guidelines.md).
 
 Every added rear derailleur has the four required limit fields. Unknown limits remain null, with no cage-based or arithmetic inference. The Super Record thirteen-speed road reference uses the manufacturer’s explicit 41T capacity, 36T largest sprocket, 10T smallest sprocket and 16T front difference. A generic technical manual’s other cage rows are not applied to an unspecified older assembly. Component coverage and unknown values remain visible in catalogue pages and the search index.
 

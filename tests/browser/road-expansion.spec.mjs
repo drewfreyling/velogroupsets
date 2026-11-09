@@ -55,7 +55,10 @@ test('SRAM Wide options belong to their existing road family',async({page})=>{
   await expect(detail(page,'Weight').locator('dd > span')).toHaveText('Not yet sourced');
 });
 
-test('compatibility markings do not merge unverified Super Record S assemblies',async({page})=>{
+test('compatibility markings and accessory codes do not create complete component identities',async({page,request})=>{
+  const index=await(await request.get('/search-index.json')).json();
+  // The manufacturer's 2017 table identifies FD-SR203 as a chain guard.
+  expect(index.some(c=>c.model==='FD-SR203')).toBe(false);
   await page.goto('/components/campagnolo/rd23-sr12wrl/');
   await expect(detail(page,'Groupset membership').getByRole('link',{name:'Super Record Wireless 12-speed',exact:true})).toHaveCount(1);
   await expect(detail(page,'Groupset membership').getByRole('link',{name:'Super Record S Wireless 12-speed',exact:true})).toHaveCount(0);
