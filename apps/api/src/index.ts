@@ -1,5 +1,6 @@
 import type { Context, Env } from './types.ts';
 import { communityApi } from './community.ts';
+import { dataApi } from './data-api.ts';
 import { cleanup } from './moderation.ts';
 
 
@@ -7,6 +8,7 @@ export default {
   async scheduled(_event:unknown,env:Env,ctx:Context) { ctx.waitUntil(cleanup(env)); },
   async fetch(request: Request, env: Env, ctx?: Context): Promise<Response> {
     const path = new URL(request.url).pathname;
+    if (path === '/api/v1' || path.startsWith('/api/v1/')) return dataApi(request,env,ctx);
     if (path === '/api' || path.startsWith('/api/')) {
       const headers = {
         'Content-Type': 'application/json; charset=utf-8',

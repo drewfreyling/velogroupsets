@@ -29,6 +29,13 @@ See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relati
 
 The [design guide](docs/design.md) documents the teal palette, self-hosted Source Sans 3 typography, contrast rules and dark-mode behaviour.
 
+
+## Catalogue API
+
+The read-only `/api/v1` API provides manufacturers, groupsets, components, taxonomy, search/filtering, pagination and a complete catalogue export. It uses the same curated Git data, preserves source references and null weights, and needs no API key. Public responses use five-minute caching, ETags and CORS; community data retains its separate access controls.
+
+See [the API guide](docs/api.md) and [OpenAPI 3.1 specification](apps/api/openapi.json). Each application build includes `/api-docs/` and `/openapi.json`; these become available on an environment after manual deployment. API contract and response validation run in the existing CI gate.
+
 ## Architecture
 
 The starting design uses **Cloudflare Workers Static Assets + a TypeScript Worker + D1 + R2 + an Images optimization binding**, with OpenTofu managing Cloudflare infrastructure in this repository and GitHub Actions deploying the application through Wrangler. This keeps the initial stack small and aims to fit a modest community within free allowances.
@@ -51,7 +58,7 @@ flowchart TD
         State[("Private R2: encrypted state, plans and snapshots")]
         Edge["Custom domain: TLS 1.3, HSTS, CDN and available WAF rules"]
         Static["Workers Static Assets: catalogue and policy pages"]
-        API["TypeScript Worker: accounts, uploads, reports and image proxy"]
+        API["TypeScript Worker: catalogue API, accounts, uploads, reports and image proxy"]
         DB[("D1: users, consent, photos and moderation")]
         Pending[("Private R2: sanitised pending photos")]
         Images["Images binding: decode, resize and JPEG encoding"]
@@ -61,7 +68,7 @@ flowchart TD
         Scanner["CSAM Scanning Tool: known-hash matching"]
         Turnstile["Turnstile verification"]
         Edge -->|"Catalogue and assets"| Static
-        Edge -->|"Community API and approved image delivery"| API
+        Edge -->|"Catalogue and community APIs, approved image delivery"| API
         API --> DB
         API -->|"Verify action and hostname"| Turnstile
         API -->|"Bounded input bytes"| Images

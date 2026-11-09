@@ -13,7 +13,9 @@
     "test:browser": "playwright test",
     "worker:dev": "npm run db:migrate:local && wrangler dev --config wrangler.jsonc",
     "worker:check": "wrangler deploy --dry-run --config wrangler.jsonc --outdir /tmp/velogroupsets-worker",
-    "db:migrate:local": "wrangler d1 migrations apply COMMUNITY_DB --local --config wrangler.jsonc"
+    "db:migrate:local": "wrangler d1 migrations apply COMMUNITY_DB --local --config wrangler.jsonc",
+    "api:spec": "node scripts/build-openapi.mjs",
+    "api:spec:check": "node scripts/build-openapi.mjs --check"
   },
   "dependencies": {
     "@fontsource-variable/source-sans-3": "5.3.1",
@@ -23,7 +25,10 @@
     "tailwindcss": "4.3.5"
   },
   "devDependencies": {
+    "@apidevtools/swagger-parser": "13.1.0",
     "@playwright/test": "1.65.0",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
     "miniflare": "5.20261104.0-beta",
     "sharp": "0.35.5",
     "wrangler": "4.158.0"

@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Catalogue API" description="Read bicycle manufacturers, groupsets, components and source references through the public VeloGroupsets API.">
+  <article class="wrap max-w-4xl py-14">
+    <h1 class="text-4xl font-medium tracking-tight">Catalogue API</h1>
+    <p class="mt-6 text-lg leading-8 text-muted">Read the catalogue as JSON, including model numbers, specifications, weights and source references. No account or API key is required.</p>
+    <a class="button mt-6 inline-block" href="/openapi.json" download="velogroupsets-openapi.json">Download the OpenAPI 3.1 specification</a>
+    <h2 class="mt-12 text-2xl font-medium">Browse the data</h2>
+    <p class="mt-4 leading-7">Start with manufacturers, then use their IDs to find groupsets and components. Every list supports <code>limit</code> and <code>offset</code>. The default page contains up to 50 records; the maximum is 100.</p>
+    <div class="mt-6 overflow-x-auto rounded-xl border border-line bg-surface p-5"><pre class="text-sm leading-7"><code>{`GET /api/v1/manufacturers
+GET /api/v1/groupsets?manufacturer_id=shimano
+GET /api/v1/components?groupset_id=shimano-105-r7000&type=rear-derailleur
+GET /api/v1/components/shimano-rd-r7000-gs
+GET /api/v1/component-types`}</code></pre></div>
+    <h2 class="mt-12 text-2xl font-medium">Search and download</h2>
+    <p class="mt-4 leading-7">Use <code>q</code> to search names and model numbers. All search terms must match; searches ignore case and accents. Filters combine with search. Use the complete catalogue endpoint when you need a consistent copy of all records.</p>
+    <div class="mt-6 overflow-x-auto rounded-xl border border-line bg-surface p-5"><pre class="text-sm leading-7"><code>{`GET /api/v1/components?q=RD-R7000&limit=10
+GET /api/v1/catalogue`}</code></pre></div>
+    <h2 class="mt-12 text-2xl font-medium">Responses and updates</h2>
+    <p class="mt-4 leading-7">Records are returned in <code>data</code>. Lists also include <code>pagination</code>, with a total and the next offset. Unknown weights remain <code>null</code>; a listed weight describes the configuration and evidence in its record.</p>
+    <p class="mt-4 leading-7">Responses can be cached for five minutes. Send the returned <code>ETag</code> as <code>If-None-Match</code> to check for changes without downloading the body again. Compare <code>X-Catalogue-Version</code> while paging to detect catalogue updates.</p>
+    <p class="mt-4 leading-7">Browser applications on other websites can read this public data. This API covers curated records; accounts, community photos and moderation data use separate services.</p>
+  </article>
+</Layout>

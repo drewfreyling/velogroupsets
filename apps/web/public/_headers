@@ -23,3 +23,6 @@
 /moderation/*
   ! Cache-Control
   Cache-Control: no-store
+/openapi.json
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: ETag

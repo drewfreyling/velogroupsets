@@ -18,7 +18,7 @@ test('sitemap contains every canonical catalogue page once and robots follows th
   }, xml);
   expect(parsed.errors).toBe(0);
   expect(parsed.namespace).toBe('http://www.sitemaps.org/schemas/sitemap/0.9');
-  const paths = ['/', '/manufacturers/', '/catalogue/', '/policies/terms/', '/policies/privacy/', '/policies/community/', '/policies/copyright/', ...manufacturers.map(manufacturerUrl), ...groupsets.map(groupsetUrl), ...components.map(componentUrl)];
+  const paths = ['/', '/manufacturers/', '/catalogue/', '/api-docs/', '/policies/terms/', '/policies/privacy/', '/policies/community/', '/policies/copyright/', ...manufacturers.map(manufacturerUrl), ...groupsets.map(groupsetUrl), ...components.map(componentUrl)];
   expect(parsed.urls.sort()).toEqual(paths.map(path => new URL(path, origin).href).sort());
   expect(new Set(parsed.urls).size).toBe(parsed.urls.length);
   const robots = await request.get('/robots.txt');
