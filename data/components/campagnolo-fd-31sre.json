@@ -9,8 +9,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-31SRE",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "weight_g": 89,
+  "weight_description": "Manufacturer-listed weight for the 1997 FD-31SRE, braze-on double-chainring version, without a clamp adapter.",
   "technical_document": {
     "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_31.html",
     "title": "Campagnolo 1997 Spare Parts Catalogue, page 31 (manufacturer document archived by Disraeli Gears)",
@@ -21,10 +21,17 @@
       "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_31.html",
       "title": "Campagnolo 1997 Spare Parts Catalogue, page 31 (manufacturer document archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://mail.prestacycle.co.uk/campybike/downloads/Campagnolo_1994_1999s.zip",
+      "title": "Campagnolo 1997 Technical Specifications, printed page 13 (PDF page 15); 1997CampagnoloTechnicalSpecificationsV2.pdf in Prestacycle/CampyBike archive",
+      "retrieved_on": "2026-11-10"
     }
   ],
   "specifications": {
     "mount": "Braze-on",
-    "front_speeds": 2
+    "front_speeds": 2,
+    "capacity_teeth": 15,
+    "maximum_chainring_teeth": 54
   }
 }

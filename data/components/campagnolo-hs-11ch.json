@@ -9,8 +9,8 @@
   ],
   "type": "headset",
   "model_number": "HS-11CH",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "weight_g": 107,
+  "weight_description": "Manufacturer-listed 1997 threaded headset: BC 1 inch × 24 tpi, 26.4 mm crown-race seat, 30.2 mm cup diameter and 36.5 mm total stack height.",
   "technical_document": {
     "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_4.html",
     "title": "Campagnolo 1997 Spare Parts Catalogue, page 4 (original manufacturer document archived by Disraeli Gears)",
@@ -21,6 +21,17 @@
       "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_4.html",
       "title": "Campagnolo 1997 Spare Parts Catalogue, page 4 (original manufacturer document archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://mail.prestacycle.co.uk/campybike/downloads/Campagnolo_1994_1999s.zip",
+      "title": "Campagnolo 1997 Technical Specifications, printed page 1 (PDF page 3); 1997CampagnoloTechnicalSpecificationsV2.pdf in Prestacycle/CampyBike archive",
+      "retrieved_on": "2026-11-10"
     }
-  ]
+  ],
+  "specifications": {
+    "thread": "BC 1 inch × 24 tpi",
+    "crown_race_seat_mm": 26.4,
+    "stack_height_mm": 36.5,
+    "cup_diameter_mm": 30.2
+  }
 }

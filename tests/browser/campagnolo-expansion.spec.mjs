@@ -38,3 +38,28 @@ test('browse 1980s groups and retain a single shared seatpost with unknown weigh
   const earlyShifters=records.filter(c=>c.manufacturer==='Campagnolo' && c.type==='shifters' && /Victory 269|Triomphe 267/.test(c.groupsets));
   expect(earlyShifters).toHaveLength(2);
 });
+
+test('1997 rear capacities distinguish short-cage doubles from the long-cage triple', async ({page}) => {
+  const row=label=>page.locator('dl > div').filter({has:page.locator('dt',{hasText:new RegExp('^'+label+'$')})}).locator('dd');
+  for(const [model,weight,total,largest] of [['rd-09re',230,27,26],['rd-31vl',260,28,28],['rd-11ra3',267,37,28]]){
+    await page.goto('/components/campagnolo/'+model+'/');
+    await expect(row('Weight').locator('span')).toHaveText(`${weight} g`);
+    await expect(row('Total capacity')).toHaveText(`${total}T`);
+    await expect(row('Largest sprocket')).toHaveText(`${largest}T`);
+    await expect(row('Smallest sprocket')).toHaveText('Not yet sourced');
+    await expect(row('Front chainring tooth difference')).toHaveText('Not yet sourced');
+    await expect(page.getByRole('link',{name:/1997 Technical Specifications, printed page/})).toHaveAttribute('href','https://mail.prestacycle.co.uk/campybike/downloads/Campagnolo_1994_1999s.zip');
+  }
+});
+
+test('1997 reference weights retain spindle, braze-on and headset configurations in pages and JSON', async ({page,request}) => {
+  for(const [model,weight,configuration] of [['bb-13ra3',294,'115.5 mm square-taper spindle, English / BSA thread, 68 mm shell'],['fd-31sre',89,'braze-on double-chainring version, without a clamp adapter'],['hs-21re',106,'26.4 mm crown-race seat, 30.2 mm cup diameter and 36.5 mm total stack height']]){
+    await page.goto('/components/campagnolo/'+model+'/');
+    const row=page.locator('dl > div').filter({has:page.locator('dt',{hasText:/^Weight$/})});
+    await expect(row.locator('dd > span')).toHaveText(`${weight} g`);await expect(row).toContainText(configuration);
+    const json=await request.get('/api/v1/components/campagnolo-'+model+'.json');expect(json.status()).toBe(200);
+    expect(json.headers()['x-catalogue-delivery']).toBe('static-assets');expect((await json.json()).data.weight_g).toBe(weight);
+  }
+  const hub=(await(await request.get('/api/v1/components/campagnolo-hb-30re.json')).json()).data;
+  expect(hub.weight_g).toBeNull();expect(hub.weight_excludes_skewers).toBe(true);
+});

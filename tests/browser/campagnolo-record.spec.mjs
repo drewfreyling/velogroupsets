@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('browse both Record systems and open their archived manufacturer technical documents', async ({page}) => {
-  for (const [name,model,number] of [['Record 8-speed','RD-08RE',24],['Record 9-speed','RD-09RE',22]]) {
+  for (const [name,model,number,grams] of [['Record 8-speed','RD-08RE',24,234],['Record 9-speed','RD-09RE',22,230]]) {
     await page.goto('/manufacturers/');
     await page.getByRole('link',{name:/See Campagnolo groupsets/}).click();
     await page.getByRole('link').filter({has:page.getByRole('heading',{name,level:3,exact:true})}).click();
@@ -12,7 +12,8 @@ test('browse both Record systems and open their archived manufacturer technical 
     await expect(specification).toHaveAttribute('href',`https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_${number}.html`);
     await expect(specification).toHaveAccessibleName(/opens in new tab/);
     const weight=page.locator('dl > div').filter({has:page.getByRole('term').filter({hasText:/^Weight$/})});
-    await expect(weight.locator('dd > span')).toHaveText('Not yet sourced');
+    await expect(weight.locator('dd > span')).toHaveText(`${grams} g`);
+    await expect(weight).toContainText('Manufacturer-listed weight');
   }
 });
 

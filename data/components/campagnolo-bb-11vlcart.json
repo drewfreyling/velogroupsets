@@ -8,8 +8,8 @@
   ],
   "type": "bottom-bracket",
   "model_number": "BB-11VLCART",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced from the cited reference edition.",
+  "weight_g": 303,
+  "weight_description": "Manufacturer-listed 1997 cartridge bottom-bracket assembly: 111 mm square-taper spindle, Italian thread, 70 mm shell.",
   "technical_document": {
     "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_9.html",
     "title": "Campagnolo 1997 Spare Parts Catalogue, page 9 (original manufacturer document archived by Disraeli Gears)",
@@ -20,10 +20,17 @@
       "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_9.html",
       "title": "Campagnolo 1997 Spare Parts Catalogue, page 9 (original manufacturer document archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://mail.prestacycle.co.uk/campybike/downloads/Campagnolo_1994_1999s.zip",
+      "title": "Campagnolo 1997 Technical Specifications, printed page 7 (PDF page 9); 1997CampagnoloTechnicalSpecificationsV2.pdf in Prestacycle/CampyBike archive",
+      "retrieved_on": "2026-11-10"
     }
   ],
   "specifications": {
     "interface": "Square taper",
-    "thread": "Italian"
+    "thread": "Italian",
+    "spindle_length_mm": 111,
+    "bb_shell_width_mm": 70
   }
 }
