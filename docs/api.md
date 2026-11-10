@@ -1,87 +1,88 @@
 # Catalogue API
 
-The public catalogue API reads the same curated Git records as the generated website. It runs in the existing Cloudflare Worker, requires no account or API key, and does not query D1 or R2. The API and its data become available when the application release is deployed; adding records to Git alone does not update a running site.
+The public catalogue API is a set of generated JSON files served directly by **Cloudflare Workers Static Assets**. Successful GET/HEAD requests bypass the application Worker, including when Cloudflare needs to retrieve a cold asset. There are no D1, R2 or KV reads in this delivery path. Cloudflare documents direct static-asset requests as free and unlimited, subject to platform file limits.
 
-The [OpenAPI 3.1 contract](../apps/api/openapi.json) documents the versioned endpoints, fields, parameters, response schemas and errors. A readable page is generated at `/api-docs/`; the same contract is served at `/openapi.json` and `/api/v1/openapi.json`. The contract covers curated catalogue data. Community accounts, photo uploads, reports and moderation retain their existing separate APIs and access controls.
+The [OpenAPI 3.1 contract](../apps/api/openapi.json) documents the files and their response schemas. Readable documentation is generated at `/api-docs/`; download the contract at `/openapi.json`. Files update with an application deployment, not when a record is merely committed to Git.
 
-## Endpoints
+## Staging compatibility
 
-All routes accept GET and HEAD. OPTIONS handles public CORS preflight. Writes to known catalogue routes return 405 with `Allow: GET, HEAD, OPTIONS`. One trailing slash is accepted.
+Breaking changes are allowed under v1 until production launch. The former Worker query API has been replaced by static files under the same v1 namespace. Append `.json` to collection/detail URLs and use `/api/v1/index.json` for discovery. The old extensionless URLs and `/api/v1/openapi.json` are no longer endpoints; the contract is at `/openapi.json`.
 
-| Path | Response |
+There is no server-side search, filtering or pagination. **Static files ignore query strings.** A request with `?q=R7000&limit=1` returns the same complete file, not a filtered page or a validation error. Clients must download records and apply selection locally. Production versioning and compatibility guarantees will be defined before launch.
+
+## Files
+
+All documented files accept GET and HEAD.
+
+| Path | Contents of data |
 | --- | --- |
-| `/api/v1` | API version, catalogue revision and endpoint links |
-| `/api/v1/manufacturers` | Paginated manufacturers |
-| `/api/v1/manufacturers/{id}` | One manufacturer |
-| `/api/v1/groupsets` | Paginated groupsets |
-| `/api/v1/groupsets/{id}` | One groupset |
-| `/api/v1/components` | Paginated components |
-| `/api/v1/components/{id}` | One component |
-| `/api/v1/component-types` | Paginated taxonomy entries with `id` and `name` |
-| `/api/v1/component-types/{id}` | One taxonomy entry |
-| `/api/v1/catalogue` | Complete manufacturers, groupsets, components and component types |
-| `/api/v1/openapi.json` | OpenAPI 3.1 specification |
+| `/api/v1/index.json` | API version and file links |
+| `/api/v1/manufacturers.json` | All manufacturers |
+| `/api/v1/manufacturers/{id}.json` | One manufacturer |
+| `/api/v1/groupsets.json` | All groupsets |
+| `/api/v1/groupsets/{id}.json` | One groupset |
+| `/api/v1/components.json` | All components |
+| `/api/v1/components/{id}.json` | One component |
+| `/api/v1/component-types.json` | All taxonomy entries, each with id and name |
+| `/api/v1/component-types/{id}.json` | One taxonomy entry |
+| `/api/v1/catalogue.json` | Complete manufacturers, groupsets, components and component types |
 
-Records keep their canonical field names: `model_number`, `weight_g`, `weight_description`, `sources`, `technical_document`, `groupset_ids` and `start_year`, where applicable. Unknown values remain null. Shared components retain one identity. A component detail request using a documented historical **ID** alias returns the canonical record and a canonical `Content-Location` header; alias URLs do not create extra collection or bulk-export records. Slugs are not alternate API IDs.
-
-Single-record responses wrap the record in `data`. Collection responses include `data` and `pagination`:
+Every response includes the snapshot revision:
 
 ```json
 {
-  "data": [],
-  "pagination": {
-    "limit": 50,
-    "offset": 0,
-    "total": 0,
-    "next_offset": null,
-    "previous_offset": null
-  }
+  "catalogue_version": "64-character SHA-256 revision",
+  "data": []
 }
 ```
 
-The complete export wraps `{manufacturers, groupsets, components, component_types}` in `data`. API discovery and the OpenAPI document have the schemas described in the specification.
+The example shows a collection; detail files contain one record in data, while the catalogue file contains an object with manufacturers, groupsets, components and component_types arrays. Each array retains canonical snapshot order. Clients choose their own sorting.
 
-## Search and filters
+Records preserve canonical field names, source references, technical documents, model variants and explicit nulls. Shared components retain one identity. Detail files use **canonical IDs only**, not slugs or historical aliases. Alias metadata remains in component records so clients can resolve it locally.
 
-| Parameter | Applies to | Behaviour |
-| --- | --- | --- |
-| `limit` | Every collection | Integer 1–100; default 50 |
-| `offset` | Every collection | Integer 0–1,000,000; default 0 |
-| `q` | Every collection | Up to 120 characters; case/accent-insensitive, with all whitespace-separated terms required |
-| `manufacturer_id` | Groupsets, components | Canonical manufacturer ID |
-| `groupset_id` | Components | Exact documented membership |
-| `type` | Components | Stable taxonomy ID, such as `rear-derailleur` |
+## Client example
 
-Search includes names, model numbers and IDs. Component search also includes manufacturer/group names, paired-control model numbers and historical aliases. An empty search applies no text filter. Query parameters must occur only once; unknown parameters, unknown filter IDs and invalid numeric bounds return 400. Filters combine with AND; individually valid but incompatible filters return an empty page. Offsets beyond the total also return an empty page.
-
-Paginated groupset lists sort by `start_year` ascending, then ID. Other paginated collections sort by ID. The bulk export retains the canonical snapshot order. The order is deterministic within one catalogue revision. Clients should compare `X-Catalogue-Version` across pages and restart or use the bulk export if the revision changes between requests.
-
-Examples against a local Worker:
+Use the origin of a deployed environment instead of localhost when appropriate:
 
 ```sh
-curl 'http://127.0.0.1:8787/api/v1/manufacturers'
-curl 'http://127.0.0.1:8787/api/v1/groupsets?manufacturer_id=shimano&limit=25'
-curl 'http://127.0.0.1:8787/api/v1/components?groupset_id=shimano-105-r7000&type=rear-derailleur'
-curl 'http://127.0.0.1:8787/api/v1/components?q=RD-R7000&limit=10'
-curl 'http://127.0.0.1:8787/api/v1/components/shimano-rd-r7000-gs'
-curl 'http://127.0.0.1:8787/api/v1/catalogue' -o catalogue.json
+curl 'http://127.0.0.1:8787/api/v1/catalogue.json' -o catalogue.json
+curl 'http://127.0.0.1:8787/api/v1/components/shimano-rd-r7000-gs.json'
 ```
 
-Replace the local origin with the staging or production origin after that application has been deployed. The OpenAPI server URL `/` resolves against the origin serving the contract.
+Filter the downloaded snapshot without more requests:
 
-## Caching and browser access
+```js
+const response = await fetch('/api/v1/catalogue.json');
+if (!response.ok) throw new Error('Catalogue download failed');
+const { data, catalogue_version } = await response.json();
+const components = data.components.filter(component =>
+  component.manufacturer_id === 'shimano' &&
+  component.groupset_ids.includes('shimano-105-r7000') &&
+  component.type === 'rear-derailleur'
+);
+```
 
-Successful versioned reads use `Cache-Control: public, max-age=300, s-maxage=300, must-revalidate`. Each representation has a SHA-256 ETag, and `If-None-Match` can produce a bodyless 304. HEAD returns the same status/headers with no body, including for errors. `X-Catalogue-Version` identifies the build-time SHA-256 revision of the curated dataset and taxonomy.
+## Cache delivery and costs
 
-The Worker uses Cloudflare’s local Cache API for successful public responses. Cache keys include both the catalogue revision and deployed release SHA; query validation precedes lookup. Cache failures fall back to the generated snapshot. Errors use `no-store`. The bulk export helps clients avoid repeated page requests.
+The production Wrangler configuration excludes `/api/v1/*` from Worker-first routing. Existing files are handled directly by Workers Static Assets; do not add a Worker router in front of them. The static OpenAPI download follows the same asset-first path. No zone-wide Cache Everything rule, paid cache feature or new storage service is required.
 
-These are Worker requests and remain subject to the account’s Worker request/CPU allowances. They do not add another database or hosting service. Cache API entries are local to the Cloudflare data centre serving the request, not a globally replicated application cache. Normal catalogue navigation/search still uses generated static content without calling this API.
+The asset service manages Cloudflare caching and deployment updates. A cold location or eviction may require an internal asset fetch, so **a 100% cache-hit ratio is not guaranteed**. This still avoids the application Worker. Successful JSON responses carry `X-Catalogue-Delivery: static-assets`; that header identifies the configured delivery path, not whether this particular request was a cache hit.
 
-Only the public versioned data routes and static OpenAPI download allow `Access-Control-Allow-Origin: *`. They never send credentials or user-specific responses. Versioned routes expose `ETag`, `X-Catalogue-Version` and `Content-Location` to browser clients. Preflight permits `If-None-Match` and `Content-Type`. Existing private community routes keep their original origin, session, CSRF and `no-store` behaviour.
+Browser cache policy stays `Cache-Control: public, max-age=300, must-revalidate`. Cloudflare supplies ETags and supports conditional 304 responses and bodyless HEAD reads. Compare body-level catalogue_version values when combining separate files: browsers may retain different releases for up to five minutes. Downloading catalogue.json gives a consistent snapshot in one response.
 
-## Maintaining the contract
+All catalogue files and the OpenAPI download allow public CORS without credentials. Normal cross-origin GETs require no preflight. The static asset service does not support OPTIONS preflight. Cross-origin browser clients must use ordinary GET/HEAD requests without custom request headers and let browser HTTP caching handle validators. Same-origin and non-browser clients can send If-None-Match directly.
 
-Canonical catalogue schemas remain the source of record fields. [The OpenAPI factory](../apps/api/openapi.mjs) rewrites their local references into OpenAPI schema components and declares the HTTP operations. The checked-in JSON contract is generated, not maintained as an independent copy of the component fields.
+Within `/api/v1/*`, the static service handles missing files with the configured HTML 404 page and unsupported methods (including OPTIONS) with 405. These are platform responses, not the former JSON query-error contract. The bare `/api/v1` URL remains outside the static-file namespace and reaches the general Worker API handler. Use the documented `.json` file URLs.
+
+The runtime Cache API used by the former query implementation did not eliminate Worker requests. Cloudflare's separate Workers Cache feature can skip execution on hits but still bills requests at the Workers rate; do not enable it globally to try to make these static reads free. Keep the direct static-asset path.
+
+Community accounts, uploads, reports and moderation remain separate, authenticated where needed, and no-store. They still use the Worker and their provisioned storage. Never enable a broad cache rule covering them.
+
+References checked on 10 November 2026: [static assets billing](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/), [asset-first routing](https://developers.cloudflare.com/workers/static-assets/routing/worker-script/) and [Workers Cache billing](https://developers.cloudflare.com/workers/cache/).
+
+## Maintaining and verifying the API
+
+The [Astro endpoint generator](../apps/web/src/pages/api/v1/[...path].json.ts) prerenders the curated snapshot into JSON assets. The [OpenAPI factory](../apps/api/openapi.mjs) derives record definitions from the canonical schemas; its generated JSON contract is checked in.
 
 ```sh
 npm run api:spec
@@ -92,4 +93,6 @@ npm run worker:check
 npm run test:browser
 ```
 
-`npm test` validates the OpenAPI document with Swagger Parser, compares it with the factory output and validates actual API payloads with JSON Schema 2020-12. It exercises filtering, pagination, aliases, null weights, source preservation, CORS, conditional reads, cache isolation/failure and invalid requests. Playwright tests the compiled Worker and documentation in desktop and mobile Chromium. Existing CI runs these checks and remains the gate for manual deployment.
+Tests validate the contract with Swagger Parser, every generated canonical record against its JSON Schema 2020-12 response schema, source/null preservation, platform asset limits and actual routing. A separate local Wrangler test replaces application code with a handler that returns 503 for every invocation: catalogue JSON reads still succeed, conditional requests and HEAD work, unknown files return the platform 404, and unsupported methods return 405. A community path must hit the failing probe. This detects accidental Worker-first routing even when response headers look correct.
+
+Desktop/mobile browser tests cover downloaded data, local filtering, cache headers, conditional responses, CORS and documentation. These run in CI and gate manual deployment. Local tests establish routing behaviour; live cache residency and account billing must be verified after deployment through Cloudflare analytics.

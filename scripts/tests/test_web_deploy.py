@@ -17,7 +17,7 @@ class DeploymentConfigTests(unittest.TestCase):
         self.assertEqual(config['name'],'velogroupsets-staging')
         self.assertNotIn('routes',config)
         self.assertFalse(config['workers_dev'])
-        self.assertEqual(config['assets']['run_worker_first'],['/api','/api/*'])
+        self.assertEqual(config['assets']['run_worker_first'],['/api','/api/*','!/api/v1/*'])
 
     def test_staging_cannot_bind_production_resources(self):
         with self.assertRaises(ValueError): make_config('staging','a'*40,self.bindings('production'))

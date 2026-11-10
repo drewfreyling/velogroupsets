@@ -32,7 +32,9 @@ The [design guide](docs/design.md) documents the teal palette, self-hosted Sourc
 
 ## Catalogue API
 
-The read-only `/api/v1` API provides manufacturers, groupsets, components, taxonomy, search/filtering, pagination and a complete catalogue export. It uses the same curated Git data, preserves source references and null weights, and needs no API key. Public responses use five-minute caching, ETags and CORS; community data retains its separate access controls.
+The read-only API is generated JSON served directly by Cloudflare Workers Static Assets. Start at `/api/v1/index.json` or download `/api/v1/catalogue.json`. Collections and canonical detail files preserve curated records, source references and null weights. Successful GET/HEAD asset requests bypass Worker execution; Cloudflare documents direct static-asset requests as free and unlimited within platform limits. Files have five-minute browser caching, platform ETags and public CORS.
+
+Search, filtering and pagination run in the consuming application after downloading records; static files ignore query strings. Breaking changes are allowed under v1 during staging. The former extensionless Worker query endpoints have been removed. Community APIs keep their own Worker execution and access controls.
 
 See [the API guide](docs/api.md) and [OpenAPI 3.1 specification](apps/api/openapi.json). Each application build includes `/api-docs/` and `/openapi.json`; these become available on an environment after manual deployment. API contract and response validation run in the existing CI gate.
 
@@ -57,8 +59,8 @@ flowchart TD
     subgraph Cloudflare["Cloudflare"]
         State[("Private R2: encrypted state, plans and snapshots")]
         Edge["Custom domain: TLS 1.3, HSTS, CDN and available WAF rules"]
-        Static["Workers Static Assets: catalogue and policy pages"]
-        API["TypeScript Worker: catalogue API, accounts, uploads, reports and image proxy"]
+        Static["Workers Static Assets: catalogue JSON API, site and policy pages"]
+        API["TypeScript Worker: accounts, uploads, reports and image proxy"]
         DB[("D1: users, consent, photos and moderation")]
         Pending[("Private R2: sanitised pending photos")]
         Images["Images binding: decode, resize and JPEG encoding"]
@@ -67,8 +69,8 @@ flowchart TD
         ImageCDN["Approved-photo custom domain and cache"]
         Scanner["CSAM Scanning Tool: known-hash matching"]
         Turnstile["Turnstile verification"]
-        Edge -->|"Catalogue and assets"| Static
-        Edge -->|"Catalogue and community APIs, approved image delivery"| API
+        Edge -->|"Catalogue JSON, pages and assets; no Worker execution"| Static
+        Edge -->|"Community APIs and approved image delivery"| API
         API --> DB
         API -->|"Verify action and hostname"| Turnstile
         API -->|"Bounded input bytes"| Images
@@ -170,9 +172,9 @@ npm run worker:check
 npm run worker:dev
 ```
 
-Wrangler serves the built site at `http://localhost:8787`; `GET /api/health` reports the environment/release. Unknown API paths return JSON 404s. Community endpoints use local D1/R2 bindings and the offline Images implementation; `worker:dev` applies local migrations. Sign-in/uploads stay disabled by default. Local tests use fictional accounts, synthetic images and provider fixtures, with no deployment credentials. Run `npx playwright install chromium` once, then `npm run test:browser` for browser checks.
+Wrangler serves the built site at `http://localhost:8787`; `GET /api/health` reports the environment/release. Unknown community API paths return JSON 404s; missing files under the static `/api/v1/*` namespace use the platform's HTML 404 page. Community endpoints use local D1/R2 bindings and the offline Images implementation; `worker:dev` applies local migrations. Sign-in/uploads stay disabled by default. Local tests use fictional accounts, synthetic images and provider fixtures, with no deployment credentials. Run `npx playwright install chromium` once, then `npm run test:browser` for browser checks.
 
-Set `SITE_URL` during builds to generate environment-specific canonical URLs and `/sitemap.xml`. The sitemap includes the home page, manufacturer index, catalogue and every canonical manufacturer/groupset/component page, with shared components listed once. Production `robots.txt` advertises the sitemap; other builds disallow crawling, and staging/localhost pages retain `noindex`. Normal assets bypass Worker execution, while `/api` and `/api/*` explicitly run the Worker. See the [CAA policy](infra/README.md#dns-caa-policy) for certificate-authority DNS records owned by the shared-zone state.
+Set `SITE_URL` during builds to generate environment-specific canonical URLs and `/sitemap.xml`. The sitemap includes the home page, manufacturer index, catalogue and every canonical manufacturer/groupset/component page, with shared components listed once. Production `robots.txt` advertises the sitemap; other builds disallow crawling, and staging/localhost pages retain `noindex`. Normal assets bypass Worker execution. `/api` and `/api/*` run the Worker, with `/api/v1/*` explicitly excluded for the static JSON catalogue. See the [CAA policy](infra/README.md#dns-caa-policy) for certificate-authority DNS records owned by the shared-zone state.
 
 Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Conventional Commits/PR titles, documentation, catalogue schemas/relationships, automation tests, OpenTofu formatting/validation/mocked tests, and workflow syntax. See [the infrastructure guide](infra/README.md) for local check commands, private R2 backend setup, environment configuration, and the manual plan/approval/apply workflow. CI also builds the static site, tests generated links and Worker routing, checks the Wrangler bundle, and runs Playwright in desktop and mobile Chromium configurations.
 
@@ -212,7 +214,7 @@ See [infrastructure and deployment](docs/architecture.md#infrastructure-and-depl
 4. Pass provisioned resource IDs/names into Wrangler bindings. Apply reviewed, backward-compatible migrations in the required order and deploy trusted application changes from `main` through Wrangler.
 5. Verify the deployment, community API, and static routing.
 
-Use explicit `/api/*` routing so API requests cannot fall through to static pages. Untrusted fork pull requests must not receive deployment credentials or access to production data. Prefer migrations compatible with both old and new application versions; an application rollback does not reverse database changes.
+Use explicit Worker-first routing for community APIs and keep `/api/v1/*` excluded so generated catalogue JSON bypasses the Worker. Untrusted fork pull requests must not receive deployment credentials or access to production data. Prefer migrations compatible with both old and new application versions; an application rollback does not reverse database changes.
 
 ## Website releases
 

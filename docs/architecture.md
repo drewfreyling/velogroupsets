@@ -27,8 +27,8 @@ flowchart TD
     subgraph Cloudflare["Cloudflare"]
         State[("Private R2: encrypted state, plans and snapshots")]
         Edge["Custom domain: TLS 1.3, HSTS, CDN and available WAF rules"]
-        Static["Workers Static Assets: catalogue and policy pages"]
-        API["TypeScript Worker: catalogue API, accounts, uploads, reports and image proxy"]
+        Static["Workers Static Assets: catalogue JSON API, site and policy pages"]
+        API["TypeScript Worker: accounts, uploads, reports and image proxy"]
         DB[("D1: users, consent, photos and moderation")]
         Pending[("Private R2: sanitised pending photos")]
         Images["Images binding: decode, resize and JPEG encoding"]
@@ -37,8 +37,8 @@ flowchart TD
         ImageCDN["Approved-photo custom domain and cache"]
         Scanner["CSAM Scanning Tool: known-hash matching"]
         Turnstile["Turnstile verification"]
-        Edge -->|"Catalogue and assets"| Static
-        Edge -->|"Catalogue and community APIs, approved image delivery"| API
+        Edge -->|"Catalogue JSON, pages and assets; no Worker execution"| Static
+        Edge -->|"Community APIs and approved image delivery"| API
         API --> DB
         API -->|"Verify action and hostname"| Turnstile
         API -->|"Bounded input bytes"| Images
@@ -90,9 +90,9 @@ Workers Static Assets serves the CSP from `apps/web/public/_headers`. It permits
 
 1. A contributor changes JSON catalogue records through a pull request.
 2. CI validates record schemas, stable IDs, relationships, and source citation structure. Evidence accuracy and source availability remain review responsibilities.
-3. The build generates HTML, static catalogue data, a client-side search index, a public Worker snapshot and the OpenAPI download.
+3. The build generates HTML, static JSON API files, a client-side search index, a minimal Worker component-ID allowlist and the OpenAPI download.
 4. Cloudflare serves the generated site without querying D1 for normal catalogue navigation.
-5. External clients can read `/api/v1` from the generated Worker snapshot without D1/R2 access. Public GET/HEAD responses use five-minute caching, ETags and open CORS; community routes keep their private access controls. See [the API guide](api.md) and [OpenAPI 3.1 contract](../apps/api/openapi.json).
+5. External clients read `/api/v1/*.json` directly from Workers Static Assets. The namespace is excluded from Worker-first routing: successful reads do not execute application code or use D1/R2/KV. Collections contain all records; clients filter/search locally and compare body-level `catalogue_version` revisions when combining files. Browser max-age remains five minutes, with platform ETags and public CORS. A cold cache may need an internal asset fetch, still without application Worker execution. Breaking changes are allowed under v1 during staging. See [the API guide](api.md) and [OpenAPI 3.1 contract](../apps/api/openapi.json).
 
 Use a stable ID for each component and groupset, separate from its URL slug and display name. Removing or renaming a catalogue record needs a policy for redirects and existing community references. The API must validate submitted component IDs against a catalogue ID set shipped with its deployment.
 
@@ -142,15 +142,16 @@ Uploads are private until review; originals are processed in memory and are neve
 | Content | Policy |
 | --- | --- |
 | Catalogue HTML, unversioned assets and search index | `Cache-Control: public, max-age=300, must-revalidate`; browsers may reuse responses for five minutes, then revalidate |
+| Catalogue JSON API (`/api/v1/*.json`) | Direct static assets, no Worker execution; same five-minute browser policy, ETags and public CORS |
 | Favicon (`/favicon.svg`) | `Cache-Control: public, max-age=86400, must-revalidate`; one day |
 | Hashed JS/CSS and versioned catalogue/search files | Long-lived immutable caching |
 | Approved photo derivatives | Long-lived caching through an R2 custom domain; use new keys when bytes change |
 | Public photo lists | `Cache-Control: no-store` so moderation takes effect immediately; comment lists remain planned |
 | Sessions, private/moderator responses, writes | `Cache-Control: no-store`; no shared caching |
 
-The static-asset `_headers` file owns browser cache headers. The favicon and hashed-asset rules detach the inherited `Cache-Control` header before setting their own value, so each response has one cache lifetime. The API sets its own cache headers.
+The static-asset `_headers` file owns browser cache headers, including the catalogue JSON API. The favicon and hashed-asset rules detach the inherited `Cache-Control` header before setting their own value, so each response has one cache lifetime. The community Worker sets its own no-store headers.
 
-Configure public API caching explicitly. A general Cloudflare proxy does not cache HTML or JSON by default, and a cache lookup inside a Worker still invokes the Worker. Do not assume a cached API response eliminates Worker request accounting.
+Keep catalogue JSON on the direct Static Assets delivery path. A runtime Cache API lookup still invokes the Worker. Cloudflare's separate Workers Cache feature can avoid execution on a hit but still bills requests; do not enable it globally to replace the free static-asset path. A general zone-wide Cache Everything rule is unnecessary and must not cache community data. A 100% cache-hit ratio is not guaranteed; cache misses and asset eviction do not change the no-application-Worker delivery path for valid files.
 
 Keep personalized information out of public cached responses. Skip shared caching for authenticated requests initially, and never cache a response containing session cookies or private upload data.
 

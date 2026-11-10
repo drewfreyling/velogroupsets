@@ -26,3 +26,7 @@
 /openapi.json
   Access-Control-Allow-Origin: *
   Access-Control-Expose-Headers: ETag
+/api/v1/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: ETag, X-Catalogue-Delivery
+  X-Catalogue-Delivery: static-assets

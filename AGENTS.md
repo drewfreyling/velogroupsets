@@ -76,6 +76,10 @@ Use the shared `ExternalLink` component for off-site links: only these links sho
 Read [docs/design.md](docs/design.md) before changing visual styles. Use the shared semantic colour tokens for both light and dark modes. Base teal `#3DCFC2` takes `#10201F` ink, never white text; small links on light backgrounds use `#0B6B65`. Preserve system-theme fallback, the accessible persistent dark-mode toggle and the external pre-paint script without weakening CSP. Check responsive pages and contrast in both themes.
 
 
+## Public catalogue API
+
+Serve curated data as generated JSON under `/api/v1/*.json` using Workers Static Assets. Keep this namespace excluded from Worker-first routing; successful catalogue reads must not execute application code or access D1/R2/KV. Search, filtering and pagination run in clients; static files ignore query strings. Preserve the OpenAPI 3.1 contract, canonical records, explicit nulls, source citations and body-level catalogue revision. Run the failing-Worker routing probe, schema validation and desktop/mobile browser tests when changing delivery. Do not enable a broad cache rule or Workers Cache over private community routes or the direct static-asset path. Breaking changes are allowed within v1 during staging; define production compatibility before launch.
+
 ## Community uploads and policies
 
 Read [photo uploads](docs/photo-uploads.md) before changing community code or enabling uploads. Google sign-in, sessions, moderated photos, reports, owner removal and policy drafts are implemented; comments remain planned. Do not mark a mailbox, Google credentials or Cloudflare CSAM enrolment complete without evidence. Uploads stay disabled until operator/contact confirmation, provider secrets, private evidence storage and the approved-photo domain are ready. Keep identity/client/provider credentials and real community data out of Git and logs.

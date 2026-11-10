@@ -4,7 +4,7 @@
   "info": {
     "title": "VeloGroupsets catalogue API",
     "version": "1.0.0",
-    "description": "Public, read-only curated bicycle groupset and component data. No authentication required. Unknown weights remain null; sources, technical documents and model variants are preserved. Successful GET/HEAD responses are publicly cacheable for 300 seconds. Query parameters must appear only once; unknown parameters are rejected. Trailing slashes are accepted. Community APIs are separate and are not covered by this specification."
+    "description": "Public, read-only build-time JSON files served directly by Cloudflare Workers Static Assets. No Worker execution for successful GET/HEAD asset requests. No authentication or query parameters: download complete collections and filter/search locally. Query strings are ignored. Unknown values remain null; model variants and evidence are preserved. Responses include a catalogue_version revision. Browser max-age is 300 seconds. Breaking changes are allowed under v1 during staging; production compatibility has not been promised. Community APIs are separate."
   },
   "servers": [
     {
@@ -14,28 +14,42 @@
   ],
   "security": [],
   "paths": {
-    "/api/v1": {
+    "/api/v1/index.json": {
       "get": {
-        "operationId": "getApiIndex",
-        "summary": "Discover the catalogue API",
-        "description": "",
+        "summary": "Discover catalogue files",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getApiIndex",
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
@@ -47,118 +61,130 @@
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "Discover the catalogue API (headers only)",
-        "description": "",
+        "summary": "Discover catalogue files",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getApiIndexHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "getApiIndexHeaders"
-      },
-      "options": {
-        "operationId": "getApiIndexOptions",
-        "summary": "CORS preflight",
-        "parameters": [],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/v1/catalogue": {
+    "/api/v1/catalogue.json": {
       "get": {
-        "operationId": "getCatalogue",
-        "summary": "Download the complete curated catalogue",
-        "description": "Use this export for a consistent snapshot and fewer requests. Excludes community accounts, photos, comments and moderation data.",
+        "summary": "Download the complete catalogue",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getCatalogue",
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
@@ -170,388 +196,274 @@
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "Download the complete curated catalogue (headers only)",
-        "description": "Use this export for a consistent snapshot and fewer requests. Excludes community accounts, photos, comments and moderation data.",
+        "summary": "Download the complete catalogue",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getCatalogueHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "getCatalogueHeaders"
-      },
-      "options": {
-        "operationId": "getCatalogueOptions",
-        "summary": "CORS preflight",
-        "parameters": [],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/v1/openapi.json": {
+    "/api/v1/manufacturers.json": {
       "get": {
-        "operationId": "getOpenApi",
-        "summary": "Download this OpenAPI 3.1 specification",
-        "description": "",
+        "summary": "Download all manufacturers",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
-        "responses": {
-          "200": {
-            "description": "Successful catalogue response.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            },
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/OpenApiDocument"
-                }
-              }
-            }
-          },
-          "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
-          }
-        }
-      },
-      "head": {
-        "summary": "Download this OpenAPI 3.1 specification (headers only)",
-        "description": "",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/IfNoneMatch"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Same status and headers as GET, without a response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
-                "schema": {
-                  "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
-                }
-              }
-            }
-          },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "getOpenApiHeaders"
-      },
-      "options": {
-        "operationId": "getOpenApiOptions",
-        "summary": "CORS preflight",
-        "parameters": [],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          }
-        }
-      }
-    },
-    "/api/v1/manufacturers": {
-      "get": {
         "operationId": "listManufacturers",
-        "summary": "List manufacturers",
-        "description": "Ordered by id ascending. Filters combine with AND.",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/Limit"
-          },
-          {
-            "$ref": "#/components/parameters/Offset"
-          },
-          {
-            "$ref": "#/components/parameters/Q"
-          },
-          {
-            "$ref": "#/components/parameters/IfNoneMatch"
-          }
-        ],
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ManufacturerPage"
+                  "$ref": "#/components/schemas/ManufacturerCollection"
                 }
               }
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "List manufacturers (headers only)",
-        "description": "Ordered by id ascending. Filters combine with AND.",
+        "summary": "Download all manufacturers",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Limit"
-          },
-          {
-            "$ref": "#/components/parameters/Offset"
-          },
-          {
-            "$ref": "#/components/parameters/Q"
-          },
-          {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "listManufacturersHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "listManufacturersHeaders"
-      },
-      "options": {
-        "operationId": "listManufacturersOptions",
-        "summary": "CORS preflight",
-        "parameters": [],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/v1/manufacturers/{id}": {
+    "/api/v1/manufacturers/{id}.json": {
       "get": {
-        "operationId": "getManufacturer",
-        "summary": "Get a manufacturers record",
-        "description": "",
+        "summary": "Download a canonical manufacturers record",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Id"
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Canonical record ID; historical aliases are not separate static files.",
+            "schema": {
+              "$ref": "#/components/schemas/Id"
+            }
           },
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getManufacturer",
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              },
-              "Content-Location": {
-                "$ref": "#/components/headers/ContentLocation"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
@@ -563,281 +475,283 @@
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "Get a manufacturers record (headers only)",
-        "description": "",
+        "summary": "Download a canonical manufacturers record",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Id"
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Canonical record ID; historical aliases are not separate static files.",
+            "schema": {
+              "$ref": "#/components/schemas/Id"
+            }
           },
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getManufacturerHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              },
-              "Content-Location": {
-                "$ref": "#/components/headers/ContentLocation"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "getManufacturerHeaders"
-      },
-      "options": {
-        "operationId": "getManufacturerOptions",
-        "summary": "CORS preflight",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/Id"
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/v1/groupsets": {
+    "/api/v1/groupsets.json": {
       "get": {
-        "operationId": "listGroupsets",
-        "summary": "List groupsets",
-        "description": "Ordered by start_year ascending, then id. Filters combine with AND.",
+        "summary": "Download all groupsets",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Limit"
-          },
-          {
-            "$ref": "#/components/parameters/Offset"
-          },
-          {
-            "$ref": "#/components/parameters/Q"
-          },
-          {
-            "$ref": "#/components/parameters/ManufacturerId"
-          },
-          {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "listGroupsets",
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/GroupsetPage"
+                  "$ref": "#/components/schemas/GroupsetCollection"
                 }
               }
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "List groupsets (headers only)",
-        "description": "Ordered by start_year ascending, then id. Filters combine with AND.",
+        "summary": "Download all groupsets",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Limit"
-          },
-          {
-            "$ref": "#/components/parameters/Offset"
-          },
-          {
-            "$ref": "#/components/parameters/Q"
-          },
-          {
-            "$ref": "#/components/parameters/ManufacturerId"
-          },
-          {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "listGroupsetsHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "listGroupsetsHeaders"
-      },
-      "options": {
-        "operationId": "listGroupsetsOptions",
-        "summary": "CORS preflight",
-        "parameters": [],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/v1/groupsets/{id}": {
+    "/api/v1/groupsets/{id}.json": {
       "get": {
-        "operationId": "getGroupset",
-        "summary": "Get a groupsets record",
-        "description": "",
+        "summary": "Download a canonical groupsets record",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Id"
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Canonical record ID; historical aliases are not separate static files.",
+            "schema": {
+              "$ref": "#/components/schemas/Id"
+            }
           },
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getGroupset",
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              },
-              "Content-Location": {
-                "$ref": "#/components/headers/ContentLocation"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
@@ -849,293 +763,283 @@
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "Get a groupsets record (headers only)",
-        "description": "",
+        "summary": "Download a canonical groupsets record",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Id"
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Canonical record ID; historical aliases are not separate static files.",
+            "schema": {
+              "$ref": "#/components/schemas/Id"
+            }
           },
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getGroupsetHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              },
-              "Content-Location": {
-                "$ref": "#/components/headers/ContentLocation"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "getGroupsetHeaders"
-      },
-      "options": {
-        "operationId": "getGroupsetOptions",
-        "summary": "CORS preflight",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/Id"
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/v1/components": {
+    "/api/v1/components.json": {
       "get": {
-        "operationId": "listComponents",
-        "summary": "List components",
-        "description": "Ordered by id ascending. Filters combine with AND.",
+        "summary": "Download all components",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Limit"
-          },
-          {
-            "$ref": "#/components/parameters/Offset"
-          },
-          {
-            "$ref": "#/components/parameters/Q"
-          },
-          {
-            "$ref": "#/components/parameters/ManufacturerId"
-          },
-          {
-            "$ref": "#/components/parameters/GroupsetId"
-          },
-          {
-            "$ref": "#/components/parameters/Type"
-          },
-          {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "listComponents",
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ComponentPage"
+                  "$ref": "#/components/schemas/ComponentCollection"
                 }
               }
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "List components (headers only)",
-        "description": "Ordered by id ascending. Filters combine with AND.",
+        "summary": "Download all components",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Limit"
-          },
-          {
-            "$ref": "#/components/parameters/Offset"
-          },
-          {
-            "$ref": "#/components/parameters/Q"
-          },
-          {
-            "$ref": "#/components/parameters/ManufacturerId"
-          },
-          {
-            "$ref": "#/components/parameters/GroupsetId"
-          },
-          {
-            "$ref": "#/components/parameters/Type"
-          },
-          {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "listComponentsHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "listComponentsHeaders"
-      },
-      "options": {
-        "operationId": "listComponentsOptions",
-        "summary": "CORS preflight",
-        "parameters": [],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/v1/components/{id}": {
+    "/api/v1/components/{id}.json": {
       "get": {
-        "operationId": "getComponent",
-        "summary": "Get a components record",
-        "description": "",
+        "summary": "Download a canonical components record",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Id"
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Canonical record ID; historical aliases are not separate static files.",
+            "schema": {
+              "$ref": "#/components/schemas/Id"
+            }
           },
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getComponent",
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              },
-              "Content-Location": {
-                "$ref": "#/components/headers/ContentLocation"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
@@ -1147,275 +1051,283 @@
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "Get a components record (headers only)",
-        "description": "",
+        "summary": "Download a canonical components record",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Id"
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Canonical record ID; historical aliases are not separate static files.",
+            "schema": {
+              "$ref": "#/components/schemas/Id"
+            }
           },
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getComponentHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              },
-              "Content-Location": {
-                "$ref": "#/components/headers/ContentLocation"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "getComponentHeaders"
-      },
-      "options": {
-        "operationId": "getComponentOptions",
-        "summary": "CORS preflight",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/Id"
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/v1/component-types": {
+    "/api/v1/component-types.json": {
       "get": {
-        "operationId": "listComponentTypes",
-        "summary": "List component-types",
-        "description": "Ordered by id ascending. Filters combine with AND.",
+        "summary": "Download all component-types",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Limit"
-          },
-          {
-            "$ref": "#/components/parameters/Offset"
-          },
-          {
-            "$ref": "#/components/parameters/Q"
-          },
-          {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "listComponentTypes",
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ComponentTypePage"
+                  "$ref": "#/components/schemas/ComponentTypeCollection"
                 }
               }
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "List component-types (headers only)",
-        "description": "Ordered by id ascending. Filters combine with AND.",
+        "summary": "Download all component-types",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Limit"
-          },
-          {
-            "$ref": "#/components/parameters/Offset"
-          },
-          {
-            "$ref": "#/components/parameters/Q"
-          },
-          {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "listComponentTypesHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
-          }
-        },
-        "operationId": "listComponentTypesHeaders"
-      },
-      "options": {
-        "operationId": "listComponentTypesOptions",
-        "summary": "CORS preflight",
-        "parameters": [],
-        "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/v1/component-types/{id}": {
+    "/api/v1/component-types/{id}.json": {
       "get": {
-        "operationId": "getComponentType",
-        "summary": "Get a component-types record",
-        "description": "",
+        "summary": "Download a canonical component-types record",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Id"
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Canonical record ID; historical aliases are not separate static files.",
+            "schema": {
+              "$ref": "#/components/schemas/Id"
+            }
           },
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getComponentType",
         "responses": {
           "200": {
-            "description": "Successful catalogue response.",
+            "description": "Generated catalogue JSON.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              },
-              "Content-Location": {
-                "$ref": "#/components/headers/ContentLocation"
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
               }
             },
             "content": {
@@ -1427,102 +1339,210 @@
             }
           },
           "304": {
-            "$ref": "#/components/responses/NotModified"
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequest"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
-          },
-          "405": {
-            "$ref": "#/components/responses/MethodNotAllowed"
-          },
-          "500": {
-            "$ref": "#/components/responses/ServerError"
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
         }
       },
       "head": {
-        "summary": "Get a component-types record (headers only)",
-        "description": "",
+        "summary": "Download a canonical component-types record",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Id"
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Canonical record ID; historical aliases are not separate static files.",
+            "schema": {
+              "$ref": "#/components/schemas/Id"
+            }
           },
           {
-            "$ref": "#/components/parameters/IfNoneMatch"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getComponentTypeHeaders",
         "responses": {
           "200": {
-            "description": "Same status and headers as GET, without a response body.",
+            "description": "Static asset headers without a response body.",
             "headers": {
               "ETag": {
-                "$ref": "#/components/headers/ETag"
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
               },
               "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
               },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              },
-              "Content-Location": {
-                "$ref": "#/components/headers/ContentLocation"
-              }
-            }
-          },
-          "304": {
-            "description": "The If-None-Match validator matches; no response body.",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/ETag"
-              },
-              "Cache-Control": {
-                "$ref": "#/components/headers/CacheControl"
-              },
-              "X-Catalogue-Version": {
-                "$ref": "#/components/headers/CatalogueVersion"
-              }
-            }
-          },
-          "400": {
-            "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID."
-          },
-          "404": {
-            "description": "Unknown catalogue endpoint or record ID."
-          },
-          "405": {
-            "description": "This public data API is read only.",
-            "headers": {
-              "Allow": {
+              "X-Catalogue-Delivery": {
                 "schema": {
                   "type": "string",
-                  "const": "GET, HEAD, OPTIONS"
+                  "const": "static-assets"
                 }
               }
             }
           },
-          "500": {
-            "description": "The catalogue could not be served."
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Catalogue-Delivery": {
+                "schema": {
+                  "type": "string",
+                  "const": "static-assets"
+                }
+              }
+            }
           }
-        },
-        "operationId": "getComponentTypeHeaders"
-      },
-      "options": {
-        "operationId": "getComponentTypeOptions",
-        "summary": "CORS preflight",
+        }
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "summary": "Download this OpenAPI 3.1 specification",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
         "parameters": [
           {
-            "$ref": "#/components/parameters/Id"
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
+        "operationId": "getOpenApi",
         "responses": {
-          "204": {
-            "description": "Public GET/HEAD access is permitted. Allowed request headers are If-None-Match and Content-Type."
+          "200": {
+            "description": "Generated catalogue JSON.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OpenApiDocument"
+                }
+              }
+            }
           },
-          "404": {
-            "$ref": "#/components/responses/NotFound"
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "head": {
+        "summary": "Download this OpenAPI 3.1 specification",
+        "description": "Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.",
+        "parameters": [
+          {
+            "name": "If-None-Match",
+            "in": "header",
+            "description": "ETag validator for same-origin or non-browser clients. Cross-origin JavaScript should use a normal GET and let browser caching manage validation: the static service does not support OPTIONS preflight.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "operationId": "getOpenApiHeaders",
+        "responses": {
+          "200": {
+            "description": "Static asset headers without a response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "304": {
+            "description": "Unchanged static asset; no response body.",
+            "headers": {
+              "ETag": {
+                "description": "Platform-provided entity tag; usable with If-None-Match.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Cache-Control": {
+                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }
@@ -1939,85 +1959,32 @@
           }
         }
       },
-      "Error": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "error"
-        ],
-        "properties": {
-          "error": {
-            "type": "string"
-          }
-        }
-      },
-      "Pagination": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "limit",
-          "offset",
-          "total",
-          "next_offset",
-          "previous_offset"
-        ],
-        "properties": {
-          "limit": {
-            "type": "integer",
-            "minimum": 1,
-            "maximum": 100
-          },
-          "offset": {
-            "type": "integer",
-            "minimum": 0,
-            "maximum": 1000000
-          },
-          "total": {
-            "type": "integer",
-            "minimum": 0
-          },
-          "next_offset": {
-            "type": [
-              "integer",
-              "null"
-            ],
-            "minimum": 0
-          },
-          "previous_offset": {
-            "type": [
-              "integer",
-              "null"
-            ],
-            "minimum": 0
-          }
-        }
-      },
       "CatalogueVersion": {
         "type": "string",
         "pattern": "^[a-f0-9]{64}$",
-        "description": "SHA-256 of the canonical public catalogue snapshot. Changes when curated records or taxonomy change."
+        "description": "SHA-256 of the canonical public catalogue snapshot. Compare across files to detect different releases."
       },
       "ApiIndex": {
         "type": "object",
         "additionalProperties": false,
         "required": [
+          "catalogue_version",
           "data"
         ],
         "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
           "data": {
             "type": "object",
             "additionalProperties": false,
             "required": [
               "api_version",
-              "catalogue_version",
               "endpoints"
             ],
             "properties": {
               "api_version": {
                 "const": "v1"
-              },
-              "catalogue_version": {
-                "$ref": "#/components/schemas/CatalogueVersion"
               },
               "endpoints": {
                 "type": "object",
@@ -2106,11 +2073,155 @@
         "type": "object",
         "additionalProperties": false,
         "required": [
+          "catalogue_version",
           "data"
         ],
         "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
           "data": {
             "$ref": "#/components/schemas/Catalogue"
+          }
+        }
+      },
+      "ManufacturerResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "catalogue_version",
+          "data"
+        ],
+        "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
+          "data": {
+            "$ref": "#/components/schemas/Manufacturer"
+          }
+        }
+      },
+      "ManufacturerCollection": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "catalogue_version",
+          "data"
+        ],
+        "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Manufacturer"
+            }
+          }
+        }
+      },
+      "GroupsetResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "catalogue_version",
+          "data"
+        ],
+        "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
+          "data": {
+            "$ref": "#/components/schemas/Groupset"
+          }
+        }
+      },
+      "GroupsetCollection": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "catalogue_version",
+          "data"
+        ],
+        "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Groupset"
+            }
+          }
+        }
+      },
+      "ComponentResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "catalogue_version",
+          "data"
+        ],
+        "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
+          "data": {
+            "$ref": "#/components/schemas/Component"
+          }
+        }
+      },
+      "ComponentCollection": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "catalogue_version",
+          "data"
+        ],
+        "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Component"
+            }
+          }
+        }
+      },
+      "ComponentTypeResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "catalogue_version",
+          "data"
+        ],
+        "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
+          "data": {
+            "$ref": "#/components/schemas/ComponentType"
+          }
+        }
+      },
+      "ComponentTypeCollection": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "catalogue_version",
+          "data"
+        ],
+        "properties": {
+          "catalogue_version": {
+            "$ref": "#/components/schemas/CatalogueVersion"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComponentType"
+            }
           }
         }
       },
@@ -2131,295 +2242,6 @@
           },
           "paths": {
             "type": "object"
-          }
-        }
-      },
-      "ManufacturerResponse": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "data"
-        ],
-        "properties": {
-          "data": {
-            "$ref": "#/components/schemas/Manufacturer"
-          }
-        }
-      },
-      "ManufacturerPage": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "data",
-          "pagination"
-        ],
-        "properties": {
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Manufacturer"
-            }
-          },
-          "pagination": {
-            "$ref": "#/components/schemas/Pagination"
-          }
-        }
-      },
-      "GroupsetResponse": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "data"
-        ],
-        "properties": {
-          "data": {
-            "$ref": "#/components/schemas/Groupset"
-          }
-        }
-      },
-      "GroupsetPage": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "data",
-          "pagination"
-        ],
-        "properties": {
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Groupset"
-            }
-          },
-          "pagination": {
-            "$ref": "#/components/schemas/Pagination"
-          }
-        }
-      },
-      "ComponentResponse": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "data"
-        ],
-        "properties": {
-          "data": {
-            "$ref": "#/components/schemas/Component"
-          }
-        }
-      },
-      "ComponentPage": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "data",
-          "pagination"
-        ],
-        "properties": {
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Component"
-            }
-          },
-          "pagination": {
-            "$ref": "#/components/schemas/Pagination"
-          }
-        }
-      },
-      "ComponentTypeResponse": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "data"
-        ],
-        "properties": {
-          "data": {
-            "$ref": "#/components/schemas/ComponentType"
-          }
-        }
-      },
-      "ComponentTypePage": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "data",
-          "pagination"
-        ],
-        "properties": {
-          "data": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/ComponentType"
-            }
-          },
-          "pagination": {
-            "$ref": "#/components/schemas/Pagination"
-          }
-        }
-      }
-    },
-    "parameters": {
-      "Limit": {
-        "name": "limit",
-        "in": "query",
-        "description": "Page size.",
-        "schema": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 100,
-          "default": 50
-        }
-      },
-      "Offset": {
-        "name": "offset",
-        "in": "query",
-        "description": "Zero-based offset; offsets beyond the total return an empty page.",
-        "schema": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 1000000,
-          "default": 0
-        }
-      },
-      "Q": {
-        "name": "q",
-        "in": "query",
-        "description": "Case/accent-insensitive search. Every whitespace-separated term must match. Empty text applies no search.",
-        "schema": {
-          "type": "string",
-          "maxLength": 120
-        }
-      },
-      "ManufacturerId": {
-        "name": "manufacturer_id",
-        "in": "query",
-        "description": "Canonical manufacturer ID, such as shimano.",
-        "schema": {
-          "$ref": "#/components/schemas/Id"
-        }
-      },
-      "GroupsetId": {
-        "name": "groupset_id",
-        "in": "query",
-        "description": "Canonical groupset membership ID, such as shimano-105-r7000.",
-        "schema": {
-          "$ref": "#/components/schemas/Id"
-        }
-      },
-      "Type": {
-        "name": "type",
-        "in": "query",
-        "description": "Stable component-type ID.",
-        "schema": {
-          "$ref": "#/components/schemas/ComponentTypeId"
-        }
-      },
-      "IfNoneMatch": {
-        "name": "If-None-Match",
-        "in": "header",
-        "description": "ETag validator; weak tags, lists of tags and * are accepted.",
-        "schema": {
-          "type": "string"
-        }
-      },
-      "Id": {
-        "name": "id",
-        "in": "path",
-        "required": true,
-        "description": "Canonical record ID. Component detail requests also accept documented historical ID aliases and return the canonical record.",
-        "schema": {
-          "$ref": "#/components/schemas/Id",
-          "maxLength": 160
-        }
-      }
-    },
-    "headers": {
-      "ETag": {
-        "description": "Entity tag for this representation; usable with If-None-Match.",
-        "schema": {
-          "type": "string"
-        }
-      },
-      "CacheControl": {
-        "description": "Public successful responses are cached for five minutes.",
-        "schema": {
-          "type": "string"
-        }
-      },
-      "CatalogueVersion": {
-        "description": "Revision of the curated catalogue; compare this while paging.",
-        "schema": {
-          "$ref": "#/components/schemas/CatalogueVersion"
-        }
-      },
-      "ContentLocation": {
-        "description": "Canonical API URI, including when an historical component ID alias is requested.",
-        "schema": {
-          "type": "string"
-        }
-      }
-    },
-    "responses": {
-      "NotModified": {
-        "description": "The If-None-Match validator matches; no response body.",
-        "headers": {
-          "ETag": {
-            "$ref": "#/components/headers/ETag"
-          },
-          "Cache-Control": {
-            "$ref": "#/components/headers/CacheControl"
-          },
-          "X-Catalogue-Version": {
-            "$ref": "#/components/headers/CatalogueVersion"
-          }
-        }
-      },
-      "BadRequest": {
-        "description": "Unknown/repeated query parameter, invalid pagination, excessive search length or unknown filter ID.",
-        "content": {
-          "application/json": {
-            "schema": {
-              "$ref": "#/components/schemas/Error"
-            }
-          }
-        }
-      },
-      "NotFound": {
-        "description": "Unknown catalogue endpoint or record ID.",
-        "content": {
-          "application/json": {
-            "schema": {
-              "$ref": "#/components/schemas/Error"
-            }
-          }
-        }
-      },
-      "MethodNotAllowed": {
-        "description": "This public data API is read only.",
-        "headers": {
-          "Allow": {
-            "schema": {
-              "type": "string",
-              "const": "GET, HEAD, OPTIONS"
-            }
-          }
-        },
-        "content": {
-          "application/json": {
-            "schema": {
-              "$ref": "#/components/schemas/Error"
-            }
-          }
-        }
-      },
-      "ServerError": {
-        "description": "The catalogue could not be served.",
-        "content": {
-          "application/json": {
-            "schema": {
-              "$ref": "#/components/schemas/Error"
-            }
           }
         }
       }
