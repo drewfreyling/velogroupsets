@@ -75,6 +75,8 @@ For mechanical 1x controls, the left unit is a brake-only lever. The complete cu
 
 All four rear-derailleur limit fields are present. Published fixed largest-sprocket limits are recorded; capacity, smallest sprocket and front tooth difference remain explicitly unknown where not established. When one SRAM Model ID combines multiple cage/maximum-sprocket variants, the scalar largest-sprocket limit stays null and the published options are described separately. A 33T/36T family is not silently turned into a universal 36T rear derailleur.
 
+The [catalogue/handbook review](dealer-catalogues.md) adds the original RD-RED-A1's explicit 2010 reference limits: 33T capacity, 28T largest sprocket, 11T smallest sprocket and 16T front difference. These are not applied to later RED generations or to the combined Force/Rival cage options. The manual supplies no reference weight for this RED assembly.
+
 **SRAM’s “RD Minimum (Cassette)” is the minimum compatible largest sprocket.** For example, the 28T field on a 36T-max road AXS derailleur does not mean its smallest sprocket must have 28 teeth. This information is stored separately as `minimum_largest_sprocket_variants`, never copied into `minimum_sprocket_teeth`. Likewise, a 46T value for Full Mount XPLR is not published as a 46T smallest sprocket. No independent total capacity or front-difference limit is calculated from cage appearance, chainring options or cassette arithmetic.
 
 ## Remaining coverage

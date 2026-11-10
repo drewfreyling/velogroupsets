@@ -20,11 +20,19 @@
       "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=2",
       "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 2; archived copy",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo-sirer.cz/img/cms/Produktove_katalogy_Campagnolo/2015_Campagnolo%20product%20catalogue.pdf#page=35",
+      "title": "Campagnolo 2015 Product Catalogue, printed page 128 (PDF page 35): original manufacturer technical table, archived by Campagnolo Sirer",
+      "retrieved_on": "2026-11-10"
     }
   ],
   "specifications": {
     "reference_edition": "2017 assembly-code table; not necessarily original launch equipment",
     "rear_speeds": 11,
-    "mount": "Braze-on"
+    "mount": "Braze-on",
+    "capacity_teeth": 16,
+    "maximum_chainring_teeth": 56,
+    "minimum_chainring_teeth": 34
   }
 }

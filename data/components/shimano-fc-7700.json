@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-7700",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 599,
+  "weight_description": "Manufacturer-listed 1999 crankset: 175 mm arms and 53/39T chainrings; excludes the separately listed bottom bracket. This is FC-7700, not the later FC-7701.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-7700-1655/EV-FC-7700-1655B.pdf",
     "title": "Shimano FC-7700 exploded view and replacement parts",
@@ -20,6 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-7700-1655/EV-FC-7700-1655B.pdf",
       "title": "Shimano FC-7700 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1999/large/99Shimano53-54.jpg",
+      "title": "Shimano 1999 Bicycle Components, printed page 54: original manufacturer catalogue scan archived by Charlie Taylor",
+      "retrieved_on": "2026-11-10"
     }
-  ]
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      53,
+      39
+    ],
+    "includes_bottom_bracket": false
+  }
 }

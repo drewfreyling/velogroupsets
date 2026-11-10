@@ -29,6 +29,8 @@ See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relati
 
 The [design guide](docs/design.md) documents the teal palette, self-hosted Source Sans 3 typography, contrast rules and dark-mode behaviour.
 
+The [catalogue source review](docs/dealer-catalogues.md) indexes manufacturer scans and specification handbooks used to fill weights and derailleur limits, including exact pages, reference configurations and unresolved conflicts.
+
 
 ## Catalogue API
 

@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-4400-GS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-4400-GS has not been established.",
+  "weight_g": 280,
+  "weight_description": "Manufacturer-listed 2001 reference: RD-4400-GS long-cage, nine-speed rear derailleur for a triple crankset.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-4400-1881/EV-RD-4400-1881.pdf",
     "title": "Shimano RD-4400-GS exploded view and replacement parts",
@@ -20,14 +20,24 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=26",
       "title": "Shimano 2005 line-up chart, PDF page 26: Tiagra 4400 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2006_SPECIFICATION.pdf#page=92",
+      "title": "Shimano 2006 specification handbook, page 92: rear derailleur road specification table",
+      "retrieved_on": "2026-11-10"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano34-35.jpg",
+      "title": "Shimano 2001 Bicycle Components, printed page 34: original manufacturer catalogue scan archived by Charlie Taylor",
+      "retrieved_on": "2026-11-10"
     }
   ],
   "specifications": {
     "rear_speeds": 9,
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null,
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 27,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22,
     "cage": "GS"
   }
 }

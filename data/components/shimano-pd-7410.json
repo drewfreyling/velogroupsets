@@ -8,8 +8,8 @@
   ],
   "type": "pedals",
   "model_number": "PD-7410",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 313,
+  "weight_description": "Manufacturer-listed 1998 weight for a left/right PD-7410 SPD road pedal pair; cleat and hardware inclusions are not itemised.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/PD-7410-1233/EV-PD-7410-1233C.pdf",
     "title": "Shimano PD-7410 exploded view and replacement parts",
@@ -20,6 +20,15 @@
       "url": "https://si.shimano.com/en/pdfs/ev/PD-7410-1233/EV-PD-7410-1233C.pdf",
       "title": "Shimano PD-7410 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/large/98Shimano53-54.jpg",
+      "title": "Shimano 1998 Bicycle Components, printed page 54: original manufacturer catalogue scan archived by Charlie Taylor",
+      "retrieved_on": "2026-11-10"
     }
-  ]
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD"
+  }
 }

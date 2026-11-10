@@ -12,8 +12,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-HG50-9",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for CS-HG50-9 has not been established.",
+  "weight_g": 270,
+  "weight_description": "Manufacturer-listed 2001 reference: nine-speed CS-HG50-9 cassette, 12–23T.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/CS-HG50-9-1880/EV-CS-HG50-9-1880E.pdf",
     "title": "Shimano CS-HG50-9 exploded view and replacement parts",
@@ -44,9 +44,15 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2016-2017_Line-up_chart_v017_en.pdf#page=65",
       "title": "Shimano 2016-2017 line-up chart, PDF page 65: Sora R3000 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano34-35.jpg",
+      "title": "Shimano 2001 Bicycle Components, printed page 34: original manufacturer catalogue scan archived by Charlie Taylor",
+      "retrieved_on": "2026-11-10"
     }
   ],
   "specifications": {
-    "rear_speeds": 9
+    "rear_speeds": 9,
+    "sprocket_range": "12–23T"
   }
 }

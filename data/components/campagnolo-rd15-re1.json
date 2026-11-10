@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD15-RE1",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "weight_g": 170,
+  "weight_description": "Manufacturer-listed 2015 average: eleven-speed mechanical Record Embrace rear derailleur; the catalogue specifies its lightest available configuration. Assembly code is established by the cited parts-code table.",
   "technical_document": {
     "url": "https://media.campagnolo.com/seecommerce/original/C-FD-VELOCE-SILVER-10S-SP1",
     "title": "Campagnolo 2018 spare parts catalogue, part A: cranksets, bottom brackets, derailleurs and Ergopower assemblies",
@@ -20,6 +20,11 @@
       "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=7",
       "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 7; archived copy",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo-sirer.cz/img/cms/Produktove_katalogy_Campagnolo/2015_Campagnolo%20product%20catalogue.pdf#page=36",
+      "title": "Campagnolo 2015 Product Catalogue, printed page 130 (PDF page 36): original manufacturer technical table, archived by Campagnolo Sirer",
+      "retrieved_on": "2026-11-10"
     }
   ],
   "specifications": {

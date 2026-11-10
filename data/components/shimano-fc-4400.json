@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-4400",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FC-4400 has not been established.",
+  "weight_g": 776,
+  "weight_description": "Manufacturer-listed 2001 crankset: 170 mm arms and 52/39T chainrings; excludes the separately listed bottom bracket.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-4400-1866/EV-FC-4400-1866.pdf",
     "title": "Shimano FC-4400 exploded view and replacement parts",
@@ -20,9 +20,20 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=26",
       "title": "Shimano 2005 line-up chart, PDF page 26: Tiagra 4400 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano34-35.jpg",
+      "title": "Shimano 2001 Bicycle Components, printed page 34: original manufacturer catalogue scan archived by Charlie Taylor",
+      "retrieved_on": "2026-11-10"
     }
   ],
   "specifications": {
-    "rear_speeds": 9
+    "rear_speeds": 9,
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      39
+    ],
+    "includes_bottom_bracket": false
   }
 }

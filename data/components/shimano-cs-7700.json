@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-7700",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 159.5,
+  "weight_description": "Manufacturer-listed 2001 reference: nine-speed CS-7700 cassette, 12–23T.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/CS-7700-1660/EV-CS-7700-1660.pdf",
     "title": "Shimano CS-7700 exploded view and replacement parts",
@@ -20,6 +20,15 @@
       "url": "https://si.shimano.com/en/pdfs/ev/CS-7700-1660/EV-CS-7700-1660.pdf",
       "title": "Shimano CS-7700 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano66-67.jpg",
+      "title": "Shimano 2001 Bicycle Components, printed page 66: original manufacturer catalogue scan archived by Charlie Taylor",
+      "retrieved_on": "2026-11-10"
     }
-  ]
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "12–23T"
+  }
 }

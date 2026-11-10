@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-7700",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 195,
+  "weight_description": "Manufacturer-listed 2001 reference: RD-7700 short-cage, nine-speed rear derailleur. The weight is from the catalogue; the retained capacity is from the cited service instructions.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-7700-1656/EV-RD-7700-1656A.pdf",
     "title": "Shimano RD-7700 exploded view and replacement parts",
@@ -25,6 +25,11 @@
       "url": "https://si.shimano.com/en/pdfs/si/5TJ1G/SI-5TJ1G-000-00-ENG.pdf",
       "title": "Shimano rear derailleur service instructions SI-5TJ1G",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano64-65.jpg",
+      "title": "Shimano 2001 Bicycle Components, printed page 64: original manufacturer catalogue scan archived by Charlie Taylor",
+      "retrieved_on": "2026-11-10"
     }
   ],
   "specifications": {
@@ -32,6 +37,7 @@
     "maximum_sprocket_teeth": 27,
     "minimum_sprocket_teeth": 11,
     "maximum_front_difference_teeth": 14,
-    "cage": "SS"
+    "cage": "SS",
+    "catalogue_capacity_note": "The 2001 catalogue lists 29T total capacity; service instruction SI-5TJ1G lists 26T. The existing service-instruction limit is retained rather than treating the sources as interchangeable."
   }
 }
