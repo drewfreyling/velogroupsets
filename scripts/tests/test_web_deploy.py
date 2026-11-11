@@ -5,6 +5,19 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from prepare_web_deploy import make_config
 
 class DeploymentConfigTests(unittest.TestCase):
+    def test_production_is_catalogue_only_even_if_upload_settings_are_supplied(self):
+        config=make_config('production','a'*40,{}, {'UPLOADS_ENABLED':'true','GOOGLE_CLIENT_ID':'unused',
+            'GOOGLE_CLIENT_SECRET':'must not escape','CSAM_SCANNING_CONFIRMED':'true'})
+        self.assertEqual(config['name'],'velogroupsets-production')
+        self.assertEqual(config['vars']['COMMUNITY_ENABLED'],'false')
+        self.assertEqual(config['vars']['UPLOADS_ENABLED'],'false')
+        self.assertEqual(config['vars']['SITE_ORIGIN'],'https://velogroupsets.com')
+        self.assertEqual(config['triggers']['crons'],[])
+        for key in ('d1_databases','r2_buckets','images','routes'):
+            self.assertNotIn(key,config)
+        self.assertNotIn('must not escape',str(config))
+        self.assertNotIn('GOOGLE_CLIENT_ID',config['vars'])
+
     def bindings(self,env='staging'):
         return {'d1_databases':[{'binding':'COMMUNITY_DB','database_name':f'velogroupsets-{env}-community','database_id':'01234567-0123-0123-0123-0123456789ab'}],
                 'r2_buckets':[{'binding':key,'bucket_name':f'velogroupsets-{env}-{suffix}'} for key,suffix in [('UPLOADS','uploads'),('PHOTOS','photos')]]}
@@ -38,6 +51,24 @@ class DeploymentConfigTests(unittest.TestCase):
 
 class EncryptedOutputTests(unittest.TestCase):
     bindings = DeploymentConfigTests.bindings
+    def test_production_bootstrap_checks_reviewers_without_accessing_state(self):
+        import tempfile
+        from unittest.mock import patch
+        import prepare_web_deploy as deploy
+        template=(deploy.ROOT/'wrangler.jsonc').read_text()
+        env={'TARGET_ENVIRONMENT':'production','GITHUB_SHA':'a'*40,'GITHUB_REF':'refs/heads/main',
+             'GITHUB_REPOSITORY':'owner/repo','GH_TOKEN':'synthetic'}
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);(root/'wrangler.jsonc').write_text(template)
+            with patch.dict(deploy.os.environ,env,clear=True), patch.object(deploy,'ROOT',root), \
+                 patch.object(deploy,'require_reviewers') as reviewers, patch.object(deploy,'s3_client') as storage, \
+                 patch.object(deploy,'encryption_env') as encryption:
+                self.assertEqual(deploy.main(),0)
+                reviewers.assert_called_once_with('owner/repo','production','synthetic')
+                storage.assert_not_called();encryption.assert_not_called()
+                config=__import__('json').loads((root/'wrangler.generated.json').read_text())
+                self.assertEqual(config['vars']['COMMUNITY_ENABLED'],'false')
+
     def test_downloaded_ciphertext_uses_only_local_output_command(self):
         import json
         from unittest.mock import patch

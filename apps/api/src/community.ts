@@ -1,6 +1,6 @@
 import type { Context, Dependencies, Env } from './types.ts';
 import { finishGoogle, logout, sessionFor, startGoogle } from './auth.ts';
-import { publicConfig } from './config.ts';
+import { communityEnabled, publicConfig } from './config.ts';
 import { HttpError, json } from './http.ts';
 import { listPhotos, ownPhotos, photoFile, removeOwnPhoto, reportPhoto, uploadPhoto } from './photos.ts';
 import { disableUser, moderatePhoto, moderationQueue, resolveReport } from './moderation.ts';
@@ -8,6 +8,7 @@ export async function communityApi(request:Request,env:Env,ctx?:Context,deps:Dep
   const path=new URL(request.url).pathname;const method=request.method;
   try {
     if(path==='/api/community/config'&&method==='GET')return json(publicConfig(env));
+    if(!communityEnabled(env))return json({error:'Community features are not available.'},404);
     if(path==='/api/session'&&method==='GET'){
       const session=await sessionFor(request,env,false);
       return json({user:session?{id:session.user.id,displayName:session.user.display_name,moderator:session.user.role==='moderator'}:null,csrfToken:session?.csrf||null,...publicConfig(env)});

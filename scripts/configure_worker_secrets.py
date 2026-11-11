@@ -30,6 +30,9 @@ def activation_errors(config, values):
 def main():
     values = {name: os.environ[name] for name in NAMES if os.environ.get(name)}
     config = json.loads(Path('wrangler.generated.json').read_text())
+    if config.get('vars', {}).get('COMMUNITY_ENABLED') == 'false':
+        print('Community features are disabled; no community credentials are configured.')
+        return 0
     missing = activation_errors(config, values)
     if missing:
         print('Uploads were requested but setup is incomplete: ' + ', '.join(missing), file=sys.stderr)

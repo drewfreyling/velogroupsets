@@ -4,6 +4,8 @@
 
 ## Goals and starting decisions
 
+The first production release is catalogue-only: its build omits community navigation and galleries, and its Worker denies community APIs without storage bindings, secrets or scheduled jobs. Staging retains the community implementation. See the [launch guide](production-launch.md) for bootstrap order and the checks required before marking production live.
+
 Serve a mostly read-only bicycle groupset catalogue quickly, keep operating costs low, and allow authenticated users to upload component photos and comment on photos.
 
 Use one GitHub repository for code, curated catalogue data, database migrations, and infrastructure configuration. Use a TypeScript Worker and D1, with OpenTofu in `infra/opentofu/` provisioning Cloudflare resources and Wrangler deploying the application. Catalogue browsing should continue to work if community services reach a quota or become unavailable.

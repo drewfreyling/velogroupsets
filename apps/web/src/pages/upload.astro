@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { POLICY_VERSION } from '../../../../packages/shared/community';
+import { communityEnabled } from '../lib/features.mjs';
+if (!communityEnabled) return Astro.redirect('/catalogue/', 302);
 ---
 <Layout title="Add a component photo" noindex>
   <div class="wrap max-w-3xl py-12"><h1 class="text-4xl font-semibold">Add a component photo</h1><p id="component-label" class="mt-4 text-lg"></p>

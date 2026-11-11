@@ -47,6 +47,8 @@ Import the existing Google verification TXT without changes. Preserve its conten
 
 Keep website deployment manual through `workflow_dispatch`. The deploy job must depend on successful reusable CI for the same commit, with an explicit success condition before GitHub environment approval.
 
+Production currently launches as a read-only catalogue. Preserve the build-time community UI gate and forced `COMMUNITY_ENABLED=false` / `UPLOADS_ENABLED=false` in production deployment configuration, with no D1/R2/Images bindings, community secrets, migrations or scheduled jobs. Deny community requests before accessing any binding. Run the separate production-origin build/browser suite as well as normal desktop/mobile CI. Do not enable community features through a GitHub variable alone; follow the reviewed activation procedure in [the production launch guide](docs/production-launch.md).
+
 Run Playwright functionality tests in credential-free CI for both desktop and mobile Chromium; manual website deployment reuses that CI result. Browser failures must fail CI and block deployment. Keep failure artifacts limited to generated Playwright reports/screenshots/traces from the local test server, never infrastructure state, plans or credentials.
 
 Run the credential-free checks listed in [infra/README.md](infra/README.md#toolchain-and-checks). Mocked OpenTofu tests do not prove live API access or provisioning. Keep production credentials out of PR checks and use Conventional Commits for all changes.
@@ -78,7 +80,7 @@ Read [docs/design.md](docs/design.md) before changing visual styles. Use the sha
 
 ## Public catalogue API
 
-Serve curated data as generated JSON under `/api/v1/*.json` using Workers Static Assets. Keep this namespace excluded from Worker-first routing; successful catalogue reads must not execute application code or access D1/R2/KV. Search, filtering and pagination run in clients; static files ignore query strings. Preserve the OpenAPI 3.1 contract, canonical records, explicit nulls, source citations and body-level catalogue revision. Run the failing-Worker routing probe, schema validation and desktop/mobile browser tests when changing delivery. Do not enable a broad cache rule or Workers Cache over private community routes or the direct static-asset path. Breaking changes are allowed within v1 during staging; define production compatibility before launch.
+Serve curated data as generated JSON under `/api/v1/*.json` using Workers Static Assets. Keep this namespace excluded from Worker-first routing; successful catalogue reads must not execute application code or access D1/R2/KV. Search, filtering and pagination run in clients; static files ignore query strings. Preserve the OpenAPI 3.1 contract, canonical records, explicit nulls, source citations and body-level catalogue revision. Run the failing-Worker routing probe, schema validation and desktop/mobile browser tests when changing delivery. Do not enable a broad cache rule or Workers Cache over private community routes or the direct static-asset path. Preserve the production v1 contract: endpoint paths, envelopes, existing fields and canonical IDs. Additive fields/records and sourced data corrections are permitted; incompatible contract changes require a new major API namespace.
 
 ## Community uploads and policies
 

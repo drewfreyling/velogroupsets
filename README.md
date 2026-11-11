@@ -8,6 +8,8 @@ VeloGroupsets aims to make component specifications and identification informati
 
 ## Planned features
 
+The [production launch guide](docs/production-launch.md) describes the catalogue-only release, its disabled photo/account features, rollout checks and remaining setup. Production stays pending until the protected deployments and live checks succeed.
+
 - Browse groupsets and individual components by manufacturer, model, generation, and component type.
 - Search a static catalogue without making a database request for each search.
 - View component specifications, source references, and community photos.
@@ -38,7 +40,7 @@ The [catalogue source review](docs/dealer-catalogues.md) indexes manufacturer sc
 
 The read-only API is generated JSON served directly by Cloudflare Workers Static Assets. Start at `/api/v1/index.json` or download `/api/v1/catalogue.json`. Collections and canonical detail files preserve curated records, source references and null weights. Successful GET/HEAD asset requests bypass Worker execution; Cloudflare documents direct static-asset requests as free and unlimited within platform limits. Files have five-minute browser caching, platform ETags and public CORS.
 
-Search, filtering and pagination run in the consuming application after downloading records; static files ignore query strings. Breaking changes are allowed under v1 during staging. The former extensionless Worker query endpoints have been removed. Community APIs keep their own Worker execution and access controls.
+Search, filtering and pagination run in the consuming application after downloading records; static files ignore query strings. Production v1 preserves its contract; incompatible changes require a new major API namespace. The former extensionless Worker query endpoints have been removed. Community APIs keep their own Worker execution and access controls.
 
 See [the API guide](docs/api.md) and [OpenAPI 3.1 specification](apps/api/openapi.json). Each application build includes `/api-docs/` and `/openapi.json`; these become available on an environment after manual deployment. API contract and response validation run in the existing CI gate.
 

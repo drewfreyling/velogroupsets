@@ -1,10 +1,11 @@
 import type { Context, Env } from './types.ts';
 import { communityApi } from './community.ts';
 import { cleanup } from './moderation.ts';
+import { communityEnabled } from './config.ts';
 
 
 export default {
-  async scheduled(_event:unknown,env:Env,ctx:Context) { ctx.waitUntil(cleanup(env)); },
+  async scheduled(_event:unknown,env:Env,ctx:Context) { if(communityEnabled(env))ctx.waitUntil(cleanup(env)); },
   async fetch(request: Request, env: Env, ctx?: Context): Promise<Response> {
     const path = new URL(request.url).pathname;
     if (path === '/api' || path.startsWith('/api/')) {

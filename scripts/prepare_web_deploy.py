@@ -15,6 +15,8 @@ def make_config(environment, sha, bindings, settings=None):
     settings = settings or {}
     if environment not in ('staging', 'production') or not re.fullmatch(r'[a-f0-9]{40}', sha):
         raise ValueError('Invalid deployment environment or commit.')
+    if environment == 'production':
+        return catalogue_only_config(sha, settings)
     d1 = bindings['d1_databases']
     buckets = bindings['r2_buckets']
     if len(d1) != 1 or len(buckets) not in (2, 3):
@@ -50,7 +52,27 @@ def make_config(environment, sha, bindings, settings=None):
     config.update(name=expected, account_id='5ccb67114ff0fa1a13cb46ef3d08cb49',
                   d1_databases=[{**{key: db[key] for key in ('binding', 'database_name', 'database_id')}, 'migrations_dir': 'db/migrations'}],
                   r2_buckets=safe_buckets,
-                  vars={'ENVIRONMENT': environment, 'RELEASE_SHA': sha, **public_settings})
+                  vars={'ENVIRONMENT': environment, 'RELEASE_SHA': sha, 'COMMUNITY_ENABLED': 'true', **public_settings})
+    return config
+
+
+def catalogue_only_config(sha, settings):
+    """Bootstrap production without community state, bindings or credentials."""
+    if not re.fullmatch(r'[a-f0-9]{40}', sha):
+        raise ValueError('Invalid deployment commit.')
+    config = json.loads((ROOT/'wrangler.jsonc').read_text())
+    for key in ('d1_databases', 'r2_buckets', 'images'):
+        config.pop(key, None)
+    config.update(name='velogroupsets-production', account_id='5ccb67114ff0fa1a13cb46ef3d08cb49',
+                  triggers={'crons': []}, vars={
+                      'ENVIRONMENT': 'production', 'RELEASE_SHA': sha,
+                      'SITE_ORIGIN': 'https://velogroupsets.com',
+                      'COMMUNITY_ENABLED': 'false', 'UPLOADS_ENABLED': 'false',
+                      'CSAM_SCANNING_CONFIRMED': 'false',
+                      'PUBLIC_SITE_OPERATOR': settings.get('PUBLIC_SITE_OPERATOR', ''),
+                      'PUBLIC_CONTACT_EMAIL': settings.get('PUBLIC_CONTACT_EMAIL', ''),
+                      'CONTACT_READY': 'true' if settings.get('CONTACT_READY') == 'true' else 'false',
+                  })
     return config
 
 
@@ -118,6 +140,17 @@ def main():
             raise ValueError('Deployments require main and a supported environment/commit.')
         stage = 'GitHub reviewer policy'
         require_reviewers(os.environ['GITHUB_REPOSITORY'], environment, os.environ['GH_TOKEN'])
+        settings = {key: os.environ.get(key, '') for key in (
+            'PUBLIC_SITE_OPERATOR', 'PUBLIC_CONTACT_EMAIL', 'GOOGLE_CLIENT_ID',
+            'CONTACT_READY', 'UPLOADS_ENABLED', 'CSAM_SCANNING_CONFIRMED',
+        )}
+        if environment == 'production':
+            # This release has no community bindings: it can create the Worker
+            # before OpenTofu attaches the apex hostname, without a fake state.
+            config = catalogue_only_config(sha, settings)
+            (ROOT/'wrangler.generated.json').write_text(json.dumps(config, indent=2)+'\n')
+            print('Prepared catalogue-only production configuration; community services are disabled.')
+            return 0
         stage = 'state encryption configuration'
         env = encryption_env(os.environ.get('TOFU_ENCRYPTION_PASSPHRASE'))
         stage = 'encrypted state download'
@@ -126,10 +159,6 @@ def main():
         stage = 'encrypted output decoding'
         outputs = read_state_outputs(state, env)
         stage = 'binding and public-setting validation'
-        settings = {key: os.environ.get(key, '') for key in (
-            'PUBLIC_SITE_OPERATOR', 'PUBLIC_CONTACT_EMAIL', 'GOOGLE_CLIENT_ID',
-            'CONTACT_READY', 'UPLOADS_ENABLED', 'CSAM_SCANNING_CONFIRMED',
-        )}
         config = config_from_outputs(environment, sha, outputs, settings)
         stage = 'deployment configuration writing'
         (ROOT/'wrangler.generated.json').write_text(json.dumps(config, indent=2)+'\n')

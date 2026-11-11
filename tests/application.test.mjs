@@ -9,6 +9,22 @@ import { components, componentUrl, groupsets, groupsetUrl, manufacturers, manufa
 const dist = new URL('../apps/web/dist/', import.meta.url);
 const file = (path) => new URL(path.replace(/^\//, ''), dist);
 const env = { ENVIRONMENT: 'test', RELEASE_SHA: '123', ASSETS: { fetch() { throw new Error('API must never fall through to static assets'); } } };
+test('catalogue-only production denies community requests before accessing any binding', async () => {
+  for (const flag of [undefined, 'false']) {
+    const production={...env, ENVIRONMENT:'production', COMMUNITY_ENABLED:flag, UPLOADS_ENABLED:'true'};
+    for(const binding of ['COMMUNITY_DB','UPLOADS','PHOTOS','EVIDENCE','IMAGES']){
+      Object.defineProperty(production,binding,{get(){throw new Error('Disabled community binding accessed');}});
+    }
+    const config=await worker.fetch(new Request('https://velogroupsets.com/api/community/config'),production);
+    assert.deepEqual(Object.fromEntries(Object.entries(await config.json()).filter(([key])=>['communityAvailable','signInAvailable','uploadsAvailable'].includes(key))),
+      {communityAvailable:false,signInAvailable:false,uploadsAvailable:false});
+    for(const [method,path] of [['GET','/api/session'],['GET','/api/auth/google/callback'],['POST','/api/auth/google/start'],['POST','/api/uploads'],['GET','/api/components/shimano-rd-r7000-gs/photos'],['GET','/api/photos/00000000-0000-4000-8000-000000000001/file'],['GET','/api/moderation']]){
+      const response=await worker.fetch(new Request('https://velogroupsets.com'+path,{method}),production);
+      assert.equal(response.status,404);assert.equal(response.headers.get('cache-control'),'no-store');
+    }
+    await worker.scheduled({},production,{waitUntil(){throw new Error('Disabled cleanup scheduled');}});
+  }
+});
 test('health is read-only, uncached and identifies the release', async () => {
   const response = await worker.fetch(new Request('https://example.test/api/health'), env);
   assert.equal(response.status, 200);

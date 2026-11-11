@@ -6,6 +6,29 @@ variables {
   # OpenTofu 1.13.9 mocks cannot import existing resources. Live plans do.
   import_zone_settings = false
 }
+run "production_catalogue_launch_keeps_photos_private_and_zone_ownership_separate" {
+  command = plan
+  variables {
+    environment          = "production"
+    site_hostname        = "velogroupsets.com"
+    site_zone_name       = "velogroupsets.com"
+    zone_id              = "0123456789abcdef0123456789abcdef"
+    enable_site_domain   = true
+    enable_public_photos = false
+  }
+  assert {
+    condition     = cloudflare_workers_custom_domain.site[0].hostname == "velogroupsets.com" && cloudflare_workers_custom_domain.site[0].service == "velogroupsets-production"
+    error_message = "Only the production Worker may own the apex website domain."
+  }
+  assert {
+    condition     = length(cloudflare_r2_custom_domain.photos) == 0 && !cloudflare_r2_managed_domain.photos.enabled && !cloudflare_r2_managed_domain.uploads.enabled && !cloudflare_r2_managed_domain.evidence.enabled
+    error_message = "Catalogue launch must not expose any photo, upload or evidence bucket."
+  }
+  assert {
+    condition     = length(cloudflare_zone_setting.tls) == 0 && length(cloudflare_zone_setting.hsts) == 0 && length(cloudflare_dns_record.caa) == 0 && length(cloudflare_dns_record.google_site_verification) == 0 && length(cloudflare_email_routing_dns.mail) == 0 && length(cloudflare_email_routing_rule.contact) == 0
+    error_message = "Production must not duplicate staging's shared zone ownership."
+  }
+}
 run "private_by_default" {
   command = plan
   assert {

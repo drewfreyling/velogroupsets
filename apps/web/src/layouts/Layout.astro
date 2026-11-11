@@ -1,5 +1,6 @@
 ---
 import ExternalLink from '../components/ExternalLink.astro';
+import { communityEnabled } from '../lib/features.mjs';
 import '../styles/global.css';
 import sourceSansFont from '@fontsource-variable/source-sans-3/files/source-sans-3-latin-wght-normal.woff2?url';
 const { title = 'Bicycle groupset and component specifications', description = 'The open source reference for bicycle groupsets and components.', noindex = false } = Astro.props;
@@ -30,7 +31,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <div class="flex w-full flex-wrap items-center justify-between gap-3 sm:w-auto sm:justify-start">
         <nav aria-label="Main navigation" class="flex items-center gap-2 text-sm sm:gap-4">
           <a href="/manufacturers/" class="nav-link" aria-current={Astro.url.pathname === '/manufacturers/' ? 'page' : undefined}>Manufacturers</a>
-          <a href="/account/" class="nav-link" aria-current={Astro.url.pathname === '/account/' ? 'page' : undefined}>Account</a>
+          {communityEnabled && <a href="/account/" class="nav-link" aria-current={Astro.url.pathname === '/account/' ? 'page' : undefined}>Account</a>}
           <a href="/catalogue/" class="nav-link" aria-current={Astro.url.pathname === '/catalogue/' ? 'page' : undefined}>Catalogue</a>
           <ExternalLink href="https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md" class="hidden items-center gap-2 font-semibold sm:flex">Add a missing part</ExternalLink>
         </nav>

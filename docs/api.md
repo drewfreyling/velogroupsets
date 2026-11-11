@@ -4,11 +4,13 @@ The public catalogue API is a set of generated JSON files served directly by **C
 
 The [OpenAPI 3.1 contract](../apps/api/openapi.json) documents the files and their response schemas. Readable documentation is generated at `/api-docs/`; download the contract at `/openapi.json`. Files update with an application deployment, not when a record is merely committed to Git.
 
-## Staging compatibility
+## Production v1 compatibility
 
-Breaking changes are allowed under v1 until production launch. The former Worker query API has been replaced by static files under the same v1 namespace. Append `.json` to collection/detail URLs and use `/api/v1/index.json` for discovery. The old extensionless URLs and `/api/v1/openapi.json` are no longer endpoints; the contract is at `/openapi.json`.
+Production v1 preserves endpoint paths, response envelopes, existing fields and canonical IDs. Additive fields, new records and sourced data corrections are permitted. Consumers must tolerate new fields, records and component types, and explicit unknowns becoming known as evidence improves. Incompatible contract changes require a new major namespace such as `/api/v2/`; do not change the production v1 contract in place. The body-level `catalogue_version` identifies data revisions, not API versions.
 
-There is no server-side search, filtering or pagination. **Static files ignore query strings.** A request with `?q=R7000&limit=1` returns the same complete file, not a filtered page or a validation error. Clients must download records and apply selection locally. Production versioning and compatibility guarantees will be defined before launch.
+The former staging Worker query API was replaced by static files before launch. Append `.json` to collection/detail URLs and use `/api/v1/index.json` for discovery. The old extensionless URLs and `/api/v1/openapi.json` are not endpoints; the contract is at `/openapi.json`.
+
+There is no server-side search, filtering or pagination. **Static files ignore query strings.** A request with `?q=R7000&limit=1` returns the same complete file, not a filtered page or a validation error. Clients must download records and apply selection locally.
 
 ## Files
 

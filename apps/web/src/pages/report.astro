@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { communityEnabled } from '../lib/features.mjs';
+if (!communityEnabled) return Astro.redirect('/catalogue/', 302);
 ---
 <Layout title="Report a photo" noindex>
   <div class="wrap max-w-3xl py-12"><h1 class="text-4xl font-semibold">Report a photo</h1>

@@ -5,6 +5,15 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from configure_worker_secrets import activation_errors
 
 class CommunityActivationTests(unittest.TestCase):
+    def test_disabled_community_does_not_send_supplied_credentials_to_wrangler(self):
+        from unittest.mock import patch
+        import configure_worker_secrets as secrets
+        with patch.dict(secrets.os.environ,{'GOOGLE_CLIENT_SECRET':'synthetic'},clear=True), \
+             patch.object(secrets.Path,'read_text',return_value='{"vars":{"COMMUNITY_ENABLED":"false","UPLOADS_ENABLED":"false"}}'), \
+             patch.object(secrets.subprocess,'run') as command:
+            self.assertEqual(secrets.main(),0)
+            command.assert_not_called()
+
     def test_disabled_features_allow_a_static_only_deployment(self):
         self.assertEqual(activation_errors({'vars':{'UPLOADS_ENABLED':'false'}},{}),[])
 

@@ -1,5 +1,6 @@
 ---
 import Layout from './Layout.astro';
+import { communityEnabled } from '../lib/features.mjs';
 import { operator, contactEmail, policiesReady } from '../lib/policy.mjs';
 import { POLICY_VERSION } from '../../../../packages/shared/community';
 const {title}=Astro.props;
@@ -8,6 +9,7 @@ const {title}=Astro.props;
   <article class="wrap max-w-3xl py-12">
     <h1 class="text-4xl font-semibold">{title}</h1>
     <p class="mt-4 text-sm text-muted">Policy version {POLICY_VERSION} · Updated 8 November 2026</p>
+    {!communityEnabled && <p class="panel mt-6 p-5" role="note">This release is a read-only catalogue. Accounts, community photos and uploads are disabled. Sections covering those features apply when they are enabled.</p>}
     {!policiesReady && <p class="panel mt-6 p-5" role="note"><strong>Draft policies.</strong> Photo uploads are not open while the operator and monitored contact details are being configured.</p>}
     <div class="policy-copy mt-8 space-y-6 leading-7"><slot /></div>
     <section class="mt-10 border-t border-line pt-6" aria-label="Policy contact">

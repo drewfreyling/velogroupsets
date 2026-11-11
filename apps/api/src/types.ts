@@ -16,6 +16,7 @@ export interface Env {
   PUBLIC_CONTACT_EMAIL?: string;
   CONTACT_READY?: string;
   UPLOADS_ENABLED?: string;
+  COMMUNITY_ENABLED?: string;
   CSAM_SCANNING_CONFIRMED?: string;
   PHOTOS_BASE_URL?: string;
   MODERATOR_EMAILS?: string;

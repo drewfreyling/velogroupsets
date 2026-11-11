@@ -95,8 +95,19 @@ jobs:
       - name: Playwright functionality (desktop and mobile)
         id: browser-tests
         run: npm run test:browser
+      - name: Production catalogue-only build and browser checks
+        id: production-tests
+        env:
+          SITE_URL: https://velogroupsets.com
+          PUBLIC_COMMUNITY_ENABLED: 'false'
+          PUBLIC_SITE_OPERATOR: Drew Freyling
+          PUBLIC_CONTACT_EMAIL: contact@velogroupsets.com
+          CONTACT_READY: 'true'
+        run: |
+          npm run build
+          npx --no-install playwright test --config playwright.production.config.mjs
       - name: Upload Playwright failure report and traces
-        if: ${{ failure() && steps.browser-tests.outcome == 'failure' }}
+        if: ${{ failure() && (steps.browser-tests.outcome == 'failure' || steps.production-tests.outcome == 'failure') }}
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: playwright-failures-${{ github.run_id }}-${{ github.run_attempt }}

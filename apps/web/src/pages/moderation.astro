@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import ExternalLink from '../components/ExternalLink.astro';
+import { communityEnabled } from '../lib/features.mjs';
+if (!communityEnabled) return Astro.redirect('/catalogue/', 302);
 ---
 <Layout title="Review photos and reports" noindex>
   <div class="wrap max-w-5xl py-12"><h1 class="text-4xl font-semibold">Review photos and reports</h1><p class="mt-4 leading-7 text-muted">Moderator access is required. Review captions, image descriptions and permissions before approving a photo. For suspected illegal material, follow the <ExternalLink class="text-link" href="https://github.com/drewfreyling/velogroupsets/blob/main/docs/photo-uploads.md">incident procedure</ExternalLink> and avoid unnecessary viewing or copying.</p>

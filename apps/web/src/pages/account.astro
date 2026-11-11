@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { POLICY_VERSION } from '../../../../packages/shared/community';
+import { communityEnabled } from '../lib/features.mjs';
+if (!communityEnabled) return Astro.redirect('/catalogue/', 302);
 ---
 <Layout title="Your account" noindex>
   <div class="wrap max-w-3xl py-12"><h1 class="text-4xl font-semibold">Your account</h1>
