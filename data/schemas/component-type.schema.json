@@ -29,6 +29,10 @@
       "title": "Brake Levers"
     },
     {
+      "const": "brake-calipers",
+      "title": "Brake Calipers"
+    },
+    {
       "const": "cassette",
       "title": "Cassettes"
     },

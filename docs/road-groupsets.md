@@ -1,6 +1,6 @@
 # Additional road groupsets
 
-The 9 November 2026 review adds **75 groupset records**: 29 Shimano and 46 Campagnolo. SRAM already has its main road families represented in the [SRAM guide](sram.md); four Wide front-derailleur/crankset options extend its existing Force and Rival AXS records. The catalogue now contains **158 groupsets and 808 component identities across three manufacturers**.
+The 9 November 2026 review adds **75 groupset records**: 29 Shimano and 46 Campagnolo. SRAM already has its main road families represented in the [SRAM guide](sram.md); four Wide front-derailleur/crankset options extend its existing Force and Rival AXS records. The catalogue now contains **158 groupsets and 828 component identities across three manufacturers**.
 
 This is a review of named road families and drivetrain generations, including historical road equipment and newer recreational drop-bar systems. It does not treat every finish, crank length, limited-edition presentation or power-meter option as a separate groupset. Existing SRAM XPLR records remain; this review does not add MTB, track, gravel-only GRX or Ekar families. Later disc-brake controls and revised parts belong to their documented family unless the drivetrain system itself is distinct.
 
@@ -120,4 +120,4 @@ Every added rear derailleur has the four required limit fields. Unknown limits r
 
 ## Remaining review
 
-The source table identifies groups with no verified component list. Other variants remain missing even where a group has components: historical Campagnolo and early Shimano assemblies, additional triple controls, complete contemporary twelve/thirteen-speed Campagnolo configurations, cage revisions, brakes outside the supported taxonomy and compliant weights. Rare regional ranges and limited editions have not been exhaustively surveyed. This review expands documented road coverage; it is not a claim that every road groupset and component ever produced is present.
+The source table identifies groups with no verified component list. Other variants remain missing even where a group has components: historical Campagnolo and early Shimano assemblies, additional triple controls, complete contemporary twelve/thirteen-speed Campagnolo configurations, cage revisions, calipers awaiting sourced records and compliant weights. Rare regional ranges and limited editions have not been exhaustively surveyed. This review expands documented road coverage; it is not a claim that every road groupset and component ever produced is present.

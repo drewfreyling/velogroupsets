@@ -1,0 +1,33 @@
+{
+  "id": "shimano-br-r7000",
+  "slug": "br-r7000",
+  "name": "105 brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-r7000"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-R7000",
+  "weight_g": 379,
+  "weight_description": "Manufacturer-listed 379 g for the complete front and rear pair; standard R55C4 pads and mounting bolts included. The source does not identify the reference mounting-nut/bolt length.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=159",
+    "title": "Shimano 2022–2023 specifications, PDF page 159: BR-R7000 standard pads, fixing hardware and average weights",
+    "retrieved_on": "2026-11-11"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=159",
+      "title": "Shimano 2022–2023 specifications, PDF page 159: BR-R7000 standard pads, fixing hardware and average weights",
+      "retrieved_on": "2026-11-11"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Dual pivot rim brake",
+    "reach_mm": 51,
+    "standard_brake_pads": "R55C4",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

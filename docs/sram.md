@@ -81,7 +81,7 @@ The [catalogue/handbook review](dealer-catalogues.md) adds the original RD-RED-A
 
 ## Remaining coverage
 
-The original RED family currently has only its documented rear derailleur. Early Force and RED B1 cranksets, some 12-speed XPLR crank variants, power-meter options and additional cage revisions remain gaps. Generic GXP/DUB bottom brackets, wheel hubs, headsets, seatposts and pedals are not assigned to every family just because they could be used with it. Brake calipers, chains, batteries and single flat-bar controls remain outside the current component/pair conventions. Further manufacturer evidence can add these records without changing existing IDs.
+The original RED family currently has only its documented rear derailleur. Early Force and RED B1 cranksets, some 12-speed XPLR crank variants, power-meter options and additional cage revisions remain gaps. Generic GXP/DUB bottom brackets, wheel hubs, headsets, seatposts and pedals are not assigned to every family just because they could be used with it. Brake calipers are supported but SRAM caliper records remain to be added. Chains, batteries and single flat-bar controls remain outside the current component/pair conventions. Further manufacturer evidence can add these records without changing existing IDs.
 
 ## Wide road options
 

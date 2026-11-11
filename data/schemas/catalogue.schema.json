@@ -373,6 +373,65 @@
               }
             }
           }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "brake-calipers"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "specifications"
+            ],
+            "properties": {
+              "specifications": {
+                "required": [
+                  "weight_basis"
+                ],
+                "properties": {
+                  "weight_basis": {
+                    "enum": [
+                      "Pair",
+                      "Front",
+                      "Rear"
+                    ]
+                  }
+                }
+              }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "weight_g": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "then": {
+                  "properties": {
+                    "specifications": {
+                      "required": [
+                        "includes_brake_pads",
+                        "includes_mounting_bolts"
+                      ],
+                      "properties": {
+                        "includes_brake_pads": {
+                          "const": true
+                        },
+                        "includes_mounting_bolts": {
+                          "const": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
         }
       ]
     },

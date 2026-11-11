@@ -1,0 +1,38 @@
+{
+  "id": "shimano-br-7700",
+  "slug": "br-7700",
+  "name": "Dura-Ace brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7700"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-7700",
+  "weight_g": 317.5,
+  "weight_description": "Manufacturer-listed 317.5 g for the complete front and rear pair; standard R55C pads and mounting bolts included. The source does not identify the reference mounting-nut/bolt length.",
+  "technical_document": {
+    "url": "https://si.shimano.com/ja/pdfs/ev/BR-7700-1658/EV-BR-7700-1658B.pdf",
+    "title": "Shimano BR-7700 factory caliper assembly and fixing hardware",
+    "retrieved_on": "2026-11-11"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/ja/pdfs/ev/BR-7700-1658/EV-BR-7700-1658B.pdf",
+      "title": "Shimano BR-7700 factory caliper assembly and fixing hardware",
+      "retrieved_on": "2026-11-11"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano64-65.jpg",
+      "title": "Shimano 2001 dealer catalogue, printed page 65: complete BR-7700/6500/5500 calipers, R55C pads and F&R weights (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-11"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "reach_mm": 49,
+    "standard_brake_pads": "R55C",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

@@ -9,12 +9,12 @@ The catalogue covers seven Ultegra offerings: the five series offered during **1
 | Catalogue groupset | Documented start | Component records | Scope |
 | --- | --- | --- | --- |
 | 600 Ultegra 6400 | 1987 | 18 | Original six/seven-speed equipment, plus eight-speed RD-6401, ST-6400 and SG crank update |
-| Ultegra 6500 | 1997 | 8 | Nine-speed equipment, including FC-6500 double and FC-6503 triple |
-| Ultegra 6600 | 2004 | 14 | Ten-speed double, triple and later compact cranksets, plus SS/GS rear and double/triple front derailleurs |
+| Ultegra 6500 | 1997 | 9 | Nine-speed equipment, including FC-6500 double and FC-6503 triple |
+| Ultegra 6600 | 2004 | 15 | Ten-speed double, triple and later compact cranksets, plus SS/GS rear and double/triple front derailleurs |
 | Ultegra SL 6600-G | 2007 | 13 | Lighter ice-grey components, double/triple/compact cranks and shared standard parts |
 | Ultegra 6700 | 2009 | 12 | Ten-speed double, triple and compact variants, plus SS/GS rear derailleurs |
 | Ultegra 6800 | 2013 | 10 | Eleven-speed mechanical, SS/GS rear derailleurs, rim-brake lever pair, hubs and threaded cups |
-| Ultegra R8000 | 2017 | 11 | Eleven-speed mechanical, SS/GS rear derailleurs, rim/hydraulic lever pairs and disc hubs |
+| Ultegra R8000 | 2017 | 13 | Eleven-speed mechanical, SS/GS rear derailleurs, rim/hydraulic lever pairs and disc hubs |
 
 Membership does not establish that every listed part can be combined: the 6400 six/seven-speed equipment and its eight-speed STI update are different configurations.
 
@@ -45,9 +45,9 @@ Manufacturer material supplies the specifications and most reference weights. HB
 | [2010 Russian dealer catalogue, PDF pages 69–70](https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=69) | 6700 reference configurations and weights, including separate hub/skewer figures |
 | [2008–2009 line-up chart](https://productinfo.shimano.com/pdfs/product/archive/2009_LINE-UP_CHART.pdf) | Standard 6600 and SL system membership and variants |
 
-The 81 Ultegra component identities produce 86 memberships across the seven groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
+The 85 Ultegra component identities produce 90 memberships across the seven groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
 
-The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs, with unknown weights where no compliant reference is sourced; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Bottom brackets are separate components. Existing identities remain listed when their weight must be withheld. Brake calipers, chains and complete wheels remain outside the current component taxonomy.
+The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs, with unknown weights where no compliant reference is sourced; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Bottom brackets are separate components. Existing identities remain listed when their weight must be withheld. Brake calipers now have [initial records and documented gaps](brake-calipers.md); chains and complete wheels remain outside the current component taxonomy.
 
 ## Weight rules and differences between publications
 

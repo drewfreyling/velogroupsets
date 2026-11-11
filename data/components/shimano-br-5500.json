@@ -1,0 +1,38 @@
+{
+  "id": "shimano-br-5500",
+  "slug": "br-5500",
+  "name": "105 brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5500"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-5500",
+  "weight_g": 352,
+  "weight_description": "Manufacturer-listed 352 g for the complete front and rear pair; standard R55C pads and mounting bolts included. The source does not identify the reference mounting-nut/bolt length.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-5500-1725/EV-BR-5500-1725A.pdf",
+    "title": "Shimano BR-5500 factory caliper assembly and fixing hardware",
+    "retrieved_on": "2026-11-11"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-5500-1725/EV-BR-5500-1725A.pdf",
+      "title": "Shimano BR-5500 factory caliper assembly and fixing hardware",
+      "retrieved_on": "2026-11-11"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano64-65.jpg",
+      "title": "Shimano 2001 dealer catalogue, printed page 65: complete BR-7700/6500/5500 calipers, R55C pads and F&R weights (archived by Charlie Taylor)",
+      "retrieved_on": "2026-11-11"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "reach_mm": 49,
+    "standard_brake_pads": "R55C",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "shimano-br-5600",
+  "slug": "br-5600",
+  "name": "105 brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5600"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-5600",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear pair with pads and mounting bolts.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2006_SPECIFICATION.pdf#page=107",
+    "title": "Shimano 2006 specifications, printed page 107: BR-5600 series, rim brake, standard pads and hardware; no weight listed",
+    "retrieved_on": "2026-11-11"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2006_SPECIFICATION.pdf#page=107",
+      "title": "Shimano 2006 specifications, printed page 107: BR-5600 series, rim brake, standard pads and hardware; no weight listed",
+      "retrieved_on": "2026-11-11"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "reach_mm": 49,
+    "standard_brake_pads": "R55C2"
+  }
+}

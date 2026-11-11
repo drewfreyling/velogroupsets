@@ -1,0 +1,31 @@
+{
+  "id": "shimano-br-r3000",
+  "slug": "br-r3000",
+  "name": "Sora brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sora-r3000"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-R3000",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear pair with pads and mounting bolts.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=159",
+    "title": "Shimano 2022–2023 specifications, PDF page 159: BR-R3000 standard pads, fixing hardware and average weights",
+    "retrieved_on": "2026-11-11"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=159",
+      "title": "Shimano 2022–2023 specifications, PDF page 159: BR-R3000 standard pads, fixing hardware and average weights",
+      "retrieved_on": "2026-11-11"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Dual pivot rim brake",
+    "reach_mm": 51,
+    "standard_brake_pads": "R50T5"
+  }
+}

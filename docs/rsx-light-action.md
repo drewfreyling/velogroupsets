@@ -12,7 +12,7 @@ The seven-speed double FC-A410 uses 46/36T chainrings; FC-A413 uses 46/36/26T. [
 
 The original seven-speed CS-HG50 reference is 11–24T. It has a distinct record from the existing 13–23T I-group cassette used by Exage; a shared base model name does not erase a different tooth configuration.
 
-The RSX columns in the July 1994 specification table leave weights blank. All RSX weights remain null until a compliant sourced configuration is recorded. Neighbouring RX100 weights are not copied into the RSX columns, and hub weights must exclude skewers. Brake calipers and chains remain outside the current taxonomy. Later mount and finish variants are not claimed to be exhaustively catalogued.
+The RSX columns in the July 1994 specification table leave weights blank. All RSX weights remain null until a compliant sourced configuration is recorded. Neighbouring RX100 weights are not copied into the RSX columns, and hub weights must exclude skewers. Brake calipers are supported but RSX/Light Action calipers remain to be added; chains remain outside the current taxonomy. Later mount and finish variants are not claimed to be exhaustively catalogued.
 
 ## Light Action L series
 

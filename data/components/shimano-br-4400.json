@@ -1,0 +1,43 @@
+{
+  "id": "shimano-br-4400",
+  "slug": "br-4400",
+  "name": "Tiagra brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4400"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-4400",
+  "weight_g": 355,
+  "weight_description": "Manufacturer-listed 355 g for the complete front and rear pair with factory brake pads and mounting bolts. The 2001 source does not identify the pad variant or reference mounting-nut length; the later 2006 specification lists R50T as standard.",
+  "technical_document": {
+    "url": "https://si.shimano.com/de/pdfs/ev/BR-4400-1870/EV-BR-4400-1870A.pdf",
+    "title": "Shimano BR-4400 exploded view: front/rear calipers, shoes and fixing hardware",
+    "retrieved_on": "2026-11-11"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/de/pdfs/ev/BR-4400-1870/EV-BR-4400-1870A.pdf",
+      "title": "Shimano BR-4400 exploded view: front/rear calipers, shoes and fixing hardware",
+      "retrieved_on": "2026-11-11"
+    },
+    {
+      "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano34-35.jpg",
+      "title": "Shimano 2001 dealer catalogue, printed page 34: Tiagra BR-4400, 355 g F&R",
+      "retrieved_on": "2026-11-11"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2006_SPECIFICATION.pdf#page=108",
+      "title": "Shimano 2006 specifications, printed page 108: BR-4400 standard R50T pads",
+      "retrieved_on": "2026-11-11"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "reach_mm": 49,
+    "standard_brake_pads": "R50T",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

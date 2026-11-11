@@ -44,13 +44,13 @@ Use a measured or manufacturer-published pair weight. An individual lever weight
 
 Assume cassette weights include the lockring; explicit verification of lockring inclusion is not required. State known spacer inclusions or exclusions, and preserve any explicit source statement that the lockring is excluded. Do not infer a tooth sequence or apply one range’s weight to another.
 
-## Brakes
+## Brake calipers
 
-**Front and rear brakes must have separate weights. Each brake must be weighed with its brake pads and mounting bolts attached.** Identify whether the record describes the front or rear brake and the exact model and mounting configuration.
+**Brake calipers may have a complete front/rear pair weight or separate front and rear weights. All weights must include brake pads and mounting bolts.** Identify the exact model, position and mounting configuration. Use the `brake-calipers` category with `specifications.weight_basis: "Pair"`, `"Front"` or `"Rear"`, even when the weight is unknown.
 
-Do not use a brake-pair total or divide it in half. State any further inclusions or exclusions, such as a hose, adapter or rotor, so the configuration is clear.
+Keep a published or measured pair total in one pair record. For separate weights, use distinct front and rear records, each with its own `weight_g`, description and sources. Preserve the manufacturer's model number even when it is the same for both positions; record IDs/slugs distinguish them. Do not divide a pair total, double one caliper's weight or calculate the other caliper by subtraction. Do not add overlapping pair and individual records for the same configuration just to repeat a weight.
 
-Brake calipers are not yet supported by the catalogue's component-type schema; standalone brake levers have their own category. This rule defines the weight standard for their future addition; adding brake records also requires the corresponding schema and UI support.
+For known weights, record `includes_brake_pads: true` and `includes_mounting_bolts: true` in `specifications`. These are source-backed inclusion claims, not defaults. Describe standard pads, nut/bolt variants and any further inclusions or exclusions where established. Manufacturer-listed complete factory caliper assemblies can use their listed standard pads and fixing hardware; retain any unspecified hardware variant as an explicit limitation. Bare-caliper or undocumented stripped measurements use a null weight until a compliant reference is available. Hoses, adapters and rotors must not be silently included or deducted. Standalone brake levers remain a separate category.
 
 ## Front derailleurs
 
@@ -71,6 +71,7 @@ For a known `weight_g`, the following `specifications` fields identify the actua
 | Crankset | Positive `crank_length_mm`, positive integer `chainrings_teeth` list, `includes_bottom_bracket: false` |
 | Bottom bracket | `interface`; square-taper assemblies also require positive `spindle_length_mm` |
 | Shifters / standalone brake levers | `weight_basis: "Pair"` |
+| Brake calipers | `weight_basis: "Pair"`, `"Front"` or `"Rear"`; `includes_brake_pads: true` and `includes_mounting_bolts: true` |
 | Front derailleur | `mount: "Braze-on"` or `"Clamp"`; clamp weights require positive `clamp_diameter_mm` or a two-value increasing `clamp_diameter_range_mm` for one documented band |
 | Cassette | Integer `rear_speeds` of at least two; an increasing `sprocket_range` such as `11–28T` or a complete increasing `sprockets_teeth` list whose length matches the speed count; if both are present they must agree |
 

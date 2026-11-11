@@ -23,7 +23,9 @@ Use **Tailwind CSS** for the UI, compiled into static CSS during the frontend bu
 
 Each component requires a model number, a weight field with an identifying description, and a manufacturer-hosted technical specification or an [explicitly approved archived manufacturer document](docs/campagnolo-record.md#approved-archived-manufacturer-documents). Known weights are positive grams for a configuration that meets the [weight guidelines](docs/weights-guidelines.md); any component awaiting a compliant sourced weight uses explicit null, displayed as “Not yet sourced”. Hub weights exclude skewers. Groupsets require a model number and a documented start year. Manufacturer pages list groupsets oldest first.
 
-The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Brake Levers, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
+The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Brake Levers, Brake Calipers, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
+
+[Brake calipers](docs/brake-calipers.md) support sourced front/rear pair weights or separate front and rear records, including pads and mounting bolts. Unknown weights remain explicit.
 
 See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. Astro generates the frontend with Tailwind compiled at build time; browser search and type/groupset filters work without API requests.
 
@@ -184,7 +186,7 @@ Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Co
 
 Run `npm run build` followed by `npm run test:browser`. Playwright starts a local Wrangler server against the built site. Both projects use Chromium: a desktop profile and an emulated Pixel 5 with touch input. This does not claim Firefox, WebKit or physical-device coverage.
 
-The suite exercises catalogue browsing, combined search/type/groupset filters, reload and browser Back navigation, model-number links, shared component pages, sourced/unknown weights, rear derailleur limits and accessible cage-code help, 404 recovery, navigation without JavaScript, cache/security headers, external links and theme behaviour including cross-tab changes. Photo/sign-in/report/moderation form tests use explicit local provider/API fixtures; separate integration tests exercise D1/R2 and real local image processing. They do not prove live Google credentials, CSAM enrolment or external inbox monitoring. Comments remain unimplemented.
+The suite exercises catalogue browsing, combined search/type/groupset filters, reload and browser Back navigation, model-number links, shared component pages, sourced/unknown weights, paired and separate front/rear calipers, rear derailleur limits and accessible cage-code help, 404 recovery, navigation without JavaScript, cache/security headers, external links and theme behaviour including cross-tab changes. Photo/sign-in/report/moderation form tests use explicit local provider/API fixtures; separate integration tests exercise D1/R2 and real local image processing. They do not prove live Google credentials, CSAM enrolment or external inbox monitoring. Comments remain unimplemented.
 
 | Stage | Browser checks |
 | --- | --- |

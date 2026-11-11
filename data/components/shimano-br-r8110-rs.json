@@ -1,0 +1,34 @@
+{
+  "id": "shimano-br-r8110-rs",
+  "slug": "br-r8110-rs",
+  "name": "Ultegra rear brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-di2-r8100"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-R8110-RS",
+  "weight_g": 178,
+  "weight_description": "Manufacturer-listed 178 g for the complete rear caliper; standard R55C4 pads and mounting bolts included. The source does not identify the reference mounting-nut/bolt length.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=157",
+    "title": "Shimano 2022–2023 specifications, PDF page 157: BR-R8110-RS standard pads, fixing hardware and average weights",
+    "retrieved_on": "2026-11-11"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2022-2023_Specifications_v035_en.pdf#page=157",
+      "title": "Shimano 2022–2023 specifications, PDF page 157: BR-R8110-RS standard pads, fixing hardware and average weights",
+      "retrieved_on": "2026-11-11"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Rear",
+    "brake_type": "Direct mount rim brake",
+    "reach_mm": 51,
+    "standard_brake_pads": "R55C4",
+    "mounting_position": "Seatstay",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

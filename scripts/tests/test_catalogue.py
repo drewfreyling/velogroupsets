@@ -22,6 +22,34 @@ def fixture():
 
 
 class CatalogueTests(unittest.TestCase):
+    def test_caliper_pair_and_individual_weights_require_pads_and_mounting_bolts(self):
+        for basis in ('Pair', 'Front', 'Rear'):
+            with self.subTest(basis=basis):
+                data = fixture()
+                part = data['components'][0]
+                part.update(type='brake-calipers', specifications={'weight_basis':basis,
+                    'includes_brake_pads':True, 'includes_mounting_bolts':True})
+                self.assertEqual(validate_catalogue(data), [])
+                for field in ('includes_brake_pads', 'includes_mounting_bolts'):
+                    for value in (False, None, 1):
+                        part['specifications'][field] = value
+                        self.assertTrue(validate_catalogue(data))
+                    del part['specifications'][field]
+                    self.assertTrue(validate_catalogue(data))
+                    part['specifications'][field] = True
+
+    def test_unknown_caliper_weights_still_identify_pair_front_or_rear(self):
+        data = fixture()
+        part = data['components'][0]
+        part.update(type='brake-calipers', weight_g=None, specifications={})
+        self.assertTrue(validate_catalogue(data))
+        for basis in ('Single', 'Left', ['Front', 'Rear'], None):
+            part['specifications']['weight_basis'] = basis
+            self.assertTrue(validate_catalogue(data))
+        for basis in ('Pair', 'Front', 'Rear'):
+            part['specifications']['weight_basis'] = basis
+            self.assertEqual(validate_catalogue(data), [])
+
     def test_known_crankset_weights_require_the_exact_configuration_without_bb(self):
         for field, value in [('includes_bottom_bracket', True), ('crank_length_mm', None),
                              ('crank_length_mm', True), ('crank_length_mm', [170, 175]),

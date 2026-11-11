@@ -2,7 +2,7 @@
 
 The [component weight guidelines](weights-guidelines.md) set the contribution standard. Canonical weights have been audited against those rules. Noncompliant figures are withheld as explicit unknowns; the source notes below distinguish the selected replacement references from older publications.
 
-The catalogue covers all nine Shimano 105 road-series generations, from Golden Arrow to R7100. R7100 has separate mechanical and Di2 groupset records because Shimano offers two shifting systems with different levers and derailleurs. That gives ten browsable groupsets, with 88 component identities and 93 memberships. This is generation coverage with sourced component variants; it does not claim every finish, revision, crank length or sprocket combination.
+The catalogue covers all nine Shimano 105 road-series generations, from Golden Arrow to R7100. R7100 has separate mechanical and Di2 groupset records because Shimano offers two shifting systems with different levers and derailleurs. That gives ten browsable groupsets, with 94 component identities and 99 memberships. This is generation coverage with sourced component variants; it does not claim every finish, revision, crank length or sprocket combination.
 
 ## Generations and dates
 
@@ -11,11 +11,11 @@ The catalogue covers all nine Shimano 105 road-series generations, from Golden A
 | 105 Golden Arrow A105 | 1982 | 4 | Short/long-cage rear derailleurs, double front derailleur and Band A friction levers |
 | 105 1050 | 1986 | 12 | Six-speed SIS, Biopace crank, bottom bracket, levers, cassette, headset, pedals and rear freehub |
 | 105 SC 1055 | 1989 | 17 | Original seven-speed equipment and the eight-speed RD-1056, ST-1055, FD-1056, cassette and freehub update |
-| 105 5500 | 1998 | 10 | Nine-speed double/triple cranks and front derailleurs, SS/GS rear derailleurs and the 2001 component revisions |
-| 105 5600 | 2005 | 12 | Ten-speed double/triple cranks, front derailleurs, SS/GS rear derailleurs, levers, cassette, pedals and hubs |
+| 105 5500 | 1998 | 11 | Nine-speed double/triple cranks and front derailleurs, SS/GS rear derailleurs and the 2001 component revisions |
+| 105 5600 | 2005 | 13 | Ten-speed double/triple cranks, front derailleurs, SS/GS rear derailleurs, levers, cassette, pedals and hubs |
 | 105 5700 | 2010 | 10 | Ten-speed double/compact/triple cranks and levers, front derailleurs, later RD-5701 SS/GS revisions and cassette |
 | 105 5800 | 2014 | 7 | Eleven-speed crank, front derailleur, SS/GS rear derailleurs, levers, cassette and pedals |
-| 105 R7000 | 2018 | 7 | Existing crank, cassette and GS derailleur, plus SS derailleur, front derailleur, a left/right lever pair and pedals |
+| 105 R7000 | 2018 | 11 | Existing crank, cassette and GS derailleur, plus SS derailleur, front derailleur, a left/right lever pair and pedals |
 | 105 Di2 R7100 | 2022 | 7 | Electronic twelve-speed shifting, hydraulic brake levers and shared drivetrain parts |
 | 105 R7100 | 2023 | 7 | Mechanical twelve-speed shifting, hydraulic brake levers and shared drivetrain parts |
 
@@ -51,7 +51,7 @@ Original manufacturer catalogues hosted by independent archives remain manufactu
 - RD-5701-GS supports a largest sprocket of 32T with a double chainset or 30T with a triple, and front differences of 16T or 22T respectively. Its record states these conditions. Individual maxima and total capacity must all be respected; the largest published front and rear ranges cannot always be combined.
 - The eight-speed 105 SC update is not the same configuration as its seven-speed introduction. Membership means that a component belongs to the series, not that every listed variant can be combined.
 
-R7100 mechanical and Di2 share FC-R7100, CS-R7101-12, BB-RS501 and PD-R7000 identities. PD-R7000 is also listed in R7000. Mechanical RD-R7100/FD-R7100/ST-R7120 and electronic RD-R7150/FD-R7150/ST-R7170 remain separate. The earlier CS-R7100 cassette is not substituted for CS-R7101 or asserted to support the mechanical system. Brake calipers, chains, Di2 batteries and complete wheels are outside the current component taxonomy; missing categories and variants mean **not yet catalogued**, not proof they never existed.
+R7100 mechanical and Di2 share FC-R7100, CS-R7101-12, BB-RS501 and PD-R7000 identities. PD-R7000 is also listed in R7000. Mechanical RD-R7100/FD-R7100/ST-R7120 and electronic RD-R7150/FD-R7150/ST-R7170 remain separate. The earlier CS-R7100 cassette is not substituted for CS-R7101 or asserted to support the mechanical system. Brake calipers now have a [supported category and initial records](brake-calipers.md). Chains, Di2 batteries and complete wheels are outside the current component taxonomy; missing categories and variants mean **not yet catalogued**, not proof they never existed.
 
 Standalone brake-lever models and their source limitations are documented in the [brake-lever source notes](brake-levers.md). Integrated shift/brake controls remain in the Shifters category.
 

@@ -67,6 +67,12 @@ def weight_configuration_errors(component):
     elif kind in ('shifters', 'brake-levers'):
         if specs.get('weight_basis') != 'Pair':
             errors.append(f'a {kind.removesuffix("s")} weight requires weight_basis: Pair')
+    elif kind == 'brake-calipers':
+        if specs.get('weight_basis') not in ('Pair', 'Front', 'Rear'):
+            errors.append('a brake-caliper weight requires weight_basis: Pair, Front or Rear')
+        for field in ('includes_brake_pads', 'includes_mounting_bolts'):
+            if specs.get(field) is not True:
+                errors.append(f'a brake-caliper weight requires {field}: true')
     elif kind == 'front-derailleur':
         if specs.get('mount') not in ('Braze-on', 'Clamp'):
             errors.append('a front-derailleur weight requires mount: Braze-on or Clamp')
