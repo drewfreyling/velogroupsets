@@ -6,6 +6,13 @@ import time
 import uuid
 
 
+def probe_failure(stage, log_path):
+    from infra import CommandFailure
+    # Keep native diagnostics private; CommandFailure renders only allowlisted
+    # error categories and HTTP/API codes, never paths or credential values.
+    return CommandFailure('isolated lock probe ' + stage, log_path.read_text(errors='replace'), '')
+
+
 def check_locking(env, backend=None, client=None):
     from infra import BUCKET, encrypted, tofu
     key = f"lock-checks/{uuid.uuid4().hex}/terraform.tfstate"
@@ -42,7 +49,7 @@ else:
                     if (root / "ready").exists():
                         break
                     if process.poll() is not None:
-                        raise RuntimeError("Lock probe failed to acquire its isolated state lock.")
+                        raise probe_failure('acquire', root / 'probe.log')
                     time.sleep(0.1)
                 else:
                     raise RuntimeError("Timed out waiting for the isolated lock probe.")
@@ -57,7 +64,7 @@ else:
                     process.terminate()
                     process.wait(timeout=10)
             if process.returncode:
-                raise RuntimeError("Lock probe failed to finish and release its lock.")
+                raise probe_failure('release', root / 'probe.log')
         tofu(["plan", "-lock-timeout=1s", "-out=probe.tofuplan"], env, cwd=root)
         if not encrypted((root / "probe.tofuplan").read_bytes()):
             raise RuntimeError("OpenTofu did not encrypt the saved probe plan.")

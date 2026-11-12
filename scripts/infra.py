@@ -25,7 +25,7 @@ def failure_summary(text):
     patterns = {
         "decryption failed; check the unchanged encryption key": r"decrypt|cipher: message authentication failed",
         "saved plan is stale; generate a new plan": r"saved plan is stale|saved plan does not match|different state lineage",
-        "authentication or permission error": r"authentication|unauthorized|forbidden|accessdenied|permission denied|authorization",
+        "authentication or permission error": r"authentication|unauthorized|forbidden|accessdenied|permission denied|authorization|invalidaccesskeyid|signaturedoesnotmatch",
         "resource already exists; inspect/import before retrying": r"already exists|already_exists",
         "provider returned inconsistent state": r"provider produced inconsistent|inconsistent result",
         "state lock error": r"error acquiring the state lock|error releasing the state lock",
