@@ -1,0 +1,17 @@
+{
+  "id": "shimano-xtr-m9100",
+  "slug": "xtr-m9100",
+  "name": "XTR",
+  "manufacturer_id": "shimano",
+  "model_number": "M9100",
+  "start_year": 2018,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/58.html",
+      "title": "Shimano XTR product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

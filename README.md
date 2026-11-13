@@ -29,9 +29,11 @@ The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear
 
 [Brake calipers](docs/brake-calipers.md) support sourced front/rear pair weights or separate front and rear records, including pads and mounting bolts. Unknown weights remain explicit.
 
-See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. Astro generates the frontend with Tailwind compiled at build time; browser search and type/groupset filters work without API requests.
+See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. Astro generates the frontend with Tailwind compiled at build time; browser search and riding-category/type/groupset filters work without API requests.
 
 The [design guide](docs/design.md) documents the teal palette, self-hosted Source Sans 3 typography, contrast rules and dark-mode behaviour.
+
+The [Shimano MTB and GRX review](docs/shimano-mtb.md) adds 65 MTB series, four GRX offerings and sourced starter components. Groupsets carry Road, MTB, Gravel or Track categories, with category filters on manufacturer and component catalogue pages. Component coverage remains incomplete.
 
 The [catalogue source review](docs/dealer-catalogues.md) indexes manufacturer scans and specification handbooks used to fill weights and derailleur limits, including exact pages, reference configurations and unresolved conflicts.
 

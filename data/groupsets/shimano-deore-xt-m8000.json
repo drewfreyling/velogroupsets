@@ -1,0 +1,17 @@
+{
+  "id": "shimano-deore-xt-m8000",
+  "slug": "deore-xt-m8000",
+  "name": "Deore XT",
+  "manufacturer_id": "shimano",
+  "model_number": "M8000",
+  "start_year": 2015,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/31.html",
+      "title": "Shimano Deore XT product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

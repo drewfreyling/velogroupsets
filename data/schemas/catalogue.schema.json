@@ -128,6 +128,9 @@
         },
         "start_year": {
           "$ref": "#/$defs/year"
+        },
+        "category": {
+          "$ref": "#/$defs/groupset_category"
         }
       },
       "required": [
@@ -137,7 +140,8 @@
         "sources",
         "manufacturer_id",
         "model_number",
-        "start_year"
+        "start_year",
+        "category"
       ],
       "additionalProperties": false
     },
@@ -464,6 +468,28 @@
       "type": "integer",
       "minimum": 1800,
       "maximum": 2100
+    },
+    "groupset_category": {
+      "title": "Groupset category",
+      "description": "Primary manufacturer range: riding category, separate from component type.",
+      "oneOf": [
+        {
+          "const": "road",
+          "title": "Road"
+        },
+        {
+          "const": "mtb",
+          "title": "MTB"
+        },
+        {
+          "const": "gravel",
+          "title": "Gravel"
+        },
+        {
+          "const": "track",
+          "title": "Track"
+        }
+      ]
     }
   }
 }

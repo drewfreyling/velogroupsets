@@ -77,7 +77,7 @@ Still to add: manufacturer-documented original 1973 components, further early tr
 
 Standalone brake-lever models and their source limitations are documented in the [brake-lever source notes](brake-levers.md). Integrated shift/brake controls remain in the Shifters category.
 
-The [1991 dealer catalogue review](shimano-1991.md) resolves FC-7402’s selected SG configuration, adds the 90 g HP-7600 track headset and documents the large-flange HB-7600 references. The ST-7400 560 g figure is still not used as a pair weight without explicit pair evidence.
+The [1991 dealer catalogue review](shimano-1991.md) resolves FC-7402’s selected SG configuration, adds the 90 g HP-7600 track headset and documents the large-flange HB-7600 references. The ST-7400 560 g figure is not used as a pair weight; the later [1994 dealer manual](shimano-mtb.md#1994-road-weight-corrections) explicitly lists 480 g per pair on p. 42. That review also supplies configuration-specific FC-7410 and BB-7410 weights.
 
 The [2005 handbook review](shimano-2005.md) recovers eight Dura-Ace-member weights, including BR-7800 **314 g per pair**, ST-7800 **419 g per pair**, FH-7800 **264 g without QR**, and FC-7703 **681 g** for 170 mm, 53/39/30T without its separate bottom bracket.
 

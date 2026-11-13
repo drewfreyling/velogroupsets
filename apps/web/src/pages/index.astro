@@ -2,7 +2,7 @@
 import ExternalLink from '../components/ExternalLink.astro';
 import Layout from '../layouts/Layout.astro';
 import ComponentList from '../components/ComponentList.astro';
-import { manufacturers, groupsets, components, types, manufacturerUrl } from '../lib/catalogue.mjs';
+import { manufacturers, groupsets, components, types, categories, manufacturerUrl } from '../lib/catalogue.mjs';
 ---
 <Layout>
   <section class="wrap grid gap-10 py-14 md:grid-cols-[1.3fr_1fr] md:items-center md:py-22">
@@ -36,5 +36,6 @@ import { manufacturers, groupsets, components, types, manufacturerUrl } from '..
     </div>
   </section>
   <section class="wrap pt-14"><div class="mb-7 flex flex-col items-start gap-4 sm:flex-row sm:items-end sm:justify-between"><div><h2 class="text-3xl tracking-tight">Component specifications</h2></div><a class="text-link shrink-0 whitespace-nowrap text-sm" href="/catalogue/">See all components </a></div><ComponentList records={components.slice(0,4)} /></section>
+  <section class="wrap pt-14"><h2 class="mb-5 text-2xl">Browse by riding category</h2><div class="flex flex-wrap gap-2">{categories.map(c=><a class="category-link rounded-full border border-line px-4 py-2 text-sm" href={`/catalogue/?category=${c.const}`}>{c.title}</a>)}</div></section>
   <section class="wrap pt-14"><h2 class="mb-5 text-2xl">Browse by component type</h2><div class="flex flex-wrap gap-2">{types.map(t=><a class="category-link rounded-full border border-line px-4 py-2 text-sm" href={`/catalogue/?type=${t.const}`}>{t.title}</a>)}</div></section>
 </Layout>

@@ -1,16 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { components, groupsets, types, manufacturerFor, componentUrl, groupsetName, typeName, modelNumbersFor } from '../lib/catalogue.mjs';
+import { components, groupsets, types, categories, categoriesFor, manufacturerFor, componentUrl, groupsetName, typeName, modelNumbersFor } from '../lib/catalogue.mjs';
 ---
-<Layout title="Component catalogue"><div class="wrap py-12"><h1 class="text-5xl tracking-tight">Component catalogue</h1><p class="mt-5 text-muted">Search by model number, manufacturer or groupset. Filter by component type to narrow the results.</p>
-  <form id="filters" class="panel mt-9 grid gap-5 p-6 md:grid-cols-[2fr_1fr_1fr]" role="search">
+<Layout title="Component catalogue"><div class="wrap py-12"><h1 class="text-5xl tracking-tight">Component catalogue</h1><p class="mt-5 text-muted">Search by model number, manufacturer or groupset. Filter by riding category and component type to narrow the results.</p>
+  <form id="filters" class="panel mt-9 grid gap-5 p-6 md:grid-cols-2 xl:grid-cols-[2fr_1fr_1fr_1fr]" role="search">
     <label class="text-xs font-semibold">Search components<input id="query" name="q" type="search" autocomplete="off" placeholder="Try FC-R7000 or Shimano…" class="mt-2 w-full rounded-lg border bg-surface px-4 py-3 text-base font-normal"/></label>
     <label class="text-xs font-semibold">Component type<select id="type" name="type" class="mt-2 w-full rounded-lg border bg-surface px-3 py-3 text-base font-normal"><option value="">All component types</option>{types.map(t=><option value={t.const}>{t.title}</option>)}</select></label>
-    <label class="text-xs font-semibold">Groupset<select id="groupset" name="groupset" class="mt-2 w-full rounded-lg border bg-surface px-3 py-3 text-base font-normal"><option value="">All groupsets</option>{groupsets.map(g=><option value={g.id}>{manufacturerFor(g).name} {groupsetName(g)}</option>)}</select></label>
+    <label class="text-xs font-semibold">Riding category<select id="category" name="category" class="mt-2 w-full rounded-lg border bg-surface px-3 py-3 text-base font-normal"><option value="">All riding categories</option>{categories.map(c=><option value={c.const}>{c.title}</option>)}</select></label>
+    <label class="text-xs font-semibold">Groupset<select id="groupset" name="groupset" class="mt-2 w-full rounded-lg border bg-surface px-3 py-3 text-base font-normal"><option value="">All groupsets</option>{groupsets.map(g=><option value={g.id} data-category={g.category}>{manufacturerFor(g).name} {groupsetName(g)}</option>)}</select></label>
     <button class="button md:hidden" type="submit">Search the catalogue</button>
   </form>
   <p id="result-count" class="my-6 text-sm text-muted" role="status" aria-live="polite">{components.length} components</p>
-  <div class="divide-y divide-line border-y border-line" id="results">{components.map(c=><article class="grid grid-cols-1 items-center gap-4 py-6 sm:grid-cols-2" data-record data-groups={c.groupset_ids.join(' ')} data-type={c.type} data-search={`${c.name} ${modelNumbersFor(c).join(' ')} ${manufacturerFor(c).name} ${groupsets.filter(g=>c.groupset_ids.includes(g.id)).map(groupsetName).join(' ')}`.toLowerCase()}><div><h2 class="break-words font-mono text-lg font-semibold"><a class="text-link" href={componentUrl(c)}>{c.model_number}</a></h2><p class="mt-1 text-sm text-muted">{manufacturerFor(c).name} · {c.name}</p></div><p class="hidden text-sm text-muted sm:block">{typeName(c.type)}</p></article>)}</div>
+  <div class="divide-y divide-line border-y border-line" id="results">{components.map(c=><article class="grid grid-cols-1 items-center gap-4 py-6 sm:grid-cols-2" data-record data-categories={categoriesFor(c).join(' ')} data-groups={c.groupset_ids.join(' ')} data-type={c.type} data-search={`${c.name} ${modelNumbersFor(c).join(' ')} ${manufacturerFor(c).name} ${groupsets.filter(g=>c.groupset_ids.includes(g.id)).map(groupsetName).join(' ')}`.toLowerCase()}><div><h2 class="break-words font-mono text-lg font-semibold"><a class="text-link" href={componentUrl(c)}>{c.model_number}</a></h2><p class="mt-1 text-sm text-muted">{manufacturerFor(c).name} · {c.name}</p></div><p class="hidden text-sm text-muted sm:block">{typeName(c.type)}</p></article>)}</div>
   <div id="empty" class="panel p-10 text-center" hidden><h2 class="text-2xl">No components found</h2><p class="mt-3 text-muted">No components match these filters. Clear the filters or try another model number.</p><button id="reset" class="button mt-5" type="button">Clear filters</button></div>
   <noscript><p class="mt-6 text-muted">All components are listed above. Enable JavaScript to search and filter.</p></noscript>
 </div></Layout>
@@ -19,15 +20,24 @@ import { components, groupsets, types, manufacturerFor, componentUrl, groupsetNa
   const query = document.querySelector<HTMLInputElement>('#query')!;
   const type = document.querySelector<HTMLSelectElement>('#type')!;
   const groupset = document.querySelector<HTMLSelectElement>('#groupset')!;
+  const category = document.querySelector<HTMLSelectElement>('#category')!;
+  const groupOptions = [...groupset.options];
+  function updateGroups() {
+    for (const option of groupOptions) {
+      option.hidden = option.disabled = Boolean(option.value && category.value && option.dataset.category !== category.value);
+    }
+    if (groupset.selectedOptions[0]?.disabled) groupset.value = '';
+  }
   const records = [...document.querySelectorAll<HTMLElement>('[data-record]')];
-  function restore() { const p = new URLSearchParams(location.search); query.value=p.get('q') || ''; type.value=p.get('type') || ''; groupset.value=p.get('groupset') || ''; }
+  function restore() { const p = new URLSearchParams(location.search); query.value=p.get('q') || ''; type.value=p.get('type') || ''; category.value=p.get('category') || ''; groupset.value=p.get('groupset') || ''; updateGroups(); }
   function filter(updateUrl=true) {
+    updateGroups();
     const words=query.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
     let count=0;
-    for (const row of records) { row.hidden=!(words.every(word=>row.dataset.search!.includes(word)) && (!type.value || row.dataset.type===type.value) && (!groupset.value || row.dataset.groups!.split(' ').includes(groupset.value))); if(!row.hidden) count++; }
+    for (const row of records) { row.hidden=!(words.every(word=>row.dataset.search!.includes(word)) && (!category.value || row.dataset.categories!.split(' ').includes(category.value)) && (!type.value || row.dataset.type===type.value) && (!groupset.value || row.dataset.groups!.split(' ').includes(groupset.value))); if(!row.hidden) count++; }
     document.querySelector('#result-count')!.textContent=`${count} component${count===1?'':'s'}`;
     document.querySelector<HTMLElement>('#empty')!.hidden=count>0;
-    if(updateUrl) { const p=new URLSearchParams(); if(query.value) p.set('q',query.value); if(type.value) p.set('type',type.value); if(groupset.value) p.set('groupset',groupset.value); history.replaceState(null,'',`${location.pathname}${p.size?'?'+p:''}`); }
+    if(updateUrl) { const p=new URLSearchParams(); if(query.value) p.set('q',query.value); if(type.value) p.set('type',type.value); if(category.value) p.set('category',category.value); if(groupset.value) p.set('groupset',groupset.value); history.replaceState(null,'',`${location.pathname}${p.size?'?'+p:''}`); }
   }
   restore(); filter(false);
   form.addEventListener('input',()=>filter());

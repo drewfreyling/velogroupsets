@@ -1,0 +1,22 @@
+{
+  "id": "shimano-deore-lx-m580",
+  "slug": "deore-lx-m580",
+  "name": "Deore LX",
+  "manufacturer_id": "shimano",
+  "model_number": "M580",
+  "start_year": 2004,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/51.html",
+      "title": "Shimano Deore LX product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 51: M580 series/date reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

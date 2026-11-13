@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m9100-sgs",
+  "slug": "rd-m9100-sgs",
+  "name": "XTR rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M9100-SGS",
+  "weight_g": 240,
+  "weight_description": "Manufacturer-listed weight for the SGS cage RD-M9100-SGS rear derailleur.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=239",
+    "title": "Shimano 2021 dealer manual, page 239: model specifications and manufacturer-listed reference weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=239",
+      "title": "Shimano 2021 dealer manual, page 239: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "cage": "SGS",
+    "rear_speeds": 12,
+    "total_capacity_teeth": 41,
+    "maximum_sprocket_teeth": 51,
+    "minimum_sprocket_teeth": 10,
+    "maximum_front_difference_teeth": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "shimano-alivio-mc20",
+  "slug": "alivio-mc20",
+  "name": "Alivio",
+  "manufacturer_id": "shimano",
+  "model_number": "MC20",
+  "start_year": 2000,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/61.html",
+      "title": "Shimano Alivio product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 61: MC20 series/date reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

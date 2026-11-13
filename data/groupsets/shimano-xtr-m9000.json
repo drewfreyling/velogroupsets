@@ -1,0 +1,17 @@
+{
+  "id": "shimano-xtr-m9000",
+  "slug": "xtr-m9000",
+  "name": "XTR",
+  "manufacturer_id": "shimano",
+  "model_number": "M9000",
+  "start_year": 2014,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/58.html",
+      "title": "Shimano XTR product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

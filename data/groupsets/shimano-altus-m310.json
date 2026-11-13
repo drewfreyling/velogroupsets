@@ -1,0 +1,22 @@
+{
+  "id": "shimano-altus-m310",
+  "slug": "altus-m310",
+  "name": "Altus",
+  "manufacturer_id": "shimano",
+  "model_number": "M310",
+  "start_year": 2008,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/21.html",
+      "title": "Shimano Altus product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 21: M310 series/date reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

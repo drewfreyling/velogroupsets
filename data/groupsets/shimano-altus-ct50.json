@@ -1,0 +1,27 @@
+{
+  "id": "shimano-altus-ct50",
+  "slug": "altus-ct50",
+  "name": "Altus",
+  "manufacturer_id": "shimano",
+  "model_number": "CT50",
+  "start_year": 1994,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/21.html",
+      "title": "Shimano Altus product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 21: CT50 series/date reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=32",
+      "title": "Shimano 1994 dealer manual, PDF / printed p. 32: Altus CT50 reference component family",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

@@ -48,7 +48,11 @@ The weight description identifies the weighed configuration: crank length and ch
 
 Each manufacturer declares an official `website_url`. Technical documents normally use HTTPS on that hostname (ignoring a leading `www.`) or one of its subdomains. The approved historical exception is reviewed original Campagnolo 1985/1987/1989 brochures and 1994/1997 spare-parts pages preserved by Disraeli Gears, plus the exact 1982 Olympic catalogue PDF hosted by Campy Only; see the [Record source policy](campagnolo-record.md#approved-archived-manufacturer-documents). The validator limits that exception to Campagnolo and those exact publication page/scan paths. Retailer/mirror domains, lookalike suffixes and credential-bearing URLs are rejected. Contributor review must verify domain ownership, that the document covers the exact component, and that the cited page supports the weight/description; offline validation cannot establish these facts. Manufacturer-owned specification pages or PDFs are valid; a generic homepage is not a technical specification. External CDNs need an explicit future ownership/validation design rather than weakening this rule.
 
-Every groupset requires a non-empty `model_number` and integer `start_year`. This is the documented introduction/availability year, not an inferred marketing model year. End years are not collected or displayed. Existing starts and stable IDs are preserved when migrating from the former range field. Optional `generation` remains a descriptive label, separate from the manufacturer’s model number. Manufacturer pages list groupsets by ascending start year, then by name for ties.
+Every groupset requires a non-empty `model_number`, integer `start_year` and primary riding `category`: `road`, `mtb`, `gravel` or `track`. Track preserves the existing Dura-Ace track range. Category IDs and display labels come from the canonical schema; they are separate from component types. Components inherit every category represented by their groupset memberships rather than storing a duplicate category field. Classify the documented offering, not every possible use of its parts.
+
+The component catalogue filters by category, type, groupset and search text. Selecting a category restricts groupset options and clears an incompatible selection. Manufacturer pages filter by category while retaining ascending start-year order. Both filters support bookmarked query strings; without JavaScript all records remain available. The static v1 API adds `category` to groupsets; API filtering remains client-side.
+
+The start year is the documented introduction/availability year, not an inferred marketing model year. End years are not collected or displayed. Existing starts and stable IDs are preserved when migrating from the former range field. Optional `generation` remains a descriptive label, separate from the manufacturer’s model number. Manufacturer pages list groupsets by ascending start year, then by name for ties.
 
 ## Component types
 
@@ -101,6 +105,7 @@ Groupset, saved as `data/groupsets/example-group.json`:
   "generation": "First generation",
   "model_number": "ER-100",
   "start_year": 2000,
+  "category": "road",
   "sources": [{"url": "https://example.com/catalogue", "title": "Example catalogue"}]
 }
 ```
@@ -137,9 +142,9 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 158 groupsets from Shimano, Campagnolo and SRAM and 857 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 227 groupsets from Shimano, Campagnolo and SRAM and 889 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
 
-The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
+The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/riding-category/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
 
 ## Historical Shimano Exage 500EX
 
@@ -208,7 +213,7 @@ An optional `specifications.cage` records the manufacturer's sourced cage code. 
 
 ## Shimano 105 generation coverage
 
-The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 101 105 component identities across 106 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains three manufacturers, 158 groupsets and 857 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
+The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 101 105 component identities across 106 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains three manufacturers, 227 groupsets and 889 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
 
 ## Shimano Dura-Ace coverage
 
@@ -250,3 +255,7 @@ The [2005 Trade Sales Support Manual review](shimano-2005.md) recovers 17 road c
 The [1980s Campagnolo source review](campagnolo-1980s-weights.md) adds three 1982-reference rear derailleurs: Super Record 0102018, Nuovo Record 1020/A and Nuovo Gran Sport 3500, with manufacturer-listed weights and explicit unknown limits.
 
 The [dealer-manual source index and review](shimano-dealer-manuals.md) preserves the forum’s 31 trade-catalogue links and additional compatibility/parts/magazine references. Selected 2006–2008 and 2021 tables, with the 2014/2017 specification handbooks, add 19 sourced weights and recover Di2 derailleur limits.
+
+## MTB and gravel coverage
+
+The [Shimano MTB and GRX source guide](shimano-mtb.md) documents 65 MTB series and four GRX offerings, conservative reference dates, the first 32 component records, and remaining gaps. Series records do not imply complete component coverage.

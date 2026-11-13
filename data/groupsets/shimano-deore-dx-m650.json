@@ -1,0 +1,22 @@
+{
+  "id": "shimano-deore-dx-m650",
+  "slug": "deore-dx-m650",
+  "name": "Deore DX",
+  "manufacturer_id": "shimano",
+  "model_number": "M650",
+  "start_year": 1990,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/27.html",
+      "title": "Shimano Deore DX product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 27: M650 series/date reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

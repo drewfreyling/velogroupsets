@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m6100-sgs",
+  "slug": "rd-m6100-sgs",
+  "name": "Deore rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6100"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M6100-SGS",
+  "weight_g": null,
+  "weight_description": "Weight not listed in the selected manufacturer specification table.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=241",
+    "title": "Shimano 2021 dealer manual, page 241: model specifications and manufacturer-listed reference weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=241",
+      "title": "Shimano 2021 dealer manual, page 241: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "cage": "SGS",
+    "rear_speeds": 12,
+    "total_capacity_teeth": 41,
+    "maximum_sprocket_teeth": 51,
+    "minimum_sprocket_teeth": 10,
+    "maximum_front_difference_teeth": 0
+  }
+}

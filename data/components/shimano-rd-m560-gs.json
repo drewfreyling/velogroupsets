@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m560-gs",
+  "slug": "rd-m560-gs",
+  "name": "Deore LX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m560"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M560-GS",
+  "weight_g": null,
+  "weight_description": "Weight not listed in the selected manufacturer specification table.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=23",
+    "title": "Shimano 1994 dealer manual, page 23: model specifications and manufacturer-listed reference weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=23",
+      "title": "Shimano 1994 dealer manual, page 23: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 7,
+    "total_capacity_teeth": 36,
+    "maximum_sprocket_teeth": 30,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 20
+  }
+}

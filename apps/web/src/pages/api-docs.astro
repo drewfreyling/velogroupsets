@@ -15,7 +15,7 @@ GET /api/v1/components.json
 GET /api/v1/components/shimano-rd-r7000-gs.json
 GET /api/v1/component-types.json`}</code></pre></div>
     <h2 class="mt-12 text-2xl font-medium">Search and download</h2>
-    <p class="mt-4 leading-7">Download the complete catalogue for a consistent copy of all records, then search, filter and paginate in your own application. These static files ignore query strings; adding <code>q</code>, <code>limit</code> or other parameters will return the same complete file.</p>
+    <p class="mt-4 leading-7">Download the complete catalogue for a consistent copy of all records, then search, filter and paginate in your own application. Each groupset has a primary riding category: <code>road</code>, <code>mtb</code>, <code>gravel</code> or <code>track</code>. Components inherit their categories through groupset membership. These static files ignore query strings; adding <code>q</code>, <code>limit</code> or other parameters will return the same complete file.</p>
     <div class="mt-6 overflow-x-auto rounded-xl border border-line bg-surface p-5"><pre class="text-sm leading-7"><code>{`const response = await fetch('/api/v1/catalogue.json');
 const { data } = await response.json();
 const derailleurs = data.components.filter(component =>

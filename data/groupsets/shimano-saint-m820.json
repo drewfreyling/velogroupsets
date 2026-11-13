@@ -1,0 +1,22 @@
+{
+  "id": "shimano-saint-m820",
+  "slug": "saint-m820",
+  "name": "Saint",
+  "manufacturer_id": "shimano",
+  "model_number": "M820",
+  "start_year": 2012,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/76.html",
+      "title": "Shimano Saint product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 76: M820 series/date reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

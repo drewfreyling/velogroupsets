@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-7400",
-  "weight_g": null,
-  "weight_description": "Left/right pair weight not yet established: the 1991 catalogue lists 560 g for ST-7400 without explicitly identifying a left/right pair reference. The record remains a pair and does not double an individual lever figure.",
+  "weight_g": 480,
+  "weight_description": "Manufacturer-listed complete left/right ST-7400 Dual Control pair, eight rear and two front speeds. The 1994 table explicitly identifies the 480 g figure as a pair.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-7400-1144/EV-ST-7400-1144F.pdf",
     "title": "Shimano ST-7400 exploded view and replacement parts",
@@ -25,11 +25,17 @@
       "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=20",
       "title": "Shimano 1991 dealer catalogue, printed page 17 (PDF page 20): ST-7400 eight-speed Dual Control specification; 560 g figure without explicit pair basis; manufacturer scan hosted by Vintage Cannondale",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=42",
+      "title": "Shimano 1994 dealer manual, page 42: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "weight_basis": "Pair",
     "rear_speeds": 8,
-    "brake_system": "Super SLR"
+    "brake_system": "Super SLR",
+    "front_speeds": 2
   }
 }

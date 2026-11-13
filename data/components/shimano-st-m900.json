@@ -1,0 +1,30 @@
+{
+  "id": "shimano-st-m900",
+  "slug": "st-m900",
+  "name": "XTR shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m900"
+  ],
+  "type": "shifters",
+  "model_number": "ST-M900",
+  "weight_g": 411,
+  "weight_description": "Manufacturer-listed complete left/right ST-M900 Rapidfire Plus brake/shifter pair; 3 front and 8 rear speeds.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=10",
+    "title": "Shimano 1994 dealer manual, page 10: model specifications and manufacturer-listed reference weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=10",
+      "title": "Shimano 1994 dealer manual, page 10: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 8
+  }
+}

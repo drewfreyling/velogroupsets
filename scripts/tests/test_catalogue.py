@@ -16,7 +16,7 @@ def fixture():
         return {"id": identifier, "slug": identifier, "name": identifier, "sources": [deepcopy(source)]}
     return {
         "manufacturers": [dict(record("example-maker"), website_url="https://example.com/")],
-        "groupsets": [dict(record("example-group"), manufacturer_id="example-maker", model_number="EG-100", start_year=2000)],
+        "groupsets": [dict(record("example-group"), manufacturer_id="example-maker", model_number="EG-100", start_year=2000, category="road")],
         "components": [dict(record("example-crankset"), manufacturer_id="example-maker", groupset_ids=["example-group"], type="crankset", model_number="EC-100", weight_g=500, weight_description="170 mm crank arms, 50/34T chainrings; no bottom bracket", technical_document=deepcopy(source), specifications={"crank_length_mm":170, "chainrings_teeth":[50,34], "includes_bottom_bracket":False})],
     }
 
@@ -333,6 +333,18 @@ class CatalogueTests(unittest.TestCase):
         data['components'][0]['technical_document']['url'] = valid
         data['manufacturers'][0]['website_url'] = 'https://example.com/'
         self.assertTrue(validate_catalogue(data))
+
+    def test_groupset_category_is_required_and_uses_the_canonical_enum(self):
+        data = fixture()
+        del data['groupsets'][0]['category']
+        self.assertTrue(validate_catalogue(data))
+        for value in (None, 'MTB', 'cyclocross', '', ['road', 'mtb'], True):
+            data['groupsets'][0]['category'] = value
+            with self.subTest(category=value):
+                self.assertTrue(validate_catalogue(data))
+        for value in ('road', 'mtb', 'gravel', 'track'):
+            data['groupsets'][0]['category'] = value
+            self.assertEqual(validate_catalogue(data), [])
 
     def test_groupset_model_and_single_start_year_are_required(self):
         for field in ('model_number', 'start_year'):

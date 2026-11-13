@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fc-m560",
+  "slug": "fc-m560",
+  "name": "Deore LX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m560"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M560",
+  "weight_g": 701,
+  "weight_description": "Manufacturer-listed crankset with 170 mm arms and 46/36/26T chainrings, excluding the separately listed bottom bracket.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=23",
+    "title": "Shimano 1994 dealer manual, page 23: model specifications and manufacturer-listed reference weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=23",
+      "title": "Shimano 1994 dealer manual, page 23: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      46,
+      36,
+      26
+    ],
+    "includes_bottom_bracket": false
+  }
+}

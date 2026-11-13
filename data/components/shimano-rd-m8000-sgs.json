@@ -1,0 +1,34 @@
+{
+  "id": "shimano-rd-m8000-sgs",
+  "slug": "rd-m8000-sgs",
+  "name": "Deore XT rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M8000-SGS",
+  "weight_g": 275,
+  "weight_description": "Manufacturer-listed weight for the SGS cage RD-M8000-SGS rear derailleur.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=239",
+    "title": "Shimano 2021 dealer manual, page 239: model specifications and manufacturer-listed reference weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=239",
+      "title": "Shimano 2021 dealer manual, page 239: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "cage": "SGS",
+    "rear_speeds": 11,
+    "total_capacity_teeth": 47,
+    "maximum_sprocket_teeth": 40,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 18,
+    "reference_configuration": "3 \u00d7 11; the larger 42T and 46T limits apply to two and one front chainrings respectively."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m670-gs",
+  "slug": "rd-m670-gs",
+  "name": "SLX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m670"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M670-GS",
+  "weight_g": 278,
+  "weight_description": "Manufacturer-listed weight for the GS cage RD-M670-GS rear derailleur.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=240",
+    "title": "Shimano 2021 dealer manual, page 240: model specifications and manufacturer-listed reference weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=240",
+      "title": "Shimano 2021 dealer manual, page 240: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 10,
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 36,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 18
+  }
+}

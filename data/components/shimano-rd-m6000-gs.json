@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m6000-gs",
+  "slug": "rd-m6000-gs",
+  "name": "Deore rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6000"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M6000-GS",
+  "weight_g": null,
+  "weight_description": "Weight not listed in the selected manufacturer specification table.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=241",
+    "title": "Shimano 2021 dealer manual, page 241: model specifications and manufacturer-listed reference weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=241",
+      "title": "Shimano 2021 dealer manual, page 241: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 10,
+    "total_capacity_teeth": 41,
+    "maximum_sprocket_teeth": 42,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 10
+  }
+}

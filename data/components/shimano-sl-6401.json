@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-6401",
-  "weight_g": null,
-  "weight_description": "Weight not yet sourced for the complete left/right braze-on downtube shifter pair, eight-speed SIS rear lever and front lever with fixing hardware. The SL-6400 six/seven-speed weight is not reused.",
+  "weight_g": 67,
+  "weight_description": "Manufacturer-listed complete SL-6401-F*CAI braze-on downtube shifter pair: eight-speed rear SIS and front lever. The 1994 table explicitly identifies the 67 g figure as a pair.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-6400_6401-0845/EV-SL-6400_6401-0845B.pdf",
     "title": "Shimano SL-6401 eight-speed and SL-6400 six/seven-speed exploded view: separate front and rear lever units",
@@ -19,6 +19,11 @@
     {
       "url": "https://si.shimano.com/en/pdfs/ev/SL-6400_6401-0845/EV-SL-6400_6401-0845B.pdf",
       "title": "Shimano SL-6401 eight-speed and SL-6400 six/seven-speed exploded view: separate front and rear lever units",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=48",
+      "title": "Shimano 1994 dealer manual, page 48: model specifications and manufacturer-listed reference weights",
       "retrieved_on": "2026-11-14"
     }
   ],

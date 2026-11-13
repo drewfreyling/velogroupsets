@@ -48,6 +48,16 @@ test('static collections, every canonical detail and bulk export preserve all da
   assert.equal('users' in bulk.data,false);assert.equal('photos' in bulk.data,false);
 });
 
+test('riding category is additive to groupsets and shared components keep their original identities',()=>{
+  const records=read('groupsets').data;
+  assert.equal(records.filter(g=>g.category==='mtb').length,65);
+  assert.equal(records.find(g=>g.id==='shimano-dura-ace-track').category,'track');
+  assert.equal(records.find(g=>g.id==='shimano-grx-rx810').category,'gravel');
+  assert.equal(read('components/shimano-bb-7700').data.id,'shimano-bb-7700');
+  assert.equal(read('components/shimano-rd-m8000-sgs').data.specifications.maximum_sprocket_teeth,40);
+  assert.equal(read('components/shimano-rd-m6000-gs').data.weight_g,null);
+});
+
 test('generated assets fit Cloudflare Free file count and file size limits',()=>{
   let count=0;
   function walk(dir){for(const entry of readdirSync(dir,{withFileTypes:true})){

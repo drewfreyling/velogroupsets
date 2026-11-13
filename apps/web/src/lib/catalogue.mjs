@@ -9,6 +9,8 @@ export const manufacturers = read('manufacturers');
 export const groupsets = read('groupsets');
 export const components = read('components');
 export const types = JSON.parse(readFileSync(new URL('schemas/component-type.schema.json', data), 'utf8')).oneOf;
+export const categories = JSON.parse(readFileSync(new URL('schemas/catalogue.schema.json', data), 'utf8')).$defs.groupset_category.oneOf;
+export const categoryName = (id) => categories.find(c => c.const === id)?.title || id;
 export const typeName = (id) => types.find(t => t.const === id)?.title || id;
 export const manufacturerFor = (record) => manufacturers.find(m => m.id === record.manufacturer_id);
 export const manufacturerUrl = (m) => `/manufacturers/${m.slug}/`;
@@ -17,6 +19,7 @@ export const groupsetUrl = (g) => `/groupsets/${manufacturerFor(g).slug}/${g.slu
 export const componentUrl = (c) => `/components/${manufacturerFor(c).slug}/${c.slug}/`;
 export const groupsetName = (g) => `${g.name} ${g.model_number}`;
 export const groupsFor = (record) => groupsets.filter(g => record.groupset_ids.includes(g.id));
+export const categoriesFor = (record) => [...new Set(groupsFor(record).map(g => g.category))];
 export const modelNumbersFor = (record) => [...new Set([
   record.model_number, record.specifications?.left_model, record.specifications?.right_model,
 ].filter(Boolean))];
@@ -25,5 +28,6 @@ export const searchRecords = components.map(c => ({
   weight_basis: c.specifications?.weight_basis ?? null,
   typeName: typeName(c.type), manufacturer: manufacturerFor(c).name,
   groupsets: groupsFor(c).map(groupsetName).join(' '),
+  categories: categoriesFor(c),
   url: componentUrl(c),
 }));

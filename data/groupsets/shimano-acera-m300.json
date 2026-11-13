@@ -1,0 +1,22 @@
+{
+  "id": "shimano-acera-m300",
+  "slug": "acera-m300",
+  "name": "Acera",
+  "manufacturer_id": "shimano",
+  "model_number": "M300",
+  "start_year": 1998,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/64.html",
+      "title": "Shimano Acera product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 64: M300 series/date reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

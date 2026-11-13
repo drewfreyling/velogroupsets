@@ -1,0 +1,17 @@
+{
+  "id": "shimano-deore-xt-m770",
+  "slug": "deore-xt-m770",
+  "name": "Deore XT",
+  "manufacturer_id": "shimano",
+  "model_number": "M770",
+  "start_year": 2007,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/31.html",
+      "title": "Shimano Deore XT product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

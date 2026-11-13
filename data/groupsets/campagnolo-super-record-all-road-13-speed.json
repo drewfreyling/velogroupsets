@@ -5,7 +5,7 @@
   "manufacturer_id": "campagnolo",
   "model_number": "13-speed",
   "start_year": 2025,
-  "generation": "Electronic wireless road range; component coverage follows reviewed reference editions",
+  "generation": "Electronic wireless all-road/gravel range; component coverage follows reviewed reference editions",
   "sources": [
     {
       "url": "https://www.campagnolo.com/gb-en/products/super-record-13-all-road%3A-the-drivetrain-that-brings-together-asphalt-and-gravel/0280.html",
@@ -17,5 +17,6 @@
       "title": "Campagnolo manufacturer documentation: system names and technical reference editions",
       "retrieved_on": "2026-11-09"
     }
-  ]
+  ],
+  "category": "gravel"
 }

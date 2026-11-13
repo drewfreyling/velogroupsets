@@ -1,0 +1,27 @@
+{
+  "id": "shimano-stx-special-edition-mc31",
+  "slug": "stx-special-edition-mc31",
+  "name": "STX Special Edition",
+  "manufacturer_id": "shimano",
+  "model_number": "MC31",
+  "start_year": 1994,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/62.html",
+      "title": "Shimano STX Special Edition product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 62: MC31 series/date reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=26",
+      "title": "Shimano 1994 dealer manual, PDF / printed p. 26: STX Special Edition MC31 reference offering",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "shimano-acera-m340",
+  "slug": "acera-m340",
+  "name": "Acera",
+  "manufacturer_id": "shimano",
+  "model_number": "M340",
+  "start_year": 2001,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/64.html",
+      "title": "Shimano Acera product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 64: M340 series/date reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

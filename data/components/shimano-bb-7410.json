@@ -8,8 +8,8 @@
   ],
   "type": "bottom-bracket",
   "model_number": "BB-7410",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 230,
+  "weight_description": "Manufacturer-listed square-taper BB-7410 sealed cartridge bottom bracket with a 103 mm spindle; shell/thread variant not itemised for the weight.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/BB-7410-1244/EV-BB-7410-1244A.pdf",
     "title": "Shimano BB-7410 exploded view and replacement parts",
@@ -20,6 +20,15 @@
       "url": "https://si.shimano.com/en/pdfs/ev/BB-7410-1244/EV-BB-7410-1244A.pdf",
       "title": "Shimano BB-7410 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=43",
+      "title": "Shimano 1994 dealer manual, page 43: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_mm": 103
+  }
 }

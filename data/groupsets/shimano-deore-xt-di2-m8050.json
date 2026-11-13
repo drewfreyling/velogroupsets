@@ -1,0 +1,17 @@
+{
+  "id": "shimano-deore-xt-di2-m8050",
+  "slug": "deore-xt-di2-m8050",
+  "name": "Deore XT Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "M8050",
+  "start_year": 2016,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/31.html",
+      "title": "Shimano Deore XT Di2 product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

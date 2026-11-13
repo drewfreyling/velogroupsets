@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-7410",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 589,
+  "weight_description": "Manufacturer-listed crankset with 170 mm arms and 53/39T chainrings, excluding the separately listed BB-7410 bottom bracket.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-7410-1256/EV-FC-7410-1256A.pdf",
     "title": "Shimano FC-7410 exploded view and replacement parts",
@@ -20,6 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-7410-1256/EV-FC-7410-1256A.pdf",
       "title": "Shimano FC-7410 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=43",
+      "title": "Shimano 1994 dealer manual, page 43: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      53,
+      39
+    ],
+    "includes_bottom_bracket": false
+  }
 }

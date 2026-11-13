@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-rx400",
+  "slug": "rd-rx400",
+  "name": "GRX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx400"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-RX400",
+  "weight_g": 303,
+  "weight_description": "Manufacturer-listed weight for the complete RD-RX400 rear derailleur; the selected table does not assign a cage code.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=290",
+    "title": "Shimano 2021 dealer manual, page 290: model specifications and manufacturer-listed reference weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=290",
+      "title": "Shimano 2021 dealer manual, page 290: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "cage": null,
+    "rear_speeds": 10,
+    "total_capacity_teeth": 41,
+    "maximum_sprocket_teeth": 36,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16
+  }
+}

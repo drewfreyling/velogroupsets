@@ -58,7 +58,7 @@ test('6400 caliper reach variants and eight-speed shifters remain distinct', asy
   await page.getByRole('link', {name:'SL-6401', exact:true}).click();
   await expect(page.getByRole('heading', {name:'SL-6401', exact:true, level:1})).toBeVisible();
   const {data} = await (await request.get('/api/v1/components/shimano-sl-6401.json')).json();
-  expect(data).toMatchObject({weight_g:null,specifications:{rear_speeds:[8],weight_basis:'Pair'}});
+  expect(data).toMatchObject({weight_g:67,specifications:{rear_speeds:[8],weight_basis:'Pair'}});
 });
 
 for (const [groupset, model, grams] of [

@@ -1,0 +1,22 @@
+{
+  "id": "shimano-hone-m600",
+  "slug": "hone-m600",
+  "name": "Hone",
+  "manufacturer_id": "shimano",
+  "model_number": "M600",
+  "start_year": 2005,
+  "category": "mtb",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/78.html",
+      "title": "Shimano Hone product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 78: M600 series/date reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "shimano-grx-di2-rx815",
+  "slug": "grx-di2-rx815",
+  "name": "GRX Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "RX815",
+  "start_year": 2019,
+  "category": "gravel",
+  "generation": "Manufacturer-documented series; start follows the selected dated reference, and component coverage is incomplete.",
+  "sources": [
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/100.html",
+      "title": "Shimano GRX Di2 product history: documented series and dated manufacturer reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.shimano.com/en/100th/history/products/products.csv",
+      "title": "Shimano product-history data, product 100: RX815 series/date reference",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://bike.shimano.com/products/series/grx.html",
+      "title": "Shimano GRX: manufacturer gravel range, RX815 Di2 and RX810/RX600/RX400 mechanical offerings",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=167",
+      "title": "Shimano 2021 trade catalogue: GRX gravel reference range",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}
