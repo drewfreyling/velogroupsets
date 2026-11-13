@@ -1,0 +1,39 @@
+{
+  "id": "shimano-br-1050-57",
+  "slug": "br-1050-57",
+  "name": "105 brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-1050-57",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear pair, 57-type calipers with brake pads and mounting bolts. The published 335 g figure applies only to the 49-type pair.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-1050-0765/EV-BR-1050-0765D.pdf",
+    "title": "Shimano BR-1050 exploded view: caliper variants, factory brake shoes and mounting hardware",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-1050-0765/EV-BR-1050-0765D.pdf",
+      "title": "Shimano BR-1050 exploded view: caliper variants, factory brake shoes and mounting hardware",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_23.html",
+      "title": "Shimano Bicycle System Components, December 1987, scan 23: BR-1050-49 / -57 and 335 g for the 49-type F&R pair (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "SLR single pivot rim brake",
+    "nominal_reach_mm": 57,
+    "reach_range_mm": [
+      47,
+      57
+    ]
+  }
+}

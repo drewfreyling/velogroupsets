@@ -1,0 +1,37 @@
+{
+  "id": "shimano-br-6700",
+  "slug": "br-6700",
+  "name": "Ultegra brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6700",
+    "shimano-ultegra-di2-6770"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6700",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear pair with standard R55C3 brake pads and mounting bolts. The selected manufacturer specification table has no weight row.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_SPECIFICATION.pdf#page=90",
+    "title": "Shimano 2010–2011 specifications, PDF / printed page 90: BR-6700 and BR-5700-S/L calipers, factory pads and mounting hardware; no weight row",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_SPECIFICATION.pdf#page=90",
+      "title": "Shimano 2010–2011 specifications, PDF / printed page 90: BR-6700 and BR-5700-S/L calipers, factory pads and mounting hardware; no weight row",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=46",
+      "title": "Shimano line-up chart, PDF page 46: documented caliper membership",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "reach_mm": 49,
+    "standard_brake_pads": "R55C3"
+  }
+}

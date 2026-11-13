@@ -1,0 +1,29 @@
+{
+  "id": "shimano-br-a416",
+  "slug": "br-a416",
+  "name": "RSX brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-A416",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear caliper pair with brake pads and mounting bolts.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-A416-1816/EV-BR-A416-1816.pdf",
+    "title": "Shimano BR-A416 exploded view: caliper variants, factory brake shoes and mounting hardware",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-A416-1816/EV-BR-A416-1816.pdf",
+      "title": "Shimano BR-A416 exploded view: caliper variants, factory brake shoes and mounting hardware",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake"
+  }
+}

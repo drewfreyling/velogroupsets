@@ -1,0 +1,41 @@
+{
+  "id": "shimano-br-1055-49",
+  "slug": "br-1055-49",
+  "name": "105 SC brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-1055-49",
+  "weight_g": 360,
+  "weight_description": "Manufacturer-listed 360 g for the complete front and rear pair, 49-type calipers with factory brake pads and mounting bolts. The source does not identify the reference mounting-nut/bolt variant.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-1055-1031/EV-BR-1055-1031A.pdf",
+    "title": "Shimano BR-1055 exploded view: caliper variants, factory brake shoes and mounting hardware",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-1055-1031/EV-BR-1055-1031A.pdf",
+      "title": "Shimano BR-1055 exploded view: caliper variants, factory brake shoes and mounting hardware",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_24.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 24: component models, reach types and front/rear pair weight; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "nominal_reach_mm": 49,
+    "reach_range_mm": [
+      39,
+      50
+    ],
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "shimano-br-6800",
+  "slug": "br-6800",
+  "name": "Ultegra brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6800",
+    "shimano-ultegra-di2-6870"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6800",
+  "weight_g": 335,
+  "weight_description": "Manufacturer average 335 g for the complete front and rear pair with standard R55C4 brake pads and mounting bolts. The source does not identify the reference mounting-nut/bolt length.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=116",
+    "title": "Shimano 2014–2015 specifications, PDF page 116: complete calipers, factory R55C4 pads, mounting nuts and explicit pair weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=116",
+      "title": "Shimano 2014–2015 specifications, PDF page 116: complete calipers, factory R55C4 pads, mounting nuts and explicit pair weights",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=50",
+      "title": "Shimano line-up chart, PDF page 50: documented caliper membership",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=51",
+      "title": "Shimano line-up chart, PDF page 51: documented caliper membership",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "SLR EV dual pivot rim brake",
+    "reach_mm": 51,
+    "standard_brake_pads": "R55C4",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

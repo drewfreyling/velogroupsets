@@ -1,0 +1,41 @@
+{
+  "id": "shimano-br-a250-49",
+  "slug": "br-a250-49",
+  "name": "Exage brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300ex"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-A250-49",
+  "weight_g": 313,
+  "weight_description": "Manufacturer-listed 313 g for the complete front and rear pair, 49-type calipers with factory brake pads and mounting bolts. The source does not identify the reference mounting-nut/bolt variant.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/si/R-38/SI-R-38-000-00-ENG.pdf",
+    "title": "Shimano SI-R-38: BR-A450 / BR-A350 / BR-A250 SLR caliper installation, brake shoes and mounting",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/R-38/SI-R-38-000-00-ENG.pdf",
+      "title": "Shimano SI-R-38: BR-A450 / BR-A350 / BR-A250 SLR caliper installation, brake shoes and mounting",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 34: component models, reach types and front/rear pair weight; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "SLR single pivot rim brake",
+    "nominal_reach_mm": 49,
+    "reach_range_mm": [
+      39,
+      49
+    ],
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

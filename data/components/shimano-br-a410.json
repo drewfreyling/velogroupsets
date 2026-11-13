@@ -1,0 +1,34 @@
+{
+  "id": "shimano-br-a410",
+  "slug": "br-a410",
+  "name": "RSX brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rsx"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-A410",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear caliper pair with brake pads and mounting bolts.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-A410-1495/EV-BR-A410-1495A.pdf",
+    "title": "Shimano BR-A410 exploded view: caliper variants, factory brake shoes and mounting hardware",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-A410-1495/EV-BR-A410-1495A.pdf",
+      "title": "Shimano BR-A410 exploded view: caliper variants, factory brake shoes and mounting hardware",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_53.html",
+      "title": "Shimano Bicycle System Components ’95, page 53: RSX BR-A410 dual-pivot caliper, 49 mm reach (published July 1994; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake"
+  }
+}

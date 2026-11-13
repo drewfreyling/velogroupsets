@@ -137,7 +137,7 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 158 groupsets from Shimano, Campagnolo and SRAM and 832 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 158 groupsets from Shimano, Campagnolo and SRAM and 852 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
 
 The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
 
@@ -154,6 +154,7 @@ Original Shimano material is preserved by Disraeli Gears: [page 30 introduces th
 | Front derailleur | FD-A500-B | 115 g; band-on, 28.0–28.6 mm |
 | Rear derailleur | RD-A500 | 279 g; double-chainset version, 28T total capacity |
 | Shifters | SL-A500-FCAI | 76 g; seven-speed braze-on downtube lever set, M5 Italian-type bosses |
+| Brake calipers | BR-A500-49 / BR-A500-57 | 326 g per complete 49-type front/rear pair; 57-type weight unknown |
 | Brake levers | BL-A500 | 258 g; pair of aero levers for 23.8–24.2 mm handlebars |
 | Cassette | CS-HG50 | 268 g; seven-speed I group, 13–23T sprockets and spacers |
 | Headset | HP-R500 | 121 g; 22/11.5 mm upper/lower cones; weight's thread variant unspecified |
@@ -161,9 +162,9 @@ Original Shimano material is preserved by Disraeli Gears: [page 30 introduces th
 | Front hub | HB-RM50-F | 139 g; contributor measurement, 36-hole hub without skewer |
 | Rear hub | FH-HG50 | Not yet sourced; weight without skewer required |
 
-Except for the contributor-measured front hub and the rear hub with unknown weight, these are manufacturer-listed reference weights, not new measurements or claims about every available option. BB-A450, CS-HG50, HP-R500 and PD-A550 retain their own component identities; membership is documented by the group specification table, even where a service drawing labels a shared part as another series.
+Known weights other than the contributor-measured front hub are manufacturer-listed references, not new measurements or claims about every available option. The rear hub and 57-type brake pair retain unknown weights. BB-A450, CS-HG50, HP-R500 and PD-A550 retain their own component identities; membership is documented by the group specification table, even where a service drawing labels a shared part as another series.
 
-The manual lists FH-HG50 at 436 g **with quick release**; this number is not used. The rear hub is included with `weight_g: null`, pending a sourced weight without its skewer. Its Shimano drawing covers the seven-speed quick-release and nutted variants; the catalogue record describes the quick-release version listed in the group manual, without inferring axle dimensions from a later drawing. The HB-RM50-F front hub uses a contributor-reported weight because the manual's weight does not explicitly establish skewer exclusion. No seatpost is listed on that page. The chain is outside the current component taxonomy. Calipers are supported but BR-A500 remains to be added; a missing record does not imply absence from the original groupset.
+The manual lists FH-HG50 at 436 g **with quick release**; this number is not used. The rear hub is included with `weight_g: null`, pending a sourced weight without its skewer. Its Shimano drawing covers the seven-speed quick-release and nutted variants; the catalogue record describes the quick-release version listed in the group manual, without inferring axle dimensions from a later drawing. The HB-RM50-F front hub uses a contributor-reported weight because the manual's weight does not explicitly establish skewer exclusion. No seatpost is listed on that page. The chain is outside the current component taxonomy. BR-A500-49 and BR-A500-57 have separate front/rear pair records; only the 49-type weight is published in this table.
 
 ## Historical Shimano RX100
 
@@ -186,7 +187,7 @@ The original *Dealers’ 1990 Product Manual*, published in August 1989, provide
 
 The two pedal weights conflict for the same nominal model/configuration. Preserve one component identity and the existing 407 g reference value, cite both tables and disclose the 400 g listing in the weight description. Do not average the values or invent a variant to explain the difference.
 
-The FH-A550's published 420 g includes its quick release, so the catalogue uses an explicit unknown weight. The HB-A550-F front hub is not yet added: its 202 g listing does not explicitly establish skewer exclusion. The HB-RM50 measurement belongs to a different model and is not reused. The manual's cassette row names CS-HG70; its sidebar heading says CS-HG50. Membership follows the component row, with the seven-speed I-group tooth sequence confirmed by Shimano's shared CS-HG90/HG70/HG50 drawing. No seatpost is listed; the chain remains outside the current taxonomy and BR-A550 calipers remain to be added.
+The FH-A550's published 420 g includes its quick release, so the catalogue uses an explicit unknown weight. The HB-A550-F front hub is not yet added: its 202 g listing does not explicitly establish skewer exclusion. The HB-RM50 measurement belongs to a different model and is not reused. The manual's cassette row names CS-HG70; its sidebar heading says CS-HG50. Membership follows the component row, with the seven-speed I-group tooth sequence confirmed by Shimano's shared CS-HG90/HG70/HG50 drawing. No seatpost is listed; the chain remains outside the current taxonomy and BR-A550-49 / BR-A550-57 calipers now have separate pair records (348 g for the 49 type; 57 type unknown).
 
 The later eight-speed RD-A551-SS is listed separately with a [273 g contributor measurement](contributor-weights.md#rear-derailleur-weights-reported-on-9-november-2026). It does not replace the earlier RD-A550 or date the eight-speed revision to the family’s 1989 introduction.
 
@@ -207,7 +208,7 @@ An optional `specifications.cage` records the manufacturer's sourced cage code. 
 
 ## Shimano 105 generation coverage
 
-The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 94 105 component identities across 99 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains three manufacturers, 158 groupsets and 832 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
+The catalogue includes all nine [Shimano 105 generations](shimano-105.md), represented by ten groupset records because R7100 mechanical and Di2 are distinct offerings. There are 100 105 component identities across 105 memberships, including the original R7000 records and documented standalone brake-lever options. The whole catalogue now contains three manufacturers, 158 groupsets and 852 components. Shared current parts retain one canonical identity. See the source guide for dates, variants, weight configurations, exclusions and explicit unknowns. Generation coverage does not imply every component option is already catalogued.
 
 ## Shimano Dura-Ace coverage
 

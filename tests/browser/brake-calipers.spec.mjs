@@ -60,3 +60,32 @@ test('6400 caliper reach variants and eight-speed shifters remain distinct', asy
   const {data} = await (await request.get('/api/v1/components/shimano-sl-6401.json')).json();
   expect(data).toMatchObject({weight_g:null,specifications:{rear_speeds:[8],weight_basis:'Pair'}});
 });
+
+for (const [groupset, model, grams] of [
+  ['shimano-105-1050', 'BR-1050', 335],
+  ['shimano-exage-500ex', 'BR-A500', 326],
+]) {
+  test(`${model} calipers can be found by groupset without borrowing short-reach weights`, async ({page, request}) => {
+    await page.goto(`/catalogue/?groupset=${groupset}&type=brake-calipers`);
+    await expect(page.locator('#result-count')).toHaveText('2 components');
+    await page.getByRole('link', {name:`${model}-49`, exact:true}).click();
+    await expect(detailRow(page, 'Weight').locator('dd > span')).toHaveText(`${grams} g`);
+    await expect(detailRow(page, 'Weight basis')).toContainText('Includes brake pads and mounting bolts.');
+    await page.goto(`/catalogue/?groupset=${groupset}&type=brake-calipers`);
+    await page.getByRole('link', {name:`${model}-57`, exact:true}).click();
+    await expect(detailRow(page, 'Weight').locator('dd > span')).toHaveText('Not yet sourced');
+    const {data} = await (await request.get(`/api/v1/components/shimano-${model.toLowerCase()}-57.json`)).json();
+    expect(data.weight_g).toBeNull();
+    expect(data.specifications.weight_basis).toBe('Pair');
+  });
+}
+
+test('shared Motion calipers use one canonical long-reach record', async ({page, request}) => {
+  await page.goto('/catalogue/?groupset=shimano-exage-motion&type=brake-calipers');
+  await expect(page.locator('#result-count')).toHaveText('1 component');
+  await page.getByRole('link', {name:'BR-A250-57', exact:true}).click();
+  await expect(page).toHaveURL(/\/components\/shimano\/br-a250-57\/$/);
+  await expect(detailRow(page, 'Weight').locator('dd > span')).toHaveText('Not yet sourced');
+  const {data} = await (await request.get('/api/v1/components/shimano-br-a250-57.json')).json();
+  expect(data.groupset_ids).toEqual(['shimano-exage-300ex', 'shimano-exage-motion']);
+});

@@ -12,8 +12,8 @@ The catalogue covers seven Ultegra offerings: the five series offered during **1
 | Ultegra 6500 | 1997 | 9 | Nine-speed equipment, including FC-6500 double and FC-6503 triple |
 | Ultegra 6600 | 2004 | 15 | Ten-speed double, triple and later compact cranksets, plus SS/GS rear and double/triple front derailleurs |
 | Ultegra SL 6600-G | 2007 | 13 | Lighter ice-grey components, double/triple/compact cranks and shared standard parts |
-| Ultegra 6700 | 2009 | 12 | Ten-speed double, triple and compact variants, plus SS/GS rear derailleurs |
-| Ultegra 6800 | 2013 | 10 | Eleven-speed mechanical, SS/GS rear derailleurs, rim-brake lever pair, hubs and threaded cups |
+| Ultegra 6700 | 2009 | 13 | Ten-speed double, triple and compact variants, plus SS/GS rear derailleurs |
+| Ultegra 6800 | 2013 | 11 | Eleven-speed mechanical, SS/GS rear derailleurs, rim-brake lever pair, hubs and threaded cups |
 | Ultegra R8000 | 2017 | 13 | Eleven-speed mechanical, SS/GS rear derailleurs, rim/hydraulic lever pairs and disc hubs |
 
 Membership does not establish that every listed part can be combined: the 6400 six/seven-speed equipment and its eight-speed STI update are different configurations.
@@ -45,7 +45,7 @@ Manufacturer material supplies the specifications and most reference weights. HB
 | [2010 Russian dealer catalogue, PDF pages 69–70](https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=69) | 6700 reference configurations and weights, including separate hub/skewer figures |
 | [2008–2009 line-up chart](https://productinfo.shimano.com/pdfs/product/archive/2009_LINE-UP_CHART.pdf) | Standard 6600 and SL system membership and variants |
 
-The 89 Ultegra component identities produce 94 memberships across the seven groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
+The 91 Ultegra component identities produce 96 memberships across the seven groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
 
 The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs, with unknown weights where no compliant reference is sourced; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Bottom brackets are separate components. Existing identities remain listed when their weight must be withheld. Brake calipers now have [initial records and documented gaps](brake-calipers.md); chains and complete wheels remain outside the current component taxonomy.
 
@@ -122,3 +122,5 @@ The [1990 dealer manual, page 20](https://www.disraeligears.co.uk/site/shimano_-
 The later **BR-6403-49** is a separate Super SLR dual-pivot model. The [1991 dealer catalogue, printed page 29 / PDF page 32](https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=32) gives **424 g (F&R)**. Its [manufacturer drawing](https://si.shimano.com/en/pdfs/ev/BR-6403-1146/EV-BR-6403-1146A.pdf) identifies the factory shoes and front/rear pivot bolts. Both known caliper weights describe complete pairs with pads and mounting bolts; neither publication identifies a specific reference nut/bolt length. These are not bare-arm weights or individual-side weights.
 
 [Shimano’s SL-6400/6401 drawing](https://si.shimano.com/en/pdfs/ev/SL-6400_6401-0845/EV-SL-6400_6401-0845B.pdf) labels **SL-6401** as eight-speed and **SL-6400** as six/seven-speed, with separate front and rear lever units for each model. SL-6401 is a complete left/right braze-on shifter-pair record. Its weight remains unknown: the 60 g figure for SL-6400-FCAI is not evidence for the eight-speed pair.
+
+BR-6700 and BR-6800 now have complete-pair caliper records. BR-6700 retains an unknown weight: the selected 2010–2011 table has no weight row. BR-6800 uses **335 g/pair** with factory R55C4 pads from the 2014–2015 specifications. Shimano’s line-up charts also list these calipers for Di2 6770 and 6870 respectively, so those groups reference the same identities. Those additional Di2 memberships are outside the seven-series totals above. See the [caliper source guide](brake-calipers.md#additional-shimano-road-calipers).

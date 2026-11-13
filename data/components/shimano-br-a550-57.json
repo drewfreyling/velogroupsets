@@ -1,0 +1,39 @@
+{
+  "id": "shimano-br-a550-57",
+  "slug": "br-a550-57",
+  "name": "RX100 brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-rx100-a550"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-A550-57",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear pair, 57-type calipers with brake pads and mounting bolts. The published 348 g figure applies only to the 49-type pair.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-A550-1036/EV-BR-A550-1036A.pdf",
+    "title": "Shimano BR-A550 exploded view: caliper variants, factory brake shoes and mounting hardware",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-A550-1036/EV-BR-A550-1036A.pdf",
+      "title": "Shimano BR-A550 exploded view: caliper variants, factory brake shoes and mounting hardware",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 28: component models, reach types and front/rear pair weight; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "nominal_reach_mm": 57,
+    "reach_range_mm": [
+      47,
+      58
+    ]
+  }
+}

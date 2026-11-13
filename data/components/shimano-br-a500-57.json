@@ -1,0 +1,39 @@
+{
+  "id": "shimano-br-a500-57",
+  "slug": "br-a500-57",
+  "name": "Exage 500EX brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500ex"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-A500-57",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear pair, 57-type calipers with brake pads and mounting bolts. The published 326 g figure applies only to the 49-type pair.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-A500-1037/EV-BR-A500-1037B.pdf",
+    "title": "Shimano BR-A500 exploded view: caliper variants, factory brake shoes and mounting hardware",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-A500-1037/EV-BR-A500-1037B.pdf",
+      "title": "Shimano BR-A500 exploded view: caliper variants, factory brake shoes and mounting hardware",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_32.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 32: component models, reach types and front/rear pair weight; published August 1989 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "nominal_reach_mm": 57,
+    "reach_range_mm": [
+      47,
+      58
+    ]
+  }
+}

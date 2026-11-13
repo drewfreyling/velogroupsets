@@ -1,0 +1,33 @@
+{
+  "id": "shimano-br-5800",
+  "slug": "br-5800",
+  "name": "105 brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5800"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-5800",
+  "weight_g": 388,
+  "weight_description": "Manufacturer average 388 g for the complete front and rear pair with standard R55C4 brake pads and mounting bolts. The source does not identify the reference mounting-nut/bolt length.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=117",
+    "title": "Shimano 2014–2015 specifications, PDF page 117: complete calipers, factory R55C4 pads, mounting nuts and explicit pair weights",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=117",
+      "title": "Shimano 2014–2015 specifications, PDF page 117: complete calipers, factory R55C4 pads, mounting nuts and explicit pair weights",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "SLR EV dual pivot rim brake",
+    "reach_mm": 51,
+    "standard_brake_pads": "R55C4",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

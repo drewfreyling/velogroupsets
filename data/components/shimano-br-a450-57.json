@@ -1,0 +1,44 @@
+{
+  "id": "shimano-br-a450-57",
+  "slug": "br-a450-57",
+  "name": "Exage Sport brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-sport"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-A450-57",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear pair, 57-type calipers with brake pads and mounting bolts.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-A450-0859/EV-BR-A450-0859A.pdf",
+    "title": "Shimano BR-A450 exploded view: caliper variants, factory brake shoes and mounting hardware",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-A450-0859/EV-BR-A450-0859A.pdf",
+      "title": "Shimano BR-A450 exploded view: caliper variants, factory brake shoes and mounting hardware",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_9.html",
+      "title": "Shimano Exage brochure, August 1988, page 9: Sport BR-A450 and Motion BR-A250 (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/R-38/SI-R-38-000-00-ENG.pdf",
+      "title": "Shimano SI-R-38: BR-A450 / BR-A350 / BR-A250 SLR caliper installation, brake shoes and mounting",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "SLR single pivot rim brake",
+    "nominal_reach_mm": 57,
+    "reach_range_mm": [
+      47,
+      57
+    ]
+  }
+}

@@ -4,7 +4,7 @@
 
 The RSX family has a documented start year of **1994**. Shimano’s *Bicycle System Components ’95* catalogue was published in July 1994: [page 51 introduces RSX](https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_51.html), and [page 53 lists its components and specifications](https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_-_95_page_53.html). The cover’s model year is not substituted for the publication year.
 
-One family record covers original seven-speed A410 equipment and the later eight-speed A416 revision. It includes 24 component identities: four rear-derailleur variants, four double/triple cranks, three front derailleurs, four shifter models, two bottom brackets, four hubs, two cassette configurations and BL-A410 standalone brake levers. Every component links to Shimano-hosted service instructions or an exploded view.
+One family record covers original seven-speed A410 equipment and the later eight-speed A416 revision. It includes 26 component identities: four rear-derailleur variants, four double/triple cranks, three front derailleurs, four shifter models, two bottom brackets, four hubs, two cassette configurations, BL-A410 standalone brake levers and BR-A410/BR-A416 caliper pairs. Every component links to Shimano-hosted service instructions or an exploded view.
 
 The seven-speed double FC-A410 uses 46/36T chainrings; FC-A413 uses 46/36/26T. [SI-1DA0A](https://si.shimano.com/en/pdfs/si/1DA0A/SI-1DA0A-000-00-ENG.pdf) lists BB-LP25 with 110 mm and 118 mm spindles for the respective configurations. The catalogue lists SS and GS rear derailleurs at 28T and 36T total capacity, both with 28T largest and 11T smallest sprockets; maximum front differences are 13T and 20T. Later SI-5UH0B describes an SGS version at 37T capacity. That later figure is not substituted for the catalogue’s GS version.
 
@@ -12,7 +12,7 @@ The seven-speed double FC-A410 uses 46/36T chainrings; FC-A413 uses 46/36/26T. [
 
 The original seven-speed CS-HG50 reference is 11–24T. It has a distinct record from the existing 13–23T I-group cassette used by Exage; a shared base model name does not erase a different tooth configuration.
 
-The RSX columns in the July 1994 specification table leave weights blank. All RSX weights remain null until a compliant sourced configuration is recorded. Neighbouring RX100 weights are not copied into the RSX columns, and hub weights must exclude skewers. Brake calipers are supported but RSX/Light Action calipers remain to be added; chains remain outside the current taxonomy. Later mount and finish variants are not claimed to be exhaustively catalogued.
+The RSX columns in the July 1994 specification table leave weights blank. All RSX weights remain null until a compliant sourced configuration is recorded. Neighbouring RX100 weights are not copied into the RSX columns, and hub weights must exclude skewers. RSX now includes BR-A410 and BR-A416 caliper-pair records, each with an unknown weight; Light Action calipers remain to be sourced; chains remain outside the current taxonomy. Later mount and finish variants are not claimed to be exhaustively catalogued.
 
 ## Light Action L series
 
