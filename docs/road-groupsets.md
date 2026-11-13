@@ -4,7 +4,7 @@ The 9 November 2026 review adds **75 groupset records**: 29 Shimano and 46 Campa
 
 This is a review of named road families and drivetrain generations, including historical road equipment and newer recreational drop-bar systems. It does not treat every finish, crank length, limited-edition presentation or power-meter option as a separate groupset. Existing SRAM XPLR records remain; this review does not add MTB, track, gravel-only GRX or Ekar families. Later disc-brake controls and revised parts belong to their documented family unless the drivetrain system itself is distinct.
 
-**Component coverage is incomplete.** The review added 209 component identities with initially unknown weights, and 36 of the newly added groupsets currently have no verified component list. A group entry establishes a documented range and date; it does not imply that a complete build kit has been catalogued. Manufacturer-hosted technical documents, exact assembly codes and membership still need review before further component records are added. The existing archive exceptions are unchanged.
+**Component coverage is incomplete.** The review added 209 component identities with initially unknown weights, and 33 of the newly added groupsets currently have no verified component list. A group entry establishes a documented range and date; it does not imply that a complete build kit has been catalogued. Manufacturer-hosted technical documents, exact assembly codes and membership still need review before further component records are added. The initial review did not change archive exceptions. The later [1982 Campagnolo weight review](campagnolo-1980s-weights.md) adds one exact reviewed manufacturer PDF and three period rear derailleurs.
 
 ## Dates and identifiers
 
@@ -26,9 +26,9 @@ The component count is the currently reviewed membership count, including canoni
 | --- | --- | --- | --- | --- |
 | Campagnolo | Gran Sport 1003 | 1955 | 0 | [Original Campagnolo catalogue 12, circa 1955: Gran Sport group 1003; conservative dated-reference year](https://ebykr.com/library/campagnolo-catalog-12/) |
 | Campagnolo | Record 1032 | 1958 | 0 | [Original Campagnolo catalogue 14, circa 1958: Record road group](https://ebykr.com/library/campagnolo-catalog-14/) |
-| Campagnolo | Nuovo Record Original | 1967 | 0 | [Original Campagnolo catalogue 15, circa 1967: Nuovo Record generation](https://ebykr.com/library/campagnolo-catalog-15/) |
-| Campagnolo | Nuovo Gran Sport Original | 1974 | 0 | [Original Campagnolo catalogue 17, 1974: Nuovo Gran Sport range](https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_17.html) |
-| Campagnolo | Super Record Original | 1974 | 0 | [Original Campagnolo catalogue 17, 1974: conservative reference year for the Super Record range](https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_17.html) |
+| Campagnolo | Nuovo Record Original | 1967 | 1 | [Original Campagnolo catalogue 15, circa 1967: Nuovo Record generation](https://ebykr.com/library/campagnolo-catalog-15/) |
+| Campagnolo | Nuovo Gran Sport Original | 1974 | 1 | [Original Campagnolo catalogue 17, 1974: Nuovo Gran Sport range](https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_17.html) |
+| Campagnolo | Super Record Original | 1974 | 1 | [Original Campagnolo catalogue 17, 1974: conservative reference year for the Super Record range](https://www.disraeligears.co.uk/site/campagnolo_-_catalogue_n_17.html) |
 | Campagnolo | Athena 9-speed | 1998 | 0 | [Original Campagnolo 1998 reference edition: Athena 9-speed](https://www.disraeligears.co.uk/site/campagnolo_-_1998_spare_parts_catalogue.html) |
 | Campagnolo | Racing Triple 9-speed | 1998 | 0 | [Original Campagnolo 1998 reference edition: Racing Triple 9-speed](https://www.disraeligears.co.uk/site/campagnolo_-_1998_spare_parts_catalogue.html) |
 | Campagnolo | Veloce 9-speed | 1998 | 0 | [Original Campagnolo 1998 reference edition: Veloce 9-speed](https://www.disraeligears.co.uk/site/campagnolo_-_1998_spare_parts_catalogue.html) |

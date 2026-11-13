@@ -63,3 +63,24 @@ test('1997 reference weights retain spindle, braze-on and headset configurations
   const hub=(await(await request.get('/api/v1/components/campagnolo-hb-30re.json')).json()).data;
   expect(hub.weight_g).toBeNull();expect(hub.weight_excludes_skewers).toBe(true);
 });
+
+test('1982 rear derailleurs retain their own weights and sources across older Campagnolo families', async ({page, request}) => {
+  const expected = [
+    ['campagnolo-super-record-original','0102018',182],
+    ['campagnolo-nuovo-record-original','1020/A',199],
+    ['campagnolo-nuovo-gran-sport','3500',220],
+  ];
+  for (const [group, model, grams] of expected) {
+    await page.goto(`/catalogue/?groupset=${group}&type=rear-derailleur`);
+    await page.getByRole('link', {name:model, exact:true}).click();
+    await expect(page.getByRole('heading', {name:model, level:1, exact:true})).toBeVisible();
+    const row = page.locator('dl > div').filter({has:page.getByRole('term').filter({hasText:/^Weight$/})});
+    await expect(row.locator('dd > span')).toHaveText(`${grams} g`);
+    const source = page.locator('a[href="https://www.campyonly.com/history/catalogs/1982_olympic_catalog.pdf#page=14"]');
+    await expect(source.first()).toBeVisible();
+  }
+  const {data} = await (await request.get('/api/v1/components/campagnolo-0102018.json')).json();
+  expect(data.specifications).toMatchObject({total_capacity_teeth:null,maximum_sprocket_teeth:null,minimum_sprocket_teeth:null,maximum_front_difference_teeth:null});
+  const {data:later} = await (await request.get('/api/v1/components/campagnolo-0102050.json')).json();
+  expect(later.weight_g).toBeNull();
+});

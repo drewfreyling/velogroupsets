@@ -19,6 +19,10 @@ def approved_archived_document(manufacturer, document_url):
     if manufacturer['id'] != 'campagnolo' or urlsplit(manufacturer['website_url']).hostname not in ('campagnolo.com', 'www.campagnolo.com'):
         return False
     url = urlsplit(document_url)
+    # Original 1982 Olympic catalogue, reviewed as one exact archived PDF.
+    if (url.scheme == 'https' and url.netloc == 'www.campyonly.com'
+            and url.path == '/history/catalogs/1982_olympic_catalog.pdf' and not url.query):
+        return True
     if url.scheme != 'https' or url.netloc not in ('www.disraeligears.co.uk', 'disraeligears.co.uk') or url.query:
         return False
     match = re.fullmatch(r'/site/campagnolo_spare_parts_catalogue_-_(1994_product_range|1997)_page_([1-9][0-9]?)\.html', url.path)

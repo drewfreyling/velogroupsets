@@ -305,6 +305,35 @@ class CatalogueTests(unittest.TestCase):
         data['manufacturers'][0]['website_url'] = 'https://example.com/'
         self.assertTrue(validate_catalogue(data))
 
+    def test_olympic_catalogue_exception_is_limited_to_reviewed_pdf_and_manufacturer(self):
+        data = fixture()
+        data['manufacturers'][0].update(id='campagnolo', website_url='https://www.campagnolo.com/')
+        data['groupsets'][0]['manufacturer_id'] = 'campagnolo'
+        data['components'][0]['manufacturer_id'] = 'campagnolo'
+        valid = 'https://www.campyonly.com/history/catalogs/1982_olympic_catalog.pdf'
+        for url in (valid, valid + '#page=14'):
+            data['components'][0]['technical_document']['url'] = url
+            self.assertEqual(validate_catalogue(data), [])
+        for url in (
+            valid.replace('https:', 'http:'),
+            valid.replace('www.campyonly.com', 'www.campyonly.com.attacker.test'),
+            valid.replace('www.campyonly.com', 'shop.campyonly.com'),
+            valid.replace('www.campyonly.com', 'user:password@www.campyonly.com'),
+            valid.replace('www.campyonly.com', 'www.campyonly.com:8080'),
+            valid.replace('1982_olympic_catalog', '1984_catalog'),
+            valid + '?redirect=evil',
+            'https://www.campyonly.com/history/catalogs.html',
+        ):
+            data['components'][0]['technical_document']['url'] = url
+            with self.subTest(url=url):
+                self.assertTrue(validate_catalogue(data))
+        unrelated = fixture()
+        unrelated['components'][0]['technical_document']['url'] = valid
+        self.assertTrue(validate_catalogue(unrelated))
+        data['components'][0]['technical_document']['url'] = valid
+        data['manufacturers'][0]['website_url'] = 'https://example.com/'
+        self.assertTrue(validate_catalogue(data))
+
     def test_groupset_model_and_single_start_year_are_required(self):
         for field in ('model_number', 'start_year'):
             data = fixture()
