@@ -1,6 +1,6 @@
 # Infrastructure and CI
 
-OpenTofu manages Cloudflare resources; GitHub Actions runs checks, creates plans, and applies reviewed saved plans. A dedicated **private R2 bucket** stores encrypted state, plans, and recovery snapshots. No HCP account is needed. The staging foundation was [successfully applied on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). Production deployment remains pending.
+OpenTofu manages Cloudflare resources; GitHub Actions runs checks, creates plans, and applies reviewed saved plans. A dedicated **private R2 bucket** stores encrypted state, plans, and recovery snapshots. No HCP account is needed. The staging foundation was [successfully applied on 7 November 2026](https://github.com/drewfreyling/velogroupsets/actions/runs/42334477273). The catalogue-only production Worker was [deployed](https://github.com/drewfreyling/velogroupsets/actions/runs/43190107607), and its 12-create [foundation/domain plan was applied](https://github.com/drewfreyling/velogroupsets/actions/runs/43419940563/attempts/3) on 13 November 2026. [velogroupsets.com](https://velogroupsets.com/) is live; production photos/uploads/accounts remain disabled.
 
 ## Deployed staging foundation
 

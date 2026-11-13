@@ -1,6 +1,16 @@
 # Production catalogue launch
 
-Production launches at `https://velogroupsets.com` as a read-only catalogue. Deployment is pending until the protected website and infrastructure workflows complete and the public hostname is verified. Staging remains a separate environment.
+Production is live at [velogroupsets.com](https://velogroupsets.com/) as a read-only catalogue since 13 November 2026. The protected website deployment and reviewed infrastructure apply completed successfully, and live desktop/mobile browser checks passed. Staging remains a separate environment.
+
+## Deployment and verification record
+
+- [Website deployment](https://github.com/drewfreyling/velogroupsets/actions/runs/43190107607) published application commit `811ad34c6ec4746a6390622e6223f17c45c2a1b9` to `velogroupsets-production`, with 2,033 static assets and community features disabled.
+- [Infrastructure attempt 3](https://github.com/drewfreyling/velogroupsets/actions/runs/43419940563/attempts/3), at infrastructure commit `375d7e1c13125aefa8e7f3c14a87b358a05cb77c`, applied the exact encrypted saved plan: 12 creates, no updates/deletions. Both production plan and apply passed actual R2 lock contention/release checks. State stays under the separate production key; shared zone settings remain in staging state.
+- The apex resolves publicly, HTTP redirects to HTTPS, and the live HSTS header is `max-age=31536000; includeSubDomains; preload`. Static catalogue/API responses use five-minute browser caching; the favicon uses one day. Public mail MX records were preserved, and `images.velogroupsets.com` has no public DNS record.
+- [Live browser verification](https://github.com/drewfreyling/velogroupsets/actions/runs/43422610038) passed all eight desktop/mobile checks against the deployed hostname with normal certificate validation. These cover browsing/search/themes without gallery requests, community page redirects, disabled account/upload/image APIs, static data access, canonicals, robots/sitemap, policies and 404s.
+- Future verification uses the manual [Verify live production workflow](../.github/workflows/smoke-production.yml), including native public-edge TLS 1.3/TLS 1.2 rejection checks. It does not deploy code or require deployment credentials.
+
+These checks establish deployment and application behaviour, not a Google Safe Browsing verdict. The operator still needs to check Search Console for the previously reported Chrome warning. The HSTS `preload` directive is enabled; this record does not claim enrolment in browsers' preload lists.
 
 ## Launch behaviour
 
