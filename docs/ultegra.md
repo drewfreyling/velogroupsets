@@ -11,7 +11,7 @@ The catalogue covers seven Ultegra offerings: the five series offered during **1
 | 600 Ultegra 6400 | 1987 | 22 | Original six/seven-speed equipment, plus eight-speed RD-6401, SL-6401, ST-6400 and SG crank update; original and dual-pivot calipers |
 | Ultegra 6500 | 1997 | 9 | Nine-speed equipment, including FC-6500 double and FC-6503 triple |
 | Ultegra 6600 | 2004 | 15 | Ten-speed double, triple and later compact cranksets, plus SS/GS rear and double/triple front derailleurs |
-| Ultegra SL 6600-G | 2007 | 13 | Lighter ice-grey components, double/triple/compact cranks and shared standard parts |
+| Ultegra SL 6600-G | 2007 | 14 | Lighter ice-grey components, double/triple/compact cranks and shared standard parts |
 | Ultegra 6700 | 2009 | 13 | Ten-speed double, triple and compact variants, plus SS/GS rear derailleurs |
 | Ultegra 6800 | 2013 | 11 | Eleven-speed mechanical, SS/GS rear derailleurs, rim-brake lever pair, hubs and threaded cups |
 | Ultegra R8000 | 2017 | 13 | Eleven-speed mechanical, SS/GS rear derailleurs, rim/hydraulic lever pairs and disc hubs |
@@ -45,7 +45,7 @@ Manufacturer material supplies the specifications and most reference weights. HB
 | [2010 Russian dealer catalogue, PDF pages 69–70](https://sportresort.ru/pdf/Shimano_Dealer_RUS_2010.pdf#page=69) | 6700 reference configurations and weights, including separate hub/skewer figures |
 | [2008–2009 line-up chart](https://productinfo.shimano.com/pdfs/product/archive/2009_LINE-UP_CHART.pdf) | Standard 6600 and SL system membership and variants |
 
-The 91 Ultegra component identities produce 96 memberships across the seven groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
+The 92 Ultegra component identities produce 97 memberships across the seven groupsets: CS-6600, HB-6600, FH-6600 and SP-6600 are shared by standard 6600 and SL. Their IDs and canonical URLs are not duplicated. Distinct lighter/ice-grey SL components keep their specific manufacturer model numbers.
 
 The 6400 series includes Biopace and SG cranks, downtube and STI levers, headset, two pedal types and the SP-6400-B seatpost. The later series include double/triple cranks and front derailleurs, with unknown weights where no compliant reference is sourced; 6600, SL and 6700 also have both SS and GS rear derailleurs. Missing categories or variants mean **not yet catalogued**, not that Shimano never offered them. Bottom brackets are separate components. Existing identities remain listed when their weight must be withheld. Brake calipers now have [initial records and documented gaps](brake-calipers.md); chains and complete wheels remain outside the current component taxonomy.
 
@@ -126,3 +126,5 @@ The later **BR-6403-49** is a separate Super SLR dual-pivot model. The [1991 dea
 BR-6700 and BR-6800 now have complete-pair caliper records. BR-6700 retains an unknown weight: the selected 2010–2011 table has no weight row. BR-6800 uses **335 g/pair** with factory R55C4 pads from the 2014–2015 specifications. Shimano’s line-up charts also list these calipers for Di2 6770 and 6870 respectively, so those groups reference the same identities. Those additional Di2 memberships are outside the seven-series totals above. See the [caliper source guide](brake-calipers.md#additional-shimano-road-calipers).
 
 The manufacturer-hosted [2005 handbook](shimano-2005.md) supplies BR-6600 at **330 g for the complete front/rear pair**, with standard R55C2 pads and mounting bolts. It also corroborates the existing 6600 lever, hub, cassette and seatpost references. The 2005 crank totals include the bottom bracket and remain excluded.
+
+The [dealer-manual review](shimano-dealer-manuals.md) adds the distinct **BR-6600-G** Ultegra SL caliper pair at **320 g** with R55C2 pads (2008 TSS, p. 202). Standard BR-6600 retains its own 330 g reference. The review also fills weights and all four rear-derailleur limits for Di2 6870/R8050 and adds the explicit ST-R8050 pair weight, outside the seven-series totals above.

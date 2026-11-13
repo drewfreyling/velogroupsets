@@ -8,8 +8,8 @@
   ],
   "type": "brake-calipers",
   "model_number": "BR-5600",
-  "weight_g": null,
-  "weight_description": "Weight not yet sourced for the complete front and rear pair with pads and mounting bolts.",
+  "weight_g": 359,
+  "weight_description": "Manufacturer average: 359 g for the complete front and rear pair with standard R55C2 pads and mounting bolts, in the 2008 manual. The reference mounting-nut/bolt variant is not identified.",
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2006_SPECIFICATION.pdf#page=107",
     "title": "Shimano 2006 specifications, printed page 107: BR-5600 series, rim brake, standard pads and hardware; no weight listed",
@@ -20,12 +20,24 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2006_SPECIFICATION.pdf#page=107",
       "title": "Shimano 2006 specifications, printed page 107: BR-5600 series, rim brake, standard pads and hardware; no weight listed",
       "retrieved_on": "2026-11-11"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2008_Trade_Support_Manual.pdf#page=203",
+      "title": "Shimano 2008 trade sales/support manual, PDF page 203 / printed page 203: BR-5600, standard R55C2 pads and 359 g F&R weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-5600-2442/EV-BR-5600-2442B.pdf",
+      "title": "Shimano BR-5600 exploded view: complete calipers, brake shoes and pivot/fixing bolts",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "weight_basis": "Pair",
     "brake_type": "Super SLR dual pivot rim brake",
     "reach_mm": 49,
-    "standard_brake_pads": "R55C2"
+    "standard_brake_pads": "R55C2",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
   }
 }

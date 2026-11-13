@@ -10,8 +10,8 @@
   ],
   "type": "pedals",
   "model_number": "PD-R9100",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 228,
+  "weight_description": "Manufacturer average: 228 g for the complete left/right SPD-SL pedal pair, excluding the separately listed cleats. The source offers a longer-axle option without identifying it as the weight reference.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/PD-R9100-4056/EV-PD-R9100-4056A.pdf",
     "title": "Shimano PD-R9100 exploded view and replacement parts",
@@ -22,6 +22,14 @@
       "url": "https://si.shimano.com/en/pdfs/ev/PD-R9100-4056/EV-PD-R9100-4056A.pdf",
       "title": "Shimano PD-R9100 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=343",
+      "title": "Shimano 2021 trade sales/support manual, PDF page 343 / printed page 343: PD-R9100 SPD-SL pedals; average weight explicitly per pair, cleats separately listed",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
 }

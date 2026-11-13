@@ -33,7 +33,8 @@ The component page labels the weight basis, the search index includes `weight_ba
 | BR-7800 | Front/rear pair | 314 g | 2005 Trade Sales Support Manual, PDF p. 176 / printed p. 188 |
 | BR-6600 | Front/rear pair | 330 g | Same table |
 | BR-5501 | Front/rear pair | 353 g | Same manual, PDF p. 177 / printed p. 189 |
-| BR-5600 | Front/rear pair | Not yet sourced | Shimano 2006 specifications, printed p. 107 has no weight row |
+| BR-5600 | Front/rear pair | 359 g | 2008 TSS, PDF / printed p. 203; R55C2 pads |
+| BR-6600-G | Front/rear pair | 320 g | 2008 TSS, p. 202; distinct Ultegra SL finish |
 | BR-3300 | Front/rear pair | 348 g | 2005 Trade Sales Support Manual, PDF p. 177 / printed p. 189 |
 
 These are manufacturer figures for complete factory calipers with their listed standard pads and fixing hardware, rather than weighed bare arms. The 2001 table specifies R55C pads for BR-7700/6500/5500; the service documents identify complete assemblies, mounting fasteners and shoes. The later BR-7700 spare-parts drawing also offers thicker R55C+1 shoes: it does not redefine the earlier R55C weight reference. The later 2006 table lists R50T pads as standard for BR-4400, but the 2001 weight reference does not identify its pad variant; its description preserves that limitation. The 2022–2023 tables specify R55C4 pads for the weighed models. None identifies a particular reference mounting-nut/bolt length, so descriptions retain that limitation. Do not apply these figures to optional pads or claim every fastener variant weighs the same.
@@ -64,8 +65,10 @@ The [Exage source notes](exage.md#caliper-weights-and-shared-models) explain why
 
 ## Remaining gaps
 
-The catalogue contains 44 Shimano caliper records, 29 with sourced weights and 15 with explicit unknowns. The [6400 source notes](ultegra.md#6400-calipers-and-eight-speed-downtube-shifters) distinguish the original single-pivot models from the later dual-pivot model and document their complete-pair weight references. It is not complete caliper coverage: Golden Arrow, earlier Shimano 600/Dura-Ace, Santé, Light Action, several Tiagra/Claris generations, other finish/reach revisions, Campagnolo and SRAM calipers still need reviewed records. Ultegra SL finishes must not inherit the standard BR-6600 weight or identity automatically. Disc calipers and their hoses, adapters and rotor configurations also need their own source review; rim-caliper weights cannot supply them.
+The catalogue contains 45 Shimano caliper records, 31 with sourced weights and 14 with explicit unknowns. The [6400 source notes](ultegra.md#6400-calipers-and-eight-speed-downtube-shifters) distinguish the original single-pivot models from the later dual-pivot model and document their complete-pair weight references. It is not complete caliper coverage: Golden Arrow, earlier Shimano 600/Dura-Ace, Santé, Light Action, several Tiagra/Claris generations, other finish/reach revisions, Campagnolo and SRAM calipers still need reviewed records. BR-6600-G now has its own 320 g Ultegra SL pair record; it does not inherit the standard BR-6600 weight or identity. Disc calipers and their hoses, adapters and rotor configurations also need their own source review; rim-caliper weights cannot supply them.
 
 The later BR-1056 and BR-A551 models appear in the 1995 catalogue, but their exact manufacturer-hosted technical references still need review. They are not substituted for the earlier BR-1055 and BR-A550 records. Direct-mount variants of 5800/6800 and disc systems also remain separate source work. Missing records do not establish that a groupset lacked brakes; track groups are not assigned road calipers merely to fill a category.
 
 The [2005 handbook review](shimano-2005.md) records explicit F&R weights for BR-6600, BR-7800, BR-3300, BR-5501 and the long-reach BR-A550-57. The older blank specification tables remain cited as historical context, rather than evidence that no weight was ever published.
+
+The [dealer-manual index](shimano-dealer-manuals.md) records the 2008 BR-5600 and BR-6600-G sources and the limits of this selected-page review.

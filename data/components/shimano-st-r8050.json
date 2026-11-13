@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-R8050",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for ST-R8050 as a complete left/right pair has not been established.",
+  "weight_g": 295,
+  "weight_description": "Manufacturer-listed: 295 g for the complete left/right ST-R8050 eleven-speed Di2 rim-brake control pair, explicitly labelled Pair in the 2021 manual.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-R8050-4246/EV-ST-R8050-4246.pdf",
     "title": "Shimano ST-R8050 exploded view and replacement parts",
@@ -20,10 +20,16 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=75",
       "title": "Shimano 2017-2018 line-up chart, PDF page 75: Ultegra Di2 R8050 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=140",
+      "title": "Shimano 2021 trade sales/support manual, PDF page 140 / printed page 140: ST-R8050 complete lever pair, 295 g; ST-R8070 individual figure is separate",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 11,
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "front_speeds": 2
   }
 }

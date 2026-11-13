@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "ST-R8070",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for ST-R8070 as a complete left/right pair has not been established.",
+  "weight_description": "Pair weight not yet sourced: the reviewed 2021 manufacturer table lists the left and right controls individually, without an explicit complete-pair total. Individual figures are not added or doubled.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-R8070-4248/EV-ST-R8070-4248B.pdf",
     "title": "Shimano ST-R8070 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=75",
       "title": "Shimano 2017-2018 line-up chart, PDF page 75: Ultegra Di2 R8050 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=347",
+      "title": "Shimano 2021 trade sales/support manual, PDF / printed page 347: ST-R8070 separate left/right control weights; no explicit pair total",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

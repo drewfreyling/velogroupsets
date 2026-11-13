@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-6870",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for ST-6870 as a complete left/right pair has not been established.",
+  "weight_g": 303.2,
+  "weight_description": "Manufacturer average: 303.2 g for the complete left/right eleven-speed Di2 rim-brake control pair. The detailed 2021 table explicitly labels this weight per pair; it is not a single-side figure.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-6870-3642/EV-ST-6870-3642.pdf",
     "title": "Shimano ST-6870 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=51",
       "title": "Shimano 2014-2015 line-up chart, PDF page 51: Ultegra Di2 6870 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=347",
+      "title": "Shimano 2021 trade sales/support manual, PDF / printed page 347: ST-6870 explicit 303.2 g/pair reference",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

@@ -1,0 +1,33 @@
+{
+  "id": "shimano-br-6600-g",
+  "slug": "br-6600-g",
+  "name": "Ultegra SL brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-sl-6600"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6600-G",
+  "weight_g": 320,
+  "weight_description": "Manufacturer average: 320 g for the complete front and rear Ultegra SL pair, ice-grey finish with standard R55C2 pads and mounting bolts. The 2008 table separates this from the standard silver BR-6600-S pair at 330 g; reference mounting-nut/bolt length is not specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2008_Trade_Support_Manual.pdf#page=202",
+    "title": "Shimano 2008 trade sales/support manual, PDF page 202 / printed page 202: Ultegra SL BR-6600-G, ice-grey finish, standard R55C2 pads and 320 g complete front/rear reference",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2008_Trade_Support_Manual.pdf#page=202",
+      "title": "Shimano 2008 trade sales/support manual, PDF page 202 / printed page 202: Ultegra SL BR-6600-G, ice-grey finish, standard R55C2 pads and 320 g complete front/rear reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "reach_mm": 49,
+    "standard_brake_pads": "R55C2",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

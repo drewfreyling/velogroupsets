@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-R8050-GS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-R8050-GS has not been established.",
+  "weight_g": 247,
+  "weight_description": "Manufacturer average: 247 g for the complete RD-R8050-GS eleven-speed Di2 rear derailleur, including its standard mounting bracket.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-R8050-SS-4249/EV-RD-R8050-SS-4249A.pdf",
     "title": "Shimano RD-R8050-GS exploded view and replacement parts",
@@ -20,14 +20,19 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=75",
       "title": "Shimano 2017-2018 line-up chart, PDF page 75: Ultegra Di2 R8050 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=348",
+      "title": "Shimano 2021 trade sales/support manual, PDF page 348 / printed page 348: RD-R8050-GS weight and all four rear-derailleur limits",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 11,
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null,
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16,
     "cage": "GS"
   }
 }

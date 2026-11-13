@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-R9160",
-  "weight_g": null,
-  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced.",
+  "weight_g": 127,
+  "weight_description": "Manufacturer average: 127 g for the complete left/right eleven-speed Di2 TT/triathlon control pair. The detailed 2021 table explicitly labels this weight per pair; it is not a single-side figure.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-R9160-4077/EV-ST-R9160-4077.pdf",
     "title": "Shimano ST-R9160 exploded view and replacement parts",
@@ -20,9 +20,15 @@
       "url": "https://si.shimano.com/en/pdfs/ev/ST-R9160-4077/EV-ST-R9160-4077.pdf",
       "title": "Shimano ST-R9160 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=347",
+      "title": "Shimano 2021 trade sales/support manual, PDF / printed page 347: ST-R9160 explicit 127 g/pair reference",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "rear_speeds": 11
   }
 }

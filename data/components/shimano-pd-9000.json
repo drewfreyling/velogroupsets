@@ -9,8 +9,8 @@
   ],
   "type": "pedals",
   "model_number": "PD-9000",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 248,
+  "weight_description": "Manufacturer average: 248 g for the complete left/right SPD-SL pedal pair, excluding the separately listed cleats. The source offers a longer-axle option without identifying it as the weight reference.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/PD-9000-3329/EV-PD-9000-3329.pdf",
     "title": "Shimano PD-9000 exploded view and replacement parts",
@@ -21,6 +21,14 @@
       "url": "https://si.shimano.com/en/pdfs/ev/PD-9000-3329/EV-PD-9000-3329.pdf",
       "title": "Shimano PD-9000 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=151",
+      "title": "Shimano 2014 specifications, PDF page 151 / printed page 148: PD-9000 SPD-SL pedals; average weight explicitly per pair, cleats separately listed",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
 }

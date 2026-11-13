@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-6870",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-6870 has not been established.",
+  "weight_g": 138.5,
+  "weight_description": "Manufacturer average: 138.5 g for the braze-on eleven-speed Di2 front derailleur with fixing bolt; excludes the separate clamp-band adapter.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-6870-3640/EV-FD-6870-3640.pdf",
     "title": "Shimano FD-6870 exploded view and replacement parts",
@@ -20,9 +20,16 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=51",
       "title": "Shimano 2014-2015 line-up chart, PDF page 51: Ultegra Di2 6870 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=348",
+      "title": "Shimano 2021 trade sales/support manual, PDF page 348 / printed page 348: FD-6870 braze-on/direct mount with bolt, two front speeds, average weight",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "rear_speeds": 11
+    "rear_speeds": 11,
+    "mount": "Braze-on",
+    "front_speeds": 2
   }
 }

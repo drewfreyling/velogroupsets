@@ -9,8 +9,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-R9100",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 175,
+  "weight_description": "Manufacturer average: 175 g for the 11-speed 11–25T cassette, including lockring.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/CS-R9100-4065/EV-CS-R9100-4065A.pdf",
     "title": "Shimano CS-R9100 exploded view and replacement parts",
@@ -21,6 +21,28 @@
       "url": "https://si.shimano.com/en/pdfs/ev/CS-R9100-4065/EV-CS-R9100-4065A.pdf",
       "title": "Shimano CS-R9100 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=311",
+      "title": "Shimano 2021 trade sales/support manual, PDF page 311 / printed page 311: CS-R9100, 11-speed 11–25T, full sprocket sequence and average weight",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–25T",
+    "sprockets_teeth": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      21,
+      23,
+      25
+    ]
+  }
 }

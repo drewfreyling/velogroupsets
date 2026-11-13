@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-6870-GS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-6870-GS has not been established.",
+  "weight_g": 268,
+  "weight_description": "Manufacturer average: 268 g for the complete RD-6870-GS eleven-speed Di2 rear derailleur, including its standard mounting bracket.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-6870-3641/EV-RD-6870-3641A.pdf",
     "title": "Shimano RD-6870-GS exploded view and replacement parts",
@@ -20,14 +20,19 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=51",
       "title": "Shimano 2014-2015 line-up chart, PDF page 51: Ultegra Di2 6870 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=348",
+      "title": "Shimano 2021 trade sales/support manual, PDF page 348 / printed page 348: RD-6870-GS weight and all four rear-derailleur limits",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 11,
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null,
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 32,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16,
     "cage": "GS"
   }
 }

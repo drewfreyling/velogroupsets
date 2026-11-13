@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-R8050",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-R8050 has not been established.",
+  "weight_g": 132,
+  "weight_description": "Manufacturer average: 132 g for the braze-on eleven-speed Di2 front derailleur with fixing bolt; excludes the separate clamp-band adapter.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-R8050-4250/EV-FD-R8050-4250B.pdf",
     "title": "Shimano FD-R8050 exploded view and replacement parts",
@@ -20,9 +20,16 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=75",
       "title": "Shimano 2017-2018 line-up chart, PDF page 75: Ultegra Di2 R8050 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=348",
+      "title": "Shimano 2021 trade sales/support manual, PDF page 348 / printed page 348: FD-R8050 braze-on/direct mount with bolt, two front speeds, average weight",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "rear_speeds": 11
+    "rear_speeds": 11,
+    "mount": "Braze-on",
+    "front_speeds": 2
   }
 }

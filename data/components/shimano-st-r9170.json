@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "ST-R9170",
   "weight_g": null,
-  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Pair weight not yet sourced: the reviewed 2021 manufacturer table lists the left and right controls individually, without an explicit complete-pair total. Individual figures are not added or doubled.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-R9170-4079/EV-ST-R9170-4079A.pdf",
     "title": "Shimano ST-R9170 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/ST-R9170-4079/EV-ST-R9170-4079A.pdf",
       "title": "Shimano ST-R9170 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=347",
+      "title": "Shimano 2021 trade sales/support manual, PDF / printed page 347: ST-R9170 separate left/right control weights; no explicit pair total",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

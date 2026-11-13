@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-7800-GS",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight for the GS rear derailleur has not yet been sourced.",
+  "weight_g": 192,
+  "weight_description": "Manufacturer average: 192 g for the GS triple-chainset rear derailleur in the 2008 manual.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-7800-2254/EV-RD-7800-2254A.pdf",
     "title": "Shimano RD-7800 exploded view and replacement parts",
@@ -25,6 +25,11 @@
       "url": "https://si.shimano.com/en/pdfs/si/5V50E/SI-5V50E-000-ENG.pdf",
       "title": "Shimano rear derailleur service instructions SI-5V50E",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2008_Trade_Support_Manual.pdf#page=200",
+      "title": "Shimano 2008 trade sales/support manual, PDF page 200 / printed page 200: RD-7800-GS, 192 g; 37T total, 27T largest, 11T smallest, 22T front difference",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

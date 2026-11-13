@@ -70,3 +70,5 @@ The catalogue uses this direct measurement instead of the 1993 catalogue’s 427
 BR-5700 retains an unknown pair weight because the selected 2010–2011 specification table has no weight row. BR-5800 uses the explicit **388 g/pair** reference with standard R55C4 pads from the 2014–2015 specifications. Both include factory mounting hardware in the intended reference configuration. The [caliper source guide](brake-calipers.md#additional-shimano-road-calipers) records the exact publications and remaining gaps, including the later 105 SC BR-1056 revision.
 
 The [2005 handbook review](shimano-2005.md) adds the later BR-5501 caliper pair at **353 g** with R55C pads, separate from BR-5500 at 352 g. It also supplies the explicit **260 g pair** reference for the shared BL-R600 brake levers.
+
+The [dealer-manual review](shimano-dealer-manuals.md) fills the existing BR-5600 caliper pair at **359 g** with factory R55C2 pads and mounting bolts, from the 2008 manual’s F&R row. The selected reference does not identify its mounting-nut/bolt length.
