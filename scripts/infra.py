@@ -142,6 +142,24 @@ def snapshot(client, environment, run_id, attempt, phase):
     client.put_object(Bucket=BUCKET, Key=f"snapshots/{environment}/{run_id}/{attempt}/{phase}.tfstate", Body=data, IfNoneMatch="*")
 
 
+def check_state_access(client):
+    """Check R2 listing permission without reading state or exposing S3 bodies."""
+    from botocore.exceptions import ClientError
+    import uuid
+    try:
+        client.list_objects_v2(Bucket=BUCKET, Prefix=f'lock-checks/access-{uuid.uuid4().hex}/', MaxKeys=1)
+    except ClientError as error:
+        code = error.response.get('Error', {}).get('Code')
+        known = {'AccessDenied', 'InvalidAccessKeyId', 'SignatureDoesNotMatch', 'NoSuchBucket',
+                 'ExpiredToken', 'InvalidToken', 'RequestTimeTooSkewed', 'Unauthorized', '403'}
+        safe_code = code if isinstance(code, str) and code in known else 'unclassified'
+        status = error.response.get('ResponseMetadata', {}).get('HTTPStatusCode')
+        safe_status = str(status) if type(status) is int and 400 <= status <= 599 else 'unknown'
+        raise RuntimeError(f'R2 state-bucket listing denied: HTTP {safe_status}; S3 code {safe_code}. '
+                           'Check the matching S3 credential pair and bucket permissions in the target GitHub environment.') from None
+    print('R2 credential preflight passed: state-bucket listing authorized.', flush=True)
+
+
 def save_failure(client, error, env, environment, run_id, attempt):
     """Use native OpenTofu encryption for a private diagnostic, with no API resources."""
     key = f"diagnostics/{environment}/{run_id}/{attempt}/apply-failure.tfstate"
@@ -276,6 +294,7 @@ def main():
         if args.operation == "inspect":
             inspect_state(client, env, args.environment, args.inspect_key)
             return 0
+        check_state_access(client)
         backend = CONFIG / "backends" / f"{args.environment}.hcl"
         from check_state_locking import check_locking
         check_locking(env, backend, client)

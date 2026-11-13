@@ -85,7 +85,7 @@ No secrets belong in Git, environment `.tfvars`, public artifacts, or chat. GitH
 
 [CI](../.github/workflows/ci.yml) checks PRs, PR titles and incoming commits, documentation, automation tests, OpenTofu, and workflow syntax. All commits and PR titles use Conventional Commits.
 
-[OpenTofu infrastructure](../.github/workflows/opentofu.yml) is manual-only and runs live operations only from `main`. It first reruns credential-free CI.
+[OpenTofu infrastructure](../.github/workflows/opentofu.yml) is manual-only and runs live operations only from `main`. It runs credential-free CI and a separate read-only state-bucket access check in parallel. The access check uses only the plan environment’s S3 credentials, lists a fresh disposable prefix, and reports allowlisted S3 error codes without reading state or logging provider messages. Planning requires both checks to pass; the actual OpenTofu contention/release probe still runs before every live plan/apply.
 
 1. Select **OpenTofu infrastructure → Run workflow**, choose `main`, `staging`, and `plan` initially.
 2. The plan job uses `staging-plan` credentials, checks actual R2 locking, saves an immutable encrypted snapshot of existing state, and generates an encrypted saved plan.

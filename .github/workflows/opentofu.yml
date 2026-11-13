@@ -33,10 +33,31 @@ jobs:
     if: github.ref == 'refs/heads/main'
     uses: ./.github/workflows/ci.yml
 
+  state-access:
+    name: Check state-storage access (read only)
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    environment: ${{ inputs.environment }}-plan
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.13'
+      - run: python3 -m pip install -r scripts/requirements-infra.txt
+      - name: Verify bucket listing without reading or writing state
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: python3 scripts/check_state_access.py
+
   plan:
     name: ${{ inputs.operation == 'inspect' && 'Inspect deployment state' || 'Save encrypted plan' }}
     if: github.ref == 'refs/heads/main'
-    needs: checks
+    needs: [checks, state-access]
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     environment: ${{ inputs.environment }}-plan
