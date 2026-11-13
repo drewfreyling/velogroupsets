@@ -32,6 +32,7 @@ For 7800, the release year follows Shimano’s product history (2004). Shimano�
 
 Every listed component links to a Shimano-hosted exploded view, service instruction or specification PDF. Period catalogues and later specification tables supply the additional facts attributed to them in each record. The principal reference editions are:
 
+- [January 1985 New Dura-Ace brochure, scan 6](https://www.disraeligears.co.uk/site/shimano_new_dura-ace_-_brochure_scan_6.html): original 7400 weights and capacities; see the [source review](dura-ace-7400-brochure.md).
 - [December 1987 Shimano catalogue, Dura-Ace component specifications](https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_10.html).
 - [2001 Shimano catalogue, pages 28–29](https://www.charlie-taylor.net/bikes/library/shimano/2001/28-29.htm).
 - [2008 Shimano Road consumer catalogue, PDF page 7](https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=7).
@@ -66,7 +67,7 @@ The archive year identifies the edition as filed by the host; it does not establ
 
 ## Weights and remaining gaps
 
-63 component records have sourced weights compliant with the [weight guidelines](weights-guidelines.md), including six added by the [catalogue/handbook review](dealer-catalogues.md). The other 79 retain explicit null weights. Null means an acceptable reference configuration has not yet been recorded, not that the component cannot be weighed.
+64 component records have sourced weights compliant with the [weight guidelines](weights-guidelines.md), including six added by the [catalogue/handbook review](dealer-catalogues.md). The other 78 retain explicit null weights. Null means an acceptable reference configuration has not yet been recorded, not that the component cannot be weighed.
 
 Crank weights identify arm length and chainrings and exclude the bottom bracket. FC-7800 remains unknown because the 2008 figure includes the bottom bracket; it is not reduced by an estimated bearing weight. Front-derailleur weights identify the mount, including the 28.6 mm clamp for the FD-7400-B reference. Shifter weights are published pair weights. The new SL-7401-FCAI and SL-7402-FCAI entries remain null because their source figures do not explicitly establish a pair. BL-7300’s single-lever figure is not doubled. FD-7300 also remains null: the catalogue lists two band sizes without identifying the weighed clamp. Cassette weights identify speed count and tooth range; lockring inclusion is assumed under the contribution policy. Quick-release hub weights require a source separating or excluding the skewer. The 1991 catalogue explicitly labels FH-7402-8’s 460 g as including quick release, so it remains null. Large-flange HB-7600 front/rear weights now use the 1991 nut-fastened, hollow-axle references: 241 g front and 313 g rear including lockring. These track hubs use axle nuts rather than quick-release skewers; no skewer mass was subtracted. Other track-hub weights and the 2001 hub figures remain withheld without qualifying evidence.
 

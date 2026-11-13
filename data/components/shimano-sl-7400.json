@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-7400",
   "weight_g": null,
-  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Left/right SL-7400 SIS pair. A manufacturer weight explicitly identifying the pair has not yet been sourced; the January 1985 brochure does not establish whether its lever figure is a pair weight.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-7400-0688/EV-SL-7400-0688C.pdf",
     "title": "Shimano SL-7400 exploded view and replacement parts",
@@ -20,9 +20,16 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-7400-0688/EV-SL-7400-0688C.pdf",
       "title": "Shimano SL-7400 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_new_dura-ace_-_brochure_scan_6.html",
+      "title": "Shimano New Dura-Ace brochure, January 1985, scan 6: original 7400 specifications and weights (archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-13"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.6
   }
 }
