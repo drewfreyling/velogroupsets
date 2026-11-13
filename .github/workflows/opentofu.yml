@@ -52,8 +52,12 @@ jobs:
         with:
           python-version: '3.13'
       - name: Install checksum-verified OpenTofu
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: bash scripts/install_opentofu.sh
       - name: Prepare lock-verified Cloudflare provider mirror
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: bash scripts/install_cloudflare_provider.sh
       - run: python3 -m pip install -r scripts/requirements-infra.txt
       - name: Inspect state or verify R2 locking and save plan
@@ -90,8 +94,12 @@ jobs:
         with:
           python-version: '3.13'
       - name: Install checksum-verified OpenTofu
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: bash scripts/install_opentofu.sh
       - name: Prepare lock-verified Cloudflare provider mirror
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: bash scripts/install_cloudflare_provider.sh
       - run: python3 -m pip install -r scripts/requirements-infra.txt
       - name: Verify approval policy and apply exact plan

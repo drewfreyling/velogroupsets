@@ -8,7 +8,7 @@ import unittest
 ROOT=Path(__file__).resolve().parents[2]
 
 class InstallerTests(unittest.TestCase):
-    def run_installer(self,version,curl_body):
+    def run_installer(self,version,curl_body,token=None):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
             (root/'.opentofu-version').write_text(version+'\n')
@@ -16,6 +16,9 @@ class InstallerTests(unittest.TestCase):
             (root/'curl').chmod(0o755)
             env={**os.environ,'PATH':str(root)+':'+os.environ['PATH'],
                  'RUNNER_TEMP':str(root),'GITHUB_PATH':str(root/'runner-path')}
+            env.pop('GH_TOKEN',None)
+            if token is not None:
+                env['GH_TOKEN']=token
             result=subprocess.run(['bash',str(ROOT/'scripts/install_opentofu.sh')],cwd=root,env=env,capture_output=True,text=True)
             self.assertNotEqual(result.returncode,0)
             self.assertFalse((root/'runner-path').exists())
@@ -34,15 +37,42 @@ class InstallerTests(unittest.TestCase):
     def test_failed_download_never_installs(self):
         self.run_installer('1.13.9','exit 22')
 
-    def run_provider_installer(self,lock):
+    def test_authenticated_api_fallback_still_rejects_corrupt_archive(self):
+        result=self.run_installer('1.13.9',self.fallback_curl(),'synthetic-release-token')
+        self.assertIn('API_FALLBACK',result.stdout)
+        self.assertIn('FAILED',result.stdout)
+        self.assertNotIn('synthetic-release-token',result.stdout+result.stderr)
+
+    def fallback_curl(self):
+        return '''args="$*"
+archive=""
+while [[ $# -gt 0 ]]; do
+  if [[ $1 == --output ]]; then archive="$2"; shift; fi
+  shift
+done
+if [[ "$args" != *api.github.com* ]]; then
+  [[ "$args" != *Authorization* ]] || exit 99
+  exit 22
+fi
+[[ "$args" == *"Authorization: Bearer synthetic-release-token"* ]] || exit 98
+[[ "$args" == *"?download="* ]] || exit 97
+echo API_FALLBACK
+printf corrupt > "$archive"
+'''
+
+    def run_provider_installer(self,lock,curl_body=None,token=None):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
             (root/'infra/opentofu').mkdir(parents=True)
             (root/'infra/opentofu/.terraform.lock.hcl').write_text(lock)
-            (root/'curl').write_text('#!/usr/bin/env bash\nwhile [[ $# -gt 0 ]]; do\n if [[ $1 == --output ]]; then printf corrupt > "$2"; exit 0; fi\n shift\ndone\nexit 1\n')
+            curl_body=curl_body or 'while [[ $# -gt 0 ]]; do\n if [[ $1 == --output ]]; then printf corrupt > "$2"; exit 0; fi\n shift\ndone\nexit 1\n'
+            (root/'curl').write_text('#!/usr/bin/env bash\n'+curl_body)
             (root/'curl').chmod(0o755)
             env={**os.environ,'PATH':str(root)+':'+os.environ['PATH'],
                  'RUNNER_TEMP':str(root),'GITHUB_ENV':str(root/'runner-env')}
+            env.pop('GH_TOKEN',None)
+            if token is not None:
+                env['GH_TOKEN']=token
             result=subprocess.run(['bash',str(ROOT/'scripts/install_cloudflare_provider.sh')],cwd=root,env=env,capture_output=True,text=True)
             self.assertNotEqual(result.returncode,0)
             self.assertFalse((root/'runner-env').exists())
@@ -56,3 +86,9 @@ class InstallerTests(unittest.TestCase):
     def test_provider_mirror_rejects_corrupt_download(self):
         result=self.run_provider_installer((ROOT/'infra/opentofu/.terraform.lock.hcl').read_text())
         self.assertIn('FAILED',result.stdout)
+
+    def test_provider_authenticated_fallback_preserves_lock_checksum_verification(self):
+        result=self.run_provider_installer((ROOT/'infra/opentofu/.terraform.lock.hcl').read_text(),self.fallback_curl(),'synthetic-release-token')
+        self.assertIn('API_FALLBACK',result.stdout)
+        self.assertIn('FAILED',result.stdout)
+        self.assertNotIn('synthetic-release-token',result.stdout+result.stderr)

@@ -15,9 +15,17 @@ mirror="$RUNNER_TEMP/provider-mirror"
 folder="$mirror/registry.opentofu.org/cloudflare/cloudflare"
 mkdir -p "$folder"
 archive="$folder/terraform-provider-cloudflare_${version}_linux_amd64.zip"
-curl --fail --location --retry 3 --retry-all-errors --connect-timeout 15 --max-time 120 \
-  --header 'Accept: application/octet-stream' --output "$archive" \
-  "https://api.github.com/repos/cloudflare/terraform-provider-cloudflare/releases/assets/${asset}"
+download_args=(--fail --location --retry 3 --retry-all-errors --connect-timeout 15 --max-time 120)
+if ! curl "${download_args[@]}" --output "$archive" \
+  "https://github.com/cloudflare/terraform-provider-cloudflare/releases/download/v${version}/terraform-provider-cloudflare_${version}_linux_amd64.zip"; then
+  api_headers=(--header 'Accept: application/octet-stream')
+  if [[ -n "${GH_TOKEN:-}" ]]; then
+    api_headers+=(--header "Authorization: Bearer ${GH_TOKEN}")
+  fi
+  download_nonce="${GITHUB_RUN_ID:-local}-${GITHUB_RUN_ATTEMPT:-1}-$(date +%s)"
+  curl "${download_args[@]}" "${api_headers[@]}" --output "$archive" \
+    "https://api.github.com/repos/cloudflare/terraform-provider-cloudflare/releases/assets/${asset}?download=${download_nonce}"
+fi
 printf '%s  %s\n' "$digest" "$archive" | sha256sum --check
 config="$RUNNER_TEMP/provider-mirror.tfrc"
 cat > "$config" <<EOF
