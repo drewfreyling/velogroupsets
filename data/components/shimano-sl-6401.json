@@ -1,0 +1,32 @@
+{
+  "id": "shimano-sl-6401",
+  "slug": "sl-6401",
+  "name": "600 Ultegra eight-speed downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "shifters",
+  "model_number": "SL-6401",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right braze-on downtube shifter pair, eight-speed SIS rear lever and front lever with fixing hardware. The SL-6400 six/seven-speed weight is not reused.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-6400_6401-0845/EV-SL-6400_6401-0845B.pdf",
+    "title": "Shimano SL-6401 eight-speed and SL-6400 six/seven-speed exploded view: separate front and rear lever units",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-6400_6401-0845/EV-SL-6400_6401-0845B.pdf",
+      "title": "Shimano SL-6401 eight-speed and SL-6400 six/seven-speed exploded view: separate front and rear lever units",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": [
+      8
+    ],
+    "mount": "Braze-on",
+    "weight_basis": "Pair"
+  }
+}

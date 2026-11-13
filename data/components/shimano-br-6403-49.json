@@ -1,0 +1,37 @@
+{
+  "id": "shimano-br-6403-49",
+  "slug": "br-6403-49",
+  "name": "600 Ultegra dual-pivot brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6403-49",
+  "weight_g": 424,
+  "weight_description": "Manufacturer-listed 424 g for the complete front and rear pair, 49-type dual-pivot calipers with factory brake pads and mounting bolts. The source does not identify the reference mounting-nut/bolt length.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-6403-1146/EV-BR-6403-1146A.pdf",
+    "title": "Shimano BR-6403-49 exploded view: complete front and rear calipers, brake shoes and pivot bolts",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-6403-1146/EV-BR-6403-1146A.pdf",
+      "title": "Shimano BR-6403-49 exploded view: complete front and rear calipers, brake shoes and pivot bolts",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=32",
+      "title": "Shimano 1991 dealer catalogue, printed page 29 / PDF page 32: BR-6403-49, 424 g for the front/rear pair (archived by Vintage Cannondale)",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "reach_mm": 49,
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

@@ -43,3 +43,20 @@ test('unknown caliper weights keep their basis and remain readable without JavaS
   expect(data.specifications.weight_basis).toBe('Pair');
   expect(data.specifications.includes_brake_pads).toBeUndefined();
 });
+
+test('6400 caliper reach variants and eight-speed shifters remain distinct', async ({page, request}) => {
+  await page.goto('/catalogue/?groupset=shimano-600-ultegra-6400&type=brake-calipers');
+  await expect(page.locator('#result-count')).toHaveText('3 components');
+  for (const model of ['BR-6400-49', 'BR-6400-57', 'BR-6403-49']) {
+    await expect(page.getByRole('link', {name:model, exact:true})).toBeVisible();
+  }
+  await page.getByRole('link', {name:'BR-6400-57', exact:true}).click();
+  await expect(detailRow(page, 'Weight').locator('dd > span')).toHaveText('Not yet sourced');
+  await expect(detailRow(page, 'Weight basis').locator('dd')).toHaveText('Front and rear pair');
+  await page.goto('/groupsets/shimano/600-ultegra-6400/');
+  await expect(page.getByRole('link', {name:'SL-6400-FCAI', exact:true})).toBeVisible();
+  await page.getByRole('link', {name:'SL-6401', exact:true}).click();
+  await expect(page.getByRole('heading', {name:'SL-6401', exact:true, level:1})).toBeVisible();
+  const {data} = await (await request.get('/api/v1/components/shimano-sl-6401.json')).json();
+  expect(data).toMatchObject({weight_g:null,specifications:{rear_speeds:[8],weight_basis:'Pair'}});
+});

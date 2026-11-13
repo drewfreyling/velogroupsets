@@ -1,0 +1,37 @@
+{
+  "id": "shimano-br-6400-49",
+  "slug": "br-6400-49",
+  "name": "600 Ultegra brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6400-49",
+  "weight_g": 360,
+  "weight_description": "Manufacturer-listed 360 g for the complete front and rear pair, 49-type single-pivot calipers with factory brake pads and mounting bolts. The source does not identify the reference mounting-nut/bolt variant.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-6400-0818/EV-BR-6400-0818E.pdf",
+    "title": "Shimano BR-6400-49 / BR-6400-57 exploded view: complete calipers, brake shoes and mounting hardware",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-6400-0818/EV-BR-6400-0818E.pdf",
+      "title": "Shimano BR-6400-49 / BR-6400-57 exploded view: complete calipers, brake shoes and mounting hardware",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
+      "title": "Shimano Dealers’ 1990 Product Manual, page 20: BR-6400-49 and BR-6400-57; 360 g for the 49-type front/rear pair (published August 1989; archived by Disraeli Gears)",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "SLR single pivot rim brake",
+    "reach_mm": 49,
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}
