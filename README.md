@@ -186,6 +186,8 @@ Infrastructure uses OpenTofu 1.13.9 and Cloudflare provider 5.28.1. CI checks Co
 
 ### Browser functionality checks
 
+The manual [Verify live production workflow](.github/workflows/smoke-production.yml) runs the production browser checks against `https://velogroupsets.com` using normal certificate validation. It does not deploy code, apply infrastructure or use deployment credentials. Local production-build checks continue to run in CI before releases.
+
 Run `npm run build` followed by `npm run test:browser`. Playwright starts a local Wrangler server against the built site. Both projects use Chromium: a desktop profile and an emulated Pixel 5 with touch input. This does not claim Firefox, WebKit or physical-device coverage.
 
 The suite exercises catalogue browsing, combined search/type/groupset filters, reload and browser Back navigation, model-number links, shared component pages, sourced/unknown weights, paired and separate front/rear calipers, rear derailleur limits and accessible cage-code help, 404 recovery, navigation without JavaScript, cache/security headers, external links and theme behaviour including cross-tab changes. Photo/sign-in/report/moderation form tests use explicit local provider/API fixtures; separate integration tests exercise D1/R2 and real local image processing. They do not prove live Google credentials, CSAM enrolment or external inbox monitoring. Comments remain unimplemented.
