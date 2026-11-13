@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-7800",
-  "weight_g": null,
-  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced.",
+  "weight_g": 419,
+  "weight_description": "Manufacturer average: 419 g for the complete left/right ten-speed double-chainset Dual Control lever pair, explicitly listed as a pair in the 2005 handbook.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-7800-2258/EV-ST-7800-2258.pdf",
     "title": "Shimano ST-7800 exploded view and replacement parts",
@@ -20,9 +20,16 @@
       "url": "https://si.shimano.com/en/pdfs/ev/ST-7800-2258/EV-ST-7800-2258.pdf",
       "title": "Shimano ST-7800 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=174",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 174 / printed page 186: ST-7800 419 g/pair; triple ST-7703 has only a front-lever figure",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "rear_speeds": 10,
+    "front_speeds": 2
   }
 }

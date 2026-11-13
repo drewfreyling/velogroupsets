@@ -4,28 +4,41 @@
   "name": "Sora brake calipers (front and rear pair)",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-sora-3300"
+    "shimano-sora-3300",
+    "shimano-2200"
   ],
   "type": "brake-calipers",
   "model_number": "BR-3300",
-  "weight_g": null,
-  "weight_description": "Weight not yet sourced for the complete front and rear pair with pads and mounting bolts.",
+  "weight_g": 348,
+  "weight_description": "Manufacturer average: 348 g for the complete front and rear pair with standard R50T brake pads and mounting bolts, from the 2005 handbook. The reference mounting-nut/bolt variant is not identified.",
   "technical_document": {
-    "url": "https://productinfo.shimano.com/pdfs/product/archive/2006_SPECIFICATION.pdf#page=108",
-    "title": "Shimano 2006 specifications, printed page 108: BR-3300 series, rim brake, standard pads and hardware; no weight listed",
-    "retrieved_on": "2026-11-11"
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=177",
+    "title": "Shimano 2005 Trade Sales Support Manual, PDF page 177 / printed page 189: BR-3300 complete factory caliper, standard pads and explicit F&R weight",
+    "retrieved_on": "2026-11-14"
   },
   "sources": [
     {
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2006_SPECIFICATION.pdf#page=108",
       "title": "Shimano 2006 specifications, printed page 108: BR-3300 series, rim brake, standard pads and hardware; no weight listed",
       "retrieved_on": "2026-11-11"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=177",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 177 / printed page 189: BR-3300 complete factory caliper, standard pads and explicit F&R weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=135",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 135 / printed page 147: groupset component line-up lists the BR-A550-57 long-reach option / shared BR-3300 caliper",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "weight_basis": "Pair",
     "brake_type": "Super SLR dual pivot rim brake",
     "reach_mm": 49,
-    "standard_brake_pads": "R50T"
+    "standard_brake_pads": "R50T",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
   }
 }

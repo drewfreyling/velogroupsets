@@ -1,0 +1,43 @@
+{
+  "id": "shimano-br-5501",
+  "slug": "br-5501",
+  "name": "105 brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5500"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-5501",
+  "weight_g": 353,
+  "weight_description": "Manufacturer average: 353 g for the complete front and rear BR-5501 pair with standard R55C pads and mounting bolts, in either listed silver/black finish. The 2005 handbook does not identify the reference mounting-nut/bolt length. This is a later model than BR-5500.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-5501-2172/EV-BR-5501-2172.pdf",
+    "title": "Shimano BR-5501 exploded view: complete front/rear calipers, brake shoes and fixing hardware",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-5501-2172/EV-BR-5501-2172.pdf",
+      "title": "Shimano BR-5501 exploded view: complete front/rear calipers, brake shoes and fixing hardware",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=177",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 177 / printed page 189: BR-5501-L/S, R55C shoes and explicit 353 g F&R weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=125",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 125 / printed page 137: 105 BR-5501 features, 353 g and group component line-up",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Super SLR dual pivot rim brake",
+    "reach_mm": 49,
+    "standard_brake_pads": "R55C",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

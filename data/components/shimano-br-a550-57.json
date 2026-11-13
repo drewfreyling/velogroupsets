@@ -4,12 +4,15 @@
   "name": "RX100 brake calipers (front and rear pair)",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-rx100-a550"
+    "shimano-rx100-a550",
+    "shimano-tiagra-4400",
+    "shimano-sora-3300",
+    "shimano-2200"
   ],
   "type": "brake-calipers",
   "model_number": "BR-A550-57",
-  "weight_g": null,
-  "weight_description": "Weight not yet sourced for the complete front and rear pair, 57-type calipers with brake pads and mounting bolts. The published 348 g figure applies only to the 49-type pair.",
+  "weight_g": 397,
+  "weight_description": "Manufacturer average: 397 g for the complete front and rear pair with standard R50T brake pads and mounting bolts, from the 2005 handbook. The reference mounting-nut/bolt variant is not identified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/BR-A550-1036/EV-BR-A550-1036A.pdf",
     "title": "Shimano BR-A550 exploded view: caliper variants, factory brake shoes and mounting hardware",
@@ -25,6 +28,26 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_28.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 28: component models, reach types and front/rear pair weight; published August 1989 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=177",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 177 / printed page 189: BR-A550-57 complete factory caliper, standard pads and explicit F&R weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=131",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 131 / printed page 143: groupset component line-up lists the BR-A550-57 long-reach option / shared BR-3300 caliper",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=133",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 133 / printed page 145: groupset component line-up lists the BR-A550-57 long-reach option / shared BR-3300 caliper",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=135",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 135 / printed page 147: groupset component line-up lists the BR-A550-57 long-reach option / shared BR-3300 caliper",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -34,6 +57,9 @@
     "reach_range_mm": [
       47,
       58
-    ]
+    ],
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true,
+    "standard_brake_pads": "R50T"
   }
 }

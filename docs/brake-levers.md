@@ -31,7 +31,7 @@ The 2007 line-up explicitly includes BL-R600 as a separate-control option alongs
 
 The period catalogues explicitly establish pair weights for BL-A351 (302 g), BL-A500 (258 g), BL-A251 (310 g), BL-A550 (252 g), BL-1050 (202 g), BL-1051 (252 g), BL-1055 (252 g), BL-6401 (260 g), BL-6403 (272 g), BL-7400 (216 g) and BL-7402 (240 g). The BL-TT79 average is 89 g per pair in Shimano’s April 2026 specification edition; its 7900 membership comes separately from the 2011 line-up. Each record identifies the weighed model and the source edition.
 
-Other added lever weights remain null. In particular:
+The [2005 handbook](shimano-2005.md) also supplies the explicit **260 g/pair** reference for BL-R600. Other added lever weights remain null. In particular:
 
 - BL-7300 is listed at 107 g each with pad in the [archived 1982 catalogue](https://labibleduvelocataloguesshimano.blogspot.com/p/shimano-1982.html), printed page 16. It remains null because an individual lever weight is not a pair weight.
 - BL-A251-EX has auxiliary extension levers. The standard BL-A251 pair weight does not describe this assembly.

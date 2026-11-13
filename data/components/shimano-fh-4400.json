@@ -8,8 +8,8 @@
   ],
   "type": "rear-hub",
   "model_number": "FH-4400",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FH-4400 has not been established. Any measurement must exclude skewers.",
+  "weight_g": 362,
+  "weight_description": "Manufacturer average: 362 g for the hub only, excluding the quick-release skewer, in the 2005 handbook’s explicitly without-QR weight row. The source lists multiple drilling options but does not identify the weighed spoke count.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FH-4400-1861/EV-FH-4400-1861.pdf",
     "title": "Shimano FH-4400 exploded view and replacement parts",
@@ -20,6 +20,16 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=26",
       "title": "Shimano 2005 line-up chart, PDF page 26: Tiagra 4400 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=178",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 178 / printed page 190: rear hub table: average-weight row explicitly without QR (QR weight in parentheses)",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=179",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 179 / printed page 191: continued rear hub table: FH-4400 362 g and separate 63 g QR",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {},

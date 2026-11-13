@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-7700-GS",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight for the GS rear derailleur has not yet been sourced.",
+  "weight_g": 212,
+  "weight_description": "Manufacturer-listed: 212 g for the RD-7700-GS triple-chainset rear derailleur with Smartcage pulley plate, from the 2005 handbook.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-7700-1656/EV-RD-7700-1656A.pdf",
     "title": "Shimano RD-7700 exploded view and replacement parts",
@@ -25,6 +25,11 @@
       "url": "https://si.shimano.com/en/pdfs/si/5TJ1G/SI-5TJ1G-000-00-ENG.pdf",
       "title": "Shimano rear derailleur service instructions SI-5TJ1G",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=119",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 119 / printed page 131: RD-7700-GS, 212 g; 38T capacity, 27/11T sprockets and 23T front difference",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

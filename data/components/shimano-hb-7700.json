@@ -8,8 +8,8 @@
   ],
   "type": "front-hub",
   "model_number": "HB-7700",
-  "weight_g": null,
-  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "weight_g": 119,
+  "weight_description": "Manufacturer average: 119 g for the hub only, excluding the quick-release skewer, in the 2005 handbook’s explicitly without-QR weight row. The source lists multiple drilling options but does not identify the weighed spoke count.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HB-7700-1653/EV-HB-7700-1653.pdf",
     "title": "Shimano HB-7700 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/HB-7700-1653/EV-HB-7700-1653.pdf",
       "title": "Shimano HB-7700 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=176",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 176 / printed page 188: front hub average weights explicitly without QR; HB-7700 119 g plus separate 59 g QR",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "weight_excludes_skewers": true

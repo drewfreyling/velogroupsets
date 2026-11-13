@@ -9,8 +9,8 @@
   ],
   "type": "front-hub",
   "model_number": "HB-3300",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for HB-3300 has not been established. Any measurement must exclude skewers.",
+  "weight_g": 141,
+  "weight_description": "Manufacturer average: 141 g for the hub only, excluding the quick-release skewer, in the 2005 handbook’s explicitly without-QR weight row. The source lists multiple drilling options but does not identify the weighed spoke count.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HB-3300-1860/EV-HB-3300-1860.pdf",
     "title": "Shimano HB-3300 exploded view and replacement parts",
@@ -26,6 +26,16 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2008_LINE-UP_CHART.pdf#page=25",
       "title": "Shimano 2008 line-up chart, PDF page 25: Sora 3400 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=176",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 176 / printed page 188: front hub table: average-weight row explicitly without QR (QR weight in parentheses)",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=177",
+      "title": "Shimano 2005 Trade Sales Support Manual, PDF page 177 / printed page 189: continued front hub table: HB-3300 141 g and separate 59 g QR",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {},
