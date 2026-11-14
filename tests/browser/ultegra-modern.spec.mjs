@@ -53,16 +53,22 @@ test('mechanical lever pairs retain published pair weights and unknown R8000 pai
   }
 });
 
-test('eleven-speed groups share bottom-bracket identity and preserve null hub weights', async ({page,request}) => {
+test('eleven-speed groups share bottom-bracket identity and display sourced and unknown hub weights', async ({page,request}) => {
   for (const family of ['6800','r8000']) {
     await page.goto(`/catalogue/?groupset=shimano-ultegra-${family}&type=bottom-bracket`);
     await expect(page.getByRole('link',{name:'SM-BBR60',exact:true})).toHaveAttribute('href','/components/shimano/sm-bbr60/');
   }
   const index=await (await request.get('/search-index.json')).json();
-  for (const model of ['HB-6800','FH-6800','HB-RS770','FH-RS770']) {
+  for (const [model,grams] of [['HB-6800',null],['FH-6800',null],['HB-RS770',125],['FH-RS770',302]]) {
     const part=index.find(p=>p.model===model);
-    expect(part.weight_g).toBeNull();
+    expect(part.weight_g).toBe(grams);
     await page.goto(part.url);
-    await expect(page.getByText('Any weight added must exclude skewers.',{exact:true})).toBeVisible();
+    const weight=page.locator('dl > div').filter({has:page.getByRole('term').filter({hasText:/^Weight$/})});
+    await expect(weight.locator('dd > span')).toHaveText(grams===null?'Not yet sourced':`${grams} g`);
+    await expect(page.getByText(grams===null?'Any weight added must exclude skewers.':'Excludes skewers.',{exact:true})).toBeVisible();
+    if (grams!==null) {
+      await expect(weight).toContainText('12 mm E-THRU');
+      await expect(weight).toContainText('separate frame/fork through-axle');
+    }
   }
 });
