@@ -1,0 +1,36 @@
+{
+  "id": "microshift-sl-m759-3",
+  "slug": "sl-m759-3",
+  "name": "Flat bar shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-marvo-lt"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M759-3",
+  "weight_g": 271,
+  "weight_description": "Manufacturer-listed weight for the complete left/right flat bar shifter pair for 3x9: 271 g. This is the catalogue’s complete two-control reference, not an added or doubled individual-side weight.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 26 (PDF p. 27): SL-M759-3: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 26 (PDF p. 27): SL-M759-3: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=21",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 20 (PDF p. 21): illustrated left/right pair and range membership",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "handlebar_type": "Flat bar"
+  }
+}

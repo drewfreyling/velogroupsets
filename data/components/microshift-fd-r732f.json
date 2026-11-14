@@ -1,0 +1,39 @@
+{
+  "id": "microshift-fd-r732f",
+  "slug": "fd-r732f",
+  "name": "R10 front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-r10"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R732F",
+  "weight_g": 117,
+  "weight_description": "Manufacturer reference for the 3x10 braze-on front derailleur, without a clamp adapter: 117 g. No mass is transferred between mount variants.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R732F: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R732F: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=9",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 8 (PDF p. 9): range membership, mount options and illustrated reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "front_speeds": 3,
+    "mount": "Braze-on",
+    "chainring_capacity_teeth": 22,
+    "maximum_chainring_teeth": 52,
+    "chainline_mm": 45,
+    "cable_route": "Down pull"
+  }
+}

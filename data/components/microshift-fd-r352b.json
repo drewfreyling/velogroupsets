@@ -1,0 +1,40 @@
+{
+  "id": "microshift-fd-r352b",
+  "slug": "fd-r352b",
+  "name": "R9 front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-r9"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R352B",
+  "weight_g": 125,
+  "weight_description": "Manufacturer reference for the 2x9 clamp front derailleur, 34.9 mm band: 125 g. No mass is transferred between mount variants.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R352B: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R352B: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=10",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 9 (PDF p. 10): range membership, mount options and illustrated reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "front_speeds": 2,
+    "mount": "Clamp",
+    "chainring_capacity_teeth": 16,
+    "maximum_chainring_teeth": 52,
+    "chainline_mm": 43.5,
+    "cable_route": "Down pull",
+    "clamp_diameter_mm": 34.9
+  }
+}

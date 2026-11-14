@@ -1,0 +1,40 @@
+{
+  "id": "microshift-rd-r55s",
+  "slug": "rd-r55s",
+  "name": "Centos rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-centos-10"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-R55S",
+  "weight_g": 195,
+  "weight_description": "Manufacturer average for the short-cage 10-speed Centos rear derailleur: 195 g, using the detailed table on printed p. 24. The product-page caption gives 193 g; the selected technical table gives 195 g.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=25",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 24 (PDF p. 25): RD-R55S: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=25",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 24 (PDF p. 25): RD-R55S: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=8",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 7 (PDF p. 8): range membership and cage configuration",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "cage": "Short",
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 32,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": null,
+    "compatibility": "Shimano road; compatibility does not imply Shimano groupset membership",
+    "minimum_largest_sprocket_teeth": 25
+  }
+}

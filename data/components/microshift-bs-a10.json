@@ -1,0 +1,41 @@
+{
+  "id": "microshift-bs-a10",
+  "slug": "bs-a10",
+  "name": "Bar end shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-r10"
+  ],
+  "type": "shifters",
+  "model_number": "BS-A10",
+  "weight_g": 140,
+  "weight_description": "Manufacturer average for the complete left/right 10-speed bar-end shifter pair, with micro-index front shifting for double or triple chainrings: 140 g. The catalogue describes both controls under this model code; individual-side weights are not added.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=24",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 23 (PDF p. 24): BS-A10: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=24",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 23 (PDF p. 24): BS-A10: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=12",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 11 (PDF p. 12): illustrated left/right pair, configuration and range membership",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=5",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 4 (PDF p. 5): road range line-up and explicitly associated controls",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 10,
+    "handlebar_type": "Bar end",
+    "front_shifting": "Micro-index for double or triple chainrings"
+  }
+}

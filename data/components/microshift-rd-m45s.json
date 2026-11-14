@@ -1,0 +1,43 @@
+{
+  "id": "microshift-rd-m45s",
+  "slug": "rd-m45s",
+  "name": "Mezzo rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-mezzo-8"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M45S",
+  "weight_g": 308,
+  "weight_description": "Manufacturer reference for the Mezzo 8-speed RD-M45S rear derailleur: 308 g.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=26",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 25 (PDF p. 26): RD-M45S: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=26",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 25 (PDF p. 26): RD-M45S: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=21",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 20 (PDF p. 21): range membership and named variant",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "total_capacity_teeth": 39,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": null,
+    "compatibility": "Shimano MTB / trekking; compatibility is separate from groupset membership",
+    "cage": "Short",
+    "compatible_rear_speeds": [
+      8,
+      9
+    ]
+  }
+}

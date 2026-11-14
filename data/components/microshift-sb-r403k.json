@@ -1,0 +1,41 @@
+{
+  "id": "microshift-sb-r403k",
+  "slug": "sb-r403k",
+  "name": "Drop bar shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-r10"
+  ],
+  "type": "shifters",
+  "model_number": "SB-R403K",
+  "weight_g": 430,
+  "weight_description": "Manufacturer-listed weight for the complete left/right drop bar shifter pair for 3x10: 430 g. This is the catalogue’s complete two-control reference, not an added or doubled individual-side weight.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=24",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 23 (PDF p. 24): SB-R403K: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=24",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 23 (PDF p. 24): SB-R403K: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=9",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 8 (PDF p. 9): illustrated left/right pair, configuration and range membership",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=5",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 4 (PDF p. 5): road range line-up and explicitly associated controls",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 10,
+    "handlebar_type": "Drop bar"
+  }
+}

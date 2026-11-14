@@ -1,0 +1,39 @@
+{
+  "id": "microshift-fd-r253f",
+  "slug": "fd-r253f",
+  "name": "R8 front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-r8"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R253F",
+  "weight_g": null,
+  "weight_description": "No mount-specific weight established for this braze-on variant; the selected technical table gives the other mount’s weight.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R253F: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R253F: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=11",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 10 (PDF p. 11): range membership, mount options and illustrated reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "front_speeds": 3,
+    "mount": "Braze-on",
+    "chainring_capacity_teeth": 20,
+    "maximum_chainring_teeth": 50,
+    "chainline_mm": 45,
+    "cable_route": "Down pull"
+  }
+}

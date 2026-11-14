@@ -1,0 +1,36 @@
+{
+  "id": "microshift-sl-m850-2",
+  "slug": "sl-m850-2",
+  "name": "Flat bar shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-10"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M850-2",
+  "weight_g": 225,
+  "weight_description": "Manufacturer-listed weight for the complete left/right flat bar shifter pair for 2x10: 225 g. This is the catalogue’s complete two-control reference, not an added or doubled individual-side weight.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 26 (PDF p. 27): SL-M850-2: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 26 (PDF p. 27): SL-M850-2: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=20",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 19 (PDF p. 20): illustrated left/right pair and range membership",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "handlebar_type": "Flat bar"
+  }
+}

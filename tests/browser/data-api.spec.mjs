@@ -1,5 +1,6 @@
 import {test,expect} from '@playwright/test';
 import {createServer} from 'node:http';
+import {manufacturers} from '../../apps/web/src/lib/catalogue.mjs';
 
 test('find static catalogue API documentation and download its OpenAPI contract',async({page,request})=>{
   await page.goto('/');
@@ -55,6 +56,6 @@ test('a browser on another origin can read static JSON with a normal GET',async(
       return {status:response.status,delivery:response.headers.get('X-Catalogue-Delivery'),body:await response.json()};
     });
     expect(result.status).toBe(200);expect(result.delivery).toBe('static-assets');
-    expect(result.body.data.map(m=>m.id).sort()).toEqual(['campagnolo','shimano','sram']);
+    expect(result.body.data.map(m=>m.id).sort()).toEqual(manufacturers.map(m=>m.id).sort());
   }finally{await new Promise(resolve=>consumer.close(resolve));}
 });

@@ -1,0 +1,43 @@
+{
+  "id": "microshift-rd-m61l",
+  "slug": "rd-m61l",
+  "name": "XLE rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-10"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M61L",
+  "weight_g": 281,
+  "weight_description": "Manufacturer reference for the XLE 10-speed RD-M61L rear derailleur: 281 g.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=26",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 25 (PDF p. 26): RD-M61L: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=26",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 25 (PDF p. 26): RD-M61L: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=20",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 19 (PDF p. 20): range membership and named variant",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "total_capacity_teeth": 43,
+    "maximum_sprocket_teeth": 36,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": null,
+    "compatibility": "Shimano MTB / trekking; compatibility is separate from groupset membership",
+    "cage": "Long",
+    "compatible_rear_speeds": [
+      10,
+      11
+    ]
+  }
+}

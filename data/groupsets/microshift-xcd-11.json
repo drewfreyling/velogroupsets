@@ -1,0 +1,22 @@
+{
+  "id": "microshift-xcd-11",
+  "slug": "xcd-11",
+  "name": "XCD",
+  "manufacturer_id": "microshift",
+  "model_number": "11",
+  "start_year": 2016,
+  "category": "mtb",
+  "generation": "Documented 2016 catalogue offering; the original family introduction may be earlier. Model and component coverage follows this edition.",
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=2",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 1 (PDF p. 2): catalogue explicitly labelled 2016–2017; dated 2016 new product information",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=18",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 17 (PDF p. 18): XCD 11: documented range and component membership",
+      "retrieved_on": "2026-11-14"
+    }
+  ]
+}

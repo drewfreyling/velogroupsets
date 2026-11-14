@@ -33,6 +33,8 @@ See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relati
 
 The [design guide](docs/design.md) documents the teal palette, self-hosted Source Sans 3 typography, contrast rules and dark-mode behaviour.
 
+The [microSHIFT catalogue review](docs/microshift.md) adds 11 road/MTB offerings and 87 components from the manufacturer’s 2016–2017 catalogue, with mount-specific weights, complete shifter pairs and configuration-specific cassettes.
+
 The [Shimano MTB and GRX review](docs/shimano-mtb.md) adds 65 MTB series, four GRX offerings and sourced starter components. Groupsets carry Road, MTB, Gravel or Track categories, with category filters on manufacturer and component catalogue pages. Component coverage remains incomplete.
 
 The [catalogue source review](docs/dealer-catalogues.md) indexes manufacturer scans and specification handbooks used to fill weights and derailleur limits, including exact pages, reference configurations and unresolved conflicts.

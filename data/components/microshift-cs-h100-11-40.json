@@ -1,0 +1,48 @@
+{
+  "id": "microshift-cs-h100-11-40",
+  "slug": "cs-h100-11-40",
+  "name": "10-speed 11–40T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-10"
+  ],
+  "type": "cassette",
+  "model_number": "CS-H100",
+  "weight_g": 527,
+  "weight_description": "Manufacturer average for the complete 10-speed 11–40T cassette with its supplied lockring: 527 g. The selected detailed table preserves the exact tooth sequence and decimal mass rather than the rounded product-page figure.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 26 (PDF p. 27): CS-H100: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 26 (PDF p. 27): CS-H100: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=20",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 19 (PDF p. 20): explicit cassette model and range association",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–40T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      17,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ],
+    "lockring_material": "Steel",
+    "hub_compatibility": "Standard HG cassette freehub"
+  }
+}

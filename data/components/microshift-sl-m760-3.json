@@ -1,0 +1,36 @@
+{
+  "id": "microshift-sl-m760-3",
+  "slug": "sl-m760-3",
+  "name": "Flat bar shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-10"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M760-3",
+  "weight_g": null,
+  "weight_description": "Left/right triple-chainring pair. The technical table gives the double-chainring model’s reference weight and lists this triple version only as an option; its specific pair mass remains unconfirmed.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 26 (PDF p. 27): SL-M760-3: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 26 (PDF p. 27): SL-M760-3: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=20",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 19 (PDF p. 20): illustrated left/right pair and range membership",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 10,
+    "handlebar_type": "Flat bar"
+  }
+}

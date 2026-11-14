@@ -1,0 +1,39 @@
+{
+  "id": "microshift-rd-m46s",
+  "slug": "rd-m46s",
+  "name": "Marvo LT rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-marvo-lt"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M46S",
+  "weight_g": 307,
+  "weight_description": "Manufacturer reference for the Marvo LT 9-speed RD-M46S rear derailleur: 307 g. Printed p. 20 explicitly identifies RD-M46S and 35T capacity; the different RD-M48S option code in the technical table is not substituted.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=21",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 20 (PDF p. 21): RD-M46S: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=21",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 20 (PDF p. 21): RD-M46S: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=21",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 20 (PDF p. 21): range membership and named variant",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "compatibility": "Shimano MTB / trekking; compatibility is separate from groupset membership",
+    "cage": "Short"
+  }
+}

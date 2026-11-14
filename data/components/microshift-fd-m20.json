@@ -1,0 +1,39 @@
+{
+  "id": "microshift-fd-m20",
+  "slug": "fd-m20",
+  "name": "Mezzo front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-mezzo-8"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M20",
+  "weight_g": 143,
+  "weight_description": "Manufacturer-listed 143 g reference for the 3x8 band-mounted front derailleur, with the documented 34.9 mm clamp. Smaller mounting diameters use optional reducers; no weight is transferred to a direct-mount variant.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=26",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 25 (PDF p. 26): FD-M20: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=26",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 25 (PDF p. 26): FD-M20: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=21",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 20 (PDF p. 21): 34.9 mm clamp, range membership and illustrated assembly",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "front_speeds": 3,
+    "mount": "Clamp",
+    "clamp_diameter_mm": 34.9,
+    "cable_route": "Dual pull",
+    "chainring_capacity_teeth": 18,
+    "maximum_chainring_teeth": 42
+  }
+}

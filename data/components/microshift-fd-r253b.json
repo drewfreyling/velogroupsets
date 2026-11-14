@@ -1,0 +1,40 @@
+{
+  "id": "microshift-fd-r253b",
+  "slug": "fd-r253b",
+  "name": "R8 front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-r8"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R253B",
+  "weight_g": 141,
+  "weight_description": "Manufacturer reference for the 3x8 clamp front derailleur, 34.9 mm band: 141 g. No mass is transferred between mount variants.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R253B: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R253B: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=11",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 10 (PDF p. 11): range membership, mount options and illustrated reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "front_speeds": 3,
+    "mount": "Clamp",
+    "chainring_capacity_teeth": 20,
+    "maximum_chainring_teeth": 50,
+    "chainline_mm": 45,
+    "cable_route": "Down pull",
+    "clamp_diameter_mm": 34.9
+  }
+}

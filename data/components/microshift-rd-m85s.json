@@ -1,0 +1,43 @@
+{
+  "id": "microshift-rd-m85s",
+  "slug": "rd-m85s",
+  "name": "XCD rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xcd-10"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M85S",
+  "weight_g": 200,
+  "weight_description": "Manufacturer reference for the XCD 10-speed RD-M85S rear derailleur: 200 g.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=26",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 25 (PDF p. 26): RD-M85S: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=26",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 25 (PDF p. 26): RD-M85S: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=19",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 18 (PDF p. 19): range membership and named variant",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 36,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": null,
+    "compatibility": "Shimano MTB / trekking; compatibility is separate from groupset membership",
+    "cage": "Short",
+    "compatible_rear_speeds": [
+      10,
+      11
+    ]
+  }
+}

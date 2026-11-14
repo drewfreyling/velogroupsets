@@ -1,0 +1,40 @@
+{
+  "id": "microshift-fd-r732b",
+  "slug": "fd-r732b",
+  "name": "R10 front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-r10"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-R732B",
+  "weight_g": null,
+  "weight_description": "No mount-specific weight established for this clamp variant; the selected technical table gives the other mount’s weight.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R732B: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=23",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 22 (PDF p. 23): FD-R732B: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=9",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 8 (PDF p. 9): range membership, mount options and illustrated reference",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "front_speeds": 3,
+    "mount": "Clamp",
+    "chainring_capacity_teeth": 22,
+    "maximum_chainring_teeth": 52,
+    "chainline_mm": 45,
+    "cable_route": "Down pull",
+    "clamp_diameter_mm": 34.9
+  }
+}

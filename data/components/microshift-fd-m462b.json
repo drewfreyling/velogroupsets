@@ -1,0 +1,37 @@
+{
+  "id": "microshift-fd-m462b",
+  "slug": "fd-m462b",
+  "name": "Marvo LT front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-marvo-lt"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M462B",
+  "weight_g": 154,
+  "weight_description": "Manufacturer-listed 154 g reference for the 2x9 band-mounted front derailleur, with the documented 34.9 mm clamp. Smaller mounting diameters use optional reducers; no weight is transferred to a direct-mount variant.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=21",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 20 (PDF p. 21): FD-M462B: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=21",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 20 (PDF p. 21): FD-M462B: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=21",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 20 (PDF p. 21): 34.9 mm clamp, range membership and illustrated assembly",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "front_speeds": 2,
+    "mount": "Clamp",
+    "clamp_diameter_mm": 34.9,
+    "cable_route": "Dual pull"
+  }
+}

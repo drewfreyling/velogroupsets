@@ -1,0 +1,43 @@
+{
+  "id": "microshift-rd-r47s",
+  "slug": "rd-r47s",
+  "name": "R10 rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-r10"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-R47S",
+  "weight_g": 218,
+  "weight_description": "Manufacturer average for the short-cage 10-speed R10 rear derailleur: 218 g, using the detailed table on printed p. 24.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=25",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 24 (PDF p. 25): RD-R47S: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=25",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 24 (PDF p. 25): RD-R47S: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=9",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 8 (PDF p. 9): range membership and cage configuration",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "cage": "Short",
+    "total_capacity_teeth": 33,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": null,
+    "compatibility": "Shimano road; compatibility does not imply Shimano groupset membership",
+    "compatible_rear_speeds": [
+      9,
+      10
+    ]
+  }
+}

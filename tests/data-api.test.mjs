@@ -50,7 +50,7 @@ test('static collections, every canonical detail and bulk export preserve all da
 
 test('riding category is additive to groupsets and shared components keep their original identities',()=>{
   const records=read('groupsets').data;
-  assert.equal(records.filter(g=>g.category==='mtb').length,65);
+  assert.deepEqual(records.filter(g=>g.category==='mtb').map(g=>g.id).sort(),groupsets.filter(g=>g.category==='mtb').map(g=>g.id).sort());
   assert.equal(records.find(g=>g.id==='shimano-dura-ace-track').category,'track');
   assert.equal(records.find(g=>g.id==='shimano-grx-rx810').category,'gravel');
   assert.equal(read('components/shimano-bb-7700').data.id,'shimano-bb-7700');

@@ -1,0 +1,41 @@
+{
+  "id": "microshift-sb-r512b",
+  "slug": "sb-r512b",
+  "name": "Drop bar shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-centos-11"
+  ],
+  "type": "shifters",
+  "model_number": "SB-R512B",
+  "weight_g": 498,
+  "weight_description": "Manufacturer-listed weight for the complete left/right drop bar shifter pair for 2x11: 498 g. This is the catalogue’s complete two-control reference, not an added or doubled individual-side weight.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=24",
+    "title": "microSHIFT 2016–2017 catalogue, printed p. 23 (PDF p. 24): SB-R512B: manufacturer specifications",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=24",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 23 (PDF p. 24): SB-R512B: manufacturer specifications and reference weight",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=7",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 6 (PDF p. 7): illustrated left/right pair, configuration and range membership",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=5",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 4 (PDF p. 5): road range line-up and explicitly associated controls",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "handlebar_type": "Drop bar"
+  }
+}
