@@ -1,0 +1,33 @@
+{
+  "id": "shimano-sm-fc5600",
+  "slug": "sm-fc5600",
+  "name": "105 HOLLOWTECH II bottom-bracket cup unit",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5600"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-FC5600",
+  "weight_g": null,
+  "weight_description": "Separate weight for the complete SM-FC5600 bottom-bracket cup unit not yet sourced. The 2006 manual identifies the separately available unit but its specification table lists combined crankset/bottom-bracket weights, not a cup-unit weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=139",
+    "title": "Shimano 2006 Trade Sales Support Manual, page 139: 105 SM-FC5600 BB cup unit for FC-5600/5603",
+    "retrieved_on": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=139",
+      "title": "Shimano 2006 Trade Sales Support Manual, page 139: 105 SM-FC5600 BB cup unit for FC-5600/5603",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=195",
+      "title": "Shimano 2006 Trade Sales Support Manual, page 195: 105 SM-FC5600 HOLLOWTECH II specification; no separate cup-unit weight",
+      "retrieved_on": "2026-11-14"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II external bearing cups"
+  }
+}
