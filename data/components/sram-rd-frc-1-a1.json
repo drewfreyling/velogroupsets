@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-FRC-1-A1",
-  "weight_g": null,
-  "weight_description": "The service reference combines cage/version options. A configuration-specific weight and a single set of derailleur limits have not yet been established.",
+  "weight_g": 261,
+  "weight_description": "Retailer-listed weight for a used legacy Force 1 eleven-speed medium-cage Type 2 assembly: 261 g, including the cable pinch bolt and both pulleys. This is the identified sample reference, not a weight for later Type 3.0 or long-cage assemblies.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-frc-1-a1",
     "title": "SRAM RD-FRC-1-A1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-frc-1-a1",
       "title": "SRAM RD-FRC-1-A1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.theproscloset.com/products/sram-force-1-rear-derailleur-11-speed-medium-cage-type-2-pre-owned",
+      "title": "The Pro’s Closet: Force 1 eleven-speed medium-cage Type 2 used sample, 261 g, cable pinch bolt and both pulleys included",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -31,6 +36,9 @@
     "largest_sprocket_variants": "28, 36, 42T; select the exact cage/version before applying a limit",
     "minimum_largest_sprocket_variants": "25, 36T; these values describe the largest sprocket, not the smallest",
     "cage_variants": "Long, Medium, Short",
-    "drivetrain_configuration": "1x"
+    "drivetrain_configuration": "1x",
+    "weight_reference_cage": "Medium",
+    "weight_reference_version": "Legacy Type 2; used sample",
+    "weight_source_type": "Retailer-listed sample"
   }
 }

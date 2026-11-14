@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-RIV-A1",
-  "weight_g": null,
-  "weight_description": "The service reference combines cage/version options. A configuration-specific weight and a single set of derailleur limits have not yet been established.",
+  "weight_g": 188,
+  "weight_description": "Manufacturer-listed reference for the ten-speed Rival rear derailleur: short-cage, 28T-max reference, from SRAM’s 2011 road catalogue. This period reference is not applied to later revisions or WiFLi variants.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-riv-a1",
     "title": "SRAM RD-RIV-A1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-riv-a1",
       "title": "SRAM RD-RIV-A1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://issuu.com/monzaimports/docs/sram_road_11/24",
+      "title": "SRAM Road Bicycle 2011 Catalogue, Monza Imports archive, viewer page 24: Rival ten-speed rear derailleur, 188 g, short cage",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -31,6 +36,9 @@
     "largest_sprocket_variants": "28, 32T; select the exact cage/version before applying a limit",
     "minimum_largest_sprocket_variants": "25T; these values describe the largest sprocket, not the smallest",
     "cage_variants": "Mid (WiFLi), n/a, Short",
-    "drivetrain_configuration": "2x"
+    "drivetrain_configuration": "2x",
+    "weight_reference_maximum_sprocket_teeth": 28,
+    "weight_reference_cage": "Short",
+    "weight_source_type": "Manufacturer-listed"
   }
 }

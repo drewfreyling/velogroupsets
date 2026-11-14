@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-RIV-1E-E1",
-  "weight_g": null,
-  "weight_description": "A weight for the identified component configuration has not yet been established from the cited manufacturer reference.",
+  "weight_g": 435,
+  "weight_description": "Manufacturer-listed reference for the 13-speed, 1x, 46T-max Rival E1 XPLR AXS rear derailleur, without battery. Full Mount reference for a UDH-compatible frame. SRAM’s XPLR methodology lists the battery separately.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-riv-1e-e1",
     "title": "SRAM RD-RIV-1E-E1 manufacturer service specifications and technical documents",
@@ -25,6 +25,16 @@
       "url": "https://docs.sram.com/en-US/publications/6TmfV97fHWv8kvGXVegoTy",
       "title": "SRAM Road AXS and XPLR AXS manual: Full Mount XPLR requires a UDH frame interface",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=4",
+      "title": "SRAM Force and Rival Weight Overview, 2025, PDF pages 3–4: Rival E1 XPLR, 13-speed, 435 g without battery",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=3",
+      "title": "SRAM Force and Rival Weight Overview, 2025, PDF page 3: XPLR rear-derailleur weights exclude battery",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -36,6 +46,9 @@
     "minimum_largest_sprocket_variants": "46T; these values describe the largest sprocket, not the smallest",
     "shifting_protocol": "AXS",
     "drivetrain_configuration": "1x",
-    "mount": "Full Mount; requires UDH frame interface"
+    "mount": "Full Mount; requires UDH frame interface",
+    "includes_battery": false,
+    "weight_reference_maximum_sprocket_teeth": 46,
+    "weight_source_type": "Manufacturer-listed"
   }
 }

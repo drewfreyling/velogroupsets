@@ -54,7 +54,7 @@ The manufacturer service pages and technical documents are hosted on `sram.com` 
 
 ## Weights and reference configurations
 
-Six weights meet the [contribution guidelines](weights-guidelines.md). These are manufacturer-listed references, not contributor measurements:
+**33 weights** now have references under the [contribution guidelines](weights-guidelines.md): the six manufacturer-listed control/cassette references below and 27 additions in the [rear-derailleur review](sram-rear-derailleur-weights.md). The derailleur review distinguishes manufacturer claims, retailer specifications and independent samples.
 
 | Component | Reference configuration | Weight |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Six weights meet the [contribution guidelines](weights-guidelines.md). These are
 
 Cable/housing inclusion is not stated for those mechanical control pair figures. Cassette lockring inclusion follows the project’s convention. Other sprocket options remain model options; the reference weight is not applied to every tooth range.
 
-The other **97 weights remain null**. Crank references must establish length, chainrings and bottom-bracket exclusion before a figure is published. A manufacturer field labelled “Weight Based On” without an actual weight is not a measurement. Complete hydraulic brake-system figures are not used as control-only pair weights, and individual-side figures are not doubled. All shifter records represent left/right pairs, including records with unknown weights.
+The other **70 weights remain null**, including the unresolved mechanical Apex XPLR RD-APX-1-D1 reference. Crank references must establish length, chainrings and bottom-bracket exclusion before a figure is published. A manufacturer field labelled “Weight Based On” without an actual weight is not a measurement. Complete hydraulic brake-system figures are not used as control-only pair weights, and individual-side figures are not doubled. All shifter records represent left/right pairs, including records with unknown weights.
 
 For mechanical 1x controls, the left unit is a brake-only lever. The complete curated pair identifies both actual model numbers: SB-FRC-HRD-A1 / BL-FRC-A1, SB-RIV-B1 / BL-RIV-A1 or SB-APX-B1 / BL-APX-A1. These are different assemblies from a two-shifter 2x pair; the known SB-RIV-B1 2x pair weight is not reused for the Rival 1 pair.
 

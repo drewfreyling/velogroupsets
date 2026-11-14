@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-RED-1E-E1",
-  "weight_g": null,
-  "weight_description": "A weight for the identified component configuration has not yet been established from the cited manufacturer reference.",
+  "weight_g": 375,
+  "weight_description": "Retailer-listed manufacturer reference for the thirteen-speed RED XPLR AXS E1 Full Mount rear derailleur, 46T max, supplied without battery: 375 g, SRAM part 00.7518.185.000. This is separate from the 293 g twelve-speed hanger-mounted RED XPLR D1 reference.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-red-1e-e1",
     "title": "SRAM RD-RED-1E-E1 manufacturer service specifications and technical documents",
@@ -25,6 +25,11 @@
       "url": "https://docs.sram.com/en-US/publications/6TmfV97fHWv8kvGXVegoTy",
       "title": "SRAM Road AXS and XPLR AXS manual: Full Mount XPLR requires a UDH frame interface",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.bike24.com/p2855049.html",
+      "title": "BIKE24: RD-RED-1E-E1, 375 g, manufacturer weight source, part 00.7518.185.000; scope of supply without battery",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -36,6 +41,10 @@
     "minimum_largest_sprocket_variants": "46T; these values describe the largest sprocket, not the smallest",
     "shifting_protocol": "AXS",
     "drivetrain_configuration": "1x",
-    "mount": "Full Mount; requires UDH frame interface"
+    "mount": "Full Mount; requires UDH frame interface",
+    "includes_battery": false,
+    "weight_reference_maximum_sprocket_teeth": 46,
+    "weight_reference_part_number": "00.7518.185.000",
+    "weight_source_type": "Manufacturer claim reported by retailer"
   }
 }

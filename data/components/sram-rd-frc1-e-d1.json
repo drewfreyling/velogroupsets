@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-FRC1-E-D1",
-  "weight_g": null,
-  "weight_description": "A weight for the identified component configuration has not yet been established from the cited manufacturer reference.",
+  "weight_g": 308,
+  "weight_description": "Manufacturer-listed reference for the twelve-speed, 1x, 44T-max Force XPLR eTap AXS D1 rear derailleur, without battery. SRAM’s XPLR support FAQ explicitly excludes batteries. This is the conventional-hanger version, separate from thirteen-speed Full Mount models.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-frc1-e-d1",
     "title": "SRAM RD-FRC1-E-D1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-frc1-e-d1",
       "title": "SRAM RD-FRC1-E-D1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/6014379628955-What-are-the-weights-of-the-XPLR-derailleurs-and-cassettes",
+      "title": "SRAM support: What are the weights of the XPLR derailleurs and cassettes? Force XPLR eTap AXS D1, 308 g, without battery",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -30,6 +35,9 @@
     "rear_speeds": 12,
     "minimum_largest_sprocket_variants": "36T; these values describe the largest sprocket, not the smallest",
     "shifting_protocol": "AXS",
-    "drivetrain_configuration": "1x"
+    "drivetrain_configuration": "1x",
+    "includes_battery": false,
+    "weight_reference_maximum_sprocket_teeth": 44,
+    "weight_source_type": "Manufacturer-listed"
   }
 }

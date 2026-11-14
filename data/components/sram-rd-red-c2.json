@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-RED-C2",
-  "weight_g": null,
-  "weight_description": "The service reference combines cage/version options. A configuration-specific weight and a single set of derailleur limits have not yet been established.",
+  "weight_g": 145,
+  "weight_description": "Retailer-listed specification for the RED eleven-speed short-cage, 28T-max mechanical rear derailleur: 145 g. The retailer separately lists 165 g for the medium cage; that figure is not used for this short-cage weight reference.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-red-c2",
     "title": "SRAM RD-RED-C2 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-red-c2",
       "title": "SRAM RD-RED-C2 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.universalcycles.com/shopping/product_details.php?id=83799",
+      "title": "Universal Cycles: RED eleven-speed rear derailleur, short cage 145 g / 28T max, medium cage separately 165 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -31,6 +36,9 @@
     "largest_sprocket_variants": "28, 32T; select the exact cage/version before applying a limit",
     "minimum_largest_sprocket_variants": "25T; these values describe the largest sprocket, not the smallest",
     "cage_variants": "Mid (WiFLi), Short",
-    "drivetrain_configuration": "2x"
+    "drivetrain_configuration": "2x",
+    "weight_reference_cage": "Short",
+    "weight_reference_maximum_sprocket_teeth": 28,
+    "weight_source_type": "Retailer-listed"
   }
 }

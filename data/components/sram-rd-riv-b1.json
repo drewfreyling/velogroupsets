@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-RIV-B1",
-  "weight_g": null,
-  "weight_description": "The service reference combines cage/version options. A configuration-specific weight and a single set of derailleur limits have not yet been established.",
+  "weight_g": 179,
+  "weight_description": "Independent published sample reference: 179 g for Disraeli Gears’ Rival 22 short-cage RIV-B1 derailleur, with 55 mm pulley-centre spacing and 28T maximum sprocket. This is the documented sample figure, not a SRAM manufacturer-average claim.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-riv-b1",
     "title": "SRAM RD-RIV-B1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-riv-b1",
       "title": "SRAM RD-RIV-B1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/sram_rival_22_short_cage_riv-b1_derailleur.html",
+      "title": "Disraeli Gears: SRAM Rival 22 short cage (RIV-B1), 179 g, 55 mm pulley-centre spacing",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -31,6 +36,10 @@
     "largest_sprocket_variants": "28, 32T; select the exact cage/version before applying a limit",
     "minimum_largest_sprocket_variants": "26, 30T; these values describe the largest sprocket, not the smallest",
     "cage_variants": "Medium, Mid (WiFLi), Short",
-    "drivetrain_configuration": "2x"
+    "drivetrain_configuration": "2x",
+    "weight_reference_cage": "Short",
+    "weight_reference_maximum_sprocket_teeth": 28,
+    "weight_reference_pulley_spacing_mm": 55,
+    "weight_source_type": "Independent published sample"
   }
 }

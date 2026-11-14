@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-RED-A1",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the 2010 technical manual establishes limits for the original RED ten-speed reference but does not publish a configuration-specific weight.",
+  "weight_g": 153,
+  "weight_description": "Manufacturer-listed reference for the ten-speed RED rear derailleur: original 28T-max catalogue reference, from SRAM’s 2011 road catalogue. This period reference is not applied to later revisions or WiFLi variants.",
   "technical_document": {
     "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf",
     "title": "SRAM 2020 Spare Parts Catalog, printed page 9: original RED rear derailleur RD-RED-A1 (2008–2011 reference)",
@@ -25,6 +25,11 @@
       "url": "https://www.sram.com/globalassets/document-hierarchy/user-manuals/sram-mtb/drivetrain/2010-sram-technical-manual.pdf#page=6",
       "title": "SRAM 2010 Technical Manual, printed/PDF page 6: original RED, Force and Rival ten-speed rear derailleur technical data",
       "retrieved_on": "2026-11-10"
+    },
+    {
+      "url": "https://issuu.com/monzaimports/docs/sram_road_11/16",
+      "title": "SRAM Road Bicycle 2011 Catalogue, Monza Imports archive, viewer page 16: RED ten-speed rear derailleur, 153 g, 28T max",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -33,6 +38,8 @@
     "maximum_sprocket_teeth": 28,
     "minimum_sprocket_teeth": 11,
     "maximum_front_difference_teeth": 16,
-    "reference_edition": "2010 Technical Manual; original RED rear derailleur (2008–2011 assembly reference)"
+    "reference_edition": "2010 Technical Manual; original RED rear derailleur (2008–2011 assembly reference)",
+    "weight_reference_maximum_sprocket_teeth": 28,
+    "weight_source_type": "Manufacturer-listed"
   }
 }

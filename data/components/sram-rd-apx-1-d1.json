@@ -9,7 +9,7 @@
   "type": "rear-derailleur",
   "model_number": "RD-APX-1-D1",
   "weight_g": null,
-  "weight_description": "A weight for the identified component configuration has not yet been established from the cited manufacturer reference.",
+  "weight_description": "Weight not yet established: the available RD-APX-1-D1 retailer listing gives 288 g in its manufacturer-weight technical text and 372 g in a separate additional-information weight field, without explaining the difference. Neither is adopted until the complete twelve-speed mechanical XPLR reference is clarified.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-apx-1-d1",
     "title": "SRAM RD-APX-1-D1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-apx-1-d1",
       "title": "SRAM RD-APX-1-D1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://wheelproject.com/product/sram-apex-xplr-rear-derailleur-12-speed-44t/",
+      "title": "Wheelproject: RD-APX-1-D1, part 00.7518.177.000; 288 g in technical text and unexplained 372 g additional-information field",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

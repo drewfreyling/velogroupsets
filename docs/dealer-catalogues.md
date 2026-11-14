@@ -93,3 +93,5 @@ Veloce RD11-VLBXS and RD11-VLBXM have documented 55 mm and 72.5 mm pulley-centre
 Further useful leads include the older Shimano scans in the same archive, later Shimano specification handbooks, and the remaining Campagnolo/SRAM publications. This is a checked batch of additions, not a claim that all catalogue gaps have been filled.
 
 The [146-record component weight review](shimano-component-weights.md) adds 19 manufacturer-listed weights across cranks, bottom brackets, cassettes, hubs, brake levers, headsets, pedals and seatposts. It documents selected configurations, edition conflicts and 127 remaining unknowns; all 14 requested caliper records remain unresolved.
+
+The [SRAM rear-derailleur weight review](sram-rear-derailleur-weights.md) fills 27 of 28 requested records using original weight sheets, the period road catalogue and identified published/retail references. It preserves battery inclusions, reference variants and existing limits; the conflicting mechanical Apex XPLR figure remains unknown.

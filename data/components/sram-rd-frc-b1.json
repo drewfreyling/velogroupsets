@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-FRC-B1",
-  "weight_g": null,
-  "weight_description": "The service reference combines cage/version options. A configuration-specific weight and a single set of derailleur limits have not yet been established.",
+  "weight_g": 178,
+  "weight_description": "Retailer-listed specification for the Force 22 eleven-speed short-cage, 28T-max mechanical rear derailleur: 178 g, SRAM part 00.7518.030.000. The figure is not applied to the WiFLi cage option.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-frc-b1",
     "title": "SRAM RD-FRC-B1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-frc-b1",
       "title": "SRAM RD-FRC-B1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.worldwidecyclery.com/products/sram-force-22-11-speed-short-cage-rear-derailleur-road",
+      "title": "Worldwide Cyclery: Force 22 eleven-speed short cage, 28T max, 178 g, part 00.7518.030.000",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -31,6 +36,10 @@
     "largest_sprocket_variants": "28, 32T; select the exact cage/version before applying a limit",
     "minimum_largest_sprocket_variants": "26, 30T; these values describe the largest sprocket, not the smallest",
     "cage_variants": "Mid (WiFLi), Short",
-    "drivetrain_configuration": "2x"
+    "drivetrain_configuration": "2x",
+    "weight_reference_cage": "Short",
+    "weight_reference_maximum_sprocket_teeth": 28,
+    "weight_reference_part_number": "00.7518.030.000",
+    "weight_source_type": "Retailer-listed"
   }
 }

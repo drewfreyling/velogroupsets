@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-RED-B1",
-  "weight_g": null,
-  "weight_description": "The service reference combines cage/version options. A configuration-specific weight and a single set of derailleur limits have not yet been established.",
+  "weight_g": 145,
+  "weight_description": "Retailer-listed specification for the 2012-generation RED ten-speed short-cage, 28T-max rear derailleur: 145 g, SRAM part 00.7515.090.000. This is separate from the original 153 g RED reference and the later eleven-speed RED C2.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-red-b1",
     "title": "SRAM RD-RED-B1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-red-b1",
       "title": "SRAM RD-RED-B1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.probikesupply.com/products/sram-2012-red-10-speed-short-cage-rear-derailleur",
+      "title": "Pro Bike Supply: 2012+ RED ten-speed short cage, 145 g, 28T max, part 00.7515.090.000",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -31,6 +36,10 @@
     "largest_sprocket_variants": "28, 32T; select the exact cage/version before applying a limit",
     "minimum_largest_sprocket_variants": "26, 30T; these values describe the largest sprocket, not the smallest",
     "cage_variants": "Mid (WiFLi), Short",
-    "drivetrain_configuration": "2x"
+    "drivetrain_configuration": "2x",
+    "weight_reference_cage": "Short",
+    "weight_reference_maximum_sprocket_teeth": 28,
+    "weight_reference_part_number": "00.7515.090.000",
+    "weight_source_type": "Retailer-listed"
   }
 }

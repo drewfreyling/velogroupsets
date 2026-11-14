@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-RED-E-A1",
-  "weight_g": null,
-  "weight_description": "The service reference combines cage/version options. A configuration-specific weight and a single set of derailleur limits have not yet been established.",
+  "weight_g": 237,
+  "weight_description": "Published measurement by Ben Delaney, BikeRadar, January 2016: 237 g for the original eleven-speed RED eTap rear derailleur including its 24 g battery, excluding the protective travel cover. This uses the reviewer’s reported complete weight; no battery or cover mass is added or subtracted by the catalogue. This is the original launch assembly, not a later WiFLi reference.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-red-e-a1",
     "title": "SRAM RD-RED-E-A1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-red-e-a1",
       "title": "SRAM RD-RED-E-A1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.bikeradar.com/features/sram-red-etap-actual-weights-and-installation",
+      "title": "BikeRadar, Ben Delaney, 26 January 2016: original RED eTap rear derailleur measured at 237 g including battery; SRAM claim separately 239 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -32,6 +37,9 @@
     "minimum_largest_sprocket_variants": "26, 30T; these values describe the largest sprocket, not the smallest",
     "cage_variants": "Mid (WiFLi), Short",
     "shifting_protocol": "e-Tap",
-    "drivetrain_configuration": "2x"
+    "drivetrain_configuration": "2x",
+    "includes_battery": true,
+    "weight_reference_version": "Original January 2016 launch assembly",
+    "weight_source_type": "Published measurement"
   }
 }

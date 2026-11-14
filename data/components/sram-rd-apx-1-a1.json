@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-APX-1-A1",
-  "weight_g": null,
-  "weight_description": "A weight for the identified component configuration has not yet been established from the cited manufacturer reference.",
+  "weight_g": 314,
+  "weight_description": "Manufacturer claim reported by Velo at the February 2016 Apex 1 launch: 314 g for the eleven-speed, long-cage, 42T-max mechanical rear derailleur. This is the original Apex 1 reference, separate from twelve-speed Apex XPLR.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/rd-apx-1-a1",
     "title": "SRAM RD-APX-1-A1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/rd-apx-1-a1",
       "title": "SRAM RD-APX-1-A1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://velo.outsideonline.com/road/road-racing/sram-appeals-to-simplicity-and-low-cost-with-1x-apex-drivetrain/",
+      "title": "Velo, 25 February 2016: Apex 1 launch, 314 g rear derailleur, up to 42T",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -30,6 +35,9 @@
     "rear_speeds": 11,
     "minimum_largest_sprocket_variants": "36T; these values describe the largest sprocket, not the smallest",
     "cage_variants": "Long",
-    "drivetrain_configuration": "1x"
+    "drivetrain_configuration": "1x",
+    "weight_reference_cage": "Long",
+    "weight_reference_maximum_sprocket_teeth": 42,
+    "weight_source_type": "Manufacturer claim reported by publication"
   }
 }
