@@ -39,7 +39,7 @@ The [2021 manufacturer manual](https://na.s-tec.shimano.com/s3_assets/filelibrar
 | --- | --- |
 | 239 | XTR RD-M9100-GS/SGS, RD-M9120-SGS, RD-M9000-SGS; XT RD-M8100-SGS, RD-M8120-SGS, RD-M8000-GS/SGS |
 | 240 | SLX RD-M7100-SGS, RD-M7120-SGS, RD-M670-GS/SGS |
-| 241 | Deore RD-M6100-SGS, RD-M6000-GS/SGS, RD-M5100-SGS, RD-M610-GS; weights stay null because the selected table leaves them blank |
+| 241 | Deore RD-M6100-SGS, RD-M6000-GS/SGS, RD-M5100-SGS, RD-M610-GS; the selected table leaves weights blank; an older reference now supplies RD-M610-GS at 299 g, while the other four remain null |
 | 290 | GRX RD-RX810, RD-RX812 and RD-RX400; RX812 front-difference entry stays null because the table prints a dash |
 
 Each rear derailleur records total capacity, maximum sprocket, minimum sprocket and front difference. For models with configuration-dependent limits, the record selects one documented configuration: RD-M9000-SGS and RD-M8000-SGS use 3×11, and RD-M8000-GS uses 2×11. Their larger single-chainring sprocket limits are not combined with triple/double front differences. Shimano’s smallest low-sprocket limit is different from the minimum top sprocket; the latter supplies `minimum_sprocket_teeth`.
@@ -60,3 +60,5 @@ The earlier ST-7400 560 g figure without an explicit pair basis is not reused. E
 ## Remaining coverage
 
 Historical range records need further verified component lists, and the newer MTB Di2 and GRX families need additional controls, brakes, cranksets, hubs and front derailleurs. Exage MTB/LX, STX RC, Tourney and later series outside these reviewed sources still need a separate membership/date review. No compatibility table alone establishes group membership. Single right-hand 1× trigger-shifter weights are not fabricated into pairs under the current shifter policy.
+
+The [rear-derailleur weight review](shimano-rear-derailleur-weights.md) supplies the earlier RD-M610-GS figure and documents why M560-GS and M737-GS still cannot use their SGS weights.

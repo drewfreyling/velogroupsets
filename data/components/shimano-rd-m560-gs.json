@@ -9,7 +9,7 @@
   "type": "rear-derailleur",
   "model_number": "RD-M560-GS",
   "weight_g": null,
-  "weight_description": "Weight not listed in the selected manufacturer specification table.",
+  "weight_description": "GS weight not yet sourced. The 1993 and 1994 dealer tables explicitly label 304 g as the super-long-cage SGS weight, so it is not applied to this GS record.",
   "technical_document": {
     "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=23",
     "title": "Shimano 1994 dealer manual, page 23: model specifications and manufacturer-listed reference weights",
@@ -19,6 +19,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=23",
       "title": "Shimano 1994 dealer manual, page 23: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=26",
+      "title": "Shimano 1993 dealer manual, PDF/printed page 26: RD-M560-GS and SGS; 304 g explicitly applies only to the super-long cage",
       "retrieved_on": "2026-11-14"
     }
   ],

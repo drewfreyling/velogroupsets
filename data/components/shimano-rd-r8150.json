@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-R8150",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-R8150 has not been established.",
+  "weight_g": 262,
+  "weight_description": "Manufacturer-listed 2025\u20132026 reference for the complete twelve-speed Ultegra Di2 RD-R8150 rear derailleur, standard bracketed assembly; a bracketless specification is separately available.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-R8150-4864/EV-RD-R8150-4864A.pdf",
     "title": "Shimano RD-R8150 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=55",
       "title": "Shimano 2025-2026 line-up chart, PDF page 55: Ultegra Di2 R8100 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=128",
+      "title": "Shimano 2025\u20132026 specifications, printed page 125 (PDF page 128): RD-R8150 average weight, 262 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

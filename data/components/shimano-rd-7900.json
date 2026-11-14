@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-7900",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 166,
+  "weight_description": "Manufacturer-listed 2012 reference for the complete ten-speed short-cage RD-7900 rear derailleur, 166 g. This uses the 2012 dealer table rather than the conflicting 116 g figure printed in the 2009 consumer catalogue.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-7900-2871/EV-RD-7900-2871B.pdf",
     "title": "Shimano RD-7900 exploded view and replacement parts",
@@ -23,8 +23,13 @@
     },
     {
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2009_SPECIFICATION.pdf#page=92",
-      "title": "Shimano 2008–2009 specifications, PDF page 92",
+      "title": "Shimano 2008\u20132009 specifications, PDF page 92",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2012_Shimano_Trade-Sales_Manual.pdf#page=121",
+      "title": "Shimano 2012 Trade-Sales Manual, PDF/printed page 121: RD-7900 ten-speed rear derailleur, 166 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

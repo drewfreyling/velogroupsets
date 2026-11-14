@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-6770-SS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-6770-SS has not been established.",
+  "weight_g": 270,
+  "weight_description": "Manufacturer-listed 2014\u20132015 reference for the complete ten-speed Ultegra Di2 RD-6770-SS rear derailleur.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-6770-A-4116/EV-RD-6770-A-4116.pdf",
     "title": "Shimano RD-6770-SS exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=46",
       "title": "Shimano 2012-2013 line-up chart, PDF page 46: Ultegra Di2 6770 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=193",
+      "title": "Shimano 2014\u20132015 specifications, printed page 190 (PDF page 193): RD-6770-SS average weight, 270 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

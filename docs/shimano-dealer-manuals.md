@@ -163,3 +163,7 @@ The RD-7800-GS reference does not overwrite the existing RD-7800-SS service-inst
 ST-R8000, ST-R8070 and ST-R9170 specification rows give individual-side figures in the reviewed tables. Their pair weights remain unknown; sides are not added or doubled. The ST-R9160 marketing line has confusing side/pair wording, but the detailed table on p. 347 explicitly states **127 g/pair**. Its repeated pair value under both side columns is one pair reference, not two weights to add. ST-6870 is likewise explicitly **303.2 g/pair** on that page. Older crank totals that include a bottom bracket remain excluded.
 
 Blank weight cells in the entry-level road tables remain unknown. A model appearing in a newer handbook does not establish that another revision’s weight, gearing or clamp configuration applies. Hub weights still require explicit skewer exclusion. The unreviewed indexed editions and alternative component configurations remain source work; see the [weight guidelines](weights-guidelines.md).
+
+## Follow-up rear-derailleur weight review
+
+The [52-model weight review](shimano-rear-derailleur-weights.md) fills 11 previously null rear-derailleur weights, including model-specific references in the 2006 and 2012/2013 TSS manuals and older 600 catalogues. It records the exact selected PDF/printed pages, preserves contributor measurements and lists the 41 remaining unknowns with blank-cell, cage and model-revision limitations.

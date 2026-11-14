@@ -9,7 +9,7 @@
   "type": "rear-derailleur",
   "model_number": "RD-M737-GS",
   "weight_g": null,
-  "weight_description": "Weight not listed in the selected manufacturer specification table.",
+  "weight_description": "GS weight not yet sourced. The 1994 dealer table gives 235 g specifically for the SGS cage and no separate GS weight; the SGS figure is not reused.",
   "technical_document": {
     "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=16",
     "title": "Shimano 1994 dealer manual, page 16: model specifications and manufacturer-listed reference weights",

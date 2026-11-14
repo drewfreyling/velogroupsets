@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-6207",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight has not been established.",
+  "weight_g": 195,
+  "weight_description": "Manufacturer-listed short-cage RD-6207 rear derailleur, 195 g. The separately listed long-cage RD-6207-GS is 217 g and is not this weight reference.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-6207-0599/EV-RD-6207-0599F.pdf",
     "title": "Shimano RD-6207 original 600 EX exploded view",
@@ -25,6 +25,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/RD-6207-0599/EV-RD-6207-0599F.pdf",
       "title": "Shimano RD-6207 original 600 EX exploded view",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1987%20Shimano.pdf#page=12",
+      "title": "Shimano 1987 catalogue, PDF page 12: RD-6207 short cage 195 g and separate long-cage RD-6207-GS 217 g; original manufacturer scan hosted by Vintage Cannondale",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

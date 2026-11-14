@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-M610-GS",
-  "weight_g": null,
-  "weight_description": "Weight not listed in the selected manufacturer specification table.",
+  "weight_g": 299,
+  "weight_description": "Manufacturer-listed 2014\u20132015 reference for the complete ten-speed RD-M610-GS rear derailleur, standard bracketed assembly. A bracketless specification is offered separately; the SGS column lists a different weight.",
   "technical_document": {
     "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=241",
     "title": "Shimano 2021 dealer manual, page 241: model specifications and manufacturer-listed reference weights",
@@ -19,6 +19,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=241",
       "title": "Shimano 2021 dealer manual, page 241: model specifications and manufacturer-listed reference weights",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=24",
+      "title": "Shimano 2014\u20132015 specifications, printed page 21 (PDF page 24): RD-M610-GS average weight, 299 g; SGS 308 g",
       "retrieved_on": "2026-11-14"
     }
   ],

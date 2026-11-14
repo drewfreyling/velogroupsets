@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-4601-SS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-4601-SS has not been established.",
+  "weight_g": 266,
+  "weight_description": "Manufacturer-listed 2013 reference for the complete ten-speed RD-4601 short-cage (SS) rear derailleur; the GS weight cells in this table are blank.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-4601-3424/EV-RD-4601-3424A.pdf",
     "title": "Shimano RD-4601-SS exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=30",
       "title": "Shimano 2012-2013 line-up chart, PDF page 30: Tiagra 4600 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2013_Trade_Sales_Support_Manual.pdf#page=242",
+      "title": "Shimano 2013 Trade Sales Support Manual, printed page 243 (PDF page 242): RD-4601 SS, 266 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

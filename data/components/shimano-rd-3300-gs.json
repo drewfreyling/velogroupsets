@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-3300-GS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for RD-3300-GS has not been established.",
+  "weight_g": 280,
+  "weight_description": "Manufacturer-listed 2006 reference for the complete eight-speed RD-3300-GS rear derailleur; the GS column is separate from the 265 g SS reference.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-3300-1882/EV-RD-3300-1882.pdf",
     "title": "Shimano RD-3300-GS exploded view and replacement parts",
@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2006_SPECIFICATION.pdf#page=93",
       "title": "Shimano 2006 specification handbook, page 93: rear derailleur road specification table",
       "retrieved_on": "2026-11-10"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=193",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 193: RD-3300-GS, 280 g; SS is a separate column",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
