@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-RED-E1",
-  "weight_g": null,
-  "weight_description": "A crank-only weight identifying crank length, chainring tooth counts and bottom-bracket exclusion has not yet been established from the cited reference.",
+  "weight_g": 545,
+  "weight_description": "Manufacturer-listed non-power crankset reference: 172.5 mm arms, 48/35T chainrings, DUB spindle; excludes bottom bracket. SRAM’s 2024 sheet lists the RED AXS E1 crankset separately from the DUB BSA bottom bracket and power-meter option. This is the sourced 172.5 mm reference, not an estimated 170 mm weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fc-red-e1",
     "title": "SRAM FC-RED-E1 manufacturer service specifications and technical documents",
@@ -20,10 +20,29 @@
       "url": "https://www.sram.com/en/service/models/fc-red-e1",
       "title": "SRAM FC-RED-E1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://images.performancebike.com/images/resources/SRAMREDAXSGROUP-PB/Manuals/2-SRAM-RED-Weights.pdf#page=2",
+      "title": "SRAM RED AXS Weight Overview, 2024, PDF pp. 1–2: RED AXS E1 non-power crankset, 545 g, 172.5 mm / 48/35T, separate BB",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://images.performancebike.com/images/resources/SRAMREDAXSGROUP-PB/Manuals/2-SRAM-RED-Weights.pdf#page=1",
+      "title": "SRAM 2024 crank methodology: 172.5 mm / 48/35T; bottom bracket listed separately",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "front_speeds": 2,
-    "spindle_interfaces": "DUB"
+    "spindle_interfaces": "DUB",
+    "crank_length_mm": 172.5,
+    "chainrings_teeth": [
+      48,
+      35
+    ],
+    "includes_bottom_bracket": false,
+    "includes_power_meter": false,
+    "weight_reference_spindle_interface": "DUB",
+    "weight_source_type": "Manufacturer-listed"
   }
 }

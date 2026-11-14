@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-XG-1251-D1",
-  "weight_g": null,
-  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "weight_g": 412,
+  "weight_description": "Manufacturer-listed reference for the 12-speed 10–44T cassette. Lockring inclusion is assumed under the catalogue weight guidelines. Other tooth ranges are not assigned this reference weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/cs-xg-1251-d1",
     "title": "SRAM CS-XG-1251-D1 manufacturer service specifications and technical documents",
@@ -25,11 +25,18 @@
       "url": "https://www.cyclingnews.com/news/sram-zipp-and-rockshox-combine-to-create-xplr-a-new-gravel-component-range/",
       "title": "Cyclingnews XPLR launch report, 10 August 2021: RED/Force/Rival rear derailleurs, shared controls and XG-1271/XG-1251 cassettes",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/6014379628955-What-are-the-weights-of-the-XPLR-derailleurs-and-cassettes",
+      "title": "SRAM XPLR weight FAQ: XG-1251, 10–44T, 412 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 12,
     "sprocket_options": "10-44T",
-    "freehub_interface": "XDR"
+    "freehub_interface": "XDR",
+    "sprocket_range": "10–44T",
+    "weight_source_type": "Manufacturer-listed"
   }
 }

@@ -9,8 +9,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-PG-1170-A1",
-  "weight_g": null,
-  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "weight_g": 247,
+  "weight_description": "Manufacturer claim reported by publication reference for the 11-speed 11–26T cassette. Lockring inclusion is assumed under the catalogue weight guidelines. Other tooth ranges are not assigned this reference weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/cs-pg-1170-a1",
     "title": "SRAM CS-PG-1170-A1 manufacturer service specifications and technical documents",
@@ -31,11 +31,18 @@
       "url": "https://www.sram.com/en/sram/road/series/sram-force-1?page=1",
       "title": "SRAM Force 1 manufacturer component list: PG-1170 cassette",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://cyclingmagazine.ca/sections/gear-reviews/components/sram-force-cx1-takes-companys-single-ring-system-to-cyclocross/",
+      "title": "Canadian Cycling Magazine, Force CX1 launch: PG-1170, 247 g for eleven-speed 11–26T; other ranges separately listed",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 11,
     "sprocket_options": "11-25T, 11-26T, 11-28T, 11-32T, 11-36T",
-    "freehub_interface": "n/a, Splined 11"
+    "freehub_interface": "n/a, Splined 11",
+    "sprocket_range": "11–26T",
+    "weight_source_type": "Manufacturer claim reported by publication"
   }
 }

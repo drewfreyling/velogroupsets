@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-XG-1371-E1",
-  "weight_g": null,
-  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "weight_g": 346,
+  "weight_description": "Manufacturer-listed reference for the 13-speed 10–46T cassette. Lockring inclusion is assumed under the catalogue weight guidelines. Other tooth ranges are not assigned this reference weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/cs-xg-1371-e1",
     "title": "SRAM CS-XG-1371-E1 manufacturer service specifications and technical documents",
@@ -25,11 +25,18 @@
       "url": "https://support.sram.com/hc/en-us/articles/36350528178331-What-parts-are-available-with-the-Force-XPLR-AXS-product-line-When-will-they-be-available",
       "title": "SRAM Force XPLR AXS product availability: 17 June 2025; XG-1371 cassette and shared Force AXS controls",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=4",
+      "title": "SRAM Force/Rival Weight Overview, 2025, PDF p. 4: Force E1 XPLR XG-1371, 10–46T, 346 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 13,
     "sprocket_options": "10-46T",
-    "freehub_interface": "XDR"
+    "freehub_interface": "XDR",
+    "sprocket_range": "10–46T",
+    "weight_source_type": "Manufacturer-listed"
   }
 }

@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SB-RIV-A1",
-  "weight_g": null,
-  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "weight_g": 320,
+  "weight_description": "Manufacturer-listed weight for the original Rival ten-speed left/right DoubleTap control pair: 320 g. The 2011 road catalogue supplies the mass, and SRAM’s exact-model service specification explicitly identifies its weight basis as a pair. Cable and housing inclusion is not stated.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/sb-riv-a1",
     "title": "SRAM SB-RIV-A1 manufacturer service specifications and technical documents",
@@ -20,9 +20,20 @@
       "url": "https://www.sram.com/en/service/models/sb-riv-a1",
       "title": "SRAM SB-RIV-A1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://issuu.com/monzaimports/docs/sram_road_11/24",
+      "title": "SRAM Road Bicycle 2011 Catalogue, viewer p. 24: Rival ten-speed DoubleTap controls, 320 g",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.sram.com/en/service/models/sb-riv-a1",
+      "title": "SRAM SB-RIV-A1 service specifications: Weight Based On = pair",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "weight_source_type": "Manufacturer-listed"
   }
 }

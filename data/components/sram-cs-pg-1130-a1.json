@@ -9,8 +9,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-PG-1130-A1",
-  "weight_g": null,
-  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "weight_g": 538,
+  "weight_description": "Retailer-listed reference for the 11-speed 11–42T cassette: 11-13-15-17-19-22-25-28-32-36-42T. Lockring inclusion is assumed under the catalogue weight guidelines. Other tooth ranges are not assigned this reference weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/cs-pg-1130-a1",
     "title": "SRAM CS-PG-1130-A1 manufacturer service specifications and technical documents",
@@ -31,11 +31,31 @@
       "url": "https://www.sram.com/en/sram/road/series/sram-apex-1",
       "title": "SRAM Apex 1 manufacturer component list: PG-1130 cassette",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.worldwidecyclery.com/products/sram-pg-1130-11-42-11spd-cassette",
+      "title": "Worldwide Cyclery: PG-1130, 538 g for eleven-speed 11–42T, full sprocket sequence",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 11,
     "sprocket_options": "11-26T, 11-28T, 11-32T, 11-36T, 11-42T",
-    "freehub_interface": "n/a, Splined 11"
+    "freehub_interface": "n/a, Splined 11",
+    "sprocket_range": "11–42T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      17,
+      19,
+      22,
+      25,
+      28,
+      32,
+      36,
+      42
+    ],
+    "weight_source_type": "Retailer-listed"
   }
 }

@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-RED-E-A1",
-  "weight_g": null,
-  "weight_description": "Braze-on reference; a compliant weight for this mount has not yet been sourced. Clamp variants are not used as this reference.",
+  "weight_g": 162,
+  "weight_description": "Published complete-assembly measurement by Ben Delaney, BikeRadar: 162 g for the original eleven-speed RED eTap front derailleur including its battery. The pictured assembly is braze-on without a clamp adapter. The author’s reported complete weight is used directly; no battery or travel-cover mass is added or subtracted by the catalogue.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fd-red-e-a1",
     "title": "SRAM FD-RED-E-A1 manufacturer service specifications and technical documents",
@@ -20,10 +20,17 @@
       "url": "https://www.sram.com/en/service/models/fd-red-e-a1",
       "title": "SRAM FD-RED-E-A1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.bikeradar.com/features/sram-red-etap-actual-weights-and-installation",
+      "title": "BikeRadar, 26 January 2016: original RED eTap front derailleur measured at 162 g including battery; braze-on assembly pictured",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "mount": "Braze-on",
-    "front_speeds": 2
+    "front_speeds": 2,
+    "includes_battery": true,
+    "weight_source_type": "Published measurement"
   }
 }

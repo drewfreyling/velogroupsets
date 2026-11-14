@@ -10,7 +10,7 @@
   "type": "shifters",
   "model_number": "ED-RED-E1",
   "weight_g": null,
-  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "weight_description": "Weight not yet sourced: The checked numerical references include hydraulic calipers/hoses/fluid or give individual-side figures. No complete control-only left/right pair weight was established; brake-system totals and individual-side arithmetic are not used.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/ed-red-e1",
     "title": "SRAM ED-RED-E1 manufacturer service specifications and technical documents",

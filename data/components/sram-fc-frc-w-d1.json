@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-FRC-W-D1",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a weight identifying crank length, 43/30T chainrings and bottom-bracket exclusion has not been established.",
+  "weight_description": "Weight not yet sourced: BikeRumor reports 696 g for a 43/30T Wide crank assembly, separately from the BB, but the reviewed text does not identify the weighed arm length. Available lengths or test-bike size do not settle it.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fc-frc-w-d1",
     "title": "SRAM FC-FRC-W-D1 manufacturer Model ID, Wide specification and service documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/fc-frc-w-d1",
       "title": "SRAM FC-FRC-W-D1 manufacturer Model ID, Wide specification and service documents",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://bikerumor.com/sram-force-axs-wide-actual-weights-first-ride-review/",
+      "title": "BikeRumor: Force AXS Wide crankset 696 g with 43/30T, weighed arm length not established in selected text",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

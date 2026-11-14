@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-XG-1190-A2",
-  "weight_g": null,
-  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "weight_g": 151,
+  "weight_description": "Retailer-listed reference for the 11-speed 11–28T cassette. Lockring inclusion is assumed under the catalogue weight guidelines. Other tooth ranges are not assigned this reference weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/cs-xg-1190-a2",
     "title": "SRAM CS-XG-1190-A2 manufacturer service specifications and technical documents",
@@ -25,11 +25,18 @@
       "url": "https://www.cyclingnews.com/features/sram-unveils-its-red-22-11-speed-hydraulic-mechanical-group/",
       "title": "Cyclingnews launch report, 15 April 2013: SRAM RED 22 and Force 22",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.backcountry.com/sram-xg1190-a2-cassette",
+      "title": "Backcountry XG1190 A2: Claimed Weight [11–28T] 151 g, eleven-speed",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 11,
     "sprocket_options": "11-25T, 11-26T, 11-28T, 11-30T, 11-32T",
-    "freehub_interface": "n/a, Splined 11"
+    "freehub_interface": "n/a, Splined 11",
+    "sprocket_range": "11–28T",
+    "weight_source_type": "Retailer-listed"
   }
 }

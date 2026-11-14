@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-RIV-W-D1",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a weight identifying crank length, 43/30T chainrings and bottom-bracket exclusion has not been established.",
+  "weight_description": "Weight not yet sourced: The checked 2021 review weighs a 175 mm Wide crank with a power meter; it does not establish this record’s non-power reference. No power-meter deduction is made.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fc-riv-w-d1",
     "title": "SRAM FC-RIV-W-D1 manufacturer Model ID, Wide specification and service documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/fc-riv-w-d1",
       "title": "SRAM FC-RIV-W-D1 manufacturer Model ID, Wide specification and service documents",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://bikerumor.com/hands-on-complete-rival-etap-axs-wireless-road-group-with-actual-weights/",
+      "title": "BikeRumor 2021 Rival AXS: 175 mm Wide crank with Quarq power meter, not a non-power reference",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

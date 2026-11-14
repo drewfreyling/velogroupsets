@@ -9,7 +9,7 @@
   "type": "front-derailleur",
   "model_number": "FD-RIV-EW-D1",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a braze-on-specific reference weight has not been established.",
+  "weight_description": "Weight not yet sourced: A used braze-on Wide listing gives 180 g and separately says the battery is not supplied, but does not establish battery inclusion in the weighed assembly. Delivery contents are not treated as proof of weight inclusions.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fd-riv-ew-d1",
     "title": "SRAM FD-RIV-EW-D1 manufacturer Model ID, Wide specification and service documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/fd-riv-ew-d1",
       "title": "SRAM FD-RIV-EW-D1 manufacturer Model ID, Wide specification and service documents",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.theproscloset.com/products/6660168057024-sram-rival-etap-axs-wide-front-derailleur-12-speed-braze-on",
+      "title": "The Pro’s Closet: Rival AXS Wide braze-on used sample, 180 g; battery not supplied, weighed battery basis unspecified",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

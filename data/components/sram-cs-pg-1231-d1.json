@@ -9,8 +9,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-PG-1231-D1",
-  "weight_g": null,
-  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "weight_g": 425,
+  "weight_description": "Manufacturer-listed reference for the 12-speed 11–44T cassette. Lockring inclusion is assumed under the catalogue weight guidelines. Other tooth ranges are not assigned this reference weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/cs-pg-1231-d1",
     "title": "SRAM CS-PG-1231-D1 manufacturer service specifications and technical documents",
@@ -26,11 +26,18 @@
       "url": "https://www.cyclingnews.com/news/sram-extends-12-speed-electronic-shifting-to-its-fourth-tier-axs-groupset/",
       "title": "Cyclingnews Apex launch report, 15 June 2023: 12-speed mechanical and AXS options",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://support.sram.com/hc/en-us/articles/6014379628955-What-are-the-weights-of-the-XPLR-derailleurs-and-cassettes",
+      "title": "SRAM XPLR weight FAQ: PG-1231, 11–44T, 425 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 12,
     "sprocket_options": "11-44T",
-    "freehub_interface": "Splined 11"
+    "freehub_interface": "Splined 11",
+    "sprocket_range": "11–44T",
+    "weight_source_type": "Manufacturer-listed"
   }
 }

@@ -9,7 +9,7 @@
   "type": "front-derailleur",
   "model_number": "FD-RIV-B1",
   "weight_g": null,
-  "weight_description": "Braze-on reference; a compliant weight for this mount has not yet been sourced. Clamp variants are not used as this reference.",
+  "weight_description": "Weight not yet sourced: Exact-model retailer tables list 79 g and supply a chain spotter, but do not establish whether the spotter is in that weight. The manufacturer page says its weight basis includes the spotter without giving a numerical mass. A consistent hardware-qualified reference remains open; older Rival ten-speed figures are not transferred.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fd-riv-b1",
     "title": "SRAM FD-RIV-B1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/fd-riv-b1",
       "title": "SRAM FD-RIV-B1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://joemammacycles.com/products/rival22",
+      "title": "Joe Mamma: exact FD-RIV-B1 braze-on table, 79 g; chain spotter supplied, inclusion in numerical weight not resolved",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

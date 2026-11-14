@@ -9,8 +9,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-XG-1250-D1",
-  "weight_g": null,
-  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "weight_g": 285,
+  "weight_description": "Manufacturer-listed reference for the 12-speed 10–30T cassette. Lockring inclusion is assumed under the catalogue weight guidelines. Other tooth ranges are not assigned this reference weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/cs-xg-1250-d1",
     "title": "SRAM CS-XG-1250-D1 manufacturer service specifications and technical documents",
@@ -26,11 +26,18 @@
       "url": "https://support.sram.com/hc/en-us/articles/36349928086043-What-cassette-options-are-available-with-the-Rival-AXS-groupset",
       "title": "SRAM Rival AXS E1 cassette options: 10–30T and 10–36T",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=2",
+      "title": "SRAM Force/Rival Weight Overview, 2025, PDF p. 2: Rival D1 / E1 retained XG-1250, 10–30T, 285 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 12,
     "sprocket_options": "10-30T, 10-36T",
-    "freehub_interface": "XDR"
+    "freehub_interface": "XDR",
+    "sprocket_range": "10–30T",
+    "weight_source_type": "Manufacturer-listed"
   }
 }

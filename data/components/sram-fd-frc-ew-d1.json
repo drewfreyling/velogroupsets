@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-FRC-EW-D1",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a braze-on-specific reference weight has not been established.",
+  "weight_g": 156,
+  "weight_description": "Published measurement for the Force AXS Wide 43/30T front derailleur, braze-on without a separate clamp adapter or battery: 156 g. BikeRumor shows the standalone mounting assembly on the scale and explicitly says its derailleur weights exclude batteries.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fd-frc-ew-d1",
     "title": "SRAM FD-FRC-EW-D1 manufacturer Model ID, Wide specification and service documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/fd-frc-ew-d1",
       "title": "SRAM FD-FRC-EW-D1 manufacturer Model ID, Wide specification and service documents",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://bikerumor.com/sram-force-axs-wide-actual-weights-first-ride-review/",
+      "title": "BikeRumor: Force AXS Wide actual weights and review; 156 g front derailleur, batteries excluded; braze-on assembly pictured",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -28,6 +33,8 @@
     "chainline_mm": 47.5,
     "chainring_compatibility": "43/30T",
     "mount": "Braze-on",
-    "mounting_options": "Braze-on or Clamp-High; reference weight remains unknown"
+    "mounting_options": "Braze-on or Clamp-High; weight reference is braze-on without a clamp adapter",
+    "includes_battery": false,
+    "weight_source_type": "Published measurement"
   }
 }

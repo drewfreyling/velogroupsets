@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-FRC-1W-D1",
   "weight_g": null,
-  "weight_description": "A crank-only weight identifying crank length, chainring tooth counts and bottom-bracket exclusion has not yet been established from the cited reference.",
+  "weight_description": "Weight not yet sourced: The reviewed XPLR sheet identifies a power-meter assembly for the older Wide option, not a qualified non-power reference for this record. No power-meter mass is deducted.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fc-frc-1w-d1",
     "title": "SRAM FC-FRC-1W-D1 manufacturer service specifications and technical documents",

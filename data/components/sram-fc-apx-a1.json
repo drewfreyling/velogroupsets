@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-APX-A1",
   "weight_g": null,
-  "weight_description": "A crank-only weight identifying crank length, chainring tooth counts and bottom-bracket exclusion has not yet been established from the cited reference.",
+  "weight_description": "Weight not yet sourced: The service page labels the reference “with BB”; the 2011 catalogue also does not establish a crankset-only weight with a weighed length/ring combination. No BB deduction is estimated.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fc-apx-a1",
     "title": "SRAM FC-APX-A1 manufacturer service specifications and technical documents",

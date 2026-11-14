@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SB-RED-C1",
-  "weight_g": null,
-  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "weight_g": 280,
+  "weight_description": "Retailer-listed claimed weight for the RED 22 eleven-speed mechanical left/right shift/brake control pair: 280 g. This is separate from the hydraulic shift-brake system; cable and housing inclusion is not stated.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/sb-red-c1",
     "title": "SRAM SB-RED-C1 manufacturer service specifications and technical documents",
@@ -20,9 +20,15 @@
       "url": "https://www.sram.com/en/service/models/sb-red-c1",
       "title": "SRAM SB-RED-C1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.backcountry.com/sram-red-22-shifters",
+      "title": "Backcountry: RED 22 mechanical shifters, Claimed Weight [pair] 280 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "weight_source_type": "Retailer-listed"
   }
 }

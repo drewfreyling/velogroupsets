@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-FRC-B1",
-  "weight_g": null,
-  "weight_description": "Braze-on reference; a compliant weight for this mount has not yet been sourced. Clamp variants are not used as this reference.",
+  "weight_g": 79,
+  "weight_description": "Retailer-listed weight for the Force 22 two-by-eleven-speed braze-on Yaw front derailleur, without its separate chain spotter: 79 g. The selected specification separately notes an additional 10 g when the spotter is fitted; that mass is not added to this reference.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fd-frc-b1",
     "title": "SRAM FD-FRC-B1 manufacturer service specifications and technical documents",
@@ -20,10 +20,17 @@
       "url": "https://www.sram.com/en/service/models/fd-frc-b1",
       "title": "SRAM FD-FRC-B1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.performancebike.com/sram-force-22-yaw-front-derailleur-2-x-11-speed-brazeon-00.7618.038.000/p1278431?v=310036",
+      "title": "Performance Bicycle: Force 22, braze-on, part 00.7618.038.000; 79 g, +10 g with chain spotter",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "mount": "Braze-on",
-    "front_speeds": 2
+    "front_speeds": 2,
+    "includes_chain_spotter": false,
+    "weight_source_type": "Retailer-listed"
   }
 }

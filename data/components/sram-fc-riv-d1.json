@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-RIV-D1",
   "weight_g": null,
-  "weight_description": "A crank-only weight identifying crank length, chainring tooth counts and bottom-bracket exclusion has not yet been established from the cited reference.",
+  "weight_description": "Weight not yet sourced: The 2025 comparison sheet’s older Rival D1 row includes a spindle power meter. It is not used for the non-power reference, and no meter mass is subtracted.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fc-riv-d1",
     "title": "SRAM FC-RIV-D1 manufacturer service specifications and technical documents",
@@ -20,6 +20,11 @@
       "url": "https://www.sram.com/en/service/models/fc-riv-d1",
       "title": "SRAM FC-RIV-D1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=2",
+      "title": "SRAM 2025 comparison, PDF p. 2: older Rival D1 crank row includes a spindle power meter",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

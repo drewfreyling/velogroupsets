@@ -267,3 +267,5 @@ The [front-derailleur weight review](shimano-front-derailleur-weights.md) checks
 The [146-record component weight review](shimano-component-weights.md) adds 19 manufacturer-listed weights across cranks, bottom brackets, cassettes, hubs, brake levers, headsets, pedals and seatposts. It documents selected configurations, edition conflicts and 127 remaining unknowns; all 14 requested caliper records remain unresolved.
 
 The [SRAM rear-derailleur weight review](sram-rear-derailleur-weights.md) fills 27 of 28 requested records using original weight sheets, the period road catalogue and identified published/retail references. It preserves battery inclusions, reference variants and existing limits; the conflicting mechanical Apex XPLR figure remains unknown.
+
+The [69-record SRAM component weight review](sram-component-weights.md) fills 39 front-derailleur, crankset, shifter-pair and cassette weights, including all 13 requested cassette records. It documents mount/hardware, battery and BB exclusions, actual crank lengths, complete pair references and the 30 remaining unknowns.

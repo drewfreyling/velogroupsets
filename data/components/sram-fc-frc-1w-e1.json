@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-FRC-1W-E1",
-  "weight_g": null,
-  "weight_description": "A crank-only weight identifying crank length, chainring tooth counts and bottom-bracket exclusion has not yet been established from the cited reference.",
+  "weight_g": 530,
+  "weight_description": "Manufacturer-listed non-power XPLR Wide crankset reference: 172.5 mm arms, 40T chainring, DUB spindle; excludes bottom bracket. The separate power-meter crankset figure is not used, and this reference is not converted into an estimated 170 mm weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fc-frc-1w-e1",
     "title": "SRAM FC-FRC-1W-E1 manufacturer service specifications and technical documents",
@@ -20,10 +20,28 @@
       "url": "https://www.sram.com/en/service/models/fc-frc-1w-e1",
       "title": "SRAM FC-FRC-1W-E1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=4",
+      "title": "SRAM Force/Rival Weight Overview, 2025, PDF pp. 3–4: Force E1 XPLR non-power crankset, 530 g, 172.5 mm / 40T, separate BB",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=3",
+      "title": "SRAM 2025 XPLR crank methodology: 172.5 mm / 40T; BB and power-meter options identified separately",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "front_speeds": 1,
-    "spindle_interfaces": "DUB"
+    "spindle_interfaces": "DUB",
+    "crank_length_mm": 172.5,
+    "chainrings_teeth": [
+      40
+    ],
+    "includes_bottom_bracket": false,
+    "includes_power_meter": false,
+    "weight_reference_spindle_interface": "DUB",
+    "weight_source_type": "Manufacturer-listed"
   }
 }

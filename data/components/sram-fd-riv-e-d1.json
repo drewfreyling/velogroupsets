@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-RIV-E-D1",
-  "weight_g": null,
-  "weight_description": "Braze-on reference; a compliant weight for this mount has not yet been sourced. Clamp variants are not used as this reference.",
+  "weight_g": 156,
+  "weight_description": "Manufacturer-listed reference for the standard twelve-speed Rival D1 double front derailleur: braze-on, with wedge, mounting bolt and washer, without battery or a separate clamp adapter. This is not the Wide 43/30T assembly.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/fd-riv-e-d1",
     "title": "SRAM FD-RIV-E-D1 manufacturer service specifications and technical documents",
@@ -20,10 +20,22 @@
       "url": "https://www.sram.com/en/service/models/fd-riv-e-d1",
       "title": "SRAM FD-RIV-E-D1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=2",
+      "title": "SRAM Force/Rival Weight Overview, 2025, PDF pp. 1–2: Rival D1 front derailleur, 156 g; braze-on, no battery",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=1",
+      "title": "SRAM 2025 road weight methodology: braze-on front derailleur with wedge, bolt and washer, without battery",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "mount": "Braze-on",
-    "front_speeds": 2
+    "front_speeds": 2,
+    "includes_battery": false,
+    "weight_source_type": "Manufacturer-listed"
   }
 }

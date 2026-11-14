@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-XG-1270-E1",
-  "weight_g": null,
-  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "weight_g": 250,
+  "weight_description": "Manufacturer-listed reference for the 12-speed 10–30T cassette. Lockring inclusion is assumed under the catalogue weight guidelines. Other tooth ranges are not assigned this reference weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/cs-xg-1270-e1",
     "title": "SRAM CS-XG-1270-E1 manufacturer service specifications and technical documents",
@@ -25,11 +25,18 @@
       "url": "https://support.sram.com/hc/en-us/articles/36351108594331-What-parts-are-available-with-the-Force-AXS-product-line-When-will-they-be-available",
       "title": "SRAM Force AXS product availability: 17 June 2025",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.slowtwitch.com/wp-content/uploads/2025/06/SR_ForceRival_AXS_WeightSheets_en_v05.pdf#page=2",
+      "title": "SRAM Force/Rival Weight Overview, 2025, PDF p. 2: Force E1 XG-1270, 10–30T, 250 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 12,
     "sprocket_options": "10-28T, 10-30T, 10-33T, 10-36T",
-    "freehub_interface": "XDR"
+    "freehub_interface": "XDR",
+    "sprocket_range": "10–30T",
+    "weight_source_type": "Manufacturer-listed"
   }
 }

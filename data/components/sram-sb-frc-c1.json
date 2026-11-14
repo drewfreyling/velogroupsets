@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SB-FRC-C1",
-  "weight_g": null,
-  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "weight_g": 307,
+  "weight_description": "Retailer-listed weight for the Force 22 eleven-speed mechanical left/right DoubleTap shift/brake control pair: 307 g. This is the complete control pair, separate from brake calipers; cable and housing inclusion is not stated.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/sb-frc-c1",
     "title": "SRAM SB-FRC-C1 manufacturer service specifications and technical documents",
@@ -20,9 +20,15 @@
       "url": "https://www.sram.com/en/service/models/sb-frc-c1",
       "title": "SRAM SB-FRC-C1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://movatik.com/products/sram-force-22-bicycle-brake-levers",
+      "title": "Movatik: exact SRAM Model ID SB-FRC-C1, Weight 307 g/pair",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "weight_source_type": "Retailer-listed"
   }
 }

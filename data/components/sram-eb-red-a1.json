@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "EB-RED-A1",
-  "weight_g": null,
-  "weight_description": "Left/right control pair. No control-only pair weight has been established; individual-side or complete hydraulic brake-system figures are not substituted.",
+  "weight_g": 260,
+  "weight_description": "Published pair reference for the original eleven-speed RED eTap rim-brake controls: 260 g for the complete left/right pair, including their coin-cell batteries. BikeRumor explicitly lists 260 g/pair; the catalogue does not double an individual-lever figure. Separate Blips and brake calipers are not included; brake-cable and housing inclusion is not stated.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/eb-red-a1",
     "title": "SRAM EB-RED-A1 manufacturer service specifications and technical documents",
@@ -20,9 +20,21 @@
       "url": "https://www.sram.com/en/service/models/eb-red-a1",
       "title": "SRAM EB-RED-A1 manufacturer service specifications and technical documents",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://bikerumor.com/sram-etap-close-up-look-more-riding-actual-weights/",
+      "title": "BikeRumor, 18 January 2016: original RED eTap shifters, 260 g/pair, coin-cell battery installed",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://road.cc/content/review/181622-sram-red-etap",
+      "title": "road.cc RED eTap review: shifters 260 g for a set",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "includes_coin_cell_batteries": true,
+    "weight_source_type": "Published pair reference"
   }
 }

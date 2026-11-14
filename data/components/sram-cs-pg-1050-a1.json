@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-PG-1050-A1",
-  "weight_g": null,
-  "weight_description": "The manufacturer identifies sprocket options, but a weight tied to one exact cassette tooth range has not yet been sourced.",
+  "weight_g": 299,
+  "weight_description": "Manufacturer-listed reference for the 10-speed 11–32T cassette: 11-12-13-15-17-19-22-25-28-32T. Lockring inclusion is assumed under the catalogue weight guidelines. Other tooth ranges are not assigned this reference weight.",
   "technical_document": {
     "url": "https://www.sram.com/en/service/models/cs-pg-1050-a1",
     "title": "SRAM CS-PG-1050-A1 manufacturer service specifications and technical documents",
@@ -25,11 +25,30 @@
       "url": "https://bicycleretailer.com/north-america/2010/04/16/sram-abuzz-over-2011-products",
       "title": "SRAM Apex launch presentation, reported 16 April 2010; PG-1050 cassette",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://issuu.com/monzaimports/docs/sram_road_11/29",
+      "title": "SRAM Road Bicycle 2011 Catalogue, viewer p. 29: PG-1050, 299 g for 11–32T, full ten-sprocket sequence",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 10,
     "sprocket_options": "11-23T, 11-26T, 11-28T, 11-32T, 11-36T, 12-25T, 12-26T, 12-27T, 12-28T, 12-32T, 12-36T",
-    "freehub_interface": "n/a, Splined 8, 9, 10"
+    "freehub_interface": "n/a, Splined 8, 9, 10",
+    "sprocket_range": "11–32T",
+    "sprockets_teeth": [
+      11,
+      12,
+      13,
+      15,
+      17,
+      19,
+      22,
+      25,
+      28,
+      32
+    ],
+    "weight_source_type": "Manufacturer-listed"
   }
 }
