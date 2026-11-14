@@ -1,0 +1,31 @@
+{
+  "id": "shimano-rd-mt62",
+  "slug": "rd-mt62",
+  "name": "Deore rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-ii"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-MT62",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-MT62-0964/EV-RD-MT62-0964.pdf",
+    "title": "Shimano RD-MT62 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-MT62-0964/EV-RD-MT62-0964.pdf",
+      "title": "Shimano RD-MT62 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

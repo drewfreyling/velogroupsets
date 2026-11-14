@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-m410",
+  "slug": "rd-m410",
+  "name": "Alivio rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-m410"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M410",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-M410-2454/EV-RD-M410-2454A.pdf",
+    "title": "Shimano RD-M410 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-M410-2454/EV-RD-M410-2454A.pdf",
+      "title": "Shimano RD-M410 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/6M00A/SI-6M00A-000-ENG.pdf",
+      "title": "Shimano SI-6M00A: RD-M410 capacity and sprocket limits, selected SGS reference",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 43,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 20,
+    "cage": "SGS",
+    "reference_configuration": "Selected manufacturer cage/table reference; limits are not combined with another cage option."
+  }
+}

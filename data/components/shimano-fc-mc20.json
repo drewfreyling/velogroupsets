@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fc-mc20",
+  "slug": "fc-mc20",
+  "name": "Alivio crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc20"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MC20",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-MC20-1959/EV-FC-MC20-1959.pdf",
+    "title": "Shimano FC-MC20 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-MC20-1959/EV-FC-MC20-1959.pdf",
+      "title": "Shimano FC-MC20 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=9",
+      "title": "Shimano 2005 line-up chart, PDF p. 9: Alivio reference row, explicit component association",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

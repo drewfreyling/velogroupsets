@@ -1,6 +1,6 @@
 # Shimano MTB and GRX sources
 
-This review adds 65 MTB series and four GRX gravel offerings. It supplies 32 component identities: 26 rear derailleurs, four complete brake/shifter pairs and two cranksets. This is initial coverage, not a complete component inventory for those series. Several historical series currently have no component records.
+This review adds 65 MTB series and four GRX gravel offerings. It supplies 32 component identities: 26 rear derailleurs, four complete brake/shifter pairs and two cranksets. This is initial coverage, not a complete component inventory for those series. The later [component coverage audit](shimano-component-coverage.md) adds verified components to every previously empty Shimano range; the original 32-record count describes this first import.
 
 ## Series and dates
 
@@ -59,6 +59,6 @@ The earlier ST-7400 560 g figure without an explicit pair basis is not reused. E
 
 ## Remaining coverage
 
-Historical range records need further verified component lists, and the newer MTB Di2 and GRX families need additional controls, brakes, cranksets, hubs and front derailleurs. Exage MTB/LX, STX RC, Tourney and later series outside these reviewed sources still need a separate membership/date review. No compatibility table alone establishes group membership. Single right-hand 1× trigger-shifter weights are not fabricated into pairs under the current shifter policy.
+Every historical range now has at least one component after the [coverage audit](shimano-component-coverage.md). These starter lists still need further verified components, and the newer MTB Di2 and GRX families need additional controls, brakes, cranksets, hubs and front derailleurs. Exage MTB/LX, STX RC, Tourney and later series outside these reviewed sources still need a separate membership/date review. No compatibility table alone establishes group membership. Single right-hand 1× trigger-shifter weights are not fabricated into pairs under the current shifter policy.
 
 The [rear-derailleur weight review](shimano-rear-derailleur-weights.md) supplies the earlier RD-M610-GS figure and documents why M560-GS and M737-GS still cannot use their SGS weights.

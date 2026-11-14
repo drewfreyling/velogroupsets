@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-m735",
+  "slug": "fd-m735",
+  "name": "Deore XT front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m735"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M735",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M735-1011/EV-FD-M735-1011A.pdf",
+    "title": "Shimano FD-M735 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M735-1011/EV-FD-M735-1011A.pdf",
+      "title": "Shimano FD-M735 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-m7000",
+  "slug": "fc-m7000",
+  "name": "SLX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M7000",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M7000-3981/EV-FC-M7000-3981A.pdf",
+    "title": "Shimano FC-M7000 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M7000-3981/EV-FC-M7000-3981A.pdf",
+      "title": "Shimano FC-M7000 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

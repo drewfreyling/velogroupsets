@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-m390",
+  "slug": "fd-m390",
+  "name": "Acera front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-acera-m390"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M390",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M390-3215/EV-FD-M390-3215.pdf",
+    "title": "Shimano FD-M390 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M390-3215/EV-FD-M390-3215.pdf",
+      "title": "Shimano FD-M390 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

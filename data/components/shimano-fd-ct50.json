@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-ct50",
+  "slug": "fd-ct50",
+  "name": "Altus front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-ct50"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-CT50",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-CT50-1337/EV-FD-CT50-1337.pdf",
+    "title": "Shimano FD-CT50 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-CT50-1337/EV-FD-CT50-1337.pdf",
+      "title": "Shimano FD-CT50 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-m700",
+  "slug": "fd-m700",
+  "name": "Deore XT front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M700",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M700-0552/EV-FD-M700-0552A.pdf",
+    "title": "Shimano FD-M700 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M700-0552/EV-FD-M700-0552A.pdf",
+      "title": "Shimano FD-M700 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

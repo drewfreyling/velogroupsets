@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-mt60",
+  "slug": "fc-mt60",
+  "name": "Deore crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-mt60"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MT60",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-MT60_BB-MT60-0861/EV-FC-MT60_BB-MT60-0861.pdf",
+    "title": "Shimano FC-MT60 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-MT60_BB-MT60-0861/EV-FC-MT60_BB-MT60-0861.pdf",
+      "title": "Shimano FC-MT60 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

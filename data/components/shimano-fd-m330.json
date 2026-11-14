@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fd-m330",
+  "slug": "fd-m330",
+  "name": "Acera front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-acera-m300"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M330",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M330-1747/EV-FD-M330-1747B.pdf",
+    "title": "Shimano FD-M330 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M330-1747/EV-FD-M330-1747B.pdf",
+      "title": "Shimano FD-M330 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=56",
+      "title": "Shimano 2000 trade manual, PDF p. 56: Acera M330-series components in the pre-M340 catalogue offering.",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

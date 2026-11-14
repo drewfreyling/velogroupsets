@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fd-m530",
+  "slug": "fd-m530",
+  "name": "Deore front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m530"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M530",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M530-2449/EV-FD-M530-2449B.pdf",
+    "title": "Shimano FD-M530 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M530-2449/EV-FD-M530-2449B.pdf",
+      "title": "Shimano FD-M530 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2008_LINE-UP_CHART.pdf#page=9",
+      "title": "Shimano 2008 line-up chart, PDF p. 9: Deore M530 reference row, explicit component association",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

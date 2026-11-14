@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-mc10",
+  "slug": "fc-mc10",
+  "name": "Alivio crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc10"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MC10",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-MC10-1353/EV-FC-MC10-1353A.pdf",
+    "title": "Shimano FC-MC10 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-MC10-1353/EV-FC-MC10-1353A.pdf",
+      "title": "Shimano FC-MC10 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

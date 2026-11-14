@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-m770",
+  "slug": "rd-m770",
+  "name": "Deore XT rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m770"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M770",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-M770-2705/EV-RD-M770-2705A.pdf",
+    "title": "Shimano RD-M770 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-M770-2705/EV-RD-M770-2705A.pdf",
+      "title": "Shimano RD-M770 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5W50A/SI-5W50A-001-ENG.pdf",
+      "title": "Shimano SI-5W50A: RD-M770 capacity and sprocket limits, selected SGS reference",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 45,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22,
+    "cage": "SGS",
+    "reference_configuration": "Selected manufacturer cage/table reference; limits are not combined with another cage option."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fd-mc31-cht",
+  "slug": "fd-mc31-cht",
+  "name": "STX Special Edition front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-special-edition-mc31"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-MC31-CHT",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-MC31-CHT-1357/EV-FD-MC31-CHT-1357A.pdf",
+    "title": "Shimano FD-MC31-CHT manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-MC31-CHT-1357/EV-FD-MC31-CHT-1357A.pdf",
+      "title": "Shimano FD-MC31-CHT manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=26",
+      "title": "Shimano 1994 dealer manual, printed/PDF p. 26: STX Special Edition Chromica assemblies, distinct from the standard MC30 range.",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cable_route": "Top pull",
+    "finish": "Chromica"
+  }
+}

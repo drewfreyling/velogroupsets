@@ -1,6 +1,6 @@
 # Shimano Dura-Ace coverage
 
-The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the 7600/7710 track range. There are 15 groupset records and 142 component identities across 165 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
+The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the 7600/7710 track range. There are 15 groupset records and 143 component identities across 166 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
 
 ## Dates and families
 
@@ -8,7 +8,7 @@ The catalogue covers the original Dura-Ace road range and each subsequent road g
 
 | Catalogue offering | Start year | Coverage |
 | --- | --- | --- |
-| Dura-Ace Original | 1973 | Documented family; component records await manufacturer-hosted technical documents |
+| Dura-Ace Original | 1973 | HB-7110-F front hub documented by manufacturer service drawing; other early parts still need review |
 | Dura-Ace EX 7200 | 1978 | Original and later friction-shifting parts |
 | Dura-Ace AX 7300 | 1980 | Aerodynamic components |
 | Dura-Ace 7400 | 1984 | Original SIS, 7401/7402 updates and later STI components |
@@ -86,3 +86,5 @@ The [dealer-manual review](shimano-dealer-manuals.md) recovers nine further Dura
 The [front-derailleur review](shimano-front-derailleur-weights.md) now selects explicit braze-on references for FD-7703 (**103 g**, F variant), FD-7803 (**106 g**, F variant), FD-7900 (**67 g**, F variant) and FD-7970 (**124 g**, F variant). Existing generic model IDs are retained with the weighed mount stated. FD-7200/7210 remain unknown because their shared 102 g listing does not establish the weighed mounting assembly.
 
 The [146-record component weight review](shimano-component-weights.md) adds ten Dura-Ace-member weights, including the two power-meter cranks, BB-7710, the HB/FH-7900 hubs, BL-7200, HP-7200, PD-7900 and the two seatposts. Source descriptions preserve paired hardware, BB/skewer exclusions and unspecified seatpost variants.
+
+The [Shimano component coverage audit](shimano-component-coverage.md) adds the original-family hub using a later period catalogue reference. This does not date it to the 1973 launch, and its skewer-free weight remains unknown.

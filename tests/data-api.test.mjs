@@ -58,6 +58,13 @@ test('riding category is additive to groupsets and shared components keep their 
   assert.equal(read('components/shimano-rd-m6000-gs').data.weight_g,null);
 });
 
+test('every Shimano range has sourced components in the public catalogue',()=>{
+  const {groupsets:publicGroups,components:publicParts}=read('catalogue').data;
+  const populated=new Set(publicParts.flatMap(part=>part.groupset_ids));
+  const empty=publicGroups.filter(group=>group.manufacturer_id==='shimano'&&!populated.has(group.id)).map(group=>group.id);
+  assert.deepEqual(empty,[],'Add verified component records with each Shimano range rather than publishing empty groupsets.');
+});
+
 test('generated assets fit Cloudflare Free file count and file size limits',()=>{
   let count=0;
   function walk(dir){for(const entry of readdirSync(dir,{withFileTypes:true})){

@@ -1,0 +1,31 @@
+{
+  "id": "shimano-rd-m650",
+  "slug": "rd-m650",
+  "name": "Deore DX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-dx-m650"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M650",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-M650-1034/EV-RD-M650-1034A.pdf",
+    "title": "Shimano RD-M650 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-M650-1034/EV-RD-M650-1034A.pdf",
+      "title": "Shimano RD-M650 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

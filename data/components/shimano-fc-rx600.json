@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-rx600",
+  "slug": "fc-rx600",
+  "name": "GRX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx600"
+  ],
+  "type": "crankset",
+  "model_number": "FC-RX600",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-RX600-4579/EV-FC-RX600-4579B.pdf",
+    "title": "Shimano FC-RX600 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-RX600-4579/EV-FC-RX600-4579B.pdf",
+      "title": "Shimano FC-RX600 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

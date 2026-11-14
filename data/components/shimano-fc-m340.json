@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fc-m340",
+  "slug": "fc-m340",
+  "name": "Acera crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-acera-m340"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M340",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M340-2189/EV-FC-M340-2189.pdf",
+    "title": "Shimano FC-M340 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M340-2189/EV-FC-M340-2189.pdf",
+      "title": "Shimano FC-M340 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=10",
+      "title": "Shimano 2005 line-up chart, PDF p. 10: Acera reference row, explicit component association",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

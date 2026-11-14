@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m7000-11",
+  "slug": "rd-m7000-11",
+  "name": "SLX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M7000-11",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-M7000-11-4094/EV-RD-M7000-11-4094C.pdf",
+    "title": "Shimano RD-M7000-11 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-M7000-11-4094/EV-RD-M7000-11-4094C.pdf",
+      "title": "Shimano RD-M7000-11 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "rear_speeds": 11,
+    "cage": "GS"
+  }
+}

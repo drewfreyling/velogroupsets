@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-m550",
+  "slug": "fd-m550",
+  "name": "Deore LX front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m550"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M550",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M550-1013/EV-FD-M550-1013A.pdf",
+    "title": "Shimano FD-M550 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M550-1013/EV-FD-M550-1013A.pdf",
+      "title": "Shimano FD-M550 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

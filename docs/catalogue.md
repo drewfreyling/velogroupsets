@@ -142,7 +142,7 @@ python3 -m pip install -r scripts/requirements-catalogue.txt
 python3 scripts/check_catalogue.py
 ```
 
-CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 238 groupsets from Shimano, Campagnolo, SRAM and microSHIFT and 977 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
+CI validates JSON Schema 2020-12 contracts, known component types, required fields/sources, duplicate JSON keys, globally unique IDs, filename/ID agreement, scoped slugs, and manufacturer/groupset references. Record directories are flat JSON directories; other formats and nested record directories are rejected. Empty directories are valid during initial setup. The catalogue contains 238 groupsets from Shimano, Campagnolo, SRAM and microSHIFT and 1,118 unique components. Alongside [all nine Shimano 105 generations](shimano-105.md), [five Exage road groupsets](exage.md) and RX100 A550, it includes [all five Ultegra series offered in 1990–2009](ultegra.md): 600 Ultegra 6400, 6500, 6600, Ultegra SL and 6700, plus mechanical 6800 and R8000. Shared parts have multiple memberships and one identity. Series coverage does not imply every component variant is catalogued; the Ultegra guide documents dates, weights and remaining gaps.
 
 The [catalogue schema](../data/schemas/catalogue.schema.json) validates an aggregate containing `manufacturers`, `groupsets`, and `components` arrays. The loader assembles it from individual files. The Astro static build consumes these records and the same taxonomy. It generates detail pages, a static search index, and a catalogue page with browser-side search/type/riding-category/groupset filters. Search uses the generated page records without database calls. Unknown specifications remain omitted/null; community features are visibly marked as planned.
 
@@ -217,7 +217,7 @@ The catalogue includes all nine [Shimano 105 generations](shimano-105.md), repre
 
 ## Shimano Dura-Ace coverage
 
-The [Dura-Ace source guide](dura-ace.md) documents 15 road/track offerings and 142 component identities, from the original 1973 family through R9200. Mechanical/Di2 parts share canonical identities where listed by Shimano. The original family has no component records until suitable manufacturer-hosted technical documents are found. See the guide for dates, source editions, weight configurations and remaining variant gaps.
+The [Dura-Ace source guide](dura-ace.md) documents 15 road/track offerings and 143 component identities, from the original 1973 family through R9200. Mechanical/Di2 parts share canonical identities where listed by Shimano. The original family now includes the manufacturer-documented HB-7110-F hub after the [component coverage audit](shimano-component-coverage.md); other early assemblies still need suitable manufacturer-hosted technical references. See the guide for dates, source editions, weight configurations and remaining variant gaps.
 
 ## Exage road range coverage
 
@@ -273,3 +273,5 @@ The [69-record SRAM component weight review](sram-component-weights.md) fills 39
 The [manufacturer source review](manufacturer-source-review.md) adds two Campagnolo derailleur weights, two Shimano control-pair weights, 13 SRAM derailleur limits and six Campagnolo crankset dimensions using direct manufacturer pages and an original technical sheet. It records variant and configuration leads that remain unresolved.
 
 The [microSHIFT catalogue review](microshift.md) adds the fourth manufacturer, 11 road/MTB offerings and 87 components from the original 2016–2017 catalogue. It documents catalogue-year availability, paired controls, mount variants, exact cassette sequences and conflicting source figures.
+
+The [Shimano component coverage audit](shimano-component-coverage.md) fills all 57 previously empty Shimano ranges with 141 manufacturer-documented components, three compliant weights and 54 sourced derailleur limits. Every Shimano groupset now has at least one verified component; full inventories remain incomplete.

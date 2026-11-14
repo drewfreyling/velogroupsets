@@ -1,0 +1,32 @@
+{
+  "id": "shimano-hb-7110-f",
+  "slug": "hb-7110-f",
+  "name": "Dura-Ace front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-7110-F",
+  "weight_g": null,
+  "weight_description": "Hub-only weight not yet sourced. Any future weight must exclude the quick-release skewer.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-7110_7120%20F-0668/EV-HB-7110_7120%20F-0668.pdf",
+    "title": "Shimano HB-7110-F manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-7110_7120%20F-0668/EV-HB-7110_7120%20F-0668.pdf",
+      "title": "Shimano HB-7110-F manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.goatsurfer.com/assets/Shimano_1981.pdf#page=30",
+      "title": "Original Shimano catalogue archived as 1981, printed p. 29 / PDF p. 30: conventional Dura-Ace HB-7110 hub; distinct from the separate EX and AX ranges. This is a later reference, not a claim of 1973 launch equipment.",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {},
+  "weight_excludes_skewers": true
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-m660",
+  "slug": "fd-m660",
+  "name": "SLX front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m660"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M660",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M660-2795/EV-FD-M660-2795C.pdf",
+    "title": "Shimano FD-M660 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M660-2795/EV-FD-M660-2795C.pdf",
+      "title": "Shimano FD-M660 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

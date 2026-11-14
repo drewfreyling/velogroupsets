@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-m7020",
+  "slug": "fd-m7020",
+  "name": "SLX front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M7020",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M7020-3977/EV-FD-M7020-3977A.pdf",
+    "title": "Shimano FD-M7020 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M7020-3977/EV-FD-M7020-3977A.pdf",
+      "title": "Shimano FD-M7020 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

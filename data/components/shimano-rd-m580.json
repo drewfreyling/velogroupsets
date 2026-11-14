@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-m580",
+  "slug": "rd-m580",
+  "name": "Deore LX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m580"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M580",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-M580-2367/EV-RD-M580-2367.pdf",
+    "title": "Shimano RD-M580 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-M580-2367/EV-RD-M580-2367.pdf",
+      "title": "Shimano RD-M580 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/5VJ0B/SI-5VJ0B-000-ENG.pdf",
+      "title": "Shimano SI-5VJ0B: RD-M580 capacity and sprocket limits, selected SGS reference",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 45,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22,
+    "cage": "SGS",
+    "reference_configuration": "Selected manufacturer cage/table reference; limits are not combined with another cage option."
+  }
+}

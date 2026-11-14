@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-m340",
+  "slug": "rd-m340",
+  "name": "Acera rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-acera-m340"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M340",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-M340-2060/EV-RD-M340-2060A.pdf",
+    "title": "Shimano RD-M340 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-M340-2060/EV-RD-M340-2060A.pdf",
+      "title": "Shimano RD-M340 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/R520B/SI-R520B-000-ENG.pdf",
+      "title": "Shimano SI-R520B: RD-M340 capacity and sprocket limits, selected Smart Cage reference",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 43,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 20,
+    "cage": "Smart Cage",
+    "reference_configuration": "Selected manufacturer cage/table reference; limits are not combined with another cage option."
+  }
+}

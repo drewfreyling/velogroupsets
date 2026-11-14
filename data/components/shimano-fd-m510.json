@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-m510",
+  "slug": "fd-m510",
+  "name": "Deore front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m510"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M510",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M510-1897/EV-FD-M510-1897A.pdf",
+    "title": "Shimano FD-M510 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M510-1897/EV-FD-M510-1897A.pdf",
+      "title": "Shimano FD-M510 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

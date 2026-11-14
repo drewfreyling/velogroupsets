@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-m810",
+  "slug": "fc-m810",
+  "name": "Saint crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m810"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M810",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M810-2822/EV-FC-M810-2822A.pdf",
+    "title": "Shimano FC-M810 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M810-2822/EV-FC-M810-2822A.pdf",
+      "title": "Shimano FC-M810 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

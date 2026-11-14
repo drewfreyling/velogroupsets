@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-m410",
+  "slug": "fd-m410",
+  "name": "Alivio front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-m410"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M410",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M410-2451/EV-FD-M410-2451.pdf",
+    "title": "Shimano FD-M410 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M410-2451/EV-FD-M410-2451.pdf",
+      "title": "Shimano FD-M410 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

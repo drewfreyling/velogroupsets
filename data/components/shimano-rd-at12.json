@@ -1,0 +1,40 @@
+{
+  "id": "shimano-rd-at12",
+  "slug": "rd-at12",
+  "name": "Altus rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-selecta-road"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-AT12",
+  "weight_g": 262,
+  "weight_description": "Manufacturer-listed 262 g for the Altus LT RD-AT12 short-cage rear derailleur, excluding the mounting bracket/adapter as expressly stated in the catalogue. It is not the long-cage RD-AT22 or the later MTB Altus families.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-AT12_AT22-0344/EV-RD-AT12_AT22-0344C.pdf",
+    "title": "Shimano RD-AT12 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-AT12_AT22-0344/EV-RD-AT12_AT22-0344C.pdf",
+      "title": "Shimano RD-AT12 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.goatsurfer.com/assets/Shimano_1981.pdf#page=39",
+      "title": "Original Shimano catalogue archived as 1981, printed p. 38 / PDF p. 39: Altus/Selecta RD-AT12, 262 g without bracket, 13T front difference, 28T general / 30T Shimano-only largest sprocket.",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 13,
+    "cage": "Short",
+    "includes_mounting_adapter": false,
+    "shimano_only_maximum_sprocket_teeth": 30,
+    "reference_configuration": "General sprocket compatibility: 28T maximum; the separate 30T allowance requires Shimano sprockets."
+  }
+}

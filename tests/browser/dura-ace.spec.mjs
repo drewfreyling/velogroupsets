@@ -21,11 +21,11 @@ test('browse each documented Dura-Ace road and track offering to a sourced compo
   }
 });
 
-test('original Dura-Ace family is browsable with sources while parts remain undocumented', async ({page}) => {
+test('original Dura-Ace family lists its documented hub and sources', async ({page}) => {
   await page.goto('/manufacturers/shimano/');
   await page.getByRole('link').filter({has:page.getByRole('heading', {name:'Dura-Ace Original',level:3,exact:true})}).click();
   await expect(page.getByRole('heading', {name:'Dura-Ace Original',level:1,exact:true})).toBeVisible();
-  await expect(page.getByText('0 components listed for this groupset.', {exact:false})).toBeVisible();
+  await expect(page.getByRole('link',{name:'HB-7110-F',exact:true})).toHaveAttribute('href','/components/shimano/hb-7110-f/');
   await expect(page.getByRole('heading', {name:'Sources',level:2})).toBeVisible();
 });
 

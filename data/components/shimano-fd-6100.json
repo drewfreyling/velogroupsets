@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fd-6100",
+  "slug": "fd-6100",
+  "name": "600 front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-original"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-6100",
+  "weight_g": 133,
+  "weight_description": "Manufacturer-listed 133 g for the original Shimano 600 FD-6100 front derailleur with its 1⅛-inch (nominal 28.6 mm) clamp. This is the complete clamp-mounted reference, not a later 600 EX assembly.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-6100-SHIMANO%20600-0244/EV-FD-6100-SHIMANO%20600-0244B.pdf",
+    "title": "Shimano FD-6100 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-6100-SHIMANO%20600-0244/EV-FD-6100-SHIMANO%20600-0244B.pdf",
+      "title": "Shimano FD-6100 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.goatsurfer.com/assets/Shimano_1981.pdf#page=32",
+      "title": "Original Shimano catalogue archived as 1981, printed p. 31 / PDF p. 32: original 600 FD-6100, 133 g; the manufacturer service drawing identifies the 1⅛-inch clamp.",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.6,
+    "chainring_capacity_teeth": 14
+  }
+}

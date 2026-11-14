@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fc-m570-4",
+  "slug": "fc-m570-4",
+  "name": "Deore LX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m570"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M570-4",
+  "weight_g": 718,
+  "weight_description": "Manufacturer-listed 718 g for the four-arm FC-M570-4 crankset with 175 mm crank arms and 44/32/22T chainrings, excluding the separately listed bottom bracket. This is not the five-arm FC-M570-5 reference.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M570-4-1763/EV-FC-M570-4-1763.pdf",
+    "title": "Shimano FC-M570-4 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M570-4-1763/EV-FC-M570-4-1763.pdf",
+      "title": "Shimano FC-M570-4 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=22",
+      "title": "Shimano 2000 trade manual, printed p. 20 / PDF p. 22: Deore LX FC-M570-4, 718 g at 175 mm and 44/32/22T; bottom brackets have their own model/weight rows.",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      44,
+      32,
+      22
+    ],
+    "includes_bottom_bracket": false
+  }
+}

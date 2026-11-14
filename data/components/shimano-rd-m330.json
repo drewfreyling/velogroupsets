@@ -1,0 +1,36 @@
+{
+  "id": "shimano-rd-m330",
+  "slug": "rd-m330",
+  "name": "Acera rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-acera-m300"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M330",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-M330-1810/EV-RD-M330-1810A.pdf",
+    "title": "Shimano RD-M330 manufacturer exploded view: model identification, series and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-M330-1810/EV-RD-M330-1810A.pdf",
+      "title": "Shimano RD-M330 manufacturer exploded view: model identification, series and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=56",
+      "title": "Shimano 2000 trade manual, PDF p. 56: Acera M330-series components in the pre-M340 catalogue offering.",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}
