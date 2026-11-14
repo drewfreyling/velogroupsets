@@ -33,7 +33,14 @@ test('cassette references retain gearing while individual controls do not acquir
   expect(rimPair).toMatchObject({weight_g:295,specifications:{weight_basis:'Pair'}});
   const {data:ttPair} = await (await request.get('/api/v1/components/shimano-st-r9160.json')).json();
   expect(ttPair).toMatchObject({weight_g:127,specifications:{weight_basis:'Pair'}});
-  for (const model of ['st-r8000','st-r8070','st-r9170']) {
+  for (const [model, grams] of [['st-r9120',505],['st-r9170',320]]) {
+    const {data:pair} = await (await request.get(`/api/v1/components/shimano-${model}.json`)).json();
+    expect(pair).toMatchObject({weight_g:grams,specifications:{weight_basis:'Pair'}});
+    await page.goto(`/components/shimano/${model}/`);
+    await expect(weightRow(page).locator('dd > span')).toHaveText(`${grams} g`);
+    await expect(weightRow(page)).toContainText('pair');
+  }
+  for (const model of ['st-r8000','st-r8070']) {
     const {data:unknown} = await (await request.get(`/api/v1/components/shimano-${model}.json`)).json();
     expect(unknown).toMatchObject({weight_g:null,specifications:{weight_basis:'Pair'}});
   }

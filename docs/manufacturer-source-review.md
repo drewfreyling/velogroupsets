@@ -1,6 +1,6 @@
 # Manufacturer source review
 
-Reviewed on **14 November 2026**. This pass adds **two previously unknown weights** and **19 specification fields** across **16 existing components**. Component identities, groupset memberships and technical-document URLs are preserved.
+Reviewed on **14 November 2026**. This pass adds **four previously unknown weights** and **19 specification fields** across **18 existing components**. Component identities, groupset memberships and technical-document URLs are preserved.
 
 External component indexes were used to discover documents. Each adopted fact was checked against the manufacturer page or original manufacturer publication below. Index entries, retailer descriptions and independent measurements are not evidence for these additions. The review is a partial gap-filling pass, not a claim of complete catalogue coverage.
 
@@ -10,8 +10,12 @@ External component indexes were used to discover documents. Each adopted fact wa
 | --- | --- | --- |
 | [RD20-CH12](../data/components/campagnolo-rd20-ch12.json) | 220 g | [Campagnolo Chorus twelve-speed mechanical rear derailleur](https://www.campagnolo.com/us-en/chorus-12-speed-rear-derailleur/CRDCHORUS12S.html), Specifications → Weight |
 | [RD18-CEB1M](../data/components/campagnolo-rd18-ceb1m.json) | 230 g | [Campagnolo Centaur eleven-speed medium-cage rear derailleur](https://www.campagnolo.com/us-en/centaur-rear-derailleur/CRDCENTAURBLACK11S.html), Specifications → Weight |
+| [ST-R9120](../data/components/shimano-st-r9120.json) | 505 g / pair | [Shimano 2017 trade sales/support manual, printed/PDF p. 335](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=335), Average weight: **505g/pair**, repeated under both left/right columns |
+| [ST-R9170](../data/components/shimano-st-r9170.json) | 320 g / pair | [Shimano 2020 trade sales/support manual, printed/PDF p. 132](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=132), ST-R9170 product entry: **320 g (Pair)** |
 
 These are manufacturer-listed reference weights, not contributor measurements.
+
+The Shimano references are complete left/right control pairs, excluding separate brake calipers and hoses. Repeated pair figures in side columns are not added together. The 2020 ST-R9170 product entry resolves the pair total left unknown after the earlier review of individual-side tables; the 2018 table’s older 360 g/pair reference is not mixed with the selected 2020 manufacturer claim. ST-R8070 remains null: the checked 2018/2020 entries give 180 g per control without an explicit pair total.
 
 ## SRAM derailleur limits
 

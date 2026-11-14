@@ -23,14 +23,14 @@ test('filter XPLR systems without confusing the minimum largest sprocket with th
   await page.goto('/catalogue/?groupset=sram-force-xplr-axs-d2&type=rear-derailleur');
   await page.getByRole('link',{name:'RD-FRC-1E-D2',exact:true}).click();
   await expect(detail(page,'Largest sprocket').locator('dd')).toHaveText('44T');
-  await expect(detail(page,'Smallest sprocket').locator('dd')).toHaveText('Not yet sourced');
+  await expect(detail(page,'Smallest sprocket').locator('dd')).toHaveText('10T');
   await page.goto('/catalogue/?groupset=sram-force-xplr-axs-d2&type=rear-derailleur');
   await page.getByRole('combobox',{name:'Groupset',exact:true}).selectOption('sram-force-xplr-axs-e1');
   await expect(page.getByRole('link',{name:'RD-FRC-1E-D2',exact:true})).not.toBeVisible();
   await page.getByRole('link',{name:'RD-FRC-1E-E1',exact:true}).click();
   await expect(detail(page,'rear speeds').locator('dd')).toHaveText('13');
   await expect(detail(page,'Largest sprocket').locator('dd')).toHaveText('46T');
-  await expect(detail(page,'Smallest sprocket').locator('dd')).toHaveText('Not yet sourced');
+  await expect(detail(page,'Smallest sprocket').locator('dd')).toHaveText('10T');
   await expect(detail(page,'mount')).toContainText('requires UDH');
   await page.goto('/components/sram/rd-red-e-d1/');
   await expect(detail(page,'Largest sprocket').locator('dd')).toHaveText('Not yet sourced');

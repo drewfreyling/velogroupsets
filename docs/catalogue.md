@@ -270,4 +270,4 @@ The [SRAM rear-derailleur weight review](sram-rear-derailleur-weights.md) fills 
 
 The [69-record SRAM component weight review](sram-component-weights.md) fills 39 front-derailleur, crankset, shifter-pair and cassette weights, including all 13 requested cassette records. It documents mount/hardware, battery and BB exclusions, actual crank lengths, complete pair references and the 30 remaining unknowns.
 
-The [manufacturer source review](manufacturer-source-review.md) adds two Campagnolo derailleur weights, 13 SRAM derailleur limits and six Campagnolo crankset dimensions using direct manufacturer pages and an original technical sheet. It records variant and configuration leads that remain unresolved.
+The [manufacturer source review](manufacturer-source-review.md) adds two Campagnolo derailleur weights, two Shimano control-pair weights, 13 SRAM derailleur limits and six Campagnolo crankset dimensions using direct manufacturer pages and an original technical sheet. It records variant and configuration leads that remain unresolved.
