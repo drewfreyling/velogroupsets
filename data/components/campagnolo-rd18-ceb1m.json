@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD18-CEB1M",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "weight_g": 230,
+  "weight_description": "Manufacturer-listed weight for the Centaur eleven-speed medium-cage mechanical rear derailleur: 230 g. Campagnolo lists one rear-derailleur version for this range; this is a catalogue reference, not a contributor measurement.",
   "technical_document": {
     "url": "https://www.campagnolo.com/gb-en/centaur-rear-derailleur/CRDCENTAURBLACK11S.html",
     "title": "Campagnolo Centaur eleven-speed rear derailleur specification and technical downloads",
@@ -20,6 +20,11 @@
       "url": "https://www.candncycles.co.uk/product/187472/campagnolo-centaur-11-rear-derailleur/option/",
       "title": "Retailer model identification: RD18-CEB1M",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/us-en/centaur-rear-derailleur/CRDCENTAURBLACK11S.html",
+      "title": "Campagnolo Centaur eleven-speed medium-cage mechanical rear derailleur: manufacturer-listed 230 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

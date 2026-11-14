@@ -20,9 +20,16 @@
       "url": "https://www.disraeligears.co.uk/site/campagnolo_spare_parts_catalogue_-_1997_page_14.html",
       "title": "Campagnolo 1997 Spare Parts Catalogue, page 14 (original manufacturer document archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.campyonly.com/images/catalogs/1998/1998_tech_specs.pdf",
+      "title": "Campagnolo 1998 technical specifications, printed p. 8 (PDF p. 10): exact crankset codes, matching BB spindle lengths and 43.5 mm nominal chainline",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "front_speeds": 2
+    "front_speeds": 2,
+    "bottom_bracket_spindle_length_mm": 111,
+    "chainline_mm": 43.5
   }
 }

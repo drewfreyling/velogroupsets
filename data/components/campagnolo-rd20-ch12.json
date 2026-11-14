@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD20-CH12",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "weight_g": 220,
+  "weight_description": "Manufacturer-listed weight for the Chorus twelve-speed mechanical rear derailleur: 220 g. Campagnolo lists one rear-derailleur version for this range; this is a catalogue reference, not a contributor measurement.",
   "technical_document": {
     "url": "https://www.campagnolo.com/gb-en/chorus-rear-derailleur/CRDCHORUS12S.html",
     "title": "Campagnolo Chorus twelve-speed rear derailleur specification and technical downloads",
@@ -20,6 +20,11 @@
       "url": "https://www.campagnolo-sirer.cz/products/prehazovacka-chorus-12s/",
       "title": "Campagnolo distributor model identification: RD20-CH12",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/us-en/chorus-12-speed-rear-derailleur/CRDCHORUS12S.html",
+      "title": "Campagnolo Chorus twelve-speed mechanical rear derailleur: manufacturer-listed 220 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
