@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-at35",
+  "slug": "sl-at35",
+  "name": "Altus shifters pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-ax-road"
+  ],
+  "type": "shifters",
+  "model_number": "SL-AT35",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-AT31_AT35-0495/EV-SL-AT31_AT35-0495.pdf",
+    "title": "Shimano SL-AT35 original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-AT31_AT35-0495/EV-SL-AT31_AT35-0495.pdf",
+      "title": "Shimano SL-AT35 original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

@@ -25,15 +25,21 @@
       "url": "https://www.campagnolo-sirer.cz/img/cms/Produktove_katalogy_Campagnolo/2015_Campagnolo%20product%20catalogue.pdf#page=39",
       "title": "Campagnolo 2015 Product Catalogue, printed page 136 (PDF page 39): original manufacturer technical table, archived by Campagnolo Sirer",
       "retrieved_on": "2026-11-10"
+    },
+    {
+      "url": "https://media.campagnolo.com/seecommerce/original/C-RD-CHORUS-11S-TM1EN",
+      "title": "Campagnolo 10s/11s rear-derailleur technical manual, page 3, sections 1.1–1.2: 10-speed cage references and 2009–2014 eleven-speed mechanical references",
+      "retrieved_on": "2026-11-15"
     }
   ],
   "specifications": {
     "reference_edition": "2017 assembly-code table; not necessarily original launch equipment",
     "rear_speeds": 10,
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null,
-    "pulley_centre_distance_mm": 55
+    "total_capacity_teeth": 32,
+    "maximum_sprocket_teeth": 30,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16,
+    "pulley_centre_distance_mm": 55,
+    "cage": "Short"
   }
 }

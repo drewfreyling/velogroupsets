@@ -1,0 +1,34 @@
+{
+  "id": "campagnolo-fdsrs-2wl",
+  "slug": "fdsrs-2wl",
+  "name": "Super Record S Wireless front derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-super-record-s-wireless-12-speed"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FDSRS-2WL",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.campagnolo.com/us-en/super-record-s-wireless-front-derailleur/CFDSUPERRECORDSWRLDB12S.html",
+    "title": "Campagnolo FDSRS-2WL family manufacturer specifications and technical downloads",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/us-en/super-record-s-wireless-front-derailleur/CFDSUPERRECORDSWRLDB12S.html",
+      "title": "Campagnolo FDSRS-2WL family manufacturer specifications and technical downloads",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.bike24.com/p2866669.html",
+      "title": "Complete manufacturer assembly identifier FDSRS-2WL; group and braze-on model identification",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "rear_speeds": 12
+  }
+}

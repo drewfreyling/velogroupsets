@@ -37,7 +37,9 @@ test('manufacturer evidence does not turn catalogue options into universal limit
   await expect(row(page,'Smallest sprocket')).toHaveText('11T');await expect(row(page,'Front chainring tooth difference')).toHaveText('16T');
   for(const id of ['sram-rd-frc-a1','sram-rd-riv-a1']){
     const record=(await(await request.get('/api/v1/components/'+id+'.json')).json()).data;
-    expect(record.specifications.total_capacity_teeth).toBeNull();expect(record.specifications.maximum_sprocket_teeth).toBeNull();
+    expect(record.specifications).toMatchObject({total_capacity_teeth:33,maximum_sprocket_teeth:28,minimum_sprocket_teeth:11,maximum_front_difference_teeth:16});
+    expect(record.specifications.reference_configuration).toContain('Original ten-speed');
+    expect(record.sources.some(source=>source.url.endsWith('/2010-sram-technical-manual.pdf#page=6'))).toBe(true);
   }
   await page.goto('/components/campagnolo/rd15-ch1eps/');await expect(row(page,'Weight').locator('span')).toHaveText('225 g');await expect(row(page,'Total capacity')).toHaveText('33T');await expect(row(page,'Largest sprocket')).toHaveText('Not yet sourced');
   await page.goto('/components/campagnolo/fd15-re2b/');await expect(row(page,'Weight').locator('span')).toHaveText('Not yet sourced');await expect(row(page,'capacity teeth')).toHaveText('16');

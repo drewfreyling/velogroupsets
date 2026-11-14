@@ -1,8 +1,8 @@
 # Campagnolo component coverage audit
 
-Reviewed on **15 November 2026**. This update fills all **30 previously empty Campagnolo groupsets**, adding **61 component identities** and documenting further memberships for four existing shared components. All **61 Campagnolo groupsets** now contain at least one sourced component. Stable IDs and start years are preserved. The full catalogue contains **1,179 components across 238 groupsets and four manufacturers**.
+Reviewed on **15 November 2026**. This update fills all **30 previously empty Campagnolo groupsets**, adding **61 component identities** and documenting further memberships for four existing shared components. All **61 Campagnolo groupsets** now contain at least one sourced component. Stable IDs and start years are preserved. At the end of this audit, the catalogue contained **1,179 components across 238 groupsets and four manufacturers**; see the later [inventory and specification review](catalogue-gaps.md) for current coverage.
 
-These are starter inventories. A populated group is not a complete build kit: Campagnolo brake calipers, many hubs and other variants still need review. Weights remain unknown for 48 of the new identities; no crank or hub weight is inferred from a generic family figure.
+These are starter inventories. A populated group is not a complete build kit: Further caliper and hub variants still need review; the later [gap review](catalogue-gaps.md) adds the first Campagnolo caliper records. Weights remain unknown for 48 of the new identities; no crank or hub weight is inferred from a generic family figure.
 
 ## Previously empty ranges
 

@@ -1,0 +1,26 @@
+{
+  "id": "campagnolo-4051-1",
+  "slug": "4051-1",
+  "name": "Super Record seatpost",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-super-record-original"
+  ],
+  "type": "seatpost",
+  "model_number": "4051/1",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.campyonly.com/history/catalogs/1982_olympic_catalog.pdf#page=6",
+    "title": "Original Campagnolo 1982 US Olympic catalogue, PDF page 6: complete road gruppo component list",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.campyonly.com/history/catalogs/1982_olympic_catalog.pdf#page=6",
+      "title": "Original Campagnolo 1982 US Olympic catalogue, PDF page 6: complete road gruppo component list",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

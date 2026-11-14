@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-m6100-1",
+  "slug": "fc-m6100-1",
+  "name": "Deore crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6100"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M6100-1",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M6100-1-4669/EV-FC-M6100-1-4669B.pdf",
+    "title": "Shimano FC-M6100-1 original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M6100-1-4669/EV-FC-M6100-1-4669B.pdf",
+      "title": "Shimano FC-M6100-1 original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

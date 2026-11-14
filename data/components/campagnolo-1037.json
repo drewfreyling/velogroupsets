@@ -4,7 +4,8 @@
   "name": "Record pedals pair",
   "manufacturer_id": "campagnolo",
   "groupset_ids": [
-    "campagnolo-record-original"
+    "campagnolo-record-original",
+    "campagnolo-nuovo-record-original"
   ],
   "type": "pedals",
   "model_number": "1037",
@@ -19,6 +20,11 @@
     {
       "url": "https://ebykr.com/wp-content/uploads/2026/10/ebykr-campagnolo-catalogo-14-p06.webp",
       "title": "Original Campagnolo catalogue 14, printed page 4: Record road group 1032 and complete component codes",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campyonly.com/history/catalogs/1982_olympic_catalog.pdf#page=7",
+      "title": "Original Campagnolo 1982 US Olympic catalogue, PDF page 7: complete road gruppo component list",
       "retrieved_on": "2026-11-15"
     }
   ],

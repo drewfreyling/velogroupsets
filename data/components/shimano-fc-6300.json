@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-6300",
+  "slug": "fc-6300",
+  "name": "600 AX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ax-6300"
+  ],
+  "type": "crankset",
+  "model_number": "FC-6300",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-6300_BB-6200-0431/EV-FC-6300_BB-6200-0431D.pdf",
+    "title": "Shimano FC-6300 original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-6300_BB-6200-0431/EV-FC-6300_BB-6200-0431D.pdf",
+      "title": "Shimano FC-6300 original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

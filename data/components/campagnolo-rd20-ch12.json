@@ -25,13 +25,19 @@
       "url": "https://www.campagnolo.com/us-en/chorus-12-speed-rear-derailleur/CRDCHORUS12S.html",
       "title": "Campagnolo Chorus twelve-speed mechanical rear derailleur: manufacturer-listed 220 g",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.campagnolo.com/on/demandware.static/-/Library-Sites-campagnoloLibrary/default/dwf6239c9f/pdf/035_2397_Technical%20manual%20-%2012s_Mechanical%20units%20rear%20derailleur%20-%20Campagnolo_Rev06_10_22_ENG.pdf#page=3",
+      "title": "Campagnolo mechanical twelve-speed rear-derailleur technical manual, revision 06/10-2022, page 3: 29–34-marked cage reference; distinct from earlier 32T-only cage",
+      "retrieved_on": "2026-11-15"
     }
   ],
   "specifications": {
-    "total_capacity_teeth": null,
+    "total_capacity_teeth": 39,
     "maximum_sprocket_teeth": 34,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null,
-    "rear_speeds": 12
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 16,
+    "rear_speeds": 12,
+    "reference_configuration": "34T-compatible revision with the manufacturer 29–34 cage marking; not the earlier 32T-only cage."
   }
 }

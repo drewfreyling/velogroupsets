@@ -1,0 +1,28 @@
+{
+  "id": "shimano-fd-at20",
+  "slug": "fd-at20",
+  "name": "Altus front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-ax-road"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-AT20",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-AT20-0494/EV-FD-AT20-0494A.pdf",
+    "title": "Shimano FD-AT20 original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-AT20-0494/EV-FD-AT20-0494A.pdf",
+      "title": "Shimano FD-AT20 original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "reference_edition": "Original Altus AX drawing 0494A; not the later Altus A20 drawing 1255"
+  }
+}

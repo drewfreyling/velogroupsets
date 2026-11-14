@@ -33,7 +33,7 @@ See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relati
 
 The [design guide](docs/design.md) documents the teal palette, self-hosted Source Sans 3 typography, contrast rules and dark-mode behaviour.
 
-The [Shimano component coverage audit](docs/shimano-component-coverage.md) fills 57 previously empty ranges with 141 sourced components. The [Campagnolo coverage audit](docs/campagnolo-component-coverage.md) adds 61 identities and fills the remaining 30 empty Campagnolo groupsets. Every groupset across all four manufacturers now has at least one sourced component; individual inventories and weights remain incomplete.
+The [Shimano component coverage audit](docs/shimano-component-coverage.md) fills 57 previously empty ranges with 141 sourced components. The [Campagnolo coverage audit](docs/campagnolo-component-coverage.md) adds 61 identities and fills the remaining 30 empty Campagnolo groupsets. The [inventory and specification review](docs/catalogue-gaps.md) adds another 68 identities and 201 derailleur limit fields, including Campagnolo/SRAM calipers and SRAM bottom brackets. Every groupset across all four manufacturers now has at least two sourced components; individual inventories and weights remain incomplete.
 
 The [microSHIFT catalogue review](docs/microshift.md) adds 11 road/MTB offerings and 87 components from the manufacturer’s 2016–2017 catalogue, with mount-specific weights, complete shifter pairs and configuration-specific cassettes.
 

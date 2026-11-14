@@ -1,0 +1,26 @@
+{
+  "id": "campagnolo-0104007",
+  "slug": "0104007",
+  "name": "Nuovo Record front derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-nuovo-record-original"
+  ],
+  "type": "front-derailleur",
+  "model_number": "0104007",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.campyonly.com/history/catalogs/1982_olympic_catalog.pdf#page=7",
+    "title": "Original Campagnolo 1982 US Olympic catalogue, PDF page 7: complete road gruppo component list",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.campyonly.com/history/catalogs/1982_olympic_catalog.pdf#page=7",
+      "title": "Original Campagnolo 1982 US Olympic catalogue, PDF page 7: complete road gruppo component list",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

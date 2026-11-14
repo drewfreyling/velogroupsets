@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fd-6200",
+  "slug": "fd-6200",
+  "name": "600 EX front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-6200",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-6200-0325/EV-FD-6200-0325B.pdf",
+    "title": "Shimano FD-6200 original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-6200-0325/EV-FD-6200-0325B.pdf",
+      "title": "Shimano FD-6200 original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

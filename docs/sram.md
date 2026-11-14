@@ -86,3 +86,9 @@ The original RED family currently has only its documented rear derailleur. Early
 ## Wide road options
 
 The [additional road review](road-groupsets.md) adds four manufacturer-documented Wide front-derailleur/crankset options to existing Force/Rival AXS D1 families: FD-FRC-EW-D1, FC-FRC-W-D1, FD-RIV-EW-D1 and FC-RIV-W-D1. Their 47.5 mm chainline and 43/30T configuration remain distinct from standard options. All four weights are unknown. Wide equipment is a component option, so this review does not invent another SRAM groupset family.
+
+## Road brakes and shared bottom brackets
+
+The later [inventory and specification review](catalogue-gaps.md) adds six manufacturer-identified rim-caliper pairs and two shared DUB bottom-bracket families. Original ten-speed RED gains its SB-RED-A1 control pair and RB-RED-A1 calipers. Force and Rival A1 rear derailleurs gain the explicit 33/28/11/16T original short-cage reference from the 2010 manufacturer technical manual.
+
+BB-DUB-BSA-A1 and BB-DUB-PF-A1 are frame-dependent installation options in the manufacturer's Road AXS/XPLR system. The six current RED, Force and Rival road/gravel families share their canonical records. Their weights remain unknown until a matching road shell, bearing and spacer reference is established.

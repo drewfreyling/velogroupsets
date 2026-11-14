@@ -1,0 +1,28 @@
+{
+  "id": "sram-rb-red-b2",
+  "slug": "rb-red-b2",
+  "name": "RED brake calipers pair",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-22"
+  ],
+  "type": "brake-calipers",
+  "model_number": "RB-RED-B2",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf#page=34",
+    "title": "SRAM 2020 spare-parts catalogue, PDF page 34: complete road rim-brake calipers and pad/mounting assemblies",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf#page=34",
+      "title": "SRAM 2020 spare-parts catalogue, PDF page 34: complete road rim-brake calipers and pad/mounting assemblies",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

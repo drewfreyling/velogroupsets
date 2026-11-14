@@ -72,3 +72,11 @@ The later BR-1056 and BR-A551 models appear in the 1995 catalogue, but their exa
 The [2005 handbook review](shimano-2005.md) records explicit F&R weights for BR-6600, BR-7800, BR-3300, BR-5501 and the long-reach BR-A550-57. The older blank specification tables remain cited as historical context, rather than evidence that no weight was ever published.
 
 The [dealer-manual index](shimano-dealer-manuals.md) records the 2008 BR-5600 and BR-6600-G sources and the limits of this selected-page review.
+
+## Campagnolo and SRAM road calipers
+
+The [inventory gap review](catalogue-gaps.md) adds 15 Campagnolo and six SRAM caliper identities. Campagnolo's 2017 complete-product tables identify BR15-SR/SRDP, BR15-RE/REDP, BR15-CHDP, Potenza and Veloce pairs, plus real manufacturer-coded direct-mount front and rear models. BR02-XE adds the 2002 Xenon pair. Separate Record rear models distinguish mounting under the bottom bracket from mounting on the seatstay.
+
+SRAM's 2020 parts catalogue identifies original RED RB-RED-A1, later RB-RED-B1/B2, Force RB-FRC-A1, Rival RB-RIV-A1 and Apex RB-APX-A1. These records represent complete front/rear rim-caliper pairs. RB calipers remain separate from SB/ED integrated control systems.
+
+All 21 weights remain explicitly unknown under the weight contract above. The manufacturer drawings establish assemblies and hardware, while the complete-product tables establish the pair or individual position; no lever-plus-caliper brakeset total or hydraulic system mass is used as a caliper weight. Further generations remain unlisted.

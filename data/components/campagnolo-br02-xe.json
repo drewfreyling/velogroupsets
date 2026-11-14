@@ -1,0 +1,28 @@
+{
+  "id": "campagnolo-br02-xe",
+  "slug": "br02-xe",
+  "name": "Xenon brake calipers pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-xenon-9-speed"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR02-XE",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202002.pdf#page=50",
+    "title": "Original Campagnolo 2002 spare-parts catalogue, PDF page 50 / printed page 44: Xenon BR02-XE front/rear calipers",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202002.pdf#page=50",
+      "title": "Original Campagnolo 2002 spare-parts catalogue, PDF page 50 / printed page 44: Xenon BR02-XE front/rear calipers",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

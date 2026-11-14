@@ -20,14 +20,20 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2016-2017_Line-up_chart_v017_en.pdf#page=65",
       "title": "Shimano 2016-2017 line-up chart, PDF page 65: Sora R3000 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=158",
+      "title": "Shimano 2025 specification handbook, PDF page 158: RD-R3000-GS cage-specific capacity, largest/lowest and smallest/top sprocket limits; front difference",
+      "retrieved_on": "2026-11-15"
     }
   ],
   "specifications": {
     "rear_speeds": 9,
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null,
-    "cage": "GS"
+    "total_capacity_teeth": 43,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 20,
+    "cage": "GS",
+    "reference_configuration": "Manufacturer specification-table reference."
   }
 }

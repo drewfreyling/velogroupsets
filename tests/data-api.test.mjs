@@ -114,3 +114,11 @@ test('every Campagnolo range has sourced components in the public catalogue',()=
   const empty=publicGroups.filter(group=>group.manufacturer_id==='campagnolo'&&!populated.has(group.id)).map(group=>group.id);
   assert.deepEqual(empty,[],`Campagnolo groupsets awaiting sourced component lists: ${empty.join(', ')}`);
 });
+
+test('every groupset has at least two sourced components after the inventory review',()=>{
+  const {groupsets:publicGroups,components:publicParts}=read('catalogue').data;
+  const counts=new Map();
+  for(const part of publicParts)for(const group of part.groupset_ids)counts.set(group,(counts.get(group)||0)+1);
+  const sparse=publicGroups.filter(group=>(counts.get(group.id)||0)<2).map(group=>group.id);
+  assert.deepEqual(sparse,[],`Groupsets awaiting a sourced starter inventory: ${sparse.join(', ')}`);
+});

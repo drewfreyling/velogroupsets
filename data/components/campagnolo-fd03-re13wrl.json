@@ -1,0 +1,34 @@
+{
+  "id": "campagnolo-fd03-re13wrl",
+  "slug": "fd03-re13wrl",
+  "name": "Record front derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-13-speed"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD03-RE13WRL",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.campagnolo.com/se-en/record-13-front-derailleur/CFDRECORD13.html",
+    "title": "Campagnolo FD03-RE13WRL family manufacturer specifications and technical downloads",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/se-en/record-13-front-derailleur/CFDRECORD13.html",
+      "title": "Campagnolo FD03-RE13WRL family manufacturer specifications and technical downloads",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.excelsports.com/campagnolo-record-13-front-derailleur",
+      "title": "Complete manufacturer assembly identifier FD03-RE13WRL; group and braze-on model identification",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "rear_speeds": 13
+  }
+}

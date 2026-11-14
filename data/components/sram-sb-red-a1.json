@@ -1,0 +1,29 @@
+{
+  "id": "sram-sb-red-a1",
+  "slug": "sb-red-a1",
+  "name": "RED shifters pair",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-10-speed"
+  ],
+  "type": "shifters",
+  "model_number": "SB-RED-A1",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf#page=25",
+    "title": "SRAM 2020 spare-parts catalogue, PDF page 25: original RED 2008–2011 left/right DoubleTap control assemblies",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf#page=25",
+      "title": "SRAM 2020 spare-parts catalogue, PDF page 25: original RED 2008–2011 left/right DoubleTap control assemblies",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "weight_basis": "Pair"
+  }
+}

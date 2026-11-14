@@ -1,0 +1,26 @@
+{
+  "id": "campagnolo-1040-a",
+  "slug": "1040-a",
+  "name": "Nuovo Gran Sport headset",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-nuovo-gran-sport"
+  ],
+  "type": "headset",
+  "model_number": "1040/A",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.campyonly.com/history/catalogs/1982_olympic_catalog.pdf#page=8",
+    "title": "Original Campagnolo 1982 US Olympic catalogue, PDF page 8: complete road gruppo component list",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.campyonly.com/history/catalogs/1982_olympic_catalog.pdf#page=8",
+      "title": "Original Campagnolo 1982 US Olympic catalogue, PDF page 8: complete road gruppo component list",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

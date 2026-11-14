@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-6200",
+  "slug": "fc-6200",
+  "name": "600 EX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "crankset",
+  "model_number": "FC-6200",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-6200-0329/EV-FC-6200-0329G.pdf",
+    "title": "Shimano FC-6200 original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-6200-0329/EV-FC-6200-0329G.pdf",
+      "title": "Shimano FC-6200 original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

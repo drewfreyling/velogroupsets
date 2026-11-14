@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-m610",
+  "slug": "fc-m610",
+  "name": "Deore crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m610"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M610",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M610-3503/EV-FC-M610-3503.pdf",
+    "title": "Shimano FC-M610 original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M610-3503/EV-FC-M610-3503.pdf",
+      "title": "Shimano FC-M610 original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

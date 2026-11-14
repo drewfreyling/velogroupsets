@@ -1,0 +1,34 @@
+{
+  "id": "campagnolo-fd18-ceb2b",
+  "slug": "fd18-ceb2b",
+  "name": "Centaur front derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-centaur-11-speed"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD18-CEB2B",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.campagnolo.com/us-en/centaur-front-derailleur/CFDCENTAURBLACK11S.html",
+    "title": "Campagnolo FD18-CEB2B family manufacturer specifications and technical downloads",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/us-en/centaur-front-derailleur/CFDCENTAURBLACK11S.html",
+      "title": "Campagnolo FD18-CEB2B family manufacturer specifications and technical downloads",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.jbi.bike/site/product_details.php?part_number=250289",
+      "title": "Complete manufacturer assembly identifier FD18-CEB2B; group and braze-on model identification",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "rear_speeds": 11
+  }
+}

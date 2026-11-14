@@ -1,0 +1,40 @@
+{
+  "id": "sram-bb-dub-bsa-a1",
+  "slug": "bb-dub-bsa-a1",
+  "name": "RED AXS bottom bracket",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-red-axs-e1",
+    "sram-force-axs-e1",
+    "sram-rival-axs-e1",
+    "sram-red-xplr-axs-e1",
+    "sram-force-xplr-axs-e1",
+    "sram-rival-xplr-axs-e1"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-DUB-BSA-A1",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/bb-dub-bsa-a1",
+    "title": "SRAM BB-DUB-BSA-A1 manufacturer specifications: DUB bottom-bracket assembly and supported frame shells",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/bb-dub-bsa-a1",
+      "title": "SRAM BB-DUB-BSA-A1 manufacturer specifications: DUB bottom-bracket assembly and supported frame shells",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://docs.sram.com/s/RoadAXSandXPLRAXSUserManual.html",
+      "title": "SRAM Road AXS and XPLR AXS user manual: DUB BSA and PressFit bottom-bracket installation and road/wide configurations",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "interface": "DUB",
+    "shell_interface": "BSA",
+    "reference_configuration": "Shared DUB Road / Road Wide installation system; select the frame-specific shell and spacers from the manufacturer table."
+  }
+}

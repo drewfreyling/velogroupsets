@@ -1,0 +1,34 @@
+{
+  "id": "shimano-hb-6110-f",
+  "slug": "hb-6110-f",
+  "name": "600 front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-original"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-6110",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-6110_6120%20F-0666/EV-HB-6110_6120%20F-0666.pdf",
+    "title": "Shimano HB-6110-F original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-6110_6120%20F-0666/EV-HB-6110_6120%20F-0666.pdf",
+      "title": "Shimano HB-6110-F original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.goatsurfer.com/assets/Shimano_1981.pdf#page=32",
+      "title": "Original Shimano catalogue archived as 1981, printed p. 31 / PDF p. 32: original Shimano 600 HB-6110 front/rear hub offering",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "hub_position": "Front"
+  },
+  "weight_excludes_skewers": true
+}

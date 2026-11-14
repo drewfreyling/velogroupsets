@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-m9000",
+  "slug": "fc-m9000",
+  "name": "XTR crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M9000",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M9000-3775/EV-FC-M9000-3775B.pdf",
+    "title": "Shimano FC-M9000 original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M9000-3775/EV-FC-M9000-3775B.pdf",
+      "title": "Shimano FC-M9000 original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

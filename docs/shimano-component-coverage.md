@@ -2,7 +2,7 @@
 
 Reviewed on **15 November 2026**. The audit found **57 of 138 Shimano groupsets with no components**. This update adds **141 manufacturer-documented component identities**, so every existing Shimano groupset now has at least one component. It preserves all groupset IDs and start years. At the end of this Shimano audit, the catalogue had **1,118 components across 238 groupsets and four manufacturers**; see the [catalogue overview](catalogue.md#validation-and-current-status) for current totals.
 
-These are sourced starter inventories, not complete build kits. Five of the previously empty ranges have one verified component, 20 have two, and 32 have three. Remaining categories and most weights still need reference review.
+These are sourced starter inventories, not complete build kits. At the end of that review, five of the previously empty ranges had one verified component, 20 had two, and 32 had three. The later [gap review](catalogue-gaps.md) expands every remaining one-component Shimano range. Remaining categories and most weights still need reference review.
 
 ## What was added
 

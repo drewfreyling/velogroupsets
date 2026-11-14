@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fd-at12",
+  "slug": "fd-at12",
+  "name": "Altus front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-selecta-road"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-AT12",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-AT11_AT12-0342/EV-FD-AT11_AT12-0342C.pdf",
+    "title": "Shimano FD-AT12 original manufacturer exploded drawing: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-AT11_AT12-0342/EV-FD-AT11_AT12-0342C.pdf",
+      "title": "Shimano FD-AT12 original manufacturer exploded drawing: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.goatsurfer.com/assets/Shimano_1981.pdf#page=39",
+      "title": "Original Shimano catalogue archived as 1981, printed p. 38 / PDF p. 39: Altus/Selecta FD-AT12; distinct from the later MTB Altus A20 series",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

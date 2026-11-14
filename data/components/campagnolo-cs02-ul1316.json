@@ -4,7 +4,9 @@
   "name": "Super Record Ultra cassette",
   "manufacturer_id": "campagnolo",
   "groupset_ids": [
-    "campagnolo-super-record-ultra-13-speed"
+    "campagnolo-super-record-ultra-13-speed",
+    "campagnolo-super-record-1x13",
+    "campagnolo-super-record-all-road-13-speed"
   ],
   "type": "cassette",
   "model_number": "CS02-UL1316",
@@ -24,6 +26,16 @@
     {
       "url": "https://www.bike24.com/p2971955.html",
       "title": "Ultra cassette manufacturer identifiers CS02-UL1303 and CS02-UL1316",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campagnolo.com/us-en/super-record-1x13/",
+      "title": "Campagnolo super-record-1x13 component list: optional Ultra thirteen-speed cassette",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campagnolo.com/ca-en/super-record-2x13-all-road/",
+      "title": "Campagnolo super-record-all-road-13-speed component list: optional Ultra thirteen-speed cassette",
       "retrieved_on": "2026-11-15"
     }
   ],

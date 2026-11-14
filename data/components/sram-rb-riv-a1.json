@@ -1,0 +1,28 @@
+{
+  "id": "sram-rb-riv-a1",
+  "slug": "rb-riv-a1",
+  "name": "Rival brake calipers pair",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-rival-10-speed"
+  ],
+  "type": "brake-calipers",
+  "model_number": "RB-RIV-A1",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf#page=36",
+    "title": "SRAM 2020 spare-parts catalogue, PDF page 36: complete road rim-brake calipers and pad/mounting assemblies",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf#page=36",
+      "title": "SRAM 2020 spare-parts catalogue, PDF page 36: complete road rim-brake calipers and pad/mounting assemblies",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}
