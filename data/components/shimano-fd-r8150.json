@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-R8150",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-R8150 has not been established.",
+  "weight_g": 110,
+  "weight_description": "Manufacturer-listed 2025–2026 reference for the twelve-speed Di2 FD-R8150 braze-on front derailleur, with its fixing screw and without the separately listed clamp adapter.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-R8150-4863/EV-FD-R8150-4863.pdf",
     "title": "Shimano FD-R8150 exploded view and replacement parts",
@@ -20,9 +20,15 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=55",
       "title": "Shimano 2025-2026 line-up chart, PDF page 55: Ultegra Di2 R8100 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=130",
+      "title": "Shimano 2025–2026 specifications, printed page 127 (PDF page 130): FD-R8150 braze-on with fixing screw, 110 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "rear_speeds": 12
+    "rear_speeds": 12,
+    "mount": "Braze-on"
   }
 }

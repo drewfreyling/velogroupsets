@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-1056-B",
-  "weight_g": null,
-  "weight_description": "Weight withheld: the cited band-mounted figure does not identify the weighed clamp diameter. A weight for a specific clamp size has not been sourced.",
+  "weight_g": 105,
+  "weight_description": "Manufacturer-listed 1994 reference for the FD-1056-B band-mounted double front derailleur, using the documented 28.0–28.6 mm band range. This is not the FD-1056-F braze-on variant.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-1056-1309/EV-FD-1056-1309.pdf",
     "title": "Shimano FD-1056 exploded view and replacement parts",
@@ -20,11 +20,20 @@
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/39-40.htm",
       "title": "Shimano 1993 catalogue, pages 39–40: 105 SC eight-speed update (archived by Charlie Taylor)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=52",
+      "title": "Shimano 1994 dealer manual, PDF/printed page 52: FD-1056-B, 105 g, 28.0–28.6 mm band",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "rear_speeds": 8,
     "front_speeds": 2,
-    "mount": "Clamp"
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
+      28.0,
+      28.6
+    ]
   }
 }

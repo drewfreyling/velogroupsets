@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-6770-F",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-6770-F has not been established.",
+  "weight_g": 167,
+  "weight_description": "Manufacturer-listed 2014–2015 reference for the ten-speed Di2 FD-6770-F braze-on front derailleur, without a clamp adapter. The later 2017–2018 table lists 160 g with its fixing bolt.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-6770-3292/EV-FD-6770-3292A.pdf",
     "title": "Shimano FD-6770-F exploded view and replacement parts",
@@ -20,6 +20,16 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=46",
       "title": "Shimano 2012-2013 line-up chart, PDF page 46: Ultegra Di2 6770 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=193",
+      "title": "Shimano 2014–2015 specifications, printed page 190 (PDF page 193): FD-6770-F braze-on, 167 g",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=237",
+      "title": "Shimano 2017–2018 specifications, printed page 234 (PDF page 237): later FD-6770-F reference, 160 g with fixing bolt",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

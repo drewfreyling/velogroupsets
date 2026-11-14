@@ -76,3 +76,5 @@ The [dealer-manual review](shimano-dealer-manuals.md) fills the existing BR-5600
 ## SM-FC5600 bottom-bracket cups
 
 The [2006 Shimano dealer manual, page 139](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=139) explicitly identifies **SM-FC5600** as the separately available HOLLOWTECH II BB cup unit for FC-5600/5603 in the 105 range. It now has its own bottom-bracket record in 105 5600. [Page 195](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=195) gives combined crankset/BB weights but no separate cup-unit weight, so SM-FC5600 remains `weight_g: null`. No weight is derived by subtraction, and the existing crankset weights remain withheld.
+
+The [front-derailleur review](shimano-front-derailleur-weights.md) resolves FD-1056-B at **105 g for the 28.0–28.6 mm band**, using the 1994 dealer manual p. 52. Its earlier unknown weight is no longer needed because the reference now identifies the band range.

@@ -167,3 +167,5 @@ Blank weight cells in the entry-level road tables remain unknown. A model appear
 ## Follow-up rear-derailleur weight review
 
 The [52-model weight review](shimano-rear-derailleur-weights.md) fills 11 previously null rear-derailleur weights, including model-specific references in the 2006 and 2012/2013 TSS manuals and older 600 catalogues. It records the exact selected PDF/printed pages, preserves contributor measurements and lists the 41 remaining unknowns with blank-cell, cage and model-revision limitations.
+
+The [33-model front-derailleur review](shimano-front-derailleur-weights.md) adds eight qualified references from the 1994/2005/2008/2012 dealer tables and specification handbooks, with mounting details and the 25 unresolved records.

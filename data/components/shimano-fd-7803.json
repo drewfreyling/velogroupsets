@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-7803",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 106,
+  "weight_description": "Manufacturer-listed 2008 reference for the FD-7803-F braze-on triple front derailleur, without a clamp adapter.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-7803-2447/EV-FD-7803-2447A.pdf",
     "title": "Shimano FD-7803 exploded view and replacement parts",
@@ -20,6 +20,14 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-7803-2447/EV-FD-7803-2447A.pdf",
       "title": "Shimano FD-7803 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2008_Trade_Support_Manual.pdf#page=200",
+      "title": "Shimano 2008 Trade Support Manual, PDF/printed page 200: FD-7803-F braze-on, 106 g",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "mount": "Braze-on"
+  }
 }

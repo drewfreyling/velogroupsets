@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-7900",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 67,
+  "weight_description": "Manufacturer-listed 2012 reference for the FD-7900-F braze-on double front derailleur, without a clamp adapter.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-7900-2870/EV-FD-7900-2870B.pdf",
     "title": "Shimano FD-7900 exploded view and replacement parts",
@@ -20,6 +20,14 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-7900-2870/EV-FD-7900-2870B.pdf",
       "title": "Shimano FD-7900 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2012_Shimano_Trade-Sales_Manual.pdf#page=121",
+      "title": "Shimano 2012 Trade-Sales Manual, PDF/printed page 121: FD-7900-F, 67 g",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "mount": "Braze-on"
+  }
 }

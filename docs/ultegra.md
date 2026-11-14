@@ -128,3 +128,5 @@ BR-6700 and BR-6800 now have complete-pair caliper records. BR-6700 retains an u
 The manufacturer-hosted [2005 handbook](shimano-2005.md) supplies BR-6600 at **330 g for the complete front/rear pair**, with standard R55C2 pads and mounting bolts. It also corroborates the existing 6600 lever, hub, cassette and seatpost references. The 2005 crank totals include the bottom bracket and remain excluded.
 
 The [dealer-manual review](shimano-dealer-manuals.md) adds the distinct **BR-6600-G** Ultegra SL caliper pair at **320 g** with R55C2 pads (2008 TSS, p. 202). Standard BR-6600 retains its own 330 g reference. The review also fills weights and all four rear-derailleur limits for Di2 6870/R8050 and adds the explicit ST-R8050 pair weight, outside the seven-series totals above.
+
+The [front-derailleur review](shimano-front-derailleur-weights.md) supplies **167 g** for braze-on FD-6770-F from the 2014–2015 handbook and **110 g** for braze-on FD-R8150 with its fixing screw from the 2025–2026 handbook. It preserves the later 160 g FD-6770-F reference as a distinct edition rather than averaging it.

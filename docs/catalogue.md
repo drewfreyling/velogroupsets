@@ -261,3 +261,5 @@ The [dealer-manual source index and review](shimano-dealer-manuals.md) preserves
 The [Shimano MTB and GRX source guide](shimano-mtb.md) documents 65 MTB series and four GRX offerings, conservative reference dates, the first 32 component records, and remaining gaps. Series records do not imply complete component coverage.
 
 The [rear-derailleur weight review](shimano-rear-derailleur-weights.md) checks 52 requested model/cage records, adds 11 manufacturer-listed weights and documents why 41 remain unknown. Existing contributor measurements are retained.
+
+The [front-derailleur weight review](shimano-front-derailleur-weights.md) checks 33 requested models, fills eight mount-qualified weights and documents the 25 remaining unknowns, including unqualified clamp sizes and shared mounting figures.

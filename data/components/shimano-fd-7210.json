@@ -9,7 +9,7 @@
   "type": "front-derailleur",
   "model_number": "FD-7210",
   "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Braze-on weight not yet established. The June 1984 catalogue groups FD-7210 with band-mounted FD-7200 under one 102 g figure without identifying which mounting assembly was weighed; that shared figure is not assigned to this variant.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-7200_7210-0341/EV-FD-7200_7210-0341A.pdf",
     "title": "Shimano FD-7210 exploded view and replacement parts",
@@ -20,6 +20,14 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-7200_7210-0341/EV-FD-7200_7210-0341A.pdf",
       "title": "Shimano FD-7210 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_41.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 41: FD-7200/7210 shared 102 g figure and different mounting assemblies",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "mount": "Braze-on"
+  }
 }

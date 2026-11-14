@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-7703",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 103,
+  "weight_description": "Manufacturer-listed 2005 reference for the FD-7703-F braze-on triple front derailleur, without a clamp adapter. The separately listed FD-7703-B band version has a different 113 g reference.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-7703-2071/EV-FD-7703-2071.pdf",
     "title": "Shimano FD-7703 exploded view and replacement parts",
@@ -20,6 +20,14 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-7703-2071/EV-FD-7703-2071.pdf",
       "title": "Shimano FD-7703 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=118",
+      "title": "Shimano 2005 Trade Sales Support Manual, printed page 130 (PDF page 118): FD-7703-F 103 g versus FD-7703-B 113 g",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "mount": "Braze-on"
+  }
 }

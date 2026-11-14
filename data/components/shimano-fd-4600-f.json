@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-4600-F",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-4600-F has not been established.",
+  "weight_g": 89,
+  "weight_description": "Manufacturer-listed 2014–2015 reference for the FD-4600-F braze-on double front derailleur, without a clamp adapter; the separate FD-4600-B band figure is not used.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-4600-3147/EV-FD-4600-3147A.pdf",
     "title": "Shimano FD-4600-F exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=30",
       "title": "Shimano 2012-2013 line-up chart, PDF page 30: Tiagra 4600 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=123",
+      "title": "Shimano 2014–2015 specifications, printed page 120 (PDF page 123): FD-4600-F braze-on, 89 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
