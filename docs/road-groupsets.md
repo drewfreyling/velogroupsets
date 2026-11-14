@@ -4,7 +4,7 @@ The 9 November 2026 review adds **75 groupset records**: 29 Shimano and 46 Campa
 
 This is a review of named road families and drivetrain generations, including historical road equipment and newer recreational drop-bar systems. It does not treat every finish, crank length, limited-edition presentation or power-meter option as a separate groupset. Existing SRAM XPLR records remain; this review does not add MTB, track, gravel-only GRX or Ekar families. Later disc-brake controls and revised parts belong to their documented family unless the drivetrain system itself is distinct.
 
-**Component coverage is incomplete.** The review added 209 component identities with initially unknown weights, and 33 of the newly added groupsets initially had no verified component list. The later [Shimano component coverage audit](shimano-component-coverage.md) fills all remaining empty Shimano ranges; Campagnolo coverage remains a separate review. A group entry establishes a documented range and date; it does not imply that a complete build kit has been catalogued. Manufacturer-hosted technical documents, exact assembly codes and membership still need review before further component records are added. The initial review did not change archive exceptions. The later [1982 Campagnolo weight review](campagnolo-1980s-weights.md) adds one exact reviewed manufacturer PDF and three period rear derailleurs.
+**Component coverage is incomplete.** The review added 209 component identities with initially unknown weights, and 33 of the newly added groupsets initially had no verified component list. The later [Shimano component coverage audit](shimano-component-coverage.md) fills all remaining empty Shimano ranges; the [Campagnolo component coverage audit](campagnolo-component-coverage.md) fills all 30 remaining empty Campagnolo ranges. A group entry establishes a documented range and date; it does not imply that a complete build kit has been catalogued. Manufacturer-hosted technical documents, exact assembly codes and membership still need review before further component records are added. The initial review did not change archive exceptions. The later [1982 Campagnolo weight review](campagnolo-1980s-weights.md) adds one exact reviewed manufacturer PDF and three period rear derailleurs.
 
 ## Dates and identifiers
 
@@ -20,7 +20,7 @@ A start year is the documented introduction where a launch or manufacturer histo
 
 ## Added groupsets and reference editions
 
-The component counts in this table describe the 9 November review, including canonical shared parts. Later audits add records and memberships; a zero here is a historical snapshot, not a claim that the current Shimano range is empty.
+The component counts in this table describe the 9 November review, including canonical shared parts. Later audits add records and memberships; a zero here is a historical snapshot, not a claim that the current range is empty.
 
 | Manufacturer | Groupset | Start year | Components | Source |
 | --- | --- | --- | --- | --- |

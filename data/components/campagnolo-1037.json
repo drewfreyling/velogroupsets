@@ -1,0 +1,26 @@
+{
+  "id": "campagnolo-1037",
+  "slug": "1037",
+  "name": "Record pedals pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-original"
+  ],
+  "type": "pedals",
+  "model_number": "1037",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://ebykr.com/wp-content/uploads/2026/10/ebykr-campagnolo-catalogo-14-p06.webp",
+    "title": "Original Campagnolo catalogue 14, printed page 4: Record road group 1032 and complete component codes",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://ebykr.com/wp-content/uploads/2026/10/ebykr-campagnolo-catalogo-14-p06.webp",
+      "title": "Original Campagnolo catalogue 14, printed page 4: Record road group 1032 and complete component codes",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

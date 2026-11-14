@@ -1,0 +1,37 @@
+{
+  "id": "campagnolo-rd03-re13dhwrl",
+  "slug": "rd03-re13dhwrl",
+  "name": "Record rear derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-record-13-speed"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD03-RE13DHWRL",
+  "weight_g": 297,
+  "weight_description": "Manufacturer-listed weight for the direct-mount Record 13 rear derailleur without battery.",
+  "technical_document": {
+    "url": "https://www.campagnolo.com/gb-en/record-13-rear-derailleur/CRDRECORD13.html",
+    "title": "Campagnolo Record 13 rear derailleur specifications: 297 g without battery",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/gb-en/record-13-rear-derailleur/CRDRECORD13.html",
+      "title": "Campagnolo Record 13 rear derailleur specifications: 297 g without battery",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.bike24.com/p21034417.html",
+      "title": "Complete Record 13 direct-mount assembly identifier RD03-RE13DHWRL",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 13,
+    "maximum_sprocket_teeth": 36,
+    "minimum_sprocket_teeth": 10,
+    "total_capacity_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

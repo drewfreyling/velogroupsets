@@ -1,0 +1,37 @@
+{
+  "id": "campagnolo-rd-09vl",
+  "slug": "rd-09vl",
+  "name": "Veloce rear derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-veloce-9-speed"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-09VL",
+  "weight_g": 251,
+  "weight_description": "Manufacturer-listed 1998 weight for the complete RD-09VL short-cage nine-speed rear derailleur.",
+  "technical_document": {
+    "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%201998%20-%20Part%20A.pdf#page=34",
+    "title": "Original Campagnolo 1998 - Part A spare-parts catalogue, PDF page 34; archived manufacturer publication",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%201998%20-%20Part%20A.pdf#page=34",
+      "title": "Original Campagnolo 1998 - Part A spare-parts catalogue, PDF page 34; archived manufacturer publication",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campyonly.com/images/catalogs/1998/1998_tech_specs.pdf",
+      "title": "Original Campagnolo 1998 technical specifications: PDF pages 17–18 rear derailleurs and page 25 control-pair weights",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "total_capacity_teeth": 27,
+    "maximum_sprocket_teeth": 26,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

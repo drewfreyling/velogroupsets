@@ -1,0 +1,26 @@
+{
+  "id": "campagnolo-1005-2",
+  "slug": "1005-2",
+  "name": "Gran Sport front derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-gran-sport-original"
+  ],
+  "type": "front-derailleur",
+  "model_number": "1005/2",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://ebykr.com/wp-content/uploads/2026/10/ebykr-campagnolo-catalogo-12-p17-scaled.webp",
+    "title": "Original Campagnolo catalogue 12, printed page 15: Gran Sport group 1003 and complete component codes",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://ebykr.com/wp-content/uploads/2026/10/ebykr-campagnolo-catalogo-12-p17-scaled.webp",
+      "title": "Original Campagnolo catalogue 12, printed page 15: Gran Sport group 1003 and complete component codes",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

@@ -1,0 +1,34 @@
+{
+  "id": "campagnolo-ep11-at1c",
+  "slug": "ep11-at1c",
+  "name": "Athena shifters pair",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-athena-11-speed"
+  ],
+  "type": "shifters",
+  "model_number": "EP11-AT1C",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202013%20-%20Part%20A.pdf#page=57",
+    "title": "Original Campagnolo 2013 spare-parts catalogue part A, PDF page 57; archived manufacturer publication",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202013%20-%20Part%20A.pdf#page=57",
+      "title": "Original Campagnolo 2013 spare-parts catalogue part A, PDF page 57; archived manufacturer publication",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.vieiragraca.com/pub_docs/149/CAMPY13VG.pdf",
+      "title": "Campagnolo 2013 distributor range sheet: complete assembly codes and named groups, pages 6–8 and 12–13",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "weight_basis": "Pair"
+  }
+}

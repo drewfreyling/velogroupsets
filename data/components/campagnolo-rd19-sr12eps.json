@@ -1,0 +1,37 @@
+{
+  "id": "campagnolo-rd19-sr12eps",
+  "slug": "rd19-sr12eps",
+  "name": "Super Record EPS rear derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-super-record-eps-12-speed"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD19-SR12EPS",
+  "weight_g": 234,
+  "weight_description": "Manufacturer-listed weight for the complete RD19-SR12EPS rear derailleur.",
+  "technical_document": {
+    "url": "https://www.campagnolo.com/us-en/super-record-eps-rear-derailleur/CRDSUPERRECORDEPS12S.html",
+    "title": "Campagnolo RD19-SR12EPS family rear derailleur: manufacturer specifications and technical downloads",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/us-en/super-record-eps-rear-derailleur/CRDSUPERRECORDEPS12S.html",
+      "title": "Campagnolo RD19-SR12EPS family rear derailleur: manufacturer specifications and technical downloads",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://bicimondo.com/brand/campagnolo/derailleurs",
+      "title": "Campagnolo distributor complete-assembly model identifiers",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "maximum_sprocket_teeth": 32,
+    "minimum_sprocket_teeth": 11,
+    "total_capacity_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

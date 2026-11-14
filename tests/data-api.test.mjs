@@ -107,3 +107,10 @@ test('catalogue JSON bypasses the Worker with user code replaced by a failing pr
     for(const method of ['OPTIONS','POST','PUT','PATCH','DELETE'])assert.equal((await server.fetch('/api/v1/components.json',{method})).status,405);
   }finally{await server?.stop();rmSync(dir,{recursive:true,force:true});}
 });
+
+test('every Campagnolo range has sourced components in the public catalogue',()=>{
+  const {groupsets:publicGroups,components:publicParts}=read('catalogue').data;
+  const populated=new Set(publicParts.flatMap(part=>part.groupset_ids));
+  const empty=publicGroups.filter(group=>group.manufacturer_id==='campagnolo'&&!populated.has(group.id)).map(group=>group.id);
+  assert.deepEqual(empty,[],`Campagnolo groupsets awaiting sourced component lists: ${empty.join(', ')}`);
+});

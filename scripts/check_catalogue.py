@@ -19,6 +19,31 @@ def approved_archived_document(manufacturer, document_url):
     if manufacturer['id'] != 'campagnolo' or urlsplit(manufacturer['website_url']).hostname not in ('campagnolo.com', 'www.campagnolo.com'):
         return False
     url = urlsplit(document_url)
+    # Original manufacturer publications reviewed for the Campagnolo coverage audit.
+    # Exact hosts/paths only; page fragments are permitted, queries are not.
+    reviewed = {
+        'www.bikeschematics.com': {
+            '/wp-content/uploads/schematics/Campagnolo/' + filename
+            for filename in (
+                'Campagnolo%20Spare%20Parts%201998%20-%20Part%20A.pdf',
+                'Campagnolo%20Spare%20Parts%201999%20-%20Part%20B.pdf',
+                'Campagnolo%20Spare%20Parts%202000%20-%20Part%20B.pdf',
+                'Campagnolo%20Spare%20Parts%202001.pdf',
+                'Campagnolo%20Spare%20Parts%202002.pdf',
+                'Campagnolo%20Spare%20Parts%202008%20-%20Part%20A.pdf',
+                'Campagnolo%20Spare%20Parts%202013%20-%20Part%20A.pdf',
+            )
+        },
+        'www.starbike.com': {
+            '/data-sheets/Campagnolo/2014/campagnolo-super-record-eps-2014-groupset-configuration-comparison.pdf',
+        },
+        'ebykr.com': {
+            '/wp-content/uploads/2026/10/ebykr-campagnolo-catalogo-12-p17-scaled.webp',
+            '/wp-content/uploads/2026/10/ebykr-campagnolo-catalogo-14-p06.webp',
+        },
+    }
+    if url.scheme == 'https' and not url.query and url.path in reviewed.get(url.netloc, set()):
+        return True
     # Original 1982 Olympic catalogue, reviewed as one exact archived PDF.
     if (url.scheme == 'https' and url.netloc == 'www.campyonly.com'
             and url.path == '/history/catalogs/1982_olympic_catalog.pdf' and not url.query):

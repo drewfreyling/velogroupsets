@@ -4,7 +4,8 @@
   "name": "Racing Triple braze-on front derailleur",
   "manufacturer_id": "campagnolo",
   "groupset_ids": [
-    "campagnolo-racing-triple-8-speed"
+    "campagnolo-racing-triple-8-speed",
+    "campagnolo-racing-triple-9-speed"
   ],
   "type": "front-derailleur",
   "model_number": "FD-11SRA3",
@@ -25,6 +26,11 @@
       "url": "https://mail.prestacycle.co.uk/campybike/downloads/Campagnolo_1994_1999s.zip",
       "title": "Campagnolo 1997 Technical Specifications, printed page 15 (PDF page 17); 1997CampagnoloTechnicalSpecificationsV2.pdf in Prestacycle/CampyBike archive",
       "retrieved_on": "2026-11-10"
+    },
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%201998%20-%20Part%20A.pdf#page=39",
+      "title": "Original Campagnolo 1998 - Part A spare-parts catalogue, PDF page 39; archived manufacturer publication",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

@@ -1,0 +1,34 @@
+{
+  "id": "campagnolo-fd13-at2beps",
+  "slug": "fd13-at2beps",
+  "name": "Athena EPS front derailleur",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-athena-eps-11-speed"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD13-AT2BEPS",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "technical_document": {
+    "url": "https://www.starbike.com/data-sheets/Campagnolo/2014/campagnolo-super-record-eps-2014-groupset-configuration-comparison.pdf#page=5",
+    "title": "Original Campagnolo 2014 EPS configuration chart: Athena EPS MY2013 complete assembly codes",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.starbike.com/data-sheets/Campagnolo/2014/campagnolo-super-record-eps-2014-groupset-configuration-comparison.pdf#page=5",
+      "title": "Original Campagnolo 2014 EPS configuration chart: Athena EPS MY2013 complete assembly codes",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.vieiragraca.com/pub_docs/149/CAMPY13VG.pdf",
+      "title": "Campagnolo 2013 distributor range sheet: complete assembly codes and named groups, pages 6–8 and 12–13",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "mount": "Braze-on"
+  }
+}

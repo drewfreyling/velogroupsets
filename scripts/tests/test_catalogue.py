@@ -305,6 +305,32 @@ class CatalogueTests(unittest.TestCase):
         data['manufacturers'][0]['website_url'] = 'https://example.com/'
         self.assertTrue(validate_catalogue(data))
 
+    def test_campagnolo_coverage_sources_require_exact_reviewed_publications(self):
+        data = fixture()
+        data['manufacturers'][0].update(id='campagnolo', website_url='https://www.campagnolo.com/')
+        data['groupsets'][0]['manufacturer_id'] = 'campagnolo'
+        data['components'][0]['manufacturer_id'] = 'campagnolo'
+        urls = (
+            'https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202002.pdf#page=27',
+            'https://ebykr.com/wp-content/uploads/2026/10/ebykr-campagnolo-catalogo-12-p17-scaled.webp',
+            'https://www.starbike.com/data-sheets/Campagnolo/2014/campagnolo-super-record-eps-2014-groupset-configuration-comparison.pdf#page=5',
+        )
+        for url in urls:
+            data['components'][0]['technical_document']['url'] = url
+            self.assertEqual(validate_catalogue(data), [])
+            for invalid in (url.replace('https:', 'http:'),
+                            url.replace('://', '://user:password@'),
+                            url.replace('.com/', '.com.attacker.test/'),
+                            url.replace('.com/', '.com:8443/'),
+                            url.split('#')[0] + '?redirect=evil',
+                            url.replace('.pdf', '-unreviewed.pdf').replace('.webp', '-unreviewed.webp')):
+                data['components'][0]['technical_document']['url'] = invalid
+                with self.subTest(url=invalid):
+                    self.assertTrue(validate_catalogue(data))
+        other = fixture()
+        other['components'][0]['technical_document']['url'] = urls[0]
+        self.assertTrue(validate_catalogue(other))
+
     def test_olympic_catalogue_exception_is_limited_to_reviewed_pdf_and_manufacturer(self):
         data = fixture()
         data['manufacturers'][0].update(id='campagnolo', website_url='https://www.campagnolo.com/')

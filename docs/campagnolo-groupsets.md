@@ -56,3 +56,5 @@ The initial expansion left all 91 weights unknown. The subsequent [1997 technica
 ## Earlier models sold during the 1980s
 
 The [1982 Olympic catalogue review](campagnolo-1980s-weights.md) adds Super Record 0102018 (**182 g**), Nuovo Record 1020/A (**199 g**) and Nuovo Gran Sport 3500 (**220 g**). These are three additional identities outside the 41-component C-Record/Victory/Triomphe/Chorus/Croce d’Aune/Athena selection above. They use the existing older family records and do not supply weights for the later models.
+
+The later [Campagnolo component coverage audit](campagnolo-component-coverage.md) fills the 30 previously empty early and modern ranges with 61 more component identities. Every Campagnolo groupset now has a sourced starter inventory; full component and brake inventories remain incomplete.

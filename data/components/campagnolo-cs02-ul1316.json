@@ -1,0 +1,34 @@
+{
+  "id": "campagnolo-cs02-ul1316",
+  "slug": "cs02-ul1316",
+  "name": "Super Record Ultra cassette",
+  "manufacturer_id": "campagnolo",
+  "groupset_ids": [
+    "campagnolo-super-record-ultra-13-speed"
+  ],
+  "type": "cassette",
+  "model_number": "CS02-UL1316",
+  "weight_g": 238,
+  "weight_description": "Manufacturer-listed weight for the complete thirteen-speed 11–36T Ultra cassette; lockring inclusion assumed under catalogue guidelines.",
+  "technical_document": {
+    "url": "https://www.campagnolo.com/gb-en/ultra-cassette/CCSSUPERRECORD13ULTRA.html",
+    "title": "Campagnolo Ultra 13-speed titanium cassette specifications, tooth ranges and complete cassette weights",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.campagnolo.com/gb-en/ultra-cassette/CCSSUPERRECORD13ULTRA.html",
+      "title": "Campagnolo Ultra 13-speed titanium cassette specifications, tooth ranges and complete cassette weights",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.bike24.com/p2971955.html",
+      "title": "Ultra cassette manufacturer identifiers CS02-UL1303 and CS02-UL1316",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 13,
+    "sprocket_range": "11–36T"
+  }
+}
