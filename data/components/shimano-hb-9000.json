@@ -10,7 +10,7 @@
   "type": "front-hub",
   "model_number": "HB-9000",
   "weight_g": null,
-  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "weight_description": "Weight withheld: the 2025–2026 specification table lists 120 g with an axle exclusion and lockring exclusion. The axle wording has not been resolved to a complete hub without its skewer; no excluded hardware mass is estimated or added.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HB-9000-3328/EV-HB-9000-3328.pdf",
     "title": "Shimano HB-9000 exploded view and replacement parts",
@@ -21,6 +21,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/HB-9000-3328/EV-HB-9000-3328.pdf",
       "title": "Shimano HB-9000 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=176",
+      "title": "Shimano 2025–2026 specifications, printed page 173 (PDF page 176): HB-9000, 120 g with axle exclusion in weight-row heading",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "weight_excludes_skewers": true

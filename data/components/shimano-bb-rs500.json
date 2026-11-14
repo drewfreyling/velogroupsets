@@ -9,8 +9,8 @@
   ],
   "type": "bottom-bracket",
   "model_number": "BB-RS500",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for BB-RS500 has not been established.",
+  "weight_g": 92,
+  "weight_description": "Manufacturer-listed average for the threaded HOLLOWTECH II external bottom-bracket cup assembly. The selected table lists 68 mm and 70 mm shell options without identifying which thread variant supplies the 92 g reference; this is not the 71 g BB-RS500-PB press-fit unit.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-R3000-3992/EV-FC-R3000-3992B.pdf",
     "title": "Shimano BB-RS500 exploded view and replacement parts",
@@ -26,7 +26,15 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2016-2017_Line-up_chart_v017_en.pdf#page=65",
       "title": "Shimano 2016-2017 line-up chart, PDF page 65: Sora R3000 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=171",
+      "title": "Shimano 2025–2026 specifications, printed page 168 (PDF page 171): threaded BB-RS500, 92 g; BB-RS500-PB separately 71 g",
+      "retrieved_on": "2026-11-14"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "interface": "HOLLOWTECH II",
+    "bottom_bracket_type": "Threaded external cups"
+  }
 }

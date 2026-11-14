@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-R9200-P",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 745,
+  "weight_description": "Manufacturer-listed average: 170 mm crank arms, 50/34T chainrings; excludes bottom bracket. Includes the integrated power meter. Selected 2025–2026 specification reference; other chainring combinations have separate listed weights.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-P-4810/EV-FC-R9200-P-4810B.pdf",
     "title": "Shimano FC-R9200-P exploded view and replacement parts",
@@ -20,6 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-P-4810/EV-FC-R9200-P-4810B.pdf",
       "title": "Shimano FC-R9200-P exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=170",
+      "title": "Shimano 2025–2026 specifications, printed page 167 (PDF page 170): FC-R9200-P, 745 g at 170 mm, 50/34T, without bottom bracket",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      34
+    ],
+    "includes_bottom_bracket": false
+  }
 }

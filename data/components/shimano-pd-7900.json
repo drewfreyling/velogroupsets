@@ -9,8 +9,8 @@
   ],
   "type": "pedals",
   "model_number": "PD-7900",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 248,
+  "weight_description": "Manufacturer-listed weight for the left/right pair of carbon-body SPD-SL pedals. Excludes cleats: the 2012 trade manual lists the pedals at 248 g and cleats separately at 70 g.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/PD-7900-3060/EV-PD-7900-3060.pdf",
     "title": "Shimano PD-7900 exploded view and replacement parts",
@@ -26,6 +26,20 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_LINE-UP_CHART.pdf#page=23",
       "title": "Shimano 2011 product line-up, PDF page 23: Dura-Ace 7900 and 7970",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_SPECIFICATION.pdf#page=117",
+      "title": "Shimano 2010–2011 specifications, PDF/printed page 117: PD-7900, Weight (pair) 248 g",
+      "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2012_Shimano_Trade-Sales_Manual.pdf#page=125",
+      "title": "Shimano 2012 Trade Sales Support Manual, PDF/printed page 125: PD-7900 pedals 248 g, cleats separately 70 g",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "includes_cleats": false
+  }
 }

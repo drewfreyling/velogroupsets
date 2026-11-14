@@ -11,7 +11,7 @@
   "type": "bottom-bracket",
   "model_number": "BB-7500",
   "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Weight not yet sourced for an identified square-taper spindle length. The June 1984 FC-7300 / BB-7500 page lists 256 g for BB parts but offers 107 mm and 109 mm spindles without identifying which was weighed.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-7300_BB-7500-0454/EV-FC-7300_BB-7500-0454B.pdf",
     "title": "Shimano BB-7500 exploded view and replacement parts",
@@ -22,6 +22,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-7300_BB-7500-0454/EV-FC-7300_BB-7500-0454B.pdf",
       "title": "Shimano BB-7500 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_104.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 104: BB-7500, 256 g BB parts; 107 mm and 109 mm spindle options, weighed length not specified",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

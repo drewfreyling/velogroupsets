@@ -8,8 +8,8 @@
   ],
   "type": "seatpost",
   "model_number": "SP-7200",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 224,
+  "weight_description": "Manufacturer-listed weight for the 27.2 mm outside-diameter Dura-Ace EX seatpost, with the standard hexagon-release saddle clamp. The cited weight reference does not state the post length.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SP-7200-0373/EV-SP-7200-0373B.pdf",
     "title": "Shimano SP-7200 exploded view and replacement parts",
@@ -20,6 +20,14 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SP-7200-0373/EV-SP-7200-0373B.pdf",
       "title": "Shimano SP-7200 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_150.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 150: SP-7200, 224 g for 27.2 mm outside diameter",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "outside_diameter_mm": 27.2
+  }
 }

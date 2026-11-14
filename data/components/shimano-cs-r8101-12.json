@@ -8,21 +8,41 @@
   ],
   "type": "cassette",
   "model_number": "CS-R8101-12",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for CS-R8101-12 has not been established.",
+  "weight_g": 291,
+  "weight_description": "Manufacturer-listed average for the 12-speed 11–30T cassette: 11-12-13-14-15-16-17-19-21-24-27-30T. Lockring inclusion is assumed under the catalogue weight guidelines. The 11–34T option has a separate 345 g figure.",
   "technical_document": {
-    "url": "https://si.shimano.com/en/pdfs/ev/CS-R8100-4861/EV-CS-R8100-4861A.pdf",
-    "title": "Shimano CS-R8101-12 exploded view and replacement parts",
-    "retrieved_on": "2026-11-09"
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=173",
+    "title": "Shimano 2025–2026 specifications, printed page 170 (PDF page 173): CS-R8101-12, 291 g for 11–30T; 345 g for 11–34T",
+    "retrieved_on": "2026-11-14"
   },
   "sources": [
     {
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=55",
       "title": "Shimano 2025-2026 line-up chart, PDF page 55: Ultegra Di2 R8100 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=173",
+      "title": "Shimano 2025–2026 specifications, printed page 170 (PDF page 173): CS-R8101-12, 291 g for 11–30T; 345 g for 11–34T",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "rear_speeds": 12
+    "rear_speeds": 12,
+    "sprocket_range": "11–30T",
+    "sprockets_teeth": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      21,
+      24,
+      27,
+      30
+    ]
   }
 }

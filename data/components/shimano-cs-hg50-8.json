@@ -11,8 +11,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-HG50-8",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 278,
+  "weight_description": "Manufacturer-listed weight for the eight-speed U-group 12–23T cassette: 12-13-14-15-17-19-21-23T. The 2007 trade table gives 278 g for this group and lists its tooth sequence on the same page. Lockring inclusion is assumed under the catalogue weight guidelines.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/si/5US0B/SI-5US0B-000-00-ENG.pdf",
     "title": "Shimano RD-A416 service instructions SI-5US0B",
@@ -38,9 +38,26 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_LINE-UP_CHART.pdf#page=24",
       "title": "Shimano 2010 line-up chart, PDF page 24: 2300 2300 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2007_Trade_Sales_Support_Manual.pdf#page=223",
+      "title": "Shimano 2007 Trade Sales Support Manual, PDF/printed page 223: CS-HG50-8, 278 g for U group; eight-speed 12-13-14-15-17-19-21-23T",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "rear_speeds": 8
+    "rear_speeds": 8,
+    "sprocket_range": "12–23T",
+    "sprockets_teeth": [
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      21,
+      23
+    ],
+    "cassette_group": "U"
   }
 }

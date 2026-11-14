@@ -9,8 +9,8 @@
   ],
   "type": "front-hub",
   "model_number": "HB-7900",
-  "weight_g": null,
-  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "weight_g": 125,
+  "weight_description": "Manufacturer-listed front hub weight without quick-release skewer. The 2009 road catalogue gives the hub and quick release separate weights; no skewer mass has been deducted. The weighed spoke-hole variant is not identified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HB-7900-2876/EV-HB-7900-2876.pdf",
     "title": "Shimano HB-7900 exploded view and replacement parts",
@@ -26,7 +26,13 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2011_LINE-UP_CHART.pdf#page=23",
       "title": "Shimano 2011 product line-up, PDF page 23: Dura-Ace 7900 and 7970",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.madisonb2b.co.uk/netalogue/filedownloads/ShimanoRoadCatalogue2009.pdf#page=7",
+      "title": "Shimano 2009 road catalogue, PDF/printed page 7: HB-7900, 125 g; quick-release weights listed separately",
+      "retrieved_on": "2026-11-14"
     }
   ],
-  "weight_excludes_skewers": true
+  "weight_excludes_skewers": true,
+  "specifications": {}
 }

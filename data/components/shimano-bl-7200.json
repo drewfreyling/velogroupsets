@@ -8,8 +8,8 @@
   ],
   "type": "brake-levers",
   "model_number": "BL-7200",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant left/right pair weight for BL-7200 road brake levers has not been established.",
+  "weight_g": 206,
+  "weight_description": "Manufacturer-listed weight for the complete left/right pair of Dura-Ace EX hooded brake levers, including rubber covers. The June 1984 specification identifies the 24.2 mm handlebar clamp.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/BL-7200-DURA-ACE%20EX-0297/EV-BL-7200-DURA-ACE%20EX-0297A.pdf",
     "title": "Shimano BL-7200 exploded view and replacement parts",
@@ -20,10 +20,16 @@
       "url": "https://www.shimano.com/en/100th/history/products/14.html",
       "title": "Shimano 100 Products History: Dura-Ace EX and AX generations",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_135.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 135: BL-7200, 206 g per pair including rubber covers",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
     "lever_style": "Road",
-    "handlebar_clamp_diameter_mm": 24.2
+    "handlebar_clamp_diameter_mm": 24.2,
+    "weight_basis": "Pair"
   }
 }

@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-4700",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FC-4700 has not been established.",
+  "weight_description": "Weight not yet sourced: the selected 2025–2026 specification table leaves this model’s average-weight cell blank/dashed. Available lengths and chainrings do not establish a weighed configuration.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-4700-3881/EV-FC-4700-3881C.pdf",
     "title": "Shimano FC-4700 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=87",
       "title": "Shimano 2017-2018 line-up chart, PDF page 87: Tiagra 4700 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=167",
+      "title": "Shimano 2025–2026 specifications, printed page 164 (PDF page 167): FC-4700, no published average weight in selected table",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

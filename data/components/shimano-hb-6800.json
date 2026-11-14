@@ -9,7 +9,7 @@
   "type": "front-hub",
   "model_number": "HB-6800",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a reference weight for HB-6800 explicitly excluding skewers has not been established. Any weight added must exclude skewers.",
+  "weight_description": "Weight withheld: the 2025–2026 specification table lists 158 g with an axle exclusion and lockring exclusion. The axle wording has not been resolved to a complete hub without its skewer; no excluded hardware mass is estimated or added.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HB-6800-3606/EV-HB-6800-3606.pdf",
     "title": "Shimano HB-6800 exploded view and replacement parts",
@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=182",
       "title": "Shimano 2017–2018 specifications, PDF page 182",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=176",
+      "title": "Shimano 2025–2026 specifications, printed page 173 (PDF page 176): HB-6800, 158 g with axle exclusion in weight-row heading",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {},

@@ -8,8 +8,8 @@
   ],
   "type": "seatpost",
   "model_number": "SP-7410",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 195,
+  "weight_description": "Manufacturer-listed weight for the 270 mm round, thin-wall aluminium seatpost with its single-bolt saddle clamp. The table offers several diameters without identifying the weighed diameter; 195 g is the manufacturer’s model reference, not a diameter-specific measurement.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SP-7410-1519/EV-SP-7410-1519A.pdf",
     "title": "Shimano SP-7410 exploded view and replacement parts",
@@ -20,6 +20,14 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SP-7410-1519/EV-SP-7410-1519A.pdf",
       "title": "Shimano SP-7410 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=64",
+      "title": "Shimano 1997 Dealer Sales Support Manual, PDF/printed page 64: SP-7410, 270 mm, 195 g; weighed diameter not specified",
+      "retrieved_on": "2026-11-14"
     }
-  ]
+  ],
+  "specifications": {
+    "length_mm": 270
+  }
 }

@@ -9,15 +9,15 @@ The 31 trade manuals below span 1990–2021, with no 1999 edition linked in this
 | Edition | Manufacturer PDF | Review scope |
 | --- | --- | --- |
 | 2021 | [2021 TRADE SALES SUPPORT MANUAL U v04](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf) | Selected road/Di2, cassette and pedal tables; findings below |
-| 2020 | [2020 TRADE SALES SUPPORT MANUAL](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf) | Indexed; not yet reviewed in this pass |
+| 2020 | [2020 TRADE SALES SUPPORT MANUAL](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf) | Selected native model/weight tables checked; see the component weight review |
 | 2019 | [2019 TRADE SALES SUPPORT MANUAL](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf) | Indexed; not yet reviewed in this pass |
-| 2018 | [2018 TSS MANUAL EN](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf) | Indexed; not yet reviewed in this pass |
-| 2017 | [2017 TRADE SALES SUPPORT MANUAL](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf) | Indexed; not yet reviewed in this pass |
+| 2018 | [2018 TSS MANUAL EN](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf) | Selected native model/weight tables checked; see the component weight review |
+| 2017 | [2017 TRADE SALES SUPPORT MANUAL](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf) | Selected crank, BB and cassette tables; FC-5700 reference on p. 345 |
 | 2016 | [2016 Bicycle Components usa](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf) | Indexed; not yet reviewed in this pass |
 | 2015 | [2015 TSS MANUAL](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf) | Indexed; not yet reviewed in this pass |
-| 2014 | [2014 Bicycle Components usa](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2014_Bicycle_Components_usa.pdf) | Indexed; not yet reviewed in this pass |
+| 2014 | [2014 Bicycle Components usa](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2014_Bicycle_Components_usa.pdf) | Selected 9000/6800 hub marketing pages; assembly/skewer exclusions unresolved |
 | 2013 | [2013 Trade Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2013_Trade_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |
-| 2012 | [2012 Shimano Trade-Sales Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2012_Shimano_Trade-Sales_Manual.pdf) | Indexed; not yet reviewed in this pass |
+| 2012 | [2012 Shimano Trade-Sales Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2012_Shimano_Trade-Sales_Manual.pdf) | Selected road tables, including PD-7900 pair/cleat reference on p. 125 |
 | 2011 | [2011 Trade Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2011_Trade_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |
 | 2010 | [2010 Shimano Dealer Information Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2010_Shimano_Dealer_Information_Manual.pdf) | Indexed; not yet reviewed in this pass |
 | 2009 | [2009 Trade Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |
@@ -31,7 +31,7 @@ The 31 trade manuals below span 1990–2021, with no 1999 edition linked in this
 | 2001 | [2001 Trade Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2001_Trade_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |
 | 2000 | [2000 Shimano Trade Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |
 | 1998 | [1998 Shimano Dealer Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |
-| 1997 | [1997 Shimano Dealer Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |
+| 1997 | [1997 Shimano Dealer Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf) | Selected specifications, including SP-7410 on p. 64 |
 | 1996 | [1996 Shimano Dealer Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1996_Shimano_Dealer_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |
 | 1995 | [1995 Shimano Dealer Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |
 | 1994 | [1994 Shimano Bicycle System Component Dealer Product Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf) | Indexed; not yet reviewed in this pass |
@@ -169,3 +169,5 @@ Blank weight cells in the entry-level road tables remain unknown. A model appear
 The [52-model weight review](shimano-rear-derailleur-weights.md) fills 11 previously null rear-derailleur weights, including model-specific references in the 2006 and 2012/2013 TSS manuals and older 600 catalogues. It records the exact selected PDF/printed pages, preserves contributor measurements and lists the 41 remaining unknowns with blank-cell, cage and model-revision limitations.
 
 The [33-model front-derailleur review](shimano-front-derailleur-weights.md) adds eight qualified references from the 1994/2005/2008/2012 dealer tables and specification handbooks, with mounting details and the 25 unresolved records.
+
+The [146-record component weight review](shimano-component-weights.md) adds 19 manufacturer-listed weights across cranks, bottom brackets, cassettes, hubs, brake levers, headsets, pedals and seatposts. It documents selected configurations, edition conflicts and 127 remaining unknowns; all 14 requested caliper records remain unresolved.

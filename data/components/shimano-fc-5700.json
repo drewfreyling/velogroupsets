@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-5700",
-  "weight_g": null,
-  "weight_description": "Weight withheld: the cited figure includes a bottom bracket. A crankset-only weight for an identified crank length and chainring combination has not been sourced.",
+  "weight_g": 756,
+  "weight_description": "Manufacturer-listed average: 170 mm crank arms, 53/39T chainrings; excludes bottom bracket. Shimano’s 2017 trade manual explicitly labels this crankset-only reference; the older bottom-bracket-inclusive figure is not used.",
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=127",
     "title": "Shimano 2014–2015 specifications, PDF page 127",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=127",
       "title": "Shimano 2014–2015 specifications, PDF page 127",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=345",
+      "title": "Shimano 2017 Trade Sales Support Manual, PDF/printed page 345: FC-5700, 756 g at 170 mm and 53/39T, without BB",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
@@ -27,6 +32,8 @@
       53,
       39
     ],
-    "rear_speeds": 10
+    "rear_speeds": 10,
+    "crank_length_mm": 170,
+    "includes_bottom_bracket": false
   }
 }

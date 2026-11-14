@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-7300",
   "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Weight withheld: the June 1984 catalogue lists 909 g for the 170 mm, 52/42T crank and bottom-bracket assembly, with 256 g listed separately for BB parts. A crankset-only figure is not established; the BB figure is not subtracted.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-7300_BB-7500-0454/EV-FC-7300_BB-7500-0454B.pdf",
     "title": "Shimano FC-7300 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-7300_BB-7500-0454/EV-FC-7300_BB-7500-0454B.pdf",
       "title": "Shimano FC-7300 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_104.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 104: FC-7300 / BB-7500 assembly, 909 g; BB parts 256 g",
+      "retrieved_on": "2026-11-14"
     }
   ]
 }

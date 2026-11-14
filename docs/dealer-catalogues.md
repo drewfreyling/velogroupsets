@@ -91,3 +91,5 @@ Veloce RD11-VLBXS and RD11-VLBXM have documented 55 mm and 72.5 mm pulley-centre
 - **RD-3300-A is not RD-3300**, and **FC-7701 is not FC-7700**. Similar names, replacement compatibility or a nearby table column do not establish identity.
 
 Further useful leads include the older Shimano scans in the same archive, later Shimano specification handbooks, and the remaining Campagnolo/SRAM publications. This is a checked batch of additions, not a claim that all catalogue gaps have been filled.
+
+The [146-record component weight review](shimano-component-weights.md) adds 19 manufacturer-listed weights across cranks, bottom brackets, cassettes, hubs, brake levers, headsets, pedals and seatposts. It documents selected configurations, edition conflicts and 127 remaining unknowns; all 14 requested caliper records remain unresolved.

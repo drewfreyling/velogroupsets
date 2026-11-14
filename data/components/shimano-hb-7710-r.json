@@ -9,7 +9,7 @@
   "type": "rear-hub",
   "model_number": "HB-7710-R",
   "weight_g": null,
-  "weight_description": "A hub-only weight without skewers has not yet been sourced.",
+  "weight_description": "Weight not yet sourced for the complete track hub without skewers. The 2017–2018 table lists 298 g including rear lockring under a weight heading excluding axle and lockring. These nut-fastened hubs do not use quick-release skewers, but the axle wording needs clarification before adopting the figure as a complete hub weight.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HB-7710-R-1729/EV-HB-7710-R-1729A.pdf",
     "title": "Shimano HB-7710 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/HB-7710-R-1729/EV-HB-7710-R-1729A.pdf",
       "title": "Shimano HB-7710 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=182",
+      "title": "Shimano 2017–2018 specifications, printed page 179 (PDF page 182): HB-7710 front 203 g, rear 298 g with lockring, axle exclusion in heading",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

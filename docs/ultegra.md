@@ -102,7 +102,7 @@ Membership comes from Shimano’s [2014–2015 line-up, PDF page 50](https://pro
 
 Selected weights use [Shimano’s 2017–2018 specifications](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf). FC-6800 is 689 g and FC-R8000 681 g, both for **170 mm, 52/36T, without bottom bracket** (PDF page 170). Braze-on FD-6800-F and FD-R8000-F are 89 g and 92 g (pages 163 and 162). CS-6800 is 212 g for eleven-speed 11–23T; CS-R8000 is 232 g for eleven-speed 11–25T (page 178). Full tooth sequences are recorded. Pedal weights are pairs: PD-6800 260 g from the 2014–2015 handbook, page 151; PD-R8000 248 g from the 2017–2018 handbook, page 222.
 
-ST-6800 is 425 g per pair (page 135), and ST-R8020 is 554 g per pair (page 142). ST-R8000 is explicitly represented as a pair but retains a null weight: the selected table gives individual side weights, which are not added together. Hub weights also remain null until a reference explicitly excluding skewers is established. These are sourced component selections, not every crank, clamp, cassette, hub or control variant.
+ST-6800 is 425 g per pair (page 135), and ST-R8020 is 554 g per pair (page 142). ST-R8000 is explicitly represented as a pair but retains a null weight: the selected table gives individual side weights, which are not added together. The later component weight review establishes the RS770 through-axle hub references; other hub weights remain null until their skewer and assembly bases are established. These are sourced component selections, not every crank, clamp, cassette, hub or control variant.
 
 | Rear derailleur | Total capacity | Largest sprocket | Smallest sprocket | Front difference | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -130,3 +130,5 @@ The manufacturer-hosted [2005 handbook](shimano-2005.md) supplies BR-6600 at **3
 The [dealer-manual review](shimano-dealer-manuals.md) adds the distinct **BR-6600-G** Ultegra SL caliper pair at **320 g** with R55C2 pads (2008 TSS, p. 202). Standard BR-6600 retains its own 330 g reference. The review also fills weights and all four rear-derailleur limits for Di2 6870/R8050 and adds the explicit ST-R8050 pair weight, outside the seven-series totals above.
 
 The [front-derailleur review](shimano-front-derailleur-weights.md) supplies **167 g** for braze-on FD-6770-F from the 2014–2015 handbook and **110 g** for braze-on FD-R8150 with its fixing screw from the 2025–2026 handbook. It preserves the later 160 g FD-6770-F reference as a distinct edition rather than averaging it.
+
+The [component weight review](shimano-component-weights.md) documents further references. The later review supplies **FC-R8100 700 g (170 mm, 50/34T, without BB)**, both Ultegra twelve-speed cassettes at **291 g (11–30T)**, and the E-THRU hubs **HB-RS770 125 g / FH-RS770 302 g**, without the separate frame/fork through-axle. The HB/FH-6800 figures remain withheld pending clarification of axle exclusions.

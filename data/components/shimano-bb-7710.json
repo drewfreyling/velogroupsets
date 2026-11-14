@@ -8,8 +8,8 @@
   ],
   "type": "bottom-bracket",
   "model_number": "BB-7710",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 244,
+  "weight_description": "Manufacturer-listed average for the track Octalink V1 bottom-bracket assembly: 109.5 mm spindle, 68 mm shell, BC 1.37 thread. This is a complete bottom bracket, separate from the crankset.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/BB-7710-1786/EV-BB-7710-1786B.pdf",
     "title": "Shimano BB-7710 exploded view and replacement parts",
@@ -20,9 +20,17 @@
       "url": "https://si.shimano.com/en/pdfs/ev/BB-7710-1786/EV-BB-7710-1786B.pdf",
       "title": "Shimano BB-7710 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=177",
+      "title": "Shimano 2017–2018 specifications, printed page 174 (PDF page 177): BB-7710, 244 g, 109.5 mm / 68 mm BC 1.37 track assembly",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "interface": "Octalink V1"
+    "interface": "Octalink V1",
+    "spindle_length_mm": 109.5,
+    "shell_width_mm": 68,
+    "thread": "BC 1.37"
   }
 }

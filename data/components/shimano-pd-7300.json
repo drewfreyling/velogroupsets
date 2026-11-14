@@ -9,7 +9,7 @@
   "type": "pedals",
   "model_number": "PD-7300",
   "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_description": "Weight not yet sourced for an identified pedal pair. The June 1984 catalogue lists 214 g including a size L toe clip and toe strap, without establishing a left/right pair basis. This figure is not doubled or presented as a pair.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/PD-7300-0448/EV-PD-7300-0448E.pdf",
     "title": "Shimano PD-7300 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/PD-7300-0448/EV-PD-7300-0448E.pdf",
       "title": "Shimano PD-7300 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_117.html",
+      "title": "Shimano Bicycle System Components, June 1984, page 117: PD-7300, 214 g with size L toe clip and strap; pair basis not established",
+      "retrieved_on": "2026-11-14"
     }
   ]
 }

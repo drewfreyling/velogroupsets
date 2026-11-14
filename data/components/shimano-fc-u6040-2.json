@@ -10,7 +10,7 @@
   "type": "crankset",
   "model_number": "FC-U6040-2",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant weight has not been established.",
+  "weight_description": "Weight not yet sourced: the selected 2025–2026 specification table leaves this model’s average-weight cell blank/dashed. Available lengths and chainrings do not establish a weighed configuration.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-U6040-4854/EV-FC-U6040-4854.pdf",
     "title": "Shimano FC-U6040-2 exploded view and replacement parts",
@@ -31,6 +31,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=95",
       "title": "Shimano 2025–2026 line-up, PDF page 95: drop-bar U3030 listed configuration",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=230",
+      "title": "Shimano 2025–2026 specifications, printed page 227 (PDF page 230): FC-U6040-2, no published average weight in selected table",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {}

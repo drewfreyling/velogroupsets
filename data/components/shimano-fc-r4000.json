@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-R4000",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FC-R4000 has not been established.",
+  "weight_description": "Weight not yet sourced: the selected 2025–2026 specification table leaves this model’s average-weight cell blank/dashed. Available lengths and chainrings do not establish a weighed configuration.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-R4000-4906/EV-FC-R4000-4906A.pdf",
     "title": "Shimano FC-R4000 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=69",
       "title": "Shimano 2025-2026 line-up chart, PDF page 69: Tiagra R4000 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=167",
+      "title": "Shimano 2025–2026 specifications, printed page 164 (PDF page 167): FC-R4000, no published average weight in selected table",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

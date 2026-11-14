@@ -8,21 +8,32 @@
   ],
   "type": "crankset",
   "model_number": "FC-R8100",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FC-R8100 has not been established.",
+  "weight_g": 700,
+  "weight_description": "Manufacturer-listed average: 170 mm crank arms, 50/34T chainrings; excludes bottom bracket. Selected 2025–2026 specification reference; other chainring combinations have separate listed weights.",
   "technical_document": {
-    "url": "https://si.shimano.com/en/pdfs/ev/FC-R8100-P-4905/EV-FC-R8100-P-4905B.pdf",
-    "title": "Shimano FC-R8100 exploded view and replacement parts",
-    "retrieved_on": "2026-11-09"
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=165",
+    "title": "Shimano 2025–2026 specifications, printed page 162 (PDF page 165): FC-R8100, 700 g at 170 mm, 50/34T, without bottom bracket",
+    "retrieved_on": "2026-11-14"
   },
   "sources": [
     {
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=55",
       "title": "Shimano 2025-2026 line-up chart, PDF page 55: Ultegra Di2 R8100 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=165",
+      "title": "Shimano 2025–2026 specifications, printed page 162 (PDF page 165): FC-R8100, 700 g at 170 mm, 50/34T, without bottom bracket",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "rear_speeds": 12
+    "rear_speeds": 12,
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      34
+    ],
+    "includes_bottom_bracket": false
   }
 }

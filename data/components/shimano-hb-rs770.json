@@ -9,8 +9,8 @@
   ],
   "type": "front-hub",
   "model_number": "HB-RS770",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a reference weight for HB-RS770 explicitly excluding skewers has not been established. Any weight added must exclude skewers.",
+  "weight_g": 125,
+  "weight_description": "Manufacturer-listed average for the 100 mm O.L.D., 12 mm E-THRU disc hub, without a skewer or the separate frame/fork through-axle. This hub uses a through-axle rather than a quick-release skewer. The weighed spoke-hole variant is not identified; no fastener mass has been deducted.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HB-RS770-4242/EV-HB-RS770-4242.pdf",
     "title": "Shimano HB-RS770 exploded view and replacement parts",
@@ -31,8 +31,16 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=75",
       "title": "Shimano 2017-2018 line-up chart, PDF page 75: Ultegra Di2 R8050 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=139",
+      "title": "Shimano 2021 Trade Sales Support Manual, printed page 186 (PDF page 139): HB-RS770, 125 g, 12 mm E-THRU, 100 mm O.L.D.",
+      "retrieved_on": "2026-11-14"
     }
   ],
-  "specifications": {},
+  "specifications": {
+    "axle_type": "12 mm E-THRU",
+    "over_locknut_dimension_mm": 100
+  },
   "weight_excludes_skewers": true
 }

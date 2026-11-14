@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-R3000",
   "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FC-R3000 has not been established.",
+  "weight_description": "Weight not yet sourced: the selected 2025–2026 specification table leaves this model’s average-weight cell blank/dashed. Available lengths and chainrings do not establish a weighed configuration.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-R3000-3992/EV-FC-R3000-3992B.pdf",
     "title": "Shimano FC-R3000 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2016-2017_Line-up_chart_v017_en.pdf#page=65",
       "title": "Shimano 2016-2017 line-up chart, PDF page 65: Sora R3000 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=168",
+      "title": "Shimano 2025–2026 specifications, printed page 165 (PDF page 168): FC-R3000, no published average weight in selected table",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {

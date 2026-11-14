@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-4600",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for CS-4600 has not been established.",
+  "weight_g": 310,
+  "weight_description": "Manufacturer-listed average for the 10-speed 12–28T cassette: 12-13-14-15-17-19-21-23-25-28T. Lockring inclusion is assumed under the catalogue weight guidelines. The 12–30T option has a separate 329 g figure.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/CS-4600-3143/EV-CS-4600-3143.pdf",
     "title": "Shimano CS-4600 exploded view and replacement parts",
@@ -20,9 +20,27 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=30",
       "title": "Shimano 2012-2013 line-up chart, PDF page 30: Tiagra 4600 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=135",
+      "title": "Shimano 2014–2015 specifications, printed page 132 (PDF page 135): CS-4600, 310 g for 12–28T; 329 g for 12–30T",
+      "retrieved_on": "2026-11-14"
     }
   ],
   "specifications": {
-    "rear_speeds": 10
+    "rear_speeds": 10,
+    "sprocket_range": "12–28T",
+    "sprockets_teeth": [
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      28
+    ]
   }
 }

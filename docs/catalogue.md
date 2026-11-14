@@ -263,3 +263,5 @@ The [Shimano MTB and GRX source guide](shimano-mtb.md) documents 65 MTB series a
 The [rear-derailleur weight review](shimano-rear-derailleur-weights.md) checks 52 requested model/cage records, adds 11 manufacturer-listed weights and documents why 41 remain unknown. Existing contributor measurements are retained.
 
 The [front-derailleur weight review](shimano-front-derailleur-weights.md) checks 33 requested models, fills eight mount-qualified weights and documents the 25 remaining unknowns, including unqualified clamp sizes and shared mounting figures.
+
+The [146-record component weight review](shimano-component-weights.md) adds 19 manufacturer-listed weights across cranks, bottom brackets, cassettes, hubs, brake levers, headsets, pedals and seatposts. It documents selected configurations, edition conflicts and 127 remaining unknowns; all 14 requested caliper records remain unresolved.
