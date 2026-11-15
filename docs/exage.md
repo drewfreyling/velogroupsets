@@ -55,8 +55,12 @@ Selected manufacturer reference weights follow the [weight guidelines](weights-g
 | BL-A351 | 302 g | Pair of aero brake levers, 23.8–24.2 mm handlebar clamp; 400EX |
 | BL-A500 | 258 g | Pair of aero brake levers, 23.8–24.2 mm handlebar clamp; 500EX |
 | BL-A251 | 310 g | Pair of standard aero brake levers, 23.8–24.2 mm handlebar clamp; 300EX and Motion |
+| SL-A250 | 169 g | Complete left/right six-speed handlebar-mounted SIS/friction lever pair; Motion |
+| PD-A450 | 565 g | Pedal pair, BC 9/16 inch × 20 TPI; shared by Sport and Motion. Toe-clip/strap inclusion and weighed clip size unspecified |
 
-The earlier Sport/Motion parts remain listed with null weights until a compliant reference is recorded. In particular, a shifter weight must cover a pair and a crank weight must identify arm length, chainrings and bottom-bracket exclusion. Hub weights must exclude skewers; no old catalogue figure has been reduced by an estimated skewer weight.
+Two earlier Sport/Motion weights were added from original Shimano service sheets on **15 November 2026**: [SI-R-40, July 1988](https://si.shimano.com/en/pdfs/si/R-40/SI-R-40-000-00-ENG.pdf) explicitly lists **169 g per SL-A250 pair**; [SI-P-89, September 1987](https://si.shimano.com/en/pdfs/si/P-89/SI-P-89-000-00-ENG.pdf) explicitly lists **565 g per PD-A450 pair**. PD-A450 retains one shared identity for Sport and Motion. Its sheet lists possible toe-clip sizes without identifying the weighed hardware, so the description leaves clip/strap inclusion unspecified rather than claiming a bare-pedal or fully equipped figure. The existing manufacturer exploded-view technical links remain unchanged.
+
+Other earlier Sport/Motion parts remain listed with null weights until a compliant reference is recorded. In particular, a shifter weight must cover a pair and a crank weight must identify arm length, chainrings and bottom-bracket exclusion. Hub weights must exclude skewers; no old catalogue figure has been reduced by an estimated skewer weight.
 
 BB-A450 retains its existing 333 g reference for a 113 mm spindle listed with FC-A500. The 400EX page prints 333.3 g, while the 300EX page prints 333 g; these have not been averaged or presented as a weight for every spindle/thread variant. Shared cassette records retain their own six- or seven-speed tooth configurations. As in the contribution policy, cassette lockring inclusion is assumed without further verification.
 
@@ -69,3 +73,13 @@ BL-A251 is listed in both the 1988 Motion line-up and the 1989 300EX specificati
 The 1990 manual gives complete front/rear pair weights only for the 49 type: **BR-A500-49 326 g**, **BR-A350-49 310 g** and **BR-A250-49 313 g**. Those references cover factory brake shoes and mounting bolts; the weighed bolt/nut variant is not identified. Their 57-type records retain unknown weights. Both BR-A450 Sport pair weights also remain unknown.
 
 The Motion exploded drawing identifies BR-A250 as the 57 type. Its shared identity is therefore BR-A250-57, also listed for 300EX. The 313 g 49-type reference is not assigned to Motion or the long-reach pair. [SI-R-38](https://si.shimano.com/en/pdfs/si/R-38/SI-R-38-000-00-ENG.pdf) supplies the Exage caliper-family installation instructions; the later 1990 300EX table explicitly documents BR-A250-49, which is absent from that instruction sheet’s model heading. The [caliper guide](brake-calipers.md#additional-shimano-road-calipers) records source boundaries and remaining gaps.
+
+## Sport and Motion weight-source review
+
+The December 1987 and August 1988 *Bicycle System Components* catalogues, the August 1988 Exage brochure and manufacturer service sheets were reviewed for the remaining models. These publications supply useful model identities and configurations but do not establish compliant weights for every entry. The usable additions above are direct manufacturer references, not figures copied from component databases or retail listings.
+
+- **RD-A450 and RD-A250:** their reviewed service sheets establish capacities but give no weight. [SI-R-45](https://si.shimano.com/en/pdfs/si/R-45/SI-R-45-000-00-ENG.pdf) lists 235 g for **RD-A452**; that different Sport LX model is not substituted for RD-A450.
+- **SL-A452:** [SI-R-44](https://si.shimano.com/en/pdfs/si/R-44/SI-R-44-000-00-ENG.pdf) prints 71 g without an explicit pair basis. That figure is not assigned to the complete left/right pair or to the different SL-A451 front-SIS model.
+- **Cranksets and front derailleurs:** the reviewed sheets do not establish complete weighed crank length/ring/BB-exclusion configurations or mount-specific derailleur weights. Unknowns are retained.
+- **Hubs:** the August 1988 general catalogue gives FH-RM50 a skewer-ambiguous quick-release weight and does not establish a skewer-free figure for the Motion front hub. Its HB-RM50-F listing is not relabelled HB-RA50-F.
+- **Brakes, headset and other controls:** pair, reach, mounting and hardware details still need exact manufacturer weight references. The existing 310 g BL-A251 standard pair remains distinct from the BL-A251-EX extension-lever version.

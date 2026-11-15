@@ -9,8 +9,8 @@
   ],
   "type": "pedals",
   "model_number": "PD-A450",
-  "weight_g": null,
-  "weight_description": "A configuration-specific weight has not yet been sourced.",
+  "weight_g": 565,
+  "weight_description": "Manufacturer-listed reference for a pair of PD-A450 plastic/steel road pedals, BC 9/16 inch × 20 TPI thread. SI-P-89 specifies 565 g per pair but does not identify whether toe clips or straps are included or a weighed toe-clip size; no inclusion or exclusion is assumed.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/PD-A450-0833/EV-PD-A450-0833B.pdf",
     "title": "Shimano PD-A450 exploded view and replacement parts",
@@ -21,6 +21,17 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_10.html",
       "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/P-89/SI-P-89-000-00-ENG.pdf",
+      "title": "Shimano SI-P-89, September 1987: PD-A450 pedal specifications; explicitly listed 565 g per pair",
+      "retrieved_on": "2026-11-15"
     }
-  ]
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 inch × 20 TPI",
+    "toe_clip_inclusion": null,
+    "strap_inclusion": null
+  }
 }

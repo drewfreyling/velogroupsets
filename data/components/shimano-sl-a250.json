@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-A250",
-  "weight_g": null,
-  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced.",
+  "weight_g": 169,
+  "weight_description": "Manufacturer-listed weight for the complete left/right SL-A250 six-speed handlebar-mounted SIS/friction lever pair. Shimano SI-R-40 explicitly specifies 169 g per pair; no individual-side figures are doubled.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-A250-0898/EV-SL-A250-0898.pdf",
     "title": "Shimano SL-A250 exploded view and replacement parts",
@@ -25,6 +25,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_10.html",
       "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/R-40/SI-R-40-000-00-ENG.pdf",
+      "title": "Shimano SI-R-40, July 1988: SL-A250 six-speed handlebar shifters; explicitly listed 169 g per pair",
+      "retrieved_on": "2026-11-15"
     }
   ],
   "specifications": {
