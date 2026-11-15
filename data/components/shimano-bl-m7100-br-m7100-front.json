@@ -1,0 +1,49 @@
+{
+  "id": "shimano-bl-m7100-br-m7100-front",
+  "slug": "bl-m7100-br-m7100-front",
+  "name": "BL-M7100 / BR-M7100 front hydraulic system",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7100"
+  ],
+  "type": "disc-brake-system",
+  "model_number": "BL-M7100 / BR-M7100",
+  "weight_g": null,
+  "weight_description": "Complete front hydraulic kit reference with an 800 mm hose, standard pads and two mounting screws, without adapter. The selected table does not identify lever hand and rotor inclusion explicitly, so no canonical weight is assigned.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=44",
+    "title": "Shimano 2025 specifications handbook, PDF p. 44: front 800 mm complete-kit reference, hose, standard pads and two fixing screws",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=44",
+      "title": "Shimano 2025 specifications handbook, PDF p. 44: front 800 mm complete-kit reference, hose, standard pads and two fixing screws",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M7100-4596/EV-BR-M7100-4596C.pdf",
+      "title": "BR-M7100 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BL-M7100-4595/EV-BL-M7100-4595B.pdf",
+      "title": "BL-M7100 Shimano manufacturer exploded view: complete assembly and family",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "actuation": "Hydraulic",
+    "position": "Front",
+    "lever_model": "BL-M7100",
+    "caliper_model": "BR-M7100",
+    "lever_side": null,
+    "hose_model": "SM-BH90-SBM",
+    "hose_length_mm": 800,
+    "includes_rotor": null,
+    "includes_adapter": false,
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-cs-m8100-12",
+  "slug": "cs-m8100-12",
+  "name": "CS-M8100-12 cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8100"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M8100-12",
+  "weight_g": 470,
+  "weight_description": "Manufacturer average for the complete 12-speed 10–51T cassette; lockring inclusion assumed under catalogue guidelines.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-M8100-4507/EV-CS-M8100-4507B.pdf",
+    "title": "CS-M8100 Shimano manufacturer exploded view: complete assembly and family",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/CS-M8100-4507/EV-CS-M8100-4507B.pdf",
+      "title": "CS-M8100 Shimano manufacturer exploded view: complete assembly and family",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=63",
+      "title": "Shimano 2025 specifications handbook, PDF p. 63: CS-M8100-12 exact cassette reference and gearing",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_range": "10–51T"
+  }
+}

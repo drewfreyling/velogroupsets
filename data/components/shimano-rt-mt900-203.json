@@ -1,0 +1,36 @@
+{
+  "id": "shimano-rt-mt900-203",
+  "slug": "rt-mt900-203",
+  "name": "RT-MT900 203 mm rotor",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100"
+  ],
+  "type": "disc-brake-rotor",
+  "model_number": "RT-MT900",
+  "weight_g": 150,
+  "weight_description": "Manufacturer average for one 203 mm Center Lock rotor without lockring; no lockring weight is estimated.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M9100-4373/EV-BR-M9100-4373E.pdf",
+    "title": "BR-M9100 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M9100-4373/EV-BR-M9100-4373E.pdf",
+      "title": "BR-M9100 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=279",
+      "title": "Shimano 2025 specifications handbook, PDF p. 279: RT-MT900 diameter-specific weight explicitly excluding lockring",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "diameter_mm": 203,
+    "mount": "Center Lock",
+    "includes_mounting_hardware": false
+  }
+}

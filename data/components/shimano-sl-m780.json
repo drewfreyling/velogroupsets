@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m780",
+  "slug": "sl-m780",
+  "name": "SL-M780 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m780"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M780",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M780 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M780-3183/EV-SL-M780-3183A.pdf",
+    "title": "SL-M780 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M780-3183/EV-SL-M780-3183A.pdf",
+      "title": "SL-M780 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

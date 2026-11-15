@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-m670",
+  "slug": "fc-m670",
+  "name": "FC-M670 crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m670"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M670",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer documents do not establish a compliant weight for this exact complete assembly and configuration.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M670-3396/EV-FC-M670-3396.pdf",
+    "title": "FC-M670 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M670-3396/EV-FC-M670-3396.pdf",
+      "title": "FC-M670 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

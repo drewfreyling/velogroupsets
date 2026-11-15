@@ -1,0 +1,37 @@
+{
+  "id": "shimano-sl-m5100-r",
+  "slug": "sl-m5100-r",
+  "name": "SL-M5100-R right-hand trigger shifter",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m5100"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M5100-R",
+  "weight_g": null,
+  "weight_description": "One complete right-hand band-clamp SL-M5100-R control configured for 1×11; a compliant manufacturer weight is not listed in the selected reference.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M5100-4679/EV-SL-M5100-4679.pdf",
+    "title": "SL-M5100 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M5100-4679/EV-SL-M5100-4679.pdf",
+      "title": "SL-M5100 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=21",
+      "title": "Shimano 2025 specifications handbook, PDF p. 21: SL-M5100-R hand, speed count, clamp variant and weight basis",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 11,
+    "reference_configuration": "One right-hand rear-shift control in a 1× drivetrain; band-clamp version, not I-SPEC."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m770",
+  "slug": "sl-m770",
+  "name": "SL-M770 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m770"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M770",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M770 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M770-2708/EV-SL-M770-2708A.pdf",
+    "title": "SL-M770 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M770-2708/EV-SL-M770-2708A.pdf",
+      "title": "SL-M770 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

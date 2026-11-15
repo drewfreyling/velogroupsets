@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m739",
+  "slug": "sl-m739",
+  "name": "SL-M739 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m739"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M739",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M739 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M739-1638/EV-SL-M739-1638.pdf",
+    "title": "SL-M739 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M739-1638/EV-SL-M739-1638.pdf",
+      "title": "SL-M739 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

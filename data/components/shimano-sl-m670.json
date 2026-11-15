@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m670",
+  "slug": "sl-m670",
+  "name": "SL-M670 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m670"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M670",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M670 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M670-3409/EV-SL-M670-3409.pdf",
+    "title": "SL-M670 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M670-3409/EV-SL-M670-3409.pdf",
+      "title": "SL-M670 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

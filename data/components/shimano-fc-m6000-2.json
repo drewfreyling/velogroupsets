@@ -1,0 +1,26 @@
+{
+  "id": "shimano-fc-m6000-2",
+  "slug": "fc-m6000-2",
+  "name": "FC-M6000-2 crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M6000-2",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer documents do not establish a compliant weight for this exact complete assembly and configuration.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M6000-4187/EV-FC-M6000-4187.pdf",
+    "title": "FC-M6000 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M6000-4187/EV-FC-M6000-4187.pdf",
+      "title": "FC-M6000 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {}
+}

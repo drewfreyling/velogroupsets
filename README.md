@@ -25,9 +25,11 @@ Use **Tailwind CSS** for the UI, compiled into static CSS during the frontend bu
 
 Each component requires a model number, a weight field with an identifying description, and a manufacturer-hosted technical specification or an [explicitly approved archived manufacturer document](docs/campagnolo-record.md#approved-archived-manufacturer-documents). Known weights are positive grams for a configuration that meets the [weight guidelines](docs/weights-guidelines.md); any component awaiting a compliant sourced weight uses explicit null, displayed as “Not yet sourced”. Hub weights exclude skewers. Groupsets require a model number and a documented start year. Manufacturer pages list groupsets oldest first.
 
-The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Brake Levers, Brake Calipers, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
+The initial component types are Crankset, Bottom Bracket, Front Derailleur, Rear Derailleur, Shifters, Brake Levers, Brake Calipers, Disc Brake Calipers, Disc Brake Rotors, Disc Brake Systems, Cassettes, Headset, Seatpost, Pedals, Front Hub, and Rear Hub.
 
 [Brake calipers](docs/brake-calipers.md) support sourced front/rear pair weights or separate front and rear records, including pads and mounting bolts. Unknown weights remain explicit.
+
+[Disc brakes](docs/disc-brakes.md) distinguish calipers, diameter-specific rotors and complete hydraulic systems. Their weights identify the actual included hardware; a complete system weight is never presented as a caliper weight. The [MTB inventory review](docs/mtb-inventory-review.md) documents the expanded Shimano inventories, Eagle AXS controls and newly sourced crank references.
 
 See [the catalogue and UI guide](docs/catalogue.md) for the JSON schemas, relationships, component taxonomy, examples, and validation commands. Astro generates the frontend with Tailwind compiled at build time; browser search and riding-category/type/groupset filters work without API requests.
 

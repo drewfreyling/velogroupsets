@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-m6100-12",
+  "slug": "cs-m6100-12",
+  "name": "CS-M6100-12 cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6100"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M6100-12",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer documents do not establish a compliant weight for this exact complete assembly and configuration.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-M6100-4666/EV-CS-M6100-4666B.pdf",
+    "title": "CS-M6100 Shimano manufacturer exploded view: complete assembly and family",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/CS-M6100-4666/EV-CS-M6100-4666B.pdf",
+      "title": "CS-M6100 Shimano manufacturer exploded view: complete assembly and family",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_range": "10–51T"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "shimano-sm-rt70-160",
+  "slug": "sm-rt70-160",
+  "name": "SM-RT70 160 mm rotor",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7100"
+  ],
+  "type": "disc-brake-rotor",
+  "model_number": "SM-RT70",
+  "weight_g": 133,
+  "weight_description": "Manufacturer average for one 160 mm Center Lock rotor without lockring; no lockring weight is estimated.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M7100-4596/EV-BR-M7100-4596C.pdf",
+    "title": "BR-M7100 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M7100-4596/EV-BR-M7100-4596C.pdf",
+      "title": "BR-M7100 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=279",
+      "title": "Shimano 2025 specifications handbook, PDF p. 279: SM-RT70 diameter-specific weight explicitly excluding lockring",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "diameter_mm": 160,
+    "mount": "Center Lock",
+    "includes_mounting_hardware": false
+  }
+}

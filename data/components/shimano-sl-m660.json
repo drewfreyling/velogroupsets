@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m660",
+  "slug": "sl-m660",
+  "name": "SL-M660 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m660"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M660",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M660 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M660-2797/EV-SL-M660-2797.pdf",
+    "title": "SL-M660 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M660-2797/EV-SL-M660-2797.pdf",
+      "title": "SL-M660 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

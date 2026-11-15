@@ -1,0 +1,36 @@
+{
+  "id": "shimano-br-m7120",
+  "slug": "br-m7120",
+  "name": "BR-M7120 hydraulic disc-brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7100"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-M7120",
+  "weight_g": null,
+  "weight_description": "One hydraulic disc-brake caliper, excluding lever, hose and rotor. A weight including pads and mounting bolts is not explicitly established for the standalone caliper; complete-system figures are not substituted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M7120-4597/EV-BR-M7120-4597C.pdf",
+    "title": "BR-M7120 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M7120-4597/EV-BR-M7120-4597C.pdf",
+      "title": "BR-M7120 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=44",
+      "title": "Shimano 2025 specifications handbook, PDF p. 44: BR-M7120 caliper and separately labelled complete-kit weights",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "actuation": "Hydraulic",
+    "mount": "Post mount",
+    "piston_count": 4
+  }
+}

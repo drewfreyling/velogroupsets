@@ -50,6 +50,60 @@ class CatalogueTests(unittest.TestCase):
             part['specifications']['weight_basis'] = basis
             self.assertEqual(validate_catalogue(data), [])
 
+    def test_disc_calipers_do_not_accept_system_weights_without_caliper_hardware(self):
+        data = fixture()
+        part = data['components'][0]
+        part.update(type='disc-brake-caliper', specifications={'weight_basis':'Single',
+            'actuation':'Hydraulic', 'mount':'Post mount', 'piston_count':2})
+        self.assertTrue(validate_catalogue(data))
+        part['weight_g'] = None
+        self.assertEqual(validate_catalogue(data), [])
+        part.update(weight_g=150)
+        part['specifications'].update(includes_brake_pads=True, includes_mounting_bolts=True)
+        self.assertTrue(validate_catalogue(data), 'Known brake weights need a pair or positioned reference')
+        part['specifications']['weight_basis'] = 'Front'
+        self.assertEqual(validate_catalogue(data), [])
+        del part['specifications']['mount']
+        self.assertTrue(validate_catalogue(data))
+
+    def test_rotor_weights_identify_diameter_mount_and_hardware_basis(self):
+        data = fixture()
+        part = data['components'][0]
+        part.update(type='disc-brake-rotor', specifications={'weight_basis':'Single',
+            'diameter_mm':160, 'mount':'Center Lock'})
+        self.assertTrue(validate_catalogue(data))
+        part['specifications']['includes_mounting_hardware'] = False
+        self.assertEqual(validate_catalogue(data), [])
+        for value in (0, None, '160'):
+            part['specifications']['diameter_mm'] = value
+            self.assertTrue(validate_catalogue(data))
+        part.update(weight_g=None)
+        self.assertTrue(validate_catalogue(data), 'Unknown weight still needs a rotor diameter')
+
+    def test_hydraulic_system_weights_require_the_complete_reference_configuration(self):
+        data = fixture()
+        part = data['components'][0]
+        spec = {'weight_basis':'Single', 'actuation':'Hydraulic', 'position':'Front',
+            'lever_model':'EX-LEVER', 'caliper_model':'EX-CALIPER', 'lever_side':'Left',
+            'hose_model':'EX-HOSE', 'hose_length_mm':800, 'includes_rotor':False,
+            'includes_brake_pads':True, 'includes_mounting_bolts':True, 'includes_adapter':False, 'includes_fluid':True}
+        part.update(type='disc-brake-system', specifications=deepcopy(spec))
+        self.assertEqual(validate_catalogue(data), [])
+        for field in ('lever_side', 'hose_model', 'hose_length_mm', 'includes_rotor',
+                      'includes_adapter', 'includes_brake_pads', 'includes_mounting_bolts', 'includes_fluid'):
+            part['specifications'][field] = None
+            self.assertTrue(validate_catalogue(data), field)
+            part['specifications'][field] = spec[field]
+        part['specifications']['includes_rotor'] = True
+        self.assertTrue(validate_catalogue(data))
+        part['specifications'].update(rotor_model='EX-ROTOR', rotor_diameter_mm=160,
+                                      includes_rotor_mounting_hardware=True)
+        self.assertEqual(validate_catalogue(data), [])
+        part.update(weight_g=None)
+        part['specifications'].update(lever_side=None, hose_model=None, hose_length_mm=None,
+                                      includes_rotor=None)
+        self.assertEqual(validate_catalogue(data), [])
+
     def test_known_crankset_weights_require_the_exact_configuration_without_bb(self):
         for field, value in [('includes_bottom_bracket', True), ('crank_length_mm', None),
                              ('crank_length_mm', True), ('crank_length_mm', [170, 175]),

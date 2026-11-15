@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-m9100-12",
+  "slug": "cs-m9100-12",
+  "name": "CS-M9100-12 cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M9100-12",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer documents do not establish a compliant weight for this exact complete assembly and configuration.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-M9100-4376/EV-CS-M9100-4376C.pdf",
+    "title": "CS-M9100 Shimano manufacturer exploded view: complete assembly and family",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/CS-M9100-4376/EV-CS-M9100-4376C.pdf",
+      "title": "CS-M9100 Shimano manufacturer exploded view: complete assembly and family",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_range": "10–51T"
+  }
+}

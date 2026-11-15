@@ -107,6 +107,35 @@ def weight_configuration_errors(component):
         for field in ('includes_brake_pads', 'includes_mounting_bolts'):
             if specs.get(field) is not True:
                 errors.append(f'a brake-caliper weight requires {field}: true')
+    elif kind == 'disc-brake-caliper':
+        if specs.get('weight_basis') not in ('Front', 'Rear', 'Pair'):
+            errors.append('a disc-caliper weight requires a Front, Rear or Pair reference; an unpositioned Single remains unknown')
+        for field in ('includes_brake_pads', 'includes_mounting_bolts'):
+            if specs.get(field) is not True:
+                errors.append(f'a disc-caliper weight requires {field}: true')
+    elif kind == 'disc-brake-rotor':
+        if type(specs.get('includes_mounting_hardware')) is not bool:
+            errors.append('a rotor weight requires explicit includes_mounting_hardware: true or false')
+    elif kind == 'disc-brake-system':
+        for field in ('includes_brake_pads', 'includes_mounting_bolts'):
+            if specs.get(field) is not True:
+                errors.append(f'a hydraulic-system weight requires {field}: true')
+        if specs.get('lever_side') not in ('Left', 'Right'):
+            errors.append('a hydraulic-system weight requires its lever_side')
+        if not isinstance(specs.get('hose_model'), str) or not specs['hose_model'].strip():
+            errors.append('a hydraulic-system weight requires its hose_model')
+        if not positive(specs.get('hose_length_mm')):
+            errors.append('a hydraulic-system weight requires its hose_length_mm')
+        for field in ('includes_rotor', 'includes_adapter', 'includes_fluid'):
+            if type(specs.get(field)) is not bool:
+                errors.append(f'a hydraulic-system weight requires explicit {field}')
+        if specs.get('includes_rotor') is True:
+            if not isinstance(specs.get('rotor_model'), str) or not specs['rotor_model'].strip():
+                errors.append('a rotor-inclusive system weight requires its rotor_model')
+            if not positive(specs.get('rotor_diameter_mm')):
+                errors.append('a rotor-inclusive system weight requires its rotor_diameter_mm')
+            if type(specs.get('includes_rotor_mounting_hardware')) is not bool:
+                errors.append('a rotor-inclusive system weight requires explicit includes_rotor_mounting_hardware')
     elif kind == 'front-derailleur':
         if specs.get('mount') not in ('Braze-on', 'Clamp'):
             errors.append('a front-derailleur weight requires mount: Braze-on or Clamp')

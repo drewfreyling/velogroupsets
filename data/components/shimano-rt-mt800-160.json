@@ -1,0 +1,42 @@
+{
+  "id": "shimano-rt-mt800-160",
+  "slug": "rt-mt800-160",
+  "name": "RT-MT800 160 mm rotor",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8100",
+    "shimano-deore-xt-m8000"
+  ],
+  "type": "disc-brake-rotor",
+  "model_number": "RT-MT800",
+  "weight_g": 108,
+  "weight_description": "Manufacturer average for one 160 mm Center Lock rotor without lockring; no lockring weight is estimated.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M8100-4505/EV-BR-M8100-4505C.pdf",
+    "title": "BR-M8100 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M8100-4505/EV-BR-M8100-4505C.pdf",
+      "title": "BR-M8100 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=279",
+      "title": "Shimano 2025 specifications handbook, PDF p. 279: RT-MT800 diameter-specific weight explicitly excluding lockring",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=44",
+      "title": "Shimano 2025 specifications handbook, PDF p. 44: BR-M8000 expressly recommends RT-MT800 rotor",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "diameter_mm": 160,
+    "mount": "Center Lock",
+    "includes_mounting_hardware": false
+  }
+}

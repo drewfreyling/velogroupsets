@@ -1,0 +1,31 @@
+{
+  "id": "shimano-br-m640",
+  "slug": "br-m640",
+  "name": "BR-M640 hydraulic disc-brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-zee-m640"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-M640",
+  "weight_g": null,
+  "weight_description": "One hydraulic disc-brake caliper, excluding lever, hose and rotor. A weight including pads and mounting bolts is not explicitly established for the standalone caliper; complete-system figures are not substituted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M640-F-3432/EV-BR-M640-F-3432.pdf",
+    "title": "BR-M640 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M640-F-3432/EV-BR-M640-F-3432.pdf",
+      "title": "BR-M640 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "actuation": "Hydraulic",
+    "mount": "Post mount",
+    "piston_count": 4
+  }
+}

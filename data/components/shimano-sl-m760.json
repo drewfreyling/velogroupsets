@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m760",
+  "slug": "sl-m760",
+  "name": "SL-M760 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m760"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M760",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M760 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M760-2553/EV-SL-M760-2553.pdf",
+    "title": "SL-M760 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M760-2553/EV-SL-M760-2553.pdf",
+      "title": "SL-M760 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

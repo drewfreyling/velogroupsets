@@ -1,0 +1,36 @@
+{
+  "id": "shimano-br-m8000",
+  "slug": "br-m8000",
+  "name": "BR-M8000 hydraulic disc-brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-M8000",
+  "weight_g": null,
+  "weight_description": "One hydraulic disc-brake caliper, excluding lever, hose and rotor. A weight including pads and mounting bolts is not explicitly established for the standalone caliper; complete-system figures are not substituted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M8000-3857/EV-BR-M8000-3857E.pdf",
+    "title": "BR-M8000 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M8000-3857/EV-BR-M8000-3857E.pdf",
+      "title": "BR-M8000 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=44",
+      "title": "Shimano 2025 specifications handbook, PDF p. 44: BR-M8000 caliper and separately labelled complete-kit weights",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "actuation": "Hydraulic",
+    "mount": "Post mount",
+    "piston_count": 2
+  }
+}

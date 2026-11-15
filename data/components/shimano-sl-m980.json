@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m980",
+  "slug": "sl-m980",
+  "name": "SL-M980 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m980"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M980",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M980 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M980-3083/EV-SL-M980-3083.pdf",
+    "title": "SL-M980 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M980-3083/EV-SL-M980-3083.pdf",
+      "title": "SL-M980 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

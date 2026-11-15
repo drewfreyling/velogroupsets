@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m610",
+  "slug": "sl-m610",
+  "name": "SL-M610 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m610"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M610",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M610 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M610-3523/EV-SL-M610-3523.pdf",
+    "title": "SL-M610 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M610-3523/EV-SL-M610-3523.pdf",
+      "title": "SL-M610 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

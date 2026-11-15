@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m970",
+  "slug": "sl-m970",
+  "name": "SL-M970 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m970"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M970",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M970 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M970-2610/EV-SL-M970-2610.pdf",
+    "title": "SL-M970 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M970-2610/EV-SL-M970-2610.pdf",
+      "title": "SL-M970 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

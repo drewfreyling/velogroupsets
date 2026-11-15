@@ -54,6 +54,10 @@ Keep a published or measured pair total in one pair record. For separate weights
 
 For known weights, record `includes_brake_pads: true` and `includes_mounting_bolts: true` in `specifications`. These are source-backed inclusion claims, not defaults. Describe standard pads, nut/bolt variants and any further inclusions or exclusions where established. Manufacturer-listed complete factory caliper assemblies can use their listed standard pads and fixing hardware; retain any unspecified hardware variant as an explicit limitation. Bare-caliper or undocumented stripped measurements use a null weight until a compliant reference is available. Hoses, adapters and rotors must not be silently included or deducted. Standalone brake levers remain a separate category.
 
+## Disc brakes
+
+Use the distinct [disc-brake types and configuration rules](disc-brakes.md). A caliper weight identifies a front, rear or pair reference and includes pads and mounting bolts. An unpositioned single caliper retains an unknown weight. A rotor weight identifies its diameter, mount and whether the lockring or six mounting bolts are included. A complete hydraulic-system weight identifies position, lever model and hand, caliper, hose model and length, pads and bolts, and whether the adapter, rotor and hydraulic fluid are included. Included rotors also identify model, diameter and mounting hardware. State these inclusions explicitly; unknown figures stay null. Do not transfer a lever/hose/caliper total to a bare-caliper record, infer a rear-system weight from a front hose length, divide a pair or subtract a rotor/lever weight to manufacture another figure.
+
 ## Front derailleurs
 
 **Every front-derailleur weight must identify the mount: braze-on or clamp. A clamp-mounted version must include the clamp diameter in millimetres.** If reducers or shims provide several mounting sizes, identify the actual clamp/reducer configuration weighed. A single band documented to fit a range, such as 28.0–28.6 mm, may identify that manufacturer-specified band range; do not substitute a list of different available clamps.
@@ -74,8 +78,10 @@ For a known `weight_g`, the following `specifications` fields identify the actua
 | Bottom bracket | `interface`; square-taper assemblies also require positive `spindle_length_mm` |
 | Shifter sets / standalone brake levers | `weight_basis: "Pair"` |
 | Single right-hand 1× shifters | `weight_basis: "Single"`, `control_side: "Right"`, `front_speeds: 1`, integer `rear_speeds` ≥ 2 |
-| Brake calipers | `weight_basis: "Pair"`, `"Front"` or `"Rear"`; `includes_brake_pads: true` and `includes_mounting_bolts: true` |
+| Rim-brake calipers | `weight_basis: "Pair"`, `"Front"` or `"Rear"`; `includes_brake_pads: true` and `includes_mounting_bolts: true` |
 | Front derailleur | `mount: "Braze-on"` or `"Clamp"`; clamp weights require positive `clamp_diameter_mm` or a two-value increasing `clamp_diameter_range_mm` for one documented band |
 | Cassette | Integer `rear_speeds` of at least two; an increasing `sprocket_range` such as `11–28T` or a complete increasing `sprockets_teeth` list whose length matches the speed count; if both are present they must agree |
 
 Hub-skewer exclusions remain mandatory even when the weight is unknown. All records still require a `weight_g` field, description and sources. Unknown weights use null, never zero or an invented number.
+
+Disc-specific weight validation is documented in [the disc-brake contract](disc-brakes.md#weight-validation).

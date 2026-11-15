@@ -1,0 +1,41 @@
+{
+  "id": "shimano-sm-rt86-180",
+  "slug": "sm-rt86-180",
+  "name": "SM-RT86 180 mm rotor",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000",
+    "shimano-saint-m820"
+  ],
+  "type": "disc-brake-rotor",
+  "model_number": "SM-RT86",
+  "weight_g": null,
+  "weight_description": "One 180 mm six-bolt rotor. The reviewed weight table excludes lockrings but does not establish six-bolt mounting-hardware inclusion; compliant weight remains unknown.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M8000-3857/EV-BR-M8000-3857E.pdf",
+    "title": "BR-M8000 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M8000-3857/EV-BR-M8000-3857E.pdf",
+      "title": "BR-M8000 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M820-F-3383/EV-BR-M820-F-3383B.pdf",
+      "title": "BR-M820 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=279",
+      "title": "Shimano 2025 specifications handbook, PDF p. 279: SM-RT86 diameter options and six-bolt mount",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "diameter_mm": 180,
+    "mount": "6-bolt"
+  }
+}

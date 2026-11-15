@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-m9100-2",
+  "slug": "fc-m9100-2",
+  "name": "FC-M9100-2 crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M9100-2",
+  "weight_g": 606,
+  "weight_description": "Manufacturer average for 170 mm arms with 38/28T chainrings; excludes bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M9100-4378/EV-FC-M9100-4378B.pdf",
+    "title": "FC-M9100 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M9100-4378/EV-FC-M9100-4378B.pdf",
+      "title": "FC-M9100 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=48",
+      "title": "Shimano 2025 specifications handbook, PDF p. 48: FC-M9100-2 170 mm weight, exact chainrings and BB exclusion",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      38,
+      28
+    ],
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "includes_bottom_bracket": false
+  }
+}

@@ -1985,6 +1985,189 @@
                 }
               ]
             }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "disc-brake-caliper"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "specifications"
+              ],
+              "properties": {
+                "specifications": {
+                  "required": [
+                    "weight_basis",
+                    "actuation",
+                    "mount",
+                    "piston_count"
+                  ],
+                  "properties": {
+                    "weight_basis": {
+                      "enum": [
+                        "Single",
+                        "Front",
+                        "Rear",
+                        "Pair"
+                      ]
+                    },
+                    "actuation": {
+                      "enum": [
+                        "Hydraulic",
+                        "Mechanical"
+                      ]
+                    },
+                    "mount": {
+                      "enum": [
+                        "Post mount",
+                        "Flat mount",
+                        "International Standard"
+                      ]
+                    },
+                    "piston_count": {
+                      "anyOf": [
+                        {
+                          "type": "integer",
+                          "minimum": 1
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "disc-brake-rotor"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "specifications"
+              ],
+              "properties": {
+                "specifications": {
+                  "required": [
+                    "weight_basis",
+                    "diameter_mm",
+                    "mount"
+                  ],
+                  "properties": {
+                    "weight_basis": {
+                      "const": "Single"
+                    },
+                    "diameter_mm": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "mount": {
+                      "enum": [
+                        "Center Lock",
+                        "6-bolt"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "disc-brake-system"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "specifications"
+              ],
+              "properties": {
+                "specifications": {
+                  "required": [
+                    "weight_basis",
+                    "actuation",
+                    "position",
+                    "lever_model",
+                    "caliper_model",
+                    "lever_side",
+                    "hose_model",
+                    "hose_length_mm",
+                    "includes_rotor"
+                  ],
+                  "properties": {
+                    "weight_basis": {
+                      "const": "Single"
+                    },
+                    "actuation": {
+                      "const": "Hydraulic"
+                    },
+                    "position": {
+                      "enum": [
+                        "Front",
+                        "Rear"
+                      ]
+                    },
+                    "lever_model": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "caliper_model": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "lever_side": {
+                      "enum": [
+                        "Left",
+                        "Right",
+                        null
+                      ]
+                    },
+                    "hose_model": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "hose_length_mm": {
+                      "anyOf": [
+                        {
+                          "type": "integer",
+                          "minimum": 1
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "includes_rotor": {
+                      "enum": [
+                        true,
+                        false,
+                        null
+                      ]
+                    }
+                  }
+                }
+              }
+            }
           }
         ]
       },
@@ -2050,6 +2233,9 @@
           "shifters",
           "brake-levers",
           "brake-calipers",
+          "disc-brake-caliper",
+          "disc-brake-rotor",
+          "disc-brake-system",
           "cassette",
           "headset",
           "seatpost",

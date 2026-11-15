@@ -1,0 +1,31 @@
+{
+  "id": "shimano-br-m6000",
+  "slug": "br-m6000",
+  "name": "BR-M6000 hydraulic disc-brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6000"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-M6000",
+  "weight_g": null,
+  "weight_description": "One hydraulic disc-brake caliper, excluding lever, hose and rotor. A weight including pads and mounting bolts is not explicitly established for the standalone caliper; complete-system figures are not substituted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M6000-4192/EV-BR-M6000-4192F.pdf",
+    "title": "BR-M6000 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M6000-4192/EV-BR-M6000-4192F.pdf",
+      "title": "BR-M6000 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "actuation": "Hydraulic",
+    "mount": "Post mount",
+    "piston_count": 2
+  }
+}

@@ -33,6 +33,18 @@
       "title": "Brake Calipers"
     },
     {
+      "const": "disc-brake-caliper",
+      "title": "Disc Brake Calipers"
+    },
+    {
+      "const": "disc-brake-rotor",
+      "title": "Disc Brake Rotors"
+    },
+    {
+      "const": "disc-brake-system",
+      "title": "Disc Brake Systems"
+    },
+    {
       "const": "cassette",
       "title": "Cassettes"
     },

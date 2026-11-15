@@ -145,3 +145,23 @@ test('OpenAPI supports explicit single right-hand one-by controls while preservi
   const pod=validate('Component',read('components/sram-ec-axs-pod-d1-right').data);
   assert.equal(pod.model_number,'EC-AXS-POD-D1');assert.match(pod.specifications.reference_configuration,/Hardware supports left or right/);
 });
+
+test('disc assemblies have additive API types and preserve actual rotor and controller identities',()=>{
+  const types=read('component-types').data.map(t=>t.id);
+  for(const type of ['disc-brake-caliper','disc-brake-rotor','disc-brake-system'])assert.ok(types.includes(type));
+  const rotor=validate('Component',read('components/shimano-rt-mt800-160').data);
+  assert.equal(rotor.model_number,'RT-MT800');assert.equal(rotor.weight_g,108);
+  assert.deepEqual(rotor.specifications,{weight_basis:'Single',diameter_mm:160,mount:'Center Lock',includes_mounting_hardware:false});
+  const system=validate('Component',read('components/shimano-bl-m8100-br-m8100-front').data);
+  assert.equal(system.type,'disc-brake-system');assert.equal(system.weight_g,null);
+  assert.equal(system.specifications.hose_length_mm,800);assert.equal(system.specifications.includes_rotor,null);
+  const check=ajv.compile({$ref:'urn:velogroupsets:api-contract#/components/schemas/Component'});
+  for(const [record,key] of [[rotor,'diameter_mm'],[rotor,'mount'],[system,'lever_model'],[system,'position'],[system,'includes_rotor']]){
+    const invalid=structuredClone(record);delete invalid.specifications[key];assert.equal(check(invalid),false,key);
+  }
+  const original=validate('Component',read('components/sram-ec-axs-sram-a1').data);
+  assert.deepEqual(original.groupset_ids,['sram-xx1-eagle-axs','sram-x01-eagle-axs']);
+  assert.equal(original.specifications.weight_basis,'Single');
+  assert.equal(read('components/shimano-fc-m9000').data.specifications.reference_model,'FC-M9000-1');
+  assert.equal(read('components/shimano-br-r7000').data.type,'brake-calipers','Existing rim-caliper API type remains stable');
+});

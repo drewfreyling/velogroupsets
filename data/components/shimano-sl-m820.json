@@ -1,0 +1,37 @@
+{
+  "id": "shimano-sl-m820",
+  "slug": "sl-m820",
+  "name": "SL-M820 right-hand trigger shifter",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m820"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M820",
+  "weight_g": 123,
+  "weight_description": "One complete right-hand band-clamp SL-M820 control configured for 1×10; manufacturer average per control.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M820-3393/EV-SL-M820-3393.pdf",
+    "title": "SL-M820 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M820-3393/EV-SL-M820-3393.pdf",
+      "title": "SL-M820 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=15",
+      "title": "Shimano 2025 specifications handbook, PDF p. 15: SL-M820 hand, speed count, clamp variant and weight basis",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 10,
+    "reference_configuration": "One right-hand rear-shift control in a 1× drivetrain; band-clamp version, not I-SPEC."
+  }
+}

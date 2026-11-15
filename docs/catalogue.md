@@ -67,6 +67,9 @@ The ordered [component-type schema](../data/schemas/component-type.schema.json) 
 | `shifters` | Shifters |
 | `brake-levers` | Brake Levers |
 | `brake-calipers` | Brake Calipers |
+| `disc-brake-caliper` | Disc Brake Calipers |
+| `disc-brake-rotor` | Disc Brake Rotors |
+| `disc-brake-system` | Disc Brake Systems |
 | `cassette` | Cassettes |
 | `headset` | Headset |
 | `seatpost` | Seatpost |
@@ -281,3 +284,5 @@ The [Campagnolo component coverage audit](campagnolo-component-coverage.md) fill
 The [inventory and specification gap review](catalogue-gaps.md) expands all 31 one-component groupsets, adds 15 Campagnolo and six SRAM caliper records plus two shared SRAM DUB bottom brackets, and supplies 201 numeric rear-derailleur limit fields. Every existing group now has at least two sourced components. The dated audit lists the 143 rear derailleurs still awaiting one or more limits.
 
 The [modern MTB and gravel review](modern-mtb-gravel.md) adds documented SRAM Eagle and Transmission inventories, microSHIFT ADVENT X/Acolyte/Sword and Shimano GRX RX820/RX825, with the explicit single-control shifter exception.
+
+The [MTB inventory and crankset review](mtb-inventory-review.md) expands existing Shimano generations and documents the three Eagle AXS controller identities. [Disc-brake modelling](disc-brakes.md) distinguishes standalone calipers, diameter-specific rotors and complete hydraulic systems without changing existing rim-brake IDs.

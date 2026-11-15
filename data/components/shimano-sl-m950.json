@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sl-m950",
+  "slug": "sl-m950",
+  "name": "SL-M950 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m950"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M950",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M950 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M950-1629/EV-SL-M950-1629.pdf",
+    "title": "SL-M950 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M950-1629/EV-SL-M950-1629.pdf",
+      "title": "SL-M950 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

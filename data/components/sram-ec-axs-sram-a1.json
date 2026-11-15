@@ -1,0 +1,39 @@
+{
+  "id": "sram-ec-axs-sram-a1",
+  "slug": "ec-axs-sram-a1",
+  "name": "EC-AXS-SRAM-A1 Eagle AXS rear-shift controller",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-xx1-eagle-axs",
+    "sram-x01-eagle-axs"
+  ],
+  "type": "shifters",
+  "model_number": "EC-AXS-SRAM-A1",
+  "weight_g": null,
+  "weight_description": "One complete controller in the documented right-hand 1×12 rear-shift configuration. A weight with an identified clamp and battery configuration has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/service/models/ec-axs-sram-a1",
+    "title": "SRAM EC-AXS-SRAM-A1 manufacturer specifications: default function, orientation, mounting options and battery",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/service/models/ec-axs-sram-a1",
+      "title": "SRAM EC-AXS-SRAM-A1 manufacturer specifications: default function, orientation, mounting options and battery",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2021-sram-spare-parts-catalog.pdf#page=68",
+      "title": "SRAM 2021 spare parts catalogue, PDF p. 68: XX1/X01/GX Eagle AXS controllers and complete assembly codes",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "reference_configuration": "Original right-hand Eagle AXS rear-shift controller shared by XX1 and X01.",
+    "battery": "CR2032"
+  }
+}

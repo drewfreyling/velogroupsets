@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-m8000-2",
+  "slug": "fc-m8000-2",
+  "name": "FC-M8000-2 crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M8000-2",
+  "weight_g": 695.5,
+  "weight_description": "Manufacturer average for the explicitly sourced 175 mm reference with 34/24T chainrings; excludes bottom bracket. No conversion to a 170 mm weight is made.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M8000-3849/EV-FC-M8000-3849B.pdf",
+    "title": "FC-M8000 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M8000-3849/EV-FC-M8000-3849B.pdf",
+      "title": "FC-M8000 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=62",
+      "title": "Shimano 2017 specifications handbook, PDF p. 62: FC-M8000-2 175 mm weight and BB exclusion",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      34,
+      24
+    ],
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "includes_bottom_bracket": false
+  }
+}

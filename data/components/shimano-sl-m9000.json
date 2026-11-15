@@ -1,0 +1,40 @@
+{
+  "id": "shimano-sl-m9000",
+  "slug": "sl-m9000",
+  "name": "SL-M9000 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M9000",
+  "weight_g": 200,
+  "weight_description": "Manufacturer average for the complete left/right band-clamp SL-M9000 2/3×11-speed control pair; handbook explicitly states per pair.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M9000-3777/EV-SL-M9000-3777B.pdf",
+    "title": "SL-M9000 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M9000-3777/EV-SL-M9000-3777B.pdf",
+      "title": "SL-M9000 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=14",
+      "title": "Shimano 2025 specifications handbook, PDF p. 14: SL-M9000-R/L complete pair and explicit pair weight",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": [
+      2,
+      3
+    ],
+    "rear_speeds": 11,
+    "left_model": "SL-M9000-L",
+    "right_model": "SL-M9000-R"
+  }
+}

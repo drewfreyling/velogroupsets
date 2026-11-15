@@ -1,0 +1,33 @@
+{
+  "id": "shimano-sl-m7000-11",
+  "slug": "sl-m7000-11",
+  "name": "SLX eleven-speed control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M7000-11",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-M7000-11 2/3×11-speed band-clamp control pair. Individual lever weights are not summed into an unpublished pair total.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M7000-4009/EV-SL-M7000-4009A.pdf",
+    "title": "SL-M7000 Shimano manufacturer exploded view: model, series and complete assembly",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M7000-4009/EV-SL-M7000-4009A.pdf",
+      "title": "SL-M7000 Shimano manufacturer exploded view: model, series and complete assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 11,
+    "front_speeds": [
+      2,
+      3
+    ]
+  }
+}
