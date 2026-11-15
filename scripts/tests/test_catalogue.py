@@ -85,13 +85,32 @@ class CatalogueTests(unittest.TestCase):
                 part.update(weight_g=500, specifications={'weight_basis':'Pair'})
                 self.assertEqual(validate_catalogue(data), [])
 
-    def test_unknown_shifters_still_represent_pairs(self):
+    def test_unknown_shifter_sets_still_require_an_explicit_basis(self):
         data = fixture()
         part = data['components'][0]
         part.update(type='shifters', weight_g=None, specifications={'weight_basis':'Pair'})
         self.assertEqual(validate_catalogue(data), [])
         part['specifications'] = {}
         self.assertTrue(validate_catalogue(data))
+
+    def test_single_right_hand_one_by_controls_have_an_explicit_configuration(self):
+        valid = {'weight_basis':'Single', 'control_side':'Right', 'front_speeds':1, 'rear_speeds':12}
+        for weight in (None, 119):
+            data = fixture()
+            part = data['components'][0]
+            part.update(type='shifters', weight_g=weight, specifications=deepcopy(valid))
+            self.assertEqual(validate_catalogue(data), [])
+            for field in valid:
+                del part['specifications'][field]
+                self.assertTrue(validate_catalogue(data), field)
+                part['specifications'][field] = valid[field]
+            for field, value in [('control_side','Left'), ('front_speeds',2),
+                                 ('rear_speeds',1), ('rear_speeds','12')]:
+                part['specifications'][field] = value
+                self.assertTrue(validate_catalogue(data), (field, value))
+                part['specifications'][field] = valid[field]
+            part.update(type='brake-levers', weight_g=119)
+            self.assertTrue(validate_catalogue(data))
 
     def test_merged_component_aliases_reserve_identifiers_and_slugs(self):
         data = fixture()

@@ -1,0 +1,31 @@
+{
+  "id": "microshift-fd-g7020-f",
+  "slug": "fd-g7020-f",
+  "name": "Sword braze-on front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-sword"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-G7020-F",
+  "weight_g": 108,
+  "weight_description": "Manufacturer-listed 108 g for the braze-on Sword 2×10 front derailleur; not the clamp version.",
+  "technical_document": {
+    "url": "https://www.microshift.com/models/fd-g7020/",
+    "title": "microSHIFT FD-G7020-F manufacturer specifications: group, exact configuration and published figures",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/models/fd-g7020/",
+      "title": "microSHIFT FD-G7020-F manufacturer specifications: group, exact configuration and published figures",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "total_capacity_teeth": 17
+  }
+}

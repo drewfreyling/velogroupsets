@@ -1,0 +1,35 @@
+{
+  "id": "sram-rd-xx-sle-b1",
+  "slug": "rd-xx-sle-b1",
+  "name": "XX SL Eagle Transmission rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-xx-sl-eagle-transmission"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-XX-SLE-B1",
+  "weight_g": 440,
+  "weight_description": "Manufacturer engineering estimate for XX SL T-Type 1×12 derailleur, including AXS battery.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/rd-xx-sle-b1",
+    "title": "SRAM RD-XX-SLE-B1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-xx-sle-b1",
+      "title": "SRAM RD-XX-SLE-B1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cage": null,
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "minimum_largest_sprocket_teeth": 52,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 52,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

@@ -37,6 +37,8 @@ The [Shimano component coverage audit](docs/shimano-component-coverage.md) fills
 
 The [microSHIFT catalogue review](docs/microshift.md) adds 11 road/MTB offerings and 87 components from the manufacturer’s 2016–2017 catalogue, with mount-specific weights, complete shifter pairs and configuration-specific cassettes.
 
+The [modern MTB and gravel review](docs/modern-mtb-gravel.md) adds SRAM Eagle/AXS and Transmission, microSHIFT ADVENT X, Acolyte and Sword, and Shimano GRX RX820/RX825. Shifter records support complete pairs and explicitly configured single right-hand 1× controls; weights retain their actual basis.
+
 The [Shimano MTB and GRX review](docs/shimano-mtb.md) adds 65 MTB series, four GRX offerings and sourced starter components. Groupsets carry Road, MTB, Gravel or Track categories, with category filters on manufacturer and component catalogue pages. Component coverage remains incomplete.
 
 The [catalogue source review](docs/dealer-catalogues.md) indexes manufacturer scans and specification handbooks used to fill weights and derailleur limits, including exact pages, reference configurations and unresolved conflicts.

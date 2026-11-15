@@ -28,11 +28,13 @@ Keep spindle length separate from bottom-bracket shell width. For example, a squ
 
 ## Shifters
 
-**Shifters are weighed as a pair: the left and right units together.** Say that the weight is for a pair and identify the shifting system and speed configuration. For integrated shift/brake levers, include both complete lever units and describe any additional included hardware.
+**Left/right shifter sets are weighed as a pair: the left and right units together.** Say that the weight is for a pair and identify the shifting system and speed configuration. For integrated shift/brake levers, include both complete lever units and describe any additional included hardware.
 
-Catalogue shifter records also represent complete left/right pairs, including records with unknown weights. Use `specifications.weight_basis: "Pair"` and a name that says “pair”. When the two sides have separate manufacturer model numbers, identify both in the record instead of listing them as two standalone shifters.
+Catalogue shifter sets represent complete left/right pairs, including records with unknown weights. Use `specifications.weight_basis: "Pair"` and a name that says “pair”. When the two sides have separate manufacturer model numbers, identify both in the record instead of listing them as two standalone shifters.
 
-Use a measured or manufacturer-published pair weight. An individual lever weight is not a compliant pair weight; do not double one side's figure, because the two sides can differ.
+**Exception: a genuine single right-hand control for a 1× drivetrain is one shifter, not an incomplete pair.** Use `weight_basis: "Single"`, `control_side: "Right"`, `front_speeds: 1` and an integer `rear_speeds` (at least 2), even when its weight is unknown. Identify the exact model, hand, speeds and included clamp/hardware in the description, supported by the manufacturer. This covers single MTB rear-shift controls; it does not turn one side of a two-lever set into a pair or apply to standalone brake levers. Ambidextrous electronic controllers need a sourced right-hand configuration before using this exception.
+
+Use a measured or manufacturer-published pair weight for a pair. An individual lever weight is not a compliant pair weight; do not double one side's figure, because the two sides can differ.
 
 ## Standalone brake levers
 
@@ -70,7 +72,8 @@ For a known `weight_g`, the following `specifications` fields identify the actua
 | --- | --- |
 | Crankset | Positive `crank_length_mm`, positive integer `chainrings_teeth` list, `includes_bottom_bracket: false` |
 | Bottom bracket | `interface`; square-taper assemblies also require positive `spindle_length_mm` |
-| Shifters / standalone brake levers | `weight_basis: "Pair"` |
+| Shifter sets / standalone brake levers | `weight_basis: "Pair"` |
+| Single right-hand 1× shifters | `weight_basis: "Single"`, `control_side: "Right"`, `front_speeds: 1`, integer `rear_speeds` ≥ 2 |
 | Brake calipers | `weight_basis: "Pair"`, `"Front"` or `"Rear"`; `includes_brake_pads: true` and `includes_mounting_bolts: true` |
 | Front derailleur | `mount: "Braze-on"` or `"Clamp"`; clamp weights require positive `clamp_diameter_mm` or a two-value increasing `clamp_diameter_range_mm` for one documented band |
 | Cassette | Integer `rear_speeds` of at least two; an increasing `sprocket_range` such as `11–28T` or a complete increasing `sprockets_teeth` list whose length matches the speed count; if both are present they must agree |

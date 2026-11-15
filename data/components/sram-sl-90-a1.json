@@ -1,0 +1,37 @@
+{
+  "id": "sram-sl-90-a1",
+  "slug": "sl-90-a1",
+  "name": "Eagle 90 Transmission right-hand trigger shifter",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-eagle-90-transmission"
+  ],
+  "type": "shifters",
+  "model_number": "SL-90-A1",
+  "weight_g": 135,
+  "weight_description": "Single right-hand 1×12 trigger shifter with handlebar clamp; includes shift cable. Manufacturer engineering estimate.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/sl-90-a1",
+    "title": "SRAM SL-90-A1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/sl-90-a1",
+      "title": "SRAM SL-90-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2025-sram-spare-parts-catalog.pdf#page=83",
+      "title": "SRAM 2025 spare parts catalogue, PDF p. 83: single rear-shift control identity and right-hand assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "control_type": "Trigger"
+  }
+}

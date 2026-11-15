@@ -1,0 +1,39 @@
+{
+  "id": "shimano-rd-rx822-gs",
+  "slug": "rd-rx822-gs",
+  "name": "GRX 1×12-speed mechanical, 10–45T cassette rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx820"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-RX822-GS",
+  "weight_g": 290,
+  "weight_description": "Manufacturer average for the complete RD-RX822-GS 1×12-speed mechanical, 10–45T cassette rear derailleur.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-RX822-5006/EV-RD-RX822-5006.pdf",
+    "title": "RD-RX822 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-RX822-5006/EV-RD-RX822-5006.pdf",
+      "title": "RD-RX822 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=112",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF p. 112: RD-RX822-GS weight, capacity and sprocket limits",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 12,
+    "reference_configuration": "1×12-speed mechanical, 10–45T cassette",
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 45,
+    "minimum_sprocket_teeth": 10,
+    "maximum_front_difference_teeth": null
+  }
+}

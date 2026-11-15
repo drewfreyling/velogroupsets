@@ -10,6 +10,8 @@ Serve a mostly read-only bicycle groupset catalogue quickly, keep operating cost
 
 Use one GitHub repository for code, curated catalogue data, database migrations, and infrastructure configuration. Use a TypeScript Worker and D1, with OpenTofu in `infra/opentofu/` provisioning Cloudflare resources and Wrangler deploying the application. Catalogue browsing should continue to work if community services reach a quota or become unavailable.
 
+The catalogue models shifter sets as left/right pairs and genuine single right-hand 1× controls as an explicit single-control configuration. Required hand and speed fields are validated in the canonical schema and generated OpenAPI contract. Both variants are generated as static assets; the exception introduces no runtime API or storage requests. See the [catalogue contract](catalogue.md#shifter-configurations-and-aliases).
+
 ## System diagram
 
 ```mermaid

@@ -1,0 +1,27 @@
+{
+  "id": "sram-sx-eagle",
+  "slug": "sx-eagle",
+  "name": "SX Eagle",
+  "manufacturer_id": "sram",
+  "model_number": "12-speed",
+  "start_year": 2020,
+  "category": "mtb",
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-sx-1-b1",
+      "title": "SRAM RD-SX-1-B1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf#page=50",
+      "title": "SRAM 2020 spare parts catalogue, PDF p. 50: documented family availability",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2023-sram-spare-parts-catalog.pdf#page=58",
+      "title": "SRAM 2023 spare parts catalogue, PDF p. 58: model identity and family",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "generation": "Documented 2020 catalogue availability; this is an availability year, not a claim of first introduction. Hanger-mounted Eagle 1×12 drivetrain."
+}

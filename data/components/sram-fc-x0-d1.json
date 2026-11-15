@@ -1,0 +1,30 @@
+{
+  "id": "sram-fc-x0-d1",
+  "slug": "fc-x0-d1",
+  "name": "X0 Eagle Transmission crankset",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-x0-eagle-transmission"
+  ],
+  "type": "crankset",
+  "model_number": "FC-X0-D1",
+  "weight_g": null,
+  "weight_description": "Manufacturer identifies multiple crank lengths and ring/hardware configurations. The reviewed product-page weight does not explicitly establish BB exclusion, so the compliant crankset reference weight remains unknown.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/fc-x0-d1",
+    "title": "SRAM FC-X0-D1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/fc-x0-d1",
+      "title": "SRAM FC-X0-D1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "interface": "DUB"
+  }
+}

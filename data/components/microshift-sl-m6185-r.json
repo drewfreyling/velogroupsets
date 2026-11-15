@@ -1,0 +1,31 @@
+{
+  "id": "microshift-sl-m6185-r",
+  "slug": "sl-m6185-r",
+  "name": "Acolyte right-hand trigger shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-acolyte"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M6185-R",
+  "weight_g": null,
+  "weight_description": "Single right-hand 1×8 trigger shifter with aluminum handlebar clamp; manufacturer page does not list a compliant weight.",
+  "technical_document": {
+    "url": "https://www.microshift.com/models/sl-m6185-r/",
+    "title": "microSHIFT SL-M6185-R manufacturer specifications: group, exact configuration and published figures",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/models/sl-m6185-r/",
+      "title": "microSHIFT SL-M6185-R manufacturer specifications: group, exact configuration and published figures",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 8
+  }
+}

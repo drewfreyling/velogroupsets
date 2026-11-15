@@ -1,0 +1,35 @@
+{
+  "id": "sram-rd-x0-e-b1",
+  "slug": "rd-x0-e-b1",
+  "name": "X0 Eagle Transmission rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-x0-eagle-transmission"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-X0-E-B1",
+  "weight_g": 466,
+  "weight_description": "Manufacturer engineering estimate for X0 T-Type 1×12 derailleur, including AXS battery.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/rd-x0-e-b1",
+    "title": "SRAM RD-X0-E-B1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-x0-e-b1",
+      "title": "SRAM RD-X0-E-B1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cage": null,
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "minimum_largest_sprocket_teeth": 52,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 52,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

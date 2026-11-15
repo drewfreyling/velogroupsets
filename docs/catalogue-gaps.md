@@ -1,6 +1,6 @@
 # Catalogue inventory and specification gaps
 
-Reviewed on **15 November 2026**, after the [Campagnolo starter-inventory review](campagnolo-component-coverage.md). The review adds **68 component identities**, six manufacturer-listed weights and **201 numeric limit fields across 53 rear derailleurs**. All **238 groupsets** now contain at least two sourced components. The catalogue has **1,247 component identities across four manufacturers**.
+This is the inventory snapshot before the [modern MTB and gravel additions](modern-mtb-gravel.md). Reviewed on **15 November 2026**, after the [Campagnolo starter-inventory review](campagnolo-component-coverage.md). The review adds **68 component identities**, six manufacturer-listed weights and **201 numeric limit fields across 53 rear derailleurs**. All **238 groupsets** now contain at least two sourced components. The catalogue has **1,247 component identities across four manufacturers**.
 
 This establishes broader starter inventories. Complete build kits, further brake generations, frame-specific bottom brackets and many weights still need review. Unknown values remain explicit rather than being estimated from compatibility, cage length or adjacent catalogue columns.
 

@@ -1,0 +1,40 @@
+{
+  "id": "sram-cs-xs-1275-a1",
+  "slug": "cs-xs-1275-a1",
+  "name": "Eagle T-Type cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-gx-eagle-transmission",
+    "sram-eagle-90-transmission"
+  ],
+  "type": "cassette",
+  "model_number": "CS-XS-1275-A1",
+  "weight_g": 445,
+  "weight_description": "Manufacturer-listed reference for the complete 12-speed 10–52T cassette; lockring inclusion assumed under catalogue guidelines.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/cs-xs-1275-a1",
+    "title": "SRAM CS-XS-1275-A1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/cs-xs-1275-a1",
+      "title": "SRAM CS-XS-1275-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/sram/models/gs-gx-e-d1",
+      "title": "SRAM GS-GX-E-D1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/sram/models/gs-90-a1",
+      "title": "SRAM GS-90-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_range": "10–52T"
+  }
+}

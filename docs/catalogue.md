@@ -228,9 +228,9 @@ The [Exage road source guide](exage.md) covers Sport A450/A451, Motion A250, 300
 The [RSX and Light Action guide](rsx-light-action.md) documents 26 RSX components across seven- and eight-speed revisions and ten Light Action rear-derailleur variants. The [Campagnolo Record guide](campagnolo-record.md) records separate eight- and nine-speed family starts and 17 component identities, using the approved archived manufacturer documents.
 
 
-## Shifter pair identities and aliases
+## Shifter configurations and aliases
 
-Every shifter record describes a complete left/right pair, including those with null weights. The schema requires `specifications.weight_basis: "Pair"` for all shifters. Separate manufacturer codes belong in `left_model` and `right_model` and remain searchable alongside the pair’s model number; an individual-side weight is never doubled or added to another side’s figure to create an unpublished pair weight.
+Shifter sets describe complete left/right pairs, including those with null weights, using `specifications.weight_basis: "Pair"`. Genuine single right-hand 1× controls use the additive `"Single"` variant, with `control_side: "Right"`, `front_speeds: 1` and integer `rear_speeds` ≥ 2 required by both the catalogue and OpenAPI schemas. The exception applies to documented single controls, not an isolated lever from a pair. Existing pair IDs and fields remain unchanged. Separate manufacturer codes belong in `left_model` and `right_model` and remain searchable alongside the pair’s model number; an individual-side weight is never doubled or added to another side’s figure to create an unpublished pair weight.
 
 ST-R7000 replaces the separate ST-R7000-L/R catalogue entries with one pair. Its `aliases` array reserves their former IDs and slugs (`shimano-st-r7000-l` / `st-r7000-l` and `shimano-st-r7000-r` / `st-r7000-r`). Aliases are historical identity mappings, not additional searchable components or sitemap entries. Validation rejects collisions between aliases and live catalogue IDs or manufacturer-scoped component slugs. The corresponding old component URLs issue permanent redirects through [the static-asset redirect rules](../apps/web/public/_redirects).
 
@@ -279,3 +279,5 @@ The [Shimano component coverage audit](shimano-component-coverage.md) fills all 
 The [Campagnolo component coverage audit](campagnolo-component-coverage.md) fills all 30 previously empty Campagnolo ranges with 61 additional identities and 13 compliant manufacturer-listed weights. Every groupset across all four manufacturers now has at least one sourced component. Complete inventories, brake coverage and many weights still need review.
 
 The [inventory and specification gap review](catalogue-gaps.md) expands all 31 one-component groupsets, adds 15 Campagnolo and six SRAM caliper records plus two shared SRAM DUB bottom brackets, and supplies 201 numeric rear-derailleur limit fields. Every existing group now has at least two sourced components. The dated audit lists the 143 rear derailleurs still awaiting one or more limits.
+
+The [modern MTB and gravel review](modern-mtb-gravel.md) adds documented SRAM Eagle and Transmission inventories, microSHIFT ADVENT X/Acolyte/Sword and Shimano GRX RX820/RX825, with the explicit single-control shifter exception.

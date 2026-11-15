@@ -6,13 +6,16 @@ test('manufacturer categories restore from bookmarks and retain ascending years'
   await page.goto('/manufacturers/shimano/?category=mtb');
   await expect(page.getByRole('combobox',{name:'Riding category'})).toHaveValue('mtb');
   const cards=page.locator('[data-groupset-category]:visible');
-  await expect(cards).toHaveCount(65);
+  await expect(cards).toHaveCount(groupsets.filter(g=>g.manufacturer_id==='shimano'&&g.category==='mtb').length);
   const years=(await cards.locator('p').filter({hasText:/^Start year: /}).allTextContents()).map(s=>Number(s.replace('Start year: ','')));
   expect(years).toEqual([...years].sort((a,b)=>a-b));
   await page.getByRole('link',{name:/Deore XT M737/}).click();
   await expect(page.getByRole('definition').filter({hasText:/^MTB$/})).toBeVisible();
   await expect(page.getByRole('link',{name:'RD-M737-SGS',exact:true})).toBeVisible();
   await page.goto('/manufacturers/sram/?category=mtb');
+  await expect(page.locator('[data-groupset-category]:visible')).toHaveCount(groupsets.filter(g=>g.manufacturer_id==='sram'&&g.category==='mtb').length);
+  await expect(page.getByRole('heading',{name:'GX Eagle 12-speed',level:3,exact:true})).toBeVisible();
+  await page.getByRole('combobox',{name:'Riding category'}).selectOption('track');
   await expect(page.getByText('No groupsets in this riding category have been catalogued for SRAM.')).toBeVisible();
   await page.getByRole('button',{name:'Show all groupsets'}).click();
   await expect(page.locator('[data-groupset-category]:visible')).toHaveCount(groupsets.filter(g=>g.manufacturer_id==='sram').length);

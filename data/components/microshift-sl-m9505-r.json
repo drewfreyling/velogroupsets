@@ -1,0 +1,31 @@
+{
+  "id": "microshift-sl-m9505-r",
+  "slug": "sl-m9505-r",
+  "name": "ADVENT X right-hand trigger shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent-x"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M9505-R",
+  "weight_g": 119,
+  "weight_description": "Single right-hand 1×10 trigger shifter with aluminum handlebar clamp; manufacturer-listed weight.",
+  "technical_document": {
+    "url": "https://www.microshift.com/models/sl-m9505-r/",
+    "title": "microSHIFT SL-M9505-R manufacturer specifications: group, exact configuration and published figures",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/models/sl-m9505-r/",
+      "title": "microSHIFT SL-M9505-R manufacturer specifications: group, exact configuration and published figures",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 10
+  }
+}

@@ -94,8 +94,13 @@ def weight_configuration_errors(component):
         elif interface.casefold().replace('-', ' ').startswith('square taper') and not positive(specs.get('spindle_length_mm')):
             errors.append('a square-taper bottom-bracket weight requires the weighed spindle_length_mm')
     elif kind in ('shifters', 'brake-levers'):
-        if specs.get('weight_basis') != 'Pair':
-            errors.append(f'a {kind.removesuffix("s")} weight requires weight_basis: Pair')
+        single = (kind == 'shifters' and specs.get('weight_basis') == 'Single'
+                  and specs.get('control_side') == 'Right' and type(specs.get('front_speeds')) is int
+                  and specs.get('front_speeds') == 1 and type(specs.get('rear_speeds')) is int
+                  and specs['rear_speeds'] >= 2)
+        if specs.get('weight_basis') != 'Pair' and not single:
+            errors.append('a shifter weight requires Pair or an explicitly configured Single right-hand 1× control'
+                          if kind == 'shifters' else 'a brake-lever weight requires weight_basis: Pair')
     elif kind == 'brake-calipers':
         if specs.get('weight_basis') not in ('Pair', 'Front', 'Rear'):
             errors.append('a brake-caliper weight requires weight_basis: Pair, Front or Rear')

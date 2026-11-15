@@ -1,0 +1,37 @@
+{
+  "id": "shimano-st-rx820",
+  "slug": "st-rx820",
+  "name": "GRX dual-control levers pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx820"
+  ],
+  "type": "shifters",
+  "model_number": "ST-RX820",
+  "weight_g": null,
+  "weight_description": "Complete ST-RX820-L and ST-RX820-R 2×12 mechanical/hydraulic lever pair. The reviewed handbook gives individual lever weights, not a published pair total; no pair weight is calculated.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-RX820-5009/EV-ST-RX820-5009.pdf",
+    "title": "ST-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-RX820-5009/EV-ST-RX820-5009.pdf",
+      "title": "ST-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=104",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF p. 104: ST-RX820 controls and published weight basis",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "left_model": "ST-RX820-L",
+    "right_model": "ST-RX820-R"
+  }
+}

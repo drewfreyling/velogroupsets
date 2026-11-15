@@ -1,0 +1,35 @@
+{
+  "id": "sram-rd-x0-1-b2",
+  "slug": "rd-x0-1-b2",
+  "name": "X01 Eagle rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-x01-eagle"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-X0-1-B2",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this exact assembly and reference configuration is unavailable in the reviewed manufacturer documents.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/rd-x0-1-b2",
+    "title": "SRAM RD-X0-1-B2 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-x0-1-b2",
+      "title": "SRAM RD-X0-1-B2 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cage": null,
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "minimum_largest_sprocket_teeth": 50,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 52,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

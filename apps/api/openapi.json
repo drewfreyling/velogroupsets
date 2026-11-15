@@ -1886,14 +1886,43 @@
               ],
               "properties": {
                 "specifications": {
-                  "required": [
-                    "weight_basis"
-                  ],
-                  "properties": {
-                    "weight_basis": {
-                      "const": "Pair"
+                  "oneOf": [
+                    {
+                      "required": [
+                        "weight_basis"
+                      ],
+                      "properties": {
+                        "weight_basis": {
+                          "const": "Pair"
+                        }
+                      },
+                      "description": "Complete left/right control set, including sets with a brake-only left unit."
+                    },
+                    {
+                      "required": [
+                        "weight_basis",
+                        "control_side",
+                        "front_speeds",
+                        "rear_speeds"
+                      ],
+                      "properties": {
+                        "weight_basis": {
+                          "const": "Single"
+                        },
+                        "control_side": {
+                          "const": "Right"
+                        },
+                        "front_speeds": {
+                          "const": 1
+                        },
+                        "rear_speeds": {
+                          "type": "integer",
+                          "minimum": 2
+                        }
+                      },
+                      "description": "One complete right-hand rear-shift control for a 1× drivetrain; ambidextrous hardware requires a documented right-hand configuration."
                     }
-                  }
+                  ]
                 }
               }
             }

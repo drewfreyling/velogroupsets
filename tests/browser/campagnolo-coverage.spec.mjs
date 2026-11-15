@@ -6,7 +6,7 @@ test('previously empty Athena group links to its sourced control pair',async({pa
   await page.getByRole('link',{name:'EC-09ATCG',exact:true}).click();
   await expect(page.getByRole('heading',{name:'EC-09ATCG',level:1,exact:true})).toBeVisible();
   await expect(detail(page,'Weight').locator('dd > span')).toHaveText('435 g');
-  await expect(detail(page,'weight basis').locator('dd')).toHaveText('Pair');
+  await expect(detail(page,'Weight basis').locator('dd')).toHaveText('Left and right pair');
   await expect(page.getByRole('link',{name:'Read Campagnolo technical specification'})).toHaveAttribute('href',/^https:\/\/www\.bikeschematics\.com\/.*1998.*#page=46$/);
 });
 

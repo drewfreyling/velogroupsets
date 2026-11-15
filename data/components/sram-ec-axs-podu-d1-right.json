@@ -1,0 +1,49 @@
+{
+  "id": "sram-ec-axs-podu-d1-right",
+  "slug": "ec-axs-podu-d1-right",
+  "name": "AXS Pod rear-shift controller, right-hand configuration",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-xx-sl-eagle-transmission",
+    "sram-xx-eagle-transmission",
+    "sram-x0-eagle-transmission"
+  ],
+  "type": "shifters",
+  "model_number": "EC-AXS-PODU-D1",
+  "weight_g": null,
+  "weight_description": "One AXS controller in the documented right-hand 1×12 rear-shift configuration. Hardware is ambidextrous; a configuration-specific weight including the selected mount has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/ec-axs-podu-d1",
+    "title": "SRAM EC-AXS-PODU-D1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/ec-axs-podu-d1",
+      "title": "SRAM EC-AXS-PODU-D1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/sram/models/gs-xx-sle-d1",
+      "title": "SRAM GS-XX-SLE-D1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/sram/models/gs-xx-e-d1",
+      "title": "SRAM GS-XX-E-D1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/sram/models/gs-x0-e-d1",
+      "title": "SRAM GS-X0-E-D1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "reference_configuration": "Right-hand rear-derailleur control in the manufacturer groupset. Hardware supports left or right installation; this record identifies the documented right-hand setup."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "sram-eagle-90-transmission",
+  "slug": "eagle-90-transmission",
+  "name": "Eagle 90 Transmission",
+  "manufacturer_id": "sram",
+  "model_number": "T-Type mechanical",
+  "start_year": 2025,
+  "category": "mtb",
+  "sources": [
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2025-sram-spare-parts-catalog.pdf#page=64",
+      "title": "SRAM 2025 spare parts catalogue, PDF p. 64: mechanical Transmission family",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-90-a1",
+      "title": "SRAM RD-90-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "generation": "Documented 2025 mechanical 1×12 T-Type Transmission; T-Type Actuation differs from hanger-mounted Eagle X-Actuation."
+}

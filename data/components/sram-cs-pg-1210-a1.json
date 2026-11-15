@@ -1,0 +1,29 @@
+{
+  "id": "sram-cs-pg-1210-a1",
+  "slug": "cs-pg-1210-a1",
+  "name": "Eagle cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-sx-eagle"
+  ],
+  "type": "cassette",
+  "model_number": "CS-PG-1210-A1",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this exact assembly and reference configuration is unavailable in the reviewed manufacturer documents.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/cs-pg-1210-a1",
+    "title": "SRAM CS-PG-1210-A1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/cs-pg-1210-a1",
+      "title": "SRAM CS-PG-1210-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_range": "11–50T"
+  }
+}

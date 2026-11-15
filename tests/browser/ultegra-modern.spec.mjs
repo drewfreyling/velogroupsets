@@ -1,11 +1,16 @@
 import { test, expect } from '@playwright/test';
 import { components } from '../../apps/web/src/lib/catalogue.mjs';
 
-test('shifters are pairs and former individual ST-R7000 URLs redirect to one canonical pair', async ({page,request}) => {
+test('shifter sets retain pairs, explicit singles identify their configuration and former ST-R7000 URLs redirect', async ({page,request}) => {
   const index=await (await request.get('/search-index.json')).json();
   for (const part of components.filter(p=>p.type==='shifters')) {
-    expect(part.specifications.weight_basis,part.id).toBe('Pair');
-    expect(part.name,part.id).toMatch(/pair/i);
+    if(part.specifications.weight_basis==='Single'){
+      expect(part.specifications,part.id).toMatchObject({control_side:'Right',front_speeds:1});
+      expect(part.specifications.rear_speeds,part.id).toBeGreaterThanOrEqual(2);
+    }else{
+      expect(part.specifications.weight_basis,part.id).toBe('Pair');
+      expect(part.name,part.id).toMatch(/pair/i);
+    }
   }
   const shifters=index.filter(p=>p.type==='shifters');
   expect(shifters.some(p=>p.model==='ST-R7000-L'||p.model==='ST-R7000-R')).toBe(false);

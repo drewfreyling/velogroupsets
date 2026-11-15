@@ -1,0 +1,27 @@
+{
+  "id": "sram-x01-eagle-axs",
+  "slug": "x01-eagle-axs",
+  "name": "X01 Eagle AXS",
+  "manufacturer_id": "sram",
+  "model_number": "12-speed",
+  "start_year": 2019,
+  "category": "mtb",
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-x0-1e-a1",
+      "title": "SRAM RD-X0-1E-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/company/about/history",
+      "title": "SRAM manufacturer history: 2016 XX1/X01 Eagle, 2017 GX Eagle and 2019 Eagle AXS introductions",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2023-sram-spare-parts-catalog.pdf#page=53",
+      "title": "SRAM 2023 spare parts catalogue, PDF p. 53: model identity and family",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "generation": "Hanger-mounted Eagle 1×12 drivetrain. Component inventory includes later documented revisions and does not imply every revision was available in the first year."
+}

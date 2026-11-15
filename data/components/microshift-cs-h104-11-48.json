@@ -1,0 +1,42 @@
+{
+  "id": "microshift-cs-h104-11-48",
+  "slug": "cs-h104-11-48",
+  "name": "CS-H104 11–48T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent-x",
+    "microshift-sword"
+  ],
+  "type": "cassette",
+  "model_number": "CS-H104",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer product page does not establish a compliant weight for this reference configuration.",
+  "technical_document": {
+    "url": "https://www.microshift.com/models/cs-h104-11-48t/",
+    "title": "CS-H104 microSHIFT manufacturer specifications: group membership, sprocket sequence and reference weight",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/models/cs-h104-11-48t/",
+      "title": "CS-H104 microSHIFT manufacturer specifications: group membership, sprocket sequence and reference weight",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–48T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      28,
+      34,
+      40,
+      48
+    ]
+  }
+}

@@ -44,7 +44,7 @@ test('road and gravel share one control pair while cassette weights retain their
   }
   await page.getByRole('link',{name:'ED-FRC-E1',exact:true}).click();
   for(const name of ['Force AXS E1','Force XPLR AXS E1'])await expect(detail(page,'Groupset membership').getByRole('link',{name,exact:true})).toHaveCount(1);
-  await expect(detail(page,'weight basis').locator('dd')).toHaveText('Pair');
+  await expect(detail(page,'Weight basis').locator('dd')).toHaveText('Left and right pair');
   await expect(detail(page,'Weight').locator('dd > span')).toHaveText('Not yet sourced');
   for(const [model,grams,speed,range] of [['CS-XG-1290-E1',180,12,'10–28T'],['CS-XG-1391-E1',288,13,'10–46T']]){
     await page.goto(`/components/sram/${model.toLowerCase()}/`);
@@ -61,7 +61,7 @@ test('mechanical 1x control pairs identify the brake-only left lever and keep pa
   await page.goto('/groupsets/sram/rival-1-11-speed/');
   await page.getByRole('link',{name:'SB-RIV-B1 / BL-RIV-A1',exact:true}).click();
   await expect(detail(page,'Weight').locator('dd > span')).toHaveText('Not yet sourced');
-  await expect(detail(page,'weight basis').locator('dd')).toHaveText('Pair');
+  await expect(detail(page,'Weight basis').locator('dd')).toHaveText('Left and right pair');
   await expect(detail(page,'Weight')).toContainText('brake-only left lever');
   await page.goto('/groupsets/sram/rival-22/');
   await page.getByRole('link',{name:'SB-RIV-B1',exact:true}).click();

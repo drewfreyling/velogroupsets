@@ -1,0 +1,37 @@
+{
+  "id": "sram-sl-70-a1",
+  "slug": "sl-70-a1",
+  "name": "Eagle 70 Transmission right-hand trigger shifter",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-eagle-70-transmission"
+  ],
+  "type": "shifters",
+  "model_number": "SL-70-A1",
+  "weight_g": 145,
+  "weight_description": "Manufacturer engineering estimate for one right-hand 1×12 trigger shifter, integrated-clamp version with shift cable; not the lighter MMX configuration.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/sl-70-a1",
+    "title": "SRAM SL-70-A1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/sl-70-a1",
+      "title": "SRAM SL-70-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2025-sram-spare-parts-catalog.pdf#page=83",
+      "title": "SRAM 2025 spare parts catalogue, PDF p. 83: single rear-shift control identity and right-hand assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "control_type": "Trigger"
+  }
+}

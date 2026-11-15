@@ -1,0 +1,30 @@
+{
+  "id": "sram-fc-90-a1",
+  "slug": "fc-90-a1",
+  "name": "90 Eagle Transmission crankset",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-eagle-90-transmission"
+  ],
+  "type": "crankset",
+  "model_number": "FC-90-A1",
+  "weight_g": null,
+  "weight_description": "Manufacturer identifies multiple crank lengths and ring/hardware configurations. The reviewed product-page weight does not explicitly establish BB exclusion, so the compliant crankset reference weight remains unknown.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/fc-90-a1",
+    "title": "SRAM FC-90-A1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/fc-90-a1",
+      "title": "SRAM FC-90-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "interface": "DUB"
+  }
+}

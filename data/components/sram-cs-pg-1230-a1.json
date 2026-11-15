@@ -1,0 +1,29 @@
+{
+  "id": "sram-cs-pg-1230-a1",
+  "slug": "cs-pg-1230-a1",
+  "name": "Eagle cassette",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-nx-eagle"
+  ],
+  "type": "cassette",
+  "model_number": "CS-PG-1230-A1",
+  "weight_g": 615,
+  "weight_description": "Manufacturer-listed reference for the complete 12-speed 11–50T cassette; lockring inclusion assumed under catalogue guidelines.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/cs-pg-1230-a1",
+    "title": "SRAM CS-PG-1230-A1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/cs-pg-1230-a1",
+      "title": "SRAM CS-PG-1230-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_range": "11–50T"
+  }
+}

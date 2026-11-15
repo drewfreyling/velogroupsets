@@ -1,0 +1,22 @@
+{
+  "id": "shimano-grx-di2-rx825",
+  "slug": "grx-di2-rx825",
+  "name": "GRX Di2",
+  "manufacturer_id": "shimano",
+  "model_number": "RX825",
+  "start_year": 2024,
+  "category": "gravel",
+  "sources": [
+    {
+      "url": "https://bike.shimano.com/en-UK/stories/article/shimano-expands-gravel-lineup-with-new-2x12-speed-grx-di2.html",
+      "title": "Shimano announces GRX RX825 2×12 Di2 and its shared RX820 crankset",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-RX825-5053/EV-ST-RX825-5053B.pdf",
+      "title": "ST-RX825 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "generation": "Original 2024 semi-wireless 2×12-speed Di2 GRX; uses RX820-2 crankset. Not the later RX827 1× wireless system."
+}

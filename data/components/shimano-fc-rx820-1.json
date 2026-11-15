@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fc-rx820-1",
+  "slug": "fc-rx820-1",
+  "name": "GRX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx820"
+  ],
+  "type": "crankset",
+  "model_number": "FC-RX820-1",
+  "weight_g": 646,
+  "weight_description": "Manufacturer average for 170 mm crank arms with 40T chainring; excludes bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-RX820-5001/EV-FC-RX820-5001B.pdf",
+    "title": "FC-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-RX820-5001/EV-FC-RX820-5001B.pdf",
+      "title": "FC-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=117",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF p. 117: FC-RX820-1 170 mm reference weight and BB exclusion",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      40
+    ],
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "includes_bottom_bracket": false
+  }
+}

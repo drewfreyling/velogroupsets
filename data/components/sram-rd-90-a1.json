@@ -1,0 +1,35 @@
+{
+  "id": "sram-rd-90-a1",
+  "slug": "rd-90-a1",
+  "name": "Eagle 90 Transmission rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-eagle-90-transmission"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-90-A1",
+  "weight_g": 395,
+  "weight_description": "Manufacturer engineering estimate for the complete long-cage Eagle 90 mechanical T-Type 1×12 derailleur.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/rd-90-a1",
+    "title": "SRAM RD-90-A1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-90-a1",
+      "title": "SRAM RD-90-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cage": "Long",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "minimum_largest_sprocket_teeth": 52,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 52,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

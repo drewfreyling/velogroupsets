@@ -1,0 +1,39 @@
+{
+  "id": "shimano-rd-rx820",
+  "slug": "rd-rx820",
+  "name": "GRX 2×12-speed mechanical rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx820"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-RX820",
+  "weight_g": 270,
+  "weight_description": "Manufacturer average for the complete RD-RX820 2×12-speed mechanical rear derailleur.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-RX820-5005/EV-RD-RX820-5005A.pdf",
+    "title": "RD-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-RX820-5005/EV-RD-RX820-5005A.pdf",
+      "title": "RD-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=112",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF p. 112: RD-RX820 weight, capacity and sprocket limits",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cage": null,
+    "rear_speeds": 12,
+    "reference_configuration": "2×12-speed mechanical",
+    "total_capacity_teeth": 42,
+    "maximum_sprocket_teeth": 36,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 17
+  }
+}

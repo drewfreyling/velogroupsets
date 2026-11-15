@@ -1,0 +1,22 @@
+{
+  "id": "microshift-advent-x",
+  "slug": "advent-x",
+  "name": "ADVENT X",
+  "manufacturer_id": "microshift",
+  "model_number": "10-speed",
+  "start_year": 2021,
+  "category": "mtb",
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/06/microSHIFT_Catalog_20210609.pdf",
+      "title": "microSHIFT 2021 drivetrain catalogue: documented ADVENT X and Acolyte family availability",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.microshift.com/products/groups/advent-x/",
+      "title": "ADVENT X manufacturer range and component inventory",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "generation": "Documented 2021 catalogue availability, not a claim of first introduction. Later product-page revisions are identified separately in component records."
+}

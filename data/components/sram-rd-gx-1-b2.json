@@ -1,0 +1,35 @@
+{
+  "id": "sram-rd-gx-1-b2",
+  "slug": "rd-gx-1-b2",
+  "name": "GX Eagle rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-gx-eagle"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-GX-1-B2",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a compliant weight for this exact assembly and reference configuration is unavailable in the reviewed manufacturer documents.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/rd-gx-1-b2",
+    "title": "SRAM RD-GX-1-B2 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-gx-1-b2",
+      "title": "SRAM RD-GX-1-B2 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cage": "Long",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "minimum_largest_sprocket_teeth": 50,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 52,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

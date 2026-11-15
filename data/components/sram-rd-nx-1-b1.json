@@ -1,0 +1,35 @@
+{
+  "id": "sram-rd-nx-1-b1",
+  "slug": "rd-nx-1-b1",
+  "name": "NX Eagle rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-nx-eagle"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-NX-1-B1",
+  "weight_g": 339,
+  "weight_description": "Manufacturer-listed complete long-cage NX Eagle 1×12 derailleur.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/rd-nx-1-b1",
+    "title": "SRAM RD-NX-1-B1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-nx-1-b1",
+      "title": "SRAM RD-NX-1-B1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cage": "Long",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "minimum_largest_sprocket_teeth": 50,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 50,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

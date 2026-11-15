@@ -1,0 +1,42 @@
+{
+  "id": "microshift-cs-g104-11-48",
+  "slug": "cs-g104-11-48",
+  "name": "CS-G104 11–48T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent-x",
+    "microshift-sword"
+  ],
+  "type": "cassette",
+  "model_number": "CS-G104",
+  "weight_g": 424,
+  "weight_description": "Manufacturer-listed weight for the complete 10-speed 11–48T cassette; lockring inclusion assumed under catalogue guidelines.",
+  "technical_document": {
+    "url": "https://www.microshift.com/models/cs-g104-11-48t/",
+    "title": "CS-G104 microSHIFT manufacturer specifications: group membership, sprocket sequence and reference weight",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/models/cs-g104-11-48t/",
+      "title": "CS-G104 microSHIFT manufacturer specifications: group membership, sprocket sequence and reference weight",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–48T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      28,
+      34,
+      40,
+      48
+    ]
+  }
+}

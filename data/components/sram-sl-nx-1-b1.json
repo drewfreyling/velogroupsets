@@ -1,0 +1,37 @@
+{
+  "id": "sram-sl-nx-1-b1",
+  "slug": "sl-nx-1-b1",
+  "name": "NX Eagle right-hand trigger shifter",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-nx-eagle"
+  ],
+  "type": "shifters",
+  "model_number": "SL-NX-1-B1",
+  "weight_g": 112,
+  "weight_description": "Manufacturer-listed weight for one right-hand NX Eagle 1×12 trigger shifter, MMX-clamp reference. Do not apply this figure to the separate handlebar-clamp configuration.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/sl-nx-1-b1",
+    "title": "SRAM SL-NX-1-B1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/sl-nx-1-b1",
+      "title": "SRAM SL-NX-1-B1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf#page=69",
+      "title": "SRAM 2020 spare parts catalogue, PDF p. 69: single rear-shift control identity and right-hand assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "control_type": "Trigger"
+  }
+}

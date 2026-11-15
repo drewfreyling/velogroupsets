@@ -1,0 +1,33 @@
+{
+  "id": "microshift-fc-g7000-40",
+  "slug": "fc-g7000-40",
+  "name": "Sword crankset",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-sword"
+  ],
+  "type": "crankset",
+  "model_number": "FC-G7000-40",
+  "weight_g": null,
+  "weight_description": "The manufacturer lists a 172.5 mm crank reference but does not explicitly establish bottom-bracket exclusion in the reviewed product page; compliant weight remains unknown.",
+  "technical_document": {
+    "url": "https://www.microshift.com/models/fc-g7000-40/",
+    "title": "FC-G7000-40 microSHIFT manufacturer specifications: crank lengths, chainrings and Sword membership",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/models/fc-g7000-40/",
+      "title": "FC-G7000-40 microSHIFT manufacturer specifications: crank lengths, chainrings and Sword membership",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 1,
+    "rear_speeds": 10,
+    "chainrings_teeth": [
+      40
+    ],
+    "interface": "24 mm"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sram-sl-x0-1-b2",
+  "slug": "sl-x0-1-b2",
+  "name": "X01 Eagle right-hand trigger shifter",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-x01-eagle"
+  ],
+  "type": "shifters",
+  "model_number": "SL-X0-1-B2",
+  "weight_g": null,
+  "weight_description": "Single right-hand 1×12 trigger shifter with handlebar clamp. A compliant manufacturer weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/sl-x0-1-b2",
+    "title": "SRAM SL-X0-1-B2 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/sl-x0-1-b2",
+      "title": "SRAM SL-X0-1-B2 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2020-sram-spare-parts-catalog.pdf#page=68",
+      "title": "SRAM 2020 spare parts catalogue, PDF p. 68: single rear-shift control identity and right-hand assembly",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "control_type": "Trigger"
+  }
+}

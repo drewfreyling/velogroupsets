@@ -1,0 +1,35 @@
+{
+  "id": "sram-rd-70-a1",
+  "slug": "rd-70-a1",
+  "name": "Eagle 70 Transmission rear derailleur",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-eagle-70-transmission"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-70-A1",
+  "weight_g": 415,
+  "weight_description": "Manufacturer engineering estimate for the complete long-cage Eagle 70 mechanical T-Type 1×12 derailleur.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/rd-70-a1",
+    "title": "SRAM RD-70-A1 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-70-a1",
+      "title": "SRAM RD-70-A1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "cage": "Long",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "minimum_largest_sprocket_teeth": 52,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 52,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

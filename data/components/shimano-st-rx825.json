@@ -1,0 +1,37 @@
+{
+  "id": "shimano-st-rx825",
+  "slug": "st-rx825",
+  "name": "GRX dual-control levers pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-di2-rx825"
+  ],
+  "type": "shifters",
+  "model_number": "ST-RX825",
+  "weight_g": 415,
+  "weight_description": "Manufacturer average for the complete ST-RX825 left/right 2×12 Di2 lever pair; excludes brake calipers and hoses.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/ST-RX825-5053/EV-ST-RX825-5053B.pdf",
+    "title": "ST-RX825 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-RX825-5053/EV-ST-RX825-5053B.pdf",
+      "title": "ST-RX825 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=101",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF p. 101: ST-RX825 controls and published weight basis",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "left_model": "ST-RX825-L",
+    "right_model": "ST-RX825-R"
+  }
+}

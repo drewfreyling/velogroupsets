@@ -22,7 +22,7 @@ test('Campagnolo mechanical and EPS controls remain distinct complete pairs',asy
   for(const [slug,model] of [['chorus-11-speed','EP15-CH1C'],['chorus-eps-11-speed','EP15-CH1CEPS']]){
     await page.goto(`/groupsets/campagnolo/${slug}/`);
     await page.getByRole('link',{name:model,exact:true}).click();
-    await expect(detail(page,'weight basis').locator('dd')).toHaveText('Pair');
+    await expect(detail(page,'Weight basis').locator('dd')).toHaveText('Left and right pair');
     await expect(detail(page,'Weight').locator('dd > span')).toHaveText('Not yet sourced');
     await expect(page.getByRole('link',{name:'Read Campagnolo technical specification'})).toHaveAttribute('href',/^https:\/\/media\.campagnolo\.com\//);
   }
@@ -41,7 +41,7 @@ test('drop-bar CUES keeps nine- and ten-speed control pairs separate',async({pag
   }
   await page.getByRole('link',{name:'ST-U3030-L / ST-U3030-9R',exact:true}).click();
   await expect(detail(page,'rear speeds').locator('dd')).toHaveText('9');
-  await expect(detail(page,'weight basis').locator('dd')).toHaveText('Pair');
+  await expect(detail(page,'Weight basis').locator('dd')).toHaveText('Left and right pair');
   const index=await(await request.get('/search-index.json')).json();
   expect(index.filter(c=>c.id==='shimano-fc-u6040-2')).toHaveLength(1);
   expect(index.find(c=>c.id==='shimano-fc-u6040-2').weight_g).toBeNull();

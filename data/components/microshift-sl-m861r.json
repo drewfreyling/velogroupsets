@@ -1,0 +1,37 @@
+{
+  "id": "microshift-sl-m861r",
+  "slug": "sl-m861r",
+  "name": "XCD 11 right-hand Xpress+ shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xcd-11"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M861R",
+  "weight_g": 104,
+  "weight_description": "Manufacturer average for one right-hand SL-M861R 1×11 Xpress+ trigger shifter, 22.2 mm handlebar clamp and stainless slick shift cable.",
+  "technical_document": {
+    "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+    "title": "microSHIFT 2016–2017 technical table, printed p. 26 (PDF p. 27): SL-M861R single right-hand 1×11 trigger, 22.2 mm clamp, 104 g",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
+      "title": "microSHIFT 2016–2017 technical table, printed p. 26 (PDF p. 27): SL-M861R single right-hand 1×11 trigger, 22.2 mm clamp, 104 g",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=18",
+      "title": "microSHIFT 2016–2017 catalogue, printed p. 17 (PDF p. 18): XCD 11 family, right-side-only SL-M861R control",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 11,
+    "clamp_diameter_mm": 22.2
+  }
+}

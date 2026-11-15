@@ -1,0 +1,32 @@
+{
+  "id": "sram-sl-sx-1-a12",
+  "slug": "sl-sx-1-a12",
+  "name": "SX Eagle right-hand trigger shifter",
+  "manufacturer_id": "sram",
+  "groupset_ids": [
+    "sram-sx-eagle"
+  ],
+  "type": "shifters",
+  "model_number": "SL-SX-1-A12",
+  "weight_g": null,
+  "weight_description": "Single right-hand 1×12 trigger shifter with handlebar clamp. A compliant manufacturer weight has not yet been sourced.",
+  "technical_document": {
+    "url": "https://www.sram.com/en/sram/models/sl-sx-1-a12",
+    "title": "SRAM SL-SX-1-A12 manufacturer product specifications, assembly and reference configuration",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://www.sram.com/en/sram/models/sl-sx-1-a12",
+      "title": "SRAM SL-SX-1-A12 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "control_type": "Trigger"
+  }
+}

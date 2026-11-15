@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fd-rx820",
+  "slug": "fd-rx820",
+  "name": "GRX braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx820"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-RX820",
+  "weight_g": 96,
+  "weight_description": "Manufacturer average for the braze-on front derailleur, direct type with screw.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-RX820-5004/EV-FD-RX820-5004.pdf",
+    "title": "FD-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+    "retrieved_on": "2026-11-15"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-RX820-5004/EV-FD-RX820-5004.pdf",
+      "title": "FD-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=114",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF p. 114: FD-RX820 mount and average weight",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "rear_speeds": 12
+  }
+}

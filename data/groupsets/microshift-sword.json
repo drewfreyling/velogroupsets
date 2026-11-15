@@ -1,0 +1,22 @@
+{
+  "id": "microshift-sword",
+  "slug": "sword",
+  "name": "Sword",
+  "manufacturer_id": "microshift",
+  "model_number": "10-speed",
+  "start_year": 2024,
+  "category": "gravel",
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/02/20240229_2024-Catalog_microSHIFT-web.pdf",
+      "title": "microSHIFT 2024 drivetrain catalogue: documented Sword gravel offering",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.microshift.com/products/groups/sword/",
+      "title": "Sword manufacturer range and component inventory",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "generation": "Documented 2024 catalogue availability, not a claim of first introduction. Later product-page revisions are identified separately in component records."
+}

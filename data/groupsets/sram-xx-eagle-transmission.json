@@ -1,0 +1,22 @@
+{
+  "id": "sram-xx-eagle-transmission",
+  "slug": "xx-eagle-transmission",
+  "name": "XX Eagle Transmission",
+  "manufacturer_id": "sram",
+  "model_number": "T-Type AXS",
+  "start_year": 2023,
+  "category": "mtb",
+  "sources": [
+    {
+      "url": "https://www.sram.com/globalassets/document-hierarchy/spare-parts/spare-parts-catalog-archive/2023-sram-spare-parts-catalog.pdf#page=51",
+      "title": "SRAM 2023 spare parts catalogue, PDF p. 51: Full Mount Transmission family and model identity",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/sram/models/rd-xx-e-b1",
+      "title": "SRAM RD-XX-E-B1 manufacturer product specifications, assembly and reference configuration",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "generation": "2023 Eagle AXS T-Type Transmission, Full Mount interface; not interchangeable with hanger-mounted Eagle derailleurs or cassettes."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "shimano-grx-rx820",
+  "slug": "grx-rx820",
+  "name": "GRX",
+  "manufacturer_id": "shimano",
+  "model_number": "RX820",
+  "start_year": 2023,
+  "category": "gravel",
+  "sources": [
+    {
+      "url": "https://bike.shimano.com/en-NA/products/series/grx.html",
+      "title": "Shimano GRX manufacturer range: RX820 mechanical and RX825 Di2 12-speed gravel systems",
+      "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/ST-RX820-5009/EV-ST-RX820-5009.pdf",
+      "title": "ST-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
+      "retrieved_on": "2026-11-15"
+    }
+  ],
+  "generation": "Mechanical 12-speed GRX, introduced in 2023; 2× RX820 and 1× RX822 drivetrain options. Later RX827 wireless components are a separate generation."
+}

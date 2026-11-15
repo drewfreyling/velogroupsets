@@ -122,3 +122,26 @@ test('every groupset has at least two sourced components after the inventory rev
   const sparse=publicGroups.filter(group=>(counts.get(group.id)||0)<2).map(group=>group.id);
   assert.deepEqual(sparse,[],`Groupsets awaiting a sourced starter inventory: ${sparse.join(', ')}`);
 });
+
+test('OpenAPI supports explicit single right-hand one-by controls while preserving pairs',()=>{
+  const single=read('components/microshift-sl-m9505-r').data;
+  validate('Component',single);
+  assert.deepEqual(single.specifications,{weight_basis:'Single',control_side:'Right',front_speeds:1,rear_speeds:10});
+  assert.equal(single.weight_g,119);
+  const check=ajv.compile({$ref:'urn:velogroupsets:api-contract#/components/schemas/Component'});
+  for(const weight of [119,null]){
+    for(const [field,value] of [['control_side','Left'],['front_speeds',2],['rear_speeds',1],['rear_speeds','10']]){
+      const invalid=structuredClone(single);invalid.weight_g=weight;invalid.specifications[field]=value;
+      assert.equal(check(invalid),false,`${field}=${value} must not identify a supported single control`);
+    }
+    for(const field of ['weight_basis','control_side','front_speeds','rear_speeds']){
+      const invalid=structuredClone(single);invalid.weight_g=weight;delete invalid.specifications[field];
+      assert.equal(check(invalid),false,`Single control missing ${field}`);
+    }
+  }
+  const pair=validate('Component',read('components/microshift-sb-g7000').data);
+  assert.equal(pair.specifications.weight_basis,'Pair');assert.equal(pair.specifications.front_speeds,1);
+  assert.equal(pair.weight_g,null,'Side figures must not be summed into an unpublished pair total');
+  const pod=validate('Component',read('components/sram-ec-axs-pod-d1-right').data);
+  assert.equal(pod.model_number,'EC-AXS-POD-D1');assert.match(pod.specifications.reference_configuration,/Hardware supports left or right/);
+});
