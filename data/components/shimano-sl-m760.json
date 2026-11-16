@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M760",
-  "weight_g": null,
-  "weight_description": "Complete left/right SL-M760 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "weight_g": 260,
+  "weight_description": "Manufacturer-listed Deore XT 3×9-speed Rapidfire Plus left/right shift-lever set. The published weight is for the complete set, not an individual side.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M760-2553/EV-SL-M760-2553.pdf",
     "title": "SL-M760 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-M760-2553/EV-SL-M760-2553.pdf",
       "title": "SL-M760 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2007_Trade_Sales_Support_Manual.pdf#page=210",
+      "title": "Shimano 2007 Trade Sales Support Manual, PDF page 210: SL-M760 reference weight and configuration",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {

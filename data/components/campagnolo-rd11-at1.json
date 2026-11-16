@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD11-AT1",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 209,
+  "weight_description": "Manufacturer-listed Athena 11-speed, short 55 mm pulley-axis cage rear derailleur, matched to the 2013 complete assembly.",
   "technical_document": {
     "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202013%20-%20Part%20A.pdf#page=41",
     "title": "Original Campagnolo 2013 spare-parts catalogue part A, PDF page 41; archived manufacturer publication",
@@ -30,6 +30,11 @@
       "url": "https://media.campagnolo.com/seecommerce/original/C-RD-CHORUS-11S-TM1EN",
       "title": "Campagnolo 10s/11s rear-derailleur technical manual, page 3, sections 1.1–1.2: 10-speed cage references and 2009–2014 eleven-speed mechanical references",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campagnolo-sirer.cz/img/cms/Produktove_katalogy_Campagnolo/2013_Campagnolo%20product%20catalogue.pdf#page=133",
+      "title": "Original Campagnolo 2013 product catalogue, PDF page 133: manufacturer reference weight and configuration; archived manufacturer publication",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {

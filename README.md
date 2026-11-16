@@ -45,6 +45,8 @@ The [Shimano MTB and GRX review](docs/shimano-mtb.md) adds 65 MTB series, four G
 
 The [catalogue source review](docs/dealer-catalogues.md) indexes manufacturer scans and specification handbooks used to fill weights and derailleur limits, including exact pages, reference configurations and unresolved conflicts.
 
+The [catalogue weight review](docs/catalogue-weight-review.md) fills 78 further weight gaps from Shimano and Campagnolo publications and records the remaining configuration and source gaps.
+
 
 ## Catalogue API
 

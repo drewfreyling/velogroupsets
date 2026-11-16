@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-RX815",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 135,
+  "weight_description": "Manufacturer-listed FD-RX815-F Di2 double front derailleur, braze-on version; no clamp adapter.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-RX815-4588/EV-FD-RX815-4588A.pdf",
     "title": "Shimano FD-RX815 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +20,15 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-RX815-4588/EV-FD-RX815-4588A.pdf",
       "title": "Shimano FD-RX815 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=103",
+      "title": "Shimano 2025 specification handbook, PDF page 103: FD-RX815 manufacturer-listed reference weight and configuration",
+      "retrieved_on": "2026-11-16"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "mount": "Braze-on",
+    "reference_model": "FD-RX815-F"
+  }
 }

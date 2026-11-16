@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD13-AT1EPS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 225,
+  "weight_description": "Manufacturer-listed Athena EPS 11-speed rear derailleur, matched to the 2013 complete assembly.",
   "technical_document": {
     "url": "https://www.starbike.com/data-sheets/Campagnolo/2014/campagnolo-super-record-eps-2014-groupset-configuration-comparison.pdf#page=5",
     "title": "Original Campagnolo 2014 EPS configuration chart: Athena EPS MY2013 complete assembly codes",
@@ -25,6 +25,11 @@
       "url": "https://www.vieiragraca.com/pub_docs/149/CAMPY13VG.pdf",
       "title": "Campagnolo 2013 distributor range sheet: complete assembly codes and named groups, pages 6–8 and 12–13",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campagnolo-sirer.cz/img/cms/Produktove_katalogy_Campagnolo/2013_Campagnolo%20product%20catalogue.pdf#page=125",
+      "title": "Original Campagnolo 2013 product catalogue, PDF page 125: manufacturer reference weight and configuration; archived manufacturer publication",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {

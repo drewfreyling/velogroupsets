@@ -9,8 +9,8 @@
   ],
   "type": "rear-hub",
   "model_number": "FH7-RE2",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established. Any measurement must exclude skewers.",
+  "weight_g": 231,
+  "weight_description": "Manufacturer-listed Record rear hub, 32-hole, 130 mm O.L.D., Campagnolo freehub body, without quick-release skewer. The 2017 Record table gives the 32-hole reference; the matching 2008 product-catalogue footnote explicitly excludes quick releases; the 2008 HB7/FH7 assembly drawing and 2017 code table identify this hub.",
   "technical_document": {
     "url": "https://media.campagnolo.com/seecommerce/original/C-BR-ATHENA-BLACK-11S-SP1",
     "title": "Campagnolo 2017 spare parts catalogue, part B: hubs and cassettes",
@@ -26,6 +26,21 @@
       "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=9",
       "title": "Original Campagnolo 2017 assembly-code and group-membership table, part D, PDF page 9; archived copy",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo-sirer.cz/img/cms/Produktove_katalogy_Campagnolo/2008_Campagnolo%20product%20catalogue.pdf#page=4",
+      "title": "Original Campagnolo 2008 product catalogue, PDF page 4: manufacturer reference weight and configuration; archived manufacturer publication",
+      "retrieved_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202008%20-%20Part%20B.pdf#page=19",
+      "title": "Original Campagnolo 2008 spare-parts catalogue, Part B, PDF page 19: HB7/FH7 Record hub assembly and 32/36-hole variants",
+      "retrieved_on": "2026-11-16"
+    },
+    {
+      "url": "https://www.campagnolo-sirer.cz/img/cms/Produktove_katalogy_Campagnolo/2017_Campagnolo%20product%20catalogue.pdf#page=36",
+      "title": "Original Campagnolo 2017 product catalogue, PDF page 36, Record table: 32-hole hub reference, 231 g; cross-check against 2008 HB7/FH7 family and explicit quick-release exclusion",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {

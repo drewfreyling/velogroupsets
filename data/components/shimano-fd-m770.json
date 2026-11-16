@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-M770",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 152,
+  "weight_description": "Manufacturer-listed FD-M770 triple front derailleur, L-size 34.9 mm clamp, without S/M reducer adapters.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-M770-2695/EV-FD-M770-2695D.pdf",
     "title": "Shimano FD-M770 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +20,15 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-M770-2695/EV-FD-M770-2695D.pdf",
       "title": "Shimano FD-M770 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=35",
+      "title": "Shimano 2025 specification handbook, PDF page 35: FD-M770 manufacturer-listed reference weight and configuration",
+      "retrieved_on": "2026-11-16"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 34.9
+  }
 }

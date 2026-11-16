@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M780",
-  "weight_g": null,
-  "weight_description": "Complete left/right SL-M780 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "weight_g": 255,
+  "weight_description": "Manufacturer-listed SL-M780 band-clamp Rapidfire Plus left/right pair; 2/3×10-speed. The handbook explicitly gives a pair weight.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M780-3183/EV-SL-M780-3183A.pdf",
     "title": "SL-M780 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-M780-3183/EV-SL-M780-3183A.pdf",
       "title": "SL-M780 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=6",
+      "title": "Shimano 2014 specification handbook, PDF page 6: SL-M780 manufacturer-listed reference weight and configuration",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {

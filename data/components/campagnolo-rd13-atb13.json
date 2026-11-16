@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD13-ATB13",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "weight_g": 216,
+  "weight_description": "Manufacturer-listed Athena 11-speed triple, long 82 mm pulley-axis cage rear derailleur, matched to the 2013 complete assembly.",
   "technical_document": {
     "url": "https://media.campagnolo.com/seecommerce/original/C-FD-VELOCE-SILVER-10S-SP1",
     "title": "Campagnolo 2018 spare parts catalogue, part A: cranksets, bottom brackets, derailleurs and Ergopower assemblies",
@@ -30,6 +30,11 @@
       "url": "https://media.campagnolo.com/seecommerce/original/C-RD-CHORUS-11S-TM1EN",
       "title": "Campagnolo 10s/11s rear-derailleur technical manual, page 3, sections 1.1–1.2: 10-speed cage references and 2009–2014 eleven-speed mechanical references",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campagnolo-sirer.cz/img/cms/Produktove_katalogy_Campagnolo/2013_Campagnolo%20product%20catalogue.pdf#page=137",
+      "title": "Original Campagnolo 2013 product catalogue, PDF page 137: manufacturer reference weight and configuration; archived manufacturer publication",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {

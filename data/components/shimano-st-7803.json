@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-7803",
-  "weight_g": null,
-  "weight_description": "Left/right pair: A configuration-specific weight has not yet been sourced.",
+  "weight_g": 420,
+  "weight_description": "Manufacturer-listed Dura-Ace triple left/right dual-control pair, 3×10-speed. The published weight is for the complete set, not an individual side.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-7803-2435/EV-ST-7803-2435.pdf",
     "title": "Shimano ST-7803 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/ST-7803-2435/EV-ST-7803-2435.pdf",
       "title": "Shimano ST-7803 exploded view and replacement parts",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=133",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF page 133: ST-7803 reference weight and configuration",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {

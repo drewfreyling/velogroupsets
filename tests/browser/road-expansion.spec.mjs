@@ -19,11 +19,11 @@ test('browse newly added Shimano road generations and retain model-number links'
 });
 
 test('Campagnolo mechanical and EPS controls remain distinct complete pairs',async({page})=>{
-  for(const [slug,model] of [['chorus-11-speed','EP15-CH1C'],['chorus-eps-11-speed','EP15-CH1CEPS']]){
+  for(const [slug,model,grams] of [['chorus-11-speed','EP15-CH1C',350],['chorus-eps-11-speed','EP15-CH1CEPS',293]]){
     await page.goto(`/groupsets/campagnolo/${slug}/`);
     await page.getByRole('link',{name:model,exact:true}).click();
     await expect(detail(page,'Weight basis').locator('dd')).toHaveText('Left and right pair');
-    await expect(detail(page,'Weight').locator('dd > span')).toHaveText('Not yet sourced');
+    await expect(detail(page,'Weight').locator('dd > span')).toHaveText(`${grams} g`);
     await expect(page.getByRole('link',{name:'Read Campagnolo technical specification'})).toHaveAttribute('href',/^https:\/\/media\.campagnolo\.com\//);
   }
   await page.goto('/components/campagnolo/rd02-sr13wrl/');

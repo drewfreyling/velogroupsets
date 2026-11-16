@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-R8150",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for ST-R8150 as a complete left/right pair has not been established.",
+  "weight_g": 295,
+  "weight_description": "Manufacturer-listed ST-R8150 Ultegra Di2 left/right rim-brake dual-control pair, 2×12-speed. The handbook explicitly gives a pair weight.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-R8150-4865/EV-ST-R8150-4865.pdf",
     "title": "Shimano ST-R8150 exploded view and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=55",
       "title": "Shimano 2025-2026 line-up chart, PDF page 55: Ultegra Di2 R8100 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=125",
+      "title": "Shimano 2025 specification handbook, PDF page 125: ST-R8150 manufacturer-listed reference weight and configuration",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {

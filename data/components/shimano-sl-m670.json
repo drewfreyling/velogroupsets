@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M670",
-  "weight_g": null,
-  "weight_description": "Complete left/right SL-M670 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "weight_g": 265,
+  "weight_description": "Manufacturer-listed SL-M670 band-clamp Rapidfire Plus left/right pair; 2/3×10-speed, not the I-SPEC B controls. The handbook explicitly gives a pair weight.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M670-3409/EV-SL-M670-3409.pdf",
     "title": "SL-M670 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-M670-3409/EV-SL-M670-3409.pdf",
       "title": "SL-M670 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=10",
+      "title": "Shimano 2017 specification handbook, PDF page 10: SL-M670 manufacturer-listed reference weight and configuration",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {

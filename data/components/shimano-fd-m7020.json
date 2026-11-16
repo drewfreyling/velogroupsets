@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-M7020",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 147,
+  "weight_description": "Manufacturer-listed FD-M7020-11-H double front derailleur: high-clamp, L-size 34.9 mm band, without reducer adapter.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-M7020-3977/EV-FD-M7020-3977A.pdf",
     "title": "Shimano FD-M7020 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +20,16 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-M7020-3977/EV-FD-M7020-3977A.pdf",
       "title": "Shimano FD-M7020 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=43",
+      "title": "Shimano 2017 specification handbook, PDF page 43: FD-M7020 manufacturer-listed reference weight and configuration",
+      "retrieved_on": "2026-11-16"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 34.9,
+    "reference_model": "FD-M7020-11-H"
+  }
 }

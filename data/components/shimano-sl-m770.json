@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M770",
-  "weight_g": null,
-  "weight_description": "Complete left/right SL-M770 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "weight_g": 255,
+  "weight_description": "Manufacturer-listed Deore XT 3×9-speed Rapidfire Plus left/right shift-lever set, original SL-M770 rather than later SL-M770-A. The published weight is for the complete set, not an individual side.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M770-2708/EV-SL-M770-2708A.pdf",
     "title": "SL-M770 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-M770-2708/EV-SL-M770-2708A.pdf",
       "title": "SL-M770 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2008_Trade_Support_Manual.pdf#page=192",
+      "title": "Shimano 2008 Trade Sales Support Manual, PDF page 192: SL-M770 reference weight and configuration",
+      "retrieved_on": "2026-11-16"
     }
   ],
   "specifications": {
