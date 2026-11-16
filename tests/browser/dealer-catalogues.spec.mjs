@@ -42,6 +42,6 @@ test('manufacturer evidence does not turn catalogue options into universal limit
     expect(record.sources.some(source=>source.url.endsWith('/2010-sram-technical-manual.pdf#page=6'))).toBe(true);
   }
   await page.goto('/components/campagnolo/rd15-ch1eps/');await expect(row(page,'Weight').locator('span')).toHaveText('225 g');await expect(row(page,'Total capacity')).toHaveText('33T');await expect(row(page,'Largest sprocket')).toHaveText('Not yet sourced');
-  await page.goto('/components/campagnolo/fd15-re2b/');await expect(row(page,'Weight').locator('span')).toHaveText('Not yet sourced');await expect(row(page,'capacity teeth')).toHaveText('16');
+  await page.goto('/components/campagnolo/fd15-re2b/');await expect(row(page,'Weight').locator('span')).toHaveText('75 g');await expect(row(page,'Weight')).toContainText('braze-on');await expect(row(page,'capacity teeth')).toHaveText('16');
   await page.goto('/components/shimano/rd-7700/');await expect(row(page,'Total capacity')).toHaveText('26T');await expect(row(page,'catalogue capacity note')).toContainText('2001 catalogue lists 29T');
 });
