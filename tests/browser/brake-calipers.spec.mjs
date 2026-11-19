@@ -4,6 +4,19 @@ const detailRow = (page, label) => page.locator('dl > div').filter({
   has: page.getByRole('term').filter({hasText: new RegExp(`^${label}$`)}),
 });
 
+test('Claris R2000 calipers are browsable as one complete pair with an unknown weight', async ({page, request}) => {
+  await page.goto('/groupsets/shimano/claris-r2000/');
+  await page.getByRole('link', {name:'BR-R2000', exact:true}).click();
+  await expect(page).toHaveURL(/\/components\/shimano\/br-r2000\/$/);
+  await expect(detailRow(page, 'Weight').locator('dd > span')).toHaveText('Not yet sourced');
+  await expect(detailRow(page, 'Weight basis')).toContainText('Front and rear pair');
+  const {data} = await (await request.get('/api/v1/components/shimano-br-r2000.json')).json();
+  expect(data).toMatchObject({model_number:'BR-R2000', weight_g:null, groupset_ids:['shimano-claris-r2000'], specifications:{weight_basis:'Pair'}});
+  await page.goto('/catalogue/?groupset=shimano-claris-r2000&type=brake-calipers');
+  await expect(page.locator('#result-count')).toHaveText('1 component');
+  await expect(page.getByRole('link', {name:'BR-R2000', exact:true})).toHaveAttribute('href','/components/shimano/br-r2000/');
+});
+
 test('calipers filter by groupset and retain a published pair total', async ({page, request}) => {
   await page.goto('/catalogue/?groupset=shimano-105-r7000&type=brake-calipers');
   await expect(page.locator('#type')).toHaveValue('brake-calipers');

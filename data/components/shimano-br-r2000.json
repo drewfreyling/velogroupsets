@@ -1,0 +1,36 @@
+{
+  "id": "shimano-br-r2000",
+  "slug": "br-r2000",
+  "name": "Claris brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-claris-r2000"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-R2000",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front and rear pair with pads and mounting bolts. The reviewed Shimano specification table leaves the average-weight cell blank.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=153",
+    "title": "Shimano 2025–2026 specification handbook, PDF page 153: Claris BR-R2000 pads, fixing hardware and blank average-weight cell",
+    "retrieved_on": "2026-11-19"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=93",
+      "title": "Shimano 2017–2018 line-up chart, PDF page 93: BR-R2000 front/rear calipers in the Claris R2000 range",
+      "retrieved_on": "2026-11-19"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=153",
+      "title": "Shimano 2025–2026 specification handbook, PDF page 153: Claris BR-R2000 pads, fixing hardware and blank average-weight cell",
+      "retrieved_on": "2026-11-19"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Dual pivot rim brake",
+    "reach_mm": 51,
+    "standard_brake_pads": "R50T5"
+  }
+}

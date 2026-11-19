@@ -46,9 +46,9 @@ test('browse mechanical Ultegra 6800 and R8000 with sourced 170 mm crank referen
   }
 });
 
-test('mechanical lever pairs retain published pair weights and unknown R8000 pair weight', async ({page,request}) => {
+test('mechanical lever pairs retain manufacturer-published pair weights', async ({page,request}) => {
   const index=await (await request.get('/search-index.json')).json();
-  for (const [model,grams] of [['ST-6800',425],['ST-R8020',554],['ST-R8000',null]]) {
+  for (const [model,grams] of [['ST-6800',425],['ST-R8020',554],['ST-R8000',438]]) {
     const part=index.find(p=>p.model===model);
     expect(part.weight_g).toBe(grams);
     await page.goto(part.url);

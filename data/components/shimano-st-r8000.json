@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-R8000",
-  "weight_g": null,
-  "weight_description": "Pair weight not yet sourced: the reviewed 2021 manufacturer table lists the left and right controls individually, without an explicit complete-pair total. Individual figures are not added or doubled.",
+  "weight_g": 438,
+  "weight_description": "Manufacturer-listed average: complete left/right ST-R8000-L and ST-R8000-R mechanical 2×11-speed rim-brake Dual Control lever pair. The Japanese 2020 Bike Gear catalogue explicitly labels 438 g as a pair weight. Cables are listed as package contents, but their inclusion in the reference weight is not stated.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-R8000-4244/EV-ST-R8000-4244.pdf",
     "title": "Shimano ST-R8000 exploded view and replacement parts",
@@ -30,6 +30,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=293",
       "title": "Shimano 2021 trade sales/support manual, PDF / printed page 293: ST-R8000 separate left/right control weights; no explicit pair total",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://cp-wheel.com/wp/wp-content/uploads/2020/05/2020%E3%82%B7%E3%83%9E%E3%83%8E.pdf#page=7",
+      "title": "Original Shimano 2020 Japanese Bike Gear catalogue, PDF page 7, Ultegra Dual Control table: 438 g under average weight (pair); archived manufacturer publication",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {

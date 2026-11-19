@@ -65,7 +65,7 @@ The [Exage source notes](exage.md#caliper-weights-and-shared-models) explain why
 
 ## Remaining gaps
 
-The catalogue contains 45 Shimano caliper records, 31 with sourced weights and 14 with explicit unknowns. The [6400 source notes](ultegra.md#6400-calipers-and-eight-speed-downtube-shifters) distinguish the original single-pivot models from the later dual-pivot model and document their complete-pair weight references. It is not complete caliper coverage: Golden Arrow, earlier Shimano 600/Dura-Ace, Santé, Light Action, several Tiagra/Claris generations, other finish/reach revisions, Campagnolo and SRAM calipers still need reviewed records. BR-6600-G now has its own 320 g Ultegra SL pair record; it does not inherit the standard BR-6600 weight or identity. Disc calipers and their hoses, adapters and rotor configurations also need their own source review; rim-caliper weights cannot supply them.
+The catalogue contains 46 Shimano caliper records, 31 with sourced weights and 15 with explicit unknowns. The [6400 source notes](ultegra.md#6400-calipers-and-eight-speed-downtube-shifters) distinguish the original single-pivot models from the later dual-pivot model and document their complete-pair weight references. It is not complete caliper coverage: Golden Arrow, earlier Shimano 600/Dura-Ace, Santé, Light Action, several Tiagra/Claris generations, other finish/reach revisions, Campagnolo and SRAM calipers still need reviewed records. BR-6600-G now has its own 320 g Ultegra SL pair record; it does not inherit the standard BR-6600 weight or identity. Disc calipers and their hoses, adapters and rotor configurations also need their own source review; rim-caliper weights cannot supply them.
 
 The later BR-1056 and BR-A551 models appear in the 1995 catalogue, but their exact manufacturer-hosted technical references still need review. They are not substituted for the earlier BR-1055 and BR-A550 records. Direct-mount variants of 5800/6800 and disc systems also remain separate source work. Missing records do not establish that a groupset lacked brakes; track groups are not assigned road calipers merely to fill a category.
 
@@ -80,3 +80,7 @@ The [inventory gap review](catalogue-gaps.md) adds 15 Campagnolo and six SRAM ca
 SRAM's 2020 parts catalogue identifies original RED RB-RED-A1, later RB-RED-B1/B2, Force RB-FRC-A1, Rival RB-RIV-A1 and Apex RB-APX-A1. These records represent complete front/rear rim-caliper pairs. RB calipers remain separate from SB/ED integrated control systems.
 
 All 21 weights remain explicitly unknown under the weight contract above. The manufacturer drawings establish assemblies and hardware, while the complete-product tables establish the pair or individual position; no lever-plus-caliper brakeset total or hydraulic system mass is used as a caliper weight. Further generations remain unlisted.
+
+## Claris R2000
+
+BR-R2000 is represented by one complete front/rear pair record, supported by the Claris line-up and manufacturer specification table. Its weight remains unknown: the table leaves that cell blank. The [Claris and mechanical control review](claris-and-mechanical-controls.md) records the sources and distinguishes this missing inventory from the previously catalogued R7000/R8000 calipers.
