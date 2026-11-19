@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SB-G7020",
-  "weight_g": null,
-  "weight_description": "Complete left/right 2×10 drop-bar control pair. The manufacturer page lists separate side weights; no unpublished pair total is calculated.",
+  "weight_g": 552,
+  "weight_description": "Calculated pair weight: 276 g (SB-G7020 (left)) + 276 g (SB-G7020 (right)) = 552 g, using microSHIFT’s separately published side weights for the complete 2×10 drop-bar control pair. Both units are integrated shift/brake controls. Cable and housing inclusion is not specified.",
   "technical_document": {
     "url": "https://www.microshift.com/models/sb-g7020/",
     "title": "microSHIFT SB-G7020 manufacturer specifications: group, exact configuration and published figures",
@@ -18,14 +18,19 @@
   "sources": [
     {
       "url": "https://www.microshift.com/models/sb-g7020/",
-      "title": "microSHIFT SB-G7020 manufacturer specifications: group, exact configuration and published figures",
-      "retrieved_on": "2026-11-15"
+      "title": "microSHIFT SB-G7020: complete 2×10 pair, left 276 g and right 276 g",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
     "weight_basis": "Pair",
     "front_speeds": 2,
     "rear_speeds": 10,
-    "left_control": "Shift/brake"
+    "left_control": "Shift/brake",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SB-G7020 (left)",
+    "right_model": "SB-G7020 (right)",
+    "left_weight_g": 276,
+    "right_weight_g": 276
   }
 }

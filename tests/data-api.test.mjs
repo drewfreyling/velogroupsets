@@ -141,7 +141,11 @@ test('OpenAPI supports explicit single right-hand one-by controls while preservi
   }
   const pair=validate('Component',read('components/microshift-sb-g7000').data);
   assert.equal(pair.specifications.weight_basis,'Pair');assert.equal(pair.specifications.front_speeds,1);
-  assert.equal(pair.weight_g,null,'Side figures must not be summed into an unpublished pair total');
+  assert.equal(pair.weight_g,466);
+  assert.equal(pair.specifications.weight_method,'Sum of manufacturer side weights');
+  assert.equal(pair.specifications.left_weight_g,190);
+  assert.equal(pair.specifications.right_weight_g,276);
+  assert.equal(pair.weight_g,pair.specifications.left_weight_g+pair.specifications.right_weight_g);
   const pod=validate('Component',read('components/sram-ec-axs-pod-d1-right').data);
   assert.equal(pod.model_number,'EC-AXS-POD-D1');assert.match(pod.specifications.reference_configuration,/Hardware supports left or right/);
 });

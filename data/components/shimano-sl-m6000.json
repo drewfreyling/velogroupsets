@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-M6000",
   "weight_g": null,
-  "weight_description": "Complete left/right SL-M6000 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "weight_description": "Complete left/right SL-M6000 control pair. A published pair total or both matching manufacturer side weights have not yet been established for this exact model and configuration.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M6000-4189/EV-SL-M6000-4189.pdf",
     "title": "SL-M6000 Shimano manufacturer exploded view: model, series and complete assembly",

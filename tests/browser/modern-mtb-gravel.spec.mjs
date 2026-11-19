@@ -14,12 +14,19 @@ test('MTB search finds real single controls and retains their weight basis',asyn
   expect(data.specifications).toMatchObject({weight_basis:'Single',control_side:'Right',front_speeds:1,rear_speeds:10});
 });
 
-test('Sword one-by drop-bar controls remain a complete pair',async({page})=>{
+test('Sword one-by drop-bar controls remain a complete pair',async({page,request})=>{
   await page.goto('/groupsets/microshift/sword/');
   await page.getByRole('link',{name:'SB-G7000',exact:true}).click();
   await expect(detail(page,'Weight basis').locator('dd')).toHaveText('Left and right pair');
-  await expect(detail(page,'Weight').locator('dd > span')).toHaveText('Not yet sourced');
+  await expect(detail(page,'Weight').locator('dd > span')).toHaveText('466 g');
   await expect(detail(page,'Weight').locator('dd')).toContainText('left unit is brake-only');
+  for (const [model, leftWeight, grams] of [['SB-G7000',190,466],['SB-G7020',276,552]]) {
+    const {data} = await (await request.get(`/api/v1/components/microshift-${model.toLowerCase()}.json`)).json();
+    expect(data).toMatchObject({weight_g:grams,specifications:{weight_basis:'Pair',weight_method:'Sum of manufacturer side weights',left_model:`${model} (left)`,right_model:`${model} (right)`,left_weight_g:leftWeight,right_weight_g:276}});
+    await page.goto(`/components/microshift/${model.toLowerCase()}/`);
+    await expect(detail(page,'Weight').locator('dd > span')).toHaveText(`${grams} g`);
+    await expect(detail(page,'Weight')).toContainText('Calculated pair weight:');
+  }
 });
 
 test('shared microSHIFT cassettes have one identity across MTB and gravel',async({page,request})=>{

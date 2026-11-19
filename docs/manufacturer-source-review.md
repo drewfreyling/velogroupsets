@@ -15,7 +15,7 @@ External component indexes were used to discover documents. Each adopted fact wa
 
 These are manufacturer-listed reference weights, not contributor measurements.
 
-The Shimano references are complete left/right control pairs, excluding separate brake calipers and hoses. Repeated pair figures in side columns are not added together. The 2020 ST-R9170 product entry resolves the pair total left unknown after the earlier review of individual-side tables; the 2018 table’s older 360 g/pair reference is not mixed with the selected 2020 manufacturer claim. ST-R8070 remains null: the checked 2018/2020 entries give 180 g per control without an explicit pair total.
+The Shimano references are complete left/right control pairs, excluding separate brake calipers and hoses. Repeated pair figures in side columns are not added together. The 2020 ST-R9170 product entry resolves the pair total left unknown after the earlier review of individual-side tables; the 2018 table’s older 360 g/pair reference is not mixed with the selected 2020 manufacturer claim. The [pair-weight review](shifter-pair-weight-review.md) now establishes ST-R8070 at **360 g calculated per pair** from separately published 180 g left/right figures under the revised rule.
 
 ## SRAM derailleur limits
 

@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-RX820",
-  "weight_g": null,
-  "weight_description": "Complete ST-RX820-L and ST-RX820-R 2×12 mechanical/hydraulic lever pair. The reviewed handbook gives individual lever weights, not a published pair total; no pair weight is calculated.",
+  "weight_g": 572,
+  "weight_description": "Calculated pair weight: 283 g (ST-RX820-L) + 289 g (ST-RX820-R) = 572 g, using Shimano’s published individual-unit average weights. 2×12-speed hydraulic lever assemblies; excludes the ST-RX820-LA dropper control and separate brake-system parts.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-RX820-5009/EV-ST-RX820-5009.pdf",
     "title": "ST-RX820 Shimano manufacturer exploded view: complete assembly, GRX series and model variants",
@@ -23,8 +23,8 @@
     },
     {
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=104",
-      "title": "Shimano 2025–2026 specifications v3.5, PDF p. 104: ST-RX820 controls and published weight basis",
-      "retrieved_on": "2026-11-15"
+      "title": "Shimano 2025–2026 specifications, PDF page 104: ST-RX820-L 283 g and ST-RX820-R 289 g per unit",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
@@ -32,6 +32,9 @@
     "front_speeds": 2,
     "rear_speeds": 12,
     "left_model": "ST-RX820-L",
-    "right_model": "ST-RX820-R"
+    "right_model": "ST-RX820-R",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_weight_g": 283,
+    "right_weight_g": 289
   }
 }

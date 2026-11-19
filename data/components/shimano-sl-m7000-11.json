@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M7000-11",
-  "weight_g": null,
-  "weight_description": "Complete left/right SL-M7000-11 2/3×11-speed band-clamp control pair. Individual lever weights are not summed into an unpublished pair total.",
+  "weight_g": 265,
+  "weight_description": "Calculated pair weight: 130 g (SL-M7000-L) + 135 g (SL-M7000-11-R) = 265 g, using Shimano’s published individual-unit average weights. Band-clamp 2/3×11-speed controls, using the shared SL-M7000-L front control; excludes I-SPEC II variants.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M7000-4009/EV-SL-M7000-4009A.pdf",
     "title": "SL-M7000 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-M7000-4009/EV-SL-M7000-4009A.pdf",
       "title": "SL-M7000 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=19",
+      "title": "Shimano 2025–2026 specifications, PDF page 19: SL-M7000-L 130 g and SL-M7000-11-R 135 g per unit",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
@@ -28,6 +33,11 @@
     "front_speeds": [
       2,
       3
-    ]
+    ],
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M7000-L",
+    "right_model": "SL-M7000-11-R",
+    "left_weight_g": 130,
+    "right_weight_g": 135
   }
 }

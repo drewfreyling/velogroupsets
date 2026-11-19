@@ -24,7 +24,7 @@ test('Di2 cage variants display their own weights and preserve sourced limits in
   expect(ss).toMatchObject({weight_g:240,specifications:{total_capacity_teeth:33,maximum_sprocket_teeth:30}});
 });
 
-test('cassette references retain gearing while individual controls do not acquire pair weights', async ({page, request}) => {
+test('cassette references retain gearing and sourced control pairs display their weights', async ({page, request}) => {
   await page.goto('/components/shimano/cs-r9100/');
   await expect(weightRow(page).locator('dd > span')).toHaveText('175 g');
   const {data} = await (await request.get('/api/v1/components/shimano-cs-r9100.json')).json();
@@ -33,15 +33,11 @@ test('cassette references retain gearing while individual controls do not acquir
   expect(rimPair).toMatchObject({weight_g:295,specifications:{weight_basis:'Pair'}});
   const {data:ttPair} = await (await request.get('/api/v1/components/shimano-st-r9160.json')).json();
   expect(ttPair).toMatchObject({weight_g:127,specifications:{weight_basis:'Pair'}});
-  for (const [model, grams] of [['st-r9120',505],['st-r9170',320],['st-r8000',438]]) {
+  for (const [model, grams] of [['st-r9120',505],['st-r9170',320],['st-r8000',438],['st-r8070',360]]) {
     const {data:pair} = await (await request.get(`/api/v1/components/shimano-${model}.json`)).json();
     expect(pair).toMatchObject({weight_g:grams,specifications:{weight_basis:'Pair'}});
     await page.goto(`/components/shimano/${model}/`);
     await expect(weightRow(page).locator('dd > span')).toHaveText(`${grams} g`);
     await expect(weightRow(page)).toContainText('pair');
-  }
-  for (const model of ['st-r8070']) {
-    const {data:unknown} = await (await request.get(`/api/v1/components/shimano-${model}.json`)).json();
-    expect(unknown).toMatchObject({weight_g:null,specifications:{weight_basis:'Pair'}});
   }
 });

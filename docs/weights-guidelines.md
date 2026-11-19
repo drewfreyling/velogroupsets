@@ -38,6 +38,8 @@ Use a measured or manufacturer-published pair weight when available. **You may a
 
 For a calculated pair, retain `weight_basis: "Pair"`, use `weight_method: "Sum of manufacturer side weights"`, and record both `left_model` / `right_model` and positive `left_weight_g` / `right_weight_g` in `specifications`. The validator requires distinct side model references and checks that `weight_g` equals their sum. Each source must establish its side's actual configuration; validation cannot verify the publication itself. Directly published or measured pair totals do not need calculation fields. Genuine single right-hand 1× controls keep their existing single-control basis.
 
+The [19 November 2026 pair-weight review](shifter-pair-weight-review.md) records the existing pairs filled under this rule and the remaining source/configuration gaps.
+
 ## Standalone brake levers
 
 **Standalone brake levers are recorded as a left/right pair**, separately from brake calipers and integrated shift/brake controls. Use a published or measured pair weight, identify the model and lever style, and describe included cables or other hardware where the source establishes it. Do not double an individual lever weight. Known weights require `specifications.weight_basis: "Pair"`; use null when a compliant pair weight is unavailable.

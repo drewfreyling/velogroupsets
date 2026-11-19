@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M610",
-  "weight_g": null,
-  "weight_description": "Complete left/right SL-M610 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "weight_g": 265,
+  "weight_description": "Calculated pair weight: 130 g (SL-M610-L) + 135 g (SL-M610-R) = 265 g, using Shimano’s published individual-unit average weights. Band-clamp controls; excludes I-SPEC variants.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M610-3523/EV-SL-M610-3523.pdf",
     "title": "SL-M610 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,9 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-M610-3523/EV-SL-M610-3523.pdf",
       "title": "SL-M610 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=6",
+      "title": "Shimano 2014–2015 specifications, PDF page 6: SL-M610-L 130 g and SL-M610-R 135 g per unit",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M610-L",
+    "right_model": "SL-M610-R",
+    "left_weight_g": 130,
+    "right_weight_g": 135
   }
 }

@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-M590",
   "weight_g": null,
-  "weight_description": "Complete left/right SL-M590 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "weight_description": "Complete left/right SL-M590 control pair. A published pair total or both matching manufacturer side weights have not yet been established for this exact model and configuration.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M590-2904/EV-SL-M590-2904A.pdf",
     "title": "SL-M590 Shimano manufacturer exploded view: model, series and complete assembly",

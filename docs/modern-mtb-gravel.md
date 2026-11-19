@@ -45,7 +45,7 @@ This applies to SRAM Eagle trigger shifters, Eagle 70/90 Transmission controls, 
 
 SRAM's Pod and Pod Ultimate hardware is ambidextrous. Their records identify the **right-hand rear-shift configuration** explicitly listed in the corresponding Transmission groupset specifications. The IDs/slugs include `-right`; the manufacturer model numbers remain unchanged. No inherent right-only hardware claim or unsupported mounting-kit weight is made.
 
-Sword SB-G7000 remains a **pair**: its left unit is brake-only. SB-G7020 and Shimano GRX dual controls also remain pairs. The individual Sword and ST-RX820 side figures are not summed or doubled into unpublished pair totals. Shimano explicitly publishes ST-RX825's 415 g as **per pair** in its 2025–2026 handbook.
+Sword SB-G7000 remains a **pair**: its left unit is brake-only. SB-G7020 and Shimano GRX dual controls also remain pairs. The [subsequent pair-weight review](shifter-pair-weight-review.md) adds calculated totals from separately published matching side figures: SB-G7000 **466 g**, SB-G7020 **552 g** and ST-RX820 **572 g**. Shimano explicitly publishes ST-RX825's 415 g as **per pair** in its 2025–2026 handbook.
 
 The generated OpenAPI 3.1 schema includes both configurations under v1. Existing pair records, paths and IDs are unchanged; consumers must read `weight_basis` before comparing control weights. The UI displays “Single right-hand control” or “Left and right pair”. The API remains entirely generated static JSON with the existing Cloudflare caching policy.
 

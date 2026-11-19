@@ -2,10 +2,10 @@ import {test,expect} from '@playwright/test';
 
 test('previously empty MTB and gravel ranges link to real sourced components',async({page,request})=>{
   const examples=[
-    ['slx-m660','RD-M662','rd-m662'],
-    ['grx-rx600','ST-RX600','st-rx600'],
+    ['slx-m660','RD-M662','rd-m662',null],
+    ['grx-rx600','ST-RX600','st-rx600',613],
   ];
-  for(const [group,model,slug] of examples){
+  for(const [group,model,slug,weight] of examples){
     await page.goto(`/groupsets/shimano/${group}/`);
     const part=page.getByRole('link',{name:model,exact:true});
     await expect(part).toHaveAttribute('href',`/components/shimano/${slug}/`);
@@ -16,6 +16,6 @@ test('previously empty MTB and gravel ranges link to real sourced components',as
     expect(response.headers()['x-catalogue-delivery']).toBe('static-assets');
     const {data}=await response.json();
     expect(data.groupset_ids).toContain(`shimano-${group}`);
-    expect(data.weight_g).toBeNull();
+    expect(data.weight_g).toBe(weight);
   }
 });

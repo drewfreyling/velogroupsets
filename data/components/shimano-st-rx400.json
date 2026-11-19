@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-RX400",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 613,
+  "weight_description": "Calculated pair weight: 306 g (ST-RX400-L) + 307 g (ST-RX400-R) = 613 g, using Shimano’s published individual-unit average weights. 2×10-speed hydraulic lever assemblies, excluding separate brake-system parts.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-RX400-4577/EV-ST-RX400-4577D.pdf",
     "title": "Shimano ST-RX400 original manufacturer exploded drawing: complete assembly and replacement parts",
@@ -20,9 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/ST-RX400-4577/EV-ST-RX400-4577D.pdf",
       "title": "Shimano ST-RX400 original manufacturer exploded drawing: complete assembly and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=106",
+      "title": "Shimano 2025–2026 specifications, PDF page 106: ST-RX400-L 306 g and ST-RX400-R 307 g per unit",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "ST-RX400-L",
+    "right_model": "ST-RX400-R",
+    "left_weight_g": 306,
+    "right_weight_g": 307
   }
 }

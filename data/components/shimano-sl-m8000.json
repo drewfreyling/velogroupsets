@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M8000",
-  "weight_g": null,
-  "weight_description": "Complete left/right SL-M8000 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "weight_g": 244,
+  "weight_description": "Calculated pair weight: 117 g (SL-M8000-L) + 127 g (SL-M8000-R) = 244 g, using Shimano’s published individual-unit average weights. Band-clamp controls; excludes I-SPEC II variants.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M8000-3860/EV-SL-M8000-3860.pdf",
     "title": "SL-M8000 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,9 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-M8000-3860/EV-SL-M8000-3860.pdf",
       "title": "SL-M8000 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=16",
+      "title": "Shimano 2025–2026 specifications, PDF page 16: SL-M8000-L 117 g and SL-M8000-R 127 g per unit",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M8000-L",
+    "right_model": "SL-M8000-R",
+    "left_weight_g": 117,
+    "right_weight_g": 127
   }
 }

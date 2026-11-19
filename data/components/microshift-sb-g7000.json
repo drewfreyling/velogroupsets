@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SB-G7000",
-  "weight_g": null,
-  "weight_description": "Complete left/right 1×10 drop-bar control pair; left unit is brake-only. The manufacturer page lists separate side weights; no unpublished pair total is calculated.",
+  "weight_g": 466,
+  "weight_description": "Calculated pair weight: 190 g (SB-G7000 (left)) + 276 g (SB-G7000 (right)) = 466 g, using microSHIFT’s separately published side weights for the complete 1×10 drop-bar control pair. The left unit is brake-only. Cable and housing inclusion is not specified.",
   "technical_document": {
     "url": "https://www.microshift.com/models/sb-g7000/",
     "title": "microSHIFT SB-G7000 manufacturer specifications: group, exact configuration and published figures",
@@ -18,14 +18,19 @@
   "sources": [
     {
       "url": "https://www.microshift.com/models/sb-g7000/",
-      "title": "microSHIFT SB-G7000 manufacturer specifications: group, exact configuration and published figures",
-      "retrieved_on": "2026-11-15"
+      "title": "microSHIFT SB-G7000: complete 1×10 pair, left 190 g and right 276 g",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
     "weight_basis": "Pair",
     "front_speeds": 1,
     "rear_speeds": 10,
-    "left_control": "Brake only"
+    "left_control": "Brake only",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SB-G7000 (left)",
+    "right_model": "SB-G7000 (right)",
+    "left_weight_g": 190,
+    "right_weight_g": 276
   }
 }

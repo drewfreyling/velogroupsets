@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SW-M8050",
-  "weight_g": null,
-  "weight_description": "Complete left/right SW-M8050 control pair. Individual-side or unspecified-basis figures are not converted into a pair weight.",
+  "weight_g": 186,
+  "weight_description": "Calculated pair weight: 93 g (SW-M8050-L) + 93 g (SW-M8050-R) = 186 g, using Shimano’s published individual-unit average weights. Left/right Di2 switch assemblies; both sides are listed separately in the selected handbook.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SW-M8050-4029/EV-SW-M8050-4029.pdf",
     "title": "SW-M8050 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,9 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SW-M8050-4029/EV-SW-M8050-4029.pdf",
       "title": "SW-M8050 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=225",
+      "title": "Shimano 2017–2018 specifications, PDF page 225: SW-M8050-L 93 g and SW-M8050-R 93 g per unit",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SW-M8050-L",
+    "right_model": "SW-M8050-R",
+    "left_weight_g": 93,
+    "right_weight_g": 93
   }
 }

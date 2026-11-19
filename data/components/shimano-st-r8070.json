@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-R8070",
-  "weight_g": null,
-  "weight_description": "Pair weight not yet sourced: the reviewed 2021 manufacturer table lists the left and right controls individually, without an explicit complete-pair total. Individual figures are not added or doubled.",
+  "weight_g": 360,
+  "weight_description": "Calculated pair weight: 180 g (ST-R8070-L) + 180 g (ST-R8070-R) = 360 g, using Shimano’s published individual-unit average weights. Left/right Di2 hydraulic lever assemblies, excluding separate brake-system parts; both sides are listed separately.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/ST-R8070-4248/EV-ST-R8070-4248B.pdf",
     "title": "Shimano ST-R8070 exploded view and replacement parts",
@@ -23,12 +23,22 @@
     },
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=347",
-      "title": "Shimano 2021 trade sales/support manual, PDF / printed page 347: ST-R8070 separate left/right control weights; no explicit pair total",
+      "title": "Shimano 2021 trade sales/support manual, PDF / printed page 347: ST-R8070 separate left/right control weights; individual-unit reference",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=124",
+      "title": "Shimano 2025–2026 specifications, PDF page 124: ST-R8070-L 180 g and ST-R8070-R 180 g per unit",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
     "rear_speeds": 11,
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "ST-R8070-L",
+    "right_model": "ST-R8070-R",
+    "left_weight_g": 180,
+    "right_weight_g": 180
   }
 }
