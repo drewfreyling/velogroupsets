@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { parse } from 'parse5';
 import worker from '../apps/api/src/index.ts';
 import { components, componentUrl, groupsets, groupsetUrl, manufacturers, manufacturerUrl } from '../apps/web/src/lib/catalogue.mjs';
 
@@ -74,4 +75,37 @@ test('all generated local navigation and assets resolve', () => {
     }
   }
   walk(fileURLToPath(dist));
+});
+
+// Parse the generated HTML rather than repeating a browser session per record.
+// Keep these expected labels independent of the component template.
+test('every rear derailleur page renders all four sourced or unknown limits and cage help', () => {
+  function* elements(node) {
+    if (node.tagName) yield node;
+    for (const child of node.childNodes || []) yield* elements(child);
+  }
+  const text = node => node.nodeName === '#text' ? node.value : (node.childNodes || []).map(text).join('');
+  const attribute = (node, name) => node.attrs?.find(attr => attr.name === name)?.value;
+  const limits = [
+    ['total_capacity_teeth', 'Total capacity'],
+    ['maximum_sprocket_teeth', 'Largest sprocket'],
+    ['minimum_sprocket_teeth', 'Smallest sprocket'],
+    ['maximum_front_difference_teeth', 'Front chainring tooth difference'],
+  ];
+  for (const component of components.filter(part => part.type === 'rear-derailleur')) {
+    const html = readFileSync(file(componentUrl(component)+'index.html'), 'utf8');
+    const nodes = [...elements(parse(html))];
+    const rows = nodes.filter(node => node.tagName === 'dl')
+      .flatMap(node => node.childNodes.filter(child => child.tagName === 'div'));
+    for (const [key, label] of limits) {
+      const matches = rows.filter(row => row.childNodes.some(child => child.tagName === 'dt' && text(child).trim() === label));
+      assert.equal(matches.length, 1, `${component.id}: exactly one ${label} row`);
+      const values = matches[0].childNodes.filter(child => child.tagName === 'dd');
+      assert.equal(values.length, 1, `${component.id}: exactly one ${label} definition`);
+      const expected = component.specifications[key] == null ? 'Not yet sourced' : `${component.specifications[key]}T`;
+      assert.equal(text(values[0]).trim(), expected, `${component.id}: ${label}`);
+    }
+    const buttons = nodes.filter(node => node.tagName === 'button' && attribute(node, 'aria-label') === 'Explain rear derailleur cage codes');
+    assert.equal(buttons.length, 1, `${component.id}: exactly one cage-help button`);
+  }
 });

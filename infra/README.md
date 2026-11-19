@@ -48,6 +48,8 @@ actionlint
 
 Validation runs formatting, backend-free initialization, schema validation, mocked resource checks, and a real local CLI lock/encryption probe. It uses a public test-only encryption key and never touches Cloudflare/R2. Live operations refuse a missing passphrase or one shorter than OpenTofu's 16-character minimum.
 
+The application job in [CI](../.github/workflows/ci.yml) runs inside the official Playwright Noble image, pinned by version and registry digest. It uses the project's pinned Node version and skips browser/system-package installation. Keep the image and `@playwright/test` versions aligned when updating dependencies. Node tests validate every generated rear-derailleur page; Playwright retains representative desktop/mobile rendering and interaction coverage, and the separate production suite. The application job name and required deployment gate are unchanged.
+
 ## Bootstrap the state bucket
 
 Create `velogroupsets-infra-state` in account `5ccb67114ff0fa1a13cb46ef3d08cb49` through the Cloudflare dashboard before initializing the backend. This avoids making a state store depend on its own state. Bootstrap settings are an explicit exception to application IaC ownership; do not later adopt this bucket into the application root without a separate recovery design.

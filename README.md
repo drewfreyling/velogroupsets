@@ -202,6 +202,10 @@ The manual [Verify live production workflow](.github/workflows/smoke-production.
 
 Run `npm run build` followed by `npm run test:browser`. Playwright starts a local Wrangler server against the built site. Both projects use Chromium: a desktop profile and an emulated Pixel 5 with touch input. This does not claim Firefox, WebKit or physical-device coverage.
 
+`npm test` checks all generated rear-derailleur pages for the four labelled limits, tooth units, explicit unknown values and cage-help button. Playwright checks representative models from each manufacturer on desktop/mobile, plus keyboard, hover, touch and no-JavaScript behaviour. Catalogue growth therefore adds static HTML checks without adding a browser session for every record.
+
+The CI application job uses the official Playwright Ubuntu Noble image, pinned by version and digest, with browsers and system dependencies already installed. Update the image version and verified digest together with `@playwright/test`; local development still uses the browser installation command above. The separate production build/browser checks and the manual deployment CI gate remain required.
+
 The suite exercises catalogue browsing, combined search/type/groupset filters, reload and browser Back navigation, model-number links, shared component pages, sourced/unknown weights, paired and separate front/rear calipers, rear derailleur limits and accessible cage-code help, 404 recovery, navigation without JavaScript, cache/security headers, external links and theme behaviour including cross-tab changes. Photo/sign-in/report/moderation form tests use explicit local provider/API fixtures; separate integration tests exercise D1/R2 and real local image processing. They do not prove live Google credentials, CSAM enrolment or external inbox monitoring. Comments remain unimplemented.
 
 | Stage | Browser checks |

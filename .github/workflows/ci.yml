@@ -78,6 +78,10 @@ jobs:
   application:
     name: Application build and tests
     runs-on: ubuntu-24.04
+    # Keep this version aligned with @playwright/test in package.json.
+    container:
+      image: mcr.microsoft.com/playwright:v1.65.0-noble@sha256:9beb546099e11f52d62e505537914870e01a67e0e6b00ae41da4775324e73dbe
+      options: --ipc=host
     timeout-minutes: 15
     env:
       ASTRO_TELEMETRY_DISABLED: '1'
@@ -95,7 +99,6 @@ jobs:
       - run: npm run build
       - run: npm test
       - run: npm run worker:check
-      - run: npx --no-install playwright install --with-deps chromium
       - name: Playwright functionality (desktop and mobile)
         id: browser-tests
         run: npm run test:browser

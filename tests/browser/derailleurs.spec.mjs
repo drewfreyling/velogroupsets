@@ -8,7 +8,18 @@ const limits = [
   ['maximum_front_difference_teeth', 'Front chainring tooth difference'],
 ];
 
-for (const component of components.filter(part => part.type === 'rear-derailleur')) {
+// Node checks every generated record. Browser coverage exercises each brand
+// and known, partially unknown and fully unknown limits on desktop and mobile.
+const examples = [
+  'shimano-rd-r7000-gs',
+  'campagnolo-rd00-re210l',
+  'campagnolo-rd17-pob1m',
+  'sram-rd-gx-1-b2',
+  'microshift-rd-m6205am',
+];
+for (const id of examples) {
+  const component = components.find(part => part.id === id);
+  if (!component || component.type !== 'rear-derailleur') throw new Error(`Missing rear derailleur browser fixture: ${id}`);
   test(`${component.model_number} shows all four sourced limits with tooth units`, async ({page}) => {
     await page.goto(componentUrl(component));
     for (const [key, label] of limits) {
