@@ -3,8 +3,22 @@ import { test, expect } from '@playwright/test';
 const withheld = [
   'FC-5600', 'FC-5603', 'FC-6600', 'FC-6601-G', 'FC-6603',
   'FC-6604-G', 'FC-6650-G', 'FC-6650-S', 'FC-6700',
-  'BB-1050', 'BB-1055', 'BB-6400', 'ST-R7000',
+  'BB-1050', 'BB-1055', 'BB-6400',
 ];
+
+test('R7000 pair weight adds the two published sides and labels the calculation in pages and API', async ({page, request}) => {
+  const index = await (await request.get('/search-index.json')).json();
+  const record = index.find(part => part.model === 'ST-R7000');
+  expect(record).toMatchObject({weight_g:500, weight_basis:'Pair'});
+  await page.goto(record.url);
+  const weight = page.locator('dl > div').filter({has:page.getByRole('term').filter({hasText:/^Weight$/})});
+  await expect(weight.locator('dd > span')).toHaveText('500 g');
+  await expect(weight).toContainText('Calculated');
+  await expect(weight).toContainText('249 g');
+  await expect(weight).toContainText('251 g');
+  const {data} = await (await request.get('/api/v1/components/shimano-st-r7000.json')).json();
+  expect(data).toMatchObject({weight_g:500, specifications:{weight_basis:'Pair', left_model:'ST-R7000-L', right_model:'ST-R7000-R', left_weight_g:249, right_weight_g:251, weight_method:'Sum of manufacturer side weights'}});
+});
 
 test('withheld weights remain null in search and readable on their original component pages', async ({page, request}) => {
   const index = await (await request.get('/search-index.json')).json();

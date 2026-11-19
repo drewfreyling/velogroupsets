@@ -2,6 +2,7 @@
 """Validate JSON catalogue records and manufacturer/groupset/component relationships offline."""
 from functools import lru_cache
 import json
+import math
 import re
 from pathlib import Path
 import sys
@@ -77,6 +78,24 @@ def weight_configuration_errors(component):
 
     def teeth(values):
         return isinstance(values, list) and bool(values) and all(type(v) is int and v > 0 for v in values)
+
+    side_weights = ('left_weight_g', 'right_weight_g')
+    pair_sum = 'Sum of manufacturer side weights'
+    if specs.get('weight_method') == pair_sum or any(field in specs for field in side_weights):
+        if kind != 'shifters' or specs.get('weight_basis') != 'Pair':
+            errors.append('calculated side-weight totals require a shifter Pair')
+        if specs.get('weight_method') != pair_sum:
+            errors.append('calculated shifter pair weights must identify weight_method: Sum of manufacturer side weights')
+        for side in ('left', 'right'):
+            model = specs.get(f'{side}_model')
+            if not isinstance(model, str) or not model.strip():
+                errors.append(f'a calculated shifter pair requires its {side}_model')
+        if specs.get('left_model') == specs.get('right_model'):
+            errors.append('a calculated shifter pair requires distinct left and right model references, not one side doubled')
+        if not all(positive(specs.get(field)) and math.isfinite(specs[field]) for field in side_weights):
+            errors.append('a calculated shifter pair requires positive left_weight_g and right_weight_g')
+        elif not math.isclose(component['weight_g'], sum(specs[field] for field in side_weights), rel_tol=0, abs_tol=1e-9):
+            errors.append('the shifter pair weight must equal the left and right reference weights added together')
 
     if kind == 'crankset':
         if not positive(specs.get('crank_length_mm')):

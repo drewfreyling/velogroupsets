@@ -8,18 +8,18 @@
   ],
   "type": "shifters",
   "model_number": "ST-R7000",
-  "weight_g": null,
-  "weight_description": "Weight withheld: a complete left/right ST-R7000-L and ST-R7000-R lever pair weight has not been sourced. The specification table lists individual lever weights, which are not added together.",
+  "weight_g": 500,
+  "weight_description": "Calculated pair weight: 249 g (ST-R7000-L) + 251 g (ST-R7000-R) = 500 g for the complete left/right mechanical 2×11-speed rim-brake Dual Control lever pair, using Shimano’s published individual-unit average weights.",
   "technical_document": {
     "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=136",
-    "title": "Shimano 2025–2026 specifications, PDF page 136",
-    "retrieved_on": "2026-11-07"
+    "title": "Shimano 2025–2026 specifications, PDF page 136: ST-R7000-L 249 g and ST-R7000-R 251 g individual-unit average weights",
+    "retrieved_on": "2026-11-19"
   },
   "sources": [
     {
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=136",
-      "title": "Shimano 2025–2026 specifications, PDF page 136",
-      "retrieved_on": "2026-11-07"
+      "title": "Shimano 2025–2026 specifications, PDF page 136: ST-R7000-L 249 g and ST-R7000-R 251 g individual-unit average weights",
+      "retrieved_on": "2026-11-19"
     }
   ],
   "specifications": {
@@ -27,7 +27,10 @@
     "left_model": "ST-R7000-L",
     "right_model": "ST-R7000-R",
     "rear_speeds": 11,
-    "front_speeds": 2
+    "front_speeds": 2,
+    "weight_method": "Sum of manufacturer side weights",
+    "left_weight_g": 249,
+    "right_weight_g": 251
   },
   "aliases": [
     {

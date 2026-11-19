@@ -18,11 +18,11 @@ The catalogue lists shift and brake cables among the set's package contents, but
 
 The exact CP Wheel PDF linked above is an archived **original Shimano publication**, not a retailer product listing. Its cover identifies the Bike Gear catalogue; its contents page dates the information to 5 March 2020, and its back cover identifies Shimano's customer-service contact and manufacturer website. The Ultegra table and its pair heading were checked visually because the PDF's embedded fonts do not extract all model numbers correctly. Only its original manufacturer table supports this weight. The PDF remains external; it is not copied into Git. This supporting citation does not widen the technical-document archive exception.
 
-## 105 ST-R7000: pair weight still unconfirmed
+## 105 ST-R7000: calculated 500 g pair weight
 
 The [2025–2026 specification handbook, PDF page 136](https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=136) gives **251 g for ST-R7000-R** and **249 g for ST-R7000-L**. The [2019 trade manual, PDF page 387](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=387) likewise labels these as individual-side figures. The Japanese 2020 catalogue's R7000 control table on PDF page 9 leaves its pair-weight column blank.
 
-Retailer listings commonly state 500 g, but the reviewed original manufacturer publications do not explicitly supply that pair total. Under the current [weight guidelines](weights-guidelines.md), the canonical ST-R7000 pair weight remains null: individual-side figures are not added together. A published pair total, a compliant contributor measurement or an explicitly approved change to calculated-weight policy is needed to fill it.
+The owner approved adding the two manufacturer-published side figures on 19 November 2026. Under the revised [shifter weight guidelines](weights-guidelines.md#shifters), the canonical ST-R7000 pair weight is **500 g**, calculated as **249 g left + 251 g right**. The record labels this calculation and retains both exact model codes and side weights. It is a calculated total of published individual averages, rather than a directly published pair figure or a new measurement. ST-R8000 retains its directly published 438 g pair reference.
 
 ## Existing R7000/R8000 caliper weights
 

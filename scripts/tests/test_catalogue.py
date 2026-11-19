@@ -147,6 +147,29 @@ class CatalogueTests(unittest.TestCase):
         part['specifications'] = {}
         self.assertTrue(validate_catalogue(data))
 
+    def test_calculated_shifter_pairs_preserve_both_sides_and_require_their_actual_sum(self):
+        data = fixture()
+        part = data['components'][0]
+        spec = {'weight_basis':'Pair', 'weight_method':'Sum of manufacturer side weights',
+                'left_model':'EX-L', 'right_model':'EX-R', 'left_weight_g':210.1, 'right_weight_g':220.2}
+        part.update(type='shifters', weight_g=430.3, specifications=deepcopy(spec))
+        self.assertEqual(validate_catalogue(data), [])
+        for weight in (420.2, 440.4, 500):
+            part['weight_g'] = weight
+            self.assertTrue(validate_catalogue(data), 'Do not double either side or accept a mismatched total')
+        part['weight_g'] = 430.3
+        for field in ('weight_method', 'left_model', 'right_model', 'left_weight_g', 'right_weight_g'):
+            del part['specifications'][field]
+            self.assertTrue(validate_catalogue(data), field)
+            part['specifications'][field] = spec[field]
+        for field, value in [('left_model','EX-R'), ('right_model',''), ('left_weight_g',True),
+                             ('right_weight_g',0), ('left_weight_g',-1), ('right_weight_g','220.2')]:
+            part['specifications'][field] = value
+            self.assertTrue(validate_catalogue(data), (field, value))
+            part['specifications'][field] = spec[field]
+        part['specifications'].update(weight_basis='Single', control_side='Right', front_speeds=1, rear_speeds=12)
+        self.assertTrue(validate_catalogue(data), 'A single control cannot carry a calculated pair total')
+
     def test_single_right_hand_one_by_controls_have_an_explicit_configuration(self):
         valid = {'weight_basis':'Single', 'control_side':'Right', 'front_speeds':1, 'rear_speeds':12}
         for weight in (None, 119):
