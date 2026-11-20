@@ -20,7 +20,7 @@ A list of available crank lengths or chainring options is not enough: identify t
 
 An example configuration is “170 mm crank arms, 50/34T chainrings; excludes bottom bracket.” A manufacturer figure for a crankset with an integrated bottom bracket does not meet this rule. Find a weight for the crankset alone rather than silently relabelling the combined figure or subtracting an assumed bottom-bracket weight.
 
-Use the [crankset weight contribution form](https://github.com/drewfreyling/velogroupsets/issues/new?template=crankset-weight.yml) to supply a measurement or manufacturer reference for review. The [Shimano MTB crank review](shimano-mtb-crank-weights.md) lists specific gaps and the evidence still needed.
+Use the [contribution form](https://github.com/drewfreyling/velogroupsets/issues/new?template=contribution.yml) and select “Component weight” to supply a measurement or manufacturer reference for any component type. Include the configuration required by these guidelines. The [Shimano MTB crank review](shimano-mtb-crank-weights.md) lists specific gaps and the evidence still needed.
 
 ## Bottom brackets
 

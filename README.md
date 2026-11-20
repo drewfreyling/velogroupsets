@@ -270,9 +270,11 @@ Official references: [static assets](https://developers.cloudflare.com/workers/s
 
 Issues and pull requests are welcome for catalogue corrections, source references, documentation, and implementation work.
 
+Use the [contribution form](https://github.com/drewfreyling/velogroupsets/issues/new?template=contribution.yml) to propose additions, corrections, sources, weights, documentation or website improvements for review.
+
 - Use stable component and groupset IDs; a display-name or URL change must not detach existing community content.
 - Include sources for specifications and distinguish documented facts from estimates.
-- Follow the [component weight guidelines](docs/weights-guidelines.md), including required configurations, inclusions and exclusions. For cranksets, use the [weight contribution form](https://github.com/drewfreyling/velogroupsets/issues/new?template=crankset-weight.yml); the [Shimano MTB crank review](docs/shimano-mtb-crank-weights.md) lists priority measurement gaps.
+- Follow the [component weight guidelines](docs/weights-guidelines.md), including required configurations, inclusions and exclusions. The [Shimano MTB crank review](docs/shimano-mtb-crank-weights.md) lists priority measurement gaps.
 - Submit only material you have permission to contribute. Do not copy manufacturer images or manuals without checking their terms.
 - Keep real user data and secrets out of examples and fixtures.
 - Update documentation when behaviour or architecture changes.

@@ -42,6 +42,6 @@ Prefer 170 mm arms when choosing a new measurement, but accept any explicitly id
 
 ## Supplying a reference
 
-Use the [crankset weight form](https://github.com/drewfreyling/velogroupsets/issues/new?template=crankset-weight.yml). It collects the model/record, source type, grams, actual crank length, every ring tooth count, hardware and measurement/source details. For your own measurement, supply the scale resolution, date and component condition. For manufacturer figures, supply the exact publication/page and evidence for the weight configuration.
+Use the [contribution form](https://github.com/drewfreyling/velogroupsets/issues/new?template=contribution.yml) and select “Component weight”. Identify the model/record, grams, actual crank length, every ring tooth count, included hardware and source limitations in the weight/configuration details. For your own measurement, supply the scale resolution, date and component condition in the evidence field. For manufacturer figures, supply the exact publication/page and evidence for the weight configuration.
 
 The form creates a reviewable GitHub issue; it does not write catalogue data automatically. Maintainers still follow the [weight guidelines](weights-guidelines.md#cranksets), confirm the exact model/variant, distinguish manufacturer figures from contributor measurements and run catalogue validation before merging. Retailer shipping weights, arithmetic deductions and a list of merely available sizes do not fill these gaps.

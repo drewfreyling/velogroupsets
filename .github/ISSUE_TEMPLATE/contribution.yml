@@ -1,0 +1,61 @@
+name: Contribution
+description: Suggest catalogue additions, corrections, sources, weights, documentation or website improvements.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to propose a contribution for review. It opens a GitHub issue; it does not publish changes automatically.
+        Read the [contribution instructions](https://github.com/drewfreyling/velogroupsets/blob/main/README.md#contributing). For catalogue facts, follow the [catalogue guide](https://github.com/drewfreyling/velogroupsets/blob/main/docs/catalogue.md); for weights, also follow the [weight guidelines](https://github.com/drewfreyling/velogroupsets/blob/main/docs/weights-guidelines.md).
+        Do not include personal information, credentials or material you do not have permission to share.
+  - type: dropdown
+    id: contribution_type
+    attributes:
+      label: Contribution type
+      options:
+        - Missing manufacturer, groupset or component
+        - Specification or catalogue correction
+        - Component weight
+        - Source reference
+        - Documentation
+        - Website or API improvement
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Affected records or pages
+      description: For catalogue contributions, give the manufacturer, groupset and exact component model/variant where applicable, plus existing URLs or stable IDs. Say when a record is missing. For other contributions, identify the relevant page or feature.
+      placeholder: Shimano Deore FC-M6100-1 — shimano-fc-m6100-1, or a page URL
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed addition or change
+      description: Describe what should be added or corrected and why. Include the current and proposed values where applicable. For website problems, describe the steps to reproduce and the expected behaviour.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources or supporting evidence
+      description: For catalogue facts, link the exact manufacturer specification or original dealer catalogue and identify the PDF/printed page and relevant entries. Distinguish published specifications from contributor measurements. For your own measurement, give the date, scale resolution, component condition and method. For other changes, include relevant examples or screenshots if useful.
+  - type: textarea
+    id: configuration
+    attributes:
+      label: Weight and configuration details, if applicable
+      description: For weights, give grams, the actual weighed variant and dimensions, included/excluded hardware and any source limitations. Follow the type-specific weight guidelines; leave this blank for unrelated contributions.
+      placeholder: |
+        Cranksets: arm length and every chainring tooth count; exclude the bottom bracket. Prefer 170 mm but report the actual length.
+        Hubs: hole count and weight without skewers.
+        Front derailleurs: braze-on or clamp, including clamp diameter.
+        Shifters: identify the pair or genuine single right-hand 1× control.
+        Other components: use the relevant configuration rules in the weight guidelines.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Contribution checks
+      options:
+        - label: I have read the contribution instructions and, where applicable, the catalogue and weight guidelines. I have identified unsupported or unknown details rather than guessing them.
+          required: true
