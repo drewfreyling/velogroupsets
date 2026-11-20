@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-M5100-1",
   "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_description": "Weight not yet sourced: Shimano’s reviewed 2025–2026 specification table leaves the average weight blank. A crankset-only measurement identifying arm length and chainring teeth is needed.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-M5100-1-4668/EV-FC-M5100-1-4668.pdf",
     "title": "Shimano FC-M5100-1 original manufacturer exploded drawing: complete assembly and replacement parts",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-M5100-1-4668/EV-FC-M5100-1-4668.pdf",
       "title": "Shimano FC-M5100-1 original manufacturer exploded drawing: complete assembly and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=53",
+      "title": "Shimano 2025–2026 specifications, PDF page 53: FC-M5100-1 configurations; numerical average weight not supplied",
+      "retrieved_on": "2026-11-20"
     }
   ],
   "specifications": {}

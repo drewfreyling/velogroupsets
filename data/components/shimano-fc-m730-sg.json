@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fc-m730-sg",
+  "slug": "fc-m730-sg",
+  "name": "Deore XT SG crankset (1991 reference)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m730"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M730-SG",
+  "weight_g": 730,
+  "weight_description": "Manufacturer-listed 730 g for the FC-M730-SG triple crankset: 170 mm arms with 46/36/26T chainrings; excludes the separately listed BB-M730 bottom bracket. This is the 1991 SG reference, not the later Round Gear SG-X assembly catalogued as FC-M730.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=54",
+    "title": "Shimano 1991 dealer product manual, PDF page 54 / printed page 51: FC-M730-SG, 730 g for 170 mm and 46/36/26T; BB-M730 listed separately",
+    "retrieved_on": "2026-11-20"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=54",
+      "title": "Shimano 1991 dealer product manual, PDF page 54 / printed page 51: FC-M730-SG, 730 g for 170 mm and 46/36/26T; BB-M730 listed separately",
+      "retrieved_on": "2026-11-20"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      46,
+      36,
+      26
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 3,
+    "reference_edition": "1991 dealer product manual"
+  }
+}

@@ -64,3 +64,24 @@ test('existing generic crank identity retains its explicitly sourced reference m
   const {data}=await(await request.get('/api/v1/components/shimano-fc-m9000.json')).json();
   expect(data).toMatchObject({id:'shimano-fc-m9000',specifications:{reference_model:'FC-M9000-1',crank_length_mm:175,chainrings_teeth:[30],includes_bottom_bracket:false}});
 });
+
+test('the 1991 SG crank reference stays separate from the later SG-X assembly', async ({page,request}) => {
+  await page.goto('/groupsets/shimano/deore-xt-m730/');
+  await page.getByRole('link',{name:'FC-M730-SG',exact:true}).click();
+  await expect(page).toHaveURL('/components/shimano/fc-m730-sg/');
+  const weight = page.locator('dl > div').filter({has:page.getByRole('term').filter({hasText:/^Weight$/})});
+  await expect(weight.locator('dd > span')).toHaveText('730 g');
+  await expect(weight).toContainText('170 mm');
+  await expect(weight).toContainText('46/36/26T');
+  await expect(weight).toContainText('excludes the separately listed BB-M730');
+  const {data:sg} = await (await request.get('/api/v1/components/shimano-fc-m730-sg.json')).json();
+  expect(sg).toMatchObject({model_number:'FC-M730-SG',weight_g:730,specifications:{crank_length_mm:170,chainrings_teeth:[46,36,26],includes_bottom_bracket:false}});
+  expect(sg.technical_document.url).toContain('1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=54');
+  const {data:sgx} = await (await request.get('/api/v1/components/shimano-fc-m730.json')).json();
+  expect(sgx).toMatchObject({id:'shimano-fc-m730',model_number:'FC-M730',slug:'fc-m730',weight_g:null});
+  expect(sgx.name).toContain('Round Gear SG-X');
+  await page.goto('/components/shimano/fc-m730/');
+  await expect(weight.locator('dd > span')).toHaveText('Not yet sourced');
+  const {data:lx} = await (await request.get('/api/v1/components/shimano-fc-m550.json')).json();
+  expect(lx).toMatchObject({weight_g:752,specifications:{crank_length_mm:170,chainrings_teeth:[48,38,28],includes_bottom_bracket:false}});
+});

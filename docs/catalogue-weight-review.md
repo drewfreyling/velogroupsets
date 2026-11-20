@@ -137,3 +137,5 @@ Each linked JSON record contains the identifying configuration and exact source 
 The remaining counts describe absent compliant evidence in this catalogue, not proof that the manufacturers never published a weight. Future reviews should concentrate on configuration-specific crank references, exact cage variants and explicit hub-skewer exclusions.
 
 The [20 November 2026 source review](weight-review-2026-11-20.md) subsequently fills nine existing brake, bottom-bracket and cassette weights, with exact configuration references. The counts above remain the results of this earlier review.
+
+The [targeted Shimano MTB crank review](shimano-mtb-crank-weights.md) records the later FC-M550 weight, separate FC-M730-SG reference and remaining measurement queue.
