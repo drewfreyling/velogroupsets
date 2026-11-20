@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M6185-R",
-  "weight_g": null,
-  "weight_description": "Single right-hand 1×8 trigger shifter with aluminum handlebar clamp; manufacturer page does not list a compliant weight.",
+  "weight_g": 122,
+  "weight_description": "Manufacturer-listed 122 g for the single right-hand SL-M6185-R 1×8-speed Quick Trigger Pro shifter with rubber pad and no indicator, from the 2025 catalogue. This is a genuine single 1× control, not a pair or the indicator-equipped SL-M6285-R.",
   "technical_document": {
     "url": "https://www.microshift.com/models/sl-m6185-r/",
     "title": "microSHIFT SL-M6185-R manufacturer specifications: group, exact configuration and published figures",
@@ -20,6 +20,16 @@
       "url": "https://www.microshift.com/models/sl-m6185-r/",
       "title": "microSHIFT SL-M6185-R manufacturer specifications: group, exact configuration and published figures",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=8",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived copy, PDF spread 8, printed page 11: exact model/configuration and weight",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf",
+      "title": "microSHIFT official 2025 catalogue download, linked by the manufacturer PDF catalogue index; direct download unavailable during this review",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {

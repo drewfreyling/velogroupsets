@@ -9,8 +9,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-H104",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer product page does not establish a compliant weight for this reference configuration.",
+  "weight_g": 662,
+  "weight_description": "Manufacturer-listed 662 g for the CS-H104 10-speed 11–48T ED Black cassette, with steel sprockets; lockring inclusion is assumed under the catalogue guidelines. This is not the lighter CS-G104 alloy-large-cog cassette.",
   "technical_document": {
     "url": "https://www.microshift.com/models/cs-h104-11-48t/",
     "title": "CS-H104 microSHIFT manufacturer specifications: group membership, sprocket sequence and reference weight",
@@ -21,6 +21,16 @@
       "url": "https://www.microshift.com/models/cs-h104-11-48t/",
       "title": "CS-H104 microSHIFT manufacturer specifications: group membership, sprocket sequence and reference weight",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=6",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived copy, PDF spread 6, printed page 8: exact model/configuration and weight",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf",
+      "title": "microSHIFT official 2025 catalogue download, linked by the manufacturer PDF catalogue index; direct download unavailable during this review",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {

@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-H083",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer product page does not establish a compliant weight for this reference configuration.",
+  "weight_g": 576,
+  "weight_description": "Manufacturer-listed 576 g for the CS-H083 8-speed 12–46T ED Black cassette, with 12/15/18/21/24/30/37/46T sprockets; lockring inclusion is assumed under the catalogue guidelines. The 505 g figures for 12–42T and 11–42T are different configurations.",
   "technical_document": {
     "url": "https://www.microshift.com/models/cs-h083-12-46t/",
     "title": "CS-H083 microSHIFT manufacturer specifications: group membership, sprocket sequence and reference weight",
@@ -20,6 +20,16 @@
       "url": "https://www.microshift.com/models/cs-h083-12-46t/",
       "title": "CS-H083 microSHIFT manufacturer specifications: group membership, sprocket sequence and reference weight",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=8",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived copy, PDF spread 8, printed page 12: exact model/configuration and weight",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf",
+      "title": "microSHIFT official 2025 catalogue download, linked by the manufacturer PDF catalogue index; direct download unavailable during this review",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {

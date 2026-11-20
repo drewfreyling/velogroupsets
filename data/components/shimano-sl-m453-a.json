@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-m453-a",
+  "slug": "sl-m453-a",
+  "name": "Deore LX thumb-shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m550"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M453-A",
+  "weight_g": 184,
+  "weight_description": "Manufacturer-listed complete left/right SL-M453-A thumb-shifter pair, without brake levers; 7-speed SIS with SIS/friction mode switch, 22.2 mm handlebar clamps. The 1991 manual explicitly identifies the 184 g figure as a pair.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=66",
+    "title": "Shimano 1991 dealer product manual, PDF page 66 (printed 63): SL-M453-A pair weight and Deore LX specification",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=66",
+      "title": "Shimano 1991 dealer product manual, PDF page 66 (printed 63): SL-M453-A pair weight and Deore LX specification",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 7,
+    "clamp_diameter_mm": 22.2,
+    "attachment_position": "Handlebar",
+    "shift_modes": [
+      "SIS",
+      "Friction"
+    ]
+  }
+}

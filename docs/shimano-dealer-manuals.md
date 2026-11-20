@@ -37,7 +37,7 @@ The 31 trade manuals below span 1990–2021, with no 1999 edition linked in this
 | 1994 | [1994 Shimano Bicycle System Component Dealer Product Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf) | Indexed; not yet reviewed in this pass |
 | 1993 | [1993 Shimano Bicycle System Component Dealer Product Manuall](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf) | Indexed; not yet reviewed in this pass |
 | 1992 | [1992 Shimano Bicycle System Component Dealer Product Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf) | Indexed; not yet reviewed in this pass |
-| 1991 | [1991 Shimano Bicycle System Component Dealer Product Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf) | Indexed; not yet reviewed in this pass |
+| 1991 | [1991 Shimano Bicycle System Component Dealer Product Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf) | Selected crank references and [XT/DX/LX cage-specific derailleur weights/limits plus an LX shifter pair](catalogue-review-2026-11-21.md#shimano-1991-dealer-manual) reviewed |
 | 1990 | [1990 Dealer Product Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf) | Indexed; not yet reviewed in this pass |
 
 ## Compatibility manuals (STI)

@@ -9,7 +9,7 @@
   "type": "rear-derailleur",
   "model_number": "RD-M5185M",
   "weight_g": null,
-  "weight_description": "Original medium-cage steel SpringLock rear derailleur; compliant weight not listed in the reviewed manufacturer page.",
+  "weight_description": "Original medium-cage steel SpringLock rear derailleur; weight not yet sourced. The 2025 catalogue lists 387 g for the different Ver.2 RD-M5185M-B clutch model, not this RD-M5185M; that figure is not transferred.",
   "technical_document": {
     "url": "https://www.microshift.com/models/rd-m5185m/",
     "title": "microSHIFT RD-M5185M manufacturer specifications: group, exact configuration and published figures",
@@ -20,6 +20,11 @@
       "url": "https://www.microshift.com/models/rd-m5185m/",
       "title": "microSHIFT RD-M5185M manufacturer specifications: group, exact configuration and published figures",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=8",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived copy, PDF spread 8, printed page 12: RD-M5185M-B revision differs from RD-M5185M",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {

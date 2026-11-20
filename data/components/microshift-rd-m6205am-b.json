@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-M6205AM-B",
-  "weight_g": null,
-  "weight_description": "Ver.2 aluminum medium-cage clutch derailleur; do not reuse the original 313 g weight.",
+  "weight_g": 302,
+  "weight_description": "Manufacturer-listed 302 g for the Ver.2 RD-M6205AM-B 1×10-speed clutch derailleur with aluminum cage, from the 2025 catalogue. This is the exact AM-B revision, not the original ADVENT X derailleur.",
   "technical_document": {
     "url": "https://www.microshift.com/models/rd-m6205am-b/",
     "title": "microSHIFT RD-M6205AM-B manufacturer specifications: group, exact configuration and published figures",
@@ -20,6 +20,16 @@
       "url": "https://www.microshift.com/models/rd-m6205am-b/",
       "title": "microSHIFT RD-M6205AM-B manufacturer specifications: group, exact configuration and published figures",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=6",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived copy, PDF spread 6, printed page 8: exact model/configuration and weight",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf",
+      "title": "microSHIFT official 2025 catalogue download, linked by the manufacturer PDF catalogue index; direct download unavailable during this review",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
