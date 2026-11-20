@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fc-m751",
+  "slug": "fc-m751",
+  "name": "Deore XT crankset (2000 reference)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m750"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M751",
+  "weight_g": 647,
+  "weight_description": "Manufacturer-listed 647 g for the FC-M751 four-arm crankset with 175 mm arms and 44/32/22T chainrings; excludes the separately listed BB-ES70 bottom bracket. This is the 2000 FC-M751 reference, distinct from FC-M750-4; it is not converted into an estimated 170 mm weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=22",
+    "title": "Shimano 2000 trade sales/support manual, PDF page 22 / printed page 20: FC-M751, 647 g for 175 mm and 44/32/22T; BB-ES70 listed separately",
+    "retrieved_on": "2026-11-20"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=22",
+      "title": "Shimano 2000 trade sales/support manual, PDF page 22 / printed page 20: FC-M751, 647 g for 175 mm and 44/32/22T; BB-ES70 listed separately",
+      "retrieved_on": "2026-11-20"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      44,
+      32,
+      22
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 3,
+    "reference_edition": "2000 trade sales/support manual"
+  }
+}

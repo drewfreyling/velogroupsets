@@ -1,8 +1,8 @@
 # Shimano MTB crank weight review
 
-Reviewed on 20 November 2026, starting from `6765add`. This pass reviews 14 existing unknown Deore, Deore XT/LX and XTR crank records. It fills FC-M550 and adds a separately identified FC-M730-SG reference. The existing FC-M730 Round Gear SG-X assembly keeps its unknown weight; its display name now identifies that configuration.
+Reviewed on 20 November 2026, starting from `6765add`. This pass reviews 14 existing unknown Deore, Deore XT/LX and XTR crank records. It fills FC-M550 and adds separately identified FC-M730-SG and FC-M751 references. The existing FC-M730 Round Gear SG-X assembly keeps its unknown weight; its display name now identifies that configuration.
 
-There are now 207 crankset records, including 141 with unknown weights, compared with 206 records and 142 unknowns before this pass. Overall component count rises from 1,386 to 1,387; unknown weights fall from 645 to 644. Existing IDs, slugs, memberships and primary technical-document URLs are preserved.
+There are now 208 crankset records, including 141 with unknown weights, compared with 206 records and 142 unknowns before this pass. Overall component count rises from 1,386 to 1,388; unknown weights fall from 645 to 644. Existing IDs, slugs, memberships and primary technical-document URLs are preserved.
 
 ## Qualified manufacturer references
 
@@ -12,10 +12,13 @@ The manufacturer-hosted [1991 Shimano dealer product manual](https://na.s-tec.sh
 | --- | ---: | --- | --- |
 | [FC-M550](../data/components/shimano-fc-m550.json) | 752 g | 170 mm arms, 48/38/28T SG triple; excludes BB-M550 | [PDF p. 67 / printed p. 64](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=67) |
 | [FC-M730-SG](../data/components/shimano-fc-m730-sg.json) | 730 g | 170 mm arms, 46/36/26T SG triple; excludes BB-M730 | [PDF p. 54 / printed p. 51](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=54) |
+| [FC-M751](../data/components/shimano-fc-m751.json) | 647 g | 175 mm arms, 44/32/22T, four-arm crankset; excludes BB-ES70 | [2000 manual, PDF p. 22 / printed p. 20](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=22) |
 
 The M550 weight line does not distinguish Biopace SG from round SG rings; its description records that limitation rather than inventing a ring profile. The existing M550 exploded view covers both SG ring options. The separate [FC-M730 drawing](https://si.shimano.com/en/pdfs/ev/FC-M730-1322/EV-FC-M730-1322.pdf) explicitly identifies the later **Round Gear SG-X** assembly. Its mass is not established by the older SG figure, so the manufacturer-named FC-M730-SG gets its own identity and catalogue page.
 
-Page numbers above refer to the manufacturer-hosted edition checked in this pass. The archived 1991 scan at Vintage Cannondale has different pagination; its page numbers must not be substituted into these links. The 1991 publication establishes the weighed references, not an inferred introduction year.
+The 2000 manual likewise specifies 175 mm and 44/32/22T beside FC-M751’s 647 g figure and lists the bottom bracket separately. Its Deore XT table establishes membership in the same family as the existing M750 components. The reference retains the actual 175 mm length; no estimated conversion to 170 mm is made. It does not fill the distinct FC-M750-4 weight.
+
+Page numbers above refer to the manufacturer-hosted editions checked in this pass. The archived 1991 scan at Vintage Cannondale has different pagination; its page numbers must not be substituted into these links. Publication dates establish the reviewed weight references, not inferred introduction years.
 
 ## Measurement queue
 

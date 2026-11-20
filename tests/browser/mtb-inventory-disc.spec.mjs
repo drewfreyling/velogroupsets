@@ -84,4 +84,8 @@ test('the 1991 SG crank reference stays separate from the later SG-X assembly', 
   await expect(weight.locator('dd > span')).toHaveText('Not yet sourced');
   const {data:lx} = await (await request.get('/api/v1/components/shimano-fc-m550.json')).json();
   expect(lx).toMatchObject({weight_g:752,specifications:{crank_length_mm:170,chainrings_teeth:[48,38,28],includes_bottom_bracket:false}});
+  const {data:xt} = await (await request.get('/api/v1/components/shimano-fc-m751.json')).json();
+  expect(xt).toMatchObject({model_number:'FC-M751',weight_g:647,specifications:{crank_length_mm:175,chainrings_teeth:[44,32,22],includes_bottom_bracket:false}});
+  const {data:originalXt} = await (await request.get('/api/v1/components/shimano-fc-m750-4.json')).json();
+  expect(originalXt.weight_g).toBeNull();
 });
