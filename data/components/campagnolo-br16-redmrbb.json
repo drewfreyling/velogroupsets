@@ -11,8 +11,8 @@
   ],
   "type": "brake-calipers",
   "model_number": "BR16-REDMRBB",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 158,
+  "weight_description": "Manufacturer-listed reference: 158 g. One rear direct-mount caliper mounted under the bottom bracket, including standard brake pads and mounting bolts as shown in the factory assembly drawing. The weighed mounting-bolt/nut variant is not specified.",
   "technical_document": {
     "url": "https://media.campagnolo.com/seecommerce/original/C-BR-ATHENA-BLACK-11S-SP1",
     "title": "Campagnolo 2017 spare-parts catalogue part B: complete brake-caliper assemblies and hardware",
@@ -28,9 +28,22 @@
       "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20D.pdf#page=3",
       "title": "Original Campagnolo 2017 product-code table part D, PDF page 3: complete caliper identity and group assignment",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campagnolo-sirer.cz/img/cms/Produktove_katalogy_Campagnolo/2017_Campagnolo%20product%20catalogue.pdf#page=36",
+      "title": "Original Campagnolo 2017 product catalogue, PDF page 36: one rear direct-mount caliper mounted under the bottom bracket, 158 g",
+      "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://www.bikeschematics.com/wp-content/uploads/schematics/Campagnolo/Campagnolo%20Spare%20Parts%202017%20-%20Part%20B.pdf#page=6",
+      "title": "Original Campagnolo 2017 spare-parts catalogue part B, PDF page 6: standard caliper assembly, pads and mounting hardware",
+      "retrieved_on": "2026-11-20"
     }
   ],
   "specifications": {
-    "weight_basis": "Rear"
+    "weight_basis": "Rear",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true,
+    "weight_reference_configuration": "One rear direct-mount caliper mounted under the bottom bracket"
   }
 }

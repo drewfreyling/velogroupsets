@@ -4,12 +4,18 @@ const detail=(page,label)=>page.locator('dl > div').filter({has:page.getByRole('
 test('Campagnolo caliper pairs and individual direct-mount positions remain distinct',async({page,request})=>{
   await page.goto('/catalogue/?groupset=campagnolo-super-record-11-speed&type=brake-calipers');
   await page.getByRole('link',{name:'BR15-SR',exact:true}).click();
-  await expect(detail(page,'Weight basis').locator('dd')).toHaveText('Front and rear pair');
-  await expect(detail(page,'Weight').locator('dd > span')).toHaveText('Not yet sourced');
-  for(const [slug,basis] of [['br16-redmf','Front'],['br16-redmrbb','Rear'],['br16-redmrss','Rear']]){
+  await expect(detail(page,'Weight basis').locator('dd')).toContainText('Front and rear pair');
+  await expect(detail(page,'Weight basis').locator('dd')).toContainText('Includes brake pads and mounting bolts.');
+  await expect(detail(page,'Weight').locator('dd > span')).toHaveText('272 g');
+  await expect(detail(page,'Weight')).toContainText('rear single-pivot');
+  for (const [slug, grams] of [['br15-sr',272],['br15-srdp',297],['br15-re',284],['br15-redp',309],['br15-chdp',302]]) {
+    const {data} = await (await request.get(`/api/v1/components/campagnolo-${slug}.json`)).json();
+    expect(data).toMatchObject({weight_g:grams,specifications:{weight_basis:'Pair',includes_brake_pads:true,includes_mounting_bolts:true}});
+  }
+  for(const [slug,basis,grams] of [['br16-redmf','Front',null],['br16-redmrbb','Rear',158],['br16-redmrss','Rear',null]]){
     const {data}=await(await request.get(`/api/v1/components/campagnolo-${slug}.json`)).json();
     expect(data.specifications.weight_basis).toBe(basis);
-    expect(data.weight_g).toBeNull();
+    expect(data.weight_g).toBe(grams);
     expect(data.groupset_ids).toContain('campagnolo-record-11-speed');
   }
 });
@@ -35,7 +41,11 @@ test('shared DUB installation options use one canonical bottom-bracket record',a
   expect(data.specifications.interface).toBe('DUB');
   expect(data.groupset_ids).toContain('sram-force-axs-e1');
   expect(data.groupset_ids).toContain('sram-rival-xplr-axs-e1');
-  expect(data.weight_g).toBeNull();
+  expect(data).toMatchObject({weight_g:76,specifications:{weight_reference_shell_width_mm:68}});
+  await expect(detail(page,'Weight')).toContainText('appropriate spacers for a 68 mm shell');
+  const {data:pressFit} = await (await request.get('/api/v1/components/sram-bb-dub-pf-a1.json')).json();
+  expect(pressFit).toMatchObject({weight_g:72,specifications:{weight_reference_configuration:'BB92',weight_reference_shell_width_mm:92}});
+  expect(pressFit.weight_description).toContain('does not establish the weight of the BB86.5 road option');
 });
 
 test('double-chainring derailleur limits do not borrow the single-chainring maximum',async({page,request})=>{

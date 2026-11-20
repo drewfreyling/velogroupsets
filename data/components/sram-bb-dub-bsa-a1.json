@@ -13,8 +13,8 @@
   ],
   "type": "bottom-bracket",
   "model_number": "BB-DUB-BSA-A1",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 76,
+  "weight_description": "Manufacturer-listed 76 g for the complete DUB BSA standard bottom bracket with the appropriate spacers for a 68 mm shell. This is the manufacturer’s selected reference, not a weight for every supported shell or Road / Road Wide spacer configuration.",
   "technical_document": {
     "url": "https://www.sram.com/en/sram/models/bb-dub-bsa-a1",
     "title": "SRAM BB-DUB-BSA-A1 manufacturer specifications: DUB bottom-bracket assembly and supported frame shells",
@@ -30,11 +30,18 @@
       "url": "https://docs.sram.com/s/RoadAXSandXPLRAXSUserManual.html",
       "title": "SRAM Road AXS and XPLR AXS user manual: DUB BSA and PressFit bottom-bracket installation and road/wide configurations",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/service/models/bb-dub-bsa-a1",
+      "title": "SRAM BB-DUB-BSA-A1 service specifications: 76 g; weight based on BSA standard, with appropriate spacers for 68 mm shell",
+      "retrieved_on": "2026-11-20"
     }
   ],
   "specifications": {
     "interface": "DUB",
     "shell_interface": "BSA",
-    "reference_configuration": "Shared DUB Road / Road Wide installation system; select the frame-specific shell and spacers from the manufacturer table."
+    "reference_configuration": "Shared DUB Road / Road Wide installation system; select the frame-specific shell and spacers from the manufacturer table.",
+    "weight_reference_shell_width_mm": 68,
+    "weight_reference_configuration": "BSA standard, with appropriate spacers for 68 mm shell"
   }
 }

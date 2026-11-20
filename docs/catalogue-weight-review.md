@@ -135,3 +135,5 @@ Each linked JSON record contains the identifying configuration and exact source 
 - **Other remaining models:** this pass adds no SRAM or microSHIFT weights. The existing model- and configuration-specific manufacturer evidence is retained; range-name similarity, a later revision or a general compatibility listing does not resolve a missing mass. Further original catalogues, exact manufacturer weight references or compliant contributor measurements are still needed.
 
 The remaining counts describe absent compliant evidence in this catalogue, not proof that the manufacturers never published a weight. Future reviews should concentrate on configuration-specific crank references, exact cage variants and explicit hub-skewer exclusions.
+
+The [20 November 2026 source review](weight-review-2026-11-20.md) subsequently fills nine existing brake, bottom-bracket and cassette weights, with exact configuration references. The counts above remain the results of this earlier review.

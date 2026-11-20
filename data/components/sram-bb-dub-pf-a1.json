@@ -13,8 +13,8 @@
   ],
   "type": "bottom-bracket",
   "model_number": "BB-DUB-PF-A1",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 72,
+  "weight_description": "Manufacturer-listed 72 g for the complete DUB PressFit bottom bracket in the BB92 reference configuration. This does not establish the weight of the BB86.5 road option or every other supported shell.",
   "technical_document": {
     "url": "https://www.sram.com/en/sram/models/bb-dub-pf-a1",
     "title": "SRAM BB-DUB-PF-A1 manufacturer specifications: DUB bottom-bracket assembly and supported frame shells",
@@ -30,11 +30,18 @@
       "url": "https://docs.sram.com/s/RoadAXSandXPLRAXSUserManual.html",
       "title": "SRAM Road AXS and XPLR AXS user manual: DUB BSA and PressFit bottom-bracket installation and road/wide configurations",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.sram.com/en/service/models/bb-dub-pf-a1",
+      "title": "SRAM BB-DUB-PF-A1 service specifications: 72 g; weight based on BB92",
+      "retrieved_on": "2026-11-20"
     }
   ],
   "specifications": {
     "interface": "DUB",
     "shell_interface": "PressFit",
-    "reference_configuration": "Shared DUB Road / Road Wide installation system; select the frame-specific shell and spacers from the manufacturer table."
+    "reference_configuration": "Shared DUB Road / Road Wide installation system; select the frame-specific shell and spacers from the manufacturer table.",
+    "weight_reference_shell_width_mm": 92,
+    "weight_reference_configuration": "BB92"
   }
 }

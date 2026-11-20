@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-M9100-12",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer documents do not establish a compliant weight for this exact complete assembly and configuration.",
+  "weight_g": 367,
+  "weight_description": "Manufacturer-listed 367 g for the complete 12-speed CS-M9100-12 10–51T cassette, code ICSM9100051. The separate 10–45T configuration is 357 g and is not used for this record. Includes lockring.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/CS-M9100-4376/EV-CS-M9100-4376C.pdf",
     "title": "CS-M9100 Shimano manufacturer exploded view: complete assembly and family",
@@ -20,10 +20,29 @@
       "url": "https://si.shimano.com/en/pdfs/ev/CS-M9100-4376/EV-CS-M9100-4376C.pdf",
       "title": "CS-M9100 Shimano manufacturer exploded view: complete assembly and family",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/sm/XTR_M9100_WOP/XTR_M9100_WOP_v03_ENG.pdf#page=1",
+      "title": "Shimano XTR M9100 Series Genuine Parts, June 2018, PDF page 1: complete CS-M9100-12 cassette, 10–51T, 367 g",
+      "retrieved_on": "2026-11-20"
     }
   ],
   "specifications": {
     "rear_speeds": 12,
-    "sprocket_range": "10–51T"
+    "sprocket_range": "10–51T",
+    "sprockets_teeth": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      21,
+      24,
+      28,
+      33,
+      39,
+      45,
+      51
+    ]
   }
 }
