@@ -77,3 +77,7 @@ Two additional original Campagnolo publications were located and checked:
 | Campagnolo 1992 Road Range | [8-page PDF](https://www.bikecatalogs.com/download/2924) | Pages 2–3 were checked visually: exact period model codes and specifications, including RD-011RE capacity/maximum sprocket and Record component options. No new weight is taken from those pages and no specifications are transferred to a different model code |
 
 These are original manufacturer publications, not archive-authored specifications. Their discovery does not approve new primary technical-document archive paths or establish that every page has been reviewed. Further Campagnolo identity work must cross-check the exact period code, group and variant against the [catalogue contract](catalogue.md).
+
+## Acolyte revision follow-up
+
+The [22 November MTB review](mtb-catalogue-followup-2026-11-22.md) now adds RD-M5185M-B, RD-M5180M-B, the two 505 g CS-H083 configurations and five further controls as separate records. The earlier revision/configuration distinctions remain in force; no weight is transferred to the original SpringLock derailleur or 12–46T cassette.

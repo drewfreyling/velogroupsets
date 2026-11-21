@@ -1,0 +1,41 @@
+{
+  "id": "microshift-cs-h083-12-42",
+  "slug": "cs-h083-12-42",
+  "name": "Acolyte 12–42T ED Black cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-acolyte"
+  ],
+  "type": "cassette",
+  "model_number": "CS-H083",
+  "weight_g": 505,
+  "weight_description": "Manufacturer-listed 505 g for the CS-H083 eight-speed 12–42T ED Black steel cassette, 12/15/18/21/24/28/34/42T. Lockring inclusion is assumed under the catalogue guidelines. This is not the existing 576 g 12–46T configuration.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=8",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 8 / printed page 12: exact Acolyte model, configuration and weight",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf",
+      "title": "microSHIFT official 2025 catalogue download listed by the manufacturer; specifications in this review read from the archived original publication",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "sprocket_range": "12–42T",
+    "sprockets_teeth": [
+      12,
+      15,
+      18,
+      21,
+      24,
+      28,
+      34,
+      42
+    ],
+    "finish": "ED Black"
+  }
+}

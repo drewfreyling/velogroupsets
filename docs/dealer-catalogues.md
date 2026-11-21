@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [22 November MTB follow-up](mtb-catalogue-followup-2026-11-22.md) adds **ten components with ten weights**: Acolyte Ver.2 derailleurs, single right-hand controls, cassette gearing variants and Shimano CS-MT62.
+
 The [22 November early Shimano follow-up](shimano-early-followup-2026-11-22.md) adds **26 components and five sourced weights**, including the explicit SL-BC10 pair and BB-SL32 Octa Joint reference, and expands original Dura-Ace/600 and AX mounting variants.
 
 Following the owner’s source-policy change, the [early Shimano import](shimano-early-catalogue-import.md) adds **34 components and 15 weights** from the reviewed 1973/1978 scans with explicit null technical-document links. Earlier review notes retain their findings but the missing-link blocker no longer applies.

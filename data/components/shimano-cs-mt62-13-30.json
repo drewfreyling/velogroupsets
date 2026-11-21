@@ -1,0 +1,36 @@
+{
+  "id": "shimano-cs-mt62-13-30",
+  "slug": "cs-mt62-13-30",
+  "name": "Deore II seven-speed Hyperglide cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-ii"
+  ],
+  "type": "cassette",
+  "model_number": "CS-MT62",
+  "weight_g": 325,
+  "weight_description": "Manufacturer-listed 325 g for the CS-MT62 seven-speed 13–30T cassette, with 13/15/17/20/23/26/30T sprockets and spacers. Lockring inclusion is assumed under the catalogue guidelines; the separately listed 12–28T configuration is not the weighed reference.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 27: Deore II CS-MT62, 325 g including sprockets and spacers, exact seven-speed 13–30T reference",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "sprocket_range": "13–30T",
+    "sprockets_teeth": [
+      13,
+      15,
+      17,
+      20,
+      23,
+      26,
+      30
+    ],
+    "finish": "Steel, silver",
+    "system": "Hyperglide"
+  }
+}

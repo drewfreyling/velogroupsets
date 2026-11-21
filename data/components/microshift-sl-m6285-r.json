@@ -1,0 +1,35 @@
+{
+  "id": "microshift-sl-m6285-r",
+  "slug": "sl-m6285-r",
+  "name": "Acolyte right-hand Quick Trigger Pro with rubber pad and indicator shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-acolyte"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M6285-R",
+  "weight_g": 130,
+  "weight_description": "Manufacturer-listed 130 g for the single right-hand SL-M6285-R 1×8-speed Quick Trigger Pro with rubber pad and indicator control. Acolyte-only compatibility.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=8",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 8 / printed page 11: exact Acolyte model, configuration and weight",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf",
+      "title": "microSHIFT official 2025 catalogue download listed by the manufacturer; specifications in this review read from the archived original publication",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 8,
+    "compatibility": "Acolyte only",
+    "indicator": true,
+    "rubber_pad": true
+  }
+}

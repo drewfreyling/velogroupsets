@@ -58,3 +58,7 @@ The detailed technical table is the selected numerical reference where the same 
 **RD-M46S** is explicitly named with 307 g and 35T capacity on printed p. 20. The option row on printed p. 25 instead names **RD-M48S**, with a 39T capacity spanning that part of the table. These identities are not silently merged: RD-M46S uses p. 20, its smallest-sprocket limit remains null, and no RD-M48S record is inferred. RD-M62L's product prose calls it a short cage despite its model suffix; its cage classification is omitted rather than inferred from the letter L. Its 285 g, 42T largest sprocket and 47T capacity come from the exact technical-table column.
 
 Earlier launch dates, additional mount-specific masses and later catalogue generations can be added when the corresponding manufacturer references are reviewed.
+
+## Acolyte 2025 component revisions
+
+The [22 November MTB review](mtb-catalogue-followup-2026-11-22.md) adds nine weighted Acolyte records: two Ver.2 derailleurs, five single right-hand controls and two CS-H083 gearing variants. The original SpringLock derailleur remains unweighed and the existing 12–46T cassette retains 576 g. The group now has thirteen components; its 2021 documented availability does not date the later revisions to that year.

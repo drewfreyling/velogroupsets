@@ -1,5 +1,8 @@
 # Deore XT II and Deore II: the 1989 catalogue
 
+**22 November follow-up:** [CS-MT62 is now included at 325 g](mtb-catalogue-followup-2026-11-22.md) for the documented seven-speed 13–30T configuration. Its missing matching technical link no longer blocks addition; the original review below records the earlier batch.
+
+
 Reviewed on 21 November 2026 from the [original Shimano catalogue scan supplied by the owner](https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view). This is the same 36-page scan used in the [Santé review](shimano-sante-1988.md): identified as the 1989 catalogue, with copyright August 1988 and printing code `1088`. All page references below are **PDF pages**.
 
 This batch adds eight component records and thirteen previously unknown weights. Two conflicting existing weights are withheld. The catalogue contains 1,465 component records after this batch. Stable existing IDs, slugs, model numbers and primary technical-document URLs are preserved. Each new record uses an exact Shimano-hosted assembly drawing as its primary document; the original catalogue is supporting evidence for weights and group membership.
