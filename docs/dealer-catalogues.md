@@ -22,6 +22,12 @@ This source review on 10 November 2026 supplements the [1997 Campagnolo review](
 
 These are original manufacturer publications, including consumer catalogues and technical handbooks as well as the dealer material sought. Archive commentary and retailer product descriptions are not used as specification evidence. High-resolution scans were checked visually; OCR and thumbnail readings alone were not accepted.
 
+## Additional scans awaiting component review
+
+| Publication | Identification and review status |
+| --- | --- |
+| [Shimano Bicycle System Components 1981](https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view) | Supplied by the owner on 21 November 2026; 59 PDF pages. The cover explicitly states 1981. Cover/year verified; component tables and weights have not yet been reviewed or imported from this scan. PDF page counts are not assumed to match printed pagination. |
+
 ## Sources reviewed
 
 | Publication | Useful pages and outcome |
