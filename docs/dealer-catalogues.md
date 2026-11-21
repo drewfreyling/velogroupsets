@@ -2,6 +2,8 @@
 
 The [21 November 2026 source review](catalogue-review-2026-11-21.md) adds cage-specific Shimano MTB records, fills four microSHIFT weights and indexes additional official microSHIFT catalogue downloads through 2026.
 
+The subsequent [1997–2000 Shimano MTB control review](shimano-mtb-controls-1997-2000.md) adds eleven pair/assembly weights and cage-specific derailleur limits, while preserving unknown figures where the exact reference is not established.
+
 This source review on 10 November 2026 supplements the [1997 Campagnolo review](campagnolo-1997-specifications.md). It adds facts to **42 existing component records**: **16 previously unknown weights**, missing limits in **13 rear derailleurs**, tooth limits in **12 front derailleurs**, and pulley-centre dimensions in three further rear derailleurs. Some records receive both a weight and limits. No identities, groupset memberships or primary technical-document URLs change.
 
 These are original manufacturer publications, including consumer catalogues and technical handbooks as well as the dealer material sought. Archive commentary and retailer product descriptions are not used as specification evidence. High-resolution scans were checked visually; OCR and thumbnail readings alone were not accepted.

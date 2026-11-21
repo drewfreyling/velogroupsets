@@ -1,0 +1,31 @@
+{
+  "id": "shimano-st-m739",
+  "slug": "st-m739",
+  "name": "Rapidfire combined shift/brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m739"
+  ],
+  "type": "shifters",
+  "model_number": "ST-M739",
+  "weight_g": 358,
+  "weight_description": "Manufacturer-listed complete left/right ST-M739 combined shift/brake lever pair, triple front and eight-speed rear. The 1997 table explicitly labels the weight row as a pair; the figure is not transferred to a standalone SL control.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+    "title": "Shimano 1997 dealer sales/support manual, PDF page 31: ST-M739 combined lever-set pair weight and 3×8-speed configuration",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+      "title": "Shimano 1997 dealer sales/support manual, PDF page 31: ST-M739 combined lever-set pair weight and 3×8-speed configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 8,
+    "v_brake_only": true
+  }
+}

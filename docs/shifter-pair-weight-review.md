@@ -1,5 +1,7 @@
 # Shifter pair weight review
 
+The later [1997–2000 Shimano MTB control review](shimano-mtb-controls-1997-2000.md) fills the SL-M750, SL-M570 and SL-M510 pair weights and adds distinct ST combined-control pairs. ST and SL model codes remain separate identities.
+
 Reviewed on 19 November 2026 after the [shifter weight rule](weights-guidelines.md#shifters) began allowing separately manufacturer-published left and right weights to be added for matching controls.
 
 The audit started with 113 shifter records without weights: 100 pairs and 13 genuine single controls. The latter remain single controls; this rule does not supply a missing measurement for them. Eleven existing pairs (nine Shimano and two microSHIFT) now have calculated weights, leaving 102 unknown shifter weights (89 pairs and 13 singles). Known pair totals and canonical component identities are preserved.

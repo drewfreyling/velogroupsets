@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bl-m739",
+  "slug": "bl-m739",
+  "name": "Deore XT standalone V-Brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m739"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-M739",
+  "weight_g": 159,
+  "weight_description": "Manufacturer-listed 159 g for the complete left/right BL-M739 V-Brake lever pair with three-step power adjuster. This is the standalone brake-lever pair, not ST-M739 combined shift/brake controls.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+    "title": "Shimano 1997 dealer sales/support manual, PDF page 30: BL-M739 V-Brake lever pair, explicitly 159 g per pair",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+      "title": "Shimano 1997 dealer sales/support manual, PDF page 30: BL-M739 V-Brake lever pair, explicitly 159 g per pair",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "v_brake_only": true,
+    "power_adjuster": "3-step"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "shimano-st-m510",
+  "slug": "st-m510",
+  "name": "Rapidfire combined shift/brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m510"
+  ],
+  "type": "shifters",
+  "model_number": "ST-M510",
+  "weight_g": 431,
+  "weight_description": "Manufacturer-listed complete left/right ST-M510 combined shift/brake lever set, triple front and nine-speed rear. The 2000 table identifies both front and rear controls within the set; cable and housing inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=20",
+    "title": "Shimano 2000 dealer sales/support manual, PDF page 20: ST-M510 combined lever set, triple front / nine-speed rear and complete set weight",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=20",
+      "title": "Shimano 2000 dealer sales/support manual, PDF page 20: ST-M510 combined lever set, triple front / nine-speed rear and complete set weight",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "v_brake_only": false
+  }
+}

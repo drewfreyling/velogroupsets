@@ -9,7 +9,7 @@
   "type": "shifters",
   "model_number": "SL-M739",
   "weight_g": null,
-  "weight_description": "Complete left/right SL-M739 control pair. A published pair total or both matching manufacturer side weights have not yet been established for this exact model and configuration.",
+  "weight_description": "Complete left/right SL-M739 standalone shifter pair. The 1997 table leaves this SL set’s weight blank; the separately published ST combined shift/brake pair weight is not transferred.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M739-1638/EV-SL-M739-1638.pdf",
     "title": "SL-M739 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-M739-1638/EV-SL-M739-1638.pdf",
       "title": "SL-M739 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+      "title": "Shimano 1997 dealer sales/support manual, PDF page 31: SL-M739 shift-lever-only set, distinct from ST combined controls; weight blank",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {

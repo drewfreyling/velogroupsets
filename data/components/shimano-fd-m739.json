@@ -9,7 +9,7 @@
   "type": "front-derailleur",
   "model_number": "FD-M739",
   "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_description": "Weight not yet sourced for an identified clamp diameter. The 1997 table lists multiple band sizes without identifying which was weighed; its reference figure is not used as a configuration-specific weight.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-M739-1570/EV-FD-M739-1570.pdf",
     "title": "Shimano FD-M739 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +20,20 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-M739-1570/EV-FD-M739-1570.pdf",
       "title": "Shimano FD-M739 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+      "title": "Shimano 1997 dealer sales/support manual, PDF page 30: FD-M739 chainring limits and available clamp sizes; weighed clamp diameter unspecified",
+      "retrieved_on": "2026-11-21"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "capacity_teeth": 22,
+    "minimum_top_middle_difference_teeth": 10,
+    "largest_chainring_options_teeth": [
+      42,
+      44
+    ],
+    "rear_speeds": 8
+  }
 }
