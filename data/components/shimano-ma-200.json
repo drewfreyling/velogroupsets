@@ -1,0 +1,26 @@
+{
+  "id": "shimano-ma-200",
+  "slug": "ma-200",
+  "name": "Dura-Ace EX hooded brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "brake-levers",
+  "model_number": "MA-200",
+  "weight_g": 206,
+  "weight_description": "Manufacturer explicitly lists 206 g per left/right pair including rubber covers, 23.8 mm clamp, June 1978.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 9 / printed page 8",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "clamp_diameter_mm": 23.8,
+    "includes_rubber_covers": true
+  }
+}

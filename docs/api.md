@@ -40,7 +40,7 @@ Every response includes the snapshot revision:
 
 The example shows a collection; detail files contain one record in data, while the catalogue file contains an object with manufacturers, groupsets, components and component_types arrays. Each array retains canonical snapshot order. Clients choose their own sorting.
 
-Records preserve canonical field names, source references, technical documents, model variants and explicit nulls. Shared components retain one identity. Detail files use **canonical IDs only**, not slugs or historical aliases. Alias metadata remains in component records so clients can resolve it locally.
+Records preserve canonical field names, source references, technical documents, model variants and explicit nulls. `technical_document` is always present: a document object when linked, or `null` when no matching document is available. Clients must check for null before accessing its URL; `sources` remains required. Shared components retain one identity. Detail files use **canonical IDs only**, not slugs or historical aliases. Alias metadata remains in component records so clients can resolve it locally.
 
 ## Client example
 

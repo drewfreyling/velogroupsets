@@ -1,5 +1,8 @@
 # Shimano June 1978: EX road ensembles, BMX and Positron
 
+**Policy follow-up:** the owner approved components without matching technical-document links on 21 November 2026. The [early Shimano import](shimano-early-catalogue-import.md) now adds 34 components from the reviewed 1973/1978 road spreads. The missing-document blocker described in this historical review no longer applies; source identity, membership and weight-configuration requirements still do.
+
+
 Reviewed on 21 November 2026 from the [original Shimano Bicycle System Components scan](https://vintagecannondale.com/cannondale/shimano/shimano78.pdf). The back cover explicitly says **© June 1978 by Shimano Industrial Co., Ltd.** The file has **16 PDF pages**. Printed product-page numbers are one lower than PDF page numbers: PDF page 8 is printed page 7.
 
 The Dura-Ace EX and Shimano 600 EX groupset records now cite their original road-ensemble spreads. No component identity, weight or limit is imported from this edition. Its early codes need a manufacturer-documented connection to current component records, or exact manufacturer-hosted technical documents for separate identities. Similar appearance, matching weight and family membership alone do not establish an alias. Inventory remains 262 groupsets and 1,604 components.

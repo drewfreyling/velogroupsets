@@ -1,0 +1,26 @@
+{
+  "id": "shimano-ea-200",
+  "slug": "ea-200",
+  "name": "Dura-Ace EX clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "front-derailleur",
+  "model_number": "EA-200",
+  "weight_g": 102,
+  "weight_description": "Manufacturer-listed EA-200, 102 g, lower-inlet 1 1/8-inch clamp (28.575 mm exact conversion). The alternative bracket type is not this weighed clamp reference.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 8 / printed page 7",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.575,
+    "capacity_teeth": 14
+  }
+}

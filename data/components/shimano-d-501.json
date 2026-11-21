@@ -1,0 +1,27 @@
+{
+  "id": "shimano-d-501",
+  "slug": "d-501",
+  "name": "Crane rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "D-501",
+  "weight_g": 225,
+  "weight_description": "Manufacturer-listed adapter-free Crane D-501, 225 g. The same line prints 7.6 oz, which disagrees with its gram figure; the published gram figure is retained. The 28-tooth-difference capacity statement does not identify the separate sprocket/front limits.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2/view",
+      "title": "Shimano Bicycle Parts, 1973, PDF page 4",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

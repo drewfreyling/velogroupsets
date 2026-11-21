@@ -1,0 +1,27 @@
+{
+  "id": "shimano-dc-230",
+  "slug": "dc-230",
+  "name": "600 EX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "DC-230",
+  "weight_g": 190,
+  "weight_description": "Manufacturer-listed DC-230 600 EX rear derailleur, 190 g, in the June 1978 catalogue. Early code retained without an assumed later RD-number equivalence.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 10 / printed page 9",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 13
+  }
+}

@@ -169,3 +169,25 @@ test('disc assemblies have additive API types and preserve actual rotor and cont
   assert.equal(read('components/shimano-fc-m9000').data.specifications.reference_model,'FC-M9000-1');
   assert.equal(read('components/shimano-br-r7000').data.type,'brake-calipers','Existing rim-caliper API type remains stable');
 });
+
+
+test('source-backed early components expose missing technical links as explicit null',()=>{
+  const original=validate('Component',read('components/shimano-g-520').data);
+  assert.equal(original.technical_document,null);
+  assert.equal(original.weight_g,300);
+  assert.equal(original.specifications.spindle_length_mm,112);
+  assert.ok(original.sources.some(s=>s.url.includes('12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2')));
+  const hub=validate('Component',read('components/shimano-h-731').data);
+  assert.equal(hub.technical_document,null);
+  assert.equal(hub.weight_g,null);
+  assert.equal(hub.weight_excludes_skewers,true);
+  const pair=validate('Component',read('components/shimano-ma-200').data);
+  assert.equal(pair.weight_g,206);
+  assert.equal(pair.specifications.weight_basis,'Pair');
+  const later=read('components/shimano-rd-7200').data;
+  const early=read('components/shimano-da-200').data;
+  assert.notEqual(later.id,early.id);
+  assert.ok(later.technical_document.url.startsWith('https://si.shimano.com/'));
+  assert.equal(early.specifications.maximum_sprocket_teeth,26);
+  assert.equal(early.specifications.total_capacity_teeth,null);
+});

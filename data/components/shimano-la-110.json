@@ -1,0 +1,26 @@
+{
+  "id": "shimano-la-110",
+  "slug": "la-110",
+  "name": "Dura-Ace EX down-tube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "shifters",
+  "model_number": "LA-110",
+  "weight_g": null,
+  "weight_description": "Left/right friction control pair. The source lists 57 g without explicitly stating the complete-pair weight basis. No side weight is doubled.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 8 / printed page 7",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Down tube",
+    "clamp_diameter_mm": 28.575
+  }
+}

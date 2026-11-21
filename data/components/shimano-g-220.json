@@ -1,0 +1,25 @@
+{
+  "id": "shimano-g-220",
+  "slug": "g-220",
+  "name": "Original Dura-Ace crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "crankset",
+  "model_number": "G-220",
+  "weight_g": null,
+  "weight_description": "The catalogue gives one 600 g chainwheel-set figure for G-210/G-220, without selecting the weighed crank length or chainrings. Outer 48–55T and inner 39–48T options are offered; the shared figure is withheld.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2/view",
+      "title": "Shimano Bicycle Parts, 1973, PDF page 5",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "includes_bottom_bracket": false
+  }
+}

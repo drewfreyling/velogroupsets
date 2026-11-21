@@ -1,5 +1,8 @@
 # Shimano ’73 Bicycle Parts: original Dura-Ace and catalogue gaps
 
+**Policy follow-up:** the owner approved components without matching technical-document links on 21 November 2026. The [early Shimano import](shimano-early-catalogue-import.md) now adds 34 components from the reviewed 1973/1978 road spreads. The missing-document blocker described in this historical review no longer applies; source identity, membership and weight-configuration requirements still do.
+
+
 Reviewed on 21 November 2026 from the [owner-supplied original Shimano catalogue](https://drive.google.com/file/d/12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2/view). The cover says **’73 Shimano Bicycle Parts**. The scan contains **28 PDF pages**, including three memo pages at the end. References below use PDF pages; the Dura-Ace spread on PDF pages 4–5 is numbered 2–3 in print.
 
 The original Dura-Ace groupset now cites this spread. No new component records or canonical weights are imported: matching manufacturer-hosted technical documents were not found for these early model codes. The inventory remains 262 groupsets and 1,604 components. This supporting-source review does not create an exception to the primary-document host rule.

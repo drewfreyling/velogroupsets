@@ -1746,7 +1746,15 @@
             "description": "Positive weight in grams for a compliant identified configuration, or explicit null when no compliant weight is sourced."
           },
           "technical_document": {
-            "$ref": "#/components/schemas/TechnicalDocument"
+            "description": "Manufacturer technical document when available; explicit null when no matching document is linked. Component identity and facts still require source citations.",
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/TechnicalDocument"
+              },
+              {
+                "type": "null"
+              }
+            ]
           },
           "weight_description": {
             "$ref": "#/components/schemas/Text"

@@ -1,0 +1,27 @@
+{
+  "id": "shimano-da-200",
+  "slug": "da-200",
+  "name": "Dura-Ace EX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "DA-200",
+  "weight_g": 175,
+  "weight_description": "Manufacturer-listed DA-200 Dura-Ace EX rear derailleur, 175 g, in the June 1978 catalogue. Early code retained without an assumed later RD-number equivalence.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 8 / printed page 7",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 26,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 13
+  }
+}

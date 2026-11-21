@@ -1,0 +1,23 @@
+{
+  "id": "shimano-hf-100-rear",
+  "slug": "hf-100-rear",
+  "name": "Dura-Ace EX small-flange rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "rear-hub",
+  "model_number": "HF-100",
+  "weight_g": null,
+  "weight_description": "The June 1978 catalogue lists QR hub assemblies without an explicit skewer exclusion. No bare-hub weight is derived from an assembly or sprocket total; any weight added must exclude skewers.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 9 / printed page 8",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {},
+  "weight_excludes_skewers": true
+}

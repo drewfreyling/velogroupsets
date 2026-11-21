@@ -1,0 +1,24 @@
+{
+  "id": "shimano-b-210",
+  "slug": "b-210",
+  "name": "Original Dura-Ace side-pull brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "brake-calipers",
+  "model_number": "B-210",
+  "weight_g": null,
+  "weight_description": "No configuration-specific manufacturer weight is supplied in the reviewed catalogue.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2/view",
+      "title": "Shimano Bicycle Parts, 1973, PDF page 4",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

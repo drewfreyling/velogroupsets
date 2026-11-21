@@ -1,0 +1,26 @@
+{
+  "id": "shimano-g-520",
+  "slug": "g-520",
+  "name": "Original Dura-Ace bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "G-520",
+  "weight_g": 300,
+  "weight_description": "Manufacturer-listed bracket axle and fittings, 300 g, 112 mm square-taper spindle; 1.37 inch × 24 TPI cups. Listed separately from the crankset.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2/view",
+      "title": "Shimano Bicycle Parts, 1973, PDF page 5",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_mm": 112,
+    "cup_thread": "1.37 inch × 24 TPI"
+  }
+}

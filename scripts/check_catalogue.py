@@ -233,7 +233,7 @@ def validate_catalogue(catalogue):
             urls = [source["url"] for source in record["sources"]]
             if kind == "manufacturers":
                 urls.append(record["website_url"])
-            if kind == "components":
+            if kind == "components" and record["technical_document"] is not None:
                 urls.append(record["technical_document"]["url"])
             for source_url in urls:
                 try:
@@ -269,7 +269,7 @@ def validate_catalogue(catalogue):
             if smallest is not None and largest is not None and smallest > largest:
                 failures.append(f"components/{component['id']}: smallest sprocket must not exceed largest sprocket")
         manufacturer = indices["manufacturers"].get(component["manufacturer_id"])
-        if manufacturer:
+        if manufacturer and component["technical_document"] is not None:
             official_host = urlsplit(manufacturer["website_url"]).hostname
             if official_host.startswith("www."):
                 official_host = official_host[4:]

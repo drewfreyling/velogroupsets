@@ -18,6 +18,10 @@ test('production catalogue browsing and themes work without community requests',
   await expect(page.locator('[data-photo-gallery]')).toHaveCount(0);
   await expect(page.getByRole('link',{name:'Add a photo',exact:true})).toHaveCount(0);
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href','https://velogroupsets.com/components/shimano/rd-r7000-gs/');
+  await page.goto('/components/shimano/g-520/');
+  await expect(page.getByRole('heading',{name:'G-520',level:1})).toBeVisible();
+  await expect(page.getByText('No technical document linked. See the sources below.',{exact:true})).toBeVisible();
+  await expect(page.locator('[data-photo-gallery]')).toHaveCount(0);
   expect(communityRequests).toEqual([]);
 });
 

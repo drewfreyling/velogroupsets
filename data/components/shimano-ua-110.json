@@ -1,0 +1,22 @@
+{
+  "id": "shimano-ua-110",
+  "slug": "ua-110",
+  "name": "Dura-Ace EX road headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "headset",
+  "model_number": "UA-110",
+  "weight_g": 106,
+  "weight_description": "Manufacturer-listed complete UA-110 road headset, 106 g, June 1978.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 9 / printed page 8",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {}
+}

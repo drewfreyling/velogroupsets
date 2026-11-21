@@ -1,0 +1,26 @@
+{
+  "id": "shimano-h-831",
+  "slug": "h-831",
+  "name": "Original Dura-Ace large-flange rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "rear-hub",
+  "model_number": "H-831",
+  "weight_g": null,
+  "weight_description": "The catalogue lists 360 g for a 36-hole quick-release hub, 120 mm OLD, without saying the skewer is excluded. The weight is withheld; any future weight must exclude skewers.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2/view",
+      "title": "Shimano Bicycle Parts, 1973, PDF page 5",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "spoke_holes": 36,
+    "over_locknut_dimension_mm": 120
+  },
+  "weight_excludes_skewers": true
+}

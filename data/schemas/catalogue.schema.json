@@ -226,7 +226,15 @@
           "description": "Positive weight in grams for a compliant identified configuration, or explicit null when no compliant weight is sourced."
         },
         "technical_document": {
-          "$ref": "#/$defs/technical_document"
+          "description": "Manufacturer technical document when available; explicit null when no matching document is linked. Component identity and facts still require source citations.",
+          "anyOf": [
+            {
+              "$ref": "#/$defs/technical_document"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "weight_description": {
           "$ref": "#/$defs/text"
@@ -400,7 +408,7 @@
                         "minimum": 2
                       }
                     },
-                    "description": "One complete right-hand rear-shift control for a 1\u00d7 drivetrain; ambidextrous hardware requires a documented right-hand configuration."
+                    "description": "One complete right-hand rear-shift control for a 1× drivetrain; ambidextrous hardware requires a documented right-hand configuration."
                   }
                 ]
               }

@@ -339,6 +339,23 @@ class CatalogueTests(unittest.TestCase):
             data['components'][0][field] = '  '
             self.assertTrue(validate_catalogue(data))
 
+    def test_sourced_component_can_have_no_technical_document(self):
+        data = fixture()
+        data['components'][0]['technical_document'] = None
+        self.assertEqual(validate_catalogue(data), [])
+        # Missing technical links do not waive sources or weight configuration.
+        data['components'][0]['sources'] = []
+        self.assertTrue(validate_catalogue(data))
+        data = fixture()
+        data['components'][0]['technical_document'] = None
+        del data['components'][0]['specifications']['crank_length_mm']
+        self.assertTrue(validate_catalogue(data))
+        for malformed in ({}, {'url': None, 'title': 'No document'}, ''):
+            data = fixture()
+            data['components'][0]['technical_document'] = malformed
+            with self.subTest(document=malformed):
+                self.assertTrue(validate_catalogue(data))
+
     def test_technical_document_must_use_manufacturer_https_domain(self):
         for url in ('https://retailer.test/spec.pdf', 'https://example.com.attacker.test/spec.pdf',
                     'https://notexample.com/spec.pdf', 'http://example.com/spec.pdf',

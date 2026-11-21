@@ -1,0 +1,25 @@
+{
+  "id": "shimano-m-140",
+  "slug": "m-140",
+  "name": "Original Dura-Ace hooded brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "brake-levers",
+  "model_number": "M-140",
+  "weight_g": null,
+  "weight_description": "No configuration-specific manufacturer weight is supplied in the reviewed catalogue.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2/view",
+      "title": "Shimano Bicycle Parts, 1973, PDF page 4",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "clamp_diameter_mm": 23.8
+  }
+}

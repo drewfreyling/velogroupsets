@@ -1,0 +1,26 @@
+{
+  "id": "shimano-ec-630",
+  "slug": "ec-630",
+  "name": "600 EX clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "front-derailleur",
+  "model_number": "EC-630",
+  "weight_g": 112,
+  "weight_description": "Manufacturer-listed EC-630, 112 g, lower-inlet 1 1/8-inch clamp (28.575 mm exact conversion). The alternative bracket type is not this weighed clamp reference.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 10 / printed page 9",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.575,
+    "capacity_teeth": 14
+  }
+}

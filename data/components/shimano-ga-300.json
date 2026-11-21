@@ -1,0 +1,32 @@
+{
+  "id": "shimano-ga-300",
+  "slug": "ga-300",
+  "name": "Dura-Ace EX double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "crankset",
+  "model_number": "GA-300",
+  "weight_g": null,
+  "weight_description": "The June 1978 catalogue explicitly lists this crankset without the bottom-bracket set but gives no crankset weight. Available lengths are options, not a weighed reference.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 8 / printed page 7",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "available_crank_lengths_mm": [
+      165,
+      167.5,
+      170,
+      172.5,
+      175
+    ],
+    "includes_bottom_bracket": false
+  }
+}

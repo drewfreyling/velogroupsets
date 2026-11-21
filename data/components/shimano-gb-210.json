@@ -1,0 +1,22 @@
+{
+  "id": "shimano-gb-210",
+  "slug": "gb-210",
+  "name": "600 EX bottom-bracket set",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "GB-210",
+  "weight_g": null,
+  "weight_description": "No configuration-specific manufacturer weight is supplied in the reviewed catalogue.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 10 / printed page 9",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {}
+}

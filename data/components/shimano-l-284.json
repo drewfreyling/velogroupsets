@@ -1,0 +1,25 @@
+{
+  "id": "shimano-l-284",
+  "slug": "l-284",
+  "name": "Original Dura-Ace down-tube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "shifters",
+  "model_number": "L-284",
+  "weight_g": null,
+  "weight_description": "Left/right control pair. The catalogue lists 75 g without an explicit complete-pair weight basis; no side is doubled.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2/view",
+      "title": "Shimano Bicycle Parts, 1973, PDF page 5",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "down-tube"
+  }
+}

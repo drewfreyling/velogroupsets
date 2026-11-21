@@ -1,0 +1,25 @@
+{
+  "id": "shimano-e-304",
+  "slug": "e-304",
+  "name": "Titlist clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "front-derailleur",
+  "model_number": "E-304",
+  "weight_g": 140,
+  "weight_description": "Manufacturer-listed Titlist E-304 with a 1 1/8-inch clamp (28.575 mm exact conversion), 140 g.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/12pM10q10Sb3kbiDgQqn5LryPQ9ZRhqu2/view",
+      "title": "Shimano Bicycle Parts, 1973, PDF page 4",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.575
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "shimano-ba-200-front",
+  "slug": "ba-200-front",
+  "name": "Dura-Ace EX front side-pull brake",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BA-200",
+  "weight_g": 164,
+  "weight_description": "Manufacturer-listed complete front BA-200 side-pull caliper, 164 g, with brake pads and mounting bolt attached as illustrated in the June 1978 specification spread. Early model code retained.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/shimano78.pdf",
+      "title": "Shimano Bicycle System Components, June 1978, PDF page 9 / printed page 8",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Front",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

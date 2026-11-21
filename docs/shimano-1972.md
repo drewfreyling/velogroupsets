@@ -1,5 +1,8 @@
 # Shimano ’72 Bicycle Parts: catalogue and source-gap review
 
+**Policy follow-up:** the owner approved components without matching technical-document links on 21 November 2026. The [early Shimano import](shimano-early-catalogue-import.md) now adds 34 components from the reviewed 1973/1978 road spreads. The missing-document blocker described in this historical review no longer applies; source identity, membership and weight-configuration requirements still do.
+
+
 Reviewed on 21 November 2026 from the [owner-supplied original Shimano catalogue](https://drive.google.com/file/d/1zT-QH1v6ODmScB8ZVIetqBqcd49-mPB2/view). The cover explicitly says **’72 Shimano Bicycle Parts**. The file contains **22 PDF pages**, ending with a memo page. Product references below use PDF pages, with printed pages one lower where numbered. Neither file metadata nor later product codes are used to identify this edition.
 
 This is a completed source review, **not a canonical component import**. It identifies early model/weight leads, but exact manufacturer-hosted technical documents were not found for the reviewed pre-prefix models. The catalogue remains unchanged at 262 groupsets and 1,604 components. The original publication is useful supporting evidence; its Drive URL does not satisfy the repository’s current primary-document host rule, and this review does not create an archive exception.
@@ -96,7 +99,7 @@ The B700 is a valuable early disc-system lead. It is not silently forced into a 
 
 ## Primary-document checks and import decision
 
-The repository currently requires each component’s primary technical document to be hosted by its manufacturer, or covered by an explicitly approved exact archive exception. This original Drive scan is supporting manufacturer evidence but has no such primary-host exception.
+At the time of this source review, repository policy required each component’s primary technical document to be hosted by its manufacturer, or covered by an explicitly approved exact archive exception. The policy follow-up at the top records the subsequent approval of null technical-document links. This original Drive scan is supporting manufacturer evidence but has no such primary-host exception.
 
 Checks covered model codes from the rear/front derailleurs, hubs, controls and brakes, including spelling variants such as D500/D-500 and E302/E-302, plus Crane/Titlist/Lark/Thunderbird name searches. No exact model-tag matches were found in the reviewed Shimano public-document results. Targeted searches for manufacturer-hosted 1972 catalogue/Crane/Titlist documents also returned no matching technical document. This records what was found in this review, not a claim that a matching document can never exist.
 
