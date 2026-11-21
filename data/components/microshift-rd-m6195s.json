@@ -1,0 +1,41 @@
+{
+  "id": "microshift-rd-m6195s",
+  "slug": "rd-m6195s",
+  "name": "ADVENT Super Short rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M6195S",
+  "weight_g": 361,
+  "weight_description": "Manufacturer-listed 361 g for RD-M6195S, Super Short cage, 1×9-speed, Clutch. This is the separately identified short system for a 38T largest sprocket.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=9",
+    "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 9, printed pp. 13–14: RD-M6195S exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=9",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 9, printed pp. 13–14: RD-M6195S exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/products/groups/advent/",
+      "title": "microSHIFT ADVENT manufacturer range: explicitly listed Super Short model and component membership",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "cage": "Super Short",
+    "clutch": true,
+    "chain_retention": "Clutch",
+    "front_speeds": 1,
+    "rear_speeds": 9,
+    "total_capacity_teeth": 27,
+    "maximum_sprocket_teeth": 38,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

@@ -30,7 +30,7 @@ These are **11 catalogue offerings and 87 component records**. Family labels ide
 | Cassettes | 7 | 7 | 0 |
 | Total | 87 | 75 | 12 |
 
-Coverage in this first review follows this edition. The later [modern range review](modern-mtb-gravel.md) adds ADVENT X, Acolyte and Sword. ADVENT remains outside these two reviews. City/utility and non-group parts without an explicit association to an imported range remain outside this pass. The catalogue does not establish microSHIFT cranksets, bottom brackets, hubs, calipers or other unlisted categories for these offerings.
+Coverage in this first review follows this edition. The later [modern range review](modern-mtb-gravel.md) adds ADVENT X, Acolyte and Sword. ADVENT was outside those two reviews; it is now included in the later ADVENT/Super Short follow-up. City/utility and non-group parts without an explicit association to an imported range remain outside this pass. The catalogue does not establish microSHIFT cranksets, bottom brackets, hubs, calipers or other unlisted categories for these offerings.
 
 ## Source and variant decisions
 
@@ -61,8 +61,12 @@ Earlier launch dates, additional mount-specific masses and later catalogue gener
 
 ## Acolyte 2025 component revisions
 
-The [22 November MTB review](mtb-catalogue-followup-2026-11-22.md) adds nine weighted Acolyte records: two Ver.2 derailleurs, five single right-hand controls and two CS-H083 gearing variants. The original SpringLock derailleur remains unweighed and the existing 12–46T cassette retains 576 g. The group now has thirteen components; its 2021 documented availability does not date the later revisions to that year.
+The [22 November MTB review](mtb-catalogue-followup-2026-11-22.md) adds nine weighted Acolyte records: two Ver.2 derailleurs, five single right-hand controls and two CS-H083 gearing variants. The original SpringLock derailleur remains unweighed and the existing 12–46T cassette retains 576 g. That batch brought the group to thirteen components; its 2021 documented availability does not date the later revisions to that year.
 
 ## ADVENT X, XLE and Marvo LT in 2025
 
-The [2025 expansion](microshift-2025-expansion.md) adds 28 components and 26 weights, including single controls, explicitly published control-set weights and gearing-specific cassettes. XLE 11 is a separately named manufacturer offering, with 2025 recorded as reviewed availability rather than first introduction. It shares four derailleur identities with XLE 10; its earlier history remains unestablished. Historical XCD 11 and existing component identities are preserved.
+The [2025 expansion](microshift-2025-expansion.md) adds 28 components and 26 weights, including single controls, explicitly published control-set weights and gearing-specific cassettes. XLE 11 is a separately named manufacturer offering, initially using 2025 reviewed availability; the directly downloaded 2021 catalogue now confirms earlier availability. It shares four derailleur identities with XLE 10; its first-introduction year remains unestablished. Historical XCD 11 and existing component identities are preserved.
+
+## ADVENT, Super Short and official 2021 references
+
+The [ADVENT/Super Short follow-up](microshift-advent-super-short.md) adds 36 components and 29 weights, including thumb/bar-end controls, calculated and directly published pairs, and XLE 11 direct-mount and clamp variants. It establishes ADVENT and XLE 11 availability in the official 2021 catalogue; Super Short revisions use their later source references. ADVENT first introduction and unexplained conflicting figures remain explicit gaps.

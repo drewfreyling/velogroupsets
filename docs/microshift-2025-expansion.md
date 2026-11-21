@@ -1,5 +1,8 @@
 # microSHIFT 2025: ADVENT X, XLE and Marvo LT additions
 
+**Later source follow-up:** the [directly downloaded 2021 catalogue](microshift-advent-super-short.md) now establishes XLE 11 availability in 2021, replacing the previous 2025 lower-bound reference. Canonical IDs and component weights are preserved. The review below records the preceding batch.
+
+
 Reviewed on 22 November 2026 from the original **microSHIFT 2025 Drivetrain** catalogue preserved in the [archived manufacturer publication](https://www.bikecatalogs.com/download/5815). This is the same publication used in the [Acolyte review](mtb-catalogue-followup-2026-11-22.md). The exact tables on PDF spreads **6, 11 and 12** were checked visually against their text, model numbers, gearing and weight columns. Printed page numbers below identify each half of the spreads.
 
 The batch adds **28 components and 26 manufacturer-listed weights**, plus the explicitly named **XLE 11** range. The catalogue now contains **1,702 components across 263 groupsets**. Existing component IDs, weights and document links are unchanged.

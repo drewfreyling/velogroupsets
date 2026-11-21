@@ -1,0 +1,27 @@
+{
+  "id": "microshift-advent",
+  "slug": "advent",
+  "name": "ADVENT",
+  "manufacturer_id": "microshift",
+  "model_number": "9-speed",
+  "start_year": 2021,
+  "category": "mtb",
+  "generation": "Documented availability in the official 2021 manufacturer catalogue, not an asserted first-introduction date. Later Ver.2 and Super Short assemblies use their separately cited sources.",
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=6",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 6, printed pp. 7–8: ADVENT named 1/2×9-speed range",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: ADVENT named range and exact component inventory",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/products/groups/advent/",
+      "title": "microSHIFT ADVENT manufacturer range: flat-bar, drop-bar and Super Short component memberships",
+      "retrieved_on": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "microshift-cs-h093a-11-42",
+  "slug": "cs-h093a-11-42",
+  "name": "11–42T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "cassette",
+  "model_number": "CS-H093A",
+  "weight_g": null,
+  "weight_description": "Weight unresolved: the 2021 and 2025 manufacturer catalogues list 440 g for the CS-H093A 11–42T alloy-large-cog cassette, while the manufacturer product page lists 488 g without identifying a different weighed configuration.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+    "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: CS-H093A exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: CS-H093A exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=7",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: CS-H093A 11–42T alloy large cog, 440 g",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/models/cs-h093a-11-42t/",
+      "title": "microSHIFT CS-H093A 11–42T manufacturer product specifications: 488 g conflicting reference",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "11–42T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      28,
+      34,
+      42
+    ],
+    "finish": "ED Black",
+    "alloy_sprockets_teeth": [
+      42
+    ]
+  }
+}

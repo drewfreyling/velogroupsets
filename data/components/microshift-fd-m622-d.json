@@ -1,0 +1,41 @@
+{
+  "id": "microshift-fd-m622-d",
+  "slug": "fd-m622-d",
+  "name": "XLE 11 direct-mount double front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-11"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M622-D",
+  "weight_g": 135,
+  "weight_description": "Manufacturer-listed 135 g for FD-M622-D, the complete direct-mount assembly.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=10",
+    "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 10, printed pp. 15–16: FD-M622-D exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=10",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 10, printed pp. 15–16: FD-M622-D exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "mount": "Direct mount",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "capacity_teeth": 10,
+    "chainstay_angle_range_degrees": [
+      66,
+      69
+    ],
+    "maximum_chainring_range_teeth": [
+      34,
+      38
+    ],
+    "chainline_mm": 48.8,
+    "cable_route": "Dual pull"
+  }
+}

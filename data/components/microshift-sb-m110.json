@@ -1,0 +1,33 @@
+{
+  "id": "microshift-sb-m110",
+  "slug": "sb-m110",
+  "name": "XLE 11 integrated drop-bar shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-11"
+  ],
+  "type": "shifters",
+  "model_number": "SB-M110",
+  "weight_g": 378,
+  "weight_description": "Manufacturer-listed 378 g for the standard-reach SB-M110 integrated left/right 1×11 drop-bar control pair, with brake-only left unit and short-pull brakes. The short-reach option is not this reference.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=10",
+    "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 10, printed pp. 15–16: SB-M110 exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=10",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 10, printed pp. 15–16: SB-M110 exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 1,
+    "rear_speeds": 11,
+    "left_control": "Brake only",
+    "brake_actuation": "Short pull",
+    "brake_reach": "Standard"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "microshift-rd-m619m",
+  "slug": "rd-m619m",
+  "name": "ADVENT original medium-cage non-clutch rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M619M",
+  "weight_g": 314,
+  "weight_description": "Manufacturer-listed 314 g for the original unsuffixed RD-M619M medium-cage non-clutch reference. Original and Ver.2 model identities remain separate.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=7",
+    "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: RD-M619M exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=7",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: RD-M619M exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "cage": "Medium",
+    "clutch": false,
+    "rear_speeds": 9,
+    "total_capacity_teeth": 41,
+    "maximum_sprocket_teeth": 46,
+    "maximum_sprocket_range_teeth": [
+      42,
+      46
+    ],
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "compatibility": "ADVENT only"
+  }
+}

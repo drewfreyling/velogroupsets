@@ -4,13 +4,18 @@
   "name": "XLE",
   "manufacturer_id": "microshift",
   "model_number": "11",
-  "start_year": 2025,
+  "start_year": 2021,
   "category": "mtb",
-  "generation": "Documented availability in the reviewed 2025 manufacturer catalogue, not an established first-introduction date. This is the named XLE 11 offering; the existing XCD 11 identity is preserved.",
+  "generation": "Documented availability in the official 2021 manufacturer catalogue, not an established first-introduction date. Later 2025 component references are preserved; the historical XCD 11 identity is unchanged.",
   "sources": [
     {
       "url": "https://www.bikecatalogs.com/download/5815#page=11",
       "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 11 / printed page 17: XLE 11 named 1/2×11-speed range, control sets, shared 10/11-speed derailleurs and cassette inventory",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=10",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 10, printed pp. 15–16: XLE 11 named 1/2×11-speed range and original inventory, confirming earlier 2021 availability",
       "retrieved_on": "2026-11-22"
     }
   ]

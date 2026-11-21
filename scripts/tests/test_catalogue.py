@@ -220,6 +220,19 @@ class CatalogueTests(unittest.TestCase):
         part['specifications'] = {'mount':'Braze-on'}
         self.assertEqual(validate_catalogue(data), [])
 
+    def test_direct_mount_front_derailleur_does_not_require_a_fictitious_clamp(self):
+        data = fixture()
+        part = data['components'][0]
+        part.update(type='front-derailleur', weight_g=135,
+                    specifications={'mount':'Direct mount', 'front_speeds':2, 'rear_speeds':11})
+        self.assertEqual(validate_catalogue(data), [])
+        for mount in (None, '', 'Other'):
+            part['specifications']['mount'] = mount
+            with self.subTest(mount=mount):
+                self.assertTrue(validate_catalogue(data))
+        part['specifications']['mount'] = 'Clamp'
+        self.assertTrue(validate_catalogue(data), 'Clamp references still need the actual diameter')
+
     def test_cassette_weights_require_matching_tooth_counts_and_speed(self):
         data = fixture()
         part = data['components'][0]

@@ -1,0 +1,35 @@
+{
+  "id": "microshift-sl-m819-l-sl-m819-r",
+  "slug": "sl-m819-l-sl-m819-r",
+  "name": "ADVENT Xpress double shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M819-L / SL-M819-R",
+  "weight_g": 224,
+  "weight_description": "Calculated pair weight: 112 g left SL-M819-L + 112 g right SL-M819-R = 224 g. The manufacturer separately publishes both side weights for the matching ADVENT Xpress controls; the left operates two chainrings and the right nine rear sprockets.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=6",
+    "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 6, printed pp. 7–8: SL-M819-L / SL-M819-R exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=6",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 6, printed pp. 7–8: SL-M819-L / SL-M819-R exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 2,
+    "rear_speeds": 9,
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M819-L",
+    "right_model": "SL-M819-R",
+    "left_weight_g": 112,
+    "right_weight_g": 112
+  }
+}

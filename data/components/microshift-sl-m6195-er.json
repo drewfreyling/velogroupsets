@@ -1,0 +1,35 @@
+{
+  "id": "microshift-sl-m6195-er",
+  "slug": "sl-m6195-er",
+  "name": "ADVENT Quick Trigger Pro e-bike single click right-hand shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M6195-ER",
+  "weight_g": 122,
+  "weight_description": "Manufacturer-listed 122 g for the single right-hand SL-M6195-ER ADVENT 1×9 Quick Trigger Pro e-bike single click control.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+    "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: SL-M6195-ER exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: SL-M6195-ER exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 9,
+    "compatibility": "ADVENT only",
+    "indicator": false,
+    "rubber_pad": true,
+    "e_bike_single_click": true
+  }
+}

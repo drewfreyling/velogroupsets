@@ -22,8 +22,8 @@ test('e-bike single-click controls remain single right-hand eight-speed shifters
 
 test('same-model cassettes retain their own sprocket combinations and weights',async({page,request})=>{
   await page.goto('/catalogue/?groupset=microshift-acolyte&type=cassette');
-  await expect(page.getByRole('link',{name:'CS-H083',exact:true})).toHaveCount(3);
-  for(const [suffix,grams,first,last] of [['11-42',505,11,42],['12-42',505,12,42],['12-46',576,12,46]]){
+  await expect(page.getByRole('link',{name:'CS-H083',exact:true})).toHaveCount(4);
+  for(const [suffix,grams,first,last] of [['11-38',421,11,38],['11-42',505,11,42],['12-42',505,12,42],['12-46',576,12,46]]){
     const data=(await (await request.get(`/api/v1/components/microshift-cs-h083-${suffix}.json`)).json()).data;
     expect(data.weight_g).toBe(grams);
     expect(data.specifications.sprockets_teeth).toHaveLength(8);

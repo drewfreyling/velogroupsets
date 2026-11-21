@@ -1,0 +1,34 @@
+{
+  "id": "microshift-sl-m6295-r",
+  "slug": "sl-m6295-r",
+  "name": "ADVENT Quick Trigger Pro indicator right-hand shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M6295-R",
+  "weight_g": 130,
+  "weight_description": "Manufacturer-listed 130 g for the single right-hand SL-M6295-R ADVENT 1×9 Quick Trigger Pro indicator control.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+    "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: SL-M6295-R exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: SL-M6295-R exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 9,
+    "compatibility": "ADVENT only",
+    "indicator": true,
+    "rubber_pad": true
+  }
+}

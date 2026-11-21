@@ -156,8 +156,8 @@ def weight_configuration_errors(component):
             if type(specs.get('includes_rotor_mounting_hardware')) is not bool:
                 errors.append('a rotor-inclusive system weight requires explicit includes_rotor_mounting_hardware')
     elif kind == 'front-derailleur':
-        if specs.get('mount') not in ('Braze-on', 'Clamp'):
-            errors.append('a front-derailleur weight requires mount: Braze-on or Clamp')
+        if specs.get('mount') not in ('Braze-on', 'Clamp', 'Direct mount'):
+            errors.append('a front-derailleur weight requires mount: Braze-on, Clamp or Direct mount')
         elif specs['mount'] == 'Clamp':
             size = specs.get('clamp_diameter_mm')
             band = specs.get('clamp_diameter_range_mm')

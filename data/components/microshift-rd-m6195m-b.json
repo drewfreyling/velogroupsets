@@ -1,0 +1,39 @@
+{
+  "id": "microshift-rd-m6195m-b",
+  "slug": "rd-m6195m-b",
+  "name": "ADVENT Ver.2 medium-cage clutch rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M6195M-B",
+  "weight_g": 384,
+  "weight_description": "Manufacturer-listed 384 g for Ver.2 RD-M6195M-B medium-cage clutch reference. Original and Ver.2 model identities remain separate.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+    "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: RD-M6195M-B exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: RD-M6195M-B exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "cage": "Medium",
+    "clutch": true,
+    "rear_speeds": 9,
+    "total_capacity_teeth": 41,
+    "maximum_sprocket_teeth": 46,
+    "maximum_sprocket_range_teeth": [
+      40,
+      46
+    ],
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "compatibility": "ADVENT only"
+  }
+}

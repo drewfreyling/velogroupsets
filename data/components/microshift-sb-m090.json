@@ -1,0 +1,33 @@
+{
+  "id": "microshift-sb-m090",
+  "slug": "sb-m090",
+  "name": "ADVENT integrated drop-bar shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "shifters",
+  "model_number": "SB-M090",
+  "weight_g": 378,
+  "weight_description": "Manufacturer-listed 378 g for the standard-reach SB-M090 integrated left/right 1×9 drop-bar control pair. The left unit is brake-only; the short-reach and dropper-left variants are not this reference.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=6",
+    "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 6, printed pp. 7–8: SB-M090 exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=6",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 6, printed pp. 7–8: SB-M090 exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 1,
+    "rear_speeds": 9,
+    "left_control": "Brake only",
+    "brake_actuation": "Short pull",
+    "brake_reach": "Standard"
+  }
+}

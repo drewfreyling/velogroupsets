@@ -1,0 +1,44 @@
+{
+  "id": "microshift-cs-eh093-11-42",
+  "slug": "cs-eh093-11-42",
+  "name": "11–42T e-bike cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "cassette",
+  "model_number": "CS-EH093",
+  "weight_g": 530,
+  "weight_description": "Manufacturer-listed 530 g for CS-EH093, nine-speed 11–42T e-bike cassette with chromoly 11T sprocket, 11/13/15/18/21/24/28/34/42T. Lockring inclusion is assumed under the weight guidelines.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+    "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: CS-EH093 exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: CS-EH093 exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "11–42T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      28,
+      34,
+      42
+    ],
+    "finish": "ED Black",
+    "chromoly_sprockets_teeth": [
+      11
+    ]
+  }
+}

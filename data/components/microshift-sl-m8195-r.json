@@ -1,0 +1,32 @@
+{
+  "id": "microshift-sl-m8195-r",
+  "slug": "sl-m8195-r",
+  "name": "ADVENT Xpress right-hand shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M8195-R",
+  "weight_g": 116,
+  "weight_description": "Manufacturer-listed 116 g for the single right-hand SL-M8195-R 1×9 Xpress control.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=6",
+    "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 6, printed pp. 7–8: SL-M8195-R exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=6",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 6, printed pp. 7–8: SL-M8195-R exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 9,
+    "bearings": true
+  }
+}

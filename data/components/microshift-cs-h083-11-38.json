@@ -1,0 +1,45 @@
+{
+  "id": "microshift-cs-h083-11-38",
+  "slug": "cs-h083-11-38",
+  "name": "11–38T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-acolyte"
+  ],
+  "type": "cassette",
+  "model_number": "CS-H083",
+  "weight_g": 421,
+  "weight_description": "Manufacturer-listed 421 g for CS-H083, 8-speed 11–38T Super Short system cassette, 11/13/15/18/21/24/30/38T. Lockring inclusion is assumed under the weight guidelines.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=10",
+    "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 10, printed pp. 15–16: CS-H083 exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=10",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 10, printed pp. 15–16: CS-H083 exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/products/groups/acolyte/",
+      "title": "microSHIFT ACOLYTE manufacturer range: explicitly listed Super Short model and component membership",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "sprocket_range": "11–38T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      30,
+      38
+    ],
+    "finish": "ED Black"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "microshift-fd-t492b",
+  "slug": "fd-t492b",
+  "name": "ADVENT double clamp front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-T492B",
+  "weight_g": null,
+  "weight_description": "Weight unresolved: the 2021 and 2025 catalogues list 159 g, while the manufacturer product page lists 149 g. Both identify the 34.9 mm clamp body with an optional 31.8 mm adapter, without explaining the weighed inclusion difference.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+    "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: FD-T492B exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: FD-T492B exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=7",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: FD-T492B clamp reference, 159 g",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/models/fd-t492b/",
+      "title": "microSHIFT FD-T492B manufacturer specifications: 149 g conflicting reference",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 34.9,
+    "optional_adapter_diameter_mm": 31.8,
+    "front_speeds": 2,
+    "rear_speeds": 9,
+    "capacity_teeth": 16,
+    "chainstay_angle_range_degrees": [
+      63,
+      68
+    ],
+    "maximum_chainring_range_teeth": [
+      44,
+      48
+    ],
+    "cable_route": "Dual pull"
+  }
+}

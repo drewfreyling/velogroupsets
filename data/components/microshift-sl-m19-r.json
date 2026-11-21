@@ -1,0 +1,38 @@
+{
+  "id": "microshift-sl-m19-r",
+  "slug": "sl-m19-r",
+  "name": "ADVENT flat-bar thumb right-hand shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M19-R",
+  "weight_g": 64,
+  "weight_description": "Manufacturer-listed 64 g for the single right-hand SL-M19-R ADVENT 1×9 index/friction control.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+    "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: SL-M19-R exact identity, configuration and published specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=7",
+      "title": "microSHIFT 2025 Drivetrain manufacturer catalogue, PDF spread 7, printed pp. 9–10: SL-M19-R exact identity, configuration and published specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=6",
+      "title": "microSHIFT 2021 Drivetrain manufacturer catalogue, PDF spread 6, printed pp. 7–8: explicit right-hand 1×9 configuration and same weight",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 9,
+    "mount": "Flat-bar thumb",
+    "right_shifter_mode": "Index / Friction"
+  }
+}

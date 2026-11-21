@@ -66,7 +66,7 @@ Use the distinct [disc-brake types and configuration rules](disc-brakes.md). A c
 
 ## Front derailleurs
 
-**Every front-derailleur weight must identify the mount: braze-on or clamp. A clamp-mounted version must include the clamp diameter in millimetres.** If reducers or shims provide several mounting sizes, identify the actual clamp/reducer configuration weighed. A single band documented to fit a range, such as 28.0–28.6 mm, may identify that manufacturer-specified band range; do not substitute a list of different available clamps.
+**Every front-derailleur weight must identify the mount: braze-on, clamp or manufacturer-identified direct mount. A clamp-mounted version must include the clamp diameter in millimetres.** If reducers or shims provide several mounting sizes, identify the actual clamp/reducer configuration weighed. A single band documented to fit a range, such as 28.0–28.6 mm, may identify that manufacturer-specified band range; do not substitute a list of different available clamps.
 
 A braze-on derailleur weighed with a clamp adapter must be described as a clamp-mounted assembly, with the adapter and clamp size included in the description. Do not present that assembly's weight as the braze-on-only weight. Also identify double/triple configuration and other relevant variants.
 
@@ -86,9 +86,11 @@ For a known `weight_g`, the following `specifications` fields identify the actua
 | Calculated shifter pairs | `weight_basis: "Pair"`, `weight_method: "Sum of manufacturer side weights"`, distinct non-empty `left_model` / `right_model`, positive `left_weight_g` / `right_weight_g`; `weight_g` equals their sum |
 | Single right-hand 1× shifters | `weight_basis: "Single"`, `control_side: "Right"`, `front_speeds: 1`, integer `rear_speeds` ≥ 2 |
 | Rim-brake calipers | `weight_basis: "Pair"`, `"Front"` or `"Rear"`; `includes_brake_pads: true` and `includes_mounting_bolts: true` |
-| Front derailleur | `mount: "Braze-on"` or `"Clamp"`; clamp weights require positive `clamp_diameter_mm` or a two-value increasing `clamp_diameter_range_mm` for one documented band |
+| Front derailleur | `mount: "Braze-on"`, `"Clamp"` or `"Direct mount"`; clamp weights require positive `clamp_diameter_mm` or a two-value increasing `clamp_diameter_range_mm` for one documented band |
 | Cassette | Integer `rear_speeds` of at least two; an increasing `sprocket_range` such as `11–28T` or a complete increasing `sprockets_teeth` list whose length matches the speed count; if both are present they must agree |
 
 Hub-skewer exclusions remain mandatory even when the weight is unknown. All records still require a `weight_g` field, description and sources. Unknown weights use null, never zero or an invented number.
 
 Disc-specific weight validation is documented in [the disc-brake contract](disc-brakes.md#weight-validation).
+
+Manufacturer-identified direct-mount front derailleurs use `mount: "Direct mount"` and identify the actual model/interface and any included brackets. Clamp-diameter requirements apply to clamp-mounted assemblies. The [ADVENT/XLE source review](microshift-advent-super-short.md) includes the explicitly direct-mount FD-M622-D reference.
