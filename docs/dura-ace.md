@@ -99,3 +99,7 @@ The [April 1982 full-edition review](shimano-1982.md) expands AX mount-specific 
 ## 1972 name reference
 
 The [1972 source review](shimano-1972.md#unnumbered-dura-ace-chainwheel) finds a Dura-Ace-named, unnumbered chainwheel in the earlier catalogue. It does not establish a later FC/BB model identity or the formal launch date of the complete range; the existing manufacturer-history-based 1973 start remains unchanged.
+
+## 1973 original-range catalogue
+
+The [1973 full-edition review](shimano-1973.md) adds the original manufacturer spread to the original range’s source citations. It explicitly names Crane D-501, Titlist E-304, G-210/G-220 cranks and G-520 bracket fittings; these early codes are not aliases for later FC/BB/RD model numbers. The G-520 is listed at 300 g with a 112 mm spindle. Exact manufacturer-hosted component documents remain missing, so no new component identity or canonical weight is imported.

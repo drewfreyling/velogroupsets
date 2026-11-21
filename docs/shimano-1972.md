@@ -108,3 +108,7 @@ Some substring results are actively misleading:
 - Manufacturer history pages for [Sky Lark](https://www.shimano.com/en/100th/history/products/5.html) and [Tourney](https://www.shimano.com/en/100th/history/products/10.html) establish family background, not exact technical documents or model-specific specifications for all the codes above. Their family dates are not copied to every variant.
 
 No canonical records, weights, groupset dates or source-host rules are changed. The scan is indexed and its concrete findings preserved here. Exact manufacturer-hosted documents, or an explicit primary-source policy change for the original publication, are the remaining prerequisite for a component import. The source’s ambiguous “Capacity” wording, unnumbered crank, configuration options and system-control distinctions still require individual review even if that document-host gap is resolved.
+
+## Following edition
+
+The [1973 catalogue review](shimano-1973.md) finds an explicit 225 g listing for adapter-free Crane D-501 and model codes for the original Dura-Ace crank/BB assemblies. Those are direct findings in the later publication, not deductions from the 1972 masses or retroactive model labels for its unnumbered chainwheel.
