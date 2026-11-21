@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1972 catalogue review](shimano-1972.md) records early Crane/Titlist/Tourney/Lark/Eagle model and weight leads, the unnumbered Dura-Ace chainwheel and B700 disc system. Exact manufacturer-hosted primary documents were not found, so these remain documented research findings rather than canonical imports.
+
 The [1986 catalogue review](shimano-1986.md) adds 43 components, the AT 50 MTB controls and 24 sourced weights, including an explicit PD-6207 pair and separate round/Biopace crank references.
 
 The [full April 1982 review](shimano-1982.md) adds 43 AX-era components, two named road systems, twelve sourced weights and six Altus limit fields beyond the earlier 600 EX review.

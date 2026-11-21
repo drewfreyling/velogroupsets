@@ -95,3 +95,7 @@ The [Shimano component coverage audit](shimano-component-coverage.md) adds the o
 The [1981 review](shimano-1981.md) adds early track hubs and EX calipers/freehubs, corrects Dura-Ace 10 to the explicitly documented track category, and records the remaining numbered original-family document gaps.
 
 The [April 1982 full-edition review](shimano-1982.md) expands AX mount-specific controls, hubs, brakes and seatposts, including the explicit 344 g BR-7300 pair and 26.8 mm SP-7310 reference.
+
+## 1972 name reference
+
+The [1972 source review](shimano-1972.md#unnumbered-dura-ace-chainwheel) finds a Dura-Ace-named, unnumbered chainwheel in the earlier catalogue. It does not establish a later FC/BB model identity or the formal launch date of the complete range; the existing manufacturer-history-based 1973 start remains unchanged.
