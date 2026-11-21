@@ -12,6 +12,8 @@ The component page labels the weight basis, the search index includes `weight_ba
 
 ## Sourced records
 
+The [April 1982 600 EX review](shimano-600-ex-1982.md) adds BR-6200 and BR-6210 as separate front/rear records, preserving their four explicitly published weights and actual reach ranges.
+
 | Caliper | Weight basis | Weight | Reference |
 | --- | --- | --- | --- |
 | BR-6400-49 | Front/rear pair | 360 g | Shimano 1990 dealer manual, p. 20; 49 type only |

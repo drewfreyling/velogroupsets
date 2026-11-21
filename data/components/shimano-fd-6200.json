@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-6200",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 112,
+  "weight_description": "Manufacturer-listed 112 g for the complete FD-6200 clamp-mounted front derailleur with its 1⅛-inch band (28.575 mm by exact unit conversion), from the April 1982 catalogue.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-6200-0325/EV-FD-6200-0325B.pdf",
     "title": "Shimano FD-6200 original manufacturer exploded drawing: complete assembly and replacement parts",
@@ -20,7 +20,17 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-6200-0325/EV-FD-6200-0325B.pdf",
       "title": "Shimano FD-6200 original manufacturer exploded drawing: complete assembly and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components catalogue, April 1982, PDF page 54 / printed page 51: FD-6200 112 g, 1⅛-inch clamp and 14T capacity",
+      "retrieved_on": "2026-11-21"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.575,
+    "clamp_diameter_in": 1.125,
+    "capacity_teeth": 14
+  }
 }

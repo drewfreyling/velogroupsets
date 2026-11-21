@@ -1,0 +1,37 @@
+{
+  "id": "shimano-sl-6200",
+  "slug": "sl-6200",
+  "name": "600 EX friction downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "shifters",
+  "model_number": "SL-6200",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-6200 friction downtube shifter pair. Weight not yet sourced: the 1982 table gives 58 g for the band-type reference without explicitly establishing its pair basis; the figure is not transferred to the braze-on version or doubled.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-6200_6210_6220-0322/EV-SL-6200_6210_6220-0322E.pdf",
+    "title": "Shimano SL-6200 manufacturer exploded view: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-6200_6210_6220-0322/EV-SL-6200_6210_6220-0322E.pdf",
+      "title": "Shimano SL-6200 manufacturer exploded view: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components catalogue, April 1982, PDF page 55 / printed page 52: SL-6200 clamp and SL-6210 braze-on A controls; 58 g band reference lacks explicit pair basis",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Clamp",
+    "attachment_position": "Down tube",
+    "shift_mode": "Friction",
+    "clamp_diameter_in": 1.125
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "shimano-hp-6200",
+  "slug": "hp-6200",
+  "name": "600 EX threaded headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "headset",
+  "model_number": "HP-6200",
+  "weight_g": 150,
+  "weight_description": "Manufacturer-listed 150 g for the HP-6200 complete road headset with labyrinth seals, alloy cups/nut and chromed steel cone, from the April 1982 catalogue. The weighed thread variant is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HP-7200_6200-0466/EV-HP-7200_6200-0466.pdf",
+    "title": "Shimano HP-6200 manufacturer exploded view: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HP-7200_6200-0466/EV-HP-7200_6200-0466.pdf",
+      "title": "Shimano HP-6200 manufacturer exploded view: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components catalogue, April 1982, PDF page 60 / printed page 57: HP-6200 complete headset, 150 g and factory assembly",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "headset_type": "Threaded",
+    "seal_type": "Labyrinth",
+    "cup_material": "Light alloy",
+    "cone_material": "Chromed steel"
+  }
+}

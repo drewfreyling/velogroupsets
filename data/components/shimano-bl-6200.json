@@ -1,0 +1,35 @@
+{
+  "id": "shimano-bl-6200",
+  "slug": "bl-6200",
+  "name": "600 EX brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-6200",
+  "weight_g": 209,
+  "weight_description": "Manufacturer-listed 209 g for the complete left/right BL-6200 hooded brake-lever pair including rubber covers, from the April 1982 catalogue; 23.8 mm handlebar clamps. Cable/housing inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-6200-0367/EV-BL-6200-0367B.pdf",
+    "title": "Shimano BL-6200 manufacturer exploded view: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BL-6200-0367/EV-BL-6200-0367B.pdf",
+      "title": "Shimano BL-6200 manufacturer exploded view: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components catalogue, April 1982, PDF page 58 / printed page 55: BL-6200 pair weight including rubber covers, clamp diameter and complete assembly",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "clamp_diameter_mm": 23.8,
+    "includes_rubber_covers": true
+  }
+}

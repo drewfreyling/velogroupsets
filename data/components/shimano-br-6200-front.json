@@ -1,0 +1,39 @@
+{
+  "id": "shimano-br-6200-front",
+  "slug": "br-6200-front",
+  "name": "600 EX front brake caliper (CS-57)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6200",
+  "weight_g": 159,
+  "weight_description": "Manufacturer-listed 159 g for the complete front BR-6200 CS-57 side-pull caliper with factory NBM brake pads and mounting bolt, from the April 1982 catalogue. The source does not identify which standard or optional sunken mounting-bolt variant was weighed.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-6200-SHIMANO%20600%20EX-0319/EV-BR-6200-SHIMANO%20600%20EX-0319G.pdf",
+    "title": "Shimano BR-6200 manufacturer exploded view: complete assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-6200-SHIMANO%20600%20EX-0319/EV-BR-6200-SHIMANO%20600%20EX-0319G.pdf",
+      "title": "Shimano BR-6200 manufacturer exploded view: complete assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components catalogue, April 1982, PDF page 58 / printed page 55: BR-6200 CS-57 factory caliper, separate front/rear weights, pads, pivot bolts and reach",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Front",
+    "brake_type": "Side pull rim brake",
+    "reach_type": "CS-57",
+    "minimum_reach_mm": 43,
+    "maximum_reach_mm": 57,
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

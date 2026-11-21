@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [April 1982 Shimano 600 EX review](shimano-600-ex-1982.md) uses the supplied original catalogue scan to add missing BR-6200/BR-6210 calipers, brake levers, headset, shifters and bottom brackets, plus an identified front-derailleur weight.
+
 The [21 November 2026 source review](catalogue-review-2026-11-21.md) adds cage-specific Shimano MTB records, fills four microSHIFT weights and indexes additional official microSHIFT catalogue downloads through 2026.
 
 The subsequent [1997–2000 Shimano MTB control review](shimano-mtb-controls-1997-2000.md) adds eleven pair/assembly weights and cage-specific derailleur limits, while preserving unknown figures where the exact reference is not established.

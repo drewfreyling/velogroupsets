@@ -1,0 +1,34 @@
+{
+  "id": "shimano-bb-6200",
+  "slug": "bb-6200",
+  "name": "600 EX square-taper bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-6200",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete BB-6200 square-taper bottom bracket. The April 1982 catalogue identifies a 116 mm spindle but does not give a separate bottom-bracket weight; no crankset or assembly weight is divided or subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-6200-0329/EV-FC-6200-0329G.pdf",
+    "title": "Shimano FC-6200 exploded view: associated bottom-bracket cups, bearings and 116/119 mm spindle assemblies",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-6200-0329/EV-FC-6200-0329G.pdf",
+      "title": "Shimano FC-6200 exploded view: associated bottom-bracket cups, bearings and 116/119 mm spindle assemblies",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components catalogue, April 1982, PDF page 57 / printed page 54: FC-6200 with BB-6200 116 mm and BB-6210 119 mm spindle options; no separate weight",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_mm": 116
+  }
+}
