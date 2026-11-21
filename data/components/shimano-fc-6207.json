@@ -8,8 +8,8 @@
   ],
   "type": "crankset",
   "model_number": "FC-6207",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 672,
+  "weight_description": "Manufacturer-listed 672 g for the FC-6207 double crankset, 170 mm arms and 52/42T chainrings, excluding the separately listed BB-6207 bottom-bracket parts. No BB weight is subtracted.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-6207_BB-6207-0603/EV-FC-6207_BB-6207-0603E.pdf",
     "title": "Shimano FC-6207 original manufacturer exploded drawing: complete assembly and replacement parts",
@@ -20,7 +20,20 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-6207_BB-6207-0603/EV-FC-6207_BB-6207-0603E.pdf",
       "title": "Shimano FC-6207 original manufacturer exploded drawing: complete assembly and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
+      "title": "Original Shimano technical catalogue, June 1984, PDF page 107 / printed page 106: FC-6207 170 mm 52/42T crankset weight, separate from BB parts",
+      "retrieved_on": "2026-11-21"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      42
+    ],
+    "front_speeds": 2,
+    "includes_bottom_bracket": false
+  }
 }

@@ -1,0 +1,36 @@
+{
+  "id": "shimano-pd-6207",
+  "slug": "pd-6207",
+  "name": "600 EX pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "pedals",
+  "model_number": "PD-6207",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right pedal pair. The June 1984 table gives 220 g including a size L toe clip without identifying a pair basis; it is not doubled or presented as a pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-6207-0593/EV-PD-6207-0593E.pdf",
+    "title": "Shimano PD-6207 manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-6207-0593/EV-PD-6207-0593E.pdf",
+      "title": "Shimano PD-6207 manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
+      "title": "Original Shimano technical catalogue, June 1984, PDF page 119 / printed page 118: PD-6207 pedal with size L toe clip; weight basis unresolved",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "includes_toe_clips": true,
+    "toe_clip_size": "L",
+    "axle_material": "Cr-Mo steel"
+  }
+}

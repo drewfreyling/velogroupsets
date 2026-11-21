@@ -1,0 +1,36 @@
+{
+  "id": "shimano-br-6207-49",
+  "slug": "br-6207-49",
+  "name": "600 EX brake calipers (front and rear pair)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6207-49",
+  "weight_g": null,
+  "weight_description": "Complete front/rear BR-6207-49 caliper pair. Weight not yet sourced: the June 1984 table assigns 353 g specifically to the 57 type, not this short-reach model.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-6207-49_6207-57-0604/EV-BR-6207-49_6207-57-0604C.pdf",
+    "title": "Shimano BR-6207 manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-6207-49_6207-57-0604/EV-BR-6207-49_6207-57-0604C.pdf",
+      "title": "Shimano BR-6207 manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
+      "title": "Original Shimano technical catalogue, June 1984, PDF page 124 / printed page 123: BR-6207-49 and -57 reach ranges, complete caliper assemblies and 57-type-only pair weight",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Side pull rim brake",
+    "minimum_reach_mm": 39,
+    "maximum_reach_mm": 49
+  }
+}

@@ -9,7 +9,7 @@
   "type": "front-derailleur",
   "model_number": "FD-6207",
   "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_description": "Weight not yet sourced for an identified clamp configuration. The June 1984 table gives 110 g and lists separate 28 mm and 28.6 mm clamp options without identifying the weighed clamp.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-6207-0594/EV-FD-6207-0594E.pdf",
     "title": "Shimano FD-6207 original manufacturer exploded drawing: complete assembly and replacement parts",
@@ -20,7 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-6207-0594/EV-FD-6207-0594E.pdf",
       "title": "Shimano FD-6207 original manufacturer exploded drawing: complete assembly and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
+      "title": "Original Shimano technical catalogue, June 1984, PDF page 43 / printed page 42: FD-6207 3–18T capacity and unresolved weighed clamp size",
+      "retrieved_on": "2026-11-21"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "capacity_teeth": 18,
+    "minimum_capacity_teeth": 3,
+    "available_clamp_diameters_mm": [
+      28,
+      28.6
+    ]
+  }
 }

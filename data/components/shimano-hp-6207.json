@@ -1,0 +1,35 @@
+{
+  "id": "shimano-hp-6207",
+  "slug": "hp-6207",
+  "name": "600 EX threaded headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "headset",
+  "model_number": "HP-6207",
+  "weight_g": 150,
+  "weight_description": "Manufacturer-listed 150 g for the complete HP-6207 road headset with alloy cups/nut, chromed steel cone and sealed mechanism. The June 1984 source lists thread options without identifying the weighed thread variant.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HP-6207-0598/EV-HP-6207-0598A.pdf",
+    "title": "Shimano HP-6207 manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HP-6207-0598/EV-HP-6207-0598A.pdf",
+      "title": "Shimano HP-6207 manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
+      "title": "Original Shimano technical catalogue, June 1984, PDF page 148 / printed page 147: HP-6207 complete headset weight, material and thread options",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "headset_type": "Threaded",
+    "cup_material": "Light alloy",
+    "cone_material": "Chromed steel"
+  }
+}

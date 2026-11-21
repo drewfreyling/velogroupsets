@@ -1,0 +1,37 @@
+{
+  "id": "shimano-sl-6207-ba",
+  "slug": "sl-6207-ba",
+  "name": "600 EX friction downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "shifters",
+  "model_number": "SL-6207-BA",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-6207-BA band A-type friction shifters with 28.6 mm downtube clamp. The June 1984 source lists 63 g for this model without explicitly establishing its complete pair weight basis; no single figure is doubled.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-6207-0596/EV-SL-6207-0596.pdf",
+    "title": "Shimano SL-6207 manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-6207-0596/EV-SL-6207-0596.pdf",
+      "title": "Shimano SL-6207 manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
+      "title": "Original Shimano technical catalogue, June 1984, PDF page 54 / printed page 53: SL-6207-BA band A model, mount, clamp diameter and unresolved pair weight basis",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Band A",
+    "attachment_position": "Down tube",
+    "clamp_diameter_mm": 28.6,
+    "shift_mode": "Friction"
+  }
+}

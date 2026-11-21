@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-6300",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 107,
+  "weight_description": "Manufacturer-listed 107 g for the FD-6300 band-type front derailleur with 28.6 mm clamp, from the June 1984 catalogue.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-6300-0442/EV-FD-6300-0442A.pdf",
     "title": "Shimano FD-6300 original manufacturer exploded drawing: complete assembly and replacement parts",
@@ -20,7 +20,16 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-6300-0442/EV-FD-6300-0442A.pdf",
       "title": "Shimano FD-6300 original manufacturer exploded drawing: complete assembly and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
+      "title": "Original Shimano technical catalogue, June 1984, PDF page 43 / printed page 42: FD-6300 28.6 mm band, 107 g and 14T capacity",
+      "retrieved_on": "2026-11-21"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.6,
+    "capacity_teeth": 14
+  }
 }

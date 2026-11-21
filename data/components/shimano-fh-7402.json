@@ -9,7 +9,7 @@
   "type": "rear-hub",
   "model_number": "FH-7402",
   "weight_g": null,
-  "weight_description": "Weight not yet sourced without skewers. The August 1988 brochure lists a hub reference but does not establish skewer exclusion; “without sprockets” does not mean without quick release. No hardware weight is estimated or subtracted.",
+  "weight_description": "Weight not yet sourced without skewers. The 1991 dealer catalogue explicitly lists 460 g with quick release. The August 1988 brochure’s “without sprockets” reference does not establish skewer exclusion either. No hardware weight is estimated or subtracted.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FH-7402_CS-7400-8-0957/EV-FH-7402_CS-7400-8-0957.pdf",
     "title": "Shimano FH-7402 exploded view and replacement parts",

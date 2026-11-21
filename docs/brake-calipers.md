@@ -12,6 +12,8 @@ The component page labels the weight basis, the search index includes `weight_ba
 
 ## Sourced records
 
+The [June 1984 600-series review](shimano-600-ex-1984.md#caliper-variants) adds the distinct BR-6207-49 and BR-6207-57 pairs. Only the 57 type receives the explicitly published 353 g reference.
+
 The [April 1982 600 EX review](shimano-600-ex-1982.md) adds BR-6200 and BR-6210 as separate front/rear records, preserving their four explicitly published weights and actual reach ranges.
 
 | Caliper | Weight basis | Weight | Reference |

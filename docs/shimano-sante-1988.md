@@ -18,6 +18,8 @@ The brochure does contain the hub figures the project owner identified:
 
 These figures are documented here as source findings, **not published as canonical hub weights**. The [hub guidelines](weights-guidelines.md#hubs) require weights without skewers. No quick-release weight is estimated, subtracted or borrowed from another model. The existing Dura-Ace hub records retain null weights with the source limitation explained. New HB-5000-F and FH-5000-7 records likewise retain unknown weights, while adding the documented 100/126 mm over-locknut dimensions, 28/32/36-hole options and seven-speed rear configuration.
 
+For FH-7402, the existing [1991 dealer-manual citation, PDF p. 23 / printed p. 20](https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=23) is more specific: it explicitly lists 460 g **with quick release**. That evidence and explanation are retained alongside the 1988 source; the new brochure does not supersede it.
+
 The full Santé model suffixes come from the Shimano-hosted [HB-5000-F drawing](https://si.shimano.com/en/pdfs/ev/HB-5000-F-0835/EV-HB-5000-F-0835A.pdf) and [FH-5000-7 drawing](https://si.shimano.com/en/pdfs/ev/FH-5000-7_CS-5000-7-0846/EV-FH-5000-7_CS-5000-7-0846C.pdf); the brochure abbreviates them to HB-5000 and FH-5000. Their model numbers are not invented position suffixes. The combined assembly weight in [SI-R-3](https://si.shimano.com/en/pdfs/si/R-3/SI-R-3-000-00-ENG.pdf) is not used to derive a hub-only weight either.
 
 ## Weights added

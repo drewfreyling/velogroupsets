@@ -1,0 +1,38 @@
+{
+  "id": "shimano-bl-6207",
+  "slug": "bl-6207",
+  "name": "600 EX brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-6207",
+  "weight_g": 213,
+  "weight_description": "Manufacturer-listed 213 g for the complete left/right BL-6207 pair including rubber covers. The June 1984 table lists 23.8 and 24.2 mm handlebar clamp options without identifying which was weighed.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-6207-0592/EV-BL-6207-0592B.pdf",
+    "title": "Shimano BL-6207 manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BL-6207-0592/EV-BL-6207-0592B.pdf",
+      "title": "Shimano BL-6207 manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
+      "title": "Original Shimano technical catalogue, June 1984, PDF page 137 / printed page 136: BL-6207 explicit pair weight including rubber covers",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "includes_rubber_covers": true,
+    "available_clamp_diameters_mm": [
+      23.8,
+      24.2
+    ]
+  }
+}

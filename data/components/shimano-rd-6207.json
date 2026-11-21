@@ -30,11 +30,16 @@
       "url": "https://vintagecannondale.com/cannondale/shimano/1987%20Shimano.pdf#page=12",
       "title": "Shimano 1987 catalogue, PDF page 12: RD-6207 short cage 195 g and separate long-cage RD-6207-GS 217 g; original manufacturer scan hosted by Vintage Cannondale",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
+      "title": "Original Shimano technical catalogue, June 1984, PDF page 26 / printed page 25: RD-6207 short-cage 28T limits, separate from long-cage GS",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
     "minimum_sprocket_teeth": null,
     "maximum_front_difference_teeth": null
   }
