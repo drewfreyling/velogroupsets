@@ -1,0 +1,33 @@
+{
+  "id": "shimano-br-mc70",
+  "slug": "br-mc70",
+  "name": "Deore XT front/rear cantilever set",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-MC70",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front/rear BR-MC70 cantilever set. The catalogue gives an unpositioned 260 g reference explicitly excluding mounting shafts; it does not meet the complete pads/bolts requirement and is not doubled.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-MC70-0548/EV-BR-MC70-0548G.pdf",
+    "title": "Shimano BR-MC70 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-MC70-0548/EV-BR-MC70-0548G.pdf",
+      "title": "Shimano BR-MC70 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: BR-MC70 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

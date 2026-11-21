@@ -1,0 +1,33 @@
+{
+  "id": "shimano-pd-gx10",
+  "slug": "pd-gx10",
+  "name": "Deore XT reflector pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "pedals",
+  "model_number": "PD-GX10",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right PD-GX10 reflector pedal pair. The catalogue gives 526 g with reflectors without explicitly identifying a pair basis; it is not doubled or silently assigned to the pair.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-GX10-0711/EV-PD-GX10-0711A.pdf",
+    "title": "Shimano PD-GX10 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-GX10-0711/EV-PD-GX10-0711A.pdf",
+      "title": "Shimano PD-GX10 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: PD-GX10 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

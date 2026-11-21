@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-M700",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 222,
+  "weight_description": "Manufacturer-listed 222 g for the standard RD-M700 assembly, not the separate RD-M700-SP Superplate version. The 34T largest-sprocket limit requires PR or SFR fork ends.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-M700_1-0698/EV-RD-M700-0698A.pdf",
     "title": "Shimano RD-M700 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,12 +20,18 @@
       "url": "https://si.shimano.com/en/pdfs/ev/RD-M700_1-0698/EV-RD-M700-0698A.pdf",
       "title": "Shimano RD-M700 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: RD-M700 exact reference configuration and manufacturer figure",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
+    "total_capacity_teeth": 40,
+    "maximum_sprocket_teeth": 34,
     "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null
+    "maximum_front_difference_teeth": 22,
+    "maximum_sprocket_condition": "34T requires PR or SFR fork ends."
   }
 }

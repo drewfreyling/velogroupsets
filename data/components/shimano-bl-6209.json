@@ -1,0 +1,33 @@
+{
+  "id": "shimano-bl-6209",
+  "slug": "bl-6209",
+  "name": "600 EX aero brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-6209",
+  "weight_g": 238,
+  "weight_description": "Manufacturer-listed 238 g for the complete left/right BL-6209 hooded brake-lever pair. The source describes rubber-covered levers but does not separately identify cover inclusion in the weighed reference.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-6209-0755/EV-BL-6209-0755E.pdf",
+    "title": "Shimano BL-6209 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BL-6209-0755/EV-BL-6209-0755E.pdf",
+      "title": "Shimano BL-6209 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 9: BL-6209 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

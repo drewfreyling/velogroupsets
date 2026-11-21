@@ -1,0 +1,36 @@
+{
+  "id": "shimano-hb-mn72-rear",
+  "slug": "hb-mn72-rear",
+  "name": "Deore XT nut-fastened rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "rear-hub",
+  "model_number": "HB-MN72",
+  "weight_g": 335,
+  "weight_description": "Manufacturer-listed 335 g for the rear HB-MN72 nut-fastened hub, 36 holes, 130 mm OLD. The drawing confirms hub nuts and no quick-release skewer. No nut or axle mass is subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-MN72-0541/EV-HB-MN72-0541C.pdf",
+    "title": "Shimano HB-MN72 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-MN72-0541/EV-HB-MN72-0541C.pdf",
+      "title": "Shimano HB-MN72 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: HB-MN72 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "spoke_holes": 36,
+    "over_locknut_dimension_mm": 130,
+    "axle_type": "Nut-fastened"
+  },
+  "weight_excludes_skewers": true
+}

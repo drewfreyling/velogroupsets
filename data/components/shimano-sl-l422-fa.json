@@ -1,0 +1,34 @@
+{
+  "id": "shimano-sl-l422-fa",
+  "slug": "sl-l422-fa",
+  "name": "Light Action braze-on a downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-light-action"
+  ],
+  "type": "shifters",
+  "model_number": "SL-L422-FA",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right SL-L422-FA braze-on a downtube control pair. Mount-specific 95/145 g figures do not explicitly establish a pair basis; neither is doubled or transferred to another mount.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-L422-0721/EV-SL-L422-0721B.pdf",
+    "title": "Shimano SL-L422-FA original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-L422-0721/EV-SL-L422-0721B.pdf",
+      "title": "Shimano SL-L422-FA original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 17: SL-L422-FA component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Braze-on A downtube"
+  }
+}

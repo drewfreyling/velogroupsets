@@ -9,7 +9,7 @@
   "type": "bottom-bracket",
   "model_number": "BB-6207",
   "weight_g": null,
-  "weight_description": "Weight not yet sourced for an identified spindle configuration. The June 1984 table gives 326 g for BB parts while listing 116 mm / 68 mm-shell and 119 mm / 70 mm-shell options, without establishing which assembly was weighed.",
+  "weight_description": "Weight not yet sourced for an identified BB-6207 square-taper spindle configuration. The 1986 double reference gives 326 g with 116/119 mm options, while the Biopace triple reference gives 330 g with 121.5/124.5 mm options. Neither identifies which spindle/shell configuration was weighed.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-6207_BB-6207-0603/EV-FC-6207_BB-6207-0603E.pdf",
     "title": "Shimano BB-6207 manufacturer exploded view: exact assembly and replacement parts",
@@ -25,17 +25,32 @@
       "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
       "title": "Original Shimano technical catalogue, June 1984, PDF page 107 / printed page 106: BB-6207 326 g reference lacks a weighed spindle selection among 116/119 mm options",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF pages 8 and 16: distinct BB-6207 double/triple spindle options and unresolved 326/330 g references",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
     "interface": "Square taper",
     "available_spindle_lengths_mm": [
       116,
-      119
+      119,
+      121.5,
+      124.5
     ],
     "available_shell_widths_mm": [
       68,
       70
+    ],
+    "double_reference_spindle_lengths_mm": [
+      116,
+      119
+    ],
+    "triple_reference_spindle_lengths_mm": [
+      121.5,
+      124.5
     ]
   }
 }

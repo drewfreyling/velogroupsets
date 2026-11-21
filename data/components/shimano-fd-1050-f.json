@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fd-1050-f",
+  "slug": "fd-1050-f",
+  "name": "105 braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-1050-F",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced specifically for the FD-1050-F braze-on assembly. The catalogue’s 98 g figure is explicitly the band type and is not transferred to this mount.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-1050-0761/EV-FD-1050-0761A.pdf",
+    "title": "Shimano FD-1050-F original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-1050-0761/EV-FD-1050-0761A.pdf",
+      "title": "Shimano FD-1050-F original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 12: FD-1050-F component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "capacity_teeth": 14,
+    "front_speeds": 2
+  }
+}

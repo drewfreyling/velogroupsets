@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1986 catalogue review](shimano-1986.md) adds 43 components, the AT 50 MTB controls and 24 sourced weights, including an explicit PD-6207 pair and separate round/Biopace crank references.
+
 The [full April 1982 review](shimano-1982.md) adds 43 AX-era components, two named road systems, twelve sourced weights and six Altus limit fields beyond the earlier 600 EX review.
 
 The [1981 catalogue gap review](shimano-1981.md) adds 41 components, two early touring/track offerings and 18 sourced weights, including explicitly skewer-free rear-hub references from a manufacturer service instruction.

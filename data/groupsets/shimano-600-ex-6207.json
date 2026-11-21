@@ -5,12 +5,17 @@
   "manufacturer_id": "shimano",
   "model_number": "6207",
   "start_year": 1983,
-  "generation": "Historical road series; reviewed components only",
+  "generation": "Historical 600 EX road family, including the 6208 SIS revision explicitly presented with the 6207 components in the 1986 catalogue.",
   "sources": [
     {
       "url": "https://www.shimano.com/en/100th/history/products/17.html",
       "title": "Shimano 600 history: original 1975, Arabesque EX 1978, AX 1980 and New EX 1983",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 8: 600 section explicitly lists RD-6208 SIS and RD-6207 friction components together",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "category": "road"

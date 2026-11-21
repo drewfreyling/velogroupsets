@@ -1,0 +1,36 @@
+{
+  "id": "shimano-rd-6208",
+  "slug": "rd-6208",
+  "name": "600 EX SIS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6208",
+  "weight_g": 204,
+  "weight_description": "Manufacturer-listed 204 g for the RD-6208 SIS assembly; 12T smallest sprocket, 28T largest sprocket and 28T total capacity. A separate maximum front-chainring difference is not stated.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-6208-0736/EV-RD-6208-0736C.pdf",
+    "title": "Shimano RD-6208 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-6208-0736/EV-RD-6208-0736C.pdf",
+      "title": "Shimano RD-6208 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 8: RD-6208 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-at50",
+  "slug": "sl-at50",
+  "name": "AT 50 friction thumb-shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-at50"
+  ],
+  "type": "shifters",
+  "model_number": "SL-AT50",
+  "weight_g": 143,
+  "weight_description": "Manufacturer-listed 143 g for the complete left/right SL-AT50 friction thumb-shifter pair with 22.2 mm clamps; explicitly listed as a pair.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-AT50-0665/EV-SL-AT50-0665A.pdf",
+    "title": "Shimano SL-AT50 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-AT50-0665/EV-SL-AT50-0665A.pdf",
+      "title": "Shimano SL-AT50 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: SL-AT50 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "clamp_diameter_mm": 22.2,
+    "shift_mode": "Friction"
+  }
+}

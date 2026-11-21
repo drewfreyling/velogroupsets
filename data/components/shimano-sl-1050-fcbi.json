@@ -1,0 +1,40 @@
+{
+  "id": "shimano-sl-1050-fcbi",
+  "slug": "sl-1050-fcbi",
+  "name": "105 braze-on b SIS downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-1050"
+  ],
+  "type": "shifters",
+  "model_number": "SL-1050-FCBI",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right SL-1050-FCBI six-speed SIS/friction pair. The 68 g figure belongs to the separate FCAI reference and is not assigned to this mount.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-1050-0764/EV-SL-1050-0764A.pdf",
+    "title": "Shimano SL-1050-FCBI original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-1050-0764/EV-SL-1050-0764A.pdf",
+      "title": "Shimano SL-1050-FCBI original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 12: SL-1050-FCBI component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 6,
+    "mount": "Braze-on B",
+    "fixing_bolt_diameter_mm": 5,
+    "shift_modes": [
+      "SIS",
+      "Friction"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "shimano-rd-l525-sgs",
+  "slug": "rd-l525-sgs",
+  "name": "Light Action SGS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-light-action"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-L525-SGS",
+  "weight_g": 294,
+  "weight_description": "Manufacturer-listed 294 g for the RD-L525-SGS assembly. The catalogue capacity reference uses FE-SF21/SF22/PR20 fork ends. SI-P-4 additionally requires the B-tension screw fully tightened and notes that fork/frame dimensions affect capacity.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-L525-0742/EV-RD-L525-0742B.pdf",
+    "title": "Shimano RD-L525-SGS original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-L525-0742/EV-RD-L525-0742B.pdf",
+      "title": "Shimano RD-L525-SGS original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 17: RD-L525-SGS component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/P-4/SI-P-4-000-00-ENG.pdf",
+      "title": "Shimano SI-P-4, page 1: explicit L523/L525 SS/GS/SGS front differences and B-tension/fork/frame capacity conditions",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 40,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 20,
+    "cage": "SGS",
+    "capacity_condition": "FE-SF21/SF22/PR20 fork ends. SI-P-4: B-tension screw fully tightened; fork/frame dimensions may alter capacity."
+  }
+}

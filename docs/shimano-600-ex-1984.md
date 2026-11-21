@@ -43,3 +43,7 @@ The existing FD-6207 gains **3–18T** chainring capacity limits, and FD-6300 ga
 - **BR-6207-49:** only its own short-reach pair identity and dimensions are established; its mass remains unknown as described above.
 
 All new primary technical-document URLs are Shimano-hosted. The supplied scan is supporting evidence from an original manufacturer publication, not a new primary-document archive exception. No PDF bytes or source images are committed. This is a checked batch of selected 600-series pages, not a complete audit of all 162 pages.
+
+## 1986 follow-up
+
+The [1986 catalogue review](shimano-1986.md) resolves PD-6207’s mass with a directly published 440 g pair including size-L toe clips, adds the 6208 SIS revision and keeps the later 667 g Biopace double separate from the earlier 672 g round-ring crank reference.

@@ -8,8 +8,8 @@
   ],
   "type": "pedals",
   "model_number": "PD-6207",
-  "weight_g": null,
-  "weight_description": "Weight not yet sourced for the complete left/right pedal pair. The June 1984 table gives 220 g including a size L toe clip without identifying a pair basis; it is not doubled or presented as a pair weight.",
+  "weight_g": 440,
+  "weight_description": "Manufacturer-listed 440 g for the complete left/right PD-6207 pair including size-L toe clips. The 1986 catalogue explicitly labels this a pair, resolving the earlier unpaired 220 g figure without doubling it.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/PD-6207-0593/EV-PD-6207-0593E.pdf",
     "title": "Shimano PD-6207 manufacturer exploded view: exact assembly and replacement parts",
@@ -24,6 +24,11 @@
     {
       "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
       "title": "Original Shimano technical catalogue, June 1984, PDF page 119 / printed page 118: PD-6207 pedal with size L toe clip; weight basis unresolved",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 8: PD-6207 exact reference configuration and manufacturer figure",
       "retrieved_on": "2026-11-21"
     }
   ],

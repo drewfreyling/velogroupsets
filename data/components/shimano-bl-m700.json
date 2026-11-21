@@ -1,0 +1,34 @@
+{
+  "id": "shimano-bl-m700",
+  "slug": "bl-m700",
+  "name": "Deore XT brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-M700",
+  "weight_g": 356,
+  "weight_description": "Manufacturer-listed 356 g for the complete left/right BL-M700 brake-lever pair with 22.2 mm clamps. The catalogue explicitly identifies a pair; cable/housing inclusion is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-M700-0546/EV-BL-M700-0546A.pdf",
+    "title": "Shimano BL-M700 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BL-M700-0546/EV-BL-M700-0546A.pdf",
+      "title": "Shimano BL-M700 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: BL-M700 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "clamp_diameter_mm": 22.2
+  }
+}

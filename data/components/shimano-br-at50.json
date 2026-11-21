@@ -1,0 +1,35 @@
+{
+  "id": "shimano-br-at50",
+  "slug": "br-at50",
+  "name": "AT 50 front/rear cantilever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-at50"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-AT50",
+  "weight_g": 336,
+  "weight_description": "Manufacturer-listed 336 g for the complete front/rear BR-AT50 cantilever pair with standard pads and mounting bolts. The optional 6 mm hex fixing-bolt variant is not identified as the weighed option.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-AT50-0663/EV-BR-AT50-0663F.pdf",
+    "title": "Shimano BR-AT50 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-AT50-0663/EV-BR-AT50-0663F.pdf",
+      "title": "Shimano BR-AT50 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: BR-AT50 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

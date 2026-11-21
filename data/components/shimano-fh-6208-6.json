@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fh-6208-6",
+  "slug": "fh-6208-6",
+  "name": "600 EX six-speed rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-6208-6",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced without skewers: the catalogue’s 405 g rear figure excludes sprockets but does not establish quick-release exclusion. Its FH-6208-R label corresponds to the six-speed assembly identified as FH-6208-6 in the manufacturer drawing; no QR mass is subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-6208-6_5-0734/EV-FH-6208-6_5-0734D.pdf",
+    "title": "Shimano FH-6208-6 / FH-6208-5 manufacturer silver-gear assembly drawing: six-speed rear hub and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-6208-6_5-0734/EV-FH-6208-6_5-0734D.pdf",
+      "title": "Shimano FH-6208-6 / FH-6208-5 manufacturer silver-gear assembly drawing: six-speed rear hub and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 9: FH-6208-6 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 6,
+    "over_locknut_dimension_mm": 126,
+    "catalogue_model": "FH-6208-R"
+  },
+  "weight_excludes_skewers": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-m700",
+  "slug": "sl-m700",
+  "name": "Deore XT friction thumb-shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M700",
+  "weight_g": 212,
+  "weight_description": "Manufacturer-listed 212 g for the complete left/right SL-M700 friction thumb-shifter pair with 22.2 mm clamps; the catalogue explicitly says pair. Cable/housing inclusion is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M700-0560/EV-SL-M700-0560C.pdf",
+    "title": "Shimano SL-M700 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M700-0560/EV-SL-M700-0560C.pdf",
+      "title": "Shimano SL-M700 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: SL-M700 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "clamp_diameter_mm": 22.2,
+    "shift_mode": "Friction"
+  }
+}

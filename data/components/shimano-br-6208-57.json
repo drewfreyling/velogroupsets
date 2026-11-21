@@ -1,0 +1,35 @@
+{
+  "id": "shimano-br-6208-57",
+  "slug": "br-6208-57",
+  "name": "600 EX 57 mm front/rear caliper pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6208-57",
+  "weight_g": 332,
+  "weight_description": "Manufacturer-listed 332 g for the complete front/rear BR-6208-57 long-reach pair with standard one-piece shoes and mounting bolts attached. The figure explicitly applies to the 57 type, not the 49 type.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-6208-0730/EV-BR-6208-0730A.pdf",
+    "title": "Shimano BR-6208-57 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-6208-0730/EV-BR-6208-0730A.pdf",
+      "title": "Shimano BR-6208-57 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 9: BR-6208-57 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

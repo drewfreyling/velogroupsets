@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-m700-gs",
+  "slug": "fd-m700-gs",
+  "name": "Deore XT GS-guide front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M700-GS",
+  "weight_g": 112,
+  "weight_description": "Manufacturer-listed 112 g for the FD-M700-GS lower-inlet clamp assembly with 1 1/8 inch (28.575 mm) band and 27T capacity. This is not the normal 120 g FD-M700 guide.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M700-GS-0671/EV-FD-M700-GS-0671.pdf",
+    "title": "Shimano FD-M700-GS original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M700-GS-0671/EV-FD-M700-GS-0671.pdf",
+      "title": "Shimano FD-M700-GS original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: FD-M700-GS component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.575,
+    "clamp_diameter_inches": 1.125,
+    "capacity_teeth": 27
+  }
+}

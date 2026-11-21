@@ -1,0 +1,36 @@
+{
+  "id": "shimano-hb-mn72-qr-front",
+  "slug": "hb-mn72-qr-front",
+  "name": "Deore XT quick-release front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-MN72-QR",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced without skewers for the front HB-MN72-QR assembly. The QR catalogue figure does not establish skewer exclusion; no hardware mass is subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-MN72-QR%20F-0653/EV-HB-MN72-QR%20F-0653A.pdf",
+    "title": "Shimano HB-MN72-QR original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-MN72-QR%20F-0653/EV-HB-MN72-QR%20F-0653A.pdf",
+      "title": "Shimano HB-MN72-QR original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: HB-MN72-QR component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "spoke_holes": 36,
+    "over_locknut_dimension_mm": 100,
+    "axle_type": "Quick release"
+  },
+  "weight_excludes_skewers": true
+}

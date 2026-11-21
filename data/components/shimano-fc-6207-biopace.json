@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fc-6207-biopace",
+  "slug": "fc-6207-biopace",
+  "name": "600 EX Biopace double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "crankset",
+  "model_number": "FC-6207",
+  "weight_g": 667,
+  "weight_description": "Manufacturer-listed 667 g for the FC-6207 Biopace double reference with 170 mm arms and 52/42T rings, excluding the separately listed BB-6207. This is separate from the existing 672 g round-ring reference. The manufacturer drawing identifies the FC-6207 base assembly; the catalogue supplies the Biopace configuration and mass.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-6207_BB-6207-0603/EV-FC-6207_BB-6207-0603E.pdf",
+    "title": "Shimano FC-6207 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-6207_BB-6207-0603/EV-FC-6207_BB-6207-0603E.pdf",
+      "title": "Shimano FC-6207 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 16: FC-6207 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      52,
+      42
+    ],
+    "chainring_shape": "Biopace",
+    "includes_bottom_bracket": false
+  }
+}

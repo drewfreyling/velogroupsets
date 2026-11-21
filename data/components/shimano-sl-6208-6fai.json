@@ -1,0 +1,41 @@
+{
+  "id": "shimano-sl-6208-6fai",
+  "slug": "sl-6208-6fai",
+  "name": "600 EX SIS braze-on a downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "shifters",
+  "model_number": "SL-6208-6FAI",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right SL-6208-6FAI six-speed SIS/friction pair. The catalogue abbreviates it as SL-6208-FAI; its 69 g FCAI figure does not explicitly identify a pair basis and is not doubled or assigned to another mount.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-6208-0735/EV-SL-6208-0735G.pdf",
+    "title": "Shimano SL-6208-6FAI original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-6208-0735/EV-SL-6208-0735G.pdf",
+      "title": "Shimano SL-6208-6FAI original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 8: SL-6208-6FAI component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 6,
+    "mount": "Braze-on A",
+    "fixing_bolt_diameter_mm": 4.5,
+    "catalogue_model": "SL-6208-FAI",
+    "shift_modes": [
+      "SIS",
+      "Friction"
+    ]
+  }
+}

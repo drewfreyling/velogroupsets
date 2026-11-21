@@ -1,0 +1,43 @@
+{
+  "id": "shimano-rd-l523-ss",
+  "slug": "rd-l523-ss",
+  "name": "Light Action SS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-light-action"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-L523-SS",
+  "weight_g": 274,
+  "weight_description": "Manufacturer-listed 274 g for the RD-L523-SS assembly. The catalogue capacity reference uses Any Shimano fork ends for the short cage. SI-P-4 additionally requires the B-tension screw fully tightened and notes that fork/frame dimensions affect capacity.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-L523-0743/EV-RD-L523-0743A.pdf",
+    "title": "Shimano RD-L523-SS original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-L523-0743/EV-RD-L523-0743A.pdf",
+      "title": "Shimano RD-L523-SS original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 17: RD-L523-SS component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/P-4/SI-P-4-000-00-ENG.pdf",
+      "title": "Shimano SI-P-4, page 1: explicit L523/L525 SS/GS/SGS front differences and B-tension/fork/frame capacity conditions",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 13,
+    "cage": "SS",
+    "capacity_condition": "Any Shimano fork ends for the short cage. SI-P-4: B-tension screw fully tightened; fork/frame dimensions may alter capacity."
+  }
+}

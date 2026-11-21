@@ -1,0 +1,33 @@
+{
+  "id": "shimano-br-6208-49",
+  "slug": "br-6208-49",
+  "name": "600 EX 49 mm front/rear caliper pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6208-49",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front/rear BR-6208-49 short-reach pair. The catalogue’s 332 g pair figure is explicitly for the 57 type.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-6208-0730/EV-BR-6208-0730A.pdf",
+    "title": "Shimano BR-6208-49 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-6208-0730/EV-BR-6208-0730A.pdf",
+      "title": "Shimano BR-6208-49 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 9: BR-6208-49 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

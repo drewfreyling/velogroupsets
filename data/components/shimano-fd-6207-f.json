@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fd-6207-f",
+  "slug": "fd-6207-f",
+  "name": "600 EX braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-6207-F",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced specifically for the FD-6207-F Italian braze-on assembly. The shared 110 g catalogue figure does not identify the weighed mount and is not transferred from the band version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-6207-0594/EV-FD-6207-0594E.pdf",
+    "title": "Shimano FD-6207-F original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-6207-0594/EV-FD-6207-0594E.pdf",
+      "title": "Shimano FD-6207-F original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 8: FD-6207-F component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "capacity_teeth": 18,
+    "minimum_front_difference_teeth": 3
+  }
+}

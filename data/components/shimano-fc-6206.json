@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-6206",
+  "slug": "fc-6206",
+  "name": "600 EX Biopace triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "crankset",
+  "model_number": "FC-6206",
+  "weight_g": 700,
+  "weight_description": "Manufacturer-listed 700 g for the complete FC-6206 Biopace triple crankset with 170 mm arms and 48/38/28T rings, excluding the separately listed BB-6207 bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-6206_BB-6207-0650/EV-FC-6206_BB-6207-0650I.pdf",
+    "title": "Shimano FC-6206 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-6206_BB-6207-0650/EV-FC-6206_BB-6207-0650I.pdf",
+      "title": "Shimano FC-6206 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 16: FC-6206 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      48,
+      38,
+      28
+    ],
+    "chainring_shape": "Biopace",
+    "includes_bottom_bracket": false
+  }
+}

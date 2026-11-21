@@ -1,0 +1,17 @@
+{
+  "id": "shimano-at50",
+  "slug": "at50",
+  "name": "AT",
+  "manufacturer_id": "shimano",
+  "model_number": "50",
+  "start_year": 1986,
+  "category": "mtb",
+  "generation": "AT 50 control series explicitly listed within the 1986 off-road section; start follows reviewed availability, not a claim of exact first introduction. Inventory is incomplete.",
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: explicit AT 50 series heading, brake, lever and shifter inventory in the off-road section",
+      "retrieved_on": "2026-11-21"
+    }
+  ]
+}

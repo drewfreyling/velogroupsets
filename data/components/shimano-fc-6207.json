@@ -1,7 +1,7 @@
 {
   "id": "shimano-fc-6207",
   "slug": "fc-6207",
-  "name": "600 EX crankset",
+  "name": "600 EX round-ring double crankset",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-600-ex-6207"
@@ -25,6 +25,11 @@
       "url": "https://drive.google.com/file/d/1sLOMGjcPBzkKLw70IicwaOOS7qI4zAAn/view",
       "title": "Original Shimano technical catalogue, June 1984, PDF page 107 / printed page 106: FC-6207 170 mm 52/42T crankset weight, separate from BB parts",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 8: standard FC-6207 672 g, 170 mm, 52/42T reference, separate from the Biopace reference on page 16",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
@@ -34,6 +39,7 @@
       42
     ],
     "front_speeds": 2,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "chainring_shape": "Round"
   }
 }

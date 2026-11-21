@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-6207-fc",
+  "slug": "sl-6207-fc",
+  "name": "600 EX braze-on C friction downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6207"
+  ],
+  "type": "shifters",
+  "model_number": "SL-6207-FC",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right SL-6207-FC braze-on C friction pair. The 63 g figure belongs to the band-type SL-6207-BA and does not establish this pair’s mass.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-6207-FC-0628/EV-SL-6207-FC-0628A.pdf",
+    "title": "Shimano SL-6207-FC original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-6207-FC-0628/EV-SL-6207-FC-0628A.pdf",
+      "title": "Shimano SL-6207-FC original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 8: SL-6207-FC component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Braze-on C",
+    "shift_mode": "Friction"
+  }
+}

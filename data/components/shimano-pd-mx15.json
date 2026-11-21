@@ -1,0 +1,34 @@
+{
+  "id": "shimano-pd-mx15",
+  "slug": "pd-mx15",
+  "name": "Deore XT reflector pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "pedals",
+  "model_number": "PD-MX15",
+  "weight_g": 530,
+  "weight_description": "Manufacturer-listed 530 g for the complete left/right PD-MX15 pedal pair with reflectors. Toe clips are described as attachable, not identified as included in the weighed pair.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-MX15-0570/EV-PD-MX15-0570A.pdf",
+    "title": "Shimano PD-MX15 original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-MX15-0570/EV-PD-MX15-0570A.pdf",
+      "title": "Shimano PD-MX15 original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: PD-MX15 component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "includes_reflectors": true
+  }
+}

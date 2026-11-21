@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-m700-sp",
+  "slug": "rd-m700-sp",
+  "name": "Deore XT Superplate rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m700"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M700-SP",
+  "weight_g": 285,
+  "weight_description": "Manufacturer-listed 285 g for the RD-M700-SP Superplate assembly. The reference 42T total capacity uses FE-SF21/SF22 fork ends; FE-UF20 instead gives 40T. The catalogue lists 34T largest sprocket with Shimano fork ends and no separate front-difference figure.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-M700-SP-0615/EV-RD-M700-SP-0615B.pdf",
+    "title": "Shimano RD-M700-SP original manufacturer assembly drawing: exact model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-M700-SP-0615/EV-RD-M700-SP-0615B.pdf",
+      "title": "Shimano RD-M700-SP original manufacturer assembly drawing: exact model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1xB-btuu8aJkkBD1JzsDKX5ki0wtZ1U9_/view",
+      "title": "Original Shimano 1986 catalogue (copyright August 1986), PDF page 15: RD-M700-SP component identity, membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 42,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "capacity_condition": "42T with FE-SF21/SF22 or FE-SF20/FE-EF20 fork ends; 40T with FE-UF20.",
+    "maximum_sprocket_condition": "34T with Shimano fork ends."
+  }
+}
