@@ -1,0 +1,27 @@
+{
+  "id": "microshift-sl-m850-r",
+  "slug": "sl-m850-r",
+  "name": "XLE Xpress Plus right-hand control, referenced in the documented 1×10 configuration shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-10"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M850-R",
+  "weight_g": 112,
+  "weight_description": "Manufacturer-listed 112 g for the single right-hand SL-M850-R XLE Xpress Plus right-hand control, referenced in the documented 1×10 configuration, 1×10-speed reference.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=11",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 11 / printed page 18: SL-M850-R exact configuration and manufacturer-listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 10
+  }
+}

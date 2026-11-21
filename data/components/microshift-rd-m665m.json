@@ -1,0 +1,43 @@
+{
+  "id": "microshift-rd-m665m",
+  "slug": "rd-m665m",
+  "name": "XLE medium-cage clutch rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-10",
+    "microshift-xle-11"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M665M",
+  "weight_g": null,
+  "weight_description": "Weight unresolved: the same 2025 publication lists 373 g in the XLE 10 table and 379 g in the XLE 11 table for RD-M665M. Both rows describe 10/11-speed medium-cage models without distinguishing the weighed assembly. No figure is selected or averaged.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=11",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 11 / printed page 17: RD-M665M exact configuration and manufacturer-listed specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=11",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 11 / printed page 18: RD-M665M differing XLE 10 mass; shared limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "cage": "Medium",
+    "clutch": true,
+    "available_rear_speeds": [
+      10,
+      11
+    ],
+    "total_capacity_teeth": 41,
+    "maximum_sprocket_teeth": 46,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "maximum_sprocket_range_teeth": [
+      40,
+      46
+    ]
+  }
+}

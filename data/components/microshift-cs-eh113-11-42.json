@@ -1,0 +1,45 @@
+{
+  "id": "microshift-cs-eh113-11-42",
+  "slug": "cs-eh113-11-42",
+  "name": "11–42T e-bike alloy-large-cog cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-11"
+  ],
+  "type": "cassette",
+  "model_number": "CS-EH113",
+  "weight_g": 557,
+  "weight_description": "Manufacturer-listed 557 g for CS-EH113, 11-speed 11–42T e-bike alloy-large-cog, 11/13/15/17/19/21/24/28/32/36/42T. Lockring inclusion is assumed under the weight guidelines.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=11",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 11 / printed page 17: CS-EH113 exact configuration and manufacturer-listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–42T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      24,
+      28,
+      32,
+      36,
+      42
+    ],
+    "finish": "ED Black",
+    "alloy_sprockets_teeth": [
+      42
+    ],
+    "chromoly_sprockets_teeth": [
+      11
+    ]
+  }
+}

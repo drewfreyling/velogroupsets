@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [microSHIFT 2025 expansion](microshift-2025-expansion.md) adds **28 components, 26 weights and the named XLE 11 range**, with shared XLE derailleur identities and two conflicting medium-cage weights retained as unknown.
+
 The [22 November MTB follow-up](mtb-catalogue-followup-2026-11-22.md) adds **ten components with ten weights**: Acolyte Ver.2 derailleurs, single right-hand controls, cassette gearing variants and Shimano CS-MT62.
 
 The [22 November early Shimano follow-up](shimano-early-followup-2026-11-22.md) adds **26 components and five sourced weights**, including the explicit SL-BC10 pair and BB-SL32 Octa Joint reference, and expands original Dura-Ace/600 and AX mounting variants.

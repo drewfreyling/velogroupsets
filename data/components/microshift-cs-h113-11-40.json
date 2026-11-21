@@ -1,0 +1,39 @@
+{
+  "id": "microshift-cs-h113-11-40",
+  "slug": "cs-h113-11-40",
+  "name": "11–40T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-xle-11"
+  ],
+  "type": "cassette",
+  "model_number": "CS-H113",
+  "weight_g": 617,
+  "weight_description": "Manufacturer-listed 617 g for CS-H113, 11-speed 11–40T cassette, 11/13/15/17/19/21/24/28/32/36/40T. Lockring inclusion is assumed under the weight guidelines.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=11",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 11 / printed page 17: CS-H113 exact configuration and manufacturer-listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–40T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40
+    ],
+    "finish": "ED Black"
+  }
+}

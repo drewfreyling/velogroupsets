@@ -62,3 +62,7 @@ Earlier launch dates, additional mount-specific masses and later catalogue gener
 ## Acolyte 2025 component revisions
 
 The [22 November MTB review](mtb-catalogue-followup-2026-11-22.md) adds nine weighted Acolyte records: two Ver.2 derailleurs, five single right-hand controls and two CS-H083 gearing variants. The original SpringLock derailleur remains unweighed and the existing 12–46T cassette retains 576 g. The group now has thirteen components; its 2021 documented availability does not date the later revisions to that year.
+
+## ADVENT X, XLE and Marvo LT in 2025
+
+The [2025 expansion](microshift-2025-expansion.md) adds 28 components and 26 weights, including single controls, explicitly published control-set weights and gearing-specific cassettes. XLE 11 is a separately named manufacturer offering, with 2025 recorded as reviewed availability rather than first introduction. It shares four derailleur identities with XLE 10; its earlier history remains unestablished. Historical XCD 11 and existing component identities are preserved.

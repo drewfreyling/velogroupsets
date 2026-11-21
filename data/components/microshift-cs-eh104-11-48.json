@@ -1,0 +1,41 @@
+{
+  "id": "microshift-cs-eh104-11-48",
+  "slug": "cs-eh104-11-48",
+  "name": "11–48T e-bike cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent-x"
+  ],
+  "type": "cassette",
+  "model_number": "CS-EH104",
+  "weight_g": 662,
+  "weight_description": "Manufacturer-listed 662 g for CS-EH104, 10-speed 11–48T e-bike, 11/13/15/18/21/24/28/34/40/48T. Lockring inclusion is assumed under the weight guidelines.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=6",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 6 / printed page 8: CS-EH104 exact configuration and manufacturer-listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–48T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      28,
+      34,
+      40,
+      48
+    ],
+    "finish": "ED Black",
+    "chromoly_sprockets_teeth": [
+      11
+    ]
+  }
+}

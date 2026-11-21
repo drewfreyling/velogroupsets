@@ -1,0 +1,37 @@
+{
+  "id": "microshift-cs-h092-11-34",
+  "slug": "cs-h092-11-34",
+  "name": "11–34T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-marvo-lt"
+  ],
+  "type": "cassette",
+  "model_number": "CS-H092",
+  "weight_g": 363,
+  "weight_description": "Manufacturer-listed 363 g for CS-H092, 9-speed 11–34T cassette, 11/13/15/17/19/21/24/28/34T. Lockring inclusion is assumed under the weight guidelines.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=12",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 12 / printed page 20: CS-H092 exact configuration and manufacturer-listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "11–34T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      24,
+      28,
+      34
+    ],
+    "finish": "Nickel plated"
+  }
+}

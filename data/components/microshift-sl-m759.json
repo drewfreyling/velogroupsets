@@ -1,0 +1,30 @@
+{
+  "id": "microshift-sl-m759",
+  "slug": "sl-m759",
+  "name": "Marvo LT Xpress Plus shifter pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-marvo-lt"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M759",
+  "weight_g": 271,
+  "weight_description": "Manufacturer-listed 271 g for the complete left/right SL-M759 2/3×9 Xpress Plus shifter set with indicator. This is the directly published set figure.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=12",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived manufacturer publication, PDF spread 12 / printed page 20: SL-M759 exact configuration and manufacturer-listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 9,
+    "indicator": true,
+    "supported_front_speeds": [
+      2,
+      3
+    ]
+  }
+}
