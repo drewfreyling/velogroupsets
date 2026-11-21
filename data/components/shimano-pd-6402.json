@@ -1,0 +1,30 @@
+{
+  "id": "shimano-pd-6402",
+  "slug": "pd-6402",
+  "name": "600 Ultegra clipless pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "pedals",
+  "model_number": "PD-6402",
+  "weight_g": 450,
+  "weight_description": "Manufacturer-listed 450 g for the complete left/right PD-6402 clipless pedal pair, excluding the separately listed 92 g cleat-and-hardware reference.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=49",
+    "title": "Shimano 1994 dealer product manual, PDF / printed page 49: PD-6402 assembly, specifications and group membership",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=49",
+      "title": "Shimano 1994 dealer product manual, PDF / printed page 49: PD-6402 assembly, specifications and group membership",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI",
+    "excludes_cleats": true
+  }
+}

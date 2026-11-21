@@ -62,3 +62,7 @@ The earlier ST-7400 560 g figure without an explicit pair basis is not reused. E
 Every historical range now has at least one component after the [coverage audit](shimano-component-coverage.md). These starter lists still need further verified components, and the newer MTB Di2 and GRX families need additional controls, brakes, cranksets, hubs and front derailleurs. Exage MTB/LX, STX RC, Tourney and later series outside these reviewed sources still need a separate membership/date review. No compatibility table alone establishes group membership. The [modern range review](modern-mtb-gravel.md) adds GRX RX820 and RX825. Genuine single right-hand 1× controls are now supported by an explicit configuration; individual weights are never fabricated into pair totals.
 
 The [rear-derailleur weight review](shimano-rear-derailleur-weights.md) supplies the earlier RD-M610-GS figure and documents why M560-GS and M737-GS still cannot use their SGS weights.
+
+## Headset and pedal follow-up
+
+The [1994 headset and pedal review](shimano-headsets-pedals-1994.md) adds the XT, LX and STX cartridge headset sizes listed on pages 17, 21 and 27, alongside missing pedal pairs. Unlisted headset weights remain unknown.

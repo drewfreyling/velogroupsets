@@ -1,0 +1,33 @@
+{
+  "id": "shimano-hp-m742",
+  "slug": "hp-m742",
+  "name": "Deore XT cartridge headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m737"
+  ],
+  "type": "headset",
+  "model_number": "HP-M742",
+  "weight_g": 143,
+  "weight_description": "Manufacturer-listed 143 g for the complete HP-M742 threaded cartridge headset with 39.9 mm stack height and 1 1/4 inch steerer. The figure is assigned to this exact model, not the adjacent steerer-size variants.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=17",
+    "title": "Shimano 1994 dealer product manual, PDF / printed page 17: HP-M742 assembly, specifications and group membership",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=17",
+      "title": "Shimano 1994 dealer product manual, PDF / printed page 17: HP-M742 assembly, specifications and group membership",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "headset_type": "Threaded cartridge",
+    "stack_height_mm": 39.9,
+    "steerer_diameter_inches": 1.25,
+    "thread": "BC 1 1/4 inch × 26 TPI",
+    "cup_race_diameter_mm": 37,
+    "crown_race_diameter_mm": 33
+  }
+}

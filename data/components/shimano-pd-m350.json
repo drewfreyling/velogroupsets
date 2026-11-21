@@ -1,0 +1,29 @@
+{
+  "id": "shimano-pd-m350",
+  "slug": "pd-m350",
+  "name": "STX platform pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc30"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M350",
+  "weight_g": 445,
+  "weight_description": "Manufacturer-listed 445 g for the complete left/right PD-M350 MTB platform pedal pair with two-screw toe-clip mounts. Toe-clip and reflector inclusion is not specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=29",
+    "title": "Shimano 1994 dealer product manual, PDF / printed page 29: PD-M350 assembly, specifications and group membership",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=29",
+      "title": "Shimano 1994 dealer product manual, PDF / printed page 29: PD-M350 assembly, specifications and group membership",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI"
+  }
+}

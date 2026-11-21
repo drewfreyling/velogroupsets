@@ -1,0 +1,30 @@
+{
+  "id": "shimano-hp-m563",
+  "slug": "hp-m563",
+  "name": "Deore LX cartridge headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m560"
+  ],
+  "type": "headset",
+  "model_number": "HP-M563",
+  "weight_g": 147,
+  "weight_description": "Manufacturer-listed 147 g for the complete HP-M563 threaded cartridge headset with 37.6 mm stack height and 1 inch steerer. The catalogue offers multiple thread/race standards without identifying the weighed standard.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=21",
+    "title": "Shimano 1994 dealer product manual, PDF / printed page 21: HP-M563 assembly, specifications and group membership",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=21",
+      "title": "Shimano 1994 dealer product manual, PDF / printed page 21: HP-M563 assembly, specifications and group membership",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "headset_type": "Threaded cartridge",
+    "stack_height_mm": 37.6,
+    "steerer_diameter_inches": 1
+  }
+}

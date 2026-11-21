@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1994 headset and pedal follow-up](shimano-headsets-pedals-1994.md) adds HP-6500 to 600 Ultegra 6400, seven MTB headsets and four pedal pairs: twelve records and nine sourced weights.
+
 The [1989 MTB review](shimano-mtb-1989.md) adds eight Deore XT II / Deore II records and thirteen newly sourced weights, qualifies SGS references, and withholds two conflicting earlier weights.
 
 The [1990 dealer-manual MTB review](shimano-mtb-1990.md) adds ten XT/DX/LX records, thirteen qualified weights and the explicit RD-M650-SS front-difference limit.

@@ -1,0 +1,29 @@
+{
+  "id": "shimano-pd-6500",
+  "slug": "pd-6500",
+  "name": "600 Ultegra SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ultegra-6400"
+  ],
+  "type": "pedals",
+  "model_number": "PD-6500",
+  "weight_g": 348,
+  "weight_description": "Manufacturer-listed 348 g for the complete left/right PD-6500 SPD pedal pair. The separately described fixed and rotating cleats are not added to the pedal weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=49",
+    "title": "Shimano 1994 dealer product manual, PDF / printed page 49: PD-6500 assembly, specifications and group membership",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=49",
+      "title": "Shimano 1994 dealer product manual, PDF / printed page 49: PD-6500 assembly, specifications and group membership",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI"
+  }
+}

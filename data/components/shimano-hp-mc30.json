@@ -1,0 +1,30 @@
+{
+  "id": "shimano-hp-mc30",
+  "slug": "hp-mc30",
+  "name": "STX Special Edition cartridge headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-special-edition-mc31"
+  ],
+  "type": "headset",
+  "model_number": "HP-MC30",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: complete HP-MC30 threaded cartridge headset for a 1 inch steerer, with 37.6 mm stack height. The reviewed 1994 table identifies this model but gives no weight for it; an adjacent model’s figure is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=27",
+    "title": "Shimano 1994 dealer product manual, PDF / printed page 27: HP-MC30 assembly, specifications and group membership",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=27",
+      "title": "Shimano 1994 dealer product manual, PDF / printed page 27: HP-MC30 assembly, specifications and group membership",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "headset_type": "Threaded cartridge",
+    "stack_height_mm": 37.6,
+    "steerer_diameter_inches": 1
+  }
+}
