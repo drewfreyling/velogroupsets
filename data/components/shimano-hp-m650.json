@@ -1,0 +1,28 @@
+{
+  "id": "shimano-hp-m650",
+  "slug": "hp-m650",
+  "name": "Deore DX threaded headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-dx-m650"
+  ],
+  "type": "headset",
+  "model_number": "HP-M650",
+  "weight_g": 121,
+  "weight_description": "Manufacturer-listed 121 g for the complete HP-M650 off-road headset. The manual lists this model separately from the other headset; the weighed thread/race variant is not identified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=47",
+    "title": "Shimano 1990 dealer product manual, PDF page 47 / printed page 44: HP-M650 exact assembly, group and published reference configuration",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=47",
+      "title": "Shimano 1990 dealer product manual, PDF page 47 / printed page 44: HP-M650 exact assembly, group and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "headset_type": "Threaded"
+  }
+}

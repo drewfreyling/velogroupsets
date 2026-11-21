@@ -1,0 +1,31 @@
+{
+  "id": "shimano-st-m060",
+  "slug": "st-m060",
+  "name": "Deore LX Rapidfire combined shift/brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m550"
+  ],
+  "type": "shifters",
+  "model_number": "ST-M060",
+  "weight_g": 326,
+  "weight_description": "Manufacturer-listed 326 g for the complete left/right ST-M060 four-finger Rapidfire combined shift/brake pair. The source explicitly marks the reference as Pair; it is not the two-finger ST-M071 or ST-M091 model.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=51",
+    "title": "Shimano 1990 dealer product manual, PDF page 51 / printed page 48: ST-M060 exact assembly, group and published reference configuration",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=51",
+      "title": "Shimano 1990 dealer product manual, PDF page 51 / printed page 48: ST-M060 exact assembly, group and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 7,
+    "brake_lever_style": "4-finger",
+    "clamp_diameter_mm": 22.2
+  }
+}

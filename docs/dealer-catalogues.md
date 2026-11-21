@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1990 dealer-manual MTB review](shimano-mtb-1990.md) adds ten XT/DX/LX records, thirteen qualified weights and the explicit RD-M650-SS front-difference limit.
+
 The [1987 early MTB review](shimano-mtb-1987.md) adds Deore XT/Deore controls, six sourced weights and model-specific rear-derailleur limits with their fork-end condition.
 
 The [June 1984 technical catalogue review](shimano-600-ex-1984.md) adds missing 600 EX 6207 records, six sourced weights and derailleur limits, including the long-cage fork-end condition.

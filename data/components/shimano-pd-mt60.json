@@ -1,0 +1,29 @@
+{
+  "id": "shimano-pd-mt60",
+  "slug": "pd-mt60",
+  "name": "Deore DX pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-dx-m650"
+  ],
+  "type": "pedals",
+  "model_number": "PD-MT60",
+  "weight_g": 412,
+  "weight_description": "Manufacturer-listed 412 g for the complete left/right PD-MT60 pedal pair; accessory inclusion is not specified. The source explicitly labels the weight as a pair.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=47",
+    "title": "Shimano 1990 dealer product manual, PDF page 47 / printed page 44: PD-MT60 exact assembly, group and published reference configuration",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=47",
+      "title": "Shimano 1990 dealer product manual, PDF page 47 / printed page 44: PD-MT60 exact assembly, group and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI"
+  }
+}

@@ -20,6 +20,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=59",
       "title": "Shimano 1991 dealer product manual, PDF page 59 (printed 56): RD-M650 cage-specific weights and limits",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=47",
+      "title": "Shimano 1990 dealer product manual, PDF page 47 / printed page 44: RD-M650-SS explicitly listed 13T front difference, distinct from the SGS 20T limit",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
@@ -31,6 +36,6 @@
     "total_capacity_teeth": 28,
     "maximum_sprocket_teeth": 28,
     "minimum_sprocket_teeth": 12,
-    "maximum_front_difference_teeth": null
+    "maximum_front_difference_teeth": 13
   }
 }

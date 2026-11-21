@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-M550",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 119,
+  "weight_description": "Manufacturer-listed 119 g for the normal-band FD-M550 front derailleur. The 1990 table identifies an actual 28.0–28.6 mm band range; the figure does not describe the separate 31.8/34.9 mm EC clamp options.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-M550-1013/EV-FD-M550-1013A.pdf",
     "title": "Shimano FD-M550 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-M550-1013/EV-FD-M550-1013A.pdf",
       "title": "Shimano FD-M550 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=51",
+      "title": "Shimano 1990 dealer product manual, PDF page 51 / printed page 48: FD-M550 normal-band weight and actual 28.0–28.6 mm fitting range",
+      "retrieved_on": "2026-11-21"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
+      28,
+      28.6
+    ],
+    "reference_mount": "Normal band"
+  }
 }

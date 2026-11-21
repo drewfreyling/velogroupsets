@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fc-mt60-sg",
+  "slug": "fc-mt60-sg",
+  "name": "Deore DX SG triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-dx-m650"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MT60-SG",
+  "weight_g": 740,
+  "weight_description": "Manufacturer-listed 740 g for the FC-MT60-SG triple crankset, 170 mm arms and 48/38/28T chainrings, excluding the separately listed BB-MT60 set. The table does not identify whether Biopace or round rings were weighed. This SG reference is distinct from the existing unsuffixed FC-MT60 record.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=47",
+    "title": "Shimano 1990 dealer product manual, PDF page 47 / printed page 44: FC-MT60-SG exact assembly, group and published reference configuration",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=47",
+      "title": "Shimano 1990 dealer product manual, PDF page 47 / printed page 44: FC-MT60-SG exact assembly, group and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      48,
+      38,
+      28
+    ],
+    "front_speeds": 3,
+    "includes_bottom_bracket": false
+  }
+}

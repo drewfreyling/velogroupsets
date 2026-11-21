@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bb-m500",
+  "slug": "bb-m500",
+  "name": "Shimano MTB square-taper bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m550"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-M500",
+  "weight_g": 339,
+  "weight_description": "Manufacturer-listed 339 g for the complete BB-M500 square-taper BB set with 121.1 mm spindle, listed with Deore LX FC-M550. The weighed thread/shell variant is not specified; no crankset weight is subtracted or reused.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=51",
+    "title": "Shimano 1990 dealer product manual, PDF page 51 / printed page 48: BB-M500 exact assembly, group and published reference configuration",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=51",
+      "title": "Shimano 1990 dealer product manual, PDF page 51 / printed page 48: BB-M500 exact assembly, group and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_mm": 121.1
+  }
+}

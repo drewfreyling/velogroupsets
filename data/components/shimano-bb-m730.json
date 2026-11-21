@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bb-m730",
+  "slug": "bb-m730",
+  "name": "Shimano MTB square-taper bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m735"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-M730",
+  "weight_g": 295,
+  "weight_description": "Manufacturer-listed 295 g for the complete BB-M730 square-taper BB set with 122.5 mm spindle and 68 mm shell reference. The weighed thread variant is not specified; no crankset weight is subtracted or reused.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=41",
+    "title": "Shimano 1990 dealer product manual, PDF page 41 / printed page 38: BB-M730 exact assembly, group and published reference configuration",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=41",
+      "title": "Shimano 1990 dealer product manual, PDF page 41 / printed page 38: BB-M730 exact assembly, group and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_mm": 122.5,
+    "shell_width_mm": 68
+  }
+}

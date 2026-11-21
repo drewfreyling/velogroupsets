@@ -1,0 +1,39 @@
+{
+  "id": "shimano-cs-hg90-7-e",
+  "slug": "cs-hg90-7-e",
+  "name": "Shimano seven-speed cassette (E group)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m735"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG90",
+  "weight_g": 325,
+  "weight_description": "Manufacturer-listed 325 g for the seven-speed E-group 12–28T CS-HG90 sprockets and spacers. Lockring inclusion is assumed under the weight guidelines. This is distinct from the existing I-group 13–23T reference, whose conflicting weight remains unknown.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=41",
+    "title": "Shimano 1990 dealer product manual, PDF page 41 / printed page 38: CS-HG90 exact assembly, group and published reference configuration",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=41",
+      "title": "Shimano 1990 dealer product manual, PDF page 41 / printed page 38: CS-HG90 exact assembly, group and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "sprocket_group": "E",
+    "sprocket_range": "12–28T",
+    "sprockets_teeth": [
+      12,
+      14,
+      16,
+      18,
+      21,
+      24,
+      28
+    ]
+  }
+}
