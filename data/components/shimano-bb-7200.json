@@ -1,0 +1,32 @@
+{
+  "id": "shimano-bb-7200",
+  "slug": "bb-7200",
+  "name": "Dura-Ace square-taper bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-7200",
+  "weight_g": null,
+  "weight_description": "No manufacturer weight is given for the complete BB-7200 assembly with an identified spindle. The source lists 112 mm for a 68 mm shell and 113 mm for a 70 mm shell; these are options, not weighed references.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 61 / printed page 58: BB-7200 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "available_spindle_lengths_mm": [
+      112,
+      113
+    ],
+    "available_shell_widths_mm": [
+      68,
+      70
+    ]
+  }
+}

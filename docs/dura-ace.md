@@ -1,6 +1,6 @@
 # Shimano Dura-Ace coverage
 
-The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the conventional-pitch 7500 and 7600/7710 track ranges. There are 16 groupset records and 192 component identities across 216 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
+The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the conventional-pitch 7500 and 7600/7710 track ranges. There are 16 groupset records and 202 component identities across 226 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
 
 ## Dates and families
 
@@ -68,7 +68,7 @@ The archive year identifies the edition as filed by the host; it does not establ
 
 ## Weights and remaining gaps
 
-126 component records have sourced weights compliant with the [weight guidelines](weights-guidelines.md), including six added by the [catalogue/handbook review](dealer-catalogues.md). The other 66 retain explicit null weights. Null means an acceptable reference configuration has not yet been recorded, not that the component cannot be weighed.
+128 component records have sourced weights compliant with the [weight guidelines](weights-guidelines.md), including six added by the [catalogue/handbook review](dealer-catalogues.md). The other 74 retain explicit null weights. Null means an acceptable reference configuration has not yet been recorded, not that the component cannot be weighed.
 
 Crank weights identify arm length and chainrings and exclude the bottom bracket. FC-7800 remains unknown because the 2008 figure includes the bottom bracket; it is not reduced by an estimated bearing weight. Front-derailleur weights identify the mount, including the 28.6 mm clamp for the FD-7400-B reference. Shifter weights are published pair weights. The new SL-7401-FCAI and SL-7402-FCAI entries remain null because their source figures do not explicitly establish a pair. BL-7300’s single-lever figure is not doubled. FD-7300 also remains null: the catalogue lists two band sizes without identifying the weighed clamp. Cassette weights identify speed count and tooth range; lockring inclusion is assumed under the contribution policy. Quick-release hub weights require a source separating or excluding the skewer. The 1991 catalogue explicitly labels FH-7402-8’s 460 g as including quick release, so it remains null. Large-flange HB-7600 front/rear weights now use the 1991 nut-fastened, hollow-axle references: 241 g front and 313 g rear including lockring. These track hubs use axle nuts rather than quick-release skewers; no skewer mass was subtracted. Other track-hub weights and the 2001 hub figures remain withheld without qualifying evidence.
 
@@ -111,3 +111,7 @@ The [June 1978 review](shimano-1978.md) adds the original EX road spread to its 
 ## Early catalogue import after source-policy change
 
 The [early Shimano import](shimano-early-catalogue-import.md) adds eleven original Dura-Ace components and eleven EX components, with nine compliant weights. Earlier review sections record the document-link blocker at the time; that blocker no longer applies. Unspecified shifter-pair, crank and QR-hub weight references remain unknown.
+
+## 1981–82 component follow-up
+
+The [22 November follow-up](shimano-early-followup-2026-11-22.md) adds RD-7100 (174 g), FD-7100 (110 g with its identified clamp), the FC-7110/BB-7200 assemblies, HP-7100 and large-flange HB-7120 hubs. PD-7200 and the FD-7322/SP-7322 oval variants are also included with unknown weights. These period availability references do not date the numbered models to the 1973 launch.

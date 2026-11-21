@@ -1,0 +1,26 @@
+{
+  "id": "shimano-sl-qb11",
+  "slug": "sl-qb11",
+  "name": "600 QB-Lever DX shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-original"
+  ],
+  "type": "shifters",
+  "model_number": "SL-QB11",
+  "weight_g": null,
+  "weight_description": "Complete left/right QB-Lever DX pair. The source gives 88 g without explicitly stating a complete-pair basis. No undocumented equivalence to SL-6100 is asserted.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Shimano Bicycle System Components, 1981, PDF page 43: SL-QB11 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Down tube",
+    "clamp_diameter_mm": 28.575
+  }
+}

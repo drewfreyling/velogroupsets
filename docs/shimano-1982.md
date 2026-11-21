@@ -1,5 +1,8 @@
 # Shimano April 1982: full catalogue gap review
 
+**22 November follow-up:** the [early-model import](shimano-early-followup-2026-11-22.md) resolves further inventory/document-link gaps under the optional-link policy, adding 26 components and five weights across the reviewed editions. The original review below records the earlier batch and its findings.
+
+
 Reviewed on 21 November 2026 from the [owner-supplied original Shimano Bicycle System Components catalogue](https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view). The scan contains **144 PDF pages**. Its final page states copyright April 1982 and print code `0482 C1/22M`; PDF metadata is not used as its publication date. For the numbered product sections, printed page numbers are PDF page numbers minus three.
 
 This follows the earlier [600 EX review](shimano-600-ex-1982.md), rather than repeating that import. It adds **43 component records**, **two groupsets** and **12 previously unknown weights**: eleven new-record weights and the existing BB-SL31 reference. It also fills **six rear-derailleur limit fields across four existing Altus records**. The catalogue contains 261 groupsets and 1,561 components after this batch.

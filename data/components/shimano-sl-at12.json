@@ -1,0 +1,27 @@
+{
+  "id": "shimano-sl-at12",
+  "slug": "sl-at12",
+  "name": "Altus-LT stem shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-selecta-road"
+  ],
+  "type": "shifters",
+  "model_number": "SL-AT12",
+  "weight_g": null,
+  "weight_description": "Complete left/right stem control pair. The 94 g source figure does not explicitly state pair basis; single-lever availability is also listed. No side figure is doubled.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 89 / printed page 86: SL-AT12 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Handle stem",
+    "clamp_diameter_mm": 22.225,
+    "system": "Centeron"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-6100",
+  "slug": "rd-6100",
+  "name": "600 short-cage rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-original"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6100",
+  "weight_g": 235,
+  "weight_description": "Manufacturer-listed original Shimano 600 RD-6100 short-cage derailleur, 235 g. The optional long-cage RD-6101 has no separately established weight and is not assigned this figure.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Shimano Bicycle System Components, 1981, PDF page 42: RD-6100 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 65 / printed page 62: RD-6100 short-cage specification, total/front/sprocket limits and separate RD-6101 long-cage option",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 13,
+    "cage": "Short"
+  }
+}

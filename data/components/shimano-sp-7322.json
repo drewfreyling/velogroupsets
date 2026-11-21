@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sp-7322",
+  "slug": "sp-7322",
+  "name": "Dura-Ace AX oval E-tube seatpost",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "seatpost",
+  "model_number": "SP-7322",
+  "weight_g": null,
+  "weight_description": "The source explicitly identifies SP-7322 oval E-tube but lists weights only for SP-7300 and SP-7310. Neither figure is transferred.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 36 / printed page 33: SP-7322 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "tube_profile": "Oval E",
+    "tube_dimensions_mm": [
+      18.5,
+      29
+    ]
+  }
+}

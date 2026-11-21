@@ -1,0 +1,33 @@
+{
+  "id": "shimano-hb-6120-r",
+  "slug": "hb-6120-r",
+  "name": "600 large-flange rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-original"
+  ],
+  "type": "rear-hub",
+  "model_number": "HB-6120",
+  "weight_g": null,
+  "weight_description": "The source publishes quick-release hub assembly weights without explicitly excluding the skewer. No skewer deduction is made; the canonical weight remains unknown.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 66 / printed page 63: HB-6120 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "flange": "Large",
+    "available_over_locknut_dimensions_mm": [
+      120,
+      126
+    ],
+    "available_rear_speeds": [
+      5,
+      6
+    ]
+  },
+  "weight_excludes_skewers": true
+}

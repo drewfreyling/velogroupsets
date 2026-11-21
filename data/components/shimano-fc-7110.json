@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fc-7110",
+  "slug": "fc-7110",
+  "name": "Dura-Ace double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "crankset",
+  "model_number": "FC-7110",
+  "weight_g": null,
+  "weight_description": "The catalogue identifies FC-7110 and its crank/chainring options but gives no complete crankset weight for an identified arm length and chainring combination. BB-7200 is a separate assembly.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 61 / printed page 58: FC-7110 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Shimano Bicycle System Components, 1981, PDF page 39: FC-7110 crankset and separately listed BB-7200",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "includes_bottom_bracket": false,
+    "available_crank_lengths_mm": [
+      165,
+      167.5,
+      170,
+      172.5,
+      175
+    ]
+  }
+}

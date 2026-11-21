@@ -1,0 +1,31 @@
+{
+  "id": "shimano-sl-bc10",
+  "slug": "sl-bc10",
+  "name": "600 bar-end shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-original"
+  ],
+  "type": "shifters",
+  "model_number": "SL-BC10",
+  "weight_g": 160,
+  "weight_description": "Manufacturer explicitly lists 160 g per left/right SL-BC10 bar-end control pair, with spiral balance springs. This is a directly published pair figure, not one control doubled.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 69 / printed page 66: SL-BC10 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Shimano Bicycle System Components, 1981, PDF page 42: SL-BC10, old number LD-500, explicitly listed at 160 g per pair",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Bar-end",
+    "previous_model_number": "LD-500"
+  }
+}

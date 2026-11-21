@@ -220,7 +220,7 @@ The catalogue includes all nine [Shimano 105 generations](shimano-105.md), repre
 
 ## Shimano Dura-Ace coverage
 
-The [Dura-Ace source guide](dura-ace.md) documents 16 road/track offerings and 192 component identities, from the original 1973 family through R9200. Mechanical/Di2 parts share canonical identities where listed by Shimano. The original family now includes the manufacturer-documented HB-7110-F hub after the [component coverage audit](shimano-component-coverage.md); the early catalogue import now adds eleven explicitly coded original-range components with `technical_document: null`. See the guide for dates, source editions, weight configurations and remaining variant gaps.
+The [Dura-Ace source guide](dura-ace.md) documents 16 road/track offerings and 202 component identities, from the original 1973 family through R9200. Mechanical/Di2 parts share canonical identities where listed by Shimano. The original family now includes the manufacturer-documented HB-7110-F hub after the [component coverage audit](shimano-component-coverage.md); the early catalogue import now adds eleven explicitly coded original-range components with `technical_document: null`. See the guide for dates, source editions, weight configurations and remaining variant gaps.
 
 ## Exage road range coverage
 

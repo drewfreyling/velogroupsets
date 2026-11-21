@@ -1,0 +1,26 @@
+{
+  "id": "shimano-sl-6100",
+  "slug": "sl-6100",
+  "name": "600 down-tube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-original"
+  ],
+  "type": "shifters",
+  "model_number": "SL-6100",
+  "weight_g": null,
+  "weight_description": "Complete left/right pair. The source gives 88 g without explicitly stating a complete-pair basis; no side is doubled.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 65 / printed page 62: SL-6100 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Down tube",
+    "clamp_diameter_mm": 28.575
+  }
+}

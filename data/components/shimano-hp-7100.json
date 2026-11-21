@@ -1,0 +1,22 @@
+{
+  "id": "shimano-hp-7100",
+  "slug": "hp-7100",
+  "name": "Dura-Ace road headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "headset",
+  "model_number": "HP-7100",
+  "weight_g": null,
+  "weight_description": "The original manufacturer catalogue identifies the complete HP-7100 road headset and parts but gives no headset weight.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 64 / printed page 61: HP-7100 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {}
+}

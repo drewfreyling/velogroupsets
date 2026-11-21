@@ -1,0 +1,25 @@
+{
+  "id": "shimano-sl-ad12",
+  "slug": "sl-ad12",
+  "name": "Adamas AX down tube, b type shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "shifters",
+  "model_number": "SL-AD12",
+  "weight_g": null,
+  "weight_description": "Complete left/right pair in the documented mounting configuration. The shared 63 g figure does not explicitly identify this model and a complete-pair basis; no weight is inferred.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 77 / printed page 74: SL-AD12 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Down tube, B type"
+  }
+}

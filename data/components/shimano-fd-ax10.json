@@ -1,0 +1,29 @@
+{
+  "id": "shimano-fd-ax10",
+  "slug": "fd-ax10",
+  "name": "Positron AX front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ax-road"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-AX10",
+  "weight_g": null,
+  "weight_description": "The catalogue gives 190 g for the body and 55 g for a separate cable guide, and offers 28.6/25.4 mm inlet sizes without selecting the weighed assembly. No complete mount-specific weight is established or calculated.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 88 / printed page 85: FD-AX10 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "available_clamp_diameters_mm": [
+      25.4,
+      28.6
+    ],
+    "capacity_teeth": 14
+  }
+}

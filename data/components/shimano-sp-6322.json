@@ -1,0 +1,28 @@
+{
+  "id": "shimano-sp-6322",
+  "slug": "sp-6322",
+  "name": "600 AX oval E-tube seatpost",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ax-6300"
+  ],
+  "type": "seatpost",
+  "model_number": "SP-6322",
+  "weight_g": null,
+  "weight_description": "The source names SP-6322 oval E-tube, but its 268/270 g references select SP-6300/SP-6310 at 26.8 mm. Neither figure is transferred.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 42 / printed page 39: SP-6322 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "tube_profile": "Oval E",
+    "tube_dimensions_mm": [
+      18.5,
+      29
+    ]
+  }
+}

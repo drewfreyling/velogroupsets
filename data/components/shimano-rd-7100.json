@@ -1,0 +1,27 @@
+{
+  "id": "shimano-rd-7100",
+  "slug": "rd-7100",
+  "name": "Dura-Ace rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-original"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-7100",
+  "weight_g": 174,
+  "weight_description": "Manufacturer-listed RD-7100 complete rear derailleur, 174 g, in the 1981 Dura-Ace road ensemble. The source does not separately identify optional mounting accessories in the weight.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Shimano Bicycle System Components, 1981, PDF page 38: RD-7100 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": 26,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 13
+  }
+}

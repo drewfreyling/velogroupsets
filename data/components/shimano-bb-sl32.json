@@ -1,0 +1,25 @@
+{
+  "id": "shimano-bb-sl32",
+  "slug": "bb-sl32",
+  "name": "Integer AX Octa Joint bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ax-road"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-SL32",
+  "weight_g": 325,
+  "weight_description": "Manufacturer-listed BB-SL32 Octa Joint bottom-bracket parts, 325 g, separately from the FC-AX21 chainwheel/protector figures. The weighed spindle/shell variant is not selected. This is not a square-taper assembly and is not asserted to be BB-AX31.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 87 / printed page 84: BB-SL32 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "interface": "Octa Joint",
+    "reference_crankset": "FC-AX21"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-7322",
+  "slug": "fd-7322",
+  "name": "Dura-Ace AX oval C-tube braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-7322",
+  "weight_g": null,
+  "weight_description": "No weight is specifically identified for the FD-7322 oval C-tube assembly. The generic 88 g braze-on figure does not select this mounting variant.",
+  "technical_document": null,
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Shimano Bicycle System Components, 1982, PDF page 29 / printed page 26: FD-7322 identity, configuration and listed specifications",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "tube_profile": "Oval C",
+    "tube_dimensions_mm": [
+      18,
+      34.1
+    ],
+    "capacity_teeth": 14
+  }
+}

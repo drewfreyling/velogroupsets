@@ -1,5 +1,8 @@
 # Shimano Bicycle System Components 1981: catalogue gap review
 
+**22 November follow-up:** the [early-model import](shimano-early-followup-2026-11-22.md) resolves further inventory/document-link gaps under the optional-link policy, adding 26 components and five weights across the reviewed editions. The original review below records the earlier batch and its findings.
+
+
 Reviewed on 21 November 2026 from the [owner-supplied original Shimano catalogue](https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view). The cover explicitly says **1981**. The scan contains 59 PDF pages, including technical explanations, compatibility charts and product spreads. Page numbers below are **PDF pages**; the scan includes unnumbered material and does not have a constant offset from printed pagination.
 
 The review adds **41 component records**, **two groupsets** and **18 newly sourced weights**: 17 in new records and one in the existing FD-AT12 record. The catalogue contains 259 groupsets and 1,518 components after this batch. Existing component IDs, slugs, model numbers and primary documents are preserved. BB-6210 gains an explicitly documented Deore touring membership; BB-7500 gains the listed 7500 track membership. Dura-Ace 10 gains its sourced **track** category correction.
