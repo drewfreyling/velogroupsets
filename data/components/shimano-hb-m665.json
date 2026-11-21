@@ -1,0 +1,30 @@
+{
+  "id": "shimano-hb-m665",
+  "slug": "hb-m665",
+  "name": "SLX front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m660"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-M665",
+  "weight_g": 189,
+  "weight_description": "Manufacturer-listed HB-M665 hub weight without quick-release skewer. The table explicitly defines hub weights as without QR and lists the 59 g quick release separately; no subtraction is used. The weighed spoke-hole variant is not identified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=209",
+    "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 209: HB-M665 group, hub specification and 189 g without QR; separate 59 g QR",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=209",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 209: HB-M665 group, hub specification and 189 g without QR; separate 59 g QR",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Quick release",
+    "rotor_mount": "Center Lock"
+  },
+  "weight_excludes_skewers": true
+}

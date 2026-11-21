@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [Shimano 2009 follow-up](shimano-2009.md) adds **21 components and 16 newly published weights**, including cage-specific XTR/XT/SLX derailleurs and explicitly skewer-free hubs, and fills four XTR derailleur limits.
+
 The [ADVENT/Super Short and 2021 follow-up](microshift-advent-super-short.md) adds **36 components and 29 weights**, the ADVENT range, direct-mount front-derailleur support and earlier 2021 XLE 11 availability from directly downloaded manufacturer PDFs.
 
 The [microSHIFT 2025 expansion](microshift-2025-expansion.md) adds **28 components, 26 weights and the named XLE 11 range**, with shared XLE derailleur identities and two conflicting medium-cage weights retained as unknown.

@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fh-m975",
+  "slug": "fh-m975",
+  "name": "XTR rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m970"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-M975",
+  "weight_g": 270,
+  "weight_description": "Manufacturer-listed FH-M975 hub weight without quick-release skewer. The table explicitly defines hub weights as without QR and lists the 62 g quick release separately; no subtraction is used. The weighed spoke-hole variant is not identified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=208",
+    "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 208: FH-M975 group, hub specification and 270 g without QR; separate 62 g QR",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=208",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 208: FH-M975 group, hub specification and 270 g without QR; separate 62 g QR",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Quick release",
+    "rotor_mount": "Center Lock"
+  },
+  "weight_excludes_skewers": true
+}

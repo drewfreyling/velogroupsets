@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bl-r400",
+  "slug": "bl-r400",
+  "name": "Road brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4500",
+    "shimano-sora-3400"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-R400",
+  "weight_g": 258,
+  "weight_description": "Manufacturer-listed BL-R400 left/right road brake-lever pair, 258 g. The table explicitly labels this a pair weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=219",
+    "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 219: BL-R400 Tiagra/Sora road lever pair, 258 g",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=219",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 219: BL-R400 Tiagra/Sora road lever pair, 258 g",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

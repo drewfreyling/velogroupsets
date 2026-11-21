@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m662-gs",
+  "slug": "rd-m662-gs",
+  "name": "SLX GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m660"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M662-GS",
+  "weight_g": 253,
+  "weight_description": "Manufacturer-listed RD-M662 GS-cage nine-speed rear derailleur.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=209",
+    "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 209: RD-M662 GS model, group, cage-specific limits and 253 g weight",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=209",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 209: RD-M662 GS model, group, cage-specific limits and 253 g weight",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 9,
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22
+  }
+}

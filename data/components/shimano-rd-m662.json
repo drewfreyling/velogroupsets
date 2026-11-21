@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-M662",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 258,
+  "weight_description": "Manufacturer-listed RD-M662 SGS-cage nine-speed rear derailleur, 258 g. The GS reference is separately listed at 253 g and is not used for this selected SGS record.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-M662-2814/EV-RD-M662-2814.pdf",
     "title": "Shimano RD-M662 manufacturer exploded view: model identification, series and replacement parts",
@@ -25,6 +25,11 @@
       "url": "https://si.shimano.com/en/pdfs/si/6PZRA/SI-6PZRA-003-ENG.pdf",
       "title": "Shimano SI-6PZRA: RD-M662 capacity and sprocket limits, selected SGS reference",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=209",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 209: RD-M662 SGS cage-specific weight and limits",
+      "retrieved_on": "2026-11-22"
     }
   ],
   "specifications": {
@@ -33,6 +38,7 @@
     "minimum_sprocket_teeth": 11,
     "maximum_front_difference_teeth": 22,
     "cage": "SGS",
-    "reference_configuration": "Selected manufacturer cage/table reference; limits are not combined with another cage option."
+    "reference_configuration": "Selected manufacturer cage/table reference; limits are not combined with another cage option.",
+    "rear_speeds": 9
   }
 }

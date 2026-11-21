@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m971-gs",
+  "slug": "rd-m971-gs",
+  "name": "XTR GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m970"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M971-GS",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the 2009 table identifies RD-M971 GS and its limits but does not publish a weight for this cage. Weights for other models or cages are not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=208",
+    "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 208: RD-M971 GS model, group, cage-specific limits; no cage-specific weight",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=208",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 208: RD-M971 GS model, group, cage-specific limits; no cage-specific weight",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 9,
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22
+  }
+}

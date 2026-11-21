@@ -1,0 +1,30 @@
+{
+  "id": "shimano-hp-5501",
+  "slug": "hp-5501",
+  "name": "105 threaded cartridge headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5600"
+  ],
+  "type": "headset",
+  "model_number": "HP-5501",
+  "weight_g": 106,
+  "weight_description": "Manufacturer-listed complete HP-5501 threaded cartridge headset, 106 g, with BC 1 inch × 24 TPI thread and 37.6 mm stack height.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=220",
+    "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 220: HP-5501 105 headset, 106 g and configuration",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=220",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 220: HP-5501 105 headset, 106 g and configuration",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "headset_type": "Threaded cartridge",
+    "stack_height_mm": 37.6,
+    "steerer_diameter_inches": 1
+  }
+}

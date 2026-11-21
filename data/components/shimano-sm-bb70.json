@@ -1,0 +1,36 @@
+{
+  "id": "shimano-sm-bb70",
+  "slug": "sm-bb70",
+  "name": "Hollowtech II bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m770",
+    "shimano-slx-m660"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-BB70",
+  "weight_g": 93,
+  "weight_description": "Manufacturer-listed SM-BB70 external bottom bracket, including spacers, for the documented 68/73 mm shell application. This is the separate bottom-bracket figure; no crankset total is used.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=205",
+    "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 205: SM-BB70 separate 93 g bottom-bracket weight including spacers; Deore XT application also on page 204",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=205",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 205: SM-BB70 separate 93 g bottom-bracket weight including spacers; Deore XT application also on page 204",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=204",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 204: SM-BB70 bottom bracket listed with Deore XT FC-M770",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II external bearing cups",
+    "shell_width_mm": "68/73",
+    "includes_spacers": true
+  }
+}

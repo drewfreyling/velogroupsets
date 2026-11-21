@@ -1,0 +1,40 @@
+{
+  "id": "shimano-hb-2200",
+  "slug": "hb-2200",
+  "name": "Road front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-2200",
+    "shimano-sora-3400"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-2200",
+  "weight_g": 149,
+  "weight_description": "Manufacturer-listed HB-2200 hub weight without quick-release skewer. The table explicitly defines hub weights as without QR and lists the 80 g quick release separately; no subtraction is used. The weighed spoke-hole variant is not identified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=219",
+    "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 219: HB-2200 group, hub specification and 149 g without QR; separate 80 g QR",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=219",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 219: HB-2200 group, hub specification and 149 g without QR; separate 80 g QR",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=143",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 143: Sora 3400 product spread explicitly names HB-2200 as its shared front hub",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=218",
+      "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 218: facing-table front-hub weight row explicitly labelled without QR (QR weight)",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Quick release"
+  },
+  "weight_excludes_skewers": true
+}
