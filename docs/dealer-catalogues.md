@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [June 1978 review](shimano-1978.md) indexes the Dura-Ace EX/600 EX early codes and their weight/limit leads, plus BMX and Positron systems. Both road groupsets now cite their spreads; exact component documents or documented early-code aliases remain missing.
+
 The [1973 catalogue review](shimano-1973.md) adds the original Dura-Ace spread to the range’s citations and records early component codes, including the 112 mm G-520 bottom-bracket weight lead and B-900 oil disc brake. Component imports remain blocked by missing matching manufacturer-hosted technical documents.
 
 The [1972 catalogue review](shimano-1972.md) records early Crane/Titlist/Tourney/Lark/Eagle model and weight leads, the unnumbered Dura-Ace chainwheel and B700 disc system. Exact manufacturer-hosted primary documents were not found, so these remain documented research findings rather than canonical imports.

@@ -103,3 +103,7 @@ The [1972 source review](shimano-1972.md#unnumbered-dura-ace-chainwheel) finds a
 ## 1973 original-range catalogue
 
 The [1973 full-edition review](shimano-1973.md) adds the original manufacturer spread to the original range’s source citations. It explicitly names Crane D-501, Titlist E-304, G-210/G-220 cranks and G-520 bracket fittings; these early codes are not aliases for later FC/BB/RD model numbers. The G-520 is listed at 300 g with a 112 mm spindle. Exact manufacturer-hosted component documents remain missing, so no new component identity or canonical weight is imported.
+
+## June 1978 EX catalogue
+
+The [June 1978 review](shimano-1978.md) adds the original EX road spread to its groupset sources and records DA-200, EA-200, MA-200 and other early codes. It preserves position-specific brake figures and explicit lever-pair references as research leads; no unverified equivalence to later RD/FD/BR/BL identities or new canonical component weight is introduced.
