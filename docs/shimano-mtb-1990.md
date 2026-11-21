@@ -49,3 +49,7 @@ The new CS-HG90 record is the **E-group 12–28T** combination: 12/14/16/18/21/2
 On PDF page 47, **RD-M650-SS explicitly has a 13T front difference**, while SGS has 20T. This fills the SS field from the manufacturer's own row rather than calculating it from total capacity or borrowing the SGS limit. Existing weights and other limits are unchanged. The XT short-cage front difference remains unknown because that value is not established by these selected tables.
 
 Hub rows do not override the skewer rule: the rear hub references explicitly include quick release, and the front entries either include quick release or fail to establish its exclusion. No canonical hub mass is added or derived by subtraction. This review covers the selected XT/DX/LX tables, not every page or model in the manual.
+
+## Follow-up source review
+
+The subsequent [1989 catalogue review](shimano-mtb-1989.md) finds a conflicting 495 g PD-MT60 pair figure. Its canonical weight is now unknown pending configuration evidence; the 1990 manual’s 412 g citation is retained. The figures above describe the original review outcome.

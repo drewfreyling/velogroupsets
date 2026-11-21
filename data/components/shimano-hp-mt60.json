@@ -1,0 +1,38 @@
+{
+  "id": "shimano-hp-mt60",
+  "slug": "hp-mt60",
+  "name": "Deore II threaded headset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-ii"
+  ],
+  "type": "headset",
+  "model_number": "HP-MT60",
+  "weight_g": 121,
+  "weight_description": "Manufacturer-listed 121 g for the complete HP-MT60 off-road threaded headset; the catalogue lists the English/Italian BC 1 inch × 24 TPI reference with 30.2 mm upper/lower cup race and 26.4 mm crown race, 33.5 mm total stack and 11.5 mm lower stack.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HP-MT60-0844/EV-HP-MT60-0844A.pdf",
+    "title": "Shimano HP-MT60 manufacturer exploded view: complete assembly identification and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HP-MT60-0844/EV-HP-MT60-0844A.pdf",
+      "title": "Shimano HP-MT60 manufacturer exploded view: complete assembly identification and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 27: HP-MT60 exact group membership, assembly and reference weight",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "headset_type": "Threaded",
+    "thread": "BC 1 inch × 24 TPI",
+    "cup_race_diameter_mm": 30.2,
+    "crown_race_diameter_mm": 26.4,
+    "total_stack_height_mm": 33.5,
+    "lower_stack_height_mm": 11.5
+  }
+}

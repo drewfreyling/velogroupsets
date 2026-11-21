@@ -1,0 +1,35 @@
+{
+  "id": "shimano-bl-mt63",
+  "slug": "bl-mt63",
+  "name": "Deore II two-finger brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-ii"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-MT63",
+  "weight_g": 274,
+  "weight_description": "Manufacturer-listed 274 g for the complete left/right BL-MT63 two-finger brake-lever pair with 22.2 mm clamps. The listed weight applies specifically to the two-finger model, not the adjacent four-finger model; optional rubber-cover inclusion is not stated.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-MT62_MT63-0941/EV-BL-MT62_MT63-0941.pdf",
+    "title": "Shimano BL-MT63 manufacturer exploded view: complete assembly identification and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BL-MT62_MT63-0941/EV-BL-MT62_MT63-0941.pdf",
+      "title": "Shimano BL-MT63 manufacturer exploded view: complete assembly identification and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 27: BL-MT63 exact group membership, assembly and reference weight",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "clamp_diameter_mm": 22.2,
+    "lever_type": "2-finger"
+  }
+}

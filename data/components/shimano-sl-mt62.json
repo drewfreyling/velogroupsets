@@ -1,0 +1,39 @@
+{
+  "id": "shimano-sl-mt62",
+  "slug": "sl-mt62",
+  "name": "Deore II thumb-shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-ii"
+  ],
+  "type": "shifters",
+  "model_number": "SL-MT62",
+  "weight_g": 232,
+  "weight_description": "Manufacturer-listed 232 g for the complete left/right SL-MT62 seven-speed thumb-shifter pair, with 22.2 mm clamps and SIS/friction switching. The catalogue explicitly says pair; cable and housing inclusion is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-MT62-0916/EV-SL-MT62-0916.pdf",
+    "title": "Shimano SL-MT62 manufacturer exploded view: complete assembly identification and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-MT62-0916/EV-SL-MT62-0916.pdf",
+      "title": "Shimano SL-MT62 manufacturer exploded view: complete assembly identification and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 26: SL-MT62 exact group membership, assembly and reference weight",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 7,
+    "clamp_diameter_mm": 22.2,
+    "shift_modes": [
+      "SIS",
+      "Friction"
+    ]
+  }
+}

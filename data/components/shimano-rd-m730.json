@@ -9,7 +9,7 @@
   "type": "rear-derailleur",
   "model_number": "RD-M730",
   "weight_g": 265,
-  "weight_description": "Manufacturer-listed 265 g for the RD-M730 assembly in the 1987 catalogue. Its documented 28–32T largest-sprocket range depends on Shimano SFR/SF fork ends; 32T is not an unconditional frame-independent limit.",
+  "weight_description": "Manufacturer-listed 265 g for the RD-M730 SGS super-long-cage assembly: the 1989 catalogue explicitly identifies this weight as SGS. It does not establish the GS weight. The documented 28–32T largest-sprocket range depends on Shimano SFR/SF fork ends; 32T is not an unconditional frame-independent limit.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-M730-0774/EV-RD-M730-0774E.pdf",
     "title": "Shimano RD-M730 manufacturer exploded view: model identification, series and replacement parts",
@@ -25,6 +25,11 @@
       "url": "https://vintagecannondale.com/cannondale/shimano/1987%20Shimano.pdf#page=22",
       "title": "Original Shimano 1987 complete-line catalogue (copyright December 1986), PDF page 22: RD-M730 weight, 38T capacity, smallest sprocket and conditional 28–32T largest-sprocket range",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 25: RD-M730 GS/SGS listing, explicitly 265 g for SGS",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
@@ -32,6 +37,8 @@
     "maximum_sprocket_teeth": 32,
     "minimum_sprocket_teeth": 12,
     "maximum_front_difference_teeth": null,
-    "maximum_sprocket_condition": "The documented 28–32T largest-sprocket range depends on Shimano SFR/SF fork ends."
+    "maximum_sprocket_condition": "The documented 28–32T largest-sprocket range depends on Shimano SFR/SF fork ends.",
+    "reference_model": "RD-M730-SGS",
+    "cage": "SGS"
   }
 }

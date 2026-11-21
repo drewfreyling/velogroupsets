@@ -4,12 +4,13 @@
   "name": "Deore crankset",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-deore-mt60"
+    "shimano-deore-mt60",
+    "shimano-deore-ii"
   ],
   "type": "crankset",
   "model_number": "FC-MT60",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 740,
+  "weight_description": "Manufacturer-listed 740 g for the 170 mm FC-MT60 high-performance Biopace triple crankset with 48/38/28T chainrings, excluding the separately listed BB-MT60 bottom bracket. This is the Biopace reference identified by the manufacturer drawing, not a later round-chainring assembly.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-MT60_BB-MT60-0861/EV-FC-MT60_BB-MT60-0861.pdf",
     "title": "Shimano FC-MT60 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +21,21 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-MT60_BB-MT60-0861/EV-FC-MT60_BB-MT60-0861.pdf",
       "title": "Shimano FC-MT60 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 26: FC-MT60 reference configuration and manufacturer-listed weight",
+      "retrieved_on": "2026-11-21"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "crank_length_mm": 170,
+    "includes_bottom_bracket": false,
+    "chainring_profile": "High Performance Biopace",
+    "chainrings_teeth": [
+      48,
+      38,
+      28
+    ]
+  }
 }

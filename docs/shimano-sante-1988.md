@@ -1,6 +1,6 @@
-# Santé and Dura-Ace: the supplied 1988 brochure
+# Santé and Dura-Ace: the 1989 catalogue
 
-Reviewed on 21 November 2026 from the [original Shimano brochure scan supplied by the project owner](https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view). The file contains 36 PDF pages. Its final page states copyright August 1988 and a `1088` printing code. References below use **PDF page numbers**, without inferring printed pagination or using the scan's creation timestamp as its publication year.
+Reviewed on 21 November 2026 from the [original Shimano brochure scan supplied by the project owner](https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view). The file contains 36 PDF pages. The owner identifies this as the 1989 catalogue; its final page states copyright August 1988 and a `1088` printing code. References below use **PDF page numbers**, without inferring printed pagination or using the scan's creation timestamp as its publication year.
 
 This batch adds eight Santé component records and fills four existing Santé weight gaps, for **eight newly sourced weights** in total. The complete catalogue now contains 1,435 records. Existing IDs, slugs, model numbers, group memberships and primary technical documents are preserved.
 
@@ -49,3 +49,7 @@ The [BR-5000 drawing](https://si.shimano.com/en/pdfs/ev/BR-5000-0822/EV-BR-5000-
 - New hub records are useful inventory additions even though the available weight figures do not satisfy the skewer rule. Their canonical weights stay null.
 
 All new primary technical-document links are Shimano-hosted. The Drive scan is supporting evidence from the original manufacturer publication; no new archive exception or copied source images are introduced.
+
+## Further review
+
+The [1989 MTB review](shimano-mtb-1989.md) covers PDF pages 24–27 of this same scan. This review keeps its existing filename so earlier links remain valid.

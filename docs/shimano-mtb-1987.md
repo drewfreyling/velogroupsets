@@ -43,3 +43,7 @@ The source associates the **28–32T largest-sprocket range with Shimano SFR/SF 
 The photographed front/rear controls establish the pair inventory, but a photograph alone is not used to resolve whether the printed mass covers both controls. The nearby SL-MS55 and SL-MS40 entries explicitly say Pair; their figures are different models and are not transferred.
 
 The 1987 FC-M730 illustration also describes an earlier Biopace II assembly. Its mass is not transferred to the existing later Round Gear SG-X record or the separately sourced 1991 SG reference. Hub figures still require explicit skewer exclusion. This is a checked batch of selected early MTB pages, not an audit of all 28 pages. Supporting archive citations do not create a new primary-document archive exception, and no source images or PDFs are committed.
+
+## Follow-up source review
+
+The subsequent [1989 review](shimano-mtb-1989.md) makes the RD-M730 weight reference explicitly SGS and withholds the BL-MT60 pair weight after finding a conflicting 310 g figure. The figures above document this earlier review, not an exception to the current weight rules.

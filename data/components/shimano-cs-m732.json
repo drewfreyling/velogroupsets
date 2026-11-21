@@ -1,0 +1,43 @@
+{
+  "id": "shimano-cs-m732",
+  "slug": "cs-m732",
+  "name": "Deore XT II seven-speed cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m732"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M732",
+  "weight_g": 325,
+  "weight_description": "Manufacturer-listed 325 g for the seven-speed CS-M732 cassette with 12/14/16/18/21/24/28T sprockets and spacers. The 13–30T option is not the weighed reference; lockring inclusion follows the catalogue guidelines.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-M732-0969/EV-CS-M732-0969.pdf",
+    "title": "Shimano CS-M732 manufacturer exploded view: complete assembly identification and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/CS-M732-0969/EV-CS-M732-0969.pdf",
+      "title": "Shimano CS-M732 manufacturer exploded view: complete assembly identification and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 24: CS-M732 exact group membership, assembly and reference weight",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "sprocket_range": "12–28T",
+    "sprockets_teeth": [
+      12,
+      14,
+      16,
+      18,
+      21,
+      24,
+      28
+    ]
+  }
+}

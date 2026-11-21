@@ -8,8 +8,8 @@
   ],
   "type": "brake-levers",
   "model_number": "BL-MT60",
-  "weight_g": 300,
-  "weight_description": "Manufacturer-listed 300 g for the complete left/right BL-MT60 brake-lever pair with 22.2 mm handlebar clamps. The catalogue explicitly identifies the figure as a pair; cable/housing inclusion is not specified.",
+  "weight_g": null,
+  "weight_description": "Weight not yet resolved: the 1987 catalogue lists 300 g per BL-MT60 pair, while the 1989 catalogue lists 310 g per pair. Both describe the 22.2 mm clamp assembly without enough information to distinguish the weighed configurations. Neither figure is selected or averaged.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/BL-MT60-0792/EV-BL-MT60-0792A.pdf",
     "title": "Shimano BL-MT60 manufacturer exploded view: exact complete control assembly and parts",
@@ -24,6 +24,11 @@
     {
       "url": "https://vintagecannondale.com/cannondale/shimano/1987%20Shimano.pdf#page=24",
       "title": "Original Shimano 1987 complete-line catalogue (copyright December 1986), PDF page 24: BL-MT60 complete control reference and weight-basis scope",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 27: BL-MT60 reference configuration and manufacturer-listed weight",
       "retrieved_on": "2026-11-21"
     }
   ],
