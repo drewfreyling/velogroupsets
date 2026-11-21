@@ -9,7 +9,7 @@
   "type": "rear-hub",
   "model_number": "FH-7402",
   "weight_g": null,
-  "weight_description": "Weight without skewer not yet sourced: the 1991 catalogue identifies the eight-speed FH-7402-8 at 460 g with quick release. The earlier “without sprockets” figure does not establish skewer exclusion.",
+  "weight_description": "Weight not yet sourced without skewers. The August 1988 brochure lists a hub reference but does not establish skewer exclusion; “without sprockets” does not mean without quick release. No hardware weight is estimated or subtracted.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FH-7402_CS-7400-8-0957/EV-FH-7402_CS-7400-8-0957.pdf",
     "title": "Shimano FH-7402 exploded view and replacement parts",
@@ -30,6 +30,11 @@
       "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=23",
       "title": "Shimano 1991 dealer catalogue, printed page 20 (PDF page 23): FH-7402-8 rear freehub, 460 g explicitly with quick release; manufacturer scan hosted by Vintage Cannondale",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano Bicycle System Components brochure, copyright August 1988, PDF page 10: Dura-Ace hub reference weights and quick-release descriptions; skewer exclusion not established",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {

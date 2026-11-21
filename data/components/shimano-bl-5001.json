@@ -1,0 +1,38 @@
+{
+  "id": "shimano-bl-5001",
+  "slug": "bl-5001",
+  "name": "Santé aero brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sante-5000"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-5001",
+  "weight_g": 266,
+  "weight_description": "Manufacturer-listed 266 g for the complete left/right BL-5001 aero lever pair; 97.5 mm lever reach. The source lists 23.8 and 24.2 mm clamp options without identifying the weighed clamp size.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-5001_5002-0817/EV-BL-5001_5002-0817B.pdf",
+    "title": "Shimano BL-5001 manufacturer exploded view: exact model, complete assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BL-5001_5002-0817/EV-BL-5001_5002-0817B.pdf",
+      "title": "Shimano BL-5001 manufacturer exploded view: exact model, complete assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano Bicycle System Components brochure, copyright August 1988, PDF page 15: BL-5001 pair-only weight, BL-5002 short-reach model and separate lever reaches",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "lever_reach_mm": 97.5,
+    "available_clamp_diameters_mm": [
+      23.8,
+      24.2
+    ]
+  }
+}

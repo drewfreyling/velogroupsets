@@ -1,0 +1,34 @@
+{
+  "id": "shimano-cs-5000-12-21",
+  "slug": "cs-5000-12-21",
+  "name": "Santé seven-speed 12–21T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sante-5000"
+  ],
+  "type": "cassette",
+  "model_number": "CS-5000",
+  "weight_g": 233,
+  "weight_description": "Manufacturer-listed 233 g for the seven-speed CS-5000 12–21T sprockets and spacers. Lockring inclusion is assumed under the catalogue weight guidelines.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/si/R-3/SI-R-3-000-00-ENG.pdf",
+    "title": "Shimano SI-R-3 Santé freehub instructions: CS-5000 seven-speed cassette assembly and gearing",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/R-3/SI-R-3-000-00-ENG.pdf",
+      "title": "Shimano SI-R-3 Santé freehub instructions: CS-5000 seven-speed cassette assembly and gearing",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano Bicycle System Components brochure, copyright August 1988, PDF page 15: CS-5000 seven-speed 12–21T sprocket/spacer weight, separate from the hub",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "sprocket_range": "12–21T"
+  }
+}

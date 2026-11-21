@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [supplied 1988 brochure review](shimano-sante-1988.md) adds eight Santé weights and missing component identities, and documents why the published Santé/Dura-Ace hub figures do not establish skewer-free weights.
+
 The [April 1982 Shimano 600 EX review](shimano-600-ex-1982.md) uses the supplied original catalogue scan to add missing BR-6200/BR-6210 calipers, brake levers, headset, shifters and bottom brackets, plus an identified front-derailleur weight.
 
 The [21 November 2026 source review](catalogue-review-2026-11-21.md) adds cage-specific Shimano MTB records, fills four microSHIFT weights and indexes additional official microSHIFT catalogue downloads through 2026.

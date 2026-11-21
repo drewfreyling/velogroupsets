@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fh-5000-7",
+  "slug": "fh-5000-7",
+  "name": "Santé rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sante-5000"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-5000-7",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced without skewers. The brochure gives a hub reference but does not establish skewer exclusion; “rear without sprockets” excludes the cassette only. No quick-release or cassette weight is subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-5000-7_CS-5000-7-0846/EV-FH-5000-7_CS-5000-7-0846C.pdf",
+    "title": "Shimano FH-5000 manufacturer exploded view: exact model, complete assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-5000-7_CS-5000-7-0846/EV-FH-5000-7_CS-5000-7-0846C.pdf",
+      "title": "Shimano FH-5000 manufacturer exploded view: exact model, complete assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano Bicycle System Components brochure, copyright August 1988, PDF page 15: Santé hub identities and dimensions; published weights do not establish skewer exclusion",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "over_locknut_dimension_mm": 126,
+    "available_spoke_hole_counts": [
+      28,
+      32,
+      36
+    ],
+    "rear_speeds": 7
+  },
+  "weight_excludes_skewers": true
+}

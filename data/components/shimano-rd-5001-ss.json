@@ -1,0 +1,41 @@
+{
+  "id": "shimano-rd-5001-ss",
+  "slug": "rd-5001-ss",
+  "name": "Santé rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sante-5000"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-5001-SS",
+  "weight_g": 191,
+  "weight_description": "Manufacturer-listed 191 g for the short-cage RD-5001-SS, compatible with six- or seven-speed SIS.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-5001-0840/EV-RD-5001-0840A.pdf",
+    "title": "Shimano RD-5001 manufacturer exploded view: exact model, complete assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-5001-0840/EV-RD-5001-0840A.pdf",
+      "title": "Shimano RD-5001 manufacturer exploded view: exact model, complete assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
+      "title": "Original Shimano Bicycle System Components brochure, copyright August 1988, PDF page 14: RD-5001 short and LS middle cages, limits and short-cage-only 191 g reference",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "cage": "SS",
+    "rear_speeds": [
+      6,
+      7
+    ],
+    "total_capacity_teeth": 24,
+    "maximum_sprocket_teeth": 24,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": null
+  }
+}
