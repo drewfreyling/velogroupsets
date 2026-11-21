@@ -25,10 +25,21 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=85",
       "title": "Shimano 2005 Trade Sales Support Manual, PDF page 85: FD-M510 reference weight and configuration",
       "retrieved_on": "2026-11-16"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=21",
+      "title": "Shimano 2000 dealer sales/support manual, PDF page 21 / printed page 19: FD-M510 capacity, top-to-middle difference, top gear and nine-speed compatibility",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
     "mount": "Clamp",
-    "clamp_diameter_mm": 34.9
+    "clamp_diameter_mm": 34.9,
+    "capacity_teeth": 22,
+    "minimum_top_middle_difference_teeth": 12,
+    "largest_chainring_options_teeth": [
+      44
+    ],
+    "rear_speeds": 9
   }
 }

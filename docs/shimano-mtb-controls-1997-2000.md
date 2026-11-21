@@ -1,6 +1,6 @@
 # Shimano MTB controls and derailleur specifications, 1997–2000
 
-Reviewed on 21 November 2026 using original manufacturer-hosted dealer manuals. This batch adds eleven records and eleven manufacturer-listed weights: eight weights on new records and three previously unknown standalone shifter-pair weights. Three new cage-specific rear-derailleur records retain unknown weights. The catalogue now contains 1,411 components across the existing 257 groupsets and four manufacturers.
+Reviewed on 21 November 2026 using original manufacturer-hosted dealer manuals. The first batch adds eleven records and eleven manufacturer-listed weights: eight weights on new records and three previously unknown standalone shifter-pair weights. Three new cage-specific rear-derailleur records retain unknown weights. That batch brought the catalogue to 1,411 components across the existing 257 groupsets and four manufacturers; the subsequent pass below adds further records.
 
 Existing IDs, slugs, model numbers, groupset memberships and primary technical documents are preserved. New records represent distinct manufacturer model numbers or explicit cage suffixes, rather than renaming a combined control to a standalone shifter or applying one cage's weight to all versions.
 
@@ -48,3 +48,25 @@ The same manufacturer table supplies missing chainring specifications:
 Both weights remain unknown. Their table lists multiple clamp-band options without identifying the weighed diameter, so its mass figures do not satisfy the [front-derailleur weight guidelines](weights-guidelines.md#front-derailleurs). E-type assemblies have separate columns and are not used to supply a band-mounted assembly's weight or configuration.
 
 This is a checked selection of the tables, not a complete audit of either manual. The existing [dealer-manual index](shimano-dealer-manuals.md) and [earlier source reviews](catalogue-review-2026-11-21.md) contain further research leads.
+
+## Subsequent pass: 2000 brake levers and nine-speed derailleurs
+
+The next pass adds six component records and seven manufacturer-listed weights: six on new records and one on the existing RD-M570. It brings the catalogue to 1,417 components. Existing component identities, primary technical documents and memberships remain unchanged.
+
+| Model | Weight | Exact reference | Manufacturer source |
+| --- | --- | --- | --- |
+| BL-M739-S | 161 g | Complete standalone left/right V-Brake lever pair, three-step power adjuster; distinct from BL-M739 | 2000 manual, PDF p. 20 / printed p. 18 |
+| BL-M570 | 188 g | Complete standalone left/right V-Brake lever pair, three-step power adjuster | 2000, PDF p. 20 |
+| BL-M510 | 170 g | Complete standalone left/right V-Brake lever pair, without power adjuster | 2000, PDF p. 20 |
+| BL-M950 | 166 g | Complete standalone left/right V-Brake lever pair, step-less power adjuster | 2000, PDF p. 20 |
+| RD-M750-GS | 245 g | Nine-speed GS assembly; 33T capacity, 34T largest / 11T smallest sprocket, 22T front difference | [2000, PDF p. 21 / printed p. 19](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=21) |
+| RD-M750-SGS | 255 g | Nine-speed SGS assembly; 43T capacity, 34T largest / 11T smallest sprocket, 22T front difference | 2000, PDF p. 21 |
+| RD-M570 | 288 g | Nine-speed assembly; 43T capacity, 34T largest / 11T smallest sprocket, 22T front difference | 2000, PDF p. 21 |
+
+Every brake-lever weight is explicitly labelled “pair” in the source. BL-M739-S is the manufacturer's printed model, not a suffix invented to represent a weight variant. Its 161 g is not used to replace the separate 1997 BL-M739's 159 g. The XTR BL-M950 model is also identified in the 1997 XTR table, but its weight is sourced to the explicit 2000 pair entry.
+
+RD-M510 gains the same complete nine-speed limits as RD-M570 while retaining its existing 300 g weight; the 2000 table independently corroborates that figure. Generic RD-M750 gains the common nine-speed 34T / 11T sprocket limits and 22T front difference. Its total capacity and weight remain null because GS and SGS differ; the new cage records hold the specific values. No cage suffix is invented for RD-M570 or RD-M510: their manufacturer columns use the unsuffixed models.
+
+FD-M750, FD-M570 and FD-M510 gain the manufacturer's 22T capacity, 12T minimum top-to-middle chainring difference, 44T top chainring and nine-speed rear compatibility. FD-M510 retains its existing 128 g weight for the 34.9 mm clamp; the 2000 row specifies that weighed diameter explicitly. FD-M750 and FD-M570 still lack a weight for an identified clamp size. Their E-type variants and FD-M751/FD-M571 columns are separate assemblies and do not supply substitute values.
+
+The enlarged source table also corrects ST-M510's `v_brake_only` value to true: its “For V-Brake Only” row is marked yes, while its separate power-adjuster row is marked no. The absence of a power adjuster does not imply a different brake compatibility.

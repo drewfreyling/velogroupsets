@@ -9,7 +9,7 @@
   "type": "front-derailleur",
   "model_number": "FD-M570",
   "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_description": "Weight not yet sourced for an identified clamp diameter. The 2000 table lists 28.6, 31.8 and 34.9 mm band options without identifying the weighed diameter; the E-type and other model columns are distinct assemblies.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-M570-1804/EV-FD-M570-1804B.pdf",
     "title": "Shimano FD-M570 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-M570-1804/EV-FD-M570-1804B.pdf",
       "title": "Shimano FD-M570 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=21",
+      "title": "Shimano 2000 dealer sales/support manual, PDF page 21 / printed page 19: FD-M570 capacity, top-to-middle difference, top gear and nine-speed compatibility",
+      "retrieved_on": "2026-11-21"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "capacity_teeth": 22,
+    "minimum_top_middle_difference_teeth": 12,
+    "largest_chainring_options_teeth": [
+      44
+    ],
+    "rear_speeds": 9
+  }
 }

@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-M570",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 288,
+  "weight_description": "Manufacturer-listed 288 g for the nine-speed RD-M570 assembly in the 2000 manual. The table lists one RD-M570 configuration with 43T total capacity and does not identify a separate cage option.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-M570-1797/EV-RD-M570-1797B.pdf",
     "title": "Shimano RD-M570 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,12 +20,18 @@
       "url": "https://si.shimano.com/en/pdfs/ev/RD-M570-1797/EV-RD-M570-1797B.pdf",
       "title": "Shimano RD-M570 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=21",
+      "title": "Shimano 2000 dealer sales/support manual, PDF page 21 / printed page 19: RD-M570 nine-speed rear-derailleur specification column and reference weight",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null
+    "total_capacity_teeth": 43,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22,
+    "rear_speeds": 9
   }
 }

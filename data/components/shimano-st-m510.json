@@ -26,6 +26,6 @@
     "weight_basis": "Pair",
     "front_speeds": 3,
     "rear_speeds": 9,
-    "v_brake_only": false
+    "v_brake_only": true
   }
 }
