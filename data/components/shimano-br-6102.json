@@ -1,0 +1,33 @@
+{
+  "id": "shimano-br-6102",
+  "slug": "br-6102",
+  "name": "600 front/rear cantilever brake set",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-original"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6102",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete front/rear BR-6102 cantilever set. The catalogue’s unpositioned 338 g figure does not establish the total for both wheels with pads and mounting hardware, and is not divided or doubled.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-6102-SHIMANO%20600-0273/EV-BR-6102-SHIMANO%20600-0273I.pdf",
+    "title": "Shimano BR-6102 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-6102-SHIMANO%20600-0273/EV-BR-6102-SHIMANO%20600-0273I.pdf",
+      "title": "Shimano BR-6102 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 43: BR-6102 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

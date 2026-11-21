@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-de10",
+  "slug": "fd-de10",
+  "name": "Deore touring clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-touring-de10"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-DE10",
+  "weight_g": 121,
+  "weight_description": "Manufacturer-listed 121 g for the FD-DE10 lower-inlet clamp assembly with a 1 1/8 inch (28.575 mm) band; 20T maximum front difference.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-DE10-0414/EV-FD-DE10-0414B.pdf",
+    "title": "Shimano FD-DE10 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-DE10-0414/EV-FD-DE10-0414B.pdf",
+      "title": "Shimano FD-DE10 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 47: FD-DE10 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.575,
+    "clamp_diameter_inches": 1.125,
+    "capacity_teeth": 20
+  }
+}

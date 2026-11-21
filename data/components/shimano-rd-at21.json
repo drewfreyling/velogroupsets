@@ -1,0 +1,39 @@
+{
+  "id": "shimano-rd-at21",
+  "slug": "rd-at21",
+  "name": "Altus ST long-cage rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-selecta-road"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-AT21",
+  "weight_g": 318,
+  "weight_description": "Manufacturer-listed 318 g for the RD-AT21 long-cage rear derailleur, including the mounting bracket. It is not the weight of another cage or mounting version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-AT21-0399/EV-RD-AT21-0399A.pdf",
+    "title": "Shimano RD-AT21 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-AT21-0399/EV-RD-AT21-0399A.pdf",
+      "title": "Shimano RD-AT21 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 54: RD-AT21 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 13,
+    "cage": "Long",
+    "includes_mounting_adapter": true,
+    "source_limit_note": "The table prints a 34T largest-sprocket limit alongside a 30T Shimano-only footnote. The canonical maximum remains unknown until this scope is resolved."
+  }
+}

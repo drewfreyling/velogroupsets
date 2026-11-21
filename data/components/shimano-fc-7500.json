@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fc-7500",
+  "slug": "fc-7500",
+  "name": "Dura-Ace conventional-pitch track crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-track-7500"
+  ],
+  "type": "crankset",
+  "model_number": "FC-7500",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: the reviewed original catalogue and manufacturer assembly document identify FC-7500 but do not establish a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-7500-DURA-ACE%20TRACK-0157/EV-FC-7500-DURA-ACE%20TRACK-0157B.pdf",
+    "title": "Shimano FC-7500 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7500-DURA-ACE%20TRACK-0157/EV-FC-7500-DURA-ACE%20TRACK-0157B.pdf",
+      "title": "Shimano FC-7500 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 29: FC-7500 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "chainring_count": 1,
+    "chain_pitch_mm": 12.7,
+    "includes_bottom_bracket": false
+  }
+}

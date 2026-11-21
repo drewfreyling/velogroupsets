@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fc-6210",
+  "slug": "fc-6210",
+  "name": "600 EX medium-diameter double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ex-6200"
+  ],
+  "type": "crankset",
+  "model_number": "FC-6210",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: the reviewed original catalogue and manufacturer assembly document identify FC-6210 but do not establish a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-6210-0331/EV-FC-6210-0331C.pdf",
+    "title": "Shimano FC-6210 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-6210-0331/EV-FC-6210-0331C.pdf",
+      "title": "Shimano FC-6210 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 34: FC-6210 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "chainring_count": 2,
+    "crank_lengths_mm": [
+      165
+    ],
+    "includes_bottom_bracket": false
+  }
+}

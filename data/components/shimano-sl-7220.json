@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-7220",
+  "slug": "sl-7220",
+  "name": "Dura-Ace EX braze-on B downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "shifters",
+  "model_number": "SL-7220",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: complete left/right SL-7220 braze-on B friction downtube shifters. The shared 57 g catalogue figure does not establish this mount’s pair weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-7210_7220-0528/EV-SL-7210_7220-0528.pdf",
+    "title": "Shimano SL-7220 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-7210_7220-0528/EV-SL-7210_7220-0528.pdf",
+      "title": "Shimano SL-7220 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 32: SL-7220 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Braze-on B",
+    "shift_mode": "Friction"
+  }
+}

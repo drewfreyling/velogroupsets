@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1981 catalogue gap review](shimano-1981.md) adds 41 components, two early touring/track offerings and 18 sourced weights, including explicitly skewer-free rear-hub references from a manufacturer service instruction.
+
 The [1994 headset and pedal follow-up](shimano-headsets-pedals-1994.md) adds HP-6500 to 600 Ultegra 6400, seven MTB headsets and four pedal pairs: twelve records and nine sourced weights.
 
 The [1989 MTB review](shimano-mtb-1989.md) adds eight Deore XT II / Deore II records and thirteen newly sourced weights, qualifies SGS references, and withholds two conflicting earlier weights.
@@ -21,12 +23,6 @@ The subsequent [1997–2000 Shimano MTB control review](shimano-mtb-controls-199
 This source review on 10 November 2026 supplements the [1997 Campagnolo review](campagnolo-1997-specifications.md). It adds facts to **42 existing component records**: **16 previously unknown weights**, missing limits in **13 rear derailleurs**, tooth limits in **12 front derailleurs**, and pulley-centre dimensions in three further rear derailleurs. Some records receive both a weight and limits. No identities, groupset memberships or primary technical-document URLs change.
 
 These are original manufacturer publications, including consumer catalogues and technical handbooks as well as the dealer material sought. Archive commentary and retailer product descriptions are not used as specification evidence. High-resolution scans were checked visually; OCR and thumbnail readings alone were not accepted.
-
-## Additional scans awaiting component review
-
-| Publication | Identification and review status |
-| --- | --- |
-| [Shimano Bicycle System Components 1981](https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view) | Supplied by the owner on 21 November 2026; 59 PDF pages. The cover explicitly states 1981. Cover/year verified; component tables and weights have not yet been reviewed or imported from this scan. PDF page counts are not assumed to match printed pagination. |
 
 ## Sources reviewed
 

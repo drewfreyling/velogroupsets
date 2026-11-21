@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-de21",
+  "slug": "sl-de21",
+  "name": "Deore touring braze-on downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-touring-de10"
+  ],
+  "type": "shifters",
+  "model_number": "SL-DE21",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right SL-DE21 braze-on friction downtube pair: the catalogue’s mount-specific figure does not explicitly identify a pair basis and is not doubled.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-DE21-0413/EV-SL-DE21-0413.pdf",
+    "title": "Shimano SL-DE21 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-DE21-0413/EV-SL-DE21-0413.pdf",
+      "title": "Shimano SL-DE21 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 47: SL-DE21 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Braze-on",
+    "shift_mode": "Friction"
+  }
+}

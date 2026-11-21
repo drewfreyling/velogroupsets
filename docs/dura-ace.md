@@ -1,6 +1,6 @@
 # Shimano Dura-Ace coverage
 
-The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the 7600/7710 track range. There are 15 groupset records and 143 component identities across 166 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
+The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the conventional-pitch 7500 and 7600/7710 track ranges. There are 16 groupset records and 159 component identities across 183 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
 
 ## Dates and families
 
@@ -22,6 +22,7 @@ The catalogue covers the original Dura-Ace road range and each subsequent road g
 | Dura-Ace Di2 R9150 | 2016 | Eleven-speed electronic, rim/disc and time-trial controls |
 | Dura-Ace Di2 R9200 | 2021 | Twelve-speed electronic, rim/disc controls and power-meter crank |
 | Dura-Ace 10 7000 | 1976 | Track crank and bottom bracket; 10 mm chain pitch |
+| Dura-Ace Track 7500 | 1981 | Conventional-pitch crankset, headset and solid-axle hubs; availability reference, not exact introduction |
 | Dura-Ace Track 7600/7710 | 1985 | Square-taper/Octalink cranks, bottom brackets and front/rear hubs |
 
 The 1973 brochure does not present a numbered series. Its catalogue model label is “Original”; retrospective “7100” naming is not applied to individual parts. [The archived original brochure](https://www.sheldonbrown.com/shimano1973/) documents the family, but it does not satisfy the requirement for a manufacturer-hosted component technical document. No model numbers or technical-document links have been invented to fill this gap.
@@ -88,3 +89,7 @@ The [front-derailleur review](shimano-front-derailleur-weights.md) now selects e
 The [146-record component weight review](shimano-component-weights.md) adds ten Dura-Ace-member weights, including the two power-meter cranks, BB-7710, the HB/FH-7900 hubs, BL-7200, HP-7200, PD-7900 and the two seatposts. Source descriptions preserve paired hardware, BB/skewer exclusions and unspecified seatpost variants.
 
 The [Shimano component coverage audit](shimano-component-coverage.md) adds the original-family hub using a later period catalogue reference. This does not date it to the 1973 launch, and its skewer-free weight remains unknown.
+
+## 1981 catalogue follow-up
+
+The [1981 review](shimano-1981.md) adds early track hubs and EX calipers/freehubs, corrects Dura-Ace 10 to the explicitly documented track category, and records the remaining numbered original-family document gaps.

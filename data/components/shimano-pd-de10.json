@@ -1,0 +1,34 @@
+{
+  "id": "shimano-pd-de10",
+  "slug": "pd-de10",
+  "name": "Deore touring Dyna-Drive pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-touring-de10"
+  ],
+  "type": "pedals",
+  "model_number": "PD-DE10",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right PD-DE10 Dyna-Drive pedal pair. The catalogue gives 570 g without explicitly identifying a pair basis; it is not doubled or assigned as a pair total.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-DE10-0416/EV-PD-DE10-0416D.pdf",
+    "title": "Shimano PD-DE10 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-DE10-0416/EV-PD-DE10-0416D.pdf",
+      "title": "Shimano PD-DE10 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 49: PD-DE10 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 1 inch × 24 TPI"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fh-7271",
+  "slug": "fh-7271",
+  "name": "Dura-Ace EX direction-system rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-7271",
+  "weight_g": 336,
+  "weight_description": "Manufacturer-listed 336 g in Shimano SI-M-14 for the FH-7271 7-speed, 32-hole, 126 mm OLD rear freehub, explicitly without sprockets or quick-release cam sections. This service-instruction reference is not the catalogue’s QR-unspecified figure; no subtraction is used.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/si/M-14/SI-M-14-000-00-ENG.pdf",
+    "title": "Shimano FH-7271 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/si/M-14/SI-M-14-000-00-ENG.pdf",
+      "title": "Shimano FH-7271 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "spoke_holes": 32,
+    "over_locknut_dimension_mm": 126
+  },
+  "weight_excludes_skewers": true
+}

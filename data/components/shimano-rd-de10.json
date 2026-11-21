@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-de10",
+  "slug": "rd-de10",
+  "name": "Deore touring middle-cage rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-touring-de10"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-DE10",
+  "weight_g": 218,
+  "weight_description": "Manufacturer-listed 218 g for the RD-DE10 middle-cage touring rear derailleur. The weight row states exclusion of the mounting bracket; it is not another cage version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-DE10_DE20-0415/EV-RD-DE10_DE20-0415D.pdf",
+    "title": "Shimano RD-DE10 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-DE10_DE20-0415/EV-RD-DE10_DE20-0415D.pdf",
+      "title": "Shimano RD-DE10 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 47: RD-DE10 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 30,
+    "maximum_sprocket_teeth": 30,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 20,
+    "cage": "Middle",
+    "includes_mounting_adapter": false
+  }
+}

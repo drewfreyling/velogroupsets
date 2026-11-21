@@ -1,0 +1,35 @@
+{
+  "id": "shimano-hb-7520-rear",
+  "slug": "hb-7520-rear",
+  "name": "Dura-Ace conventional-pitch track rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-track-7500"
+  ],
+  "type": "rear-hub",
+  "model_number": "HB-7520",
+  "weight_g": 313,
+  "weight_description": "Manufacturer-listed 313 g for the complete rear HB-7520 solid-axle, nut-fastened track hub including the lockring. The manufacturer drawing confirms a solid axle and hub nuts, with no quick-release skewer. The weighed spoke-hole count and 110/120 mm rear spacing is not identified; no nut or axle mass is subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-7520-0133/EV-HB-7520-0133B.pdf",
+    "title": "Shimano HB-7520 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-7520-0133/EV-HB-7520-0133B.pdf",
+      "title": "Shimano HB-7520 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 29: HB-7520 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Solid, nut-fastened",
+    "includes_lockring": true
+  },
+  "weight_excludes_skewers": true
+}

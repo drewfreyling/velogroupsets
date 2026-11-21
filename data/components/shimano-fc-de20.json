@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-de20",
+  "slug": "fc-de20",
+  "name": "Deore touring MD double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-touring-de10"
+  ],
+  "type": "crankset",
+  "model_number": "FC-DE20",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: the reviewed original catalogue and manufacturer assembly document identify FC-DE20 but do not establish a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-DE20_DE21_DE30_DE31-0422/EV-FC-DE20_DE21_DE30_DE31-0422C.pdf",
+    "title": "Shimano FC-DE20 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-DE20_DE21_DE30_DE31-0422/EV-FC-DE20_DE21_DE30_DE31-0422C.pdf",
+      "title": "Shimano FC-DE20 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 51: FC-DE20 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "chainring_count": 2,
+    "chainring_format": "MD",
+    "crank_lengths_mm": [
+      165,
+      170
+    ],
+    "includes_bottom_bracket": false,
+    "pedal_thread": "BC 1 inch × 24 TPI"
+  }
+}

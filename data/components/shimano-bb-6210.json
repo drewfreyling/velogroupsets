@@ -4,7 +4,8 @@
   "name": "600 EX square-taper bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-600-ex-6200"
+    "shimano-600-ex-6200",
+    "shimano-deore-touring-de10"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-6210",
@@ -24,6 +25,11 @@
     {
       "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
       "title": "Original Shimano Bicycle System Components catalogue, April 1982, PDF page 57 / printed page 54: FC-6200 with BB-6200 116 mm and BB-6210 119 mm spindle options; no separate weight",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 51: BB-6210 explicitly listed with Deore double cranksets, 119 mm spindle",
       "retrieved_on": "2026-11-21"
     }
   ],

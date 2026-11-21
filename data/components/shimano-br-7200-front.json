@@ -1,0 +1,39 @@
+{
+  "id": "shimano-br-7200-front",
+  "slug": "br-7200-front",
+  "name": "Dura-Ace EX front side-pull brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ex-7200"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-7200",
+  "weight_g": 160,
+  "weight_description": "Manufacturer-listed 160 g for the complete front BR-7200 side-pull brake caliper with standard NBM brake pads and mounting bolt attached. Optional sunk-pivot hardware is not identified as the weighed variant.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-7200_7210%20-DURA-ACE%20EX-0296/EV-BR-7200_7210%20-DURA-ACE%20EX-0296F.pdf",
+    "title": "Shimano BR-7200 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-7200_7210%20-DURA-ACE%20EX-0296/EV-BR-7200_7210%20-DURA-ACE%20EX-0296F.pdf",
+      "title": "Shimano BR-7200 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 33: BR-7200 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Front",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true,
+    "reach_range_mm": [
+      39,
+      49
+    ]
+  }
+}

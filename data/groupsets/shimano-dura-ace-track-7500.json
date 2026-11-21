@@ -1,0 +1,17 @@
+{
+  "id": "shimano-dura-ace-track-7500",
+  "slug": "dura-ace-track-7500",
+  "name": "Dura-Ace Track",
+  "manufacturer_id": "shimano",
+  "model_number": "7500",
+  "start_year": 1981,
+  "category": "track",
+  "generation": "Earlier conventional half-inch-pitch track range, documented in the 1981 catalogue; distinct from the later 7600/7710 offering. Start follows the reviewed availability reference, not an asserted first introduction.",
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 29: explicit range heading and component inventory",
+      "retrieved_on": "2026-11-21"
+    }
+  ]
+}

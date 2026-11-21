@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-at11",
+  "slug": "fd-at11",
+  "name": "Altus ST clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-selecta-road"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-AT11",
+  "weight_g": 122,
+  "weight_description": "Manufacturer-listed 122 g for the FD-AT11 lower-inlet clamp assembly with a 1 1/8 inch (28.575 mm) band; 14T front capacity. The original shared FD-AT11/AT12 drawing is used, not the later reused model reference.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-AT11_AT12-0342/EV-FD-AT11_AT12-0342C.pdf",
+    "title": "Shimano FD-AT11 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-AT11_AT12-0342/EV-FD-AT11_AT12-0342C.pdf",
+      "title": "Shimano FD-AT11 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 54: FD-AT11 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.575,
+    "clamp_diameter_inches": 1.125,
+    "capacity_teeth": 14
+  }
+}

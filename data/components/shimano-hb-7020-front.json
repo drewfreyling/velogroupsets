@@ -1,0 +1,35 @@
+{
+  "id": "shimano-hb-7020-front",
+  "slug": "hb-7020-front",
+  "name": "Dura-Ace 10 mm-pitch track front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-10-7000"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-7020",
+  "weight_g": 225,
+  "weight_description": "Manufacturer-listed 225 g for the complete front HB-7020 solid-axle, nut-fastened track hub. The manufacturer drawing confirms a solid axle and hub nuts, with no quick-release skewer. The weighed spoke-hole count is not identified; no nut or axle mass is subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/HB-7020-DURA-ACE%2010%20F%20%26%20R-0293/EV-HB-7020-DURA-ACE%2010%20F%20%26%20R-0293A.pdf",
+    "title": "Shimano HB-7020 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/HB-7020-DURA-ACE%2010%20F%20%26%20R-0293/EV-HB-7020-DURA-ACE%2010%20F%20%26%20R-0293A.pdf",
+      "title": "Shimano HB-7020 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 26: HB-7020 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Solid, nut-fastened",
+    "over_locknut_dimension_mm": 100
+  },
+  "weight_excludes_skewers": true
+}

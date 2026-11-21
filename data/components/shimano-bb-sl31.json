@@ -1,0 +1,33 @@
+{
+  "id": "shimano-bb-sl31",
+  "slug": "bb-sl31",
+  "name": "Selecta-T Octa Joint bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-selecta-road"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-SL31",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: the reviewed original catalogue and manufacturer assembly document identify BB-SL31 but do not establish a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-SL24-0382/EV-FC-SL24-0382B.pdf",
+    "title": "Shimano BB-SL31 original manufacturer assembly document: complete model and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-SL24-0382/EV-FC-SL24-0382B.pdf",
+      "title": "Shimano BB-SL31 original manufacturer assembly document: complete model and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 56: BB-SL31 group membership and published reference configuration",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "interface": "Selecta Octa Joint"
+  }
+}

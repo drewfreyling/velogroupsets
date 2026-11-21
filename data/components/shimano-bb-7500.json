@@ -6,7 +6,8 @@
   "groupset_ids": [
     "shimano-dura-ace-ex-7200",
     "shimano-dura-ace-ax-7300",
-    "shimano-dura-ace-10-7000"
+    "shimano-dura-ace-10-7000",
+    "shimano-dura-ace-track-7500"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-7500",
@@ -27,6 +28,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_june_1984_-_page_104.html",
       "title": "Shimano Bicycle System Components, June 1984, page 104: BB-7500, 256 g BB parts; 107 mm and 109 mm spindle options, weighed length not specified",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
+      "title": "Original Shimano Bicycle System Components 1981, PDF page 29: BB-7500 explicitly listed with the conventional-pitch FC-7500 track crankset",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
