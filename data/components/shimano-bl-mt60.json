@@ -1,0 +1,34 @@
+{
+  "id": "shimano-bl-mt60",
+  "slug": "bl-mt60",
+  "name": "Deore brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-mt60"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-MT60",
+  "weight_g": 300,
+  "weight_description": "Manufacturer-listed 300 g for the complete left/right BL-MT60 brake-lever pair with 22.2 mm handlebar clamps. The catalogue explicitly identifies the figure as a pair; cable/housing inclusion is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BL-MT60-0792/EV-BL-MT60-0792A.pdf",
+    "title": "Shimano BL-MT60 manufacturer exploded view: exact complete control assembly and parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BL-MT60-0792/EV-BL-MT60-0792A.pdf",
+      "title": "Shimano BL-MT60 manufacturer exploded view: exact complete control assembly and parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1987%20Shimano.pdf#page=24",
+      "title": "Original Shimano 1987 complete-line catalogue (copyright December 1986), PDF page 24: BL-MT60 complete control reference and weight-basis scope",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "clamp_diameter_mm": 22.2
+  }
+}

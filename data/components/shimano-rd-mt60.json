@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-MT60",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 311,
+  "weight_description": "Manufacturer-listed 311 g for the RD-MT60 assembly in the 1987 catalogue. Its documented 28–32T largest-sprocket range depends on Shimano SFR/SF fork ends; 32T is not an unconditional frame-independent limit.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-MT60-0793/EV-RD-MT60-0793B.pdf",
     "title": "Shimano RD-MT60 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,12 +20,18 @@
       "url": "https://si.shimano.com/en/pdfs/ev/RD-MT60-0793/EV-RD-MT60-0793B.pdf",
       "title": "Shimano RD-MT60 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1987%20Shimano.pdf#page=24",
+      "title": "Original Shimano 1987 complete-line catalogue (copyright December 1986), PDF page 24: RD-MT60 weight, 38T capacity, smallest sprocket and conditional 28–32T largest-sprocket range",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null
+    "total_capacity_teeth": 38,
+    "maximum_sprocket_teeth": 32,
+    "minimum_sprocket_teeth": 13,
+    "maximum_front_difference_teeth": null,
+    "maximum_sprocket_condition": "The documented 28–32T largest-sprocket range depends on Shimano SFR/SF fork ends."
   }
 }

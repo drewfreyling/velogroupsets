@@ -1,0 +1,38 @@
+{
+  "id": "shimano-sl-mt60",
+  "slug": "sl-mt60",
+  "name": "Deore thumb-shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-mt60"
+  ],
+  "type": "shifters",
+  "model_number": "SL-MT60",
+  "weight_g": null,
+  "weight_description": "Complete left/right SL-MT60 thumb-shifter pair with 22.2 mm handlebar clamps and SIS/friction switching. Weight not yet sourced: the 1987 catalogue gives 210 g without explicitly identifying its pair basis; the figure is not doubled or assigned as a pair total.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-MT60-0784/EV-SL-MT60-0784B.pdf",
+    "title": "Shimano SL-MT60 manufacturer exploded view: exact complete control assembly and parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-MT60-0784/EV-SL-MT60-0784B.pdf",
+      "title": "Shimano SL-MT60 manufacturer exploded view: exact complete control assembly and parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1987%20Shimano.pdf#page=24",
+      "title": "Original Shimano 1987 complete-line catalogue (copyright December 1986), PDF page 24: SL-MT60 complete control reference and weight-basis scope",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "clamp_diameter_mm": 22.2,
+    "shift_modes": [
+      "SIS",
+      "Friction"
+    ]
+  }
+}

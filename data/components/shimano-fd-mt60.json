@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-MT60",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 113,
+  "weight_description": "Manufacturer-listed 113 g for the normal-band FD-MT60 front derailleur. The catalogue identifies a single normal band fitting 28.0–28.6 mm; this is not the separate 31.8 mm EC endless-clamp version. The weighed AL/HS chain-guide option is not specified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-MT60-0782/EV-FD-MT60-0782A.pdf",
     "title": "Shimano FD-MT60 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +20,19 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-MT60-0782/EV-FD-MT60-0782A.pdf",
       "title": "Shimano FD-MT60 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://vintagecannondale.com/cannondale/shimano/1987%20Shimano.pdf#page=24",
+      "title": "Original Shimano 1987 complete-line catalogue (copyright December 1986), PDF page 24: FD-MT60 normal-band weight and actual 28.0–28.6 mm band range, distinct from the EC clamp",
+      "retrieved_on": "2026-11-21"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
+      28,
+      28.6
+    ],
+    "reference_mount": "Normal band"
+  }
 }
