@@ -1,0 +1,45 @@
+{
+  "id": "shimano-cs-hg70-7-e",
+  "slug": "cs-hg70-7-e",
+  "name": "Shimano seven-speed cassette (E group)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-dx-m650",
+    "shimano-deore-lx-m550"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG70",
+  "weight_g": 325,
+  "weight_description": "Manufacturer-listed seven-speed E-group 12–28T cassette, including spacers; lockring inclusion is assumed under the catalogue guidelines. The 1991 DX and LX tables both give 325 g for this E-group configuration, distinct from the existing I-group 13–23T record.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=62",
+    "title": "Shimano 1991 dealer product manual, PDF page 62 (printed 59): CS-HG70 seven-speed E-group 12–28T sprockets and spacers, 325 g",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=62",
+      "title": "Shimano 1991 dealer product manual, PDF page 62 (printed 59): CS-HG70 seven-speed E-group 12–28T sprockets and spacers, 325 g",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=68",
+      "title": "Shimano 1991 dealer product manual, PDF page 68 (printed 65): CS-HG70 seven-speed E-group 12–28T cassette, matching 325 g LX reference",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "sprocket_group": "E",
+    "sprocket_range": "12–28T",
+    "sprockets_teeth": [
+      12,
+      14,
+      16,
+      18,
+      21,
+      24,
+      28
+    ]
+  }
+}

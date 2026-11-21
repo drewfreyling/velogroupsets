@@ -1,0 +1,31 @@
+{
+  "id": "shimano-pd-m730",
+  "slug": "pd-m730",
+  "name": "Deore XT pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m735"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M730",
+  "weight_g": 412,
+  "weight_description": "Manufacturer-listed left/right low-profile alloy pedal pair, BC 9/16 × 20 TPI threads. The 1991 table gives 412 g for the pair; toe-clip and reflector inclusion is not specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=56",
+    "title": "Shimano 1991 dealer product manual, PDF page 56 (printed 53): PD-M730 pedal pair weight and reference assembly",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=56",
+      "title": "Shimano 1991 dealer product manual, PDF page 56 (printed 53): PD-M730 pedal pair weight and reference assembly",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI",
+    "body_material": "Light alloy",
+    "plate_material": "Anodized light alloy"
+  }
+}

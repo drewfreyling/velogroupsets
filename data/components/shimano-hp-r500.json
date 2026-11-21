@@ -1,13 +1,14 @@
 {
   "id": "shimano-hp-r500",
   "slug": "hp-r500",
-  "name": "Shimano threaded road headset",
+  "name": "Shimano threaded headset",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-exage-500ex",
     "shimano-rx100-a550",
     "shimano-exage-400ex",
-    "shimano-exage-300ex"
+    "shimano-exage-300ex",
+    "shimano-deore-lx-m550"
   ],
   "type": "headset",
   "model_number": "HP-R500",
@@ -42,6 +43,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 34; published August 1989 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=69",
+      "title": "Shimano 1991 dealer product manual, PDF page 69 (printed 66): HP-R500 off-road headset in the Deore LX section, 121 g and 22/11.5 mm cone dimensions",
+      "retrieved_on": "2026-11-21"
     }
   ]
 }

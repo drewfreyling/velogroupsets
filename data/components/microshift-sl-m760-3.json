@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M760-3",
-  "weight_g": null,
-  "weight_description": "Left/right triple-chainring pair. The technical table gives the double-chainring model’s reference weight and lists this triple version only as an option; its specific pair mass remains unconfirmed.",
+  "weight_g": 286,
+  "weight_description": "Manufacturer-listed complete left/right SL-M760-3 3×10-speed Xpress Plus shifter pair, with gear indicators. The 2025 catalogue lists this triple model explicitly; this is not a weight transferred from the double version.",
   "technical_document": {
     "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=27",
     "title": "microSHIFT 2016–2017 catalogue, printed p. 26 (PDF p. 27): SL-M760-3: manufacturer specifications",
@@ -25,12 +25,18 @@
       "url": "https://microshift.com/wp-content/uploads/2021/03/microSHIFT-catalogue-2017.pdf#page=20",
       "title": "microSHIFT 2016–2017 catalogue, printed p. 19 (PDF p. 20): illustrated left/right pair and range membership",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://www.bikecatalogs.com/download/5815#page=11",
+      "title": "Original microSHIFT 2025 Drivetrain catalogue, archived copy, PDF spread 11 / printed page 18: explicit SL-M760-3 and SL-M850-3 triple-shifter weights",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
     "weight_basis": "Pair",
     "front_speeds": 3,
     "rear_speeds": 10,
-    "handlebar_type": "Flat bar"
+    "handlebar_type": "Flat bar",
+    "gear_indicator": true
   }
 }

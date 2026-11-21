@@ -1,6 +1,6 @@
 # Shimano MTB and microSHIFT catalogue additions
 
-Source review on 21 November 2026. This batch adds seven Shimano component records, including six manufacturer-listed weights, and fills four existing microSHIFT weight gaps. Existing component IDs, slugs, memberships and primary technical documents remain unchanged.
+Source review on 21 November 2026. The first batch adds seven Shimano component records, including six manufacturer-listed weights, and fills four existing microSHIFT weight gaps. In that first batch, existing component IDs, slugs, memberships and primary technical documents remain unchanged. The follow-up below documents further additions, an existing shared headset's LX membership and a conflicting weight withheld.
 
 ## Shimano 1991 dealer manual
 
@@ -48,3 +48,32 @@ The official microSHIFT index also provides these editions, beyond the 2017 cata
 | 2026 | [2026 catalogue](https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf) | Newly listed current edition; component tables not reviewed in this batch |
 
 These links are research leads, not claims of complete data coverage or direct-download availability. The index also links 2016 and 2018–2022 editions. Use exact model/revision and configuration evidence before adding facts; do not derive introduction years merely from the upload path.
+
+## Follow-up: further weights and original catalogue scans
+
+A subsequent pass adds **seven further manufacturer-listed weights**: two previously unknown microSHIFT triple-shifter pairs and five new Shimano component records. It also documents LX membership for the existing HP-R500 headset and withholds one conflicting cassette weight. This brings the catalogue to 1,400 component records; these figures describe the follow-up, separately from the first batch above.
+
+| Model / configuration | Weight | Original source |
+| --- | --- | --- |
+| SL-M850-3, complete 3×10-speed Xpress Plus pair, without gear indicators | 225 g | microSHIFT 2025, PDF spread 11 / printed page 18 |
+| SL-M760-3, complete 3×10-speed Xpress Plus pair, with gear indicators | 286 g | microSHIFT 2025, PDF spread 11 / printed page 18 |
+| PD-M737, left/right SPD pedal pair, Cro-Mo axles | 450 g | Shimano 1991, PDF page 56 / printed page 53 |
+| PD-M735, left/right super-low-profile alloy pedal pair | 295 g | Shimano 1991, PDF page 56 / printed page 53 |
+| PD-M730, left/right low-profile alloy pedal pair | 412 g | Shimano 1991, PDF page 56 / printed page 53 |
+| PD-M550, left/right resin-body pedal pair with steel plates | 326 g | Shimano 1991, PDF page 69 / printed page 66 |
+| CS-HG70, seven-speed E-group 12–28T, including spacers | 325 g | Shimano 1991, PDF pages 62 and 68 / printed pages 59 and 65 |
+
+The microSHIFT table explicitly lists each triple model's weight, resolving the older catalogue's ambiguity without transferring double-model figures or doubling a right-hand control. The Shimano pedal figures are explicitly pair weights; cleat, toe-clip and reflector inclusions are disclosed as unspecified where the source does not establish them. PD-M737, PD-M735 and PD-M730 are listed in the 1991 XT section and are attached to the M735-era group; the model number alone is not used to infer membership of another generation. The E-group cassette is shared by the documented DX M650 and LX M550 ranges, with 12/14/16/18/21/24/28T sprockets. It is distinct from the existing I-group cassette.
+
+**CS-HG90 I-group conflict:** the original 1990 600 Ultegra reference lists 286 g for 13–23T sprockets and spacers, but the 1991 XT table on PDF page 55 / printed page 52 gives 325 g for the same I-group configuration. No distinguishing assembly is established. Its stable record and original primary technical document are preserved, both sources are retained, and `weight_g` is now null rather than selecting or averaging the conflicting figures. The existing CS-HG70 I-group weight likewise remains unknown.
+
+**HP-R500 membership:** the 1991 LX page 69 lists the same model at 121 g with 22 mm upper and 11.5 mm lower cone dimensions. LX membership is added to the shared record without duplicating its identity or changing its weight. Its descriptive name becomes “Shimano threaded headset”, since the manufacturer also lists it for off-road use. The weighed thread variant remains unspecified.
+
+Two additional original Campagnolo publications were located and checked:
+
+| Publication | Archived original | Findings / research scope |
+| --- | --- | --- |
+| 1991 Campagnolo catalogue | [16-page PDF](https://www.bikecatalogs.com/download/2341), also indexed by [Campy Only](https://www.campyonly.com/history/catalogs.html) | The Record page 6 was checked: it lists equipment options, not weights. Other pages cover Xenon, Athena, Chorus, Croce d'Aune, Record track, Themis, Olympus, Centaur, Euclid and tandem ranges; they remain leads for further identity/specification review |
+| Campagnolo 1992 Road Range | [8-page PDF](https://www.bikecatalogs.com/download/2924) | Pages 2–3 were checked visually: exact period model codes and specifications, including RD-011RE capacity/maximum sprocket and Record component options. No new weight is taken from those pages and no specifications are transferred to a different model code |
+
+These are original manufacturer publications, not archive-authored specifications. Their discovery does not approve new primary technical-document archive paths or establish that every page has been reviewed. Further Campagnolo identity work must cross-check the exact period code, group and variant against the [catalogue contract](catalogue.md).

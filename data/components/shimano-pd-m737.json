@@ -1,0 +1,31 @@
+{
+  "id": "shimano-pd-m737",
+  "slug": "pd-m737",
+  "name": "Deore XT pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m735"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M737",
+  "weight_g": 450,
+  "weight_description": "Manufacturer-listed left/right SPD pedal pair, cartridge-type Cro-Mo axles, double-sided binding and BC 9/16 × 20 TPI threads. The 1991 table gives 450 g for the pair; cleat inclusion is not specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=56",
+    "title": "Shimano 1991 dealer product manual, PDF page 56 (printed 53): PD-M737 pedal pair weight and reference assembly",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=56",
+      "title": "Shimano 1991 dealer product manual, PDF page 56 (printed 53): PD-M737 pedal pair weight and reference assembly",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI",
+    "pedal_system": "SPD",
+    "axle_material": "Cro-Mo steel"
+  }
+}

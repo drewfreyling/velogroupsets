@@ -8,8 +8,8 @@
   ],
   "type": "cassette",
   "model_number": "CS-HG90",
-  "weight_g": 286,
-  "weight_description": "Manufacturer-listed: seven-speed I-group 13–23T sprockets and spacers.",
+  "weight_g": null,
+  "weight_description": "Weight withheld because manufacturer references conflict for the same seven-speed I-group 13–23T sprockets and spacers: the 1990 600 Ultegra table gives 286 g, while the 1991 Deore XT table gives 325 g. No distinguishing weighed variant is identified; neither value is used as the canonical weight.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/CS-HG90_HG70_HG50-7I-1132/EV-CS-HG90_HG70_HG50-7I-1132.pdf",
     "title": "Shimano CS-HG90/HG70/HG50 seven-speed I-group exploded view",
@@ -20,6 +20,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=55",
+      "title": "Shimano 1991 dealer product manual, PDF page 55 (printed 52): CS-HG90 I-group 13–23T sprockets and spacers, conflicting 325 g reference",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
