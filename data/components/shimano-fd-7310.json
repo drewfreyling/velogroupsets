@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fd-7310",
+  "slug": "fd-7310",
+  "name": "Dura-Ace AX round-tube braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-7310",
+  "weight_g": 88,
+  "weight_description": "Manufacturer-listed 88 g for the standard round-tube FD-7310 braze-on assembly. The separately listed 13 g frame braze-on parts are not added. This reference is not transferred to the oval-tube variants.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-7300_7310_7320-0441/EV-FD-7300_7310_7320-0441B.pdf",
+    "title": "Shimano FD-7310 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-7300_7310_7320-0441/EV-FD-7300_7310_7320-0441B.pdf",
+      "title": "Shimano FD-7310 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 29 / printed page 26: FD-7310 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "capacity_teeth": 14
+  }
+}

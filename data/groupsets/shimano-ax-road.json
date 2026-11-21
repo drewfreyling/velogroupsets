@@ -1,0 +1,27 @@
+{
+  "id": "shimano-ax-road",
+  "slug": "ax-road",
+  "name": "Shimano",
+  "manufacturer_id": "shimano",
+  "model_number": "AX",
+  "start_year": 1982,
+  "category": "road",
+  "generation": "Historical AX road-and-touring ensemble: Integer AX crankset and Positron AX derailleurs are explicitly grouped in the April 1982 system chart. Start is the reviewed availability reference, not an asserted exact first introduction; inventory is incomplete.",
+  "sources": [
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 87 / printed page 84: Integer AX FC-AX21 assembly",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 88 / printed page 85: Positron AX RD-AX10 assembly",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 138 / printed page 135: Shimano AX Series Road & Touring Ensemble: FC-AX21, FD-AX10, RD-AX10 and SL-AX10 explicitly listed in the same named system",
+      "retrieved_on": "2026-11-21"
+    }
+  ]
+}

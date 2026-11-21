@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-6310",
+  "slug": "sl-6310",
+  "name": "600 AX braze-on a downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ax-6300"
+  ],
+  "type": "shifters",
+  "model_number": "SL-6310",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right SL-6310 braze-on a friction shifter pair. The catalogue’s individual mount-specific figures do not explicitly identify a pair basis; no single-side figure is doubled.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-6300_6310_6311_6321_6322-0455/EV-SL-6300_6310_6311_6321_6322-0455E.pdf",
+    "title": "Shimano SL-6310 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-6300_6310_6311_6321_6322-0455/EV-SL-6300_6310_6311_6321_6322-0455E.pdf",
+      "title": "Shimano SL-6310 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 38 / printed page 35: SL-6310 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Braze-on A",
+    "shift_mode": "Friction"
+  }
+}

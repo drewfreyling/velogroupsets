@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-ax21",
+  "slug": "fc-ax21",
+  "name": "Integer AX double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ax-road"
+  ],
+  "type": "crankset",
+  "model_number": "FC-AX21",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for a complete FC-AX21 crankset with identified arm length and 52/39T chainrings. The catalogue gives a 425 g chainwheel figure, but does not identify which arm length was weighed; no partial-component total or BB deduction is used.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-AX21_BB-AX31-0473/EV-FC-AX21_BB-AX31-0473C.pdf",
+    "title": "Shimano FC-AX21 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-AX21_BB-AX31-0473/EV-FC-AX21_BB-AX31-0473C.pdf",
+      "title": "Shimano FC-AX21 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 87 / printed page 84: FC-AX21 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 138 / printed page 135: Shimano AX Series Road & Touring Ensemble: FC-AX21, FD-AX10, RD-AX10 and SL-AX10 explicitly listed in the same named system",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "chainring_count": 2,
+    "includes_bottom_bracket": false,
+    "interface": "Octa Joint"
+  }
+}

@@ -47,3 +47,7 @@ The [shared SL-6200/6210/6220 drawing](https://si.shimano.com/en/pdfs/ev/SL-6200
 BB-6200 and BB-6210 are explicitly named with their spindle lengths alongside FC-6200. Their manufacturer-hosted [FC-6200 assembly drawing](https://si.shimano.com/en/pdfs/ev/FC-6200-0329/EV-FC-6200-0329G.pdf) identifies the associated cups, bearings and spindle assemblies; no separate BB weight is given. FC-6200 remains unweighed because the source does not establish a crankset-only figure with exact arm length and chainring configuration. Other available spindle/shell combinations in the drawing do not become additional weight references.
 
 The Google Drive scan is supporting evidence from an original manufacturer publication. It does not become an approved non-manufacturer primary technical-document host, and no source images or PDF bytes are copied into this repository.
+
+## Full-edition follow-up
+
+The [full April 1982 catalogue review](shimano-1982.md) covers the remaining road systems, resolves Altus limits and records the general-component, Positron and BMX leads. The original 600 EX findings above remain the scope of this first review.

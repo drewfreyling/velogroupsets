@@ -25,10 +25,15 @@
       "url": "https://www.goatsurfer.com/assets/Shimano_1981.pdf#page=39",
       "title": "Original Shimano catalogue archived as 1981, printed p. 38 / PDF p. 39: Altus/Selecta RD-AT12, 262 g without bracket, 13T front difference, 28T general / 30T Shimano-only largest sprocket.",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 89 / printed page 86: RD-AT12 model-specific total capacity and largest-sprocket limit; separate short-cage Shimano-only footnote scope",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
-    "total_capacity_teeth": null,
+    "total_capacity_teeth": 28,
     "maximum_sprocket_teeth": 28,
     "minimum_sprocket_teeth": null,
     "maximum_front_difference_teeth": 13,

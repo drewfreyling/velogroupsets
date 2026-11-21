@@ -90,3 +90,7 @@ The scan identifies these useful leads, but they are not given unrelated or gene
 - Chains, standalone threaded freewheels/fixed track sprockets, cable guides, fork ends and stems are outside the present component taxonomy. Their printed weights do not become cassette or headset records. The Positron/FF charts need a separate system/model review before adding groupsets from them.
 
 These gaps are explicit research leads, not a claim that the scan lacks the parts or that every source problem has been resolved.
+
+## Later source clarification
+
+The [April 1982 follow-up](shimano-1982.md#altus-limits-resolved) resolves the RD-AT21/AT22 footnote ambiguity with separate long-cage specification blocks: both list 34T total capacity and 34T largest sprocket. It also supplies the short-cage RD-AT11/AT12 28T total capacities. The earlier findings above describe the original 1981 review, not the current unresolved status.

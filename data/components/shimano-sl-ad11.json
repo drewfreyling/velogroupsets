@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-ad11",
+  "slug": "sl-ad11",
+  "name": "Adamas AX braze-on b downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "shifters",
+  "model_number": "SL-AD11",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right SL-AD11 braze-on b friction shifter pair. The shared 63 g figure does not explicitly identify its pair/configuration basis.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-AD10_AD14_AD11-0487/EV-SL-AD10_AD14_AD11-0487C.pdf",
+    "title": "Shimano SL-AD11 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-AD10_AD14_AD11-0487/EV-SL-AD10_AD14_AD11-0487C.pdf",
+      "title": "Shimano SL-AD11 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 77 / printed page 74: SL-AD11 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Braze-on B",
+    "shift_mode": "Friction"
+  }
+}

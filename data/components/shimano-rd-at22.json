@@ -25,15 +25,19 @@
       "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
       "title": "Original Shimano Bicycle System Components 1981, PDF page 54: RD-AT22 group membership and published reference configuration",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 89 / printed page 86: RD-AT22 model-specific total capacity and largest-sprocket limit; separate short-cage Shimano-only footnote scope",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
+    "total_capacity_teeth": 34,
+    "maximum_sprocket_teeth": 34,
     "minimum_sprocket_teeth": null,
     "maximum_front_difference_teeth": 13,
     "cage": "Long",
-    "includes_mounting_adapter": false,
-    "source_limit_note": "The table prints a 34T largest-sprocket limit alongside a 30T Shimano-only footnote. The canonical maximum remains unknown until this scope is resolved."
+    "includes_mounting_adapter": false
   }
 }

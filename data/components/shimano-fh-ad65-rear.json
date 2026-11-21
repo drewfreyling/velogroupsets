@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fh-ad65-rear",
+  "slug": "fh-ad65-rear",
+  "name": "Adamas AX quick-release rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-AD65",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced without skewers for the quick-release rear FH-AD65 hub. The source does not establish skewer exclusion, and no hardware mass is deducted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-AD65-R-0470/EV-FH-AD65-R-0470D.pdf",
+    "title": "Shimano FH-AD65 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-AD65-R-0470/EV-FH-AD65-R-0470D.pdf",
+      "title": "Shimano FH-AD65 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 80 / printed page 77: FH-AD65 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "spoke_holes": 36,
+    "over_locknut_dimension_mm": 124,
+    "axle_type": "Quick release",
+    "rear_speeds": 6
+  },
+  "weight_excludes_skewers": true
+}

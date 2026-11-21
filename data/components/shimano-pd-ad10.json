@@ -1,0 +1,33 @@
+{
+  "id": "shimano-pd-ad10",
+  "slug": "pd-ad10",
+  "name": "Adamas AX pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "pedals",
+  "model_number": "PD-AD10",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right PD-AD10 pedal pair. The catalogue’s mass figure does not explicitly identify a pair basis; it is not doubled or silently assigned to a pair.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-AD10-0456/EV-PD-AD10-0456.pdf",
+    "title": "Shimano PD-AD10 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-AD10-0456/EV-PD-AD10-0456.pdf",
+      "title": "Shimano PD-AD10 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 83 / printed page 80: PD-AD10 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

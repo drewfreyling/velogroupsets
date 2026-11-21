@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [full April 1982 review](shimano-1982.md) adds 43 AX-era components, two named road systems, twelve sourced weights and six Altus limit fields beyond the earlier 600 EX review.
+
 The [1981 catalogue gap review](shimano-1981.md) adds 41 components, two early touring/track offerings and 18 sourced weights, including explicitly skewer-free rear-hub references from a manufacturer service instruction.
 
 The [1994 headset and pedal follow-up](shimano-headsets-pedals-1994.md) adds HP-6500 to 600 Ultegra 6400, seven MTB headsets and four pedal pairs: twelve records and nine sourced weights.

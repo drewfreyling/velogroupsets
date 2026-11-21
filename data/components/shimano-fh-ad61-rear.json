@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fh-ad61-rear",
+  "slug": "fh-ad61-rear",
+  "name": "Adamas AX nut-fastened rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-AD61",
+  "weight_g": 389,
+  "weight_description": "Manufacturer-listed 389 g for the nut-fastened, solid-axle, 36-hole rear FH-AD61 hub, 124 mm OLD, excluding sprockets. The manufacturer drawing confirms hub nuts and no quick-release skewer. Nuts and axle hardware are not subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-AD61_1-0471/EV-FH-AD61-0471B.pdf",
+    "title": "Shimano FH-AD61 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-AD61_1-0471/EV-FH-AD61-0471B.pdf",
+      "title": "Shimano FH-AD61 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 80 / printed page 77: FH-AD61 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "spoke_holes": 36,
+    "over_locknut_dimension_mm": 124,
+    "axle_type": "Solid, nut-fastened",
+    "rear_speeds": 6
+  },
+  "weight_excludes_skewers": true
+}

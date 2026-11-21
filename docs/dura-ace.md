@@ -1,6 +1,6 @@
 # Shimano Dura-Ace coverage
 
-The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the conventional-pitch 7500 and 7600/7710 track ranges. There are 16 groupset records and 159 component identities across 183 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
+The catalogue covers the original Dura-Ace road range and each subsequent road generation through R9200, with separate records for mechanical and Di2 offerings. It also includes Dura-Ace 10 and the conventional-pitch 7500 and 7600/7710 track ranges. There are 16 groupset records and 170 component identities across 194 memberships. This is generation coverage, not a claim that every part, finish, mounting option or gear combination has been catalogued.
 
 ## Dates and families
 
@@ -93,3 +93,5 @@ The [Shimano component coverage audit](shimano-component-coverage.md) adds the o
 ## 1981 catalogue follow-up
 
 The [1981 review](shimano-1981.md) adds early track hubs and EX calipers/freehubs, corrects Dura-Ace 10 to the explicitly documented track category, and records the remaining numbered original-family document gaps.
+
+The [April 1982 full-edition review](shimano-1982.md) expands AX mount-specific controls, hubs, brakes and seatposts, including the explicit 344 g BR-7300 pair and 26.8 mm SP-7310 reference.

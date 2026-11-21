@@ -1,0 +1,37 @@
+{
+  "id": "shimano-rd-ad10",
+  "slug": "rd-ad10",
+  "name": "Adamas AX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-AD10",
+  "weight_g": 283,
+  "weight_description": "Manufacturer-listed 283 g for RD-AD10 without the mounting bracket. The separate 319 g bracket-inclusive reference is not selected or subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-AD10-0475/EV-RD-AD10-0475B.pdf",
+    "title": "Shimano RD-AD10 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-AD10-0475/EV-RD-AD10-0475B.pdf",
+      "title": "Shimano RD-AD10 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 77 / printed page 74: RD-AD10 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 13,
+    "includes_mounting_adapter": false
+  }
+}

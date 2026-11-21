@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fd-ad10",
+  "slug": "fd-ad10",
+  "name": "Adamas AX clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-AD10",
+  "weight_g": 111,
+  "weight_description": "Manufacturer-listed 111 g for the FD-AD10 clamp assembly with the documented 28.6 mm band and 14T front capacity.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-AD10-0440/EV-FD-AD10-0440A.pdf",
+    "title": "Shimano FD-AD10 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-AD10-0440/EV-FD-AD10-0440A.pdf",
+      "title": "Shimano FD-AD10 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 77 / printed page 74: FD-AD10 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 28.6,
+    "capacity_teeth": 14
+  }
+}

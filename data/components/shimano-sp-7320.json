@@ -1,0 +1,33 @@
+{
+  "id": "shimano-sp-7320",
+  "slug": "sp-7320",
+  "name": "Dura-Ace AX made-to-order oval C-tube seatpost",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "seatpost",
+  "model_number": "SP-7320",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: the reviewed catalogue and manufacturer drawing identify SP-7320 but do not establish a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SP-7300_7310_7320-0451/EV-SP-7300_7310_7320-0451A.pdf",
+    "title": "Shimano SP-7320 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SP-7300_7310_7320-0451/EV-SP-7300_7310_7320-0451A.pdf",
+      "title": "Shimano SP-7320 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 36 / printed page 33: SP-7320 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "profile": "Oval C, made to order"
+  }
+}

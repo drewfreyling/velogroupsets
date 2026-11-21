@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fh-ad65-front",
+  "slug": "fh-ad65-front",
+  "name": "Adamas AX quick-release front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "front-hub",
+  "model_number": "FH-AD65",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced without skewers for the quick-release front FH-AD65 hub. The source does not establish skewer exclusion, and no hardware mass is deducted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-AD65-F-0462/EV-FH-AD65-F-0462B.pdf",
+    "title": "Shimano FH-AD65 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-AD65-F-0462/EV-FH-AD65-F-0462B.pdf",
+      "title": "Shimano FH-AD65 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 80 / printed page 77: FH-AD65 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "spoke_holes": 36,
+    "over_locknut_dimension_mm": 96,
+    "axle_type": "Quick release"
+  },
+  "weight_excludes_skewers": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-7322",
+  "slug": "sl-7322",
+  "name": "Dura-Ace AX braze-on b, oval c tube downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "shifters",
+  "model_number": "SL-7322",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right SL-7322 braze-on b, oval c tube friction shifter pair. The catalogue’s individual mount-specific figures do not explicitly identify a pair basis; no single-side figure is doubled.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-7300_7310_7311_7321_7322-0443/EV-SL-7300_7310_7311_7321_7322-0443D.pdf",
+    "title": "Shimano SL-7322 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-7300_7310_7311_7321_7322-0443/EV-SL-7300_7310_7311_7321_7322-0443D.pdf",
+      "title": "Shimano SL-7322 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 30 / printed page 27: SL-7322 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Braze-on B, oval C tube",
+    "shift_mode": "Friction"
+  }
+}

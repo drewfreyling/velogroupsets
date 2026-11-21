@@ -1,0 +1,42 @@
+{
+  "id": "shimano-rd-ax10",
+  "slug": "rd-ax10",
+  "name": "Positron AX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ax-road"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-AX10",
+  "weight_g": 283,
+  "weight_description": "Manufacturer-listed 283 g for the steel RD-AX10 assembly without the mounting bracket; the separate 319 g bracket-inclusive reference is not selected. This is distinct from Adamas RD-AD10 despite identical listed figures.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-AX10-0484/EV-RD-AX10-0484B.pdf",
+    "title": "Shimano RD-AX10 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-AX10-0484/EV-RD-AX10-0484B.pdf",
+      "title": "Shimano RD-AX10 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 88 / printed page 85: RD-AX10 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 138 / printed page 135: Shimano AX Series Road & Touring Ensemble: FC-AX21, FD-AX10, RD-AX10 and SL-AX10 explicitly listed in the same named system",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "total_capacity_teeth": 28,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": 13,
+    "includes_mounting_adapter": false
+  }
+}

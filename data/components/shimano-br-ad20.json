@@ -1,0 +1,35 @@
+{
+  "id": "shimano-br-ad20",
+  "slug": "br-ad20",
+  "name": "Adamas AX front/rear Para-Pull caliper pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-AD20",
+  "weight_g": 397,
+  "weight_description": "Manufacturer-listed 397 g for the complete front/rear BR-AD20 Para-Pull caliper pair, including standard AW brake pads and mounting bolts. The source explicitly identifies front and rear; the weighed front bolt-length variant is not specified.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-AD20-0489/EV-BR-AD20-0489.pdf",
+    "title": "Shimano BR-AD20 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-AD20-0489/EV-BR-AD20-0489.pdf",
+      "title": "Shimano BR-AD20 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 84 / printed page 81: BR-AD20 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true
+  }
+}

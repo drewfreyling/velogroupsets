@@ -1,0 +1,33 @@
+{
+  "id": "shimano-br-6310",
+  "slug": "br-6310",
+  "name": "600 AX short-reach front/rear Para-Pull caliper pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ax-6300"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-6310",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced specifically for the complete front/rear BR-6310 pair. The shared BR-6300/BR-6310 table lists 375 g front and rear without distinguishing the weighed long/short model configuration. The shared figure is not assigned to both variants.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-6310-0588/EV-BR-6310-0588.pdf",
+    "title": "Shimano BR-6310 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-6310-0588/EV-BR-6310-0588.pdf",
+      "title": "Shimano BR-6310 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 41 / printed page 38: BR-6310 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

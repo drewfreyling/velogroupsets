@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fc-ad21",
+  "slug": "fc-ad21",
+  "name": "Adamas AX double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "crankset",
+  "model_number": "FC-AD21",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for an identified complete FC-AD21 crankset reference. The source does not identify the weighed arm length; partial chainwheel figures and the separately listed bottom bracket are not combined into a crankset weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-AD21_AD11_BB-SL31-0435/EV-FC-AD21_AD11_BB-SL31-0435E.pdf",
+    "title": "Shimano FC-AD21 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-AD21_AD11_BB-SL31-0435/EV-FC-AD21_AD11_BB-SL31-0435E.pdf",
+      "title": "Shimano FC-AD21 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 81 / printed page 78: FC-AD21 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "chainring_count": 2,
+    "includes_bottom_bracket": false,
+    "interface": "Selecta Octa Joint"
+  }
+}

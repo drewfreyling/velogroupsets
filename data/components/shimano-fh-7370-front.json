@@ -1,0 +1,32 @@
+{
+  "id": "shimano-fh-7370-front",
+  "slug": "fh-7370-front",
+  "name": "Dura-Ace AX front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "front-hub",
+  "model_number": "FH-7370",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced without skewers for the front FH-7370 assembly. The catalogue’s figure does not establish quick-release exclusion; no skewer mass is subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-7370-0460/EV-FH-7370-0460B.pdf",
+    "title": "Shimano FH-7370 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-7370-0460/EV-FH-7370-0460B.pdf",
+      "title": "Shimano FH-7370 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 31 / printed page 28: FH-7370 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {},
+  "weight_excludes_skewers": true
+}

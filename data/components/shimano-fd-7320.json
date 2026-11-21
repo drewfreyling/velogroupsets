@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fd-7320",
+  "slug": "fd-7320",
+  "name": "Dura-Ace AX oval E-tube braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-7320",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced specifically for the FD-7320 oval E-tube braze-on assembly. The generic standard braze-on figure is not transferred to this separate mounting variant.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-7300_7310_7320-0441/EV-FD-7300_7310_7320-0441B.pdf",
+    "title": "Shimano FD-7320 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-7300_7310_7320-0441/EV-FD-7300_7310_7320-0441B.pdf",
+      "title": "Shimano FD-7320 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 29 / printed page 26: FD-7320 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "capacity_teeth": 14,
+    "tube_profile": "Oval E",
+    "tube_dimensions_mm": [
+      18.5,
+      29
+    ]
+  }
+}

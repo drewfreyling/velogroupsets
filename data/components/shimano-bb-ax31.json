@@ -1,0 +1,33 @@
+{
+  "id": "shimano-bb-ax31",
+  "slug": "bb-ax31",
+  "name": "Integer AX Octa Joint bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ax-road"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-AX31",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the BB-AX31 Octa Joint assembly explicitly identified in the Shimano FC-AX21/BB-AX31 drawing. The 1982 catalogue instead labels its BB as BB-SL32; that model’s 325 g figure is not transferred without evidence that the assemblies are identical.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-AX21_BB-AX31-0473/EV-FC-AX21_BB-AX31-0473C.pdf",
+    "title": "Shimano FC-AX21 / BB-AX31 original manufacturer exploded view: explicitly named Integer AX bottom bracket assembly",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-AX21_BB-AX31-0473/EV-FC-AX21_BB-AX31-0473C.pdf",
+      "title": "Shimano FC-AX21 / BB-AX31 original manufacturer exploded view: explicitly named Integer AX bottom bracket assembly",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 138 / printed page 135: Shimano AX Series Road & Touring Ensemble: FC-AX21, FD-AX10, RD-AX10 and SL-AX10 explicitly listed in the same named system",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "interface": "Octa Joint"
+  }
+}

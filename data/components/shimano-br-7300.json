@@ -1,0 +1,43 @@
+{
+  "id": "shimano-br-7300",
+  "slug": "br-7300",
+  "name": "Dura-Ace AX front/rear Para-Pull caliper pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-ax-7300"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-7300",
+  "weight_g": 344,
+  "weight_description": "Manufacturer-listed 344 g for the complete front/rear BR-7300 Para-Pull caliper pair with standard pads and mounting bolts. The catalogue explicitly states front and rear; it is not a single-caliper figure.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-7300-0447/EV-BR-7300-0447D.pdf",
+    "title": "Shimano BR-7300 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-7300-0447/EV-BR-7300-0447D.pdf",
+      "title": "Shimano BR-7300 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 34 / printed page 31: BR-7300 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true,
+    "front_reach_range_mm": [
+      39,
+      51
+    ],
+    "rear_reach_range_mm": [
+      42,
+      54
+    ]
+  }
+}

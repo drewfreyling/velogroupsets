@@ -1,0 +1,32 @@
+{
+  "id": "shimano-fh-6361-front",
+  "slug": "fh-6361-front",
+  "name": "600 AX front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ax-6300"
+  ],
+  "type": "front-hub",
+  "model_number": "FH-6361",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced without skewers for the front FH-6361 assembly. The catalogue’s figure does not establish quick-release exclusion; no skewer mass is subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-6361-0461/EV-FH-6361-0461B.pdf",
+    "title": "Shimano FH-6361 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-6361-0461/EV-FH-6361-0461B.pdf",
+      "title": "Shimano FH-6361 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 39 / printed page 36: FH-6361 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {},
+  "weight_excludes_skewers": true
+}

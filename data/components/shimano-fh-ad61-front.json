@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fh-ad61-front",
+  "slug": "fh-ad61-front",
+  "name": "Adamas AX nut-fastened front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "front-hub",
+  "model_number": "FH-AD61",
+  "weight_g": 194,
+  "weight_description": "Manufacturer-listed 194 g for the nut-fastened, solid-axle, 36-hole front FH-AD61 hub, 93 mm OLD. The manufacturer drawing confirms hub nuts and no quick-release skewer. Nuts and axle hardware are not subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FH-AD61-0463/EV-FH-AD61-0463A.pdf",
+    "title": "Shimano FH-AD61 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FH-AD61-0463/EV-FH-AD61-0463A.pdf",
+      "title": "Shimano FH-AD61 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 80 / printed page 77: FH-AD61 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "spoke_holes": 36,
+    "over_locknut_dimension_mm": 93,
+    "axle_type": "Solid, nut-fastened"
+  },
+  "weight_excludes_skewers": true
+}

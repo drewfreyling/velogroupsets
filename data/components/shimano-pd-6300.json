@@ -1,0 +1,34 @@
+{
+  "id": "shimano-pd-6300",
+  "slug": "pd-6300",
+  "name": "600 AX Dyna-Drive pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-600-ax-6300"
+  ],
+  "type": "pedals",
+  "model_number": "PD-6300",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right PD-6300 Dyna-Drive pedal pair. The reviewed material identifies both pedal assemblies but gives no compliant explicitly paired weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-6300-0449/EV-PD-6300-0449F.pdf",
+    "title": "Shimano PD-6300 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-6300-0449/EV-PD-6300-0449F.pdf",
+      "title": "Shimano PD-6300 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 40 / printed page 37: PD-6300 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 1 inch × 24 TPI"
+  }
+}

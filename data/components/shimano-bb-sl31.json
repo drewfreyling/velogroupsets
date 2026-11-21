@@ -4,12 +4,13 @@
   "name": "Selecta-T Octa Joint bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-altus-selecta-road"
+    "shimano-altus-selecta-road",
+    "shimano-adamas-ax"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-SL31",
-  "weight_g": null,
-  "weight_description": "Weight not yet sourced: the reviewed original catalogue and manufacturer assembly document identify BB-SL31 but do not establish a compliant configuration-specific weight.",
+  "weight_g": 328,
+  "weight_description": "Manufacturer-listed 328 g for BB-SL31 Octa Joint bottom-bracket parts in the Adamas AX FC-AD11/FC-AD21 assembly table, separately from the chainwheel/crank figures. The weighed spindle/shell variant is not identified; this is not a square-taper reference.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-SL24-0382/EV-FC-SL24-0382B.pdf",
     "title": "Shimano BB-SL31 original manufacturer assembly document: complete model and replacement parts",
@@ -25,9 +26,23 @@
       "url": "https://drive.google.com/file/d/1nhlBEB76WGQO9qj5PtkOyTIPzvBFie6V/view",
       "title": "Original Shimano Bicycle System Components 1981, PDF page 56: BB-SL31 group membership and published reference configuration",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 81 / printed page 78: BB-SL31 328 g BB-parts reference, separately listed from crank/chainwheel figures",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 82 / printed page 79: BB-SL31 also explicitly listed for FC-AD22",
+      "retrieved_on": "2026-11-21"
     }
   ],
   "specifications": {
-    "interface": "Selecta Octa Joint"
+    "interface": "Selecta Octa Joint",
+    "reference_cranksets": [
+      "FC-AD11",
+      "FC-AD21"
+    ]
   }
 }

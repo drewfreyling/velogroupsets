@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-ad10",
+  "slug": "sl-ad10",
+  "name": "Adamas AX band a downtube shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-adamas-ax"
+  ],
+  "type": "shifters",
+  "model_number": "SL-AD10",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the complete left/right SL-AD10 band a friction shifter pair. The shared 63 g figure does not explicitly identify its pair/configuration basis.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-AD10_AD14_AD11-0487/EV-SL-AD10_AD14_AD11-0487C.pdf",
+    "title": "Shimano SL-AD10 original manufacturer exploded view: exact assembly and replacement parts",
+    "retrieved_on": "2026-11-21"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-AD10_AD14_AD11-0487/EV-SL-AD10_AD14_AD11-0487C.pdf",
+      "title": "Shimano SL-AD10 original manufacturer exploded view: exact assembly and replacement parts",
+      "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17QiI_JPy9NX1NiRCOWtYQDXxmGbQAJ5N/view",
+      "title": "Original Shimano Bicycle System Components, April 1982, PDF page 77 / printed page 74: SL-AD10 group membership and reference specifications",
+      "retrieved_on": "2026-11-21"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "mount": "Band A",
+    "shift_mode": "Friction"
+  }
+}
