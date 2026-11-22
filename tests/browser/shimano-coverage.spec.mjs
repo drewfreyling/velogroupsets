@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 
 test('previously empty MTB and gravel ranges link to real sourced components',async({page,request})=>{
   const examples=[
-    ['slx-m660','RD-M662','rd-m662',null],
+    ['slx-m660','RD-M662','rd-m662',258],
     ['grx-rx600','ST-RX600','st-rx600',613],
   ];
   for(const [group,model,slug,weight] of examples){

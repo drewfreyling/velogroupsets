@@ -4,6 +4,7 @@ const weight = page => page.locator('dl > div').filter({has:page.getByRole('term
 
 test('manufacturer categories restore from bookmarks and retain ascending years', async ({page}) => {
   await page.goto('/manufacturers/shimano/?category=mtb');
+  await expect(page.getByRole('button',{name:'Filter groupsets',exact:true})).toHaveCount(0);
   await expect(page.getByRole('combobox',{name:'Riding category'})).toHaveValue('mtb');
   const cards=page.locator('[data-groupset-category]:visible');
   await expect(cards).toHaveCount(groupsets.filter(g=>g.manufacturer_id==='shimano'&&g.category==='mtb').length);
@@ -15,6 +16,13 @@ test('manufacturer categories restore from bookmarks and retain ascending years'
   await page.goto('/manufacturers/sram/?category=mtb');
   await expect(page.locator('[data-groupset-category]:visible')).toHaveCount(groupsets.filter(g=>g.manufacturer_id==='sram'&&g.category==='mtb').length);
   await expect(page.getByRole('heading',{name:'GX Eagle 12-speed',level:3,exact:true})).toBeVisible();
+  await page.getByRole('combobox',{name:'Riding category'}).selectOption('road');
+  await expect(page.locator('[data-groupset-category]:visible')).toHaveCount(groupsets.filter(g=>g.manufacturer_id==='sram'&&g.category==='road').length);
+  await expect(page.locator('#groupset-count')).toHaveText(`${groupsets.filter(g=>g.manufacturer_id==='sram'&&g.category==='road').length} groupsets`);
+  await expect(page).toHaveURL(/category=road$/);
+  await page.reload();
+  await expect(page.getByRole('combobox',{name:'Riding category'})).toHaveValue('road');
+  await expect(page.locator('[data-groupset-category]:visible')).toHaveCount(groupsets.filter(g=>g.manufacturer_id==='sram'&&g.category==='road').length);
   await page.getByRole('combobox',{name:'Riding category'}).selectOption('track');
   await expect(page.getByText('No groupsets in this riding category have been catalogued for SRAM.')).toBeVisible();
   await page.getByRole('button',{name:'Show all groupsets'}).click();
