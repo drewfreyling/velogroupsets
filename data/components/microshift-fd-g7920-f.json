@@ -1,0 +1,34 @@
+{
+  "id": "microshift-fd-g7920-f",
+  "slug": "fd-g7920-f",
+  "name": "Sword Black braze-on front derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-sword-black"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-G7920-F",
+  "weight_g": 110,
+  "weight_description": "Manufacturer-listed braze-on Sword Black 2×9 front derailleur, 110 g; no separate clamp adapter is included.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=19",
+    "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 19: FD-G7920-F mount, 17T capacity, 47 mm chainline and published weight reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=19",
+      "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 19: FD-G7920-F mount, 17T capacity, 47 mm chainline and published weight reference",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "rear_speeds": 9,
+    "total_capacity_teeth": 17,
+    "chainline_mm": 47,
+    "maximum_chainring_teeth": 52,
+    "minimum_large_chainring_teeth": 46
+  }
+}

@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [Sword Black and ADVENT MX review](microshift-sword-black-advent-mx.md) adds **three ranges, 21 components and 13 sourced weights** from the official 2025/2026 catalogues, preserving three conflicting cassette weights as unknown.
+
 The [Shimano 2006 MTB follow-up](shimano-2006.md) adds **37 components and 36 sourced weights**, including 17 skewer-free hubs, eight control/lever pairs and separate front/rear XTR disc-caliper references.
 
 The [Shimano 2009 follow-up](shimano-2009.md) adds **21 components and 16 newly published weights**, including cage-specific XTR/XT/SLX derailleurs and explicitly skewer-free hubs, and fills four XTR derailleur limits.

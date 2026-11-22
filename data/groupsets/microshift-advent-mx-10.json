@@ -1,0 +1,22 @@
+{
+  "id": "microshift-advent-mx-10",
+  "slug": "advent-mx-10",
+  "name": "ADVENT MX",
+  "manufacturer_id": "microshift",
+  "model_number": "10-speed",
+  "start_year": 2026,
+  "category": "mtb",
+  "generation": "Documented 2026 manufacturer catalogue availability; not a claim of first introduction.",
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=8",
+      "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 8: named ADVENT MX 10-speed MTB range and inventory",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/products/groups/advent-mx/",
+      "title": "microSHIFT ADVENT MX: separate 10/11-speed lineups and shared rear derailleurs",
+      "retrieved_on": "2026-11-22"
+    }
+  ]
+}

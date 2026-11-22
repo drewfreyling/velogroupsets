@@ -1,0 +1,38 @@
+{
+  "id": "microshift-rd-g7900m",
+  "slug": "rd-g7900m",
+  "name": "Sword Black 1× rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-sword-black"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-G7900M",
+  "weight_g": 344,
+  "weight_description": "Manufacturer-listed complete RD-G7900M medium-cage steel-cage rear derailleur; compatible with nine- and ten-speed controls. The published weight is not transferred from another Sword variant.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=19",
+    "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 19: RD-G7900M weight, range membership, cage and gearing limits",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=19",
+      "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 19: RD-G7900M weight, range membership, cage and gearing limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 1,
+    "rear_speed_options": [
+      9,
+      10
+    ],
+    "cage": "Medium",
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 48,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "minimum_largest_sprocket_teeth": 42
+  }
+}

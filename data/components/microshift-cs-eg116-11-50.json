@@ -1,0 +1,48 @@
+{
+  "id": "microshift-cs-eg116-11-50",
+  "slug": "cs-eg116-11-50",
+  "name": "ADVENT MX 11–50T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent-mx-11"
+  ],
+  "type": "cassette",
+  "model_number": "CS-EG116",
+  "weight_g": null,
+  "weight_description": "Weight unresolved: 2026 catalogue 497 g versus manufacturer product page 485 g. The manufacturer sources do not identify a different weighed configuration; neither figure is selected.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=7",
+    "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 7: CS-EG116 11–50T exact gearing, range and weight reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=7",
+      "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 7: CS-EG116 11–50T exact gearing, range and weight reference",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/models/cs-eg116-11-50t/",
+      "title": "microSHIFT CS-EG116 manufacturer conflicting weight reference: 2026 catalogue 497 g versus manufacturer product page 485 g",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–50T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      28,
+      32,
+      36,
+      42,
+      50
+    ],
+    "freehub_interface": "HG"
+  }
+}

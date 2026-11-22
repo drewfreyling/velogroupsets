@@ -45,7 +45,7 @@ The official microSHIFT index also provides these editions, beyond the 2017 cata
 | 2023 | [2023 catalogue](https://www.microshift.com/wp-content/uploads/2023/05/microSHIFT_Catalog_20230515.pdf) | Located in the manufacturer's archive; component tables not reviewed in this batch |
 | 2024 | [2024 catalogue](https://www.microshift.com/wp-content/uploads/2024/02/20240229_2024-Catalog_microSHIFT-web.pdf) | Located in the manufacturer's archive; component tables not reviewed in this batch |
 | 2025 | [2025 catalogue](https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf) | Selected ADVENT X and Acolyte tables reviewed in the original archived publication above |
-| 2026 | [2026 catalogue](https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf) | Newly listed current edition; component tables not reviewed in this batch |
+| 2026 | [2026 catalogue](https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf) | Newly listed current edition; component tables not reviewed in this batch. The subsequent [Sword Black / ADVENT MX review](microshift-sword-black-advent-mx.md) checks selected spreads |
 
 These links are research leads, not claims of complete data coverage or direct-download availability. The index also links 2016 and 2018–2022 editions. Use exact model/revision and configuration evidence before adding facts; do not derive introduction years merely from the upload path.
 

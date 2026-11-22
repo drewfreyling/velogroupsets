@@ -1,0 +1,35 @@
+{
+  "id": "microshift-fc-g7900-4670",
+  "slug": "fc-g7900-4670",
+  "name": "Sword Black 170 mm 46/29T crankset",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-sword-black"
+  ],
+  "type": "crankset",
+  "model_number": "FC-G7900-4670",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the catalogue identifies 170 mm arms and the exact chainrings, but does not explicitly establish bottom-bracket exclusion for its weight. No square-taper bottom-bracket mass is subtracted.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=20",
+    "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 20: FC-G7900-4670 170 mm crankset, exact tooth configuration and compatible 68×113 mm JIS bottom bracket",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=20",
+      "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 20: FC-G7900-4670 170 mm crankset, exact tooth configuration and compatible 68×113 mm JIS bottom bracket",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      46,
+      29
+    ],
+    "front_speeds": 2,
+    "spindle_interface": "JIS square taper",
+    "compatible_bb_spindle_length_mm": 113
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "microshift-rd-m7005m",
+  "slug": "rd-m7005m",
+  "name": "ADVENT MX rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent-mx-10",
+    "microshift-advent-mx-11"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M7005M",
+  "weight_g": 435,
+  "weight_description": "Manufacturer-listed complete RD-M7005M medium-cage clutch rear derailleur, compatible with both ADVENT MX 10- and 11-speed systems. The Pro and standard models retain separate weights.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=8",
+    "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 8: RD-M7005M exact weight and ADVENT MX inventory",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=8",
+      "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 8: RD-M7005M exact weight and ADVENT MX inventory",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/models/rd-m7005m/",
+      "title": "microSHIFT RD-M7005M: shared 10/11-speed membership, 39T capacity, 48–50T largest cog and weight",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/products/groups/advent-mx/",
+      "title": "microSHIFT ADVENT MX range explicitly lists this derailleur under both 10- and 11-speed lineups",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "cage": "Medium",
+    "front_speeds": 1,
+    "rear_speed_options": [
+      10,
+      11
+    ],
+    "total_capacity_teeth": 39,
+    "maximum_sprocket_teeth": 50,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "minimum_largest_sprocket_teeth": 48,
+    "clutch": true
+  }
+}

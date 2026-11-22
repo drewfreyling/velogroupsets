@@ -1,0 +1,36 @@
+{
+  "id": "microshift-sl-m7115-r",
+  "slug": "sl-m7115-r",
+  "name": "ADVENT MX 1×11 right trigger shifter",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent-mx-11"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M7115-R",
+  "weight_g": 119,
+  "weight_description": "Manufacturer-listed single right-hand SL-M7115-R 1×11 trigger shifter. No left unit is required or invented; cable/housing inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=7",
+    "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 7: SL-M7115-R 1×11 single right trigger control and 119 g weight",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=7",
+      "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 7: SL-M7115-R 1×11 single right trigger control and 119 g weight",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/models/sl-m7115-r/",
+      "title": "microSHIFT SL-M7115-R manufacturer specifications: Right side and exact rear speed",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 11
+  }
+}

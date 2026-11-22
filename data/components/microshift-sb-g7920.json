@@ -1,0 +1,35 @@
+{
+  "id": "microshift-sb-g7920",
+  "slug": "sb-g7920",
+  "name": "Sword Black 2×9 drop-bar control pair",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-sword-black"
+  ],
+  "type": "shifters",
+  "model_number": "SB-G7920",
+  "weight_g": 562,
+  "weight_description": "Calculated complete left/right pair: SB-G7920-2L 280 g + SB-G7900-R 282 g = 562 g, using the exact manufacturer-published side weights. Cable/housing inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=19",
+    "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 19: SB-G7920-2L and SB-G7900-R exact side weights; Sword Black inventory",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=19",
+      "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 19: SB-G7920-2L and SB-G7900-R exact side weights; Sword Black inventory",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 2,
+    "rear_speeds": 9,
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SB-G7920-2L",
+    "right_model": "SB-G7900-R",
+    "left_weight_g": 280,
+    "right_weight_g": 282
+  }
+}

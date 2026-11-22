@@ -1,0 +1,47 @@
+{
+  "id": "microshift-cs-h104b-11-48",
+  "slug": "cs-h104b-11-48",
+  "name": "ADVENT MX 11–48T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent-mx-10"
+  ],
+  "type": "cassette",
+  "model_number": "CS-H104B",
+  "weight_g": 662,
+  "weight_description": "Manufacturer-listed 10-speed 11–48T CS-H104B cassette. Lockring inclusion follows the catalogue’s cassette convention.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=8",
+    "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 8: CS-H104B 11–48T exact gearing, range and weight reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=8",
+      "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 8: CS-H104B 11–48T exact gearing, range and weight reference",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/models/cs-h104b-11-48t/",
+      "title": "microSHIFT CS-H104B manufacturer specifications: exact speed, gearing and HG freehub fitment",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–48T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      28,
+      34,
+      40,
+      48
+    ],
+    "freehub_interface": "HG"
+  }
+}

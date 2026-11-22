@@ -4,7 +4,8 @@
   "name": "11–38T cassette",
   "manufacturer_id": "microshift",
   "groupset_ids": [
-    "microshift-advent"
+    "microshift-advent",
+    "microshift-sword-black"
   ],
   "type": "cassette",
   "model_number": "CS-H093",
@@ -24,6 +25,11 @@
     {
       "url": "https://www.microshift.com/products/groups/advent/",
       "title": "microSHIFT ADVENT manufacturer range: explicitly listed Super Short model and component membership",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=20",
+      "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 20: Sword Black named cassette inventory: exact CS-H093/CS-H093A gearing variants",
       "retrieved_on": "2026-11-22"
     }
   ],

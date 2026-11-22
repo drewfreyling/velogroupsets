@@ -1,0 +1,48 @@
+{
+  "id": "microshift-cs-xd116-11-50",
+  "slug": "cs-xd116-11-50",
+  "name": "ADVENT MX 11–50T cassette",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-advent-mx-11"
+  ],
+  "type": "cassette",
+  "model_number": "CS-XD116",
+  "weight_g": 550,
+  "weight_description": "Manufacturer-listed 11-speed 11–50T CS-XD116 cassette. Lockring inclusion follows the catalogue’s cassette convention.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=7",
+    "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 7: CS-XD116 11–50T exact gearing, range and weight reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2026/11/2026_-Microshift_Catalog_261105.pdf#page=7",
+      "title": "microSHIFT 2026 manufacturer catalogue, PDF spread 7: CS-XD116 11–50T exact gearing, range and weight reference",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/models/cs-xd116-11-50t/",
+      "title": "microSHIFT CS-XD116 manufacturer specifications: exact speed, gearing and XD freehub fitment",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–50T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      28,
+      32,
+      36,
+      42,
+      50
+    ],
+    "freehub_interface": "XD"
+  }
+}

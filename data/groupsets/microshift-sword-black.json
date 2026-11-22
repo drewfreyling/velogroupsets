@@ -1,0 +1,22 @@
+{
+  "id": "microshift-sword-black",
+  "slug": "sword-black",
+  "name": "Sword Black",
+  "manufacturer_id": "microshift",
+  "model_number": "9-speed",
+  "start_year": 2024,
+  "category": "gravel",
+  "generation": "Documented by the manufacturer’s 2024 installation manual and 2025 catalogue; not a claim of an exact launch date.",
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/06/RD011-005-SWORD-Black-Rear-Der-2x-and-1x-Installation-Manual.pdf",
+      "title": "microSHIFT Sword Black installation manual RD011-005, copyright 2024: dated manufacturer range documentation",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=19",
+      "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 19: Sword Black named gravel range and exact component inventory",
+      "retrieved_on": "2026-11-22"
+    }
+  ]
+}

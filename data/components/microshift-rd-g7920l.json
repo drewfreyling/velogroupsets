@@ -1,0 +1,38 @@
+{
+  "id": "microshift-rd-g7920l",
+  "slug": "rd-g7920l",
+  "name": "Sword Black 2× rear derailleur",
+  "manufacturer_id": "microshift",
+  "groupset_ids": [
+    "microshift-sword-black"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-G7920L",
+  "weight_g": 348,
+  "weight_description": "Manufacturer-listed complete RD-G7920L long-cage steel-cage rear derailleur; compatible with nine- and ten-speed controls. The published weight is not transferred from another Sword variant.",
+  "technical_document": {
+    "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=19",
+    "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 19: RD-G7920L weight, range membership, cage and gearing limits",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2024/09/Microshift-2025-Catalog-20240911.pdf#page=19",
+      "title": "microSHIFT 2025 manufacturer catalogue, PDF spread 19: RD-G7920L weight, range membership, cage and gearing limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speed_options": [
+      9,
+      10
+    ],
+    "cage": "Long",
+    "total_capacity_teeth": 45,
+    "maximum_sprocket_teeth": 38,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null,
+    "minimum_largest_sprocket_teeth": 34
+  }
+}
