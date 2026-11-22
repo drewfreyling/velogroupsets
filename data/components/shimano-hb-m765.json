@@ -1,0 +1,30 @@
+{
+  "id": "shimano-hb-m765",
+  "slug": "hb-m765",
+  "name": "Deore XT front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m760"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-M765",
+  "weight_g": 180,
+  "weight_description": "Manufacturer-listed HB-M765 hub weight without quick-release skewer. The table explicitly defines the hub reference as without QR and gives the 56 g quick release separately; no deduction is used. The weighed spoke-hole variant is not identified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=186",
+    "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 186: HB-M765 model, group and 180 g without QR; separate 56 g QR",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=186",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 186: HB-M765 model, group and 180 g without QR; separate 56 g QR",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Quick release",
+    "disc_brake_compatible": true
+  },
+  "weight_excludes_skewers": true
+}

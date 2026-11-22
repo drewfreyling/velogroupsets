@@ -1,0 +1,31 @@
+{
+  "id": "shimano-st-m766",
+  "slug": "st-m766",
+  "name": "Deore XT hydraulic dual-control lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m760"
+  ],
+  "type": "shifters",
+  "model_number": "ST-M766",
+  "weight_g": 480,
+  "weight_description": "Manufacturer-listed complete left/right ST-M766 dual-control shift and hydraulic brake-lever pair, triple front and nine-speed rear. The brake-lever table explicitly labels the figure as a pair weight; this is not a complete caliper, hose and rotor system weight. Cable/housing inclusion is not specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=184",
+    "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 184: ST-M766 3×9-speed dual-control set and explicit 480 g pair weight",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=184",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 184: ST-M766 3×9-speed dual-control set and explicit 480 g pair weight",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "brake_compatibility": "Hydraulic disc brake"
+  }
+}

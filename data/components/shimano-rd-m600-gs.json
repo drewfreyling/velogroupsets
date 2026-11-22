@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m600-gs",
+  "slug": "rd-m600-gs",
+  "name": "Hone GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-hone-m600"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M600-GS",
+  "weight_g": 405,
+  "weight_description": "Manufacturer-listed RD-M600 GS-cage nine-speed rear derailleur. The separately listed or selected SGS reference is not used for this GS weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=187",
+    "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 187: RD-M600 GS-specific 405 g reference and all four limits",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=187",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 187: RD-M600 GS-specific 405 g reference and all four limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 9,
+    "total_capacity_teeth": 33,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22
+  }
+}

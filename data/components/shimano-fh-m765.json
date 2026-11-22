@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fh-m765",
+  "slug": "fh-m765",
+  "name": "Deore XT rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m760"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-M765",
+  "weight_g": 369,
+  "weight_description": "Manufacturer-listed FH-M765 hub weight without quick-release skewer. The table explicitly defines the hub reference as without QR and gives the 61 g quick release separately; no deduction is used. The weighed spoke-hole variant is not identified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=186",
+    "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 186: FH-M765 model, group and 369 g without QR; separate 61 g QR",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=186",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 186: FH-M765 model, group and 369 g without QR; separate 61 g QR",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Quick release",
+    "disc_brake_compatible": true
+  },
+  "weight_excludes_skewers": true
+}

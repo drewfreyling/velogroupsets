@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-m960",
+  "slug": "cs-m960",
+  "name": "XTR 11–32T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m960"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M960",
+  "weight_g": 240,
+  "weight_description": "Manufacturer-listed CS-M960 nine-speed 11–32T cassette reference. Lockring inclusion follows the catalogue’s cassette convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=186",
+    "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 186: CS-M960 nine-speed 11–32T cassette, 240 g and named series columns",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=186",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 186: CS-M960 nine-speed 11–32T cassette, 240 g and named series columns",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "11–32T"
+  }
+}

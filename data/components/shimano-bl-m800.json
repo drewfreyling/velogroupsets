@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bl-m800",
+  "slug": "bl-m800",
+  "name": "Saint hydraulic brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m800"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-M800",
+  "weight_g": 248,
+  "weight_description": "Manufacturer-listed BL-M800 standalone left/right hydraulic brake-lever pair, 248 g. The table labels this as a pair weight, separate from the dual-control set and calipers; no hydraulic-system weight is substituted.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=184",
+    "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 184: BL-M800 standalone hydraulic brake levers, explicit 248 g pair reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=184",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 184: BL-M800 standalone hydraulic brake levers, explicit 248 g pair reference",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_compatibility": "Hydraulic disc brake"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "shimano-hb-m535",
+  "slug": "hb-m535",
+  "name": "Deore front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m530"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-M535",
+  "weight_g": 200,
+  "weight_description": "Manufacturer-listed HB-M535 hub weight without quick-release skewer. The table explicitly defines the hub reference as without QR and gives the 55 g quick release separately; no deduction is used. The weighed spoke-hole variant is not identified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=187",
+    "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 187: HB-M535 model, group and 200 g without QR; separate 55 g QR",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=187",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 187: HB-M535 model, group and 200 g without QR; separate 55 g QR",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Quick release",
+    "disc_brake_compatible": true
+  },
+  "weight_excludes_skewers": true
+}

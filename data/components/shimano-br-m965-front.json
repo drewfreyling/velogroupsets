@@ -1,0 +1,34 @@
+{
+  "id": "shimano-br-m965-front",
+  "slug": "br-m965-front",
+  "name": "XTR front hydraulic disc-brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m960"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-M965",
+  "weight_g": 98,
+  "weight_description": "Manufacturer-listed BR-M965 front hydraulic caliper with resin brake pads and fixing bolts, 98 g. The source separates front and rear references; this is a caliper weight, not a complete hydraulic system.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=184",
+    "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 184: BR-M965 front 98 g resin-pad reference; caliper average explicitly with fixing bolts",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=184",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 184: BR-M965 front 98 g resin-pad reference; caliper average explicitly with fixing bolts",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Front",
+    "actuation": "Hydraulic",
+    "mount": "International Standard",
+    "piston_count": 2,
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true,
+    "pad_material": "Resin"
+  }
+}

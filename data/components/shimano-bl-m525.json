@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bl-m525",
+  "slug": "bl-m525",
+  "name": "Deore hydraulic brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m530"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-M525",
+  "weight_g": 246,
+  "weight_description": "Manufacturer-listed BL-M525 standalone left/right hydraulic brake-lever pair, 246 g. The table labels this as a pair weight, separate from the dual-control set and calipers; no hydraulic-system weight is substituted.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=185",
+    "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 185: BL-M525 standalone hydraulic brake levers, explicit 246 g pair reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=185",
+      "title": "Shimano 2006 Trade Sales Support Manual, PDF/printed page 185: BL-M525 standalone hydraulic brake levers, explicit 246 g pair reference",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_compatibility": "Hydraulic disc brake"
+  }
+}
