@@ -62,7 +62,7 @@ These links are indexed for later source review; they were not audited as part o
 - [2003 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf) — [Deore crank and early hydraulic-disc review](shimano-2003-sti.md); selected tables publish no weights
 - [2002 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf) — [Dura-Ace triple and brake/rotor review](shimano-2002-sti.md); selected service sections publish no weights
 - [2001 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf) — [MTB hubs and Deore service review](shimano-2001-sti.md); printed hub masses lack explicit skewer exclusion
-- [2000 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf)
+- [2000 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf) — [Tiagra/Sora triple review](shimano-2000-sti.md); exact side-model control pairing and shared bottom brackets, no new weights in selected sheets
 - [1999 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf)
 - [1998 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf)
 - [1997 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf)

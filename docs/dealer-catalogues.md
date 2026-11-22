@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [2000 STI Tiagra/Sora triple review](shimano-2000-sti.md) adds **five components** and enriches six existing identities, including the exact ST-3303 left / ST-3300 right pair and shared bottom-bracket references. The selected service sheets publish no new weights.
+
 The [2001 STI hub and Deore service review](shimano-2001-sti.md) adds **15 components** and fills four Deore configuration gaps: twelve MTB hubs, BB-ES70 and the BB-UN40 variants. Hub masses remain unknown because the tables do not establish skewer exclusion.
 
 The [2002 STI service-table review](shimano-2002-sti.md) adds **six components** and fills four Dura-Ace triple configuration gaps, including BB-7703, BR-R600 and a directly documented SM-RT60 rotor mount. The selected service sections publish no new weights.

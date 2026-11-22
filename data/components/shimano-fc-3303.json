@@ -1,0 +1,44 @@
+{
+  "id": "shimano-fc-3303",
+  "slug": "fc-3303",
+  "name": "Sora 52/42/30T triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sora-3300"
+  ],
+  "type": "crankset",
+  "model_number": "FC-3303",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: 52/42/30T FC-3303 crankset reference excluding bottom bracket. The reviewed chainring table does not identify an arm length or publish an assembly mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=67",
+    "title": "Shimano 2000 STI technical manual, PDF/printed page 67: named Sora FC-3303 triple chainring diagram and parts rows: 52/42/30T and 130/74 mm bolt circles",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=67",
+      "title": "Shimano 2000 STI technical manual, PDF/printed page 67: named Sora FC-3303 triple chainring diagram and parts rows: 52/42/30T and 130/74 mm bolt circles",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=93",
+      "title": "Shimano 2000 STI technical manual, PDF/printed page 93: named Sora triple front-drive table identifies FC-3303 separately from FC-3300",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 8,
+    "chainrings_teeth": [
+      52,
+      42,
+      30
+    ],
+    "bolt_circle_diameters_mm": [
+      130,
+      74
+    ],
+    "includes_bottom_bracket": false
+  }
+}

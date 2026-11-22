@@ -1,10 +1,11 @@
 {
   "id": "shimano-bb-un40",
   "slug": "bb-un40",
-  "name": "Deore square-taper bottom bracket",
+  "name": "Square-taper bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-deore-m510"
+    "shimano-deore-m510",
+    "shimano-sora-3300"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-UN40",
@@ -19,6 +20,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=136",
       "title": "Shimano 2001 STI technical manual, PDF page 136 / printed page 142: named Deore front-drive table: exact BB-UN40 / BB-UN40-K models and spindle-length rows",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=98",
+      "title": "Shimano 2000 STI technical manual, PDF/printed page 98: named Sora FD-3303 triple service table separately lists BB-UN40, 113 mm",
       "retrieved_on": "2026-11-23"
     }
   ],

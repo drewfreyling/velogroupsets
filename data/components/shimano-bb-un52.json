@@ -1,12 +1,14 @@
 {
   "id": "shimano-bb-un52",
   "slug": "bb-un52",
-  "name": "Deore LX / STX RC square-taper bottom bracket",
+  "name": "Square-taper bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-stx-rc",
     "shimano-deore-lx-m560",
-    "shimano-stx-mc34"
+    "shimano-stx-mc34",
+    "shimano-tiagra-4400",
+    "shimano-sora-3300"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-UN52",
@@ -32,6 +34,16 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
       "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
       "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=88",
+      "title": "Shimano 2000 STI technical manual, PDF/printed page 88: Tiagra FC-4400 / FC-4403 table: BB-UN52 110 mm double / 113 mm triple references",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=93",
+      "title": "Shimano 2000 STI technical manual, PDF/printed page 93: named Sora STI table explicitly lists BB-UN52 in its double/triple drivetrain chart",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {

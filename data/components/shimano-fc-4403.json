@@ -1,0 +1,45 @@
+{
+  "id": "shimano-fc-4403",
+  "slug": "fc-4403",
+  "name": "Tiagra 52/42/30T triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4400"
+  ],
+  "type": "crankset",
+  "model_number": "FC-4403",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: selected 170 mm, 52/42/30T FC-4403 crankset reference excluding the separately listed bottom bracket. The service table does not publish a crankset weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=88",
+    "title": "Shimano 2000 STI technical manual, PDF/printed page 88: FC-4403 exact crank table: 52/42/30T, 165/170/175 mm arms, 130/74 mm bolt circles and separately listed BB-UN52",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=88",
+      "title": "Shimano 2000 STI technical manual, PDF/printed page 88: FC-4403 exact crank table: 52/42/30T, 165/170/175 mm arms, 130/74 mm bolt circles and separately listed BB-UN52",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      165,
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      52,
+      42,
+      30
+    ],
+    "bolt_circle_diameters_mm": [
+      130,
+      74
+    ],
+    "includes_bottom_bracket": false
+  }
+}

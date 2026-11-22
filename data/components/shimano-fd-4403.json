@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fd-4403",
+  "slug": "fd-4403",
+  "name": "Tiagra triple front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4400"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-4403",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the service instructions identify band and braze-on assemblies but do not publish a mass for an actual weighed mounting configuration. Available clamp diameters are not treated as a weighed band size.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=86",
+    "title": "Shimano 2000 STI technical manual, PDF/printed page 86: exact FD-4403 triple model, 22T capacity, 10T top/middle minimum, 45 mm chainline, braze-on/band options and 28.6/31.8 mm bands",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=86",
+      "title": "Shimano 2000 STI technical manual, PDF/printed page 86: exact FD-4403 triple model, 22T capacity, 10T top/middle minimum, 45 mm chainline, braze-on/band options and 28.6/31.8 mm bands",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "capacity_teeth": 22,
+    "minimum_top_middle_difference_teeth": 10,
+    "chainline_mm": 45,
+    "available_mount_types": [
+      "Clamp",
+      "Braze-on"
+    ],
+    "available_clamp_diameters_mm": [
+      28.6,
+      31.8
+    ]
+  }
+}

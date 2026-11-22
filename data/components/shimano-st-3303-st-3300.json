@@ -1,0 +1,32 @@
+{
+  "id": "shimano-st-3303-st-3300",
+  "slug": "st-3303-st-3300",
+  "name": "Sora triple left/right shift/brake control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-sora-3300"
+  ],
+  "type": "shifters",
+  "model_number": "ST-3303 / ST-3300",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left ST-3303 triple / right ST-3300 eight-speed shift/brake pair. The service sheet gives the exact side models but no pair or individual side weights; the known ST-3300 double pair weight is not transferred or doubled.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=93",
+    "title": "Shimano 2000 STI technical manual, PDF/printed page 93: Sora STI table explicitly identifies ST-3303 left triple control and ST-3300 right rear control in the 24-speed configuration",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=93",
+      "title": "Shimano 2000 STI technical manual, PDF/printed page 93: Sora STI table explicitly identifies ST-3303 left triple control and ST-3300 right rear control in the 24-speed configuration",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 8,
+    "left_model": "ST-3303",
+    "right_model": "ST-3300"
+  }
+}

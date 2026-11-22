@@ -25,10 +25,19 @@
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano34-35.jpg",
       "title": "Shimano 2001 Bicycle Components, printed page 34: original manufacturer catalogue scan archived by Charlie Taylor",
       "retrieved_on": "2026-11-10"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=78",
+      "title": "Shimano 2000 STI technical manual, PDF/printed page 78: named Tiagra table lists the same ST-4400 model for double and triple configurations; no separate ST-4403 code is invented",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
     "rear_speeds": 9,
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "available_front_speeds": [
+      2,
+      3
+    ]
   }
 }
