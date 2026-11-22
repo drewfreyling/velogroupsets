@@ -1,0 +1,28 @@
+{
+  "id": "shimano-br-mc33-e",
+  "slug": "br-mc33-e",
+  "name": "STX RC cantilever brake front/rear pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-MC33-E",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a complete front/rear brake-pair reference including pads and mounting bolts is not established. A weight for a pair of cantilever arms is not assumed to cover both wheels.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 31: BR-MC33-E exact brake model and named group columns; no compliant front/rear pair weight",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 31: BR-MC33-E exact brake model and named group columns; no compliant front/rear pair weight",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

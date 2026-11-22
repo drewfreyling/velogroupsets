@@ -1,0 +1,32 @@
+{
+  "id": "shimano-rd-mc38",
+  "slug": "rd-mc38",
+  "name": "STX RC 8-speed rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-MC38",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the RD-MC38 eight-speed weight cell is blank. The adjacent 293 g RD-MC36 seven-speed figure is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 30: RD-MC38 speed, all four limits and exact weight-cell reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 30: RD-MC38 speed, all four limits and exact weight-cell reference",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "total_capacity_teeth": 39,
+    "maximum_sprocket_teeth": 32,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 20
+  }
+}

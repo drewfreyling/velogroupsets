@@ -1,0 +1,46 @@
+{
+  "id": "shimano-cs-m900-i",
+  "slug": "cs-m900-i",
+  "name": "Eight-speed 12–32T IG-compatible cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m950"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M900-I",
+  "weight_g": 316,
+  "weight_description": "Manufacturer-listed CS-M900-I eight-speed 12–32T cassette, P-group, 316 g. The facing availability chart identifies the exact tooth sequence for the weighed letter code; lockring inclusion follows the catalogue convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: CS-M900-I model, named group and 316 g P-group reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: CS-M900-I model, named group and 316 g P-group reference",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 33: CS-M900-I P-group exact eight-sprocket tooth sequence",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "sprocket_range": "12–32T",
+    "sprockets_teeth": [
+      12,
+      14,
+      16,
+      18,
+      21,
+      24,
+      28,
+      32
+    ],
+    "cassette_group": "P",
+    "chain_compatibility": "IG"
+  }
+}

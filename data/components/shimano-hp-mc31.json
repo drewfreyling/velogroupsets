@@ -1,15 +1,16 @@
 {
   "id": "shimano-hp-mc31",
   "slug": "hp-mc31",
-  "name": "STX Special Edition cartridge headset",
+  "name": "STX Special Edition / STX RC cartridge headset",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-stx-special-edition-mc31"
+    "shimano-stx-special-edition-mc31",
+    "shimano-stx-rc"
   ],
   "type": "headset",
   "model_number": "HP-MC31",
   "weight_g": null,
-  "weight_description": "Weight not yet sourced: complete HP-MC31 threaded cartridge headset for a 1 1/8 inch steerer, with 37.6 mm stack height. The reviewed 1994 table identifies this model but gives no weight for it; an adjacent model’s figure is not transferred.",
+  "weight_description": "Weight unresolved: the 1997 table lists 190 g and prints a 24 TPI thread for HP-MC31, while the existing 1994 manufacturer reference identifies a 26 TPI thread. The exact weighed thread configuration is not resolved; no equivalence or revision is inferred.",
   "technical_document": {
     "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=27",
     "title": "Shimano 1994 dealer product manual, PDF / printed page 27: HP-MC31 assembly, specifications and group membership",
@@ -20,6 +21,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=27",
       "title": "Shimano 1994 dealer product manual, PDF / printed page 27: HP-MC31 assembly, specifications and group membership",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: HP-MC31 STX-RC membership and reference configuration",
+      "retrieved_on": "2026-11-22"
     }
   ],
   "specifications": {

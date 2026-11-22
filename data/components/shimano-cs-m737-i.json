@@ -1,0 +1,46 @@
+{
+  "id": "shimano-cs-m737-i",
+  "slug": "cs-m737-i",
+  "name": "Eight-speed 11–28T IG-compatible cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m739"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M737-I",
+  "weight_g": 256,
+  "weight_description": "Manufacturer-listed CS-M737-I eight-speed 11–28T cassette, R-group, 256 g. The facing availability chart identifies the exact tooth sequence for the weighed letter code; lockring inclusion follows the catalogue convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: CS-M737-I model, named group and 256 g R-group reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: CS-M737-I model, named group and 256 g R-group reference",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 33: CS-M737-I R-group exact eight-sprocket tooth sequence",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "sprocket_range": "11–28T",
+    "sprockets_teeth": [
+      11,
+      12,
+      14,
+      16,
+      18,
+      21,
+      24,
+      28
+    ],
+    "cassette_group": "R",
+    "chain_compatibility": "IG"
+  }
+}

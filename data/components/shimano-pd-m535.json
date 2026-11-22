@@ -1,0 +1,29 @@
+{
+  "id": "shimano-pd-m535",
+  "slug": "pd-m535",
+  "name": "Deore LX SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m560"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M535",
+  "weight_g": 410,
+  "weight_description": "Manufacturer-listed complete left/right PD-M535 SPD pedal pair, 410 g. The table explicitly identifies a pair; cleat inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: PD-M535 exact named group membership and explicit 410 g pedal-pair weight",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: PD-M535 exact named group membership and explicit 410 g pedal-pair weight",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI"
+  }
+}

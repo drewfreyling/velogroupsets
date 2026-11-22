@@ -1,11 +1,12 @@
 {
   "id": "shimano-pd-m323",
   "slug": "pd-m323",
-  "name": "Deore LX / STX Special Edition SPD-compatible pedal pair",
+  "name": "Deore LX / STX Special Edition / STX RC SPD-compatible pedal pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-deore-lx-m560",
-    "shimano-stx-special-edition-mc31"
+    "shimano-stx-special-edition-mc31",
+    "shimano-stx-rc"
   ],
   "type": "pedals",
   "model_number": "PD-M323",
@@ -26,6 +27,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=27",
       "title": "Shimano 1994 dealer product manual, PDF / printed page 27: PD-M323 illustrated within the STX Special Edition group",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: PD-M323 STX-RC membership and reference configuration",
+      "retrieved_on": "2026-11-22"
     }
   ],
   "specifications": {

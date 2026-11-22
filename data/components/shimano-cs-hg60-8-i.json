@@ -1,0 +1,41 @@
+{
+  "id": "shimano-cs-hg60-8-i",
+  "slug": "cs-hg60-8-i",
+  "name": "STX RC eight-speed cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG60-8-I",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the STX-RC cassette weight cell is blank. The 326 g ah-group figure belongs to the separate CS-HG70-I model and is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: CS-HG60-8-I exact model, eight-speed STX-RC membership and blank weight cell",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: CS-HG60-8-I exact model, eight-speed STX-RC membership and blank weight cell",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 33: CS-HG60-8-I an-group 11–30T and ah-group 11–28T exact combinations",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "group_options": [
+      "an",
+      "ah"
+    ],
+    "gearing_options": [
+      "11–30T",
+      "11–28T"
+    ]
+  }
+}

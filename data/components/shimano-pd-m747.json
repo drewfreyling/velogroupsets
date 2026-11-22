@@ -1,0 +1,29 @@
+{
+  "id": "shimano-pd-m747",
+  "slug": "pd-m747",
+  "name": "XTR SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m950"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M747",
+  "weight_g": 393,
+  "weight_description": "Manufacturer-listed complete left/right PD-M747 SPD pedal pair, 393 g. The table explicitly identifies a pair; cleat inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: PD-M747 exact named group membership and explicit 393 g pedal-pair weight",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: PD-M747 exact named group membership and explicit 393 g pedal-pair weight",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI"
+  }
+}

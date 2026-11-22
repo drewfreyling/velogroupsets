@@ -1,0 +1,30 @@
+{
+  "id": "shimano-sp-m650",
+  "slug": "sp-m650",
+  "name": "Deore LX / STX RC 360 mm seatpost",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc",
+    "shimano-deore-lx-m560"
+  ],
+  "type": "seatpost",
+  "model_number": "SP-M650",
+  "weight_g": 325,
+  "weight_description": "Manufacturer-listed SP-M650 360 mm seatpost, 325 g. The table footnote restricts the 360 mm option to 27.2 mm diameter, identifying both dimensions of the selected reference.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: SP-M650 325 g at 360 mm; footnote explicitly restricts 360 mm to 27.2 mm diameter",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: SP-M650 325 g at 360 mm; footnote explicitly restricts 360 mm to 27.2 mm diameter",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "length_mm": 360,
+    "diameter_mm": 27.2
+  }
+}

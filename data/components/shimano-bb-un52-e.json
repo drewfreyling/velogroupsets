@@ -1,0 +1,33 @@
+{
+  "id": "shimano-bb-un52-e",
+  "slug": "bb-un52-e",
+  "name": "Deore LX / STX RC square-taper bottom bracket for E-type front derailleurs",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc",
+    "shimano-deore-lx-m560"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-UN52-E",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the table identifies multiple spindle references but leaves this bottom-bracket weight cell blank. A weight for BB-UN72 or BB-M950 is not reused.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: BB-UN52-E exact bottom-bracket model and STX-RC column",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: BB-UN52-E exact bottom-bracket model and STX-RC column",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_options_mm": [
+      110.5,
+      113
+    ]
+  }
+}

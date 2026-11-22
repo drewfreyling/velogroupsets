@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [STX-RC and 1997 MTB follow-up](shimano-stx-rc-1997.md) adds **one range, 26 components and eleven sourced weights**, including matched cassette letter codes, explicit pedal pairs and a dimensioned seatpost reference.
+
 The [Sword Black and ADVENT MX review](microshift-sword-black-advent-mx.md) adds **three ranges, 21 components and 13 sourced weights** from the official 2025/2026 catalogues, preserving three conflicting cassette weights as unknown.
 
 The [Shimano 2006 MTB follow-up](shimano-2006.md) adds **37 components and 36 sourced weights**, including 17 skewer-free hubs, eight control/lever pairs and separate front/rear XTR disc-caliper references.

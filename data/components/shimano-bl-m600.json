@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bl-m600",
+  "slug": "bl-m600",
+  "name": "Deore LX / STX RC V-brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc",
+    "shimano-deore-lx-m560"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-M600",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right BL-M600 V-brake lever pair. Its weight cell is blank; the BL-M739 pair figure and ST-MC36 combined-control total are not substituted.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 30: BL-M600 standalone V-brake levers, shared Deore LX / STX-RC group columns",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 30: BL-M600 standalone V-brake levers, shared Deore LX / STX-RC group columns",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_compatibility": "V-brake"
+  }
+}

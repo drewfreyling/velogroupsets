@@ -1,0 +1,30 @@
+{
+  "id": "shimano-st-mc36",
+  "slug": "st-mc36",
+  "name": "STX RC 7-speed combined shift/brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc"
+  ],
+  "type": "shifters",
+  "model_number": "ST-MC36",
+  "weight_g": 335,
+  "weight_description": "Manufacturer-listed 335 g complete left/right ST-MC36 combined shift/brake control pair, triple front and seven-speed rear. The row explicitly says Weight (pair); cable/housing inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 31: ST-MC36 exact control/set configuration and pair-weight row",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 31: ST-MC36 exact control/set configuration and pair-weight row",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 7
+  }
+}

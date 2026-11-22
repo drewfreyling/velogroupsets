@@ -1,0 +1,32 @@
+{
+  "id": "shimano-stx-rc",
+  "slug": "stx-rc",
+  "name": "STX RC",
+  "manufacturer_id": "shimano",
+  "model_number": "7/8-speed",
+  "start_year": 1995,
+  "category": "mtb",
+  "generation": "The 1995 manufacturer catalogue introduces STX-RC as an all-new group. This inventory uses the 1997 seven-/eight-speed configurations within that named range; it does not backdate every later component to launch.",
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=4",
+      "title": "Shimano 1995 dealer sales/support manual, PDF/printed page 4: STX-RC described as an all-new high-performance MTB group",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 30: STX-RC 7-speed rear/front derailleur reference",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 31: STX-RC 7-speed control configuration",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: STX-RC crank, bottom-bracket and seven-/eight-speed rear-hub inventory",
+      "retrieved_on": "2026-11-22"
+    }
+  ]
+}

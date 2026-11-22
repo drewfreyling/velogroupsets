@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fh-mc38",
+  "slug": "fh-mc38",
+  "name": "STX RC 8-speed rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-MC38",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed hub table does not explicitly establish a skewer-free weight for this model. No inclusive figure or neighbouring hub weight is used.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: FH-MC38 exact hub model, speed where applicable and STX-RC membership",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 32: FH-MC38 exact hub model, speed where applicable and STX-RC membership",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "axle_type": "Quick release",
+    "rear_speeds": 8
+  },
+  "weight_excludes_skewers": true
+}
