@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sm-rt60-160",
+  "slug": "sm-rt60-160",
+  "name": "Deore 160 mm six-bolt rotor",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m510"
+  ],
+  "type": "disc-brake-rotor",
+  "model_number": "SM-RT60",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: one SM-RT60 160 mm six-bolt rotor; a weight with stated rotor-fixing-bolt inclusion is not published.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=95",
+    "title": "Shimano 2002 STI technical manual, PDF page 95 / printed page 93: SM-RT60 explicitly named in rotor installation diagram with six numbered rotor-fixing bolts",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=95",
+      "title": "Shimano 2002 STI technical manual, PDF page 95 / printed page 93: SM-RT60 explicitly named in rotor installation diagram with six numbered rotor-fixing bolts",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=56",
+      "title": "Shimano 2003 STI manual, PDF page 56 / printed page 55: named Deore rotor column identifies SM-RT60 and 160 mm diameter",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "diameter_mm": 160,
+    "mount": "6-bolt"
+  }
+}

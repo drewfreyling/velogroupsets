@@ -25,6 +25,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=176",
       "title": "Shimano 2005 Trade Sales Support Manual, PDF page 176 / printed page 188: FC-7703 681 g at 170 mm with 53/39/30T; BB-7703 is separately listed at 217 g",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=120",
+      "title": "Shimano 2002 STI technical manual, PDF page 120 / printed page 118: FC-7703 exact triple model: 130/90 mm bolt circles and available crank lengths; existing weighed reference retained",
+      "retrieved_on": "2026-11-22"
     }
   ],
   "specifications": {
@@ -34,6 +39,19 @@
       39,
       30
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameters_mm": [
+      130,
+      90
+    ],
+    "available_crank_lengths_mm": [
+      165,
+      167.5,
+      170,
+      172.5,
+      175,
+      177.5,
+      180
+    ]
   }
 }

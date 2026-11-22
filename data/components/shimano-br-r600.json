@@ -1,0 +1,36 @@
+{
+  "id": "shimano-br-r600",
+  "slug": "br-r600",
+  "name": "Ultegra 47–57 mm reach brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-R600",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete front/rear BR-R600 brake-pair mass including pads and mounting bolts is not established by the service instructions.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=82",
+    "title": "Shimano 2002 STI technical manual, PDF page 82 / printed page 80: BR-R600 exact caliper model, CS-57 type, 47–57 mm reach and specified brake shoes",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=82",
+      "title": "Shimano 2002 STI technical manual, PDF page 82 / printed page 80: BR-R600 exact caliper model, CS-57 type, 47–57 mm reach and specified brake shoes",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://bike.shimano.com/en-AU/products/discontinued.html",
+      "title": "Shimano discontinued-products index: BR-R600 explicitly classified as ULTEGRA",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "reach_min_mm": 47,
+    "reach_max_mm": 57,
+    "brake_shoe_model": "R55C +1"
+  }
+}

@@ -52,7 +52,7 @@ Two new rotor records retain one rotor and its exact diameter:
 - **SM-RT96, 160 mm, Center Lock:** PDF page 56 / printed page 55 explicitly calls it a lockring-type mount in the XTR rotor column.
 - **SM-RT75, 160 mm, six-bolt:** the same table identifies its model, diameter and XT association. The [installation instructions, PDF page 111 / printed page 110](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=111), explicitly name SM-RT75 and illustrate six numbered rotor-fixing bolts. The mount is not guessed from bolt-circle diameter alone.
 
-Both weights remain null. Installation hardware does not establish whether hardware was included in an unpublished mass. SM-RT75M, SM-RT75-DH and SM-RT60 are not automatically assigned the mount/weight of SM-RT75, nor is SM-RT60 treated as an alias of the SM-RT61 named in another service sheet.
+Both weights remain null. Installation hardware does not establish whether hardware was included in an unpublished mass. The subsequent [2002 service-table review](shimano-2002-sti.md) resolves SM-RT60’s mount from its own named installation diagram and adds that rotor with its exact 2003 diameter reference. SM-RT75M, SM-RT75-DH and SM-RT60 are not automatically assigned the mount/weight of SM-RT75, nor is SM-RT60 treated as an alias of the SM-RT61 named in another service sheet.
 
 ## Further review
 

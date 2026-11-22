@@ -25,9 +25,24 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=118",
       "title": "Shimano 2005 Trade Sales Support Manual, printed page 130 (PDF page 118): FD-7703-F 103 g versus FD-7703-B 113 g",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=122",
+      "title": "Shimano 2002 STI technical manual, PDF page 122 / printed page 120: FD-7703 triple front derailleur: 23T maximum difference, 14T top/middle minimum and 45 mm chainline",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=135",
+      "title": "Shimano 2002 STI manual, PDF page 135 / printed page 133: named Dura-Ace triple ST-7703 system explicitly identifies nine rear gears",
+      "retrieved_on": "2026-11-22"
     }
   ],
   "specifications": {
-    "mount": "Braze-on"
+    "mount": "Braze-on",
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "capacity_teeth": 23,
+    "minimum_top_middle_difference_teeth": 14,
+    "chainline_mm": 45
   }
 }

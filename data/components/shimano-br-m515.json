@@ -1,0 +1,42 @@
+{
+  "id": "shimano-br-m515",
+  "slug": "br-m515",
+  "name": "Deore mechanical disc-brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m510"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-M515",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a position-specific BR-M515 caliper mass including pads and mounting bolts is not published; no complete brake-system mass is substituted.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=95",
+    "title": "Shimano 2002 STI technical manual, PDF page 95 / printed page 93: BR-M515 exact cable-actuated disc caliper identity; PDF pages 96–97 / printed 94–95 show adapter and post-type mounting",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=95",
+      "title": "Shimano 2002 STI technical manual, PDF page 95 / printed page 93: BR-M515 exact cable-actuated disc caliper identity; PDF pages 96–97 / printed 94–95 show adapter and post-type mounting",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=97",
+      "title": "Shimano 2002 STI technical manual, PDF page 97 / printed page 95: post-type fork installation and adapter mounting diagrams in BR-M515 / BR-M515-LA service instructions",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://bike.shimano.com/en-AU/products/discontinued.html",
+      "title": "Shimano discontinued-products index: BR-M515 explicitly classified as DEORE",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "actuation": "Mechanical",
+    "mount": "Post mount",
+    "piston_count": null,
+    "mounting_note": "Service instructions show the caliper with an International Standard adapter and separately illustrate post-type fork mounting."
+  }
+}

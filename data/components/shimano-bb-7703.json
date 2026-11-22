@@ -1,0 +1,31 @@
+{
+  "id": "shimano-bb-7703",
+  "slug": "bb-7703",
+  "name": "Dura-Ace triple bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-7700"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-7703",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the manufacturer service table identifies BB-7703 but does not publish a configuration-specific bottom-bracket mass or spindle-length reference.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=122",
+    "title": "Shimano 2002 STI technical manual, PDF page 122 / printed page 120: named Dura-Ace triple front-drive table: exact BB-7703 model, separate from FC-7703",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf#page=122",
+      "title": "Shimano 2002 STI technical manual, PDF page 122 / printed page 120: named Dura-Ace triple front-drive table: exact BB-7703 model, separate from FC-7703",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://bike.shimano.com/en-AU/products/discontinued.html",
+      "title": "Shimano discontinued-products index: BB-7703 explicitly classified as DURA-ACE",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {}
+}
