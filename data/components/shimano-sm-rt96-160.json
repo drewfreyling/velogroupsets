@@ -1,0 +1,30 @@
+{
+  "id": "shimano-sm-rt96-160",
+  "slug": "sm-rt96-160",
+  "name": "XTR 160 mm Center Lock rotor",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m960"
+  ],
+  "type": "disc-brake-rotor",
+  "model_number": "SM-RT96",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: one SM-RT96 160 mm Center Lock rotor. The technical table does not publish a weight or identify mounting-hardware inclusion.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=56",
+    "title": "Shimano 2003 STI technical manual, PDF page 56 / printed page 55: rotor specification table: XTR SM-RT96, 160 mm and lockring-type mount",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=56",
+      "title": "Shimano 2003 STI technical manual, PDF page 56 / printed page 55: rotor specification table: XTR SM-RT96, 160 mm and lockring-type mount",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "diameter_mm": 160,
+    "mount": "Center Lock"
+  }
+}

@@ -59,7 +59,7 @@ These links are indexed for later source review; they were not audited as part o
 - [2007 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2007_Shimano_STI.pdf)
 - [2006 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2006_Shimano_STI.pdf)
 - [2004 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf) — [Saint/XT/LX service-table review](shimano-2004-sti.md); exact models and limits, no weights in the selected tables
-- [2003 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf)
+- [2003 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf) — [Deore crank and early hydraulic-disc review](shimano-2003-sti.md); selected tables publish no weights
 - [2002 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2002_Shimano_STI.pdf)
 - [2001 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf)
 - [2000 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf)

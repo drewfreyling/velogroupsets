@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fc-m440",
+  "slug": "fc-m440",
+  "name": "FC-M440 MTB crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m510"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M440",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a crankset weight excluding the bottom bracket and identifying the exact arm length and chainrings is not published in the selected technical tables.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=54",
+    "title": "Shimano 2003 STI technical manual, PDF page 54 / printed page 53: named Deore crank/BB/chainline table: exact suffix, square versus splined interface and chaincase option",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=54",
+      "title": "Shimano 2003 STI technical manual, PDF page 54 / printed page 53: named Deore crank/BB/chainline table: exact suffix, square versus splined interface and chaincase option",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=52",
+      "title": "Shimano 2003 STI technical manual, PDF page 52 / printed page 51: exact base-model crank columns and published ring combinations; no crank length or mass",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "bottom_bracket_interface": "Square taper",
+    "includes_bottom_bracket": false,
+    "chainrings_teeth": [
+      44,
+      32,
+      22
+    ]
+  }
+}

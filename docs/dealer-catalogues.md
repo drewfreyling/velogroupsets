@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [2003 STI technical-table review](shimano-2003-sti.md) adds **18 components**: eight exact Deore crank variants, FD-M511, five early hydraulic calipers, two lever pairs and two rotors. The selected technical tables publish no new weights.
+
 The [2004 STI service-table review](shimano-2004-sti.md) adds **17 Saint/XT/LX components** and fills Saint cage-specific limits and XT/LX configuration gaps. The selected technical service tables do not publish weights; all new masses remain unknown.
 
 The [STX MC34 and 1998 control-set review](shimano-stx-mc34-1998-controls.md) adds **one range, 21 components and six sourced weights**, including the resolved SL-M739 standalone pair and eight shared STX memberships.

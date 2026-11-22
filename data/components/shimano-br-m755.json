@@ -1,0 +1,32 @@
+{
+  "id": "shimano-br-m755",
+  "slug": "br-m755",
+  "name": "BR-M755 hydraulic disc-brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m750"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-M755",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the combination chart identifies the caliper and mounting configuration but does not publish a position-specific weight including pads and mounting bolts.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=56",
+    "title": "Shimano 2003 STI technical manual, PDF page 56 / printed page 55: named XTR / XT / Deore hydraulic-disc combination chart: exact caliper codes and mounting/position conditions",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=56",
+      "title": "Shimano 2003 STI technical manual, PDF page 56 / printed page 55: named XTR / XT / Deore hydraulic-disc combination chart: exact caliper codes and mounting/position conditions",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "actuation": "Hydraulic",
+    "mount": "International Standard",
+    "piston_count": null,
+    "mounting_note": "Selected International Standard reference. The table also lists front post-mount adapter support; see the manufacturer instructions."
+  }
+}

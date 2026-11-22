@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sm-rt75-160",
+  "slug": "sm-rt75-160",
+  "name": "Deore XT 160 mm six-bolt rotor",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m750"
+  ],
+  "type": "disc-brake-rotor",
+  "model_number": "SM-RT75",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: one SM-RT75 160 mm six-bolt rotor. The technical tables do not publish a weight with stated fixing-bolt inclusion.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=56",
+    "title": "Shimano 2003 STI technical manual, PDF page 56 / printed page 55: rotor table: XT SM-RT75 160 mm; PDF page 111 / printed page 110 documents the six rotor fixing bolts",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=56",
+      "title": "Shimano 2003 STI technical manual, PDF page 56 / printed page 55: rotor table: XT SM-RT75 160 mm; PDF page 111 / printed page 110 documents the six rotor fixing bolts",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=111",
+      "title": "Shimano 2003 STI technical manual, PDF page 111 / printed page 110: SM-RT75 installation diagram and numbered six-bolt tightening sequence",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "diameter_mm": 160,
+    "mount": "6-bolt"
+  }
+}

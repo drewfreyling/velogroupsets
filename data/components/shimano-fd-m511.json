@@ -1,0 +1,42 @@
+{
+  "id": "shimano-fd-m511",
+  "slug": "fd-m511",
+  "name": "Deore triple front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m510"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M511",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the technical table gives gearing limits but no assembly weight or weighed mounting configuration.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=52",
+    "title": "Shimano 2003 STI technical manual, PDF page 52 / printed page 51: Mega-9 front-derailleur table: exact FD-M511 column, triple configuration, 22T capacity, 12T top/middle minimum and 44/46/48T options",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=52",
+      "title": "Shimano 2003 STI technical manual, PDF page 52 / printed page 51: Mega-9 front-derailleur table: exact FD-M511 column, triple configuration, 22T capacity, 12T top/middle minimum and 44/46/48T options",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://bike.shimano.com/en-AU/products/discontinued.html",
+      "title": "Shimano discontinued-products index: FD-M511 explicitly classified as DEORE",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "capacity_teeth": 22,
+    "minimum_top_middle_difference_teeth": 12,
+    "largest_chainring_options_teeth": [
+      44,
+      46,
+      48
+    ],
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "mounting_configuration_note": "Mount type and clamp diameter are not established by the selected table."
+  }
+}

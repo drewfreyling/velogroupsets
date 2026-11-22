@@ -17,6 +17,11 @@
       "url": "https://www.shimano.com/en/100th/history/products/products.csv",
       "title": "Shimano product-history data, product 27: M510 series/date reference",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=54",
+      "title": "Shimano 2003 STI technical manual, PDF page 54 / printed page 53: named manufacturer range column and exact component models; existing start year retained",
+      "retrieved_on": "2026-11-22"
     }
   ]
 }

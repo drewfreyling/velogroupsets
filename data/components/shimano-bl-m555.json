@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bl-m555",
+  "slug": "bl-m555",
+  "name": "BL-M555 hydraulic brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m510"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-M555",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right hydraulic brake-lever pair. The combination chart gives model associations but no pair weight; no single-side or complete-system weight is substituted.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=56",
+    "title": "Shimano 2003 STI technical manual, PDF page 56 / printed page 55: named XT / Deore hydraulic-disc combination chart: exact standalone brake-lever models",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=56",
+      "title": "Shimano 2003 STI technical manual, PDF page 56 / printed page 55: named XT / Deore hydraulic-disc combination chart: exact standalone brake-lever models",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "actuation": "Hydraulic"
+  }
+}
