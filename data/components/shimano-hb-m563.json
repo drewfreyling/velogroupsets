@@ -1,0 +1,32 @@
+{
+  "id": "shimano-hb-m563",
+  "slug": "hb-m563",
+  "name": "HB-M563 front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m560"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-M563",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: selected 100 mm over-locknut reference. The manufacturer table does not establish a weight explicitly excluding the quick-release skewer; its printed weight, if present, is not used.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=84",
+    "title": "Shimano 2001 STI technical manual, PDF page 84 / printed page 90: HB-M563 exact hub row, named series column and 100 mm over-locknut geometry; weight does not establish skewer exclusion",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=84",
+      "title": "Shimano 2001 STI technical manual, PDF page 84 / printed page 90: HB-M563 exact hub row, named series column and 100 mm over-locknut geometry; weight does not establish skewer exclusion",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "over_locknut_dimension_mm": 100,
+    "center_to_flange_right_mm": 35.8,
+    "center_to_flange_left_mm": 35.8,
+    "flange_diameter_mm": 38
+  },
+  "weight_excludes_skewers": true
+}

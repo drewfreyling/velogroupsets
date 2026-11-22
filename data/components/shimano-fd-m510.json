@@ -30,6 +30,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=21",
       "title": "Shimano 2000 dealer sales/support manual, PDF page 21 / printed page 19: FD-M510 capacity, top-to-middle difference, top gear and nine-speed compatibility",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=136",
+      "title": "Shimano 2001 STI technical manual, PDF page 136 / printed page 142: named Deore triple front-drive configuration and separately described 47.5 / 50 mm chainline options; existing weighed clamp reference retained",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
@@ -40,6 +45,11 @@
     "largest_chainring_options_teeth": [
       44
     ],
-    "rear_speeds": 9
+    "rear_speeds": 9,
+    "front_speeds": 3,
+    "available_chainlines_mm": [
+      47.5,
+      50
+    ]
   }
 }

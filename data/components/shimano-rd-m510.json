@@ -30,6 +30,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=21",
       "title": "Shimano 2000 dealer sales/support manual, PDF page 21 / printed page 19: RD-M510 nine-speed rear-derailleur specification column and reference weight",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=138",
+      "title": "Shimano 2001 STI technical manual, PDF page 138 / printed page 144: RD-M510 exact SGS cage designation in the named Deore nine-speed rear-drive table; existing limits and weight retained",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
@@ -37,6 +42,7 @@
     "maximum_sprocket_teeth": 34,
     "minimum_sprocket_teeth": 11,
     "maximum_front_difference_teeth": 22,
-    "rear_speeds": 9
+    "rear_speeds": 9,
+    "cage": "SGS"
   }
 }

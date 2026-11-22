@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bb-es70",
+  "slug": "bb-es70",
+  "name": "Deore XT / LX eight-spline bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m750",
+    "shimano-deore-lx-m570"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-ES70",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the manufacturer technical note identifies BB-ES70 and its spline geometry but does not publish an assembly weight. Different spline engagement on BB-M950 / BB-M952 is not treated as interchangeable.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=60",
+    "title": "Shimano 2001 STI technical manual, PDF page 60 / printed page 66: BB-ES70 dimensions explicitly described for Deore XT/LX; eight serrations with 9 mm engagement, distinct from BB-M950 / BB-M952",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=60",
+      "title": "Shimano 2001 STI technical manual, PDF page 60 / printed page 66: BB-ES70 dimensions explicitly described for Deore XT/LX; eight serrations with 9 mm engagement, distinct from BB-M950 / BB-M952",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "spindle_interface": "8-spline",
+    "spline_length_mm": 9
+  }
+}

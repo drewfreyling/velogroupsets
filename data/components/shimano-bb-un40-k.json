@@ -1,0 +1,31 @@
+{
+  "id": "shimano-bb-un40-k",
+  "slug": "bb-un40-k",
+  "name": "Deore square-taper bottom bracket for chaincase configuration",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m510"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-UN40-K",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the service table identifies the available spindle length but does not publish a weight for the bottom-bracket assembly.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=136",
+    "title": "Shimano 2001 STI technical manual, PDF page 136 / printed page 142: named Deore front-drive table: exact BB-UN40 / BB-UN40-K models and spindle-length rows",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=136",
+      "title": "Shimano 2001 STI technical manual, PDF page 136 / printed page 142: named Deore front-drive table: exact BB-UN40 / BB-UN40-K models and spindle-length rows",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "spindle_interface": "Square taper",
+    "available_spindle_lengths_mm": [
+      117.5
+    ]
+  }
+}

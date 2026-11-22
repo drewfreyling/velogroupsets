@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [2001 STI hub and Deore service review](shimano-2001-sti.md) adds **15 components** and fills four Deore configuration gaps: twelve MTB hubs, BB-ES70 and the BB-UN40 variants. Hub masses remain unknown because the tables do not establish skewer exclusion.
+
 The [2002 STI service-table review](shimano-2002-sti.md) adds **six components** and fills four Dura-Ace triple configuration gaps, including BB-7703, BR-R600 and a directly documented SM-RT60 rotor mount. The selected service sections publish no new weights.
 
 The [2003 STI technical-table review](shimano-2003-sti.md) adds **18 components**: eight exact Deore crank variants, FD-M511, five early hydraulic calipers, two lever pairs and two rotors. The selected technical tables publish no new weights.

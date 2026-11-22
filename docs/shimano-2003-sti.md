@@ -21,7 +21,7 @@ The [crank/BB/chainline chart, PDF page 54 / printed page 53](https://na.s-tec.s
 
 These are documented catalogue-era associations with the existing Deore M510 range, not claims of exclusive branding or a common introduction date. The table's interface heading says **Spline**, so the records retain that wording rather than inventing a more specific interface standard from a model number.
 
-The [chainring chart, PDF page 52 / printed page 51](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=52) explicitly gives FC-M480, FC-M445 and FC-M440 **44/32/22T**, and FC-M510 both **44/32/22T and 48/36/26T**. Those base-model configurations are not automatically transferred to separately suffixed models. The selected tables do not establish exact arm lengths or assembly weights. Every new crank weight therefore remains null and any future weight must identify the exact arms/rings and exclude the bottom bracket.
+The [chainring chart, PDF page 52 / printed page 51](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2003_Shimano_STI.pdf#page=52) explicitly gives FC-M480, FC-M445 and FC-M440 **44/32/22T**, and FC-M510 both **44/32/22T and 48/36/26T**. Those base-model configurations are not automatically transferred to separately suffixed models. The selected tables do not establish exact arm lengths or assembly weights. The subsequent [2001 service review](shimano-2001-sti.md) identifies exact FC-M510 and FC-M510-K arm/ring configurations; other suffixes still need their own references. Every new crank weight therefore remains null and any future weight must identify the exact arms/rings and exclude the bottom bracket.
 
 ## Front derailleur
 

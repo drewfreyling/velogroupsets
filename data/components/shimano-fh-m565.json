@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fh-m565",
+  "slug": "fh-m565",
+  "name": "FH-M565 rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m560"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-M565",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: selected 135 mm over-locknut reference. The manufacturer table does not establish a weight explicitly excluding the quick-release skewer; its printed weight, if present, is not used.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=84",
+    "title": "Shimano 2001 STI technical manual, PDF page 84 / printed page 90: FH-M565 exact hub row, named series column and 135 mm over-locknut geometry; weight does not establish skewer exclusion",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=84",
+      "title": "Shimano 2001 STI technical manual, PDF page 84 / printed page 90: FH-M565 exact hub row, named series column and 135 mm over-locknut geometry; weight does not establish skewer exclusion",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "over_locknut_dimension_mm": 135,
+    "center_to_flange_right_mm": 22.7,
+    "center_to_flange_left_mm": 37.9,
+    "flange_diameter_mm": 45,
+    "rear_speeds": 8
+  },
+  "weight_excludes_skewers": true
+}
