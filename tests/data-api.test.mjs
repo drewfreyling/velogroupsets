@@ -91,7 +91,7 @@ test('catalogue JSON bypasses the Worker with user code replaced by a failing pr
     for(const path of ['/api/v1/index.json','/api/v1/catalogue.json','/api/v1/manufacturers.json','/api/v1/groupsets.json','/api/v1/components.json','/api/v1/component-types.json','/api/v1/components/shimano-rd-r7000-gs.json','/openapi.json']){
       const response=await server.fetch(path);assert.equal(response.status,200,path);
       assert.match(response.headers.get('Content-Type'),/application\/json/);assert.equal(response.headers.get('Access-Control-Allow-Origin'),'*');
-      assert.equal(response.headers.get('Cache-Control'),'public, max-age=300, must-revalidate');
+      assert.equal(response.headers.get('Cache-Control'),'public, max-age=3600, must-revalidate');
       if(path.startsWith('/api/'))assert.equal(response.headers.get('X-Catalogue-Delivery'),'static-assets');
       assert.equal(response.headers.get('Set-Cookie'),null);
       const json=await response.json();

@@ -98,7 +98,7 @@ Workers Static Assets serves the CSP from `apps/web/public/_headers`. It permits
 2. CI validates record schemas, stable IDs, relationships, and source citation structure. Evidence accuracy and source availability remain review responsibilities.
 3. The build generates HTML, static JSON API files, a client-side search index, a minimal Worker component-ID allowlist and the OpenAPI download.
 4. Cloudflare serves the generated site without querying D1 for normal catalogue navigation.
-5. External clients read `/api/v1/*.json` directly from Workers Static Assets. The namespace is excluded from Worker-first routing: successful reads do not execute application code or use D1/R2/KV. Collections contain all records; clients filter/search locally and compare body-level `catalogue_version` revisions when combining files. Browser max-age remains five minutes, with platform ETags and public CORS. A cold cache may need an internal asset fetch, still without application Worker execution. Breaking changes are allowed under v1 during staging. See [the API guide](api.md) and [OpenAPI 3.1 contract](../apps/api/openapi.json).
+5. External clients read `/api/v1/*.json` directly from Workers Static Assets. The namespace is excluded from Worker-first routing: successful reads do not execute application code or use D1/R2/KV. Collections contain all records; clients filter/search locally and compare body-level `catalogue_version` revisions when combining files. Browser max-age remains one hour, with platform ETags and public CORS. A cold cache may need an internal asset fetch, still without application Worker execution. Breaking changes are allowed under v1 during staging. See [the API guide](api.md) and [OpenAPI 3.1 contract](../apps/api/openapi.json).
 
 Use a stable ID for each component and groupset, separate from its URL slug and display name. Removing or renaming a catalogue record needs a policy for redirects and existing community references. The API must validate submitted component IDs against a catalogue ID set shipped with its deployment.
 
@@ -147,8 +147,8 @@ Uploads are private until review; originals are processed in memory and are neve
 
 | Content | Policy |
 | --- | --- |
-| Catalogue HTML, unversioned assets and search index | `Cache-Control: public, max-age=300, must-revalidate`; browsers may reuse responses for five minutes, then revalidate |
-| Catalogue JSON API (`/api/v1/*.json`) | Direct static assets, no Worker execution; same five-minute browser policy, ETags and public CORS |
+| Catalogue HTML, unversioned assets and search index | `Cache-Control: public, max-age=3600, must-revalidate`; browsers may reuse responses for one hour, then revalidate |
+| Catalogue JSON API (`/api/v1/*.json`) | Direct static assets, no Worker execution; same one-hour browser policy, ETags and public CORS |
 | Favicon (`/favicon.svg`) | `Cache-Control: public, max-age=86400, must-revalidate`; one day |
 | Hashed JS/CSS and versioned catalogue/search files | Long-lived immutable caching |
 | Approved photo derivatives | Long-lived caching through an R2 custom domain; use new keys when bytes change |

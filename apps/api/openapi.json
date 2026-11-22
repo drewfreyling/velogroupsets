@@ -40,7 +40,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -70,7 +70,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -110,7 +110,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -133,7 +133,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -175,7 +175,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -205,7 +205,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -245,7 +245,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -268,7 +268,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -310,7 +310,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -340,7 +340,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -380,7 +380,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -403,7 +403,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -454,7 +454,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -484,7 +484,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -533,7 +533,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -556,7 +556,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -598,7 +598,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -628,7 +628,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -668,7 +668,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -691,7 +691,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -742,7 +742,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -772,7 +772,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -821,7 +821,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -844,7 +844,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -886,7 +886,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -916,7 +916,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -956,7 +956,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -979,7 +979,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1030,7 +1030,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1060,7 +1060,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1109,7 +1109,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1132,7 +1132,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1174,7 +1174,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1204,7 +1204,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1244,7 +1244,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1267,7 +1267,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1318,7 +1318,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1348,7 +1348,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1397,7 +1397,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1420,7 +1420,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1462,7 +1462,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1486,7 +1486,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1520,7 +1520,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }
@@ -1537,7 +1537,7 @@
                 }
               },
               "Cache-Control": {
-                "description": "Browsers may reuse the file for five minutes before revalidation.",
+                "description": "Browsers may reuse the file for one hour before revalidation.",
                 "schema": {
                   "type": "string"
                 }

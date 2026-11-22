@@ -28,7 +28,7 @@ export function makeOpenApi(catalogueSchema,typeSchema){
   function endpoint(path,id,summary,schema,detail=false){
     const headers={
       ETag:{description:'Platform-provided entity tag; usable with If-None-Match.',schema:{type:'string'}},
-      'Cache-Control':{description:'Browsers may reuse the file for five minutes before revalidation.',schema:{type:'string'}},
+      'Cache-Control':{description:'Browsers may reuse the file for one hour before revalidation.',schema:{type:'string'}},
       ...(path.startsWith('/api/')?{'X-Catalogue-Delivery':{schema:{type:'string',const:'static-assets'}}}:{}),
     };
     const operation={summary,description:'Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.',parameters:[
