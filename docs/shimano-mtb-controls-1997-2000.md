@@ -21,7 +21,7 @@ Existing IDs, slugs, model numbers, groupset memberships and primary technical d
 
 The 1997 table explicitly labels its combined-control weight row “Weight (pair)”; BL-M739 is separately marked “159 g (pair)”. The 2000 table identifies complete lever sets, with both the triple front and nine-speed rear controls specified in each set's column. Its standalone SL columns say “shift lever set only”; the brake levers have their own model and pair-weight rows. The figures are complete set references, not a doubled right-hand weight or an estimated deduction from an ST assembly. Cable/housing inclusion is not specified in the 2000 table and remains an explicit limitation.
 
-The existing SL-M950 and SL-M739 weights remain null: their 1997 weight cells are blank. Their records now cite this limitation rather than inheriting the ST-M950 or ST-M739 total. ST-M910, SL-M952 and other nearby model codes are not treated as interchangeable with the reviewed models.
+The 1997 review left SL-M950 and SL-M739 weights null because their weight cells are blank, rather than inheriting the ST-M950 or ST-M739 total. The later [1998 control-set review](shimano-stx-mc34-1998-controls.md) resolves SL-M739 with its own complete 3×8 pair figure of 208 g; SL-M950 remains unknown. ST-M910, SL-M952 and other nearby model codes are not treated as interchangeable with the reviewed models.
 
 ## Rear derailleurs
 

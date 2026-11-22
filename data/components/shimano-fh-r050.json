@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fh-r050",
+  "slug": "fh-r050",
+  "name": "STX silent-clutch 7-speed rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc34"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-R050",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a weight explicitly excluding the quick-release skewer is not established for this hub configuration.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+    "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "available_spoke_holes": [
+      32,
+      36
+    ],
+    "available_over_locknut_dimensions_mm": [
+      130,
+      135
+    ]
+  },
+  "weight_excludes_skewers": true
+}

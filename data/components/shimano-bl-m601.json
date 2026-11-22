@@ -1,0 +1,28 @@
+{
+  "id": "shimano-bl-m601",
+  "slug": "bl-m601",
+  "name": "Deore LX V-brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m560"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-M601",
+  "weight_g": 175,
+  "weight_description": "Manufacturer-listed 175 g for the complete left/right BL-M601 V-brake lever pair; the 1998 weight row explicitly states pair. Cable/housing inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1998 manufacturer dealer manual, PDF/printed page 32: complete Rapidfire SL Lever Set table: exact model columns, triple front / eight-speed rear and assembly weights; separate brake-lever pair row",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1998 manufacturer dealer manual, PDF/printed page 32: complete Rapidfire SL Lever Set table: exact model columns, triple front / eight-speed rear and assembly weights; separate brake-lever pair row",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}

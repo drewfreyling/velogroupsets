@@ -1,0 +1,34 @@
+{
+  "id": "shimano-fc-mc34-b",
+  "slug": "fc-mc34-b",
+  "name": "STX MC34-B triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc34"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MC34-B",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the selected manufacturer table identifies this model and configuration but does not publish a qualified assembly weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+    "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: FC-MC34 / FC-MC34-B exact models and crank configuration; page 40 describes chainguard availability",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: FC-MC34 / FC-MC34-B exact models and crank configuration; page 40 describes chainguard availability",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      42,
+      32,
+      22
+    ],
+    "includes_bottom_bracket": false
+  }
+}

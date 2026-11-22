@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fd-mc34-e",
+  "slug": "fd-mc34-e",
+  "name": "STX MC34 Easy-Set front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc34"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-MC34-E",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the selected manufacturer table identifies this model and configuration but does not publish a qualified assembly weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+    "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "total_capacity_teeth": 20,
+    "maximum_chainring_teeth": 42,
+    "minimum_top_middle_difference_teeth": 10,
+    "mounting_type": "Bottom-bracket support plate; seat-tube boss or clamp adapter also required"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "shimano-bb-lp26-e",
+  "slug": "bb-lp26-e",
+  "name": "STX MC34 square-taper bottom bracket for support-plate front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc34"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-LP26-E",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the selected manufacturer table identifies this model and configuration but does not publish a qualified assembly weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+    "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "available_spindle_lengths_mm": [
+      110.5,
+      113
+    ]
+  }
+}

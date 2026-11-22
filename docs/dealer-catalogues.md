@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [STX MC34 and 1998 control-set review](shimano-stx-mc34-1998-controls.md) adds **one range, 21 components and six sourced weights**, including the resolved SL-M739 standalone pair and eight shared STX memberships.
+
 The [STX MC32 / Altus C90 and control-set follow-up](shimano-stx-mc32-altus-c90.md) adds **two ranges, 34 components and nine sourced weights**, including the resolved SL-M660 complete shifter pair and an identified FD-M961 clamp reference.
 
 The [STX-RC and 1997 MTB follow-up](shimano-stx-rc-1997.md) adds **one range, 26 components and eleven sourced weights**, including matched cassette letter codes, explicit pedal pairs and a dimensioned seatpost reference.

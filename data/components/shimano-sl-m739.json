@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M739",
-  "weight_g": null,
-  "weight_description": "Complete left/right SL-M739 standalone shifter pair. The 1997 table leaves this SL set’s weight blank; the separately published ST combined shift/brake pair weight is not transferred.",
+  "weight_g": 208,
+  "weight_description": "Manufacturer-listed 208 g for the complete left/right SL-M739 standalone 3×8 shifter set in the 1998 table. Both front and rear controls are defined in its exact column; the 1997 blank is resolved without transferring the ST-M739 figure. Cable/housing inclusion is unspecified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M739-1638/EV-SL-M739-1638.pdf",
     "title": "SL-M739 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -25,9 +25,16 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
       "title": "Shimano 1997 dealer sales/support manual, PDF page 31: SL-M739 shift-lever-only set, distinct from ST combined controls; weight blank",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1998 manufacturer dealer manual, PDF/printed page 32: complete Rapidfire SL Lever Set table: exact model columns, triple front / eight-speed rear and assembly weights; separate brake-lever pair row",
+      "retrieved_on": "2026-11-22"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 8
   }
 }

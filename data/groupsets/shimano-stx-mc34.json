@@ -1,0 +1,22 @@
+{
+  "id": "shimano-stx-mc34",
+  "slug": "stx-mc34",
+  "name": "STX",
+  "manufacturer_id": "shimano",
+  "model_number": "MC34",
+  "start_year": 1997,
+  "category": "mtb",
+  "generation": "Documented 1997 manufacturer catalogue availability; this is not a claim of an exact launch date.",
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=40",
+      "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 40: named STX MTB range and MC34 product spread",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ]
+}

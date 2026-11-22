@@ -1,0 +1,30 @@
+{
+  "id": "shimano-st-m951",
+  "slug": "st-m951",
+  "name": "ST-M951 3×8 combined shift/brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m950"
+  ],
+  "type": "shifters",
+  "model_number": "ST-M951",
+  "weight_g": 337,
+  "weight_description": "Manufacturer-listed 337 g for the complete left/right ST-M951 3×8 combined shift/brake set. The exact model column defines both front and rear controls. Cable/housing inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1998 manufacturer dealer manual, PDF/printed page 32: complete Rapidfire SL Lever Set table: exact model columns, triple front / eight-speed rear and assembly weights; separate brake-lever pair row",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1998 manufacturer dealer manual, PDF/printed page 32: complete Rapidfire SL Lever Set table: exact model columns, triple front / eight-speed rear and assembly weights; separate brake-lever pair row",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 8
+  }
+}

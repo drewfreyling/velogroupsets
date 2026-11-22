@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bl-mc16",
+  "slug": "bl-mc16",
+  "name": "STX / Alivio cantilever brake-lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc34"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-MC16",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the selected manufacturer table identifies this model and configuration but does not publish a qualified assembly weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=40",
+    "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 40: BL-MC16 brake-lever pair pictured in the named STX spread; page 44 specifies the exact Alivio-listed lever",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=40",
+      "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 40: BL-MC16 brake-lever pair pictured in the named STX spread; page 44 specifies the exact Alivio-listed lever",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "lever_length_fingers": 2.5
+  }
+}

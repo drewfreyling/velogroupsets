@@ -1,0 +1,33 @@
+{
+  "id": "shimano-hb-mc32-s",
+  "slug": "hb-mc32-s",
+  "name": "STX MC34 front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc34"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-MC32-S",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a weight explicitly excluding the quick-release skewer is not established for this hub configuration.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+    "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "available_spoke_holes": [
+      32,
+      36
+    ],
+    "over_locknut_dimension_mm": 100
+  },
+  "weight_excludes_skewers": true
+}

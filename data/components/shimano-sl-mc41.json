@@ -1,0 +1,30 @@
+{
+  "id": "shimano-sl-mc41",
+  "slug": "sl-mc41",
+  "name": "SL-MC41 3×8 standalone shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc"
+  ],
+  "type": "shifters",
+  "model_number": "SL-MC41",
+  "weight_g": 289,
+  "weight_description": "Manufacturer-listed 289 g for the complete left/right SL-MC41 3×8 standalone shifter set. The exact model column defines both front and rear controls. Cable/housing inclusion is unspecified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1998 manufacturer dealer manual, PDF/printed page 32: complete Rapidfire SL Lever Set table: exact model columns, triple front / eight-speed rear and assembly weights; separate brake-lever pair row",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1998 manufacturer dealer manual, PDF/printed page 32: complete Rapidfire SL Lever Set table: exact model columns, triple front / eight-speed rear and assembly weights; separate brake-lever pair row",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 8
+  }
+}

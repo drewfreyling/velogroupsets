@@ -1,0 +1,28 @@
+{
+  "id": "shimano-bl-mc40",
+  "slug": "bl-mc40",
+  "name": "STX RC V-brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-MC40",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the 1998 table identifies BL-MC40 but leaves its pair-weight cell blank.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1998 manufacturer dealer manual, PDF/printed page 32: complete Rapidfire SL Lever Set table: exact model columns, triple front / eight-speed rear and assembly weights; separate brake-lever pair row",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1998_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1998 manufacturer dealer manual, PDF/printed page 32: complete Rapidfire SL Lever Set table: exact model columns, triple front / eight-speed rear and assembly weights; separate brake-lever pair row",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair"
+  }
+}
