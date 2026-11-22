@@ -1,0 +1,27 @@
+{
+  "id": "shimano-altus-c90",
+  "slug": "altus-c90",
+  "name": "Altus",
+  "manufacturer_id": "shimano",
+  "model_number": "C90",
+  "start_year": 1995,
+  "category": "mtb",
+  "generation": "Documented 1995 manufacturer catalogue availability. Exact component families and speed variants follow the selected tables; this is not a claim of an exact launch date.",
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 30: Altus C90 named MTB range and component inventory",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 31: Altus C90 named MTB range and component inventory",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 33: Altus C90 named MTB range and component inventory",
+      "retrieved_on": "2026-11-22"
+    }
+  ]
+}

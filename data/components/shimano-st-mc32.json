@@ -1,0 +1,31 @@
+{
+  "id": "shimano-st-mc32",
+  "slug": "st-mc32",
+  "name": "STX MC32 3×7 combined shift/brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc32"
+  ],
+  "type": "shifters",
+  "model_number": "ST-MC32",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right ST-MC32 triple-front/7-speed-rear shift/brake control pair. The exact model’s weight is not published in the selected table.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 32: ST-MC32 exact combined-control model, front/rear speeds and lever-length option",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 32: ST-MC32 exact combined-control model, front/rear speeds and lever-length option",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "lever_length_fingers": 2
+  }
+}

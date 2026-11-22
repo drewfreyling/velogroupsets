@@ -1,7 +1,7 @@
 {
   "id": "shimano-pd-m636",
   "slug": "pd-m636",
-  "name": "Deore XT SPD pedal pair",
+  "name": "SPD platform pedal pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-deore-xt-m739"
@@ -19,6 +19,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
       "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: PD-M636 exact named group membership and explicit 640 g pedal-pair weight",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=35",
+      "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 35: PD-M636 platform-pedal features and BMX marketing; named XT table association remains on page 34",
       "retrieved_on": "2026-11-22"
     }
   ],

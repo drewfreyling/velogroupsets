@@ -1,0 +1,37 @@
+{
+  "id": "shimano-bb-un51",
+  "slug": "bb-un51",
+  "name": "STX MC32 sealed bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc32"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-UN51",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no manufacturer weight for an identified spindle-length reference is given in this table. Offered spindle options are not treated as a weighed assembly.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 32: BB-UN51 exact bottom-bracket model, axle-length options and named range membership",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 32: BB-UN51 exact bottom-bracket model, axle-length options and named range membership",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=24",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 24: BB-UN51 bottom-bracket assembly illustrated in the named group",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_options_mm": [
+      110,
+      113
+    ]
+  }
+}

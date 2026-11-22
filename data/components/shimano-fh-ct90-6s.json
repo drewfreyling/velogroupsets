@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fh-ct90-6s",
+  "slug": "fh-ct90-6s",
+  "name": "Altus C90 6-speed rear freehub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-c90"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-CT90-6S",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the table identifies this hub and its axle options but does not give a compliant configuration-specific weight. Any future reference must exclude quick-release skewers where fitted.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+    "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 33: FH-CT90-6S exact hub model, speed and axle options",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 33: FH-CT90-6S exact hub model, speed and axle options",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 6,
+    "axle_type": "Bolt-on"
+  },
+  "weight_excludes_skewers": true
+}

@@ -16,9 +16,9 @@ All are manufacturer-listed assembly figures, not new contributor measurements.
 | ST-MC36 | Complete left/right combined shift/brake pair, 3×7; row explicitly says Weight (pair) | 335 g | 31 |
 | HP-MC30 | Complete threaded cartridge headset, 1 inch, BC 1 inch × 24 TPI, 37.6 mm stack | 170 g | 34 |
 | SP-M650 | Complete 360 mm seatpost; the footnote restricts this length to 27.2 mm diameter | 325 g | 34 |
-| PD-M747 | Complete XTR pedal pair | 393 g | 34 |
-| PD-M636 | Complete Deore XT pedal pair | 640 g | 34 |
-| PD-M535 | Complete Deore LX pedal pair | 410 g | 34 |
+| PD-M747 | Pedal pair listed in the XTR column | 393 g | 34 |
+| PD-M636 | SPD platform pair listed in the Deore XT column | 640 g | 34 |
+| PD-M535 | Pedal pair listed in the Deore LX column | 410 g | 34 |
 
 Pedal weights are explicitly marked as pairs; cleat inclusion is not specified. The seatpost's diameter comes from the source footnote, not a choice among available diameters. HP-MC30 keeps its existing canonical identity and 1994 technical document while selecting the explicit 1997 weight reference.
 

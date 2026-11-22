@@ -1,0 +1,27 @@
+{
+  "id": "shimano-stx-mc32",
+  "slug": "stx-mc32",
+  "name": "STX",
+  "manufacturer_id": "shimano",
+  "model_number": "MC32",
+  "start_year": 1995,
+  "category": "mtb",
+  "generation": "Documented 1995 manufacturer catalogue availability. Exact component families and speed variants follow the selected tables; this is not a claim of an exact launch date.",
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=24",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 24: STX MC32 named MTB range and component inventory",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=25",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 25: STX MC32 named MTB range and component inventory",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 32: STX MC32 named MTB range and component inventory",
+      "retrieved_on": "2026-11-22"
+    }
+  ]
+}

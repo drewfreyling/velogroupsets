@@ -1,0 +1,30 @@
+{
+  "id": "shimano-cs-ig60",
+  "slug": "cs-ig60",
+  "name": "STX MC32 7-speed 11–28T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc32"
+  ],
+  "type": "cassette",
+  "model_number": "CS-IG60",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the manufacturer table identifies CS-IG60 but does not publish a weight for this exact assembly. A neighbouring model’s figure is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 32: CS-IG60 exact model, 7-speed ac-group 11–28T and named membership",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 32: CS-IG60 exact model, 7-speed ac-group 11–28T and named membership",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "sprocket_range": "11–28T",
+    "cassette_group": "ac"
+  }
+}

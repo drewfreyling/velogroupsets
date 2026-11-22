@@ -1,0 +1,37 @@
+{
+  "id": "shimano-bb-ct90",
+  "slug": "bb-ct90",
+  "name": "Altus C90 sealed bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-c90"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-CT90",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no manufacturer weight for an identified spindle-length reference is given in this table. Offered spindle options are not treated as a weighed assembly.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+    "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 33: BB-CT90 exact bottom-bracket model, axle-length options and named range membership",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 33: BB-CT90 exact bottom-bracket model, axle-length options and named range membership",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
+      "title": "Shimano 1995 dealer manual, page 30: Altus C90 range illustration; exact BB model and spindle references follow the detailed table on page 33",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_options_mm": [
+      116,
+      121
+    ]
+  }
+}

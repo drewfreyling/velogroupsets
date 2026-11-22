@@ -1,15 +1,15 @@
 {
   "id": "shimano-sl-m660",
   "slug": "sl-m660",
-  "name": "SL-M660 control pair",
+  "name": "SLX 3×9 Rapidfire Plus shifter pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-slx-m660"
   ],
   "type": "shifters",
   "model_number": "SL-M660",
-  "weight_g": null,
-  "weight_description": "Complete left/right SL-M660 control pair. A published pair total or both matching manufacturer side weights have not yet been established for this exact model and configuration.",
+  "weight_g": 256,
+  "weight_description": "Manufacturer-listed complete left/right SL-M660 Rapidfire Plus shifter set, triple front and nine-speed rear, 256 g. The Shift Lever Set model column defines both front and rear controls. This is the complete mechanical shifter-set reference, not the separate BL-M665 brake-lever figure. Cable/housing inclusion is unspecified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/SL-M660-2797/EV-SL-M660-2797.pdf",
     "title": "SL-M660 Shimano manufacturer exploded view: model, series and complete assembly",
@@ -20,9 +20,16 @@
       "url": "https://si.shimano.com/en/pdfs/ev/SL-M660-2797/EV-SL-M660-2797.pdf",
       "title": "SL-M660 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=207",
+      "title": "Shimano 2009 manufacturer dealer manual, PDF/printed page 207: SL-M660 complete Shift Lever Set: triple front, nine-speed rear and 256 g weight",
+      "retrieved_on": "2026-11-22"
     }
   ],
   "specifications": {
-    "weight_basis": "Pair"
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 9
   }
 }

@@ -1,0 +1,44 @@
+{
+  "id": "shimano-pd-m959",
+  "slug": "pd-m959",
+  "name": "XTR SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m960"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M959",
+  "weight_g": 350,
+  "weight_description": "Manufacturer-listed complete left/right PD-M959 pedal pair, 350 g. Cleat inclusion is not specified. The manufacturer classifies this pedal as XTR; the reference is its documented 2006 catalogue availability.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=189",
+    "title": "Shimano 2006 manufacturer dealer manual, PDF/printed page 189: PD-M959 exact model and explicit 350 g pedal-pair reference",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=189",
+      "title": "Shimano 2006 manufacturer dealer manual, PDF/printed page 189: PD-M959 exact model and explicit 350 g pedal-pair reference",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=162",
+      "title": "Shimano 2006 manufacturer dealer manual, PDF/printed page 162: PD-M959 complete pedal and 350 g manufacturer reference",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://bike.shimano.com/en-AU/products/discontinued.html",
+      "title": "Shimano discontinued-products manufacturer index: PD-M959 classified as XTR",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=80",
+      "title": "Shimano 2006 dealer manual, page 80: contemporary XTR range identified by the M960 component family",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI"
+  }
+}

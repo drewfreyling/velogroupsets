@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fd-m961",
+  "slug": "fd-m961",
+  "name": "XTR 31.8 mm clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m960"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M961",
+  "weight_g": 149,
+  "weight_description": "Manufacturer-listed FD-M961 M-band reference, 149 g. The feature text identifies the medium clamp as 31.8 mm and discusses the optional 28.6 mm adapter separately.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=182",
+    "title": "Shimano 2006 manufacturer dealer manual, PDF/printed page 182: FD-M961 exact 149 g M-band reference and XTR specifications",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=182",
+      "title": "Shimano 2006 manufacturer dealer manual, PDF/printed page 182: FD-M961 exact 149 g M-band reference and XTR specifications",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=81",
+      "title": "Shimano 2006 manufacturer dealer manual, PDF/printed page 81: XTR front-derailleur feature text explicitly identifies the medium clamp as 31.8 mm",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 31.8,
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "total_capacity_teeth": 22,
+    "maximum_chainring_teeth": 44,
+    "minimum_top_middle_difference_teeth": 12
+  }
+}

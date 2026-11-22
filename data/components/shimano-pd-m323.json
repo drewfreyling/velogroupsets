@@ -6,7 +6,9 @@
   "groupset_ids": [
     "shimano-deore-lx-m560",
     "shimano-stx-special-edition-mc31",
-    "shimano-stx-rc"
+    "shimano-stx-rc",
+    "shimano-stx-mc32",
+    "shimano-alivio-mc12"
   ],
   "type": "pedals",
   "model_number": "PD-M323",
@@ -31,6 +33,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=34",
       "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 34: PD-M323 STX-RC membership and reference configuration",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 32: PD-M323 explicit shared STX MC32 / Alivio reference in the named columns",
       "retrieved_on": "2026-11-22"
     }
   ],

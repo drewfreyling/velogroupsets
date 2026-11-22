@@ -51,6 +51,6 @@ The Sora product spread on page 143 explicitly names the shared HB-2200 front hu
 - The FC-M970/FC-M770/FC-M660 crank tables explicitly include the bottom bracket in their published totals. No subtraction is used to produce a standalone crank weight.
 - Several road crank weights on page 218 likewise include the integrated bottom bracket and do not identify one chainring configuration. Existing standalone crank weights remain unknown.
 - The Tiagra and Sora derailleur/control weight cells on page 217 are largely blank. Their capacities do not establish weights.
-- The SL-M660 shift-lever set figure is a research lead; this batch does not change its pair weight without resolving the reference basis explicitly.
+- The SL-M660 shift-lever set figure was held as a research lead in this batch. The subsequent [complete-set follow-up](shimano-stx-mc32-altus-c90.md#complete-shifter-set-references) resolves its assembly basis and publishes the 256 g pair reference.
 - Road hub figures already held for Dura-Ace, Ultegra and 105 were cross-checked; matching figures do not count as newly filled gaps.
 - This is a review of selected product spreads and specification pages 204–221, not an exhaustive audit of all 276 pages.

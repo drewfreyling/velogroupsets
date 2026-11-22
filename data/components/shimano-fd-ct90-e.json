@@ -1,0 +1,42 @@
+{
+  "id": "shimano-fd-ct90-e",
+  "slug": "fd-ct90-e",
+  "name": "Altus C90 front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-c90"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-CT90-E",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the manufacturer table identifies FD-CT90-E but does not publish a weight for this exact assembly. A neighbouring model’s figure is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+    "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 33: FD-CT90-E exact model, Easy Set Adapter, listed clamp options and chainring limits",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+      "title": "Shimano 1995 manufacturer dealer manual, PDF/printed page 33: FD-CT90-E exact model, Easy Set Adapter, listed clamp options and chainring limits",
+      "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=31",
+      "title": "Shimano 1995 dealer manual, page 31: Easy-Set feature text explicitly states that the front derailleur mounts directly to the bottom bracket",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "total_capacity_teeth": 14,
+    "maximum_chainring_teeth": 38,
+    "minimum_top_middle_difference_teeth": 8,
+    "easy_set_adapter": true,
+    "clamp_options": [
+      "28.0–28.6 mm",
+      "31.8 mm"
+    ],
+    "mounting_type": "Bottom-bracket Easy-Set mount"
+  }
+}
