@@ -20,7 +20,26 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-M760_M760-E-2270/EV-FD-M760_M760-E-2270.pdf",
       "title": "Shimano FD-M760 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=129",
+      "title": "Shimano 2004 STI technical manual, PDF page 129 / printed page 125: FD-M760 exact clamp model, 44T chainring, 22T front capacity, 12T top/middle minimum and band options",
+      "retrieved_on": "2026-11-22"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "capacity_teeth": 22,
+    "minimum_top_middle_difference_teeth": 12,
+    "mount": "Clamp",
+    "available_clamp_diameters_mm": [
+      28.6,
+      31.8,
+      34.9
+    ],
+    "largest_chainring_options_teeth": [
+      44
+    ]
+  }
 }

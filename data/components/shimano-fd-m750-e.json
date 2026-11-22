@@ -1,0 +1,32 @@
+{
+  "id": "shimano-fd-m750-e",
+  "slug": "fd-m750-e",
+  "name": "Deore XT support-plate front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m750"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M750-E",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the manufacturer service table identifies this exact model and configuration but does not publish an assembly weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=134",
+    "title": "Shimano 2004 STI technical manual, PDF page 134 / printed page 130: XT / LX named-series front-drive table: exact front-derailleur models, 22T front difference, 12T top/middle minimum and mounting options",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=134",
+      "title": "Shimano 2004 STI technical manual, PDF page 134 / printed page 130: XT / LX named-series front-drive table: exact front-derailleur models, 22T front difference, 12T top/middle minimum and mounting options",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "capacity_teeth": 22,
+    "minimum_top_middle_difference_teeth": 12,
+    "mounting_type": "Bottom-bracket support plate"
+  }
+}

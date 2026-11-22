@@ -25,7 +25,22 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=77",
       "title": "Shimano 2005 trade sales/support manual, PDF page 77: FC-M760/M761 crankset with BB unit",
       "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=129",
+      "title": "Shimano 2004 STI technical manual, PDF page 129 / printed page 125: FC-M760 exact model, 44/32/22T rings, 170 mm arm option and 50 mm chainline",
+      "retrieved_on": "2026-11-22"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      44,
+      32,
+      22
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 3,
+    "chainline_mm": 50
+  }
 }

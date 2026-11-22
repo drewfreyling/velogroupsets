@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fc-m571",
+  "slug": "fc-m571",
+  "name": "Deore LX triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m570"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M571",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: selected 170 mm, 44/32/22T crankset reference excluding bottom bracket. The service table does not publish a crankset mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=134",
+    "title": "Shimano 2004 STI technical manual, PDF page 134 / printed page 130: XT / LX named-series front-drive table: exact crank models, 44/32/22T rings, 170 mm arm option and separate bottom brackets",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=134",
+      "title": "Shimano 2004 STI technical manual, PDF page 134 / printed page 130: XT / LX named-series front-drive table: exact crank models, 44/32/22T rings, 170 mm arm option and separate bottom brackets",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      44,
+      32,
+      22
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 3
+  }
+}

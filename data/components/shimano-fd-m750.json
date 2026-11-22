@@ -25,6 +25,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=21",
       "title": "Shimano 2000 dealer sales/support manual, PDF page 21 / printed page 19: FD-M750 capacity, top-to-middle difference, top gear and nine-speed compatibility",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=134",
+      "title": "Shimano 2004 STI technical manual, PDF page 134 / printed page 130: XT / LX front-drive table: exact clamp model, S/M/L band definitions and triple-front configuration",
+      "retrieved_on": "2026-11-22"
     }
   ],
   "specifications": {
@@ -33,6 +38,13 @@
     "largest_chainring_options_teeth": [
       44
     ],
-    "rear_speeds": 9
+    "rear_speeds": 9,
+    "mount": "Clamp",
+    "available_clamp_diameters_mm": [
+      28.6,
+      31.8,
+      34.9
+    ],
+    "front_speeds": 3
   }
 }

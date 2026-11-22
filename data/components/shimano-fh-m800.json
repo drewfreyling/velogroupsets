@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fh-m800",
+  "slug": "fh-m800",
+  "name": "Saint 9-speed rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m800"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-M800",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the service table identifies this hub but does not publish a weight explicitly excluding skewers.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=122",
+    "title": "Shimano 2004 STI technical manual, PDF page 122 / printed page 118: FH-M800 manufacturer freehub identity, Saint series header, nine speeds and 32/36-hole options",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=122",
+      "title": "Shimano 2004 STI technical manual, PDF page 122 / printed page 118: FH-M800 manufacturer freehub identity, Saint series header, nine speeds and 32/36-hole options",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "available_spoke_holes": [
+      32,
+      36
+    ]
+  },
+  "weight_excludes_skewers": true
+}

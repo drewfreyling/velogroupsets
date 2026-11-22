@@ -1,0 +1,42 @@
+{
+  "id": "shimano-fd-m761",
+  "slug": "fd-m761",
+  "name": "Deore XT clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m760"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M761",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the manufacturer service table identifies this exact model and configuration but does not publish an assembly weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=129",
+    "title": "Shimano 2004 STI technical manual, PDF page 129 / printed page 125: FD-M761 exact clamp model and limits: 48T with 63–66° chainstay angle, 44T with 66–69°; no weighed band or mass",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=129",
+      "title": "Shimano 2004 STI technical manual, PDF page 129 / printed page 125: FD-M761 exact clamp model and limits: 48T with 63–66° chainstay angle, 44T with 66–69°; no weighed band or mass",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "capacity_teeth": 22,
+    "minimum_top_middle_difference_teeth": 12,
+    "mount": "Clamp",
+    "available_clamp_diameters_mm": [
+      28.6,
+      31.8,
+      34.9
+    ],
+    "largest_chainring_options_teeth": [
+      44,
+      48
+    ],
+    "chainring_configuration_note": "48T with a 63–66° chainstay angle; 44T with a 66–69° chainstay angle."
+  }
+}

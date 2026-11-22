@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-m800-1",
+  "slug": "fc-m800-1",
+  "name": "Saint 1-chainring crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m800"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M800-1",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: selected 170 mm reference with 34T chainring, excluding bottom bracket. The service table lists configurations but no crankset mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=118",
+    "title": "Shimano 2004 STI technical manual, PDF page 118 / printed page 114: FC-M800-1 / -2 / -3 exact single/double/triple models, chainrings and arm lengths in the Saint section",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=118",
+      "title": "Shimano 2004 STI technical manual, PDF page 118 / printed page 114: FC-M800-1 / -2 / -3 exact single/double/triple models, chainrings and arm lengths in the Saint section",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      34
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 1,
+    "chainline_mm": 50,
+    "available_crank_lengths_mm": [
+      165,
+      170,
+      175,
+      180
+    ]
+  }
+}

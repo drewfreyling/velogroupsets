@@ -25,13 +25,19 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=73",
       "title": "Shimano 2005 Trade Sales Support Manual, PDF page 73: RD-M800 reference weight and configuration",
       "retrieved_on": "2026-11-16"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=126",
+      "title": "Shimano 2004 STI technical manual, PDF page 126 / printed page 122: RD-M800 SGS exact cage column and all four gearing limits; existing SGS weight retained",
+      "retrieved_on": "2026-11-22"
     }
   ],
   "specifications": {
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null,
-    "cage": "SGS"
+    "total_capacity_teeth": 45,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22,
+    "cage": "SGS",
+    "rear_speeds": 9
   }
 }

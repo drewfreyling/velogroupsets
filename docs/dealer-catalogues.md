@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [2004 STI service-table review](shimano-2004-sti.md) adds **17 Saint/XT/LX components** and fills Saint cage-specific limits and XT/LX configuration gaps. The selected technical service tables do not publish weights; all new masses remain unknown.
+
 The [STX MC34 and 1998 control-set review](shimano-stx-mc34-1998-controls.md) adds **one range, 21 components and six sourced weights**, including the resolved SL-M739 standalone pair and eight shared STX memberships.
 
 The [STX MC32 / Altus C90 and control-set follow-up](shimano-stx-mc32-altus-c90.md) adds **two ranges, 34 components and nine sourced weights**, including the resolved SL-M660 complete shifter pair and an identified FD-M961 clamp reference.

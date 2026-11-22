@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m800-gs",
+  "slug": "rd-m800-gs",
+  "name": "Saint GS-cage 9-speed rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m800"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M800-GS",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the manufacturer service table identifies this exact model and configuration but does not publish an assembly weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=126",
+    "title": "Shimano 2004 STI technical manual, PDF page 126 / printed page 122: RD-M800 exact SS / GS / SGS columns and cage-specific nine-speed gearing limits",
+    "retrieved_on": "2026-11-22"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=126",
+      "title": "Shimano 2004 STI technical manual, PDF page 126 / printed page 122: RD-M800 exact SS / GS / SGS columns and cage-specific nine-speed gearing limits",
+      "retrieved_on": "2026-11-22"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 9,
+    "total_capacity_teeth": 33,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22
+  }
+}
