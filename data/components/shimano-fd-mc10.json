@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-MC10",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 146,
+  "weight_description": "Manufacturer-listed 146 g for the FD-MC10 bottom-pull clamp front derailleur. Its sole documented band fits 28.0–28.6 mm; larger bands and top-route options in the adjacent column belong to FD-MC11.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-MC10-1336/EV-FD-MC10-1336.pdf",
     "title": "Shimano FD-MC10 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +20,27 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FD-MC10-1336/EV-FD-MC10-1336.pdf",
       "title": "Shimano FD-MC10 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=24",
+      "title": "Shimano 1994 STI technical manual, PDF page 24 / printed 5-1: STX/Alivio front-drive table: exact front/control models, triple gearing, 170/175 mm cranks, clamp bands and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=31",
+      "title": "Shimano 1994 dealer product manual, PDF page 31 / printed 31: Alivio RD-MC10 261 g, FD-MC10 146 g with its sole 28.0–28.6 mm band, ST-MC10 pair 415 g and FC-MC10 170 mm 42/34/24T 843 g; exact MC11 options, brake/hub/cassette inventory",
+      "retrieved_on": "2026-11-23"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_range_mm": [
+      28.0,
+      28.6
+    ],
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "cable_route": "Bottom pull",
+    "chainline_mm": 47.5
+  }
 }

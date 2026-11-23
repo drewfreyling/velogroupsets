@@ -20,7 +20,21 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-CT50-1368/EV-FC-CT50-1368.pdf",
       "title": "Shimano FC-CT50 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=41",
+      "title": "Shimano 1994 STI technical manual, PDF page 41 / printed 6-1: Altus CT50 front drive: exact ST-CT50/SL-CT50 triple controls, FC-CT50 170 mm 48/38/28T, FD-CT50 and BB-CS11 122.5 mm spindle",
+      "retrieved_on": "2026-11-23"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      48,
+      38,
+      28
+    ],
+    "front_speeds": 3,
+    "includes_bottom_bracket": false
+  }
 }

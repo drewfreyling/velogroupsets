@@ -1,0 +1,47 @@
+{
+  "id": "shimano-fd-mc30",
+  "slug": "fd-mc30",
+  "name": "STX clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc30"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-MC30",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer tables identify this exact assembly but do not establish a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=24",
+    "title": "Shimano 1994 STI technical manual, PDF page 24 / printed 5-1: STX/Alivio front-drive table: exact front/control models, triple gearing, 170/175 mm cranks, clamp bands and separate bottom brackets",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=24",
+      "title": "Shimano 1994 STI technical manual, PDF page 24 / printed 5-1: STX/Alivio front-drive table: exact front/control models, triple gearing, 170/175 mm cranks, clamp bands and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=29",
+      "title": "Shimano 1994 dealer product manual, PDF page 29 / printed 29: STX exact FC/FD/BR/FH/HB-MC30 inventory; BB-LP20 341 g with 113 mm spindle; CS-HG70-C ac seven-speed 11–28T 299 g including spacers",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "available_clamp_diameters_mm": [
+      28.6,
+      31.8
+    ],
+    "small_band_range_mm": [
+      28.0,
+      28.6
+    ],
+    "available_chainlines_mm": [
+      47.5,
+      50
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "shimano-br-mc30",
+  "slug": "br-mc30",
+  "name": "STX cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc30"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-MC30",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete front/rear cantilever brake pair including pads and mounting bolts; the selected tables do not explicitly establish all required weight inclusions for this reference.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=36",
+    "title": "Shimano 1994 STI technical manual, PDF page 36 / printed 5-14: STX/Alivio brake table: exact BR-MC30/MC31 and BR-MC10/MC11/MC15 cantilevers with respective M/L and M/L/S arms, dynamic/alignment links and 22.2 mm control clamps",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=36",
+      "title": "Shimano 1994 STI technical manual, PDF page 36 / printed 5-14: STX/Alivio brake table: exact BR-MC30/MC31 and BR-MC10/MC11/MC15 cantilevers with respective M/L and M/L/S arms, dynamic/alignment links and 22.2 mm control clamps",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=29",
+      "title": "Shimano 1994 dealer product manual, PDF page 29 / printed 29: STX exact FC/FD/BR/FH/HB-MC30 inventory; BB-LP20 341 g with 113 mm spindle; CS-HG70-C ac seven-speed 11–28T 299 g including spacers",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever",
+    "arm_size": "M",
+    "link_type": "Unit link (dynamic type)"
+  }
+}

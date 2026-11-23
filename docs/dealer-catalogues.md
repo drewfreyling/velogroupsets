@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1994 STI early-MTB review](shimano-1994-sti.md) adds **24 components and six sourced weights**, enriches nine existing records and separates the Altus CT50 triple/single-chainring sprocket limits.
+
 The [1995 STI Alivio/Acera-X/STX RC review](shimano-1995-sti.md) adds **11 components**, enriches ten existing records and fills eight rear-derailleur limits. The selected service/dealer tables publish no new qualifying weights.
 
 The [1997 STI Alivio/LX review](shimano-1997-sti.md) adds **eight components**, expands Alivio MC16 from two to thirteen records, and fills RD-M567’s four limits. Conflicting MC16/MC34 capacity and sprocket figures are explicitly withheld with both original sources cited.

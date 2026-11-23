@@ -1,0 +1,48 @@
+{
+  "id": "shimano-fc-mc11",
+  "slug": "fc-mc11",
+  "name": "Alivio triple crankset with options",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc10"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MC11",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: selected 170 mm 42/34/24T crankset excluding the separately listed bottom bracket; another model’s weight is not substituted. The manufacturer prints 95/58 mm bolt circles.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=24",
+    "title": "Shimano 1994 STI technical manual, PDF page 24 / printed 5-1: STX/Alivio front-drive table: exact front/control models, triple gearing, 170/175 mm cranks, clamp bands and separate bottom brackets",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=24",
+      "title": "Shimano 1994 STI technical manual, PDF page 24 / printed 5-1: STX/Alivio front-drive table: exact front/control models, triple gearing, 170/175 mm cranks, clamp bands and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=31",
+      "title": "Shimano 1994 dealer product manual, PDF page 31 / printed 31: Alivio RD-MC10 261 g, FD-MC10 146 g with its sole 28.0–28.6 mm band, ST-MC10 pair 415 g and FC-MC10 170 mm 42/34/24T 843 g; exact MC11 options, brake/hub/cassette inventory",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      42,
+      34,
+      24
+    ],
+    "front_speeds": 3,
+    "bolt_circle_diameters_mm": [
+      95,
+      58
+    ],
+    "includes_bottom_bracket": false
+  }
+}

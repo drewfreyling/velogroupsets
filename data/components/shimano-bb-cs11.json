@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bb-cs11",
+  "slug": "bb-cs11",
+  "name": "Altus CT50 square-taper bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-ct50"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-CS11",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the reviewed manufacturer tables identify this exact assembly but do not establish a compliant configuration-specific weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=41",
+    "title": "Shimano 1994 STI technical manual, PDF page 41 / printed 6-1: Altus CT50 front drive: exact ST-CT50/SL-CT50 triple controls, FC-CT50 170 mm 48/38/28T, FD-CT50 and BB-CS11 122.5 mm spindle",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=41",
+      "title": "Shimano 1994 STI technical manual, PDF page 41 / printed 6-1: Altus CT50 front drive: exact ST-CT50/SL-CT50 triple controls, FC-CT50 170 mm 48/38/28T, FD-CT50 and BB-CS11 122.5 mm spindle",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_mm": 122.5,
+    "chainline_mm": 47.5
+  }
+}

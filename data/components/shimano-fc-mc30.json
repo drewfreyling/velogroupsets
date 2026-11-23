@@ -1,0 +1,48 @@
+{
+  "id": "shimano-fc-mc30",
+  "slug": "fc-mc30",
+  "name": "STX triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-mc30"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MC30",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: selected 170 mm 42/34/24T crankset excluding the separately listed bottom bracket; another model’s weight is not substituted. The manufacturer prints 95/58 mm bolt circles.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=24",
+    "title": "Shimano 1994 STI technical manual, PDF page 24 / printed 5-1: STX/Alivio front-drive table: exact front/control models, triple gearing, 170/175 mm cranks, clamp bands and separate bottom brackets",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=24",
+      "title": "Shimano 1994 STI technical manual, PDF page 24 / printed 5-1: STX/Alivio front-drive table: exact front/control models, triple gearing, 170/175 mm cranks, clamp bands and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=29",
+      "title": "Shimano 1994 dealer product manual, PDF page 29 / printed 29: STX exact FC/FD/BR/FH/HB-MC30 inventory; BB-LP20 341 g with 113 mm spindle; CS-HG70-C ac seven-speed 11–28T 299 g including spacers",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      42,
+      34,
+      24
+    ],
+    "front_speeds": 3,
+    "bolt_circle_diameters_mm": [
+      95,
+      58
+    ],
+    "includes_bottom_bracket": false
+  }
+}

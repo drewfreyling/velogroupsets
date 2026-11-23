@@ -67,7 +67,7 @@ These links are indexed for later source review; they were not audited as part o
 - [1998 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf) — [Ultegra service/specification review](shimano-1998-sti.md); triple-model gaps, GS limits and the qualified scope of BB-6500’s manufacturer weight
 - [1997 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf) — [Alivio/LX inventory and source-conflict review](shimano-1997-sti.md); seven-speed controls, cassette references and explicit unresolved MC16/MC34 limits
 - [1995 Shimano STI ENG-Spanish Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf) — [Alivio/Acera-X/STX RC inventory review](shimano-1995-sti.md); exact controls, hubs, cantilevers, crank configurations and eight rear-derailleur limits
-- [1994 Shimano STI ENG Spanishl](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf)
+- [1994 Shimano STI ENG Spanishl](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf) — [early Alivio/STX/Altus inventory and six-weight review](shimano-1994-sti.md)
 - [1993 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf)
 
 ## Original-parts catalogues

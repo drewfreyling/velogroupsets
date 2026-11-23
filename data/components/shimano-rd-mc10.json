@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-MC10",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_g": 261,
+  "weight_description": "Manufacturer-listed 261 g for the RD-MC10 seven-speed rear derailleur; the service table identifies the GS reference. RD-MC11 is listed separately and does not inherit this weight.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/RD-MC10-1362/EV-RD-MC10-1362B.pdf",
     "title": "Shimano RD-MC10 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,12 +20,24 @@
       "url": "https://si.shimano.com/en/pdfs/ev/RD-MC10-1362/EV-RD-MC10-1362B.pdf",
       "title": "Shimano RD-MC10 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=30",
+      "title": "Shimano 1994 STI technical manual, PDF page 30 / printed 5-7: STX/Alivio rear-drive table: complete seven-speed controls, GS rear assemblies, 35T/28T/11T limits, exact cassettes and 32/36-hole freehubs",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=31",
+      "title": "Shimano 1994 dealer product manual, PDF page 31 / printed 31: Alivio RD-MC10 261 g, FD-MC10 146 g with its sole 28.0–28.6 mm band, ST-MC10 pair 415 g and FC-MC10 170 mm 42/34/24T 843 g; exact MC11 options, brake/hub/cassette inventory",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
-    "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 18,
+    "cage": "GS",
+    "rear_speeds": 7
   }
 }

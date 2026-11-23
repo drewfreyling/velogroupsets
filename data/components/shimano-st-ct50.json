@@ -1,0 +1,36 @@
+{
+  "id": "shimano-st-ct50",
+  "slug": "st-ct50",
+  "name": "Altus CT50 3×6 control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-ct50"
+  ],
+  "type": "shifters",
+  "model_number": "ST-CT50",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right triple-front, six-speed-rear control pair. No pair mass is published for this exact control.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=41",
+    "title": "Shimano 1994 STI technical manual, PDF page 41 / printed 6-1: Altus CT50 front drive: exact ST-CT50/SL-CT50 triple controls, FC-CT50 170 mm 48/38/28T, FD-CT50 and BB-CS11 122.5 mm spindle",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=41",
+      "title": "Shimano 1994 STI technical manual, PDF page 41 / printed 6-1: Altus CT50 front drive: exact ST-CT50/SL-CT50 triple controls, FC-CT50 170 mm 48/38/28T, FD-CT50 and BB-CS11 122.5 mm spindle",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=45",
+      "title": "Shimano 1994 STI technical manual, PDF page 45 / printed 6-5: Altus CT50 six-speed rear drive: 34T capacity, 14T smallest, 28T largest with triple / 32T with single chainring; exact ST-CT50/SL-CT50 controls",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 6,
+    "control_type": "Uni-lever"
+  }
+}

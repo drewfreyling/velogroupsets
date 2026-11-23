@@ -1,0 +1,47 @@
+{
+  "id": "shimano-st-mc11",
+  "slug": "st-mc11",
+  "name": "Alivio 3×7 combined shift/brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc10"
+  ],
+  "type": "shifters",
+  "model_number": "ST-MC11",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete ST-MC11 left/right 3×7 combined shift/brake pair. The table’s 415 g figure explicitly belongs to ST-MC10 and is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=31",
+    "title": "Shimano 1994 dealer product manual, PDF page 31 / printed 31: Alivio RD-MC10 261 g, FD-MC10 146 g with its sole 28.0–28.6 mm band, ST-MC10 pair 415 g and FC-MC10 170 mm 42/34/24T 843 g; exact MC11 options, brake/hub/cassette inventory",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=31",
+      "title": "Shimano 1994 dealer product manual, PDF page 31 / printed 31: Alivio RD-MC10 261 g, FD-MC10 146 g with its sole 28.0–28.6 mm band, ST-MC10 pair 415 g and FC-MC10 170 mm 42/34/24T 843 g; exact MC11 options, brake/hub/cassette inventory",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=24",
+      "title": "Shimano 1994 STI technical manual, PDF page 24 / printed 5-1: STX/Alivio front-drive table: exact front/control models, triple gearing, 170/175 mm cranks, clamp bands and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=30",
+      "title": "Shimano 1994 STI technical manual, PDF page 30 / printed 5-7: STX/Alivio rear-drive table: complete seven-speed controls, GS rear assemblies, 35T/28T/11T limits, exact cassettes and 32/36-hole freehubs",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=36",
+      "title": "Shimano 1994 STI technical manual, PDF page 36 / printed 5-14: STX/Alivio brake table: exact BR-MC30/MC31 and BR-MC10/MC11/MC15 cantilevers with respective M/L and M/L/S arms, dynamic/alignment links and 22.2 mm control clamps",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "lever_length_fingers": 2.5,
+    "clamp_diameter_mm": 22.2
+  }
+}
