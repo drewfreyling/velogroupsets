@@ -64,7 +64,7 @@ These links are indexed for later source review; they were not audited as part o
 - [2001 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf) — [MTB hubs and Deore service review](shimano-2001-sti.md); printed hub masses lack explicit skewer exclusion
 - [2000 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf) — [Tiagra/Sora triple review](shimano-2000-sti.md); exact side-model control pairing and shared bottom brackets, no new weights in selected sheets
 - [1999 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf) — [Alivio MC18 and cassette review](shimano-1999-sti.md); exact range inventory, derailleur limits and XTR/LX cassette weights
-- [1998 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf)
+- [1998 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf) — [Ultegra service/specification review](shimano-1998-sti.md); triple-model gaps, GS limits and the qualified scope of BB-6500’s manufacturer weight
 - [1997 Shimano STI](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf)
 - [1995 Shimano STI ENG-Spanish Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf)
 - [1994 Shimano STI ENG Spanishl](https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf)

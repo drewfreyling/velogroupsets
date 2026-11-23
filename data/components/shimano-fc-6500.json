@@ -20,6 +20,11 @@
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
       "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf#page=87",
+      "title": "Shimano 1998 STI technical manual, PDF page 87 / printed page 86: FC-6500 exact crank-length options and 130 mm bolt circle; existing 175 mm 53/39T weighed reference retained",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
@@ -30,6 +35,14 @@
     ],
     "front_speeds": 2,
     "rear_speeds": 9,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "available_crank_lengths_mm": [
+      165,
+      167.5,
+      170,
+      172.5,
+      175
+    ],
+    "bolt_circle_diameter_mm": 130
   }
 }

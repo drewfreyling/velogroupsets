@@ -1,0 +1,39 @@
+{
+  "id": "shimano-bb-6500",
+  "slug": "bb-6500",
+  "name": "Ultegra splined bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-6500",
+  "weight_g": 221.5,
+  "weight_description": "Manufacturer-listed 1998 reference: 221.5 g for the 68 mm-shell BB-6500 splined bottom bracket. The weight entry does not identify whether its spindle is the 109.5 mm double or 118.5 mm triple option; neither length is claimed as the weighed configuration.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf#page=87",
+    "title": "Shimano 1998 STI technical manual, PDF page 87 / printed page 86: exact BB-6500 model, separate double/triple spindle options and threaded-shell references",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf#page=87",
+      "title": "Shimano 1998 STI technical manual, PDF page 87 / printed page 86: exact BB-6500 model, separate double/triple spindle options and threaded-shell references",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf#page=59",
+      "title": "Shimano 1998 STI technical manual, PDF page 59 / printed page 58: BB-6500 specification explicitly publishes 221.5 g for the 68 mm-shell reference; the weighed spindle option is unspecified",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "interface": "Splined",
+    "shell_width_mm": 68,
+    "available_spindle_lengths_mm": [
+      109.5,
+      118.5
+    ],
+    "reference_edition": "1998 STI manual"
+  }
+}

@@ -20,10 +20,18 @@
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/1998/41-42.htm",
       "title": "Shimano 1998 catalogue, pages 41–42: Ultegra 6500 components and weights (published December 1997; archived by Charlie Taylor)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf#page=83",
+      "title": "Shimano 1998 STI technical manual, PDF page 83 / printed page 82: FD-6500 double service table: 15T capacity and 43.5 mm chainline; existing braze-on reference and mass retained",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
     "mount": "Braze-on",
-    "front_speeds": 2
+    "front_speeds": 2,
+    "rear_speeds": 9,
+    "capacity_teeth": 15,
+    "chainline_mm": 43.5
   }
 }

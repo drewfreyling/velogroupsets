@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fd-6503",
+  "slug": "fd-6503",
+  "name": "Ultegra triple front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-6503",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: FD-6503 triple front derailleur, available in band or braze-on configurations. The overview’s 81 g figure explicitly identifies the double braze-on model and is not transferred to this triple assembly.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf#page=85",
+    "title": "Shimano 1998 STI technical manual, PDF page 85 / printed page 84: FD-6503 exact triple model, 22T capacity, 10T top/middle minimum, 45 mm chainline and band / braze-on options",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf#page=85",
+      "title": "Shimano 1998 STI technical manual, PDF page 85 / printed page 84: FD-6503 exact triple model, 22T capacity, 10T top/middle minimum, 45 mm chainline and band / braze-on options",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "capacity_teeth": 22,
+    "minimum_top_middle_difference_teeth": 10,
+    "chainline_mm": 45,
+    "available_mount_types": [
+      "Clamp",
+      "Braze-on"
+    ],
+    "available_clamp_range": "28.0–28.6 mm (S)"
+  }
+}

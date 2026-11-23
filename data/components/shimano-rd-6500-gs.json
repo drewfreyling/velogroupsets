@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-6500-gs",
+  "slug": "rd-6500-gs",
+  "name": "Ultegra GS-cage triple rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6500"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-6500-GS",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: RD-6500-GS nine-speed triple rear derailleur. The overview’s 215 g figure is not tied to an exact cage; the existing SS reference is not copied into the GS record.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf#page=81",
+    "title": "Shimano 1998 STI technical manual, PDF page 81 / printed page 80: RD-6500-GS exact GS triple column and all four gearing limits",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1998_Shimano_STI.pdf#page=81",
+      "title": "Shimano 1998 STI technical manual, PDF page 81 / printed page 80: RD-6500-GS exact GS triple column and all four gearing limits",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 9,
+    "total_capacity_teeth": 37,
+    "maximum_sprocket_teeth": 27,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22
+  }
+}
