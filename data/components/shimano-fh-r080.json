@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fh-r080",
+  "slug": "fh-r080",
+  "name": "8-speed rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc18",
+    "shimano-stx-rc"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-R080",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a weight explicitly excluding the quick-release skewer is not established for this hub reference.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+    "title": "Shimano 1999 STI technical manual, PDF page 105 / printed page 104: named Alivio FH-MC18 / FH-R080 exact freehub models, eight speeds and 32/36-hole options",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+      "title": "Shimano 1999 STI technical manual, PDF page 105 / printed page 104: named Alivio FH-MC18 / FH-R080 exact freehub models, eight speeds and 32/36-hole options",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2001_Shimano_STI.pdf#page=84",
+      "title": "Shimano 2001 STI technical manual, PDF page 84 / printed page 90: FH-R080 row explicitly labelled for Deore LX / STX-RC; eight-speed, 135 mm over-locknut reference",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "available_spoke_holes": [
+      32,
+      36
+    ],
+    "over_locknut_dimension_mm": 135
+  },
+  "weight_excludes_skewers": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "shimano-fc-mc18",
+  "slug": "fc-mc18",
+  "name": "Alivio MC18 42/32/22T triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc18"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MC18",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: 42/32/22T FC-MC18 crankset reference excluding bottom bracket. The reviewed table does not establish an arm length or publish a crankset mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+    "title": "Shimano 1999 STI technical manual, PDF page 105 / printed page 104: exact FC-MC18 model and 42/32/22T configuration in the Alivio service table",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+      "title": "Shimano 1999 STI technical manual, PDF page 105 / printed page 104: exact FC-MC18 model and 42/32/22T configuration in the Alivio service table",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 8,
+    "chainrings_teeth": [
+      42,
+      32,
+      22
+    ],
+    "includes_bottom_bracket": false
+  }
+}

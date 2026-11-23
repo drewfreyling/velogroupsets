@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bl-mc18",
+  "slug": "bl-mc18",
+  "name": "Alivio MC18 V-brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc18"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-MC18",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right BL-MC18 brake-lever pair. The service table does not publish a pair weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=108",
+    "title": "Shimano 1999 STI technical manual, PDF page 108 / printed page 107: exact BL-MC18 standalone lever, distinct from combined ST-MC18, in the named Alivio brake table",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=108",
+      "title": "Shimano 1999 STI technical manual, PDF page 108 / printed page 107: exact BL-MC18 standalone lever, distinct from combined ST-MC18, in the named Alivio brake table",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "V-Brake"
+  }
+}

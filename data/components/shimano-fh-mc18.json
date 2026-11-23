@@ -1,0 +1,33 @@
+{
+  "id": "shimano-fh-mc18",
+  "slug": "fh-mc18",
+  "name": "Alivio FH-MC18 8-speed rear hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc18"
+  ],
+  "type": "rear-hub",
+  "model_number": "FH-MC18",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a weight explicitly excluding the quick-release skewer is not established for this hub reference.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+    "title": "Shimano 1999 STI technical manual, PDF page 105 / printed page 104: named Alivio FH-MC18 / FH-R080 exact freehub models, eight speeds and 32/36-hole options",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+      "title": "Shimano 1999 STI technical manual, PDF page 105 / printed page 104: named Alivio FH-MC18 / FH-R080 exact freehub models, eight speeds and 32/36-hole options",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "available_spoke_holes": [
+      32,
+      36
+    ]
+  },
+  "weight_excludes_skewers": true
+}

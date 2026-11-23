@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1999 STI Alivio and cassette review](shimano-1999-sti.md) adds **one range, 14 components and two sourced weights**: Alivio MC18, its exact brake/control/hub inventory and separate XTR/LX cassette gearing references.
+
 The [2000 STI Tiagra/Sora triple review](shimano-2000-sti.md) adds **five components** and enriches six existing identities, including the exact ST-3303 left / ST-3300 right pair and shared bottom-bracket references. The selected service sheets publish no new weights.
 
 The [2001 STI hub and Deore service review](shimano-2001-sti.md) adds **15 components** and fills four Deore configuration gaps: twelve MTB hubs, BB-ES70 and the BB-UN40 variants. Hub masses remain unknown because the tables do not establish skewer exclusion.

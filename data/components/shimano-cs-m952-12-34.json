@@ -1,0 +1,46 @@
+{
+  "id": "shimano-cs-m952-12-34",
+  "slug": "cs-m952-12-34",
+  "name": "XTR 9-speed 12–34T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m950"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M952",
+  "weight_g": 255,
+  "weight_description": "Manufacturer-listed 1999 reference: 255 g for the XTR CS-M952 nine-speed 12–34T cassette. The exact model and ap tooth sequence are identified in the same manual’s XTR service table.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=57",
+    "title": "Shimano 1999 STI technical manual, PDF page 57 / printed page 56: XTR cassette feature explicitly publishes 255 g for the 12–34T nine-speed reference",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=57",
+      "title": "Shimano 1999 STI technical manual, PDF page 57 / printed page 56: XTR cassette feature explicitly publishes 255 g for the 12–34T nine-speed reference",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=91",
+      "title": "Shimano 1999 STI technical manual, PDF page 91 / printed page 90: XTR service table identifies the cassette as CS-M952, nine-speed ap 12–34T; the rear-derailleur M953 code is not used as a cassette alias",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "12–34T",
+    "cassette_group": "ap",
+    "sprockets_teeth": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      23,
+      26,
+      30,
+      34
+    ]
+  }
+}

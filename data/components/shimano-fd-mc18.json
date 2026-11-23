@@ -1,0 +1,38 @@
+{
+  "id": "shimano-fd-mc18",
+  "slug": "fd-mc18",
+  "name": "Alivio MC18 clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc18"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-MC18",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: no configuration-specific mass is published for this exact mount. A weighed clamp diameter is not established for the band model, and the support-plate assembly is not treated as a modern direct mount.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=56",
+    "title": "Shimano 2000 STI technical manual, PDF page 56 / printed page 56: exact FD-MC18 / FD-MC18-E columns: 20T capacity, 42T top gear and 10T top/middle minimum",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=56",
+      "title": "Shimano 2000 STI technical manual, PDF page 56 / printed page 56: exact FD-MC18 / FD-MC18-E columns: 20T capacity, 42T top gear and 10T top/middle minimum",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=60",
+      "title": "Shimano 1999 STI technical manual, PDF page 60 / printed page 59: Alivio MC18 named front-derailleur family, E-set bottom-bracket plate and separate band option",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 8,
+    "capacity_teeth": 20,
+    "maximum_chainring_teeth": 42,
+    "minimum_top_middle_difference_teeth": 10,
+    "mount": "Clamp"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-cs-hg50-8i-11-30",
+  "slug": "cs-hg50-8i-11-30",
+  "name": "Alivio 8-speed 11–30T IG cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc18"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG50-8I",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: eight-speed 11–30T CS-HG50-8I cassette. The manufacturer identifies this range but does not publish its mass; an HG50 road-cassette weight is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=60",
+    "title": "Shimano 1999 STI technical manual, PDF page 60 / printed page 59: exact Alivio CS-HG50-8I eight-speed cassette 11–30T feature-page reference",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=60",
+      "title": "Shimano 1999 STI technical manual, PDF page 60 / printed page 59: exact Alivio CS-HG50-8I eight-speed cassette 11–30T feature-page reference",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+      "title": "Shimano 1999 STI manual, PDF page 105 / printed page 104: full CS-HG50-8I model identity and eight-speed Alivio association; separate 11–28T service reference",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 8,
+    "sprocket_range": "11–30T"
+  }
+}

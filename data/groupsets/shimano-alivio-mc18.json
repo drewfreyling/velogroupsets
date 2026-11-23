@@ -1,0 +1,32 @@
+{
+  "id": "shimano-alivio-mc18",
+  "slug": "alivio-mc18",
+  "name": "Alivio",
+  "manufacturer_id": "shimano",
+  "model_number": "MC18",
+  "start_year": 1999,
+  "category": "mtb",
+  "generation": "The 1999 manufacturer manual explicitly introduces eight speeds to Alivio and identifies MC18 components. This is documented manufacturer availability, not a more precise launch date.",
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=60",
+      "title": "Shimano 1999 STI technical manual, PDF page 60 / printed page 59: named Alivio introduction of eight speeds and MC18 component features",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+      "title": "Shimano 1999 STI technical manual, PDF page 105 / printed page 104: named Alivio eight-speed MC18 rear-drive system",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=108",
+      "title": "Shimano 1999 STI technical manual, PDF page 108 / printed page 107: named Alivio MC18 multi-condition brake system",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=57",
+      "title": "Shimano 2000 STI manual, PDF/printed page 57: explicitly named MTB front-derailleur table classifies Alivio FD-MC18 / FD-MC18-E",
+      "retrieved_on": "2026-11-23"
+    }
+  ]
+}

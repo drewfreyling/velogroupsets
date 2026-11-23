@@ -1,0 +1,46 @@
+{
+  "id": "shimano-cs-hg70-9-11-32",
+  "slug": "cs-hg70-9-11-32",
+  "name": "Deore LX 9-speed 11–32T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m570"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG70-9",
+  "weight_g": 350,
+  "weight_description": "Manufacturer-listed 1999 reference: 350 g for the Deore LX CS-HG70-9 nine-speed 11–32T cassette. The exact model and ar tooth sequence are identified in the same manual’s LX service table.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=59",
+    "title": "Shimano 1999 STI technical manual, PDF page 59 / printed page 58: Deore LX cassette feature explicitly publishes 350 g for the 11–32T reference",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=59",
+      "title": "Shimano 1999 STI technical manual, PDF page 59 / printed page 58: Deore LX cassette feature explicitly publishes 350 g for the 11–32T reference",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=99",
+      "title": "Shimano 1999 STI technical manual, PDF page 99 / printed page 98: named Deore LX service column identifies CS-HG70-9, nine-speed ar 11–32T; M570 is the range heading rather than an invented cassette model",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 9,
+    "sprocket_range": "11–32T",
+    "cassette_group": "ar",
+    "sprockets_teeth": [
+      11,
+      12,
+      14,
+      16,
+      18,
+      21,
+      24,
+      28,
+      32
+    ]
+  }
+}

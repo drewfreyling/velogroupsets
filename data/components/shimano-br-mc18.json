@@ -1,0 +1,29 @@
+{
+  "id": "shimano-br-mc18",
+  "slug": "br-mc18",
+  "name": "Alivio MC18 front/rear V-brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc18"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-MC18",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a complete front/rear BR-MC18 pair weight including brake pads and mounting bolts is not established. The overview’s separate M330 brake reference is not treated as a BR-MC18 model alias.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=108",
+    "title": "Shimano 1999 STI technical manual, PDF page 108 / printed page 107: exact BR-MC18 model in the named Alivio multi-condition brake table",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=108",
+      "title": "Shimano 1999 STI technical manual, PDF page 108 / printed page 107: exact BR-MC18 model in the named Alivio multi-condition brake table",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "V-Brake"
+  }
+}

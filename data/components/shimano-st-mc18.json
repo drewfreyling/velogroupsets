@@ -1,0 +1,30 @@
+{
+  "id": "shimano-st-mc18",
+  "slug": "st-mc18",
+  "name": "Alivio MC18 3×8 combined shift/brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc18"
+  ],
+  "type": "shifters",
+  "model_number": "ST-MC18",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right ST-MC18 triple-front / eight-speed-rear combined shift/brake pair. The service table does not publish a pair weight; no individual-side figure is doubled.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+    "title": "Shimano 1999 STI technical manual, PDF page 105 / printed page 104: named Alivio ST-MC18 / SL-MC18 control models and eight-speed triple drivetrain",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=105",
+      "title": "Shimano 1999 STI technical manual, PDF page 105 / printed page 104: named Alivio ST-MC18 / SL-MC18 control models and eight-speed triple drivetrain",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 8
+  }
+}
