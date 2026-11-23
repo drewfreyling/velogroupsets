@@ -48,15 +48,18 @@ test('shared DUB installation options use one canonical bottom-bracket record',a
   expect(pressFit.weight_description).toContain('does not establish the weight of the BB86.5 road option');
 });
 
-test('double-chainring derailleur limits do not borrow the single-chainring maximum',async({page,request})=>{
+test('rear derailleur limits retain their double, triple and single-chainring references',async({page,request})=>{
   await page.goto('/components/shimano/rd-m8050/');
   await expect(detail(page,'Total capacity').locator('dd')).toHaveText('35T');
   await expect(detail(page,'Largest sprocket').locator('dd')).toHaveText('42T');
   await expect(detail(page,'Smallest sprocket').locator('dd')).toHaveText('11T');
   await expect(detail(page,'Front chainring tooth difference').locator('dd')).toHaveText('10T');
   const {data}=await(await request.get('/api/v1/components/shimano-rd-4700-gs.json')).json();
-  expect(data.specifications).toMatchObject({total_capacity_teeth:41,maximum_sprocket_teeth:34,minimum_sprocket_teeth:11,maximum_front_difference_teeth:16});
-  expect(data.specifications.reference_configuration).toContain('Front double');
+  expect(data.specifications).toMatchObject({total_capacity_teeth:39,total_capacity_triple_teeth:41,maximum_sprocket_teeth:34,minimum_sprocket_teeth:11,maximum_front_difference_teeth:16});
+  expect(data.specifications.reference_configuration).toMatch(/double/i);
+  expect(data.sources.some(source=>source.url==='https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=161')).toBe(true);
+  await page.goto('/components/shimano/rd-4700-gs/');
+  await expect(detail(page,'Total capacity').locator('dd')).toHaveText('39T');
 });
 
 test('early hub additions retain their actual model numbers and unknown skewer-free weights',async({page,request})=>{
