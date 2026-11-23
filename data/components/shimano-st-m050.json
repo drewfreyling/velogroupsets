@@ -10,8 +10,8 @@
   ],
   "type": "shifters",
   "model_number": "ST-M050",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: complete left/right combined-control pair. The dealer table lists a figure only for the four-finger model without establishing a complete pair basis; that figure is neither doubled nor copied to the three-finger model.",
+  "weight_g": 305,
+  "weight_description": "Manufacturer-listed 305 g for the complete ST-M050 four-finger left/right combined-control pair. The 1991 400LX table explicitly states four-finger type pair, resolving the previously unqualified 1992 figure. ST-M050-S is not assigned this mass.",
   "technical_document": {
     "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
     "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
@@ -32,6 +32,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
       "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=72",
+      "title": "Shimano 1991 dealer product manual, PDF page 72 / printed 69: Exage 400LX named range: ST-M050 explicitly 305 g four-finger pair, SL-M453 184 g per pair, BL-M350-B 294 g per pair, FC-M400 170 mm 48/38/28T 763 g and BR-M351",
+      "retrieved_on": "2026-11-24"
     }
   ],
   "specifications": {

@@ -4,14 +4,19 @@
   "name": "Exage 500LX",
   "manufacturer_id": "shimano",
   "model_number": "M500",
-  "start_year": 1992,
+  "start_year": 1991,
   "category": "mtb",
-  "generation": "Documented in Shimano’s 1992 manufacturer dealer manual. The start year records the first reviewed dated range reference, not a claim that this range launched in 1992.",
+  "generation": "Documented in Shimano’s 1991 manufacturer dealer manual, earlier than the 1992 reference previously reviewed. The start year records the first reviewed dated availability reference, not a claimed launch year.",
   "sources": [
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
       "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=71",
+      "title": "Shimano 1991 dealer product manual, PDF page 71 / printed 68: Exage 500LX named range: unsuffixed FC-M500 170 mm 48/38/28T 756 g, separately listed BB-M550, BL-M451-A 340 g per pair and BR-M454",
+      "retrieved_on": "2026-11-24"
     }
   ]
 }

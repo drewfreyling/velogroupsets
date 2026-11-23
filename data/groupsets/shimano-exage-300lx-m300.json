@@ -4,14 +4,19 @@
   "name": "Exage 300LX",
   "manufacturer_id": "shimano",
   "model_number": "M300",
-  "start_year": 1992,
+  "start_year": 1991,
   "category": "mtb",
-  "generation": "Documented in Shimano’s 1992 manufacturer dealer manual. The start year records the first reviewed dated range reference, not a claim that this range launched in 1992.",
+  "generation": "Documented in Shimano’s 1991 manufacturer dealer manual, earlier than the 1992 reference previously reviewed. The start year records the first reviewed dated availability reference, not a claimed launch year.",
   "sources": [
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
       "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=73",
+      "title": "Shimano 1991 dealer product manual, PDF page 73 / printed 70: Exage 300LX named range: unsuffixed FC-M300 170 mm 48/38/28T 756 g, BL-M250-C 362 g per pair, SL-M300-B/C and BR-M250",
+      "retrieved_on": "2026-11-24"
     }
   ]
 }

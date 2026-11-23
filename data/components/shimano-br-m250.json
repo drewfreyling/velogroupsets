@@ -1,0 +1,29 @@
+{
+  "id": "shimano-br-m250",
+  "slug": "br-m250",
+  "name": "Exage 300LX cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300lx-m300"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-M250",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete front/rear cantilever pair including pads and mounting bolts; the reviewed pair figure does not explicitly establish every required inclusion.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=73",
+    "title": "Shimano 1991 dealer product manual, PDF page 73 / printed 70: Exage 300LX named range: unsuffixed FC-M300 170 mm 48/38/28T 756 g, BL-M250-C 362 g per pair, SL-M300-B/C and BR-M250",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=73",
+      "title": "Shimano 1991 dealer product manual, PDF page 73 / printed 70: Exage 300LX named range: unsuffixed FC-M300 170 mm 48/38/28T 756 g, BL-M250-C 362 g per pair, SL-M300-B/C and BR-M250",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever"
+  }
+}

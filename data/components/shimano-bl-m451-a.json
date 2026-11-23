@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bl-m451-a",
+  "slug": "bl-m451-a",
+  "name": "Exage 500LX four-finger brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500lx-m500"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-M451-A",
+  "weight_g": 340,
+  "weight_description": "Manufacturer-listed 340 g for the complete BL-M451-A left/right four-finger brake lever pair with 22.2 mm clamps. The source explicitly states pair; no individual mass is doubled.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=71",
+    "title": "Shimano 1991 dealer product manual, PDF page 71 / printed 68: Exage 500LX named range: unsuffixed FC-M500 170 mm 48/38/28T 756 g, separately listed BB-M550, BL-M451-A 340 g per pair and BR-M454",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=71",
+      "title": "Shimano 1991 dealer product manual, PDF page 71 / printed 68: Exage 500LX named range: unsuffixed FC-M500 170 mm 48/38/28T 756 g, separately listed BB-M550, BL-M451-A 340 g per pair and BR-M454",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "lever_length_fingers": 4,
+    "clamp_diameter_mm": 22.2
+  }
+}

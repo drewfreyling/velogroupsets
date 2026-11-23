@@ -1,0 +1,30 @@
+{
+  "id": "shimano-sl-m453",
+  "slug": "sl-m453",
+  "name": "Exage 400LX 7-speed shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400lx-m400"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M453",
+  "weight_g": 184,
+  "weight_description": "Manufacturer-listed 184 g for the explicitly paired SL-M453 seven-speed thumb controls. The unsuffixed model is retained separately from SL-M453-A; no suffix alias or single-side doubling is asserted.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=72",
+    "title": "Shimano 1991 dealer product manual, PDF page 72 / printed 69: Exage 400LX named range: ST-M050 explicitly 305 g four-finger pair, SL-M453 184 g per pair, BL-M350-B 294 g per pair, FC-M400 170 mm 48/38/28T 763 g and BR-M351",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=72",
+      "title": "Shimano 1991 dealer product manual, PDF page 72 / printed 69: Exage 400LX named range: ST-M050 explicitly 305 g four-finger pair, SL-M453 184 g per pair, BL-M350-B 294 g per pair, FC-M400 170 mm 48/38/28T 763 g and BR-M351",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 7,
+    "clamp_diameter_mm": 22.2
+  }
+}

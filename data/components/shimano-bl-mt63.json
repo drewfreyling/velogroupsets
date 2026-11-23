@@ -1,10 +1,11 @@
 {
   "id": "shimano-bl-mt63",
   "slug": "bl-mt63",
-  "name": "Deore II two-finger brake-lever pair",
+  "name": "Shimano two-finger brake lever pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-deore-ii"
+    "shimano-deore-ii",
+    "shimano-deore-dx-m650"
   ],
   "type": "brake-levers",
   "model_number": "BL-MT63",
@@ -25,6 +26,11 @@
       "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
       "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 27: BL-MT63 exact group membership, assembly and reference weight",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=61",
+      "title": "Shimano 1991 dealer product manual, PDF page 61 / printed 58: Deore DX BL-MT62 four-finger and BL-MT63 two-finger levers; 274 g explicitly for the BL-MT63 pair, with 22.2 mm clamps",
+      "retrieved_on": "2026-11-24"
     }
   ],
   "specifications": {

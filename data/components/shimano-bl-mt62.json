@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bl-mt62",
+  "slug": "bl-mt62",
+  "name": "Deore DX four-finger brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-dx-m650"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-MT62",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: exact BL-MT62 four-finger left/right pair. The adjacent 274 g figure explicitly belongs to BL-MT63 and is not copied across lever models.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=61",
+    "title": "Shimano 1991 dealer product manual, PDF page 61 / printed 58: Deore DX BL-MT62 four-finger and BL-MT63 two-finger levers; 274 g explicitly for the BL-MT63 pair, with 22.2 mm clamps",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=61",
+      "title": "Shimano 1991 dealer product manual, PDF page 61 / printed 58: Deore DX BL-MT62 four-finger and BL-MT63 two-finger levers; 274 g explicitly for the BL-MT63 pair, with 22.2 mm clamps",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "lever_length_fingers": 4,
+    "clamp_diameter_mm": 22.2
+  }
+}

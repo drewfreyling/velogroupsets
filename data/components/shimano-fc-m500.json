@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fc-m500",
+  "slug": "fc-m500",
+  "name": "Exage 500LX triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500lx-m500"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M500",
+  "weight_g": 756,
+  "weight_description": "Manufacturer-listed 756 g for the exact unsuffixed FC-M500, 170 mm and 48/38/28T, excluding the separately listed bottom-bracket set. The later -SG model code is retained separately; no equivalence is asserted. The weighed ring profile is not specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=71",
+    "title": "Shimano 1991 dealer product manual, PDF page 71 / printed 68: Exage 500LX named range: unsuffixed FC-M500 170 mm 48/38/28T 756 g, separately listed BB-M550, BL-M451-A 340 g per pair and BR-M454",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=71",
+      "title": "Shimano 1991 dealer product manual, PDF page 71 / printed 68: Exage 500LX named range: unsuffixed FC-M500 170 mm 48/38/28T 756 g, separately listed BB-M550, BL-M451-A 340 g per pair and BR-M454",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      48,
+      38,
+      28
+    ],
+    "front_speeds": 3,
+    "includes_bottom_bracket": false
+  }
+}

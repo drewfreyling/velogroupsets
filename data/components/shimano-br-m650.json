@@ -1,0 +1,30 @@
+{
+  "id": "shimano-br-m650",
+  "slug": "br-m650",
+  "name": "Deore DX cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-dx-m650"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-M650",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete front/rear cantilever pair including pads and mounting bolts; no mass is assigned without explicit required inclusions, and another model’s figure is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=60",
+    "title": "Shimano 1991 dealer product manual, PDF page 60 / printed 57: Deore DX SL-MT62 seven-speed thumb controls, BR-M650 super-low-profile, BR-M651 low-profile and distinct BR-MT62 cantilevers",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=60",
+      "title": "Shimano 1991 dealer product manual, PDF page 60 / printed 57: Deore DX SL-MT62 seven-speed thumb controls, BR-M650 super-low-profile, BR-M651 low-profile and distinct BR-MT62 cantilevers",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever",
+    "profile": "Super low profile"
+  }
+}

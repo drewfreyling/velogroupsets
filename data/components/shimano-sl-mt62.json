@@ -1,10 +1,11 @@
 {
   "id": "shimano-sl-mt62",
   "slug": "sl-mt62",
-  "name": "Deore II thumb-shifter pair",
+  "name": "Shimano 7-speed thumb-shifter pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-deore-ii"
+    "shimano-deore-ii",
+    "shimano-deore-dx-m650"
   ],
   "type": "shifters",
   "model_number": "SL-MT62",
@@ -25,6 +26,11 @@
       "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
       "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 26: SL-MT62 exact group membership, assembly and reference weight",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=60",
+      "title": "Shimano 1991 dealer product manual, PDF page 60 / printed 57: Deore DX SL-MT62 seven-speed thumb controls, BR-M650 super-low-profile, BR-M651 low-profile and distinct BR-MT62 cantilevers",
+      "retrieved_on": "2026-11-24"
     }
   ],
   "specifications": {

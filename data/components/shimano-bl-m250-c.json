@@ -1,0 +1,30 @@
+{
+  "id": "shimano-bl-m250-c",
+  "slug": "bl-m250-c",
+  "name": "Exage 300LX four-finger brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300lx-m300"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-M250-C",
+  "weight_g": 362,
+  "weight_description": "Manufacturer-listed 362 g for the complete BL-M250-C left/right four-finger brake lever pair with 22.2 mm clamps. The source explicitly states pair; no individual mass is doubled.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=73",
+    "title": "Shimano 1991 dealer product manual, PDF page 73 / printed 70: Exage 300LX named range: unsuffixed FC-M300 170 mm 48/38/28T 756 g, BL-M250-C 362 g per pair, SL-M300-B/C and BR-M250",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=73",
+      "title": "Shimano 1991 dealer product manual, PDF page 73 / printed 70: Exage 300LX named range: unsuffixed FC-M300 170 mm 48/38/28T 756 g, BL-M250-C 362 g per pair, SL-M300-B/C and BR-M250",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "lever_length_fingers": 4,
+    "clamp_diameter_mm": 22.2
+  }
+}

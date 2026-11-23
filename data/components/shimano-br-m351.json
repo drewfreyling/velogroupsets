@@ -1,0 +1,29 @@
+{
+  "id": "shimano-br-m351",
+  "slug": "br-m351",
+  "name": "Exage 400LX cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400lx-m400"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-M351",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete front/rear cantilever pair including pads and mounting bolts; the reviewed pair figure does not explicitly establish every required inclusion.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=72",
+    "title": "Shimano 1991 dealer product manual, PDF page 72 / printed 69: Exage 400LX named range: ST-M050 explicitly 305 g four-finger pair, SL-M453 184 g per pair, BL-M350-B 294 g per pair, FC-M400 170 mm 48/38/28T 763 g and BR-M351",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=72",
+      "title": "Shimano 1991 dealer product manual, PDF page 72 / printed 69: Exage 400LX named range: ST-M050 explicitly 305 g four-finger pair, SL-M453 184 g per pair, BL-M350-B 294 g per pair, FC-M400 170 mm 48/38/28T 763 g and BR-M351",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever"
+  }
+}

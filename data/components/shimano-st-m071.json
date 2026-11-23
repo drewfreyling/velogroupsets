@@ -1,0 +1,31 @@
+{
+  "id": "shimano-st-m071",
+  "slug": "st-m071",
+  "name": "Deore DX combined shift/brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-dx-m650"
+  ],
+  "type": "shifters",
+  "model_number": "ST-M071",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right seven-speed combined-control pair. The unqualified ST-M071 mass does not establish a pair basis in this selected source and is not doubled or transferred to ST-M070.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=59",
+    "title": "Shimano 1991 dealer product manual, PDF page 59 / printed 56: Deore DX ST-M070 four-finger / ST-M071 two-finger controls, seven-speed indexing and 22.2 mm clamps; the unqualified 535 g figure belongs to ST-M071",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=59",
+      "title": "Shimano 1991 dealer product manual, PDF page 59 / printed 56: Deore DX ST-M070 four-finger / ST-M071 two-finger controls, seven-speed indexing and 22.2 mm clamps; the unqualified 535 g figure belongs to ST-M071",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 7,
+    "lever_length_fingers": 2,
+    "clamp_diameter_mm": 22.2
+  }
+}

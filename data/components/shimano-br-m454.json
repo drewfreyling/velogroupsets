@@ -1,0 +1,29 @@
+{
+  "id": "shimano-br-m454",
+  "slug": "br-m454",
+  "name": "Exage 500LX cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500lx-m500"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-M454",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete front/rear cantilever pair including pads and mounting bolts; the reviewed pair figure does not explicitly establish every required inclusion.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=71",
+    "title": "Shimano 1991 dealer product manual, PDF page 71 / printed 68: Exage 500LX named range: unsuffixed FC-M500 170 mm 48/38/28T 756 g, separately listed BB-M550, BL-M451-A 340 g per pair and BR-M454",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=71",
+      "title": "Shimano 1991 dealer product manual, PDF page 71 / printed 68: Exage 500LX named range: unsuffixed FC-M500 170 mm 48/38/28T 756 g, separately listed BB-M550, BL-M451-A 340 g per pair and BR-M454",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever"
+  }
+}

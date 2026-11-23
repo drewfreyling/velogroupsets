@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1991 dealer Exage LX / DX follow-up](shimano-1991-dealer.md) adds **18 components and eight sourced weights**, resolves the ST-M050 four-finger pair, and moves three Exage LX availability references to 1991.
+
 The [1992 dealer Exage LX review](shimano-1992-dealer.md) adds **three MTB ranges, 26 components and eight sourced weights**, including all seven cage-specific rear derailleurs and separate crank/bottom-bracket references.
 
 The [1993 STI Exage ES/LT review](shimano-1993-sti.md) adds **two MTB ranges, 22 components and seven sourced weights**, including cage-specific rear derailleurs, 170 mm cranks and complete control pairs.

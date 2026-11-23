@@ -6,7 +6,7 @@ This pass adds **three MTB groupsets, 26 components and eight sourced weights**,
 
 ## Ranges and dated evidence
 
-The three original tables explicitly name **Exage 500LX**, **Exage 400LX** and **Exage 300LX**, with their M500/M400/M300 component families. Each range uses **1992 as its first reviewed dated availability reference**, not an asserted launch year; the generation notes state that limitation.
+The three original tables explicitly name **Exage 500LX**, **Exage 400LX** and **Exage 300LX**, with their M500/M400/M300 component families. At the time of this pass, each range used **1992 as its first reviewed dated availability reference**, not an asserted launch year. The subsequent [1991 dealer follow-up](shimano-1991-dealer.md) establishes earlier availability and revises all three start references to **1991**; neither review claims a launch year.
 
 These are MTB ranges, separate from the existing road Exage EX offerings and the later reviewed **Exage ES M520 / Exage LT M320**. The 1992 names do not replace those 1993 names, and model numbers are not treated as aliases merely because their ranges occupy similar positions.
 
@@ -51,7 +51,7 @@ The six band/EC models record the directly printed **24T BioPace HP / 26T round-
 
 ## Controls and shared identities
 
-The tables identify **ST-M050 four-finger** and **ST-M050-S three-finger** combined controls across all three ranges, with seven-speed indexing and 22.2 mm clamps. Both records represent complete left/right pairs. The printed four-finger figure does not establish a complete-pair basis in these selected tables, so no weight is published, doubled or transferred to the three-finger version. A separately specified front-control configuration is not invented.
+The tables identify **ST-M050 four-finger** and **ST-M050-S three-finger** combined controls across all three ranges, with seven-speed indexing and 22.2 mm clamps. Both records represent complete left/right pairs. The printed four-finger figure did not establish a complete-pair basis in these selected tables. The subsequent [1991 dealer follow-up](shimano-1991-dealer.md) explicitly qualifies **ST-M050 at 305 g for the four-finger pair**. ST-M050-S remains unknown; no mass is doubled or transferred to the three-finger version. A separately specified front-control configuration is not invented.
 
 Existing **FH-HG50**, **HB-RM50-F**, **CS-HG50 I-group 13–23T**, **HP-R500** and **HP-R501** gain all three explicitly documented memberships. **PD-M350** gains 400LX/300LX membership and keeps its existing 445 g pair reference. Shared parts are linked rather than duplicated, and their existing known masses and primary documents remain unchanged.
 
