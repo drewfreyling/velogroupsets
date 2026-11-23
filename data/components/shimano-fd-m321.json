@@ -1,0 +1,47 @@
+{
+  "id": "shimano-fd-m321",
+  "slug": "fd-m321",
+  "name": "Exage LT clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-lt-m320"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M321",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the dealer table gives a bottom-route mass without identifying its weighed band. Available 28.0–28.6/31.8/34.9 mm bands do not establish an actual weighed configuration; top-route weights are not inferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=33",
+    "title": "Shimano 1993 dealer product manual, PDF page 33 / printed 33: Exage LT exact inventory: RD-M320-SGS 300 g, GS/SGS limits including 20T front difference, ST-M320 complete controls, SL-M201 154 g per pair, FC-M320 170 mm 46/36/26T 877 g and CS-HG50 M 13–28T configuration; its scanned mass is unclear",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=33",
+      "title": "Shimano 1993 dealer product manual, PDF page 33 / printed 33: Exage LT exact inventory: RD-M320-SGS 300 g, GS/SGS limits including 20T front difference, ST-M320 complete controls, SL-M201 154 g per pair, FC-M320 170 mm 46/36/26T 877 g and CS-HG50 M 13–28T configuration; its scanned mass is unclear",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=10",
+      "title": "Shimano 1993 STI technical manual, PDF page 10 / printed 9: named Exage ES/LT front drive: exact M520/M320 cranks, normal/top-route front models, triple controls, bands, 46/36/26T and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "cable_route": "Top pull",
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "available_clamp_diameters_mm": [
+      28.6,
+      31.8,
+      34.9
+    ],
+    "small_band_range_mm": [
+      28.0,
+      28.6
+    ],
+    "capacity_biopace_teeth": 24,
+    "capacity_round_chainrings_teeth": 26
+  }
+}

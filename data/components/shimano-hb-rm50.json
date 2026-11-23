@@ -1,0 +1,33 @@
+{
+  "id": "shimano-hb-rm50",
+  "slug": "hb-rm50",
+  "name": "Exage LT front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-lt-m320"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-RM50",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the dealer table does not establish a weight explicitly excluding the skewer. Its unsuffixed HB-RM50 code is retained separately from the HB-RM50-F reference and its contributor measurement.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=33",
+    "title": "Shimano 1993 dealer product manual, PDF page 33 / printed 33: Exage LT exact inventory: RD-M320-SGS 300 g, GS/SGS limits including 20T front difference, ST-M320 complete controls, SL-M201 154 g per pair, FC-M320 170 mm 46/36/26T 877 g and CS-HG50 M 13–28T configuration; its scanned mass is unclear",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=33",
+      "title": "Shimano 1993 dealer product manual, PDF page 33 / printed 33: Exage LT exact inventory: RD-M320-SGS 300 g, GS/SGS limits including 20T front difference, ST-M320 complete controls, SL-M201 154 g per pair, FC-M320 170 mm 46/36/26T 877 g and CS-HG50 M 13–28T configuration; its scanned mass is unclear",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "available_spoke_holes": [
+      32,
+      36
+    ],
+    "over_locknut_dimension_mm": 100
+  },
+  "weight_excludes_skewers": true
+}

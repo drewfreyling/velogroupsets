@@ -6,7 +6,9 @@
   "groupset_ids": [
     "shimano-exage-500ex",
     "shimano-exage-400ex",
-    "shimano-exage-300ex"
+    "shimano-exage-300ex",
+    "shimano-exage-es-m520",
+    "shimano-exage-lt-m320"
   ],
   "type": "rear-hub",
   "model_number": "FH-HG50",
@@ -37,6 +39,21 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 34; published August 1989 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=31",
+      "title": "Shimano 1993 dealer product manual, PDF page 31 / printed 31: Exage ES exact inventory: RD-M520-SGS 301 g, GS/SGS limits including 20T front difference, ST-M520 complete 3x7 controls 395 g, FC-M520 170 mm 46/36/26T 706 g, CS-HG70-7 E 12–28T 309 g",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=33",
+      "title": "Shimano 1993 dealer product manual, PDF page 33 / printed 33: Exage LT exact inventory: RD-M320-SGS 300 g, GS/SGS limits including 20T front difference, ST-M320 complete controls, SL-M201 154 g per pair, FC-M320 170 mm 46/36/26T 877 g and CS-HG50 M 13–28T configuration; its scanned mass is unclear",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=13",
+      "title": "Shimano 1993 STI technical manual, PDF page 13 / printed 12: seven-speed Exage rear drive: exact GS/SGS models, 36T/30T/12T versus 38T/32T/12T limits and ST-M520/ST-M320 controls; this sheet prints LX for the LT column",
+      "retrieved_on": "2026-11-23"
     }
   ]
 }

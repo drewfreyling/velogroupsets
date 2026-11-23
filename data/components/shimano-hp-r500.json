@@ -8,12 +8,14 @@
     "shimano-rx100-a550",
     "shimano-exage-400ex",
     "shimano-exage-300ex",
-    "shimano-deore-lx-m550"
+    "shimano-deore-lx-m550",
+    "shimano-exage-es-m520",
+    "shimano-exage-lt-m320"
   ],
   "type": "headset",
   "model_number": "HP-R500",
   "weight_g": 121,
-  "weight_description": "Manufacturer-listed: threaded road headset, 22 mm upper cone and 11.5 mm lower cone. The thread variant for this weight is not specified.",
+  "weight_description": "Manufacturer-listed: threaded headset, 22 mm upper cone and 11.5 mm lower cone. The thread variant for this weight is not specified.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/HP-R500-1051/EV-HP-R500-1051.pdf",
     "title": "Shimano HP-R500 exploded view and replacement parts",
@@ -48,6 +50,16 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=69",
       "title": "Shimano 1991 dealer product manual, PDF page 69 (printed 66): HP-R500 off-road headset in the Deore LX section, 121 g and 22/11.5 mm cone dimensions",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=31",
+      "title": "Shimano 1993 dealer product manual, PDF page 31 / printed 31: Exage ES exact inventory: RD-M520-SGS 301 g, GS/SGS limits including 20T front difference, ST-M520 complete 3x7 controls 395 g, FC-M520 170 mm 46/36/26T 706 g, CS-HG70-7 E 12–28T 309 g",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=33",
+      "title": "Shimano 1993 dealer product manual, PDF page 33 / printed 33: Exage LT exact inventory: RD-M320-SGS 300 g, GS/SGS limits including 20T front difference, ST-M320 complete controls, SL-M201 154 g per pair, FC-M320 170 mm 46/36/26T 877 g and CS-HG50 M 13–28T configuration; its scanned mass is unclear",
+      "retrieved_on": "2026-11-23"
     }
   ]
 }

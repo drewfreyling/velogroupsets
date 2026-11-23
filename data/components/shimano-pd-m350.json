@@ -1,10 +1,12 @@
 {
   "id": "shimano-pd-m350",
   "slug": "pd-m350",
-  "name": "STX platform pedal pair",
+  "name": "Shimano platform pedal pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-stx-mc30"
+    "shimano-stx-mc30",
+    "shimano-exage-es-m520",
+    "shimano-exage-lt-m320"
   ],
   "type": "pedals",
   "model_number": "PD-M350",
@@ -20,6 +22,16 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=29",
       "title": "Shimano 1994 dealer product manual, PDF / printed page 29: PD-M350 assembly, specifications and group membership",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=31",
+      "title": "Shimano 1993 dealer product manual, PDF page 31 / printed 31: Exage ES exact inventory: RD-M520-SGS 301 g, GS/SGS limits including 20T front difference, ST-M520 complete 3x7 controls 395 g, FC-M520 170 mm 46/36/26T 706 g, CS-HG70-7 E 12–28T 309 g",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=33",
+      "title": "Shimano 1993 dealer product manual, PDF page 33 / printed 33: Exage LT exact inventory: RD-M320-SGS 300 g, GS/SGS limits including 20T front difference, ST-M320 complete controls, SL-M201 154 g per pair, FC-M320 170 mm 46/36/26T 877 g and CS-HG50 M 13–28T configuration; its scanned mass is unclear",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {

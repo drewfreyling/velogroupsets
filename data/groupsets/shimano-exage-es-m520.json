@@ -1,0 +1,27 @@
+{
+  "id": "shimano-exage-es-m520",
+  "slug": "exage-es-m520",
+  "name": "Exage ES",
+  "manufacturer_id": "shimano",
+  "model_number": "M520",
+  "start_year": 1993,
+  "category": "mtb",
+  "generation": "Documented in Shimano’s 1993 manufacturer manuals. The start year records the first reviewed dated range reference, not a claim that the range launched in 1993.",
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=31",
+      "title": "Shimano 1993 dealer product manual, PDF page 31 / printed 31: Exage ES exact inventory: RD-M520-SGS 301 g, GS/SGS limits including 20T front difference, ST-M520 complete 3x7 controls 395 g, FC-M520 170 mm 46/36/26T 706 g, CS-HG70-7 E 12–28T 309 g",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=10",
+      "title": "Shimano 1993 STI technical manual, PDF page 10 / printed 9: named Exage ES/LT front drive: exact M520/M320 cranks, normal/top-route front models, triple controls, bands, 46/36/26T and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=15",
+      "title": "Shimano 1993 STI technical manual, PDF page 15 / printed 14: named Exage ES/LT cantilever/control table: BR-M520/M320 M arms, BR-M521/M321 L arms, dynamic unit links and 22.2 mm control clamps",
+      "retrieved_on": "2026-11-23"
+    }
+  ]
+}

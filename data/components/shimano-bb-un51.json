@@ -1,11 +1,12 @@
 {
   "id": "shimano-bb-un51",
   "slug": "bb-un51",
-  "name": "STX sealed bottom bracket",
+  "name": "Sealed square-taper bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-stx-mc32",
-    "shimano-stx-mc30"
+    "shimano-stx-mc30",
+    "shimano-exage-es-m520"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-UN51",
@@ -31,13 +32,24 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=24",
       "title": "Shimano 1994 STI technical manual, PDF page 24 / printed 5-1: STX/Alivio front-drive table: exact front/control models, triple gearing, 170/175 mm cranks, clamp bands and separate bottom brackets",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=31",
+      "title": "Shimano 1993 dealer product manual, PDF page 31 / printed 31: Exage ES exact inventory: RD-M520-SGS 301 g, GS/SGS limits including 20T front difference, ST-M520 complete 3x7 controls 395 g, FC-M520 170 mm 46/36/26T 706 g, CS-HG70-7 E 12–28T 309 g",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=10",
+      "title": "Shimano 1993 STI technical manual, PDF page 10 / printed 9: named Exage ES/LT front drive: exact M520/M320 cranks, normal/top-route front models, triple controls, bands, 46/36/26T and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
     "interface": "Square taper",
     "spindle_length_options_mm": [
       110,
-      113
+      113,
+      118
     ]
   }
 }

@@ -1,0 +1,36 @@
+{
+  "id": "shimano-br-m520",
+  "slug": "br-m520",
+  "name": "Exage ES cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-es-m520"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-M520",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete front/rear cantilever brake pair including pads and mounting bolts. The reviewed tables do not explicitly establish all required weight inclusions; a unit-link figure is not converted into a complete-pair mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=15",
+    "title": "Shimano 1993 STI technical manual, PDF page 15 / printed 14: named Exage ES/LT cantilever/control table: BR-M520/M320 M arms, BR-M521/M321 L arms, dynamic unit links and 22.2 mm control clamps",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=15",
+      "title": "Shimano 1993 STI technical manual, PDF page 15 / printed 14: named Exage ES/LT cantilever/control table: BR-M520/M320 M arms, BR-M521/M321 L arms, dynamic unit links and 22.2 mm control clamps",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=31",
+      "title": "Shimano 1993 dealer product manual, PDF page 31 / printed 31: Exage ES exact inventory: RD-M520-SGS 301 g, GS/SGS limits including 20T front difference, ST-M520 complete 3x7 controls 395 g, FC-M520 170 mm 46/36/26T 706 g, CS-HG70-7 E 12–28T 309 g",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever",
+    "arm_size": "M",
+    "link_type": "Unit link (dynamic type)"
+  }
+}

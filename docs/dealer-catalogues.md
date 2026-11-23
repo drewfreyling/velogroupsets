@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1993 STI Exage ES/LT review](shimano-1993-sti.md) adds **two MTB ranges, 22 components and seven sourced weights**, including cage-specific rear derailleurs, 170 mm cranks and complete control pairs.
+
 The [1994 STI early-MTB review](shimano-1994-sti.md) adds **24 components and six sourced weights**, enriches nine existing records and separates the Altus CT50 triple/single-chainring sprocket limits.
 
 The [1995 STI Alivio/Acera-X/STX RC review](shimano-1995-sti.md) adds **11 components**, enriches ten existing records and fills eight rear-derailleur limits. The selected service/dealer tables publish no new qualifying weights.
