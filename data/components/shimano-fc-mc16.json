@@ -9,7 +9,7 @@
   "type": "crankset",
   "model_number": "FC-MC16",
   "weight_g": null,
-  "weight_description": "Not yet sourced: the reviewed manufacturer service drawing identifies this assembly but does not give a compliant configuration-specific weight.",
+  "weight_description": "Not yet sourced: selected 170 mm, 42/34/24T FC-MC16 crankset reference excluding bottom bracket. The manufacturer service sheet does not publish a crankset mass.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FC-MC16-1610/EV-FC-MC16-1610A.pdf",
     "title": "Shimano FC-MC16 manufacturer exploded view: model identification, series and replacement parts",
@@ -20,7 +20,27 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-MC16-1610/EV-FC-MC16-1610A.pdf",
       "title": "Shimano FC-MC16 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=119",
+      "title": "Shimano 1997 STI technical manual, PDF page 119 / printed page 120: FC-MC16 exact 170/175 mm, 42/34/24T and 67 mm bolt-circle configuration; bottom bracket listed separately",
+      "retrieved_on": "2026-11-23"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      42,
+      34,
+      24
+    ],
+    "bolt_circle_diameter_mm": 67,
+    "includes_bottom_bracket": false
+  }
 }

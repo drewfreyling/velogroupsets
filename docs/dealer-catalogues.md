@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1997 STI Alivio/LX review](shimano-1997-sti.md) adds **eight components**, expands Alivio MC16 from two to thirteen records, and fills RD-M567’s four limits. Conflicting MC16/MC34 capacity and sprocket figures are explicitly withheld with both original sources cited.
+
 The [1998 STI Ultegra review](shimano-1998-sti.md) adds **three components and one manufacturer-listed weight**, including FD-6503, cage-specific RD-6500-GS limits and BB-6500’s 68 mm-shell reference with an explicitly unspecified spindle. Four existing Ultegra records gain configuration details.
 
 The [1999 STI Alivio and cassette review](shimano-1999-sti.md) adds **one range, 14 components and two sourced weights**: Alivio MC18, its exact brake/control/hub inventory and separate XTR/LX cassette gearing references.

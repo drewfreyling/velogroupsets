@@ -1,0 +1,29 @@
+{
+  "id": "shimano-br-mc16",
+  "slug": "br-mc16",
+  "name": "Alivio MC16 front/rear cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc16"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-MC16",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a complete front/rear brake-pair weight including pads and mounting bolts is not established in the manufacturer table.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 44: BR-MC16 exact Alivio cantilever brake model, distinct from BR-MC12-E and later V-brakes",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 44: BR-MC16 exact Alivio cantilever brake model, distinct from BR-MC12-E and later V-brakes",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "shimano-st-mc15-c",
+  "slug": "st-mc15-c",
+  "name": "Alivio 3×7 3-finger shift/brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc16"
+  ],
+  "type": "shifters",
+  "model_number": "ST-MC15-C",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right combined shift/brake pair. The exact manufacturer column specifies both front and rear controls but does not publish a pair mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+    "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 44: exact ST-MC15-C Alivio combined-control column: triple front, seven-speed rear and 3-finger lever",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 44: exact ST-MC15-C Alivio combined-control column: triple front, seven-speed rear and 3-finger lever",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "lever_length_fingers": 3
+  }
+}

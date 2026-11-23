@@ -20,12 +20,25 @@
       "url": "https://si.shimano.com/en/pdfs/ev/RD-MC16-GS-1636/EV-RD-MC16-GS-1636.pdf",
       "title": "Shimano RD-MC16 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=122",
+      "title": "Shimano 1997 STI technical manual, PDF page 122 / printed page 123: RD-MC16 GS, seven speeds, 30T max / 11T min / 18T front difference; 35T capacity conflicts with dealer table",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 44: RD-MC16 seven-speed limits agree except total capacity, printed as 37T rather than STI’s 35T",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
     "total_capacity_teeth": null,
-    "maximum_sprocket_teeth": null,
-    "minimum_sprocket_teeth": null,
-    "maximum_front_difference_teeth": null
+    "maximum_sprocket_teeth": 30,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 18,
+    "cage": "GS",
+    "rear_speeds": 7,
+    "capacity_reference_note": "The 1997 STI service table prints 35T total capacity; the 1997 dealer manual prints 37T. The discrepancy is unresolved, so capacity remains unknown."
   }
 }

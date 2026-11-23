@@ -1,0 +1,39 @@
+{
+  "id": "shimano-cs-ig50-7-11-30",
+  "slug": "cs-ig50-7-11-30",
+  "name": "Alivio 7-speed 11–30T IG cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc16"
+  ],
+  "type": "cassette",
+  "model_number": "CS-IG50",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the exact seven-speed tooth range is documented but its mass is not published. An HG or eight-speed cassette mass is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=122",
+    "title": "Shimano 1997 STI technical manual, PDF page 122 / printed page 123: Alivio CS-IG50 seven-speed am cassette: exact 11–30T range and tooth sequence",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=122",
+      "title": "Shimano 1997 STI technical manual, PDF page 122 / printed page 123: Alivio CS-IG50 seven-speed am cassette: exact 11–30T range and tooth sequence",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 7,
+    "sprocket_range": "11–30T",
+    "cassette_group": "am",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      30
+    ]
+  }
+}

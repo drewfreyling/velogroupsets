@@ -20,13 +20,20 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
       "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
       "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=122",
+      "title": "Shimano 1997 STI technical manual, PDF page 122 / printed page 123: RD-MC34 STI figures 37T total / 28T largest conflict with the existing dealer figures 29T / 30T; both fields withheld",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
     "rear_speeds": 7,
-    "total_capacity_teeth": 29,
-    "maximum_sprocket_teeth": 30,
+    "total_capacity_teeth": null,
+    "maximum_sprocket_teeth": null,
     "minimum_sprocket_teeth": 11,
-    "maximum_front_difference_teeth": 20
+    "maximum_front_difference_teeth": 20,
+    "capacity_reference_note": "The 1997 dealer manual prints 29T capacity; the 1997 STI service table prints 37T. Exact capacity remains unresolved.",
+    "maximum_sprocket_reference_note": "The 1997 dealer manual prints a 30T largest sprocket; the 1997 STI service table prints 28T. The limit remains unresolved."
   }
 }

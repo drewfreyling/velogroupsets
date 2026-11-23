@@ -1,10 +1,11 @@
 {
   "id": "shimano-fh-r050",
   "slug": "fh-r050",
-  "name": "STX silent-clutch 7-speed rear hub",
+  "name": "Silent-clutch 7-speed rear hub",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-stx-mc34"
+    "shimano-stx-mc34",
+    "shimano-alivio-mc16"
   ],
   "type": "rear-hub",
   "model_number": "FH-R050",
@@ -20,6 +21,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
       "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 44: STX MC34 exact models, named membership, configurations and gearing limits",
       "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=122",
+      "title": "Shimano 1997 STI technical manual, PDF page 122 / printed page 123: FH-R050 explicitly listed as an Alivio seven-speed rear-hub option",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {

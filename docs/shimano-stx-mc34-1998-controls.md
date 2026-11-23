@@ -16,7 +16,7 @@ The [1997 product spread, page 40](https://na.s-tec.shimano.com/s3_assets/fileli
 | Hubs | FH-MC32-S, FH-R050, HB-MC32-S |
 | Brakes | BR-MC32-E, BL-MC16 |
 
-RD-MC34's table explicitly lists **7 speeds, 29T total capacity, 30T largest sprocket, 11T smallest sprocket and 20T maximum front difference**. These printed limits are preserved rather than recomputing capacity from the other fields.
+RD-MC34's table explicitly lists **7 speeds, 29T total capacity, 30T largest sprocket, 11T smallest sprocket and 20T maximum front difference**. These are the dealer table’s printed values. The subsequent [1997 STI review](shimano-1997-sti.md) finds a conflicting 37T total / 28T largest-sprocket reference in the original service sheet and withholds both disputed fields. The agreed 11T smallest sprocket and 20T front difference remain sourced; no limit is reconstructed from arithmetic.
 
 FD-MC34 is the clamp model. The E-type footnote explicitly identifies a bottom-bracket support plate and an additional seat-tube boss or clamp adapter; it is not relabelled as a modern direct mount. Both list 20T front capacity, a 42T maximum chainring and a 10T minimum top/middle difference. No actual weighed clamp size or weight is established.
 

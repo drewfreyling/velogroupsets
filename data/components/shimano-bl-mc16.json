@@ -4,7 +4,8 @@
   "name": "STX / Alivio cantilever brake-lever pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-stx-mc34"
+    "shimano-stx-mc34",
+    "shimano-alivio-mc16"
   ],
   "type": "brake-levers",
   "model_number": "BL-MC16",
@@ -20,6 +21,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=40",
       "title": "Shimano 1997 manufacturer dealer manual, PDF/printed page 40: BL-MC16 brake-lever pair pictured in the named STX spread; page 44 specifies the exact Alivio-listed lever",
       "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=44",
+      "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 44: BL-MC16 exact Alivio standalone cantilever brake lever",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {

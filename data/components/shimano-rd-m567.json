@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m567",
+  "slug": "rd-m567",
+  "name": "Deore LX SGS 8-speed rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m560"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M567",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the service table gives the exact RD-M567 SGS configuration but does not publish a mass. An RD-M560 or RD-M570 figure is not substituted.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=114",
+    "title": "Shimano 1997 STI technical manual, PDF page 114 / printed page 115: named Deore LX RD-M567 SGS eight-speed rear derailleur and all four limits",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=114",
+      "title": "Shimano 1997 STI technical manual, PDF page 114 / printed page 115: named Deore LX RD-M567 SGS eight-speed rear derailleur and all four limits",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "cage": "SGS",
+    "rear_speeds": 8,
+    "total_capacity_teeth": 39,
+    "maximum_sprocket_teeth": 32,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 20
+  }
+}
