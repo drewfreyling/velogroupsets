@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-m500-normal-band-1990",
+  "slug": "fd-m500-normal-band-1990",
+  "name": "Exage 500LX normal-band front derailleur (1990 reference)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500lx-m500"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M500",
+  "weight_g": 118,
+  "weight_description": "Manufacturer-listed 118 g for FD-M500 in its explicitly identified 28.0–28.6 mm normal-band configuration. The EC-type and later -B references remain separate; another clamp size or suffix equivalence is not inferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=55",
+    "title": "Shimano 1990 dealer product manual, PDF page 55 / printed 52: Exage 500LX: FD-M500 118 g normal band with sole 28.0–28.6 mm band; CS-HG50 E 12–28T seven-speed 325 g with spacers; BB-M500 and ST-M050 rear-labelled reference",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=55",
+      "title": "Shimano 1990 dealer product manual, PDF page 55 / printed 52: Exage 500LX: FD-M500 118 g normal band with sole 28.0–28.6 mm band; CS-HG50 E 12–28T seven-speed 325 g with spacers; BB-M500 and ST-M050 rear-labelled reference",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_type": "Normal band",
+    "clamp_diameter_range_mm": [
+      28,
+      28.6
+    ],
+    "front_speeds": 3,
+    "capacity_biopace_teeth": 24,
+    "capacity_round_chainrings_teeth": 26
+  }
+}

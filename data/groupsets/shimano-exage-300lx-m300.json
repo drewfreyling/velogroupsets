@@ -4,9 +4,9 @@
   "name": "Exage 300LX",
   "manufacturer_id": "shimano",
   "model_number": "M300",
-  "start_year": 1991,
+  "start_year": 1990,
   "category": "mtb",
-  "generation": "Documented in Shimano’s 1991 manufacturer dealer manual, earlier than the 1992 reference previously reviewed. The start year records the first reviewed dated availability reference, not a claimed launch year.",
+  "generation": "Documented in Shimano’s 1990 manufacturer dealer manual, earlier than the 1991/1992 references previously reviewed. The start year records the first reviewed dated availability reference, not a claimed launch year.",
   "sources": [
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
@@ -16,6 +16,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=73",
       "title": "Shimano 1991 dealer product manual, PDF page 73 / printed 70: Exage 300LX named range: unsuffixed FC-M300 170 mm 48/38/28T 756 g, BL-M250-C 362 g per pair, SL-M300-B/C and BR-M250",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=57",
+      "title": "Shimano 1990 dealer product manual, PDF page 57 / printed 54: Exage 300LX: FD-M300 135 g normal band with sole 28.0–28.6 mm band; BB-M500 and shared 500LX cassette inventory",
       "retrieved_on": "2026-11-24"
     }
   ]

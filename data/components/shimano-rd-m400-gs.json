@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-M400-GS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the dealer-table mass explicitly belongs to SGS and is not copied to this distinct cage reference.",
+  "weight_g": 318,
+  "weight_description": "Manufacturer-listed 318 g specifically for the RD-M400-GS long-cage reference. The SGS and SS masses are not copied or inferred.",
   "technical_document": {
     "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
     "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
@@ -20,6 +20,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
       "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=56",
+      "title": "Shimano 1990 dealer product manual, PDF page 56 / printed 53: Exage 400LX: RD-M400-GS explicitly 318 g; FD-M400 132 g normal band with sole 28.0–28.6 mm band; BB-M500 and shared 500LX cassette inventory",
+      "retrieved_on": "2026-11-24"
     }
   ],
   "specifications": {

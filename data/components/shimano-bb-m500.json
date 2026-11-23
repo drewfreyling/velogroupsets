@@ -1,10 +1,13 @@
 {
   "id": "shimano-bb-m500",
   "slug": "bb-m500",
-  "name": "Shimano MTB square-taper bottom bracket",
+  "name": "Square-taper bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-deore-lx-m550"
+    "shimano-deore-lx-m550",
+    "shimano-exage-500lx-m500",
+    "shimano-exage-400lx-m400",
+    "shimano-exage-300lx-m300"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-M500",
@@ -20,10 +23,26 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=51",
       "title": "Shimano 1990 dealer product manual, PDF page 51 / printed page 48: BB-M500 exact assembly, group and published reference configuration",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=55",
+      "title": "Shimano 1990 dealer product manual, PDF page 55 / printed 52: Exage 500LX: FD-M500 118 g normal band with sole 28.0–28.6 mm band; CS-HG50 E 12–28T seven-speed 325 g with spacers; BB-M500 and ST-M050 rear-labelled reference",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=56",
+      "title": "Shimano 1990 dealer product manual, PDF page 56 / printed 53: Exage 400LX: RD-M400-GS explicitly 318 g; FD-M400 132 g normal band with sole 28.0–28.6 mm band; BB-M500 and shared 500LX cassette inventory",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=57",
+      "title": "Shimano 1990 dealer product manual, PDF page 57 / printed 54: Exage 300LX: FD-M300 135 g normal band with sole 28.0–28.6 mm band; BB-M500 and shared 500LX cassette inventory",
+      "retrieved_on": "2026-11-24"
     }
   ],
   "specifications": {
     "interface": "Square taper",
-    "spindle_length_mm": 121.1
+    "spindle_length_mm": 121.1,
+    "spindle_reference_note": "The selected weighed 121.1 mm reference from the 1990 LX table is preserved. The Exage tables separately print 121 mm; no dimensional alias or replacement weighed spindle is asserted."
   }
 }

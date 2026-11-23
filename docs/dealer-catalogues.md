@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1990 Exage LX follow-up](shimano-1990-exage-lx.md) adds **four component references and five sourced weights**, including actual normal-band configurations and the long-cage RD-M400-GS, and moves three availability references to 1990.
+
 The [1991 dealer Exage LX / DX follow-up](shimano-1991-dealer.md) adds **18 components and eight sourced weights**, resolves the ST-M050 four-finger pair, and moves three Exage LX availability references to 1991.
 
 The [1992 dealer Exage LX review](shimano-1992-dealer.md) adds **three MTB ranges, 26 components and eight sourced weights**, including all seven cage-specific rear derailleurs and separate crank/bottom-bracket references.

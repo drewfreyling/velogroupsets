@@ -37,12 +37,18 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=72",
       "title": "Shimano 1991 dealer product manual, PDF page 72 / printed 69: Exage 400LX named range: ST-M050 explicitly 305 g four-finger pair, SL-M453 184 g per pair, BL-M350-B 294 g per pair, FC-M400 170 mm 48/38/28T 763 g and BR-M351",
       "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=55",
+      "title": "Shimano 1990 dealer product manual, PDF page 55 / printed 52: Exage 500LX: FD-M500 118 g normal band with sole 28.0–28.6 mm band; CS-HG50 E 12–28T seven-speed 325 g with spacers; BB-M500 and ST-M050 rear-labelled reference",
+      "retrieved_on": "2026-11-24"
     }
   ],
   "specifications": {
     "weight_basis": "Pair",
     "rear_speeds": 7,
     "lever_length_fingers": 4,
-    "clamp_diameter_mm": 22.2
+    "clamp_diameter_mm": 22.2,
+    "weight_reference_note": "The selected 305 g pair remains based on the explicitly paired 1991 400LX table. The 1990 table labels its 305 g entry Rear; that earlier entry is not doubled or used to redefine the selected pair."
   }
 }

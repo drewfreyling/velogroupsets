@@ -4,9 +4,9 @@
   "name": "Exage 500LX",
   "manufacturer_id": "shimano",
   "model_number": "M500",
-  "start_year": 1991,
+  "start_year": 1990,
   "category": "mtb",
-  "generation": "Documented in Shimano’s 1991 manufacturer dealer manual, earlier than the 1992 reference previously reviewed. The start year records the first reviewed dated availability reference, not a claimed launch year.",
+  "generation": "Documented in Shimano’s 1990 manufacturer dealer manual, earlier than the 1991/1992 references previously reviewed. The start year records the first reviewed dated availability reference, not a claimed launch year.",
   "sources": [
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
@@ -16,6 +16,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=71",
       "title": "Shimano 1991 dealer product manual, PDF page 71 / printed 68: Exage 500LX named range: unsuffixed FC-M500 170 mm 48/38/28T 756 g, separately listed BB-M550, BL-M451-A 340 g per pair and BR-M454",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=55",
+      "title": "Shimano 1990 dealer product manual, PDF page 55 / printed 52: Exage 500LX: FD-M500 118 g normal band with sole 28.0–28.6 mm band; CS-HG50 E 12–28T seven-speed 325 g with spacers; BB-M500 and ST-M050 rear-labelled reference",
       "retrieved_on": "2026-11-24"
     }
   ]

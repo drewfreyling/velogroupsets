@@ -2,7 +2,7 @@
 
 Reviewed on **24 November 2026** from the [manufacturer-hosted 1991 Shimano Bicycle System Component Dealer Product Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf). The PDF has **88 pages**. PDF page numbers are three higher than the printed numbers in the selected tables; citations record both.
 
-This follow-up adds **18 components**, enriches **three existing component records** and publishes **eight newly sourced weights**. It also moves the documented availability references for **Exage 500LX M500, 400LX M400 and 300LX M300 from 1992 to 1991**. These remain availability references, not asserted launch years. No groupsets are added. The catalogue now contains four manufacturers, **277 groupsets and 2,085 components**.
+This follow-up adds **18 components**, enriches **three existing component records** and publishes **eight newly sourced weights**. It also moves the documented availability references for **Exage 500LX M500, 400LX M400 and 300LX M300 from 1992 to 1991**. These remain availability references, not asserted launch years. The subsequent [1990 Exage follow-up](shimano-1990-exage-lx.md) establishes earlier evidence and moves all three availability references to 1990. No groupsets are added. The catalogue now contains four manufacturers, **277 groupsets and 2,085 components**.
 
 Existing positive masses, IDs, model numbers and primary technical documents are preserved. The existing ST-M050 receives its first qualified pair weight; its previous unknown weight is not treated as a conflicting measured value.
 

@@ -6,7 +6,7 @@ This pass adds **three MTB groupsets, 26 components and eight sourced weights**,
 
 ## Ranges and dated evidence
 
-The three original tables explicitly name **Exage 500LX**, **Exage 400LX** and **Exage 300LX**, with their M500/M400/M300 component families. At the time of this pass, each range used **1992 as its first reviewed dated availability reference**, not an asserted launch year. The subsequent [1991 dealer follow-up](shimano-1991-dealer.md) establishes earlier availability and revises all three start references to **1991**; neither review claims a launch year.
+The three original tables explicitly name **Exage 500LX**, **Exage 400LX** and **Exage 300LX**, with their M500/M400/M300 component families. At the time of this pass, each range used **1992 as its first reviewed dated availability reference**, not an asserted launch year. The subsequent [1991 dealer follow-up](shimano-1991-dealer.md) establishes earlier availability and revises all three start references to **1991**; neither review claims a launch year. The [1990 Exage follow-up](shimano-1990-exage-lx.md) subsequently moves those availability references to **1990**.
 
 These are MTB ranges, separate from the existing road Exage EX offerings and the later reviewed **Exage ES M520 / Exage LT M320**. The 1992 names do not replace those 1993 names, and model numbers are not treated as aliases merely because their ranges occupy similar positions.
 

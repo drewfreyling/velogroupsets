@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-m300-normal-band-1990",
+  "slug": "fd-m300-normal-band-1990",
+  "name": "Exage 300LX normal-band front derailleur (1990 reference)",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300lx-m300"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M300",
+  "weight_g": 135,
+  "weight_description": "Manufacturer-listed 135 g for FD-M300 in its explicitly identified 28.0–28.6 mm normal-band configuration. The EC-type and later -B references remain separate; another clamp size or suffix equivalence is not inferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=57",
+    "title": "Shimano 1990 dealer product manual, PDF page 57 / printed 54: Exage 300LX: FD-M300 135 g normal band with sole 28.0–28.6 mm band; BB-M500 and shared 500LX cassette inventory",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=57",
+      "title": "Shimano 1990 dealer product manual, PDF page 57 / printed 54: Exage 300LX: FD-M300 135 g normal band with sole 28.0–28.6 mm band; BB-M500 and shared 500LX cassette inventory",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_type": "Normal band",
+    "clamp_diameter_range_mm": [
+      28,
+      28.6
+    ],
+    "front_speeds": 3,
+    "capacity_biopace_teeth": 24,
+    "capacity_round_chainrings_teeth": 26
+  }
+}

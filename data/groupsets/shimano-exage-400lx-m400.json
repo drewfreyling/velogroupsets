@@ -4,9 +4,9 @@
   "name": "Exage 400LX",
   "manufacturer_id": "shimano",
   "model_number": "M400",
-  "start_year": 1991,
+  "start_year": 1990,
   "category": "mtb",
-  "generation": "Documented in Shimano’s 1991 manufacturer dealer manual, earlier than the 1992 reference previously reviewed. The start year records the first reviewed dated availability reference, not a claimed launch year.",
+  "generation": "Documented in Shimano’s 1990 manufacturer dealer manual, earlier than the 1991/1992 references previously reviewed. The start year records the first reviewed dated availability reference, not a claimed launch year.",
   "sources": [
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
@@ -16,6 +16,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=72",
       "title": "Shimano 1991 dealer product manual, PDF page 72 / printed 69: Exage 400LX named range: ST-M050 explicitly 305 g four-finger pair, SL-M453 184 g per pair, BL-M350-B 294 g per pair, FC-M400 170 mm 48/38/28T 763 g and BR-M351",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1990_Dealer_Product_Manual.pdf#page=56",
+      "title": "Shimano 1990 dealer product manual, PDF page 56 / printed 53: Exage 400LX: RD-M400-GS explicitly 318 g; FD-M400 132 g normal band with sole 28.0–28.6 mm band; BB-M500 and shared 500LX cassette inventory",
       "retrieved_on": "2026-11-24"
     }
   ]
