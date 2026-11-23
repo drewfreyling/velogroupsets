@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fd-m785-e2",
+  "slug": "fd-m785-e2",
+  "name": "Deore XT direct-mount double front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m780"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M785-E2",
+  "weight_g": 127,
+  "weight_description": "Manufacturer-listed 127 g for the exact FD-M785-E2 direct-mount double-front assembly. The manufacturer explicitly identifies this model as direct mount; no band size is selected and the neighbouring clamp-model weight is not substituted.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=26",
+    "title": "Shimano 2015 TSS manual, PDF/printed page 26: XT SL-M780-B-I I-spec complete pair 220 g; manufacturer explicitly calls FD-M785-E2 and FD-M786-D direct mount and assigns 127 g / 146 g respectively",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=26",
+      "title": "Shimano 2015 TSS manual, PDF/printed page 26: XT SL-M780-B-I I-spec complete pair 220 g; manufacturer explicitly calls FD-M785-E2 and FD-M786-D direct mount and assigns 127 g / 146 g respectively",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "mount": "Direct mount",
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "swing_type": "Top swing"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-sl-m780-b-i",
+  "slug": "sl-m780-b-i",
+  "name": "Deore XT I-spec shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m780"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M780-B-I",
+  "weight_g": 220,
+  "weight_description": "Manufacturer-listed 220 g for the complete left/right SL-M780-B-I I-spec control pair. The table explicitly states pair; band-mounted model weights are not transferred and no side is doubled.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=26",
+    "title": "Shimano 2015 TSS manual, PDF/printed page 26: XT SL-M780-B-I I-spec complete pair 220 g; manufacturer explicitly calls FD-M785-E2 and FD-M786-D direct mount and assigns 127 g / 146 g respectively",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=26",
+      "title": "Shimano 2015 TSS manual, PDF/printed page 26: XT SL-M780-B-I I-spec complete pair 220 g; manufacturer explicitly calls FD-M785-E2 and FD-M786-D direct mount and assigns 127 g / 146 g respectively",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 10,
+    "available_front_speeds": [
+      2,
+      3
+    ],
+    "mounting_system": "I-spec"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "shimano-rd-m675-gs",
+  "slug": "rd-m675-gs",
+  "name": "SLX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m670"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M675-GS",
+  "weight_g": 306,
+  "weight_description": "Manufacturer-listed 306 g for the exact RD-M675-GS 10-speed GS reference. Unprinted sprocket and front-difference limits are not inferred from another cage, model or compatible cassette.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=36",
+    "title": "Shimano 2015 TSS manual, PDF/printed page 36: SLX RD-M675 GS 306 g / SGS 313 g with 35T / 43T capacities; CS-HG81-10 ten-speed 11–32T explicitly 317 g",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=36",
+      "title": "Shimano 2015 TSS manual, PDF/printed page 36: SLX RD-M675 GS 306 g / SGS 313 g with 35T / 43T capacities; CS-HG81-10 ten-speed 11–32T explicitly 317 g",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 10,
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": null,
+    "minimum_sprocket_teeth": null,
+    "maximum_front_difference_teeth": null
+  }
+}

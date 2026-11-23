@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-hg81-10-11-32",
+  "slug": "cs-hg81-10-11-32",
+  "name": "SLX 10-speed 11–32T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m670"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG81-10",
+  "weight_g": 317,
+  "weight_description": "Manufacturer-listed 317 g for the exact CS-HG81-10 10-speed 11–32T cassette reference. Other listed gearing options are not assigned this mass; lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=36",
+    "title": "Shimano 2015 TSS manual, PDF/printed page 36: SLX RD-M675 GS 306 g / SGS 313 g with 35T / 43T capacities; CS-HG81-10 ten-speed 11–32T explicitly 317 g",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=36",
+      "title": "Shimano 2015 TSS manual, PDF/printed page 36: SLX RD-M675 GS 306 g / SGS 313 g with 35T / 43T capacities; CS-HG81-10 ten-speed 11–32T explicitly 317 g",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–32T"
+  }
+}

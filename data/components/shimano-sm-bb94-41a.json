@@ -1,0 +1,29 @@
+{
+  "id": "shimano-sm-bb94-41a",
+  "slug": "sm-bb94-41a",
+  "name": "XTR press-fit bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-BB94-41A",
+  "weight_g": 58,
+  "weight_description": "Manufacturer-listed 58 g for the exact SM-BB94-41A HOLLOWTECH II bottom-bracket assembly. Threaded and press-fit model identities remain separate; the weighed shell configuration is not further specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=17",
+    "title": "Shimano 2015 TSS manual, PDF/printed page 17: XTR SM-BB93 threaded bottom bracket 73 g and SM-BB94-41A press-fit assembly 58 g, separately identified from the cranks",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=17",
+      "title": "Shimano 2015 TSS manual, PDF/printed page 17: XTR SM-BB93 threaded bottom bracket 73 g and SM-BB94-41A press-fit assembly 58 g, separately identified from the cranks",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II",
+    "bottom_bracket_type": "Press fit"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shimano-sl-m670-b-i",
+  "slug": "sl-m670-b-i",
+  "name": "SLX I-spec shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m670"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M670-B-I",
+  "weight_g": 237,
+  "weight_description": "Manufacturer-listed 237 g for the complete left/right SL-M670-B-I I-spec control pair. The table explicitly states pair; band-mounted model weights are not transferred and no side is doubled.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=34",
+    "title": "Shimano 2015 TSS manual, PDF/printed page 34: SLX SL-M670-B-I I-spec complete pair explicitly 237 g, separately from the band-mounted SL-M670 pair",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=34",
+      "title": "Shimano 2015 TSS manual, PDF/printed page 34: SLX SL-M670-B-I I-spec complete pair explicitly 237 g, separately from the band-mounted SL-M670 pair",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 10,
+    "available_front_speeds": [
+      2,
+      3
+    ],
+    "mounting_system": "I-spec"
+  }
+}

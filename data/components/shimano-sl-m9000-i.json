@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sl-m9000-i",
+  "slug": "sl-m9000-i",
+  "name": "XTR I-spec II shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M9000-I",
+  "weight_g": 205,
+  "weight_description": "Manufacturer-listed 205 g for the complete left/right SL-M9000-I I-spec II control pair. The table explicitly states pair; band-mounted model weights are not transferred and no side is doubled.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=16",
+    "title": "Shimano 2015 TSS manual, PDF/printed page 16: XTR SL-M9000-I I-spec II complete pair explicitly 205 g, separately from the 200 g band-mounted SL-M9000 pair",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=16",
+      "title": "Shimano 2015 TSS manual, PDF/printed page 16: XTR SL-M9000-I I-spec II complete pair explicitly 205 g, separately from the 200 g band-mounted SL-M9000 pair",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 11,
+    "available_front_speeds": [
+      1,
+      2,
+      3
+    ],
+    "mounting_system": "I-spec II"
+  }
+}

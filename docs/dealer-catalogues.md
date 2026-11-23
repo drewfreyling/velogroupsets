@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [2015 TSS MTB review](shimano-2015-tss.md) adds **18 components with 18 qualified weights**: eight cage-specific rears, three I-spec control pairs, three cassette configurations, two XTR bottom brackets and two explicitly direct-mount XT fronts.
+
 The [2016 USA road/Tiagra review](shimano-2016-catalogue.md) adds **ten components and three sourced weights**, expands Tiagra 4700 to 17 components and records the explicit double/triple RD-4700-GS capacity split.
 
 The [1990 Exage LX follow-up](shimano-1990-exage-lx.md) adds **four component references and five sourced weights**, including actual normal-band configurations and the long-cage RD-M400-GS, and moves three availability references to 1990.

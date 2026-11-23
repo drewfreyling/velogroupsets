@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-m771-10-11-32",
+  "slug": "cs-m771-10-11-32",
+  "name": "Deore XT 10-speed 11–32T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m780"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M771-10",
+  "weight_g": 294,
+  "weight_description": "Manufacturer-listed 294 g for the exact CS-M771-10 10-speed 11–32T cassette reference. Other listed gearing options are not assigned this mass; lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=28",
+    "title": "Shimano 2015 TSS manual, PDF/printed page 28: XT RD-M781 GS 234 g / SGS 238 g and RD-M786 GS 262 g / SGS 266 g; 35T / 43T capacities; CS-M771-10 ten-speed 11–32T explicitly 294 g",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=28",
+      "title": "Shimano 2015 TSS manual, PDF/printed page 28: XT RD-M781 GS 234 g / SGS 238 g and RD-M786 GS 262 g / SGS 266 g; 35T / 43T capacities; CS-M771-10 ten-speed 11–32T explicitly 294 g",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–32T"
+  }
+}

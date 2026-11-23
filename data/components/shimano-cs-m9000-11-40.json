@@ -1,0 +1,42 @@
+{
+  "id": "shimano-cs-m9000-11-40",
+  "slug": "cs-m9000-11-40",
+  "name": "XTR 11-speed 11–40T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M9000",
+  "weight_g": 331,
+  "weight_description": "Manufacturer-listed 331 g for the exact CS-M9000 11-speed 11–40T cassette reference. Other listed gearing options are not assigned this mass; lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=18",
+    "title": "Shimano 2015 TSS manual, PDF/printed page 18: XTR RD-M9000-GS explicitly 221 g; CS-M9000 eleven-speed 11/13/15/17/19/21/24/27/31/35/40T cassette explicitly 331 g",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=18",
+      "title": "Shimano 2015 TSS manual, PDF/printed page 18: XTR RD-M9000-GS explicitly 221 g; CS-M9000 eleven-speed 11/13/15/17/19/21/24/27/31/35/40T cassette explicitly 331 g",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–40T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      24,
+      27,
+      31,
+      35,
+      40
+    ]
+  }
+}
