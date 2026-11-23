@@ -1,0 +1,39 @@
+{
+  "id": "shimano-br-mc12",
+  "slug": "br-mc12",
+  "name": "Alivio cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc12"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-MC12",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete front/rear cantilever brake pair including pads and mounting bolts; no qualifying pair mass is published.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=49",
+    "title": "Shimano 1995 STI technical manual, PDF page 49 / printed 6-11: named Alivio/Acera-X brake table: BR-MC12 / BR-M290 cantilevers and ST-MC12/ST-MC15/ST-M290/ST-M295 combined controls",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=49",
+      "title": "Shimano 1995 STI technical manual, PDF page 49 / printed 6-11: named Alivio/Acera-X brake table: BR-MC12 / BR-M290 cantilevers and ST-MC12/ST-MC15/ST-M290/ST-M295 combined controls",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 dealer sales/support manual, PDF page 32 / printed 32: Alivio exact ST-MC12/ST-MC15 3x7 pairs, BR-MC12, FH/HB-MC12, CS-IG50 ag, BB-LP25 and derailleur limits",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever",
+    "available_arm_sizes": [
+      "M",
+      "L"
+    ],
+    "link_type": "Unit link (alignment type)"
+  }
+}

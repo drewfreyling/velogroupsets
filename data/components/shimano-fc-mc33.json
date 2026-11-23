@@ -1,0 +1,43 @@
+{
+  "id": "shimano-fc-mc33",
+  "slug": "fc-mc33",
+  "name": "STX RC triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-stx-rc"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MC33",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: selected 170 mm, 42/32/22T crankset excluding the separately listed bottom bracket. The service table supplies configuration but no mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=39",
+    "title": "Shimano 1995 STI technical manual, PDF page 39 / printed 6-1: named STX RC / STX / Alivio front-drive table, exact control/crank models, chainrings, arm lengths, bands and separate bottom brackets",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=39",
+      "title": "Shimano 1995 STI technical manual, PDF page 39 / printed 6-1: named STX RC / STX / Alivio front-drive table, exact control/crank models, chainrings, arm lengths, bands and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      42,
+      32,
+      22
+    ],
+    "front_speeds": 3,
+    "bolt_circle_diameters_mm": [
+      94,
+      58
+    ],
+    "includes_bottom_bracket": false
+  }
+}

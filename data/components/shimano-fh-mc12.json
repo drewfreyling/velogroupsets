@@ -1,10 +1,11 @@
 {
   "id": "shimano-fh-mc12",
   "slug": "fh-mc12",
-  "name": "Alivio MC16 7-speed rear hub",
+  "name": "Alivio 7-speed rear hub",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-alivio-mc16"
+    "shimano-alivio-mc16",
+    "shimano-alivio-mc12"
   ],
   "type": "rear-hub",
   "model_number": "FH-MC12",
@@ -19,6 +20,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=122",
       "title": "Shimano 1997 STI technical manual, PDF page 122 / printed page 123: named Alivio FH-MC12 exact seven-speed freehub model and 32/36-hole options",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 dealer sales/support manual, PDF page 32 / printed 32: Alivio exact ST-MC12/ST-MC15 3x7 pairs, BR-MC12, FH/HB-MC12, CS-IG50 ag, BB-LP25 and derailleur limits",
       "retrieved_on": "2026-11-23"
     }
   ],

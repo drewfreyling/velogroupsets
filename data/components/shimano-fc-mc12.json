@@ -20,7 +20,31 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-MC12-1425/EV-FC-MC12-1425A.pdf",
       "title": "Shimano FC-MC12 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=39",
+      "title": "Shimano 1995 STI technical manual, PDF page 39 / printed 6-1: named STX RC / STX / Alivio front-drive table, exact control/crank models, chainrings, arm lengths, bands and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 dealer sales/support manual, PDF page 32 / printed 32: Alivio exact ST-MC12/ST-MC15 3x7 pairs, BR-MC12, FH/HB-MC12, CS-IG50 ag, BB-LP25 and derailleur limits",
+      "retrieved_on": "2026-11-23"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      42,
+      34,
+      24
+    ],
+    "front_speeds": 3,
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 67
+  }
 }

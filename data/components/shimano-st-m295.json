@@ -1,0 +1,47 @@
+{
+  "id": "shimano-st-m295",
+  "slug": "st-m295",
+  "name": "Acera-X 3×7 combined shift/brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-acera-x"
+  ],
+  "type": "shifters",
+  "model_number": "ST-M295",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right 3×7 combined shift/brake pair; the reviewed tables do not publish a pair mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=42",
+    "title": "Shimano 1995 STI technical manual, PDF page 42 / printed 6-4: named Acera-X front-drive table: ST-M290/ST-M295, FD-M290 clamp options and FC-M290 42/34/24T, 170/175 mm",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=42",
+      "title": "Shimano 1995 STI technical manual, PDF page 42 / printed 6-4: named Acera-X front-drive table: ST-M290/ST-M295, FD-M290 clamp options and FC-M290 42/34/24T, 170/175 mm",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=47",
+      "title": "Shimano 1995 STI technical manual, PDF page 47 / printed 6-9: Acera-X rear drive: RD-M290 GS seven-speed limits, FH-M290 32/36 holes and CS-HG40 ac 11/13/15/18/21/24/28T",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=49",
+      "title": "Shimano 1995 STI technical manual, PDF page 49 / printed 6-11: named Alivio/Acera-X brake table: BR-MC12 / BR-M290 cantilevers and ST-MC12/ST-MC15/ST-M290/ST-M295 combined controls",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+      "title": "Shimano 1995 dealer sales/support manual, PDF page 33 / printed 33: Acera-X ST-M290/ST-M295 3x7 pairs, FD-M290 limits, HB-M290 36-hole front hub and BB-LP25; this dealer table lists CS-HG50-C separately from STI CS-HG40",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "lever_length_fingers": 3,
+    "clamp_diameter_mm": 22.2
+  }
+}

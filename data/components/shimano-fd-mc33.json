@@ -20,6 +20,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1997_Shimano_Dealer_Sales_Support_Manual.pdf#page=30",
       "title": "Shimano 1997 dealer sales/support manual, PDF/printed page 30: FD-MC33 exact mounting model, STX-RC membership and chainring limits",
       "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=39",
+      "title": "Shimano 1995 STI technical manual, PDF page 39 / printed 6-1: named STX RC / STX / Alivio front-drive table, exact control/crank models, chainrings, arm lengths, bands and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
@@ -28,6 +33,19 @@
     "total_capacity_teeth": 22,
     "maximum_chainring_teeth": 42,
     "minimum_top_middle_difference_teeth": 10,
-    "mount": "Clamp"
+    "mount": "Clamp",
+    "available_clamp_diameters_mm": [
+      28.6,
+      31.8,
+      34.9
+    ],
+    "small_band_range_mm": [
+      28.0,
+      28.6
+    ],
+    "available_chainlines_mm": [
+      47.5,
+      50
+    ]
   }
 }

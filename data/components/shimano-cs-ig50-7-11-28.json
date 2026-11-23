@@ -1,10 +1,11 @@
 {
   "id": "shimano-cs-ig50-7-11-28",
   "slug": "cs-ig50-7-11-28",
-  "name": "Alivio 7-speed 11–28T IG cassette",
+  "name": "Alivio 7-speed 11–28T cassette",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-alivio-mc16"
+    "shimano-alivio-mc16",
+    "shimano-alivio-mc12"
   ],
   "type": "cassette",
   "model_number": "CS-IG50",
@@ -19,6 +20,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1997_Shimano_STI.pdf#page=122",
       "title": "Shimano 1997 STI technical manual, PDF page 122 / printed page 123: Alivio CS-IG50 seven-speed ag cassette: exact 11–28T range and tooth sequence",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 dealer sales/support manual, PDF page 32 / printed 32: Alivio exact ST-MC12/ST-MC15 3x7 pairs, BR-MC12, FH/HB-MC12, CS-IG50 ag, BB-LP25 and derailleur limits",
       "retrieved_on": "2026-11-23"
     }
   ],

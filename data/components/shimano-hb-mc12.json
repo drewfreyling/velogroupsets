@@ -1,0 +1,33 @@
+{
+  "id": "shimano-hb-mc12",
+  "slug": "hb-mc12",
+  "name": "Alivio front hub",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-mc12"
+  ],
+  "type": "front-hub",
+  "model_number": "HB-MC12",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: a weight explicitly excluding the quick-release skewer is not established for this exact hub.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+    "title": "Shimano 1995 dealer sales/support manual, PDF page 32 / printed 32: Alivio exact ST-MC12/ST-MC15 3x7 pairs, BR-MC12, FH/HB-MC12, CS-IG50 ag, BB-LP25 and derailleur limits",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 dealer sales/support manual, PDF page 32 / printed 32: Alivio exact ST-MC12/ST-MC15 3x7 pairs, BR-MC12, FH/HB-MC12, CS-IG50 ag, BB-LP25 and derailleur limits",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "available_spoke_holes": [
+      32,
+      36
+    ],
+    "over_locknut_dimension_mm": 100
+  },
+  "weight_excludes_skewers": true
+}

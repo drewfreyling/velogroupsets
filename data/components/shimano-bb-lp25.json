@@ -1,10 +1,12 @@
 {
   "id": "shimano-bb-lp25",
   "slug": "bb-lp25",
-  "name": "RSX square-taper cartridge bottom bracket",
+  "name": "Square-taper bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-rsx"
+    "shimano-rsx",
+    "shimano-alivio-mc12",
+    "shimano-acera-x"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-LP25",
@@ -20,6 +22,26 @@
       "url": "https://si.shimano.com/en/pdfs/si/1DA0A/SI-1DA0A-000-00-ENG.pdf",
       "title": "Shimano FC-A410 service instructions SI-1DA0A",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=39",
+      "title": "Shimano 1995 STI technical manual, PDF page 39 / printed 6-1: named STX RC / STX / Alivio front-drive table, exact control/crank models, chainrings, arm lengths, bands and separate bottom brackets",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1995_Shimano_STI_ENG-Spanish_Manual.pdf#page=42",
+      "title": "Shimano 1995 STI technical manual, PDF page 42 / printed 6-4: named Acera-X front-drive table: ST-M290/ST-M295, FD-M290 clamp options and FC-M290 42/34/24T, 170/175 mm",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=32",
+      "title": "Shimano 1995 dealer sales/support manual, PDF page 32 / printed 32: Alivio exact ST-MC12/ST-MC15 3x7 pairs, BR-MC12, FH/HB-MC12, CS-IG50 ag, BB-LP25 and derailleur limits",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1995_Shimano_Dealer_Sales_Support_Manual.pdf#page=33",
+      "title": "Shimano 1995 dealer sales/support manual, PDF page 33 / printed 33: Acera-X ST-M290/ST-M295 3x7 pairs, FD-M290 limits, HB-M290 36-hole front hub and BB-LP25; this dealer table lists CS-HG50-C separately from STI CS-HG40",
+      "retrieved_on": "2026-11-23"
     }
   ],
   "specifications": {
