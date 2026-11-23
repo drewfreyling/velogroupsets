@@ -1,0 +1,30 @@
+{
+  "id": "shimano-br-m501",
+  "slug": "br-m501",
+  "name": "Exage LX cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500lx-m500"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-M501",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete front/rear brake pair including pads and mounting bolts. The table does not establish all required inclusions for a compliant pair weight.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
+    "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
+      "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever",
+    "arm_size": "M"
+  }
+}

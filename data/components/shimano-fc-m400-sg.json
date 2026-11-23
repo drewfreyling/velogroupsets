@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-m400-sg",
+  "slug": "fc-m400-sg",
+  "name": "Exage 400LX triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400lx-m400"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M400-SG",
+  "weight_g": 763,
+  "weight_description": "Manufacturer-listed 763 g for FC-M400-SG with 170 mm arms and 48/38/28T rings, excluding the separately listed 339 g BB-M550 bottom-bracket assembly. The model table identifies the Biopace SG configuration.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
+    "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
+      "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      48,
+      38,
+      28
+    ],
+    "front_speeds": 3,
+    "includes_bottom_bracket": false,
+    "chainring_profile": "Biopace SG"
+  }
+}

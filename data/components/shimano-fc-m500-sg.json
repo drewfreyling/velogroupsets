@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fc-m500-sg",
+  "slug": "fc-m500-sg",
+  "name": "Exage 500LX triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500lx-m500"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M500-SG",
+  "weight_g": 756,
+  "weight_description": "Manufacturer-listed 756 g for FC-M500-SG with 170 mm arms and 48/38/28T rings, excluding the separately listed 339 g BB-M550 bottom-bracket assembly. The table does not identify which ring profile was weighed.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
+    "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
+      "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      48,
+      38,
+      28
+    ],
+    "front_speeds": 3,
+    "includes_bottom_bracket": false
+  }
+}

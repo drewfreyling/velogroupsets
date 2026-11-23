@@ -1,0 +1,37 @@
+{
+  "id": "shimano-rd-m400-gs",
+  "slug": "rd-m400-gs",
+  "name": "Exage 400LX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400lx-m400"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M400-GS",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the dealer-table mass explicitly belongs to SGS and is not copied to this distinct cage reference.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
+    "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
+      "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "available_rear_speeds": [
+      6,
+      7
+    ],
+    "rear_speeds": 7,
+    "total_capacity_teeth": 36,
+    "maximum_sprocket_teeth": 30,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 20
+  }
+}

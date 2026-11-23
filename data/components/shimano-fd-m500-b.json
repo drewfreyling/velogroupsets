@@ -1,0 +1,41 @@
+{
+  "id": "shimano-fd-m500-b",
+  "slug": "fd-m500-b",
+  "name": "Exage 500LX clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500lx-m500"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M500-B",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the listed band-type figure does not identify its actual weighed band, and EC-type weights are not inferred. Available bands are not a weighed configuration.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
+    "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
+      "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_type": "Band type",
+    "front_speeds": 3,
+    "available_clamp_diameters_mm": [
+      28.6,
+      30,
+      31.8
+    ],
+    "small_band_range_mm": [
+      28,
+      28.6
+    ],
+    "capacity_biopace_teeth": 24,
+    "capacity_round_chainrings_teeth": 26
+  }
+}

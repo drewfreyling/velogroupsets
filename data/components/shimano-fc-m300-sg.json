@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-m300-sg",
+  "slug": "fc-m300-sg",
+  "name": "Exage 300LX triple crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300lx-m300"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M300-SG",
+  "weight_g": 756,
+  "weight_description": "Manufacturer-listed 756 g for FC-M300-SG with 170 mm arms and 48/38/28T rings, excluding the separately listed 339 g BB-M550 bottom-bracket assembly. The model table identifies the Biopace SG configuration.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
+    "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
+      "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "available_crank_lengths_mm": [
+      170,
+      175
+    ],
+    "chainrings_teeth": [
+      48,
+      38,
+      28
+    ],
+    "front_speeds": 3,
+    "includes_bottom_bracket": false,
+    "chainring_profile": "Biopace SG"
+  }
+}

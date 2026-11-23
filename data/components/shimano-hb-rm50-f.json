@@ -7,7 +7,10 @@
     "shimano-exage-500ex",
     "shimano-exage-400ex",
     "shimano-exage-300ex",
-    "shimano-exage-es-m520"
+    "shimano-exage-es-m520",
+    "shimano-exage-500lx-m500",
+    "shimano-exage-400lx-m400",
+    "shimano-exage-300lx-m300"
   ],
   "type": "front-hub",
   "model_number": "HB-RM50-F",
@@ -46,6 +49,21 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=31",
       "title": "Shimano 1993 dealer product manual, PDF page 31 / printed 31: Exage ES exact inventory: RD-M520-SGS 301 g, GS/SGS limits including 20T front difference, ST-M520 complete 3x7 controls 395 g, FC-M520 170 mm 46/36/26T 706 g, CS-HG70-7 E 12–28T 309 g",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
+      "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
+      "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
+      "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
+      "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
       "retrieved_on": "2026-11-23"
     }
   ]

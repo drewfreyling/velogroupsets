@@ -1,0 +1,29 @@
+{
+  "id": "shimano-pd-m450",
+  "slug": "pd-m450",
+  "name": "Exage 500LX platform pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-500lx-m500"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M450",
+  "weight_g": 518,
+  "weight_description": "Manufacturer-listed 518 g for the complete left/right PD-M450 MTB platform pedal pair with two-screw toe-clip mounts. Toe-clip and reflector inclusion is not specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
+    "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=33",
+      "title": "Shimano 1992 dealer product manual, PDF page 33 / printed 30: Exage 500LX exact inventory: RD-M500-SGS 329 g and separate GS limits; FD-M500-B/FD-M500 band options; FC-M500-SG 170 mm 48/38/28T 756 g, separate BB-M550 339 g and PD-M450 518 g per pair",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_thread": "BC 9/16 × 20 TPI"
+  }
+}

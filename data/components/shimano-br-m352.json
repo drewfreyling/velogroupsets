@@ -1,0 +1,30 @@
+{
+  "id": "shimano-br-m352",
+  "slug": "br-m352",
+  "name": "Exage 400LX short-frame rear cantilever brake",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400lx-m400"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-M352",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: explicitly rear-only short-frame brake, including pads and mounting bolts when a compliant figure is available; no front assembly or pair mass is invented.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
+    "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
+      "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Rear",
+    "brake_type": "Cantilever",
+    "application": "Short frame; rear only"
+  }
+}

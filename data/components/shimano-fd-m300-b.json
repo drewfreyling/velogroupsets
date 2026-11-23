@@ -1,0 +1,41 @@
+{
+  "id": "shimano-fd-m300-b",
+  "slug": "fd-m300-b",
+  "name": "Exage 300LX clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300lx-m300"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M300-B",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the listed band-type figure does not identify its actual weighed band, and EC-type weights are not inferred. Available bands are not a weighed configuration.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
+    "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
+      "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_type": "Band type",
+    "front_speeds": 3,
+    "available_clamp_diameters_mm": [
+      28.6,
+      30,
+      31.8
+    ],
+    "small_band_range_mm": [
+      28,
+      28.6
+    ],
+    "capacity_biopace_teeth": 24,
+    "capacity_round_chainrings_teeth": 26
+  }
+}

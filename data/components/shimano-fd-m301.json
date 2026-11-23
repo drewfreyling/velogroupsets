@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-m301",
+  "slug": "fd-m301",
+  "name": "Exage 300LX top-pull front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300lx-m300"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M301",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: separately identified pull-top FD-M301. The FD-M300-B band-type figure and available bands are not assigned to this top-pull model.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
+    "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
+      "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "cable_route": "Top pull",
+    "front_speeds": 3
+  }
+}

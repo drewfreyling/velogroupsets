@@ -1,0 +1,37 @@
+{
+  "id": "shimano-rd-m300-sgs",
+  "slug": "rd-m300-sgs",
+  "name": "Exage 300LX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-300lx-m300"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M300-SGS",
+  "weight_g": 319,
+  "weight_description": "Manufacturer-listed 319 g for the exact RD-M300-SGS super-long-cage reference. GS and SS masses are not inferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
+    "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
+      "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "cage": "SGS",
+    "available_rear_speeds": [
+      6,
+      7
+    ],
+    "rear_speeds": 7,
+    "total_capacity_teeth": 38,
+    "maximum_sprocket_teeth": 32,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 20
+  }
+}

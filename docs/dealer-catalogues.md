@@ -1,5 +1,7 @@
 # Catalogue scans and specification handbooks
 
+The [1992 dealer Exage LX review](shimano-1992-dealer.md) adds **three MTB ranges, 26 components and eight sourced weights**, including all seven cage-specific rear derailleurs and separate crank/bottom-bracket references.
+
 The [1993 STI Exage ES/LT review](shimano-1993-sti.md) adds **two MTB ranges, 22 components and seven sourced weights**, including cage-specific rear derailleurs, 170 mm cranks and complete control pairs.
 
 The [1994 STI early-MTB review](shimano-1994-sti.md) adds **24 components and six sourced weights**, enriches nine existing records and separates the Altus CT50 triple/single-chainring sprocket limits.

@@ -1,0 +1,41 @@
+{
+  "id": "shimano-fd-m400-b",
+  "slug": "fd-m400-b",
+  "name": "Exage 400LX clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-exage-400lx-m400"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M400-B",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: the listed band-type figure does not identify its actual weighed band, and EC-type weights are not inferred. Available bands are not a weighed configuration.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
+    "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
+    "retrieved_on": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=34",
+      "title": "Shimano 1992 dealer product manual, PDF page 34 / printed 31: Exage 400LX exact inventory: RD-M400-SGS 330 g, separate GS/SS limits, FD-M400-B/FD-M400, FC-M400-SG 170 mm 48/38/28T 763 g, BR-M201 and rear-only BR-M352",
+      "retrieved_on": "2026-11-23"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_type": "Band type",
+    "front_speeds": 3,
+    "available_clamp_diameters_mm": [
+      28.6,
+      30,
+      31.8
+    ],
+    "small_band_range_mm": [
+      28,
+      28.6
+    ],
+    "capacity_biopace_teeth": 24,
+    "capacity_round_chainrings_teeth": 26
+  }
+}
