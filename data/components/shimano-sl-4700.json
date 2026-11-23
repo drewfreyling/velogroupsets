@@ -1,0 +1,31 @@
+{
+  "id": "shimano-sl-4700",
+  "slug": "sl-4700",
+  "name": "Tiagra 2×10 rapidfire plus control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4700"
+  ],
+  "type": "shifters",
+  "model_number": "SL-4700",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete left/right 2×10 manufacturer control-set reference labelled SL-4700. No pair mass or separately named side weights are supplied; no side is doubled.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=160",
+    "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 160: Tiagra exact 2x10/3x10 controls, FD-4700 16T / FD-4703 20T capacities, FC-4700 double / FC-4703 50/39/30T triple and separate BB-RS500-PB press-fit option",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=160",
+      "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 160: Tiagra exact 2x10/3x10 controls, FD-4700 16T / FD-4703 20T capacities, FC-4700 double / FC-4703 50/39/30T triple and separate BB-RS500-PB press-fit option",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "control_type": "RAPIDFIRE Plus"
+  }
+}

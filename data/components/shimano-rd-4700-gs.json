@@ -25,15 +25,22 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=158",
       "title": "Shimano 2025 specification handbook, PDF page 158: RD-4700-GS cage-specific capacity, largest/lowest and smallest/top sprocket limits; front difference",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=161",
+      "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 161: Tiagra RD-4700 SS 33T / GS 39T double / GS 41T triple capacity, ten-speed cassette options and standalone BL-4700 brake levers",
+      "retrieved_on": "2026-11-24"
     }
   ],
   "specifications": {
     "rear_speeds": 10,
-    "total_capacity_teeth": 41,
+    "total_capacity_teeth": 39,
     "maximum_sprocket_teeth": 34,
     "minimum_sprocket_teeth": 11,
     "maximum_front_difference_teeth": 16,
     "cage": "GS",
-    "reference_configuration": "Front double reference; the handbook separately gives 32T largest sprocket and 20T front difference for a triple."
+    "reference_configuration": "Selected 2016 catalogue double reference: 39T total capacity; the separately printed triple reference is 41T. Existing handbook limits of 34T largest, 11T smallest and 16T front difference remain the double reference.",
+    "total_capacity_triple_teeth": 41,
+    "capacity_reference_note": "The 2016 catalogue explicitly distinguishes 39T for 2× and 41T for 3×. The later handbook lists a generic 41T maximum without that split; it is not applied indiscriminately to this selected double reference."
   }
 }

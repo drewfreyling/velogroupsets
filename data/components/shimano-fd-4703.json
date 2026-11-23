@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-4703",
+  "slug": "fd-4703",
+  "name": "Tiagra triple front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4700"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-4703",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: exact FD-4703 triple family reference with 20T capacity. The reviewed page does not identify an actual weighed mounting configuration or mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=160",
+    "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 160: Tiagra exact 2x10/3x10 controls, FD-4700 16T / FD-4703 20T capacities, FC-4700 double / FC-4703 50/39/30T triple and separate BB-RS500-PB press-fit option",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=160",
+      "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 160: Tiagra exact 2x10/3x10 controls, FD-4700 16T / FD-4703 20T capacities, FC-4700 double / FC-4703 50/39/30T triple and separate BB-RS500-PB press-fit option",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 10,
+    "total_capacity_teeth": 20
+  }
+}

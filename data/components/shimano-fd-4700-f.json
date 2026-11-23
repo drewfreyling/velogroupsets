@@ -20,10 +20,17 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=87",
       "title": "Shimano 2017-2018 line-up chart, PDF page 87: Tiagra 4700 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=160",
+      "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 160: Tiagra exact 2x10/3x10 controls, FD-4700 16T / FD-4703 20T capacities, FC-4700 double / FC-4703 50/39/30T triple and separate BB-RS500-PB press-fit option",
+      "retrieved_on": "2026-11-24"
     }
   ],
   "specifications": {
     "rear_speeds": 10,
-    "mount": "Braze-on"
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "total_capacity_teeth": 16
   }
 }

@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-5800-11-28",
+  "slug": "cs-5800-11-28",
+  "name": "105 11-speed 11–28T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5800"
+  ],
+  "type": "cassette",
+  "model_number": "CS-5800",
+  "weight_g": 284,
+  "weight_description": "Manufacturer-listed 284 g for the eleven-speed CS-5800 11–28T cassette. The existing 12–25T reference keeps its own mass; lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=156",
+    "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 156: CS-5800 eleven-speed 11–28T cassette explicitly 284 g, separately from 11–32T and 12–25T options",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=156",
+      "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 156: CS-5800 eleven-speed 11–28T cassette explicitly 284 g, separately from 11–32T and 12–25T options",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–28T"
+  }
+}

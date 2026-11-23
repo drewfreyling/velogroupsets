@@ -1,0 +1,29 @@
+{
+  "id": "shimano-sm-bb92-41b",
+  "slug": "sm-bb92-41b",
+  "name": "Dura-Ace press-fit bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-9000"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-BB92-41B",
+  "weight_g": 54,
+  "weight_description": "Manufacturer-listed 54 g for the exact SM-BB92-41B HOLLOWTECH II press-fit bottom-bracket assembly, separately identified from SM-BB9000 threaded cups. The weighed shell configuration is not further specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=139",
+    "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 139: Dura-Ace SM-BB92-41B press-fit bottom bracket explicitly 54 g; FC-9000 figures include a bottom bracket",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=139",
+      "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 139: Dura-Ace SM-BB92-41B press-fit bottom bracket explicitly 54 g; FC-9000 figures include a bottom bracket",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II",
+    "bottom_bracket_type": "Press fit"
+  }
+}

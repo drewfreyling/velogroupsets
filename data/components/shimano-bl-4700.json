@@ -1,0 +1,34 @@
+{
+  "id": "shimano-bl-4700",
+  "slug": "bl-4700",
+  "name": "Tiagra flat-bar brake lever pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4700"
+  ],
+  "type": "brake-levers",
+  "model_number": "BL-4700",
+  "weight_g": null,
+  "weight_description": "Not yet sourced: complete BL-4700 left/right flat-bar brake lever pair. The manufacturer lists compatible brake types but no pair mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=161",
+    "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 161: Tiagra RD-4700 SS 33T / GS 39T double / GS 41T triple capacity, ten-speed cassette options and standalone BL-4700 brake levers",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=161",
+      "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 161: Tiagra RD-4700 SS 33T / GS 39T double / GS 41T triple capacity, ten-speed cassette options and standalone BL-4700 brake levers",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "compatible_brake_types": [
+      "V-brake",
+      "Mechanical disc",
+      "Caliper",
+      "Cantilever"
+    ]
+  }
+}

@@ -13,7 +13,7 @@ The 31 trade manuals below span 1990–2021, with no 1999 edition linked in this
 | 2019 | [2019 TRADE SALES SUPPORT MANUAL](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf) | Indexed; not yet reviewed in this pass |
 | 2018 | [2018 TSS MANUAL EN](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf) | Selected native model/weight tables checked; see the component weight review |
 | 2017 | [2017 TRADE SALES SUPPORT MANUAL](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf) | Selected crank, BB and cassette tables; FC-5700 reference on p. 345 |
-| 2016 | [2016 Bicycle Components usa](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf) | Indexed; not yet reviewed in this pass |
+| 2016 | [2016 Bicycle Components usa](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf) | [Road/Tiagra inventory, three weights and conditional GS capacity review](shimano-2016-catalogue.md) |
 | 2015 | [2015 TSS MANUAL](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf) | Indexed; not yet reviewed in this pass |
 | 2014 | [2014 Bicycle Components usa](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2014_Bicycle_Components_usa.pdf) | Selected 9000/6800 hub marketing pages; assembly/skewer exclusions unresolved |
 | 2013 | [2013 Trade Sales Support Manual](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2013_Trade_Sales_Support_Manual.pdf) | Indexed; not yet reviewed in this pass |

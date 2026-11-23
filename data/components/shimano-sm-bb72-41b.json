@@ -1,0 +1,35 @@
+{
+  "id": "shimano-sm-bb72-41b",
+  "slug": "sm-bb72-41b",
+  "name": "Ultegra / 105 press-fit bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-6800",
+    "shimano-105-5800"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-BB72-41B",
+  "weight_g": 63,
+  "weight_description": "Manufacturer-listed 63 g for the exact SM-BB72-41B HOLLOWTECH II press-fit bottom-bracket assembly, independently listed in the Ultegra and 105 spreads. Threaded SM-BBR60 and other press-fit models retain separate references.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=147",
+    "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 147: Ultegra FC-6800 / SM-BBR60 / SM-BB72-41B: exact press-fit SM-BB72-41B 63 g, separately identified from threaded cups",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=147",
+      "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 147: Ultegra FC-6800 / SM-BBR60 / SM-BB72-41B: exact press-fit SM-BB72-41B 63 g, separately identified from threaded cups",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=155",
+      "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 155: 105 FC-5800 / SM-BBR60 / SM-BB72-41B: exact press-fit SM-BB72-41B 63 g; crank figure omits arm length",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II",
+    "bottom_bracket_type": "Press fit"
+  }
+}
