@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-m7000-11-11-40",
+  "slug": "cs-m7000-11-11-40",
+  "name": "SLX 11-speed 11–40T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M7000-11",
+  "weight_g": 450,
+  "weight_description": "Manufacturer-listed 450 g for the exact CS-M7000-11 11-speed 11–40T cassette; other available ranges do not inherit this mass. Lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=37",
+    "title": "Shimano 2017 TSS manual, PDF/printed page 37: SLX FC-M7000-11-B1/B2 outboard-chainline cranks; CS-M7000-11 450 g 11–40T / 476 g 11–42T; BB-MT800 / BB-MT800-PA",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=37",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 37: SLX FC-M7000-11-B1/B2 outboard-chainline cranks; CS-M7000-11 450 g 11–40T / 476 g 11–42T; BB-MT800 / BB-MT800-PA",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–40T"
+  }
+}

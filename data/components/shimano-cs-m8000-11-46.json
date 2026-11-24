@@ -1,0 +1,35 @@
+{
+  "id": "shimano-cs-m8000-11-46",
+  "slug": "cs-m8000-11-46",
+  "name": "Deore XT 11-speed 11–46T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000",
+    "shimano-deore-xt-di2-m8050"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M8000",
+  "weight_g": 437,
+  "weight_description": "Manufacturer-listed 437 g for the exact CS-M8000 11-speed 11–46T cassette; other available ranges do not inherit this mass. Lockring inclusion follows the contribution convention. The 11–46T option is listed for a single chainring only.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=29",
+    "title": "Shimano 2017 TSS manual, PDF/printed page 29: XT CS-M8000 eleven-speed cassettes: 411 g 11–40T, 447 g 11–42T and 437 g 11–46T",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=29",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 29: XT CS-M8000 eleven-speed cassettes: 411 g 11–40T, 447 g 11–42T and 437 g 11–46T",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=32",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 32: M8050 series lineup: CS-M8000 cassettes and threaded BB-MT800 / press-fit BB-MT800-PA",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–46T"
+  }
+}

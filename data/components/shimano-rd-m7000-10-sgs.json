@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-m7000-10-sgs",
+  "slug": "rd-m7000-10-sgs",
+  "name": "SLX rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M7000-10-SGS",
+  "weight_g": 313,
+  "weight_description": "Manufacturer-listed 313 g for the exact RD-M7000-10-SGS ten-speed SGS reference; not the eleven-speed GS variant.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=284",
+    "title": "Shimano 2017 TSS manual, PDF/printed page 284: SLX RD-M7000-10-SGS: 313 g, 43T capacity, 36T largest sprocket, 11T smallest sprocket and 22T maximum front difference",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=284",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 284: SLX RD-M7000-10-SGS: 313 g, 43T capacity, 36T largest sprocket, 11T smallest sprocket and 22T maximum front difference",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=39",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 39: SLX RD-M7000-10-SGS ten-speed rear derailleur, 313 g and 43T capacity",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "cage": "SGS",
+    "rear_speeds": 10,
+    "total_capacity_teeth": 43,
+    "maximum_sprocket_teeth": 36,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22
+  }
+}

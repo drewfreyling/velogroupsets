@@ -1,0 +1,41 @@
+{
+  "id": "shimano-sl-m7000-10-b-i",
+  "slug": "sl-m7000-10-b-i",
+  "name": "SLX I-spec B shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M7000-10-B-I",
+  "weight_g": 247,
+  "weight_description": "Calculated pair weight: 120 g (SL-M7000-B-IL) + 127 g (SL-M7000-10-B-IR) = 247 g, using the separately manufacturer-published per-unit weights for the exact I-spec B controls. No side is doubled or borrowed from another mount.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=273",
+    "title": "Shimano 2017 TSS manual, PDF/printed page 273: SLX shifter side codes and per-unit weights: band L 130 g / 10-R and 11-R 135 g; I-spec II IL 115 g / 10-IR and 11-IR 120 g; I-spec B B-IL 120 g / 10-B-IR and 11-B-IR 127 g",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=273",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 273: SLX shifter side codes and per-unit weights: band L 130 g / 10-R and 11-R 135 g; I-spec II IL 115 g / 10-IR and 11-IR 120 g; I-spec B B-IL 120 g / 10-B-IR and 11-B-IR 127 g",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=38",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 38: SLX ten-speed shifter mount variants; FC-M7000-10-3 triple 801.1 g without BB; BB-MT800 82.1 g and BB-MT800-PA 68.2 g",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M7000-B-IL",
+    "right_model": "SL-M7000-10-B-IR",
+    "left_weight_g": 120,
+    "right_weight_g": 127,
+    "rear_speeds": 10,
+    "front_speeds": 3,
+    "mounting_system": "I-spec B"
+  }
+}

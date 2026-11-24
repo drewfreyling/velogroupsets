@@ -1,0 +1,39 @@
+{
+  "id": "shimano-sl-m8000-b-i",
+  "slug": "sl-m8000-b-i",
+  "name": "Deore XT I-spec B shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M8000-B-I",
+  "weight_g": 224,
+  "weight_description": "Manufacturer-listed 224 g for the complete left/right SL-M8000-B-I I-spec B pair, explicitly labelled Pair on the 2017 product page. Band-clamp and other mounting variants remain separate.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=27",
+    "title": "Shimano 2017 TSS manual, PDF/printed page 27: XT SL-M8000-I 230 g and SL-M8000-B-I 224 g, explicitly complete pairs",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=27",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 27: XT SL-M8000-I 230 g and SL-M8000-B-I 224 g, explicitly complete pairs",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=272",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 272: XT shifter side codes and per-unit weights: I-spec II IL 110 g / IR 120 g; I-spec B IL 107 g / IR 117 g",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "rear_speeds": 11,
+    "available_front_speeds": [
+      2,
+      3
+    ],
+    "mounting_system": "I-spec B"
+  }
+}

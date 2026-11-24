@@ -1,0 +1,46 @@
+{
+  "id": "shimano-bb-mt800-pa",
+  "slug": "bb-mt800-pa",
+  "name": "XT / SLX press-fit bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000",
+    "shimano-deore-xt-di2-m8050",
+    "shimano-slx-m7000"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-MT800-PA",
+  "weight_g": 68.2,
+  "weight_description": "Manufacturer-listed 68.2 g for the exact BB-MT800-PA HOLLOWTECH II bottom-bracket assembly. Threaded and press-fit models remain separate; no single weighed shell width is specified.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=302",
+    "title": "Shimano 2017 TSS manual, PDF/printed page 302: HOLLOWTECH II BB-MT800 threaded 82.1 g and BB-MT800-PA press-fit 68.2 g; shell-width compatibility",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=302",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 302: HOLLOWTECH II BB-MT800 threaded 82.1 g and BB-MT800-PA press-fit 68.2 g; shell-width compatibility",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=38",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 38: SLX ten-speed shifter mount variants; FC-M7000-10-3 triple 801.1 g without BB; BB-MT800 82.1 g and BB-MT800-PA 68.2 g",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=28",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 28: XT FC-M8000 product page with separate BB-MT800 and BB-MT800-PA assemblies",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=32",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 32: M8050 series lineup: CS-M8000 cassettes and threaded BB-MT800 / press-fit BB-MT800-PA",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II",
+    "bottom_bracket_type": "Press-fit"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "shimano-fc-m7000-11-b2",
+  "slug": "fc-m7000-11-b2",
+  "name": "SLX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M7000-11-B2",
+  "weight_g": 742.8,
+  "weight_description": "Manufacturer average 742.8 g for the explicitly identified 175 mm FC-M7000-11-B2 reference with 34/24T chainrings, excluding the bottom bracket. Other arm lengths and chainring options do not inherit this mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=297",
+    "title": "Shimano 2017 TSS manual, PDF/printed page 297: SLX FC-M7000 crank variants: average weights explicitly at 175 mm without bottom bracket, with each weighed chainring configuration",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=297",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 297: SLX FC-M7000 crank variants: average weights explicitly at 175 mm without bottom bracket, with each weighed chainring configuration",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=37",
+      "title": "Shimano 2017 TSS manual, PDF/printed page 37: SLX FC-M7000-11-B1/B2 outboard-chainline cranks; CS-M7000-11 450 g 11–40T / 476 g 11–42T; BB-MT800 / BB-MT800-PA",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      34,
+      24
+    ],
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "chain_line_mm": 51.8,
+    "includes_bottom_bracket": false
+  }
+}
