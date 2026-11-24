@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-m6020-d",
+  "slug": "fd-m6020-d",
+  "name": "Deore front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M6020-D",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the exact FD-M6020-D D-type 2x10 assembly. The 2018 product page identifies the mounting variant but supplies no mass; no figure is transferred from another model or band option.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=48",
+    "title": "Shimano 2018 TSS manual, PDF/printed page 48: Deore FD-M6020 and FD-M6025 double-front D/E and band-mount options",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=48",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 48: Deore FD-M6020 and FD-M6025 double-front D/E and band-mount options",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "mounting_type_detail": "D-type"
+  }
+}

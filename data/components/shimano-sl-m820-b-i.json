@@ -1,0 +1,32 @@
+{
+  "id": "shimano-sl-m820-b-i",
+  "slug": "sl-m820-b-i",
+  "name": "Saint I-spec right-hand shifter",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m820"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M820-B-I",
+  "weight_g": 114,
+  "weight_description": "Manufacturer-listed 114 g for the SL-M820-B-I I-spec right-hand ten-speed control, explicitly identified as Right. This is a genuine single control for the Saint 1x10 drivetrain; no fictitious left counterpart or pair total is added.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=54",
+    "title": "Shimano 2018 TSS manual, PDF/printed page 54: Saint SL-M820-B-I I-spec right-hand ten-speed control, explicitly 114 g Right, in the 1x10 product section",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=54",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 54: Saint SL-M820-B-I I-spec right-hand ten-speed control, explicitly 114 g Right, in the 1x10 product section",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 10,
+    "mounting_system": "I-spec"
+  }
+}

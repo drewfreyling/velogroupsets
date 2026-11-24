@@ -1,0 +1,42 @@
+{
+  "id": "shimano-cs-m9001",
+  "slug": "cs-m9001",
+  "name": "XTR 11-speed 11–40T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M9001",
+  "weight_g": 331,
+  "weight_description": "Manufacturer-listed 331 g for the CS-M9001 11-speed 11–40T cassette, with the complete 11/13/15/17/19/21/24/27/31/35/40T sequence explicitly printed. This is a separate model from CS-M9000; lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=17",
+    "title": "Shimano 2018 TSS manual, PDF/printed page 17: XTR CS-M9001 eleven-speed 11/13/15/17/19/21/24/27/31/35/40T cassette, 331 g",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=17",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 17: XTR CS-M9001 eleven-speed 11/13/15/17/19/21/24/27/31/35/40T cassette, 331 g",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–40T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      24,
+      27,
+      31,
+      35,
+      40
+    ]
+  }
+}

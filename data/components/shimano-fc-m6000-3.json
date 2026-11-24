@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-m6000-3",
+  "slug": "fc-m6000-3",
+  "name": "Deore crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M6000-3",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: the 2018 product page identifies this crank and its chainrings, but the specification table leaves the mass blank. A reference must identify weighed arm length, all ring teeth and bottom-bracket exclusion.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=49",
+    "title": "Shimano 2018 TSS manual, PDF/printed page 49: Deore FC-M6000-3 40/30/22T, FC-M6000-B2 36/26T, SM-BB52 and BB-MT500-PA; no weights printed",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=49",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 49: Deore FC-M6000-3 40/30/22T, FC-M6000-B2 36/26T, SM-BB52 and BB-MT500-PA; no weights printed",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=341",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 341: Deore FC-M6000 triple/double/outboard-chainline specification columns; all average-weight entries blank",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 3,
+    "rear_speeds": 10,
+    "chainrings_teeth": [
+      40,
+      30,
+      22
+    ],
+    "includes_bottom_bracket": false
+  }
+}

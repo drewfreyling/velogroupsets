@@ -1,0 +1,30 @@
+{
+  "id": "shimano-st-r8060",
+  "slug": "st-r8060",
+  "name": "Ultegra Di2 TT/Triathlon control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-di2-r8050"
+  ],
+  "type": "shifters",
+  "model_number": "ST-R8060",
+  "weight_g": 138,
+  "weight_description": "Manufacturer-listed 138 g for the complete left/right ST-R8060 TT/Triathlon dual-control lever pair, explicitly labelled g/pair. Unqualified figures for neighbouring ST-R8050 and ST-R8070 controls are not doubled or used for this model.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=162",
+    "title": "Shimano 2018 TSS manual, PDF/printed page 162: Ultegra Di2 ST-R8060 TT/Triathlon dual-control levers, explicitly 138 g/pair",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=162",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 162: Ultegra Di2 ST-R8060 TT/Triathlon dual-control levers, explicitly 138 g/pair",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 2,
+    "rear_speeds": 11
+  }
+}

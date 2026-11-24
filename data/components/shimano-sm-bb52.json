@@ -1,0 +1,34 @@
+{
+  "id": "shimano-sm-bb52",
+  "slug": "sm-bb52",
+  "name": "Deore threaded external cups bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6000"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-BB52",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the exact SM-BB52 HOLLOWTECH II threaded external cups assembly. The 2018 bottom-bracket table identifies the interface and installation type but prints no mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=345",
+    "title": "Shimano 2018 TSS manual, PDF/printed page 345: HOLLOWTECH II SM-BB52 threaded and BB-MT500-PA press-fit assemblies, with no published average weights",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=345",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 345: HOLLOWTECH II SM-BB52 threaded and BB-MT500-PA press-fit assemblies, with no published average weights",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=49",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 49: Deore FC-M6000-3 40/30/22T, FC-M6000-B2 36/26T, SM-BB52 and BB-MT500-PA; no weights printed",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II",
+    "bottom_bracket_type": "Threaded external cups"
+  }
+}

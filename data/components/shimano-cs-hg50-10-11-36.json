@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-hg50-10-11-36",
+  "slug": "cs-hg50-10-11-36",
+  "name": "Deore 10-speed 11–36T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6000"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG50-10",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the exact CS-HG50-10 10-speed 11–36T cassette. The Deore product page identifies this gearing but gives no mass; other HG50 speed counts and gear ranges remain separate.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=50",
+    "title": "Shimano 2018 TSS manual, PDF/printed page 50: Deore ten-speed cassette options: CS-HG500-10 11–32T, 11–34T, 11–42T and CS-HG50-10 11–36T",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=50",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 50: Deore ten-speed cassette options: CS-HG500-10 11–32T, 11–34T, 11–42T and CS-HG50-10 11–36T",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–36T"
+  }
+}

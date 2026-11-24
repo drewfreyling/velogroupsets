@@ -1,0 +1,35 @@
+{
+  "id": "shimano-cs-r9100-11-28",
+  "slug": "cs-r9100-11-28",
+  "name": "Dura-Ace 11-speed 11–28T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-r9100",
+    "shimano-dura-ace-di2-r9150"
+  ],
+  "type": "cassette",
+  "model_number": "CS-R9100",
+  "weight_g": 193,
+  "weight_description": "Manufacturer-listed 193 g for the CS-R9100 11-speed 11–28T cassette. Other gearing options do not inherit this mass; lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=145",
+    "title": "Shimano 2018 TSS manual, PDF/printed page 145: Dura-Ace CS-R9100 eleven-speed cassettes: 193 g 11–28T, 211 g 11–30T, 189 g 12–25T, 205 g 12–28T",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=145",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 145: Dura-Ace CS-R9100 eleven-speed cassettes: 193 g 11–28T, 211 g 11–30T, 189 g 12–25T, 205 g 12–28T",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=150",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 150: R9150 series lineup explicitly includes CS-R9100 cassette options",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–28T"
+  }
+}
