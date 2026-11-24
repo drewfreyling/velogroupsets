@@ -1,0 +1,29 @@
+{
+  "id": "shimano-cs-m980-11-34",
+  "slug": "cs-m980-11-34",
+  "name": "XTR 10-speed 11–34T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m980"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M980",
+  "weight_g": 255,
+  "weight_description": "Manufacturer-listed 255 g for the CS-M980 10-speed 11–34T cassette. The separate available 11–36T option is not assigned this weight; lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2014_Bicycle_Components_usa.pdf#page=20",
+    "title": "Shimano 2014 Bicycle Components USA, PDF/printed page 20: XTR RD-M981 and RD-M986 GS/SGS weights and capacities; CS-M980 ten-speed cassette, 255 g for 11–34T",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2014_Bicycle_Components_usa.pdf#page=20",
+      "title": "Shimano 2014 Bicycle Components USA, PDF/printed page 20: XTR RD-M981 and RD-M986 GS/SGS weights and capacities; CS-M980 ten-speed cassette, 255 g for 11–34T",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–34T"
+  }
+}

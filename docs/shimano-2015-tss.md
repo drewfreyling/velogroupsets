@@ -71,3 +71,5 @@ The selected crank figures do not identify weighed arm lengths and therefore do 
 Clamped front-derailleur weights do not identify an actual weighed band, and modular Di2 front-body/adapter masses are not combined into a presumed mounting configuration. Unreviewed D/E mount descriptions are not silently mapped to a modern mount category.
 
 This is a focused XTR/XT/SLX follow-up, not a complete import of all 268 pages. Deore, Alivio and lower-range inventories, further front-mount variants, disc systems, other years' precise rear limits, and road sections remain further review material. Existing qualified manufacturer references are preserved when another edition gives a different figure.
+
+The [2014 catalogue follow-up](shimano-2014-catalogue.md) subsequently supplies the missing sprocket and front-difference limits for the six XT/SLX records while preserving their selected weights.

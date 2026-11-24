@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-m615-gs",
+  "slug": "rd-m615-gs",
+  "name": "Deore rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m610"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M615-GS",
+  "weight_g": 330,
+  "weight_description": "Manufacturer-listed 330 g for the exact RD-M615-GS 10-speed GS rear derailleur. The 2014 product page and specification table agree on this cage-specific mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2014_Bicycle_Components_usa.pdf#page=197",
+    "title": "Shimano 2014 Bicycle Components USA, PDF/printed page 197: cage-specific SLX and Deore rear derailleur weights, total capacities, low/top sprocket limits and maximum front differences",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2014_Bicycle_Components_usa.pdf#page=51",
+      "title": "Shimano 2014 Bicycle Components USA, PDF/printed page 51: Deore RD-M610 GS 299 g / SGS 308 g and RD-M615 GS 330 g / SGS 339 g",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2014_Bicycle_Components_usa.pdf#page=197",
+      "title": "Shimano 2014 Bicycle Components USA, PDF/printed page 197: cage-specific SLX and Deore rear derailleur weights, total capacities, low/top sprocket limits and maximum front differences",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 10,
+    "total_capacity_teeth": 35,
+    "maximum_sprocket_teeth": 36,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 18
+  }
+}
