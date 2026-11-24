@@ -5,7 +5,9 @@
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-ultegra-6800",
-    "shimano-105-5800"
+    "shimano-105-5800",
+    "shimano-grx-rx810",
+    "shimano-grx-di2-rx815"
   ],
   "type": "bottom-bracket",
   "model_number": "SM-BB72-41B",
@@ -25,6 +27,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=155",
       "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 155: 105 FC-5800 / SM-BBR60 / SM-BB72-41B: exact press-fit SM-BB72-41B 63 g; crank figure omits arm length",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
       "retrieved_on": "2026-11-24"
     }
   ],

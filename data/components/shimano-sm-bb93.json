@@ -4,7 +4,9 @@
   "name": "XTR threaded bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-xtr-m9000"
+    "shimano-xtr-m9000",
+    "shimano-xtr-m9100",
+    "shimano-xtr-di2-m9050"
   ],
   "type": "bottom-bracket",
   "model_number": "SM-BB93",
@@ -19,6 +21,16 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=17",
       "title": "Shimano 2015 TSS manual, PDF/printed page 17: XTR SM-BB93 threaded bottom bracket 73 g and SM-BB94-41A press-fit assembly 58 g, separately identified from the cranks",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=17",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 17: XTR M9100 FC-M9120-1 / FC-M9120-B2 crank models and SM-BB93 / SM-BB94-41A bottom brackets",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=23",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 23: XTR M9050 lineup explicitly lists older FC-M9000 and FC-M9020 single/double/triple crank variants and SM-BB93 / SM-BB94-41A",
       "retrieved_on": "2026-11-24"
     }
   ],

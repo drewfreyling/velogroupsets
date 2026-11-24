@@ -4,7 +4,9 @@
   "name": "Tiagra press-fit bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-tiagra-4700"
+    "shimano-tiagra-4700",
+    "shimano-grx-rx600",
+    "shimano-grx-rx400"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-RS500-PB",
@@ -19,6 +21,11 @@
     {
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=160",
       "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 160: Tiagra exact 2x10/3x10 controls, FD-4700 16T / FD-4703 20T capacities, FC-4700 double / FC-4703 50/39/30T triple and separate BB-RS500-PB press-fit option",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
       "retrieved_on": "2026-11-24"
     }
   ],

@@ -1,0 +1,39 @@
+{
+  "id": "shimano-rd-rx817",
+  "slug": "rd-rx817",
+  "name": "GRX Di2 rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-di2-rx815"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-RX817",
+  "weight_g": 318,
+  "weight_description": "Manufacturer-listed 318 g for the RD-RX817 single-chainring eleven-speed Di2 reference. The source does not name a cage code or numerical maximum front difference; those fields remain unknown.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=423",
+    "title": "Shimano 2020 TSS manual, PDF/printed page 423: GRX FD-RX815-F brazed-on 135 g with 17T capacity; RD-RX817 318 g with 31T capacity, 42T largest / 11T smallest sprocket",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=423",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 423: GRX FD-RX815-F brazed-on 135 g with 17T capacity; RD-RX817 318 g with 31T capacity, 42T largest / 11T smallest sprocket",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=171",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 171: GRX Di2 RX815 front derailleur and RX817 rear derailleur, with 318 g weight and single-chainring gearing",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "cage": null,
+    "rear_speeds": 11,
+    "front_speeds": 1,
+    "total_capacity_teeth": 31,
+    "maximum_sprocket_teeth": 42,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": null
+  }
+}

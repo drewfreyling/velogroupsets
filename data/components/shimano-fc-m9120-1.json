@@ -1,0 +1,39 @@
+{
+  "id": "shimano-fc-m9120-1",
+  "slug": "fc-m9120-1",
+  "name": "XTR crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M9120-1",
+  "weight_g": 535,
+  "weight_description": "Manufacturer average 535 g for the exact FC-M9120-1 reference with 175 mm arms and 30T chainrings, explicitly excluding the bottom bracket in the 2019 specification table. Other arm lengths and ring options do not inherit this mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=348",
+    "title": "Shimano 2019 TSS manual, PDF/printed page 348: XTR crank variants, chainring combinations and average weights explicitly at 175 mm without bottom bracket",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=348",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 348: XTR crank variants, chainring combinations and average weights explicitly at 175 mm without bottom bracket",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=17",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 17: XTR M9100 FC-M9120-1 / FC-M9120-B2 crank models and SM-BB93 / SM-BB94-41A bottom brackets",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      30
+    ],
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "includes_bottom_bracket": false
+  }
+}

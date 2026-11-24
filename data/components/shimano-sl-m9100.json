@@ -1,0 +1,41 @@
+{
+  "id": "shimano-sl-m9100",
+  "slug": "sl-m9100",
+  "name": "XTR Band clamp shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M9100",
+  "weight_g": 200,
+  "weight_description": "Calculated pair weight: 79 g (SL-M9100-L) + 121 g (SL-M9100-R) = 200 g, using the exact manufacturer side columns in the 2019 edition. Selected double-front, twelve-speed reference; no side is doubled or borrowed from another mount or edition.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=328",
+    "title": "Shimano 2019 TSS manual, PDF/printed page 328: XTR SL-M9100 band-clamp right 121 g / left 79 g and I-spec EV right 117 g / left 74 g; exact side codes and mounts",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=328",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 328: XTR SL-M9100 band-clamp right 121 g / left 79 g and I-spec EV right 117 g / left 74 g; exact side codes and mounts",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=16",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 16: XTR M9100 band-clamp and I-spec EV controls, MONO double-front left control and 11/12-speed right converter",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M9100-L",
+    "right_model": "SL-M9100-R",
+    "left_weight_g": 79,
+    "right_weight_g": 121,
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "mounting_system": "Band clamp"
+  }
+}

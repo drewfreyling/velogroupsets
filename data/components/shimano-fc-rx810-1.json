@@ -1,0 +1,45 @@
+{
+  "id": "shimano-fc-rx810-1",
+  "slug": "fc-rx810-1",
+  "name": "GRX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx810",
+    "shimano-grx-di2-rx815"
+  ],
+  "type": "crankset",
+  "model_number": "FC-RX810-1",
+  "weight_g": 644,
+  "weight_description": "Manufacturer average 644 g for the exact FC-RX810-1 reference with 170 mm arms and 40T chainrings; the 2020 table explicitly excludes the bottom bracket. Other arm lengths and ring options do not inherit this mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=369",
+    "title": "Shimano 2020 TSS manual, PDF/printed page 369: GRX front derailleurs: RX810-F / RX400-F brazed-on 96 g; crank averages explicitly 170 mm without bottom bracket; flat-mount two-piston calipers",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=369",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 369: GRX front derailleurs: RX810-F / RX400-F brazed-on 96 g; crank averages explicitly 170 mm without bottom bracket; flat-mount two-piston calipers",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=169",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 169: GRX RX810 controls, braze-on front derailleur, single-ring cranks and separate bottom brackets",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      40
+    ],
+    "front_speeds": 1,
+    "rear_speeds": 11,
+    "includes_bottom_bracket": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "shimano-st-rx810",
+  "slug": "st-rx810",
+  "name": "GRX hydraulic control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx810"
+  ],
+  "type": "shifters",
+  "model_number": "ST-RX810",
+  "weight_g": 570,
+  "weight_description": "Calculated pair weight: 284 g (ST-RX810-L) + 286 g (ST-RX810-R) = 570 g, using separately published manufacturer side weights for the exact 2x11 hydraulic controls. This is a lever pair, not a complete hose/caliper brake system.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=368",
+    "title": "Shimano 2020 TSS manual, PDF/printed page 368: GRX ST-RX810-R 286 g and ST-RX810-L 284 g per-side weights, 2x11 configuration",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=368",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 368: GRX ST-RX810-R 286 g and ST-RX810-L 284 g per-side weights, 2x11 configuration",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=169",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 169: GRX RX810 controls, braze-on front derailleur, single-ring cranks and separate bottom brackets",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "ST-RX810-L",
+    "right_model": "ST-RX810-R",
+    "left_weight_g": 284,
+    "right_weight_g": 286,
+    "front_speeds": 2,
+    "rear_speeds": 11
+  }
+}

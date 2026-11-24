@@ -5,7 +5,9 @@
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-tiagra-4700",
-    "shimano-sora-r3000"
+    "shimano-sora-r3000",
+    "shimano-grx-rx600",
+    "shimano-grx-rx400"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-RS500",
@@ -31,6 +33,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=171",
       "title": "Shimano 2025–2026 specifications, printed page 168 (PDF page 171): threaded BB-RS500, 92 g; BB-RS500-PB separately 71 g",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
+      "retrieved_on": "2026-11-24"
     }
   ],
   "specifications": {

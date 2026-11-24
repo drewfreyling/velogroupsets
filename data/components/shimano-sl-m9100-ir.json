@@ -1,0 +1,37 @@
+{
+  "id": "shimano-sl-m9100-ir",
+  "slug": "sl-m9100-ir",
+  "name": "XTR I-spec EV right-hand shifter",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M9100-IR",
+  "weight_g": 117,
+  "weight_description": "Manufacturer-listed 117 g for the exact SL-M9100-IR I-spec EV right-hand control, selected for a 1x12 reference. The manufacturer also documents an 11/12-speed converter; no left control is presumed for the single-chainring assembly.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=328",
+    "title": "Shimano 2019 TSS manual, PDF/printed page 328: XTR SL-M9100 band-clamp right 121 g / left 79 g and I-spec EV right 117 g / left 74 g; exact side codes and mounts",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=328",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 328: XTR SL-M9100 band-clamp right 121 g / left 79 g and I-spec EV right 117 g / left 74 g; exact side codes and mounts",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=16",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 16: XTR M9100 band-clamp and I-spec EV controls, MONO double-front left control and 11/12-speed right converter",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "mounting_system": "I-spec EV"
+  }
+}

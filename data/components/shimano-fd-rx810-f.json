@@ -1,0 +1,42 @@
+{
+  "id": "shimano-fd-rx810-f",
+  "slug": "fd-rx810-f",
+  "name": "GRX braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx810",
+    "shimano-grx-rx600"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-RX810-F",
+  "weight_g": 96,
+  "weight_description": "Manufacturer-listed 96 g for the exact FD-RX810-F braze-on assembly, identified in the mounting row of the specification table. No clamp-band adapter weight or band diameter is presumed.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=369",
+    "title": "Shimano 2020 TSS manual, PDF/printed page 369: GRX front derailleurs: RX810-F / RX400-F brazed-on 96 g; crank averages explicitly 170 mm without bottom bracket; flat-mount two-piston calipers",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=369",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 369: GRX front derailleurs: RX810-F / RX400-F brazed-on 96 g; crank averages explicitly 170 mm without bottom bracket; flat-mount two-piston calipers",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=169",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 169: GRX RX810 controls, braze-on front derailleur, single-ring cranks and separate bottom brackets",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "total_capacity_teeth": 17
+  }
+}

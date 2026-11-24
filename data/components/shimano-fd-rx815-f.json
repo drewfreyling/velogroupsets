@@ -1,0 +1,41 @@
+{
+  "id": "shimano-fd-rx815-f",
+  "slug": "fd-rx815-f",
+  "name": "GRX braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-di2-rx815"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-RX815-F",
+  "weight_g": 135,
+  "weight_description": "Manufacturer-listed 135 g for the exact FD-RX815-F braze-on assembly, identified in the mounting row of the specification table. No clamp-band adapter weight or band diameter is presumed.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=423",
+    "title": "Shimano 2020 TSS manual, PDF/printed page 423: GRX FD-RX815-F brazed-on 135 g with 17T capacity; RD-RX817 318 g with 31T capacity, 42T largest / 11T smallest sprocket",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=423",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 423: GRX FD-RX815-F brazed-on 135 g with 17T capacity; RD-RX817 318 g with 31T capacity, 42T largest / 11T smallest sprocket",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=171",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 171: GRX Di2 RX815 front derailleur and RX817 rear derailleur, with 318 g weight and single-chainring gearing",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "total_capacity_teeth": 17
+  }
+}

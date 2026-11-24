@@ -1,0 +1,46 @@
+{
+  "id": "shimano-fc-m9020-2",
+  "slug": "fc-m9020-2",
+  "name": "XTR crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000",
+    "shimano-xtr-di2-m9050"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M9020-2",
+  "weight_g": 629,
+  "weight_description": "Manufacturer average 629 g for the exact FC-M9020-2 reference with 175 mm arms and 34/24T chainrings, explicitly excluding the bottom bracket in the 2019 specification table. Other arm lengths and ring options do not inherit this mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=348",
+    "title": "Shimano 2019 TSS manual, PDF/printed page 348: XTR crank variants, chainring combinations and average weights explicitly at 175 mm without bottom bracket",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=348",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 348: XTR crank variants, chainring combinations and average weights explicitly at 175 mm without bottom bracket",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=15",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 15: XTR M9000 mechanical lineup explicitly names FC-M9000 and FC-M9020 crank variants",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=23",
+      "title": "Shimano 2019 TSS manual, PDF/printed page 23: XTR M9050 lineup explicitly lists older FC-M9000 and FC-M9020 single/double/triple crank variants and SM-BB93 / SM-BB94-41A",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      34,
+      24
+    ],
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "includes_bottom_bracket": false
+  }
+}

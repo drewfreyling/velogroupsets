@@ -1,0 +1,45 @@
+{
+  "id": "shimano-fc-rx600-10",
+  "slug": "fc-rx600-10",
+  "name": "GRX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx400"
+  ],
+  "type": "crankset",
+  "model_number": "FC-RX600-10",
+  "weight_g": 810,
+  "weight_description": "Manufacturer average 810 g for the exact FC-RX600-10 reference with 170 mm arms and 46/30T chainrings; the 2020 table explicitly excludes the bottom bracket. Other arm lengths and ring options do not inherit this mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=369",
+    "title": "Shimano 2020 TSS manual, PDF/printed page 369: GRX front derailleurs: RX810-F / RX400-F brazed-on 96 g; crank averages explicitly 170 mm without bottom bracket; flat-mount two-piston calipers",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=369",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 369: GRX front derailleurs: RX810-F / RX400-F brazed-on 96 g; crank averages explicitly 170 mm without bottom bracket; flat-mount two-piston calipers",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=173",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 173: GRX RX600-11 / RX600-10 double cranksets, separate BB-RS500 / BB-RS500-PB and BR-RX400 caliper",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      46,
+      30
+    ],
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "includes_bottom_bracket": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "shimano-br-rx400",
+  "slug": "br-rx400",
+  "name": "GRX hydraulic disc brake caliper",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-rx400",
+    "shimano-grx-rx600"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-RX400",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for a qualified BR-RX400 front, rear or pair reference including pads and mounting bolts. This record identifies the caliper only; neither a lever mass nor a complete hydraulic kit total is assigned to it.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=369",
+    "title": "Shimano 2020 TSS manual, PDF/printed page 369: GRX front derailleurs: RX810-F / RX400-F brazed-on 96 g; crank averages explicitly 170 mm without bottom bracket; flat-mount two-piston calipers",
+    "retrieved_on": "2026-11-24"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=369",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 369: GRX front derailleurs: RX810-F / RX400-F brazed-on 96 g; crank averages explicitly 170 mm without bottom bracket; flat-mount two-piston calipers",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=173",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 173: GRX RX600-11 / RX600-10 double cranksets, separate BB-RS500 / BB-RS500-PB and BR-RX400 caliper",
+      "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
+      "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
+      "retrieved_on": "2026-11-24"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "actuation": "Hydraulic",
+    "mount": "Flat mount",
+    "piston_count": 2
+  }
+}
