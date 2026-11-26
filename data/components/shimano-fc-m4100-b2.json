@@ -1,0 +1,43 @@
+{
+  "id": "shimano-fc-m4100-b2",
+  "slug": "fc-m4100-b2",
+  "name": "Deore double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m4100"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M4100-B2",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: the 2021 manufacturer table identifies the model and 36/26T rings but leaves the mass blank. A qualified reference must identify weighed arm length and exclude the bottom bracket.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=43",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 43: Deore FC-M4100-2/B2 36/26T crank configurations and shared FC-M5100-1 / RD-M5120-SGS",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=43",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 43: Deore FC-M4100-2/B2 36/26T crank configurations and shared FC-M5100-1 / RD-M5120-SGS",
+      "retrieved_on": "2026-11-26"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=259",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 259: exact FC-M4100-B2 P.C.D. row: 96/64; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "chainrings_teeth": [
+      36,
+      26
+    ],
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameters_mm": [
+      96,
+      64
+    ]
+  }
+}

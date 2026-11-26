@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=63",
       "title": "Shimano 2017 specifications handbook, PDF p. 63: FC-M8000-1 175 mm weight and BB exclusion",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=296",
+      "title": "Shimano 2017 TSS manual, page 296: exact FC-M8000-1 P.C.D. row, 96 mm",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -34,6 +39,7 @@
     ],
     "front_speeds": 1,
     "rear_speeds": 11,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 96
   }
 }

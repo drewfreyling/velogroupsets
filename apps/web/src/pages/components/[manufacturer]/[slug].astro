@@ -16,6 +16,9 @@ const { component } = Astro.props;
 const manufacturer = manufacturerFor(component);
 const groups = groupsFor(component);
 const rearDerailleur = component.type === 'rear-derailleur';
+const crankset = component.type === 'crankset';
+const bcd = component.specifications?.bolt_circle_diameters_mm ?? component.specifications?.bolt_circle_diameter_mm;
+const bcdText = bcd != null ? `${Array.isArray(bcd) ? bcd.join(' / ') : bcd} mm` : component.specifications?.chainring_mount || 'Not yet sourced';
 const disc = component.type.startsWith('disc-brake-');
 const discBasis = component.type === 'disc-brake-rotor' ? 'One rotor' : component.type === 'disc-brake-system' ? `One complete ${component.specifications.position.toLowerCase()} brake` : ({Single:'One caliper',Front:'Front caliper',Rear:'Rear caliper',Pair:'Front and rear caliper pair'}[component.specifications?.weight_basis]);
 const discLabels = {includes_fluid:'Includes fluid',rotor_model:'Rotor model',rotor_diameter_mm:'Rotor diameter',includes_rotor_mounting_hardware:'Includes rotor mounting hardware',mount:'Mount',actuation:'Actuation',piston_count:'Pistons',diameter_mm:'Rotor diameter',position:'Position',lever_model:'Lever model',caliper_model:'Caliper model',lever_side:'Lever side',hose_model:'Hose model',hose_length_mm:'Hose length',includes_rotor:'Includes rotor',includes_adapter:'Includes adapter',includes_brake_pads:'Includes brake pads',includes_mounting_bolts:'Includes mounting bolts',includes_mounting_hardware:'Includes mounting hardware'};
@@ -31,6 +34,7 @@ const limits = [
 ];
 const displayedKeys = new Set(rearDerailleur ? ['cage', ...limits.map(([key]) => key)] : []);
 if (shifter || disc) displayedKeys.add('weight_basis');
+if (crankset) for (const key of ['bolt_circle_diameter_mm', 'bolt_circle_diameters_mm', 'chainring_mount']) displayedKeys.add(key);
 if (brakeCaliper) for (const key of ['weight_basis', 'includes_brake_pads', 'includes_mounting_bolts']) displayedKeys.add(key);
 const format = value => value == null ? 'Not documented' : Array.isArray(value) ? value.map(format).join(', ') : String(value);
 ---
@@ -55,6 +59,7 @@ const format = value => value == null ? 'Not documented' : Array.isArray(value) 
             <dt class="text-sm text-muted">Weight</dt>
             <dd><span class="font-semibold">{component.weight_g === null ? 'Not yet sourced' : `${component.weight_g} g`}</span><p class="mt-2 text-sm leading-6 text-muted">{component.weight_description}</p>{component.weight_excludes_skewers && <p class="mt-2 text-sm font-semibold">{component.weight_g === null ? 'Any weight added must exclude skewers.' : 'Excludes skewers.'}</p>}</dd>
           </div>
+          {crankset && <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">BCD (bolt circle diameter)</dt><dd>{bcdText}{bcd != null && component.specifications?.chainring_mount && <p class="mt-2 text-sm text-muted">{component.specifications.chainring_mount}</p>}</dd></div>}
           {rearDerailleur && <>
             <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">Cage code</dt><dd class="relative">{component.specifications.cage || 'Not yet sourced'}<DerailleurCageHelp /></dd></div>
             {limits.map(([key, label]) => <div class="grid gap-1 py-4 sm:grid-cols-[9rem_minmax(0,1fr)] sm:gap-5"><dt class="text-sm text-muted">{label}</dt><dd>{component.specifications[key] == null ? 'Not yet sourced' : `${component.specifications[key]}T`}</dd></div>)}

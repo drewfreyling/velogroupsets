@@ -1,0 +1,46 @@
+{
+  "id": "shimano-cs-m771-10-11-34",
+  "slug": "cs-m771-10-11-34",
+  "name": "CS-M771-10 10-speed 11–34T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m780"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M771-10",
+  "weight_g": 323,
+  "weight_description": "Manufacturer-listed 323 g for the exact CS-M771-10 10-speed 11–34T reference. Full tooth sequence is printed in the source table; other ranges do not inherit this mass. Lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=266",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 266: XTR / XT / SLX cassette ranges, complete tooth sequences and range-specific average weights; Deore masses blank",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=266",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 266: XTR / XT / SLX cassette ranges, complete tooth sequences and range-specific average weights; Deore masses blank",
+      "retrieved_on": "2026-11-26"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2015_TSS_MANUAL.pdf#page=28",
+      "title": "Shimano 2015 XT product page 28: CS-M771-10 ten-speed cassette and available 11–32/34/36T ranges",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 10,
+    "sprocket_range": "11–34T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      26,
+      30,
+      34
+    ]
+  }
+}

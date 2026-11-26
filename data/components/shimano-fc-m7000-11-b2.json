@@ -25,6 +25,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=37",
       "title": "Shimano 2017 TSS manual, PDF/printed page 37: SLX FC-M7000-11-B1/B2 outboard-chainline cranks; CS-M7000-11 450 g 11–40T / 476 g 11–42T; BB-MT800 / BB-MT800-PA",
       "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=297",
+      "title": "Shimano 2017 TSS manual, page 297: exact FC-M7000-11-B2 P.C.D. row, 96/64 mm",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -36,6 +41,10 @@
     "front_speeds": 2,
     "rear_speeds": 11,
     "chain_line_mm": 51.8,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameters_mm": [
+      96,
+      64
+    ]
   }
 }

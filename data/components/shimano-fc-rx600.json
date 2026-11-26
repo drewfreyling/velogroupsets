@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=118",
       "title": "Shimano 2025 specification handbook, PDF page 118: FC-RX600 manufacturer-listed reference weight and configuration",
       "retrieved_on": "2026-11-16"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=291",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 291: exact FC-RX600-11 P.C.D. row: 110/80; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -34,6 +39,10 @@
       30
     ],
     "includes_bottom_bracket": false,
-    "reference_model": "FC-RX600-11"
+    "reference_model": "FC-RX600-11",
+    "bolt_circle_diameters_mm": [
+      110,
+      80
+    ]
   }
 }

@@ -4,7 +4,10 @@
   "name": "Deore threaded external cups bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-deore-m6000"
+    "shimano-deore-m6000",
+    "shimano-deore-m6100",
+    "shimano-deore-m5100",
+    "shimano-deore-m4100"
   ],
   "type": "bottom-bracket",
   "model_number": "SM-BB52",
@@ -25,6 +28,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=49",
       "title": "Shimano 2018 TSS manual, PDF/printed page 49: Deore FC-M6000-3 40/30/22T, FC-M6000-B2 36/26T, SM-BB52 and BB-MT500-PA; no weights printed",
       "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=34",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 34: Deore M6100 / M5100 / M4100 lineups, shared SM-BB52 and BB-MT500-PA, front/double cranks and caliper options",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {

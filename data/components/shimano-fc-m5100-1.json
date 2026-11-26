@@ -4,7 +4,8 @@
   "name": "Deore crankset",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-deore-m5100"
+    "shimano-deore-m5100",
+    "shimano-deore-m4100"
   ],
   "type": "crankset",
   "model_number": "FC-M5100-1",
@@ -25,7 +26,19 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=53",
       "title": "Shimano 2025–2026 specifications, PDF page 53: FC-M5100-1 configurations; numerical average weight not supplied",
       "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=43",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 43: Deore FC-M4100-2/B2 36/26T crank configurations and shared FC-M5100-1 / RD-M5120-SGS",
+      "retrieved_on": "2026-11-26"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=257",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 257: exact FC-M5100-1 P.C.D. row: 96; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameter_mm": 96
+  }
 }

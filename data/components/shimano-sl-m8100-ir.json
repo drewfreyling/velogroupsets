@@ -1,0 +1,32 @@
+{
+  "id": "shimano-sl-m8100-ir",
+  "slug": "sl-m8100-ir",
+  "name": "M8100 I-spec EV right-hand shifter",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8100"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M8100-IR",
+  "weight_g": 120,
+  "weight_description": "Manufacturer-listed 120 g for the exact SL-M8100-IR I-spec EV right-hand control, selected for the documented 1x12 drivetrain; no left control or pair total is presumed.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=228",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 228: XT controls: band R 117 g / L 78 g, I-spec EV IR 120 g / IL 78 g; exact side codes and mounts",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=228",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 228: XT controls: band R 117 g / L 78 g, I-spec EV IR 120 g / IL 78 g; exact side codes and mounts",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "mounting_system": "I-spec EV"
+  }
+}

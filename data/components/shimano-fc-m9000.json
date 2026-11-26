@@ -31,6 +31,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2019_TRADE_SALES_SUPPORT_MANUAL.pdf#page=23",
       "title": "Shimano 2019 TSS manual, PDF/printed page 23: XTR M9050 lineup explicitly lists older FC-M9000 and FC-M9020 single/double/triple crank variants and SM-BB93 / SM-BB94-41A",
       "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=256",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 256: exact FC-M9000-1 P.C.D. row: 96; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -40,6 +45,7 @@
     ],
     "front_speeds": 1,
     "includes_bottom_bracket": false,
-    "reference_model": "FC-M9000-1"
+    "reference_model": "FC-M9000-1",
+    "bolt_circle_diameter_mm": 96
   }
 }

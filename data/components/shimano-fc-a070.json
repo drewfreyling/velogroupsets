@@ -20,9 +20,15 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=34",
       "title": "Shimano 2012-2013 line-up chart, PDF page 34: Tourney A070 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=310",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 310: exact FC-A070 P.C.D. row: Riveted; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
-    "rear_speeds": 7
+    "rear_speeds": 7,
+    "chainring_mount": "Riveted"
   }
 }

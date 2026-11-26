@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=166",
       "title": "Shimano 2025–2026 specifications, PDF page 166: FC-7710",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=308",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 308: exact FC-7710 P.C.D. row: 144; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -34,6 +39,7 @@
     ],
     "includes_bottom_bracket": false,
     "chain_pitch_mm": 12.7,
-    "chain_width_inches": "1/8"
+    "chain_width_inches": "1/8",
+    "bolt_circle_diameter_mm": 144
   }
 }

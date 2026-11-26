@@ -1,0 +1,36 @@
+{
+  "id": "shimano-sl-m7100-i-pair",
+  "slug": "sl-m7100-i-pair",
+  "name": "M7100 I-spec EV shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7100"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M7100-IL / SL-M7100-IR",
+  "weight_g": 194,
+  "weight_description": "Calculated pair weight: 77 g (SL-M7100-IL) + 117 g (SL-M7100-IR) = 194 g from the exact 2021 per-side columns. Complete 2x12 control pair; no side is doubled or mixed across mounts.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=229",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 229: SLX controls: band R 117 g / L 77 g, I-spec EV IR 117 g / IL 77 g; exact side codes and mounts",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=229",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 229: SLX controls: band R 117 g / L 77 g, I-spec EV IR 117 g / IL 77 g; exact side codes and mounts",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M7100-IL",
+    "right_model": "SL-M7100-IR",
+    "left_weight_g": 77,
+    "right_weight_g": 117,
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "mounting_system": "I-spec EV"
+  }
+}

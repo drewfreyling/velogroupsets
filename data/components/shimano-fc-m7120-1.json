@@ -1,0 +1,40 @@
+{
+  "id": "shimano-fc-m7120-1",
+  "slug": "fc-m7120-1",
+  "name": "SLX crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7100"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M7120-1",
+  "weight_g": 641,
+  "weight_description": "Manufacturer average 641 g for FC-M7120-1, 175 mm arms with 30T chainrings, explicitly excluding the bottom bracket. Other available lengths and rings do not inherit this mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=254",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 254: XT / SLX crank configurations, direct-mount interfaces and average weights explicitly 175 mm without bottom bracket",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=254",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 254: XT / SLX crank configurations, direct-mount interfaces and average weights explicitly 175 mm without bottom bracket",
+      "retrieved_on": "2026-11-26"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=254",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 254: exact FC-M7120-1 P.C.D. row: Direct; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      30
+    ],
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "includes_bottom_bracket": false,
+    "chainring_mount": "Direct mount"
+  }
+}

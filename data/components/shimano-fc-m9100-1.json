@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=48",
       "title": "Shimano 2025 specifications handbook, PDF p. 48: FC-M9100-1 170 mm weight, exact chainrings and BB exclusion",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=253",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 253: exact FC-M9100-1 P.C.D. row: Direct; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -34,6 +39,7 @@
     ],
     "front_speeds": 1,
     "rear_speeds": 12,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "chainring_mount": "Direct mount"
   }
 }

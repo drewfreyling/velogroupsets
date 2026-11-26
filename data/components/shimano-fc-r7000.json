@@ -12,6 +12,11 @@
       "url": "https://bike.shimano.com/en-AU/products/components/pdp.P-FC-R7000.html",
       "title": "Shimano FC-R7000 product reference",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=307",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 307: exact FC-R7000 P.C.D. row: 110; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -27,7 +32,8 @@
     "chainrings_teeth": [
       50,
       34
-    ]
+    ],
+    "bolt_circle_diameter_mm": 110
   },
   "model_number": "FC-R7000",
   "weight_g": 713.4,

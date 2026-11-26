@@ -30,6 +30,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
       "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
       "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=291",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 291: exact FC-RX600-1 P.C.D. row: 110; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -39,6 +44,7 @@
     ],
     "front_speeds": 1,
     "rear_speeds": 11,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 110
   }
 }

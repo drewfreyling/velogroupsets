@@ -25,9 +25,15 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=169",
       "title": "Shimano 2025–2026 specifications, printed page 166 (PDF page 169): FC-R2000, no published average weight in selected table",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=310",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 310: exact FC-R2000 P.C.D. row: 110; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
-    "rear_speeds": 8
+    "rear_speeds": 8,
+    "bolt_circle_diameter_mm": 110
   }
 }

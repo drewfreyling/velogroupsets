@@ -25,6 +25,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=36",
       "title": "Shimano 2017 TSS manual, PDF/printed page 36: SLX eleven-speed shifter mount variants and FC-M7000-11-1 crankset gearing and weights without BB",
       "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=257",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 257: exact FC-M7000-11-1 P.C.D. row: 96; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -35,6 +40,7 @@
     "front_speeds": 1,
     "rear_speeds": 11,
     "chain_line_mm": 50,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 96
   }
 }

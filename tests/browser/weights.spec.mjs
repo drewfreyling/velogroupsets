@@ -86,3 +86,21 @@ test('newly sourced pair totals preserve both side references in pages, search a
   expect(original.weight_g).toBeNull();
   expect(original.weight_description).toContain('different revisions');
 });
+
+
+test('crank BCD displays single and multiple diameters, direct mount and unknown values', async ({page, request}) => {
+  for (const [slug, expected, specifications] of [
+    ['fc-r9100', '110 mm', {bolt_circle_diameter_mm:110}],
+    ['fc-rx810-2', '110 / 80 mm', {bolt_circle_diameters_mm:[110,80]}],
+    ['fc-m9100-2', 'Direct mount', {chainring_mount:'Direct mount'}],
+    ['fc-a070', 'Riveted', {chainring_mount:'Riveted'}],
+    ['fc-6200', 'Not yet sourced', {}],
+  ]) {
+    const {data} = await (await request.get(`/api/v1/components/shimano-${slug}.json`)).json();
+    expect(data.specifications).toMatchObject(specifications);
+    await page.goto(`/components/shimano/${slug}/`);
+    const row = page.locator('dl > div').filter({has:page.getByRole('term').filter({hasText:/^BCD \(bolt circle diameter\)$/})});
+    await expect(row).toHaveCount(1);
+    await expect(row.locator('dd')).toHaveText(expected);
+  }
+});

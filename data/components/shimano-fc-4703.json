@@ -20,6 +20,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=160",
       "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 160: Tiagra exact 2x10/3x10 controls, FD-4700 16T / FD-4703 20T capacities, FC-4700 double / FC-4703 50/39/30T triple and separate BB-RS500-PB press-fit option",
       "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=308",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 308: exact FC-4703 P.C.D. row: 110/74; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -30,6 +35,10 @@
       39,
       30
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameters_mm": [
+      110,
+      74
+    ]
   }
 }

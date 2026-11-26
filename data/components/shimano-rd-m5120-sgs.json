@@ -1,0 +1,49 @@
+{
+  "id": "shimano-rd-m5120-sgs",
+  "slug": "rd-m5120-sgs",
+  "name": "Deore rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m5100",
+    "shimano-deore-m4100"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M5120-SGS",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: the 2021 manufacturer specification table leaves this exact SGS assembly mass blank. The selected limits identify a double-front 10/11-speed reference; 46T is the separately documented single-front ten-speed allowance.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=241",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 241: RD-M5120-SGS: 41T capacity, 42T double / 46T single largest sprocket, 11T smallest and 10T front difference; mass blank",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=241",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 241: RD-M5120-SGS: 41T capacity, 42T double / 46T single largest sprocket, 11T smallest and 10T front difference; mass blank",
+      "retrieved_on": "2026-11-26"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=40",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 40: Deore FC-M5100-2/B2 36/26T cranks and RD-M5120-SGS 41T capacity; 42T double / 46T single largest-sprocket limits",
+      "retrieved_on": "2026-11-26"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=43",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 43: Deore FC-M4100-2/B2 36/26T crank configurations and shared FC-M5100-1 / RD-M5120-SGS",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "cage": "SGS",
+    "rear_speeds": [
+      10,
+      11
+    ],
+    "front_speeds": 2,
+    "total_capacity_teeth": 41,
+    "maximum_sprocket_teeth": 42,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 10,
+    "reference_configuration": "2x10/11-speed; the separate 46T largest-sprocket allowance is for 1x10-speed."
+  }
+}

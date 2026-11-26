@@ -1,0 +1,43 @@
+{
+  "id": "shimano-cs-m9100-12-10-45",
+  "slug": "cs-m9100-12-10-45",
+  "name": "CS-M9100-12 12-speed 10–45T cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100"
+  ],
+  "type": "cassette",
+  "model_number": "CS-M9100-12",
+  "weight_g": 357,
+  "weight_description": "Manufacturer-listed 357 g for the exact CS-M9100-12 12-speed 10–45T reference. Full tooth sequence is printed in the source table; other ranges do not inherit this mass. Lockring inclusion follows the contribution convention.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=266",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 266: XTR / XT / SLX cassette ranges, complete tooth sequences and range-specific average weights; Deore masses blank",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=266",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 266: XTR / XT / SLX cassette ranges, complete tooth sequences and range-specific average weights; Deore masses blank",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 12,
+    "sprocket_range": "10–45T",
+    "sprockets_teeth": [
+      10,
+      12,
+      14,
+      16,
+      18,
+      21,
+      24,
+      28,
+      32,
+      36,
+      40,
+      45
+    ]
+  }
+}

@@ -22,6 +22,29 @@ def fixture():
 
 
 class CatalogueTests(unittest.TestCase):
+    def test_optional_crank_bcd_accepts_single_multiple_and_non_bolted_mounts(self):
+        for fields in ({}, {'bolt_circle_diameter_mm': None},
+                       {'bolt_circle_diameter_mm': 110},
+                       {'bolt_circle_diameters_mm': [110, 80]},
+                       {'chainring_mount': 'Direct mount'}, {'chainring_mount': 'Riveted'}):
+            with self.subTest(fields=fields):
+                data = fixture()
+                data['components'][0]['specifications'].update(fields)
+                self.assertEqual(validate_catalogue(data), [])
+
+    def test_invalid_crank_bcd_is_rejected_even_when_weight_is_unknown(self):
+        for fields in ({'bolt_circle_diameter_mm': 0}, {'bolt_circle_diameter_mm': True},
+                       {'bolt_circle_diameter_mm': '110 mm'},
+                       {'bolt_circle_diameters_mm': []}, {'bolt_circle_diameters_mm': [110]},
+                       {'bolt_circle_diameters_mm': [110, 110]},
+                       {'bolt_circle_diameters_mm': [110, -80]},
+                       {'bolt_circle_diameter_mm': 110, 'bolt_circle_diameters_mm': [110, 80]}):
+            with self.subTest(fields=fields):
+                data = fixture()
+                data['components'][0]['weight_g'] = None
+                data['components'][0]['specifications'].update(fields)
+                self.assertTrue(validate_catalogue(data))
+
     def test_caliper_pair_and_individual_weights_require_pads_and_mounting_bolts(self):
         for basis in ('Pair', 'Front', 'Rear'):
             with self.subTest(basis=basis):

@@ -31,6 +31,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Line-up_chart_v024_en.pdf#page=75",
       "title": "Shimano 2017-2018 line-up chart, PDF page 75: Ultegra Di2 R8050 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=307",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 307: exact FC-R8000 P.C.D. row: 110; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -41,6 +46,7 @@
     ],
     "includes_bottom_bracket": false,
     "rear_speeds": 11,
-    "front_speeds": 2
+    "front_speeds": 2,
+    "bolt_circle_diameter_mm": 110
   }
 }

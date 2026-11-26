@@ -20,7 +20,17 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-M4100-2-4667/EV-FC-M4100-2-4667.pdf",
       "title": "Shimano FC-M4100-2 original manufacturer exploded drawing: complete assembly and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=259",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 259: exact FC-M4100-2 P.C.D. row: 96/64; sourced BCD / chainring mounting interface",
+      "retrieved_on": "2026-11-26"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      96,
+      64
+    ]
+  }
 }

@@ -25,7 +25,17 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=50",
       "title": "Shimano 2014–2015 specifications, PDF page 50: FC-M780 options and unresolved crankset-only weight basis",
       "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=296",
+      "title": "Shimano 2017 TSS manual, page 296: exact FC-M780 P.C.D. row, 104/64 mm",
+      "retrieved_on": "2026-11-26"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

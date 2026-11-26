@@ -1,0 +1,31 @@
+{
+  "id": "shimano-fd-m5100-d",
+  "slug": "fd-m5100-d",
+  "name": "Deore D-type front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m5100"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M5100-D",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the exact D-type double-front assembly; the manufacturer names the mount variant and 10T capacity but supplies no mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=39",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 39: Deore FD-M5100 D/E/M mount variants, double-front 11/10-speed controls and 10T front capacity",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=39",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 39: Deore FD-M5100 D/E/M mount variants, double-front 11/10-speed controls and 10T front capacity",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "mounting_type_detail": "D-type",
+    "total_capacity_teeth": 10
+  }
+}

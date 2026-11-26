@@ -54,6 +54,8 @@ The component catalogue filters by category, type, groupset and search text. Sel
 
 The start year is the documented introduction/availability year, not an inferred marketing model year. End years are not collected or displayed. Existing starts and stable IDs are preserved when migrating from the former range field. Optional `generation` remains a descriptive label, separate from the manufacturer’s model number. Manufacturer pages list groupsets by ascending start year, then by name for ties.
 
+Cranksets record a sourced BCD in `specifications.bolt_circle_diameter_mm` or `bolt_circle_diameters_mm` (one or multiple positive diameters in millimetres). Use `chainring_mount` for explicitly documented direct-mount or riveted designs instead of inventing a diameter. Unknown BCD stays omitted/null and is shown as “Not yet sourced”. This is independent of weight qualification. See the [crankset guidelines](weights-guidelines.md#cranksets) for configuration and source requirements.
+
 ## Component types
 
 The ordered [component-type schema](../data/schemas/component-type.schema.json) is the single source for valid IDs and UI labels. Its `oneOf` entries provide `const` and `title`; the catalogue schema references it directly.

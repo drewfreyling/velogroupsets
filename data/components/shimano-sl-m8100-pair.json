@@ -1,0 +1,36 @@
+{
+  "id": "shimano-sl-m8100-pair",
+  "slug": "sl-m8100-pair",
+  "name": "M8100 Band clamp shifter pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8100"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M8100-L / SL-M8100-R",
+  "weight_g": 195,
+  "weight_description": "Calculated pair weight: 78 g (SL-M8100-L) + 117 g (SL-M8100-R) = 195 g from the exact 2021 per-side columns. Complete 2x12 control pair; no side is doubled or mixed across mounts.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=228",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 228: XT controls: band R 117 g / L 78 g, I-spec EV IR 120 g / IL 78 g; exact side codes and mounts",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=228",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 228: XT controls: band R 117 g / L 78 g, I-spec EV IR 120 g / IL 78 g; exact side codes and mounts",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M8100-L",
+    "right_model": "SL-M8100-R",
+    "left_weight_g": 78,
+    "right_weight_g": 117,
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "mounting_system": "Band clamp"
+  }
+}

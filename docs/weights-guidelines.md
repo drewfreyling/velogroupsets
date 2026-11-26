@@ -16,6 +16,10 @@ Use these rules when adding or correcting catalogue weights. Each weight must de
 
 A list of available crank lengths or chainring options is not enough: identify the exact combination to which the weight applies.
 
+**Record the bolt circle diameter (BCD) whenever a reliable source identifies it**, even if the weight is unknown. Use `specifications.bolt_circle_diameter_mm` for one diameter, or `bolt_circle_diameters_mm` for multiple distinct diameters (for example, `[110, 80]`). Cite the exact model and page. Preserve the documented dimensions and any asymmetric/proprietary pattern notes: matching BCD alone does not establish chainring compatibility. Do not confuse BCD with chainline, tooth count or bolt count.
+
+When the source identifies a direct-mount or riveted assembly instead of a numerical bolt circle, record `chainring_mount: "Direct mount"` or `"Riveted"`. Never substitute zero or guess an inner-ring BCD. Unknown BCDs stay omitted/null; a missing BCD does not invalidate an otherwise qualified weight. Component pages show a labelled BCD row with millimetres, the documented mount, or “Not yet sourced”.
+
 **Prefer 170 mm crank arms when choosing or contributing a reference weight.** This gives readers a consistent basis for comparison. Other lengths are valid when that is the sourced or measured configuration; record the actual length and never convert another length’s weight into an estimated 170 mm figure.
 
 An example configuration is “170 mm crank arms, 50/34T chainrings; excludes bottom bracket.” A manufacturer figure for a crankset with an integrated bottom bracket does not meet this rule. Find a weight for the crankset alone rather than silently relabelling the combined figure or subtracting an assumed bottom-bracket weight.

@@ -1,0 +1,32 @@
+{
+  "id": "shimano-sl-m7100-ir",
+  "slug": "sl-m7100-ir",
+  "name": "M7100 I-spec EV right-hand shifter",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7100"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M7100-IR",
+  "weight_g": 117,
+  "weight_description": "Manufacturer-listed 117 g for the exact SL-M7100-IR I-spec EV right-hand control, selected for the documented 1x12 drivetrain; no left control or pair total is presumed.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=229",
+    "title": "Shimano 2021 TSS manual, PDF/printed page 229: SLX controls: band R 117 g / L 77 g, I-spec EV IR 117 g / IL 77 g; exact side codes and mounts",
+    "retrieved_on": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=229",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 229: SLX controls: band R 117 g / L 77 g, I-spec EV IR 117 g / IL 77 g; exact side codes and mounts",
+      "retrieved_on": "2026-11-26"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "control_side": "Right",
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "mounting_system": "I-spec EV"
+  }
+}

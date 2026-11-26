@@ -65,6 +65,26 @@ def approved_archived_document(manufacturer, document_url):
     return bool(match and match[1] in brochures and int(match[2]) <= brochures[match[1]])
 
 
+def crank_bcd_errors(component):
+    """BCD is optional; validate supplied measurements even without a weight."""
+    if component['type'] != 'crankset':
+        return []
+    specs = component.get('specifications', {})
+    single = specs.get('bolt_circle_diameter_mm')
+    multiple = specs.get('bolt_circle_diameters_mm')
+    positive = lambda value: type(value) in (int, float) and math.isfinite(value) and value > 0
+    errors = []
+    if single is not None and not positive(single):
+        errors.append('bolt_circle_diameter_mm must be a positive number or null')
+    if multiple is not None and (not isinstance(multiple, list) or len(multiple) < 2
+            or not all(positive(value) for value in multiple)
+            or len(set(multiple)) != len(multiple)):
+        errors.append('bolt_circle_diameters_mm must contain at least two distinct positive numbers or be null')
+    if single is not None and multiple is not None:
+        errors.append('use either a single BCD or multiple BCDs, not both')
+    return errors
+
+
 def weight_configuration_errors(component):
     """Check declared weight configurations; source truth still needs review."""
     if component['weight_g'] is None:
@@ -261,6 +281,7 @@ def validate_catalogue(catalogue):
             if record["manufacturer_id"] not in indices["manufacturers"]:
                 failures.append(f"{kind}/{record['id']}: unknown manufacturer_id")
     for component in catalogue["components"]:
+        failures.extend(f"components/{component['id']}: {error}" for error in crank_bcd_errors(component))
         failures.extend(f"components/{component['id']}: {error}" for error in weight_configuration_errors(component))
         if component['type'] == 'rear-derailleur':
             specs = component['specifications']

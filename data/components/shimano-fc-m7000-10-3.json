@@ -25,6 +25,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=38",
       "title": "Shimano 2017 TSS manual, PDF/printed page 38: SLX ten-speed shifter mount variants; FC-M7000-10-3 triple 801.1 g without BB; BB-MT800 82.1 g and BB-MT800-PA 68.2 g",
       "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2017_TRADE_SALES_SUPPORT_MANUAL.pdf#page=297",
+      "title": "Shimano 2017 TSS manual, page 297: exact FC-M7000-10-3 P.C.D. row, 96/64 mm",
+      "retrieved_on": "2026-11-26"
     }
   ],
   "specifications": {
@@ -37,6 +42,10 @@
     "front_speeds": 3,
     "rear_speeds": 10,
     "chain_line_mm": 50,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameters_mm": [
+      96,
+      64
+    ]
   }
 }
