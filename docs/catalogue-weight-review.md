@@ -149,3 +149,5 @@ The [Shimano MTB control and crank review](shimano-mtb-control-crank-weights.md)
 The [Shimano MTB derailleur follow-up](shimano-mtb-derailleur-weights.md) supplies two previously unknown SGS weights and five direct-mount front-derailleur weights, with a documented later sprocket-limit update.
 
 The [Shimano MTB clamp-mounted front-derailleur review](shimano-mtb-clamp-weights.md) adds eight high/low-clamp variants with explicit 34.9 mm weight references.
+
+The [SLX and outboard-chainline front-derailleur review](shimano-slx-front-derailleur-weights.md) adds eight qualified clamp/direct-mount references while preserving the existing FD-M7020 high-clamp identity.

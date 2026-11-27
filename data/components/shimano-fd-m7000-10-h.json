@@ -1,0 +1,38 @@
+{
+  "id": "shimano-fd-m7000-10-h",
+  "slug": "fd-m7000-10-h",
+  "name": "SLX high clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M7000-10-H",
+  "weight_g": 152.1,
+  "weight_description": "Manufacturer-listed average 152.1 g for FD-M7000-10-H, 3×10-speed, side swing, 34.9 mm high clamp band, without S/M reducer adapters. The table explicitly defines band-type average weights at L size; its mount rows identify the unadapted 34.9 mm band. Other mounts and model variants do not inherit this weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M7000-10-4097/EV-FD-M7000-10-4097A.pdf",
+    "title": "Shimano FD-M7000-10 manufacturer exploded view: model family, series and mounting assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M7000-10-4097/EV-FD-M7000-10-4097A.pdf",
+      "title": "Shimano FD-M7000-10 manufacturer exploded view: model family, series and mounting assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=41",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 41 / printed page 38: FD-M7000-10-H, 152.1 g, 34.9 mm high clamp band, without S/M reducer adapters",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "front_speeds": 3,
+    "rear_speeds": 10,
+    "swing_type": "Side swing",
+    "clamp_diameter_mm": 34.9,
+    "clamp_position": "High clamp"
+  }
+}
