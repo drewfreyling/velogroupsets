@@ -70,7 +70,7 @@ The production Wrangler configuration excludes `/api/v1/*` from Worker-first rou
 
 The asset service manages Cloudflare caching and deployment updates. A cold location or eviction may require an internal asset fetch, so **a 100% cache-hit ratio is not guaranteed**. This still avoids the application Worker. Successful JSON responses carry `X-Catalogue-Delivery: static-assets`; that header identifies the configured delivery path, not whether this particular request was a cache hit.
 
-Browser cache policy is `Cache-Control: public, max-age=3600, must-revalidate`. Cloudflare supplies ETags and supports conditional 304 responses and bodyless HEAD reads. Compare body-level catalogue_version values when combining separate files: browsers may retain different releases for up to one hour. Downloading catalogue.json gives a consistent snapshot in one response.
+Browser cache policy is `Cache-Control: public, max-age=28800, must-revalidate`. Cloudflare supplies ETags and supports conditional 304 responses and bodyless HEAD reads. Compare body-level catalogue_version values when combining separate files: browsers may retain different releases for up to eight hours. Downloading catalogue.json gives a consistent snapshot in one response.
 
 All catalogue files and the OpenAPI download allow public CORS without credentials. Normal cross-origin GETs require no preflight. The static asset service does not support OPTIONS preflight. Cross-origin browser clients must use ordinary GET/HEAD requests without custom request headers and let browser HTTP caching handle validators. Same-origin and non-browser clients can send If-None-Match directly.
 

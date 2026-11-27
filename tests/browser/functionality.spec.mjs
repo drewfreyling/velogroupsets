@@ -83,7 +83,7 @@ test('recover from a missing component through search and return home', async ({
 
 test('static responses have one cache lifetime for pages, favicon and hashed styles', async ({page, request}) => {
   const home = await page.goto('/');
-  expect(home.headers()['cache-control']).toBe('public, max-age=3600, must-revalidate');
+  expect(home.headers()['cache-control']).toBe('public, max-age=28800, must-revalidate');
   const stylesheet = await page.locator('link[rel="stylesheet"]').first().getAttribute('href');
   const styles = await request.get(stylesheet);
   expect(styles.status()).toBe(200);
@@ -92,7 +92,7 @@ test('static responses have one cache lifetime for pages, favicon and hashed sty
   expect(favicon.status()).toBe(200);
   expect(favicon.headers()['cache-control']).toBe('public, max-age=86400, must-revalidate');
   const index = await request.get('/search-index.json');
-  expect(index.headers()['cache-control']).toBe('public, max-age=3600, must-revalidate');
+  expect(index.headers()['cache-control']).toBe('public, max-age=28800, must-revalidate');
   const health = await request.get('/api/health');
   expect(health.headers()['cache-control']).toBe('no-store');
 });

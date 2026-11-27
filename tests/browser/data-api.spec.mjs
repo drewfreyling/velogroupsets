@@ -32,7 +32,7 @@ test('clients filter downloaded records locally and retain null weights and cita
 test('static reads support ETags and HEAD; query strings are ignored and writes rejected',async({request})=>{
   const path='/api/v1/components/shimano-st-r7000.json';const response=await request.get(path);
   expect(response.status()).toBe(200);expect(response.headers()['x-catalogue-delivery']).toBe('static-assets');
-  expect(response.headers()['cache-control']).toBe('public, max-age=3600, must-revalidate');const etag=response.headers().etag;expect(etag).toBeTruthy();
+  expect(response.headers()['cache-control']).toBe('public, max-age=28800, must-revalidate');const etag=response.headers().etag;expect(etag).toBeTruthy();
   expect(response.headers()['set-cookie']).toBeUndefined();
   const unchanged=await request.get(path,{headers:{'If-None-Match':etag}});expect(unchanged.status()).toBe(304);expect(await unchanged.text()).toBe('');
   const head=await request.head(path);expect(head.status()).toBe(200);expect(await head.text()).toBe('');expect(head.headers().etag).toBe(etag);

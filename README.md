@@ -50,7 +50,7 @@ The [catalogue weight review](docs/catalogue-weight-review.md) fills 78 further 
 
 ## Catalogue API
 
-The read-only API is generated JSON served directly by Cloudflare Workers Static Assets. Start at `/api/v1/index.json` or download `/api/v1/catalogue.json`. Collections and canonical detail files preserve curated records, source references and null weights. Successful GET/HEAD asset requests bypass Worker execution; Cloudflare documents direct static-asset requests as free and unlimited within platform limits. Files have one-hour browser caching, platform ETags and public CORS.
+The read-only API is generated JSON served directly by Cloudflare Workers Static Assets. Start at `/api/v1/index.json` or download `/api/v1/catalogue.json`. Collections and canonical detail files preserve curated records, source references and null weights. Successful GET/HEAD asset requests bypass Worker execution; Cloudflare documents direct static-asset requests as free and unlimited within platform limits. Files have eight-hour browser caching, platform ETags and public CORS.
 
 Search, filtering and pagination run in the consuming application after downloading records; static files ignore query strings. Production v1 preserves its contract; incompatible changes require a new major API namespace. The former extensionless Worker query endpoints have been removed. Community APIs keep their own Worker execution and access controls.
 

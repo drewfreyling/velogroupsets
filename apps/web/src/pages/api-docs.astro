@@ -24,7 +24,7 @@ const derailleurs = data.components.filter(component =>
 );`}</code></pre></div>
     <h2 class="mt-12 text-2xl font-medium">Responses and updates</h2>
     <p class="mt-4 leading-7">Records are returned in <code>data</code>, alongside a <code>catalogue_version</code> identifying the snapshot. Unknown weights remain <code>null</code>; a listed weight describes the configuration and evidence in its record.</p>
-    <p class="mt-4 leading-7">Browsers may reuse a response for one hour before revalidating. Cloudflare supplies an <code>ETag</code> for conditional requests. When combining files, compare their <code>catalogue_version</code> values or download the complete catalogue to avoid mixing releases.</p>
+    <p class="mt-4 leading-7">Browsers may reuse a response for eight hours before revalidating. Cloudflare supplies an <code>ETag</code> for conditional requests. When combining files, compare their <code>catalogue_version</code> values or download the complete catalogue to avoid mixing releases.</p>
     <p class="mt-4 leading-7">Browser applications on other websites can read this public data. This API covers curated records; accounts, community photos and moderation data use separate services.</p>
   </article>
 </Layout>

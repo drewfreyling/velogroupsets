@@ -28,7 +28,7 @@ export function makeOpenApi(catalogueSchema,typeSchema){
   function endpoint(path,id,summary,schema,detail=false){
     const headers={
       ETag:{description:'Platform-provided entity tag; usable with If-None-Match.',schema:{type:'string'}},
-      'Cache-Control':{description:'Browsers may reuse the file for one hour before revalidation.',schema:{type:'string'}},
+      'Cache-Control':{description:'Browsers may reuse the file for eight hours before revalidation.',schema:{type:'string'}},
       ...(path.startsWith('/api/')?{'X-Catalogue-Delivery':{schema:{type:'string',const:'static-assets'}}}:{}),
     };
     const operation={summary,description:'Build-time JSON served directly by Cloudflare Workers Static Assets without executing the Worker. Query strings are ignored: no server-side search, filtering or pagination. Collections contain all records in canonical snapshot order. Canonical IDs only. Unknown paths and unsupported methods use the platform asset/fallback behaviour.',parameters:[
@@ -50,6 +50,6 @@ export function makeOpenApi(catalogueSchema,typeSchema){
   schemas.OpenApiDocument={type:'object',required:['openapi','info','paths'],properties:{openapi:{type:'string',pattern:'^3\\.1\\.'},info:{type:'object'},paths:{type:'object'}}};
   endpoint('/openapi.json','getOpenApi','Download this OpenAPI 3.1 specification','OpenApiDocument');
   return {openapi:'3.1.0',jsonSchemaDialect:'https://json-schema.org/draft/2020-12/schema',
-    info:{title:'VeloGroupsets catalogue API',version:'1.0.0',description:'Public, read-only build-time JSON files served directly by Cloudflare Workers Static Assets. No Worker execution for successful GET/HEAD asset requests. No authentication or query parameters: download complete collections and filter/search locally. Query strings are ignored. Unknown values remain null; model variants and evidence are preserved. Responses include a catalogue_version revision. Browser max-age is 300 seconds. Production v1 preserves endpoint paths, response envelopes, existing fields and canonical IDs. Additive fields, new records and sourced data corrections are permitted; incompatible contract changes require a new major API namespace. Community APIs are separate.'},
+    info:{title:'VeloGroupsets catalogue API',version:'1.0.0',description:'Public, read-only build-time JSON files served directly by Cloudflare Workers Static Assets. No Worker execution for successful GET/HEAD asset requests. No authentication or query parameters: download complete collections and filter/search locally. Query strings are ignored. Unknown values remain null; model variants and evidence are preserved. Responses include a catalogue_version revision. Browser max-age is 28800 seconds (eight hours). Production v1 preserves endpoint paths, response envelopes, existing fields and canonical IDs. Additive fields, new records and sourced data corrections are permitted; incompatible contract changes require a new major API namespace. Community APIs are separate.'},
     servers:[{url:'/',description:'Same origin as the served specification'}],security:[],paths,components:{schemas}};
 }
