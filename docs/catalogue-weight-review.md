@@ -145,3 +145,5 @@ The [28 November 2026 weight review](weight-review-2026-11-28.md) subsequently f
 The [period Shimano brake and derailleur review](shimano-period-brake-weights.md) subsequently adds six components with qualified weights, preserving the earlier records and reference configurations.
 
 The [Shimano MTB control and crank review](shimano-mtb-control-crank-weights.md) adds three revision-specific control pairs and two qualified crankset references, including both calculated side weights and explicit bottom-bracket exclusion.
+
+The [Shimano MTB derailleur follow-up](shimano-mtb-derailleur-weights.md) supplies two previously unknown SGS weights and five direct-mount front-derailleur weights, with a documented later sprocket-limit update.

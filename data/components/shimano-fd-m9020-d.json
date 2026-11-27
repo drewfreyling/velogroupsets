@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-m9020-d",
+  "slug": "fd-m9020-d",
+  "name": "XTR direct-mount front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M9020-D",
+  "weight_g": 116,
+  "weight_description": "Manufacturer-listed average 116 g for the FD-M9020-D direct-mount 2×11-speed front derailleur, including its mounting bolt. The exact model column identifies Direct Mount and the weight heading specifies direct type with bolt. Clamp-band and E-type alternatives do not inherit this weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M9020-3789/EV-FD-M9020-3789A.pdf",
+    "title": "Shimano FD-M9020 manufacturer exploded view: model family, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M9020-3789/EV-FD-M9020-3789A.pdf",
+      "title": "Shimano FD-M9020 manufacturer exploded view: model family, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=37",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 37 / printed page 34: FD-M9020-D direct mount, 2×11-speed, 116 g; direct-type weights include bolt",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Direct mount",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "swing_type": "Side swing"
+  }
+}

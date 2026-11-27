@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD-M772-SGS",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: the 2009 table identifies RD-M772 SGS and its limits but does not publish a weight for this cage. Weights for other models or cages are not transferred.",
+  "weight_g": 229,
+  "weight_description": "Manufacturer-listed average 229 g for the exact RD-M772-SGS nine-speed SGS rear derailleur. This is the 2017–2018 handbook reference; GS and other model weights are not transferred.",
   "technical_document": {
     "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=209",
     "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 209: RD-M772 SGS model, group, cage-specific limits; no cage-specific weight",
@@ -20,13 +20,18 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2009_Trade_Sales_Support_Manual.pdf#page=209",
       "title": "Shimano 2009 Trade Sales Support Manual, PDF/printed page 209: RD-M772 SGS model, group, cage-specific limits; no cage-specific weight",
       "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=31",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 31 / printed page 28: RD-M772-SGS, 229 g per derailleur, with cage-specific limits",
+      "retrieved_on": "2026-11-28"
     }
   ],
   "specifications": {
     "cage": "SGS",
     "rear_speeds": 9,
     "total_capacity_teeth": 45,
-    "maximum_sprocket_teeth": 34,
+    "maximum_sprocket_teeth": 36,
     "minimum_sprocket_teeth": 11,
     "maximum_front_difference_teeth": 22
   }

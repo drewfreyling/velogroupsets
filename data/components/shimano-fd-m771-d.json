@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-m771-d",
+  "slug": "fd-m771-d",
+  "name": "Deore XT direct-mount front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m770"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M771-D",
+  "weight_g": 147,
+  "weight_description": "Manufacturer-listed average 147 g for the FD-M771-D direct-mount 3×9-speed front derailleur, including its mounting bolt. The exact model column identifies Direct Mount and the weight heading specifies direct type with bolt. Clamp-band and E-type alternatives do not inherit this weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M771-D-2859/EV-FD-M771-D-2859.pdf",
+    "title": "Shimano FD-M771-D manufacturer exploded view: model family, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M771-D-2859/EV-FD-M771-D-2859.pdf",
+      "title": "Shimano FD-M771-D manufacturer exploded view: model family, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=41",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 41 / printed page 38: FD-M771-D direct mount, 3×9-speed, 147 g; direct-type weights include bolt",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Direct mount",
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "swing_type": "Down swing"
+  }
+}
