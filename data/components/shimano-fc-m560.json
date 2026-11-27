@@ -20,6 +20,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=23",
       "title": "Shimano 1994 dealer manual, page 23: model specifications and manufacturer-listed reference weights",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=10",
+      "title": "Shimano 1993 STI manual, PDF page 10 / printed 9: Altus A10/A20/C10 front combinations, exact crank and front codes, 110/74 mm or Integrated chainring mounting, separate bottom brackets",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -29,6 +34,10 @@
       36,
       26
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameters_mm": [
+      110,
+      74
+    ]
   }
 }

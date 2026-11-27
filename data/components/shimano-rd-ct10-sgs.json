@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-ct10-sgs",
+  "slug": "rd-ct10-sgs",
+  "name": "Altus C10 rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-c10"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-CT10-SGS",
+  "weight_g": 307,
+  "weight_description": "Manufacturer-listed 307 g for the explicitly named RD-CT10-SGS seven-speed SGS assembly; no GS weight is inferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=36",
+    "title": "Shimano 1993 dealer product manual, PDF/printed page 36: Altus C10 named inventory, configuration-specific specifications and listed weights",
+    "retrieved_on": "2026-11-27"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=36",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 36: Altus C10 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=13",
+      "title": "Shimano 1993 STI manual, PDF page 13 / printed 12: Altus A10/A20/C10 seven-speed GS/SGS limits, control variants and CS-HG50 gearing including M 13–28T",
+      "retrieved_on": "2026-11-27"
+    }
+  ],
+  "specifications": {
+    "cage": "SGS",
+    "rear_speeds": 7,
+    "total_capacity_teeth": 38,
+    "maximum_sprocket_teeth": 32,
+    "minimum_sprocket_teeth": 12,
+    "maximum_front_difference_teeth": 20
+  }
+}

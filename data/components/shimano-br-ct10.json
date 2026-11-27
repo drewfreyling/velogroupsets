@@ -1,0 +1,35 @@
+{
+  "id": "shimano-br-ct10",
+  "slug": "br-ct10",
+  "name": "Altus C10 cantilever brake pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-c10"
+  ],
+  "type": "brake-calipers",
+  "model_number": "BR-CT10",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for a complete front/rear cantilever pair including pads and mounting bolts. A bare or one-piece dealer figure is not divided, doubled or assigned to this pair.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=36",
+    "title": "Shimano 1993 dealer product manual, PDF/printed page 36: Altus C10 named inventory, configuration-specific specifications and listed weights",
+    "retrieved_on": "2026-11-27"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=36",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 36: Altus C10 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=15",
+      "title": "Shimano 1993 STI manual, PDF page 15 / printed 14: Altus A10/A20/C10 cantilever M/L arm models and matching control combinations",
+      "retrieved_on": "2026-11-27"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "brake_type": "Cantilever",
+    "arm_size": "M"
+  }
+}

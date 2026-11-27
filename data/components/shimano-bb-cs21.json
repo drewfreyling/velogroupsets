@@ -1,0 +1,36 @@
+{
+  "id": "shimano-bb-cs21",
+  "slug": "bb-cs21",
+  "name": "Cartridge bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-c10"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-CS21",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the exact BB-CS21 assembly and weighed spindle configuration. The dealer page groups CS21/CS11 in one row; its 387 g figure is not transferred to a presumed distinct assembly.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=36",
+    "title": "Shimano 1993 dealer product manual, PDF/printed page 36: Altus C10 named inventory, configuration-specific specifications and listed weights",
+    "retrieved_on": "2026-11-27"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=36",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 36: Altus C10 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=10",
+      "title": "Shimano 1993 STI manual, PDF page 10 / printed 9: Altus A10/A20/C10 front combinations, exact crank and front codes, 110/74 mm or Integrated chainring mounting, separate bottom brackets",
+      "retrieved_on": "2026-11-27"
+    }
+  ],
+  "specifications": {
+    "available_spindle_lengths_mm": [
+      122.5,
+      127.5
+    ]
+  }
+}

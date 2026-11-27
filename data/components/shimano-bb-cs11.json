@@ -4,7 +4,9 @@
   "name": "Altus CT50 square-taper bottom bracket",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-altus-ct50"
+    "shimano-altus-ct50",
+    "shimano-altus-c10",
+    "shimano-altus-c20"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-CS11",
@@ -20,6 +22,16 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1994_Shimano_STI_ENG_Spanishl.pdf#page=41",
       "title": "Shimano 1994 STI technical manual, PDF page 41 / printed 6-1: Altus CT50 front drive: exact ST-CT50/SL-CT50 triple controls, FC-CT50 170 mm 48/38/28T, FD-CT50 and BB-CS11 122.5 mm spindle",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=10",
+      "title": "Shimano 1993 STI manual, PDF page 10 / printed 9: Altus A10/A20/C10 front combinations, exact crank and front codes, 110/74 mm or Integrated chainring mounting, separate bottom brackets",
+      "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=25",
+      "title": "Shimano 1993 STI manual, PDF page 25 / printed 24: Altus C20 ST/SL-CT20 six-speed controls, FD/FC-CT20, 170 mm 48/38/28T crank and separate BB-CS11",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {

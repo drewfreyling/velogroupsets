@@ -6,7 +6,9 @@
   "groupset_ids": [
     "shimano-alivio-mc10",
     "shimano-stx-mc30",
-    "shimano-exage-lt-m320"
+    "shimano-exage-lt-m320",
+    "shimano-altus-a10",
+    "shimano-altus-a20"
   ],
   "type": "bottom-bracket",
   "model_number": "BB-LP20",
@@ -42,6 +44,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=10",
       "title": "Shimano 1993 STI technical manual, PDF page 10 / printed 9: named Exage ES/LT front drive: exact M520/M320 cranks, normal/top-route front models, triple controls, bands, 46/36/26T and separate bottom brackets",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=10",
+      "title": "Shimano 1993 STI manual, PDF page 10 / printed 9: Altus A10/A20/C10 front combinations, exact crank and front codes, 110/74 mm or Integrated chainring mounting, separate bottom brackets",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {

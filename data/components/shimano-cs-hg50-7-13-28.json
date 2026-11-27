@@ -4,7 +4,10 @@
   "name": "Exage LT 7-speed 13–28T cassette",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-exage-lt-m320"
+    "shimano-exage-lt-m320",
+    "shimano-altus-a10",
+    "shimano-altus-a20",
+    "shimano-altus-c10"
   ],
   "type": "cassette",
   "model_number": "CS-HG50",
@@ -25,6 +28,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=13",
       "title": "Shimano 1993 STI technical manual, PDF page 13 / printed 12: seven-speed Exage rear drive: exact GS/SGS models, 36T/30T/12T versus 38T/32T/12T limits and ST-M520/ST-M320 controls; this sheet prints LX for the LT column",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=13",
+      "title": "Shimano 1993 STI manual, PDF page 13 / printed 12: Altus A10/A20/C10 seven-speed GS/SGS limits, control variants and CS-HG50 gearing including M 13–28T",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {

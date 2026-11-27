@@ -1,0 +1,45 @@
+{
+  "id": "shimano-fc-at10",
+  "slug": "fc-at10",
+  "name": "Altus A10 crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-a10"
+  ],
+  "type": "crankset",
+  "model_number": "FC-AT10",
+  "weight_g": 875,
+  "weight_description": "Manufacturer-listed 875 g with 170 mm arms and 46/36/26T chainrings, excluding the separately documented bottom bracket.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=34",
+    "title": "Shimano 1993 dealer product manual, PDF/printed page 34: Altus A10 named inventory, configuration-specific specifications and listed weights",
+    "retrieved_on": "2026-11-27"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=34",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 34: Altus A10 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=10",
+      "title": "Shimano 1993 STI manual, PDF page 10 / printed 9: Altus A10/A20/C10 front combinations, exact crank and front codes, 110/74 mm or Integrated chainring mounting, separate bottom brackets",
+      "retrieved_on": "2026-11-27"
+    }
+  ],
+  "specifications": {
+    "chainrings_teeth": [
+      46,
+      36,
+      26
+    ],
+    "front_speeds": 3,
+    "rear_speeds": 7,
+    "includes_bottom_bracket": false,
+    "crank_length_mm": 170,
+    "bolt_circle_diameters_mm": [
+      110,
+      74
+    ]
+  }
+}

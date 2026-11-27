@@ -4,7 +4,8 @@
   "name": "Exage LT brake lever pair",
   "manufacturer_id": "shimano",
   "groupset_ids": [
-    "shimano-exage-lt-m320"
+    "shimano-exage-lt-m320",
+    "shimano-altus-c10"
   ],
   "type": "brake-levers",
   "model_number": "BL-CT10",
@@ -25,6 +26,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=15",
       "title": "Shimano 1993 STI technical manual, PDF page 15 / printed 14: named Exage ES/LT cantilever/control table: BR-M520/M320 M arms, BR-M521/M321 L arms, dynamic unit links and 22.2 mm control clamps",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=36",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 36: Altus C10 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {

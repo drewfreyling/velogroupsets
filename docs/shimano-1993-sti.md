@@ -63,3 +63,5 @@ BB-UN51 retains its unknown mass and existing 110/113 mm options, with the separ
 ## Further review
 
 This is a focused Exage ES/LT review, not a complete audit of all 79 STI pages. Altus A10/A20/C10/C20, the other LX service configurations, 105 SC and the additional-product sheets remain further review material. Similar model codes in other dated families need an identity check before sharing or replacing existing records. Hybrid 700CX/400CX systems are not forced into the available road/MTB/gravel/track categories.
+
+The [27 November Altus follow-up](shimano-1993-altus.md) adds the separately named A10/A20/C10/C20 ranges and their documented inventories, while preserving these Exage records.

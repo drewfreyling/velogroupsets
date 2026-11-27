@@ -1,0 +1,26 @@
+{
+  "id": "shimano-bb-lp10",
+  "slug": "bb-lp10",
+  "name": "Cartridge bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-a10"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-LP10",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the exact manufacturer-labelled BB-LP10 shown in the Altus A10 spread. Its code is not equated to the separately listed LP20/LP30 options; no weighed spindle length is inferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=34",
+    "title": "Shimano 1993 dealer product manual, PDF/printed page 34: Altus A10 named inventory, configuration-specific specifications and listed weights",
+    "retrieved_on": "2026-11-27"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=34",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 34: Altus A10 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
+    }
+  ],
+  "specifications": {}
+}

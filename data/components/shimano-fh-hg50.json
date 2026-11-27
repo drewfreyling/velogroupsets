@@ -1,7 +1,7 @@
 {
   "id": "shimano-fh-hg50",
   "slug": "fh-hg50",
-  "name": "Exage seven-speed rear hub",
+  "name": "HG50 seven-speed rear hub",
   "manufacturer_id": "shimano",
   "groupset_ids": [
     "shimano-exage-500ex",
@@ -11,7 +11,10 @@
     "shimano-exage-lt-m320",
     "shimano-exage-500lx-m500",
     "shimano-exage-400lx-m400",
-    "shimano-exage-300lx-m300"
+    "shimano-exage-300lx-m300",
+    "shimano-altus-a10",
+    "shimano-altus-a20",
+    "shimano-altus-c10"
   ],
   "type": "rear-hub",
   "model_number": "FH-HG50",
@@ -72,6 +75,21 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1992_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=35",
       "title": "Shimano 1992 dealer product manual, PDF page 35 / printed 32: Exage 300LX exact inventory: RD-M300-SGS 319 g and separate GS limits, FD-M300-B/FD-M300/FD-M301, FC-M300-SG 170 mm 48/38/28T 756 g, shared controls and bottom brackets",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=34",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 34: Altus A10 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=35",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 35: Altus A20 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=36",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 36: Altus C10 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
     }
   ]
 }

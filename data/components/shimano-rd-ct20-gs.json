@@ -1,0 +1,38 @@
+{
+  "id": "shimano-rd-ct20-gs",
+  "slug": "rd-ct20-gs",
+  "name": "Altus C20 rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-c20"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-CT20-GS",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the exact RD-CT20-GS six-speed assembly. The dealer table supplies limits but no mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=37",
+    "title": "Shimano 1993 dealer product manual, PDF/printed page 37: Altus C20 named inventory, configuration-specific specifications and listed weights",
+    "retrieved_on": "2026-11-27"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=37",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 37: Altus C20 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=25",
+      "title": "Shimano 1993 STI manual, PDF page 25 / printed 24: Altus C20 ST/SL-CT20 six-speed controls, FD/FC-CT20, 170 mm 48/38/28T crank and separate BB-CS11",
+      "retrieved_on": "2026-11-27"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 6,
+    "total_capacity_teeth": 34,
+    "maximum_sprocket_teeth": 28,
+    "minimum_sprocket_teeth": 14,
+    "maximum_front_difference_teeth": 20
+  }
+}

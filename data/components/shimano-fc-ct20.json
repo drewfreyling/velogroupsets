@@ -1,0 +1,43 @@
+{
+  "id": "shimano-fc-ct20",
+  "slug": "fc-ct20",
+  "name": "Altus C20 crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-altus-c20"
+  ],
+  "type": "crankset",
+  "model_number": "FC-CT20",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced: the 1993 manual identifies 170 mm arms and 48/38/28T rings but supplies no crank-only mass.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=37",
+    "title": "Shimano 1993 dealer product manual, PDF/printed page 37: Altus C20 named inventory, configuration-specific specifications and listed weights",
+    "retrieved_on": "2026-11-27"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=37",
+      "title": "Shimano 1993 dealer product manual, PDF/printed page 37: Altus C20 named inventory, configuration-specific specifications and listed weights",
+      "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1993_Shimano_STI.pdf#page=25",
+      "title": "Shimano 1993 STI manual, PDF page 25 / printed 24: Altus C20 ST/SL-CT20 six-speed controls, FD/FC-CT20, 170 mm 48/38/28T crank and separate BB-CS11",
+      "retrieved_on": "2026-11-27"
+    }
+  ],
+  "specifications": {
+    "chainrings_teeth": [
+      48,
+      38,
+      28
+    ],
+    "front_speeds": 3,
+    "rear_speeds": 6,
+    "includes_bottom_bracket": false,
+    "available_crank_lengths_mm": [
+      170
+    ]
+  }
+}
