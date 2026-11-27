@@ -25,9 +25,15 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=167",
       "title": "Shimano 2025–2026 specifications, printed page 164 (PDF page 167): FC-R4000, no published average weight in selected table",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-R4000-4906/EV-FC-R4000-4906A.pdf#page=1",
+      "title": "Shimano FC-R4000 exploded view, PDF page 1: explicit chainring bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
-    "rear_speeds": 11
+    "rear_speeds": 11,
+    "bolt_circle_diameter_mm": 110
   }
 }

@@ -20,7 +20,17 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-M510-S-1872/EV-FC-M510-S-1872A.pdf",
       "title": "Shimano FC-M510-S manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M510-S-1872/EV-FC-M510-S-1872A.pdf#page=1",
+      "title": "Shimano FC-M510-S exploded view, PDF page 1: explicit chainring bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

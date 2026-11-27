@@ -20,6 +20,11 @@
       "url": "https://pt.scribd.com/document/951159810/Catalogo-Shimano-2008",
       "title": "Shimano 2008 Portuguese consumer catalogue: standard Ultegra FC-6650-S, 848 g including bottom bracket (archived manufacturer document)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2008_SPECIFICATION.pdf#page=118",
+      "title": "Shimano 2008 specification handbook, PDF page 118: FC-6650-S exact PCD table column",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -29,6 +34,7 @@
       34
     ],
     "front_speeds": 2,
-    "rear_speeds": 10
+    "rear_speeds": 10,
+    "bolt_circle_diameter_mm": 110
   }
 }

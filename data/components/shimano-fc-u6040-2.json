@@ -36,7 +36,17 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=230",
       "title": "Shimano 2025–2026 specifications, printed page 227 (PDF page 230): FC-U6040-2, no published average weight in selected table",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-U6040-4854/EV-FC-U6040-4854.pdf#page=1",
+      "title": "Shimano FC-U6040-2 exploded view, PDF page 1: explicit chainring bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      110,
+      80
+    ]
+  }
 }

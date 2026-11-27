@@ -20,6 +20,11 @@
       "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=9",
       "title": "Shimano 2008 Road consumer catalogue, PDF page 9: Ultegra SL and shared components, including separate hub/skewer weights (archived manufacturer PDF)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2008_SPECIFICATION.pdf#page=119",
+      "title": "Shimano 2008 specification handbook, PDF page 119: FC-6650-G exact PCD table column",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -30,6 +35,7 @@
     ],
     "front_speeds": 2,
     "rear_speeds": 10,
-    "finish": "Ice grey"
+    "finish": "Ice grey",
+    "bolt_circle_diameter_mm": 110
   }
 }

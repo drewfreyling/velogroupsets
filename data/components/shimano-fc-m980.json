@@ -25,7 +25,17 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=49",
       "title": "Shimano 2014–2015 specifications, PDF page 49: FC-M980 options and unresolved crankset-only weight basis",
       "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M980-3086/EV-FC-M980-3086A.pdf#page=1",
+      "title": "Shimano FC-M980 exploded view, PDF page 1: explicit chainring bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

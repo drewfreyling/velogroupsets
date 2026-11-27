@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=171",
       "title": "Shimano 2017–2018 specifications, PDF page 171: 170 mm crankset weights without bottom brackets",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2010_SPECIFICATION.pdf#page=113",
+      "title": "Shimano 2010 specification handbook, PDF page 113: FC-6703 exact PCD table column",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -36,6 +41,10 @@
     ],
     "front_speeds": 3,
     "rear_speeds": 10,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameters_mm": [
+      130,
+      92
+    ]
   }
 }

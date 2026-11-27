@@ -20,7 +20,17 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-M600-2355/EV-FC-M600-3-2355B.pdf",
       "title": "Shimano FC-M600 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M600-2355/EV-FC-M600-3-2355B.pdf#page=1",
+      "title": "Shimano FC-M600 exploded view, PDF page 1: explicit chainring bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

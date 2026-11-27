@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=165",
       "title": "Shimano 2025–2026 specifications, printed page 162 (PDF page 165): FC-R8100, 700 g at 170 mm, 50/34T, without bottom bracket",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=165",
+      "title": "Shimano 2025–2026 specifications, PDF page 165 / printed page 162: FC-R8100 exact 110 mm PCD column",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -34,6 +39,7 @@
       50,
       34
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 110
   }
 }

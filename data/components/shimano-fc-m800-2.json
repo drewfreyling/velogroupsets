@@ -20,6 +20,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=118",
       "title": "Shimano 2004 STI technical manual, PDF page 118 / printed page 114: FC-M800-1 / -2 / -3 exact single/double/triple models, chainrings and arm lengths in the Saint section",
       "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2008_SPECIFICATION.pdf#page=46",
+      "title": "Shimano 2008 specification handbook, PDF page 46: FC-M800-2 exact PCD table column",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -36,6 +41,10 @@
       170,
       175,
       180
+    ],
+    "bolt_circle_diameters_mm": [
+      104,
+      64
     ]
   }
 }

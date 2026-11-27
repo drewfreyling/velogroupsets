@@ -20,6 +20,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=129",
       "title": "Shimano 2004 STI technical manual, PDF page 129 / printed page 125: FC-M761 exact model, 48/36/26T rings, 170 mm arm option and 50 mm chainline",
       "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_SPECIFICATION.pdf#page=54",
+      "title": "Shimano 2005 specification handbook, PDF page 54: FC-M761 exact PCD table column",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -31,6 +36,10 @@
     ],
     "includes_bottom_bracket": false,
     "front_speeds": 3,
-    "chainline_mm": 50
+    "chainline_mm": 50,
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
   }
 }
