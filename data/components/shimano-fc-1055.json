@@ -25,6 +25,11 @@
       "url": "https://vintagecannondale.com/cannondale/shimano/1991%20Shimano.pdf#page=39",
       "title": "Shimano 1991 dealer catalogue, printed page 36 (PDF page 39): FC-1055-SG 710 g, 170 mm and 52/42T, bottom bracket separate; manufacturer scan hosted by Vintage Cannondale",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-1055-1109/EV-FC-1055-1109.pdf#page=1",
+      "title": "Shimano original FC-1055 exploded view, page 1: explicitly Bolt circle diameter 130 mm",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -33,6 +38,7 @@
       52,
       42
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 130
   }
 }

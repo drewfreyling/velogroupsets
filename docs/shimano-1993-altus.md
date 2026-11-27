@@ -69,3 +69,5 @@ FH-HG50, unsuffixed HB-RM50, the CS-HG50 seven-speed M 13–28T configuration, B
 The A10 dealer spread explicitly labels **BB-LP10**. That identity is added with an unknown weight; it is not renamed to LP20 or LP30 because the STI sheet lists those alternative combinations. BB-CS21 is also added with an unknown weight: the shared CS21/CS11 weight row does not establish a separately qualified assembly to transfer its figure to. Available spindle lengths do not choose a weighed reference.
 
 The C20 spread lists **MF-HG20**, a threaded freewheel. It is not forced into the cassette type. Freewheel modelling, additional positions/mounts, qualified control-pair and brake weights, and other 1993 sections remain further source work. This is an Altus follow-up, not a complete import of the STI or dealer manual.
+
+The subsequent [road follow-up](shimano-1993-road-follow-up.md) adds exact 105 SC identities, further 130 mm BCDs and three qualified BB-UN71 spindle configurations.

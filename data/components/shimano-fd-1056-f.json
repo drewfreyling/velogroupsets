@@ -1,0 +1,30 @@
+{
+  "id": "shimano-fd-1056-f",
+  "slug": "fd-1056-f",
+  "name": "105 SC braze-on front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-1056-F",
+  "weight_g": null,
+  "weight_description": "Weight not yet sourced for the exact FD-1056-F braze-on assembly. The dealer page assigns its 105 g figure to the band-mounted model; that mass is not transferred.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=61",
+    "title": "Shimano 1993 dealer manual, PDF/printed page 61: 105SC FC-1056 and FD-1056-F braze-on variant, BB-UN71 explicitly 272 g / 107 mm",
+    "retrieved_on": "2026-11-27"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=61",
+      "title": "Shimano 1993 dealer manual, PDF/printed page 61: 105SC FC-1056 and FD-1056-F braze-on variant, BB-UN71 explicitly 272 g / 107 mm",
+      "retrieved_on": "2026-11-27"
+    }
+  ],
+  "specifications": {
+    "mount": "Braze-on",
+    "front_speeds": 2,
+    "total_capacity_teeth": 15
+  }
+}

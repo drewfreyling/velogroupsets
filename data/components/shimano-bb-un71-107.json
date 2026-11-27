@@ -1,0 +1,29 @@
+{
+  "id": "shimano-bb-un71-107",
+  "slug": "bb-un71-107",
+  "name": "BB-UN71 107 mm bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-sc-1055"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-UN71",
+  "weight_g": 272,
+  "weight_description": "Manufacturer-listed 272 g for the exact BB-UN71 square-taper assembly with 107 mm spindle. Other spindle lengths do not inherit this mass; no shell/thread variant is selected beyond the source reference.",
+  "technical_document": {
+    "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=61",
+    "title": "Shimano 1993 dealer manual, PDF/printed page 61: 105SC FC-1056 and FD-1056-F braze-on variant, BB-UN71 explicitly 272 g / 107 mm",
+    "retrieved_on": "2026-11-27"
+  },
+  "sources": [
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=61",
+      "title": "Shimano 1993 dealer manual, PDF/printed page 61: 105SC FC-1056 and FD-1056-F braze-on variant, BB-UN71 explicitly 272 g / 107 mm",
+      "retrieved_on": "2026-11-27"
+    }
+  ],
+  "specifications": {
+    "interface": "Square taper",
+    "spindle_length_mm": 107
+  }
+}

@@ -20,6 +20,11 @@
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/1993/37-38.htm",
       "title": "Shimano 1993 catalogue, pages 37–38: eight-speed 600 Ultegra update and weights (published September 1992; archived by Charlie Taylor)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-6400-SG-1150/EV-FC-6400-SG-1150A.pdf#page=1",
+      "title": "Shimano original FC-6400-SG exploded view, page 1: explicitly Bolt circle diameter 130 mm",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -29,6 +34,7 @@
       42
     ],
     "front_speeds": 2,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 130
   }
 }
