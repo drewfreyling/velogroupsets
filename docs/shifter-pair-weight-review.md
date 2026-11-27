@@ -1,5 +1,7 @@
 # Shifter pair weight review
 
+The later [Shimano MTB control and crank review](shimano-mtb-control-crank-weights.md) adds SL-M980-A and SL-M980-B-I from exact left/right figures, plus the manufacturer-published SL-M770-A pair. The original SL-M980 remains unknown.
+
 The later [complete-set follow-up](shimano-stx-mc32-altus-c90.md#complete-shifter-set-references) adds six period Shimano control pairs and resolves SL-M660 from manufacturer tables that explicitly define both front and rear controls within each complete lever set.
 
 The later [1997–2000 Shimano MTB control review](shimano-mtb-controls-1997-2000.md) fills the SL-M750, SL-M570 and SL-M510 pair weights and adds distinct ST combined-control pairs. ST and SL model codes remain separate identities.

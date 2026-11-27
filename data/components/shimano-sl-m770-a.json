@@ -1,0 +1,36 @@
+{
+  "id": "shimano-sl-m770-a",
+  "slug": "sl-m770-a",
+  "name": "SL-M770-A control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m770"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M770-A",
+  "weight_g": 255,
+  "weight_description": "Manufacturer-listed 255 g for the complete left/right SL-M770-A band-clamp control pair, for 3×9-speed shifting with removable optical gear displays. The table explicitly states g/pair; the repeated pair figure is not doubled. Cable/housing inclusion is not specified. The A revision remains distinct from SL-M770.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M770-A-3182/EV-SL-M770-A-3182.pdf",
+    "title": "Shimano SL-M770-A manufacturer exploded view: exact model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M770-A-3182/EV-SL-M770-A-3182.pdf",
+      "title": "Shimano SL-M770-A manufacturer exploded view: exact model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=8",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 8 / printed page 5: SL-M770-A-R / SL-M770-A-L, 255 g/pair",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "mounting_system": "Band clamp"
+  }
+}

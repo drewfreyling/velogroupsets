@@ -1,0 +1,45 @@
+{
+  "id": "shimano-fc-m785",
+  "slug": "fc-m785",
+  "name": "Deore XT crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m780"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M785",
+  "weight_g": 717.6,
+  "weight_description": "Manufacturer-listed average 717.6 g for FC-M785 with 175 mm arms and 38/26T chainrings, excluding the bottom bracket. The handbook explicitly defines the weight row as 175 mm, without BB. This sourced 175 mm reference is not converted to an estimated 170 mm weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M785-3165/EV-FC-M785-3165B.pdf",
+    "title": "Shimano FC-M785 manufacturer exploded view: exact model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M785-3165/EV-FC-M785-3165B.pdf",
+      "title": "Shimano FC-M785 manufacturer exploded view: exact model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=63",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 63 / printed page 60: FC-M785, 717.6 g for 175 mm / 38/26T, without BB; BCD 104/64 mm",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      38,
+      26
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ],
+    "chainline_mm": 48.8
+  }
+}

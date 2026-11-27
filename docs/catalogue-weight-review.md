@@ -143,3 +143,5 @@ The [targeted Shimano MTB crank review](shimano-mtb-crank-weights.md) records th
 The [28 November 2026 weight review](weight-review-2026-11-28.md) subsequently fills seven microSHIFT and Campagnolo weights, with model and battery-inclusion limitations recorded.
 
 The [period Shimano brake and derailleur review](shimano-period-brake-weights.md) subsequently adds six components with qualified weights, preserving the earlier records and reference configurations.
+
+The [Shimano MTB control and crank review](shimano-mtb-control-crank-weights.md) adds three revision-specific control pairs and two qualified crankset references, including both calculated side weights and explicit bottom-bracket exclusion.

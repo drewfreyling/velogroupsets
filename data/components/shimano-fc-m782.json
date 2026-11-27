@@ -1,0 +1,46 @@
+{
+  "id": "shimano-fc-m782",
+  "slug": "fc-m782",
+  "name": "Deore XT crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m780"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M782",
+  "weight_g": 778,
+  "weight_description": "Manufacturer-listed average 778 g for FC-M782 with 175 mm arms and 40/30/22T chainrings, excluding the bottom bracket. The handbook explicitly defines the weight row as 175 mm, without BB. This sourced 175 mm reference is not converted to an estimated 170 mm weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M782-3530/EV-FC-M782-3530A.pdf",
+    "title": "Shimano FC-M782 manufacturer exploded view: exact model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M782-3530/EV-FC-M782-3530A.pdf",
+      "title": "Shimano FC-M782 manufacturer exploded view: exact model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=63",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 63 / printed page 60: FC-M782, 778 g for 175 mm / 40/30/22T, without BB; BCD 96/64 mm",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      40,
+      30,
+      22
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 3,
+    "rear_speeds": 10,
+    "bolt_circle_diameters_mm": [
+      96,
+      64
+    ],
+    "chainline_mm": 50
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "shimano-sl-m980-b-i",
+  "slug": "sl-m980-b-i",
+  "name": "SL-M980-B-I control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m980"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M980-B-I",
+  "weight_g": 201,
+  "weight_description": "Calculated pair weight: 98 g (SL-M980-B-IL) + 103 g (SL-M980-B-IR) = 201 g, using Shimano’s published individual-unit average weights. I-spec B controls for 10-speed rear shifting and selectable 2/3-chainring front shifting, without optical gear displays. Cable/housing inclusion is not specified. This revision is distinct from the original SL-M980.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M980-B-I-3615/EV-SL-M980-B-I-3615.pdf",
+    "title": "Shimano SL-M980-B-I manufacturer exploded view: exact model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M980-B-I-3615/EV-SL-M980-B-I-3615.pdf",
+      "title": "Shimano SL-M980-B-I manufacturer exploded view: exact model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=6",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 6 / printed page 3: SL-M980-B-IL 98 g and SL-M980-B-IR 103 g per unit, I-spec B",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M980-B-IL",
+    "right_model": "SL-M980-B-IR",
+    "left_weight_g": 98,
+    "right_weight_g": 103,
+    "rear_speeds": 10,
+    "available_front_speeds": [
+      2,
+      3
+    ],
+    "mounting_system": "I-spec B"
+  }
+}

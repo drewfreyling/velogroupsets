@@ -1,0 +1,44 @@
+{
+  "id": "shimano-sl-m980-a",
+  "slug": "sl-m980-a",
+  "name": "SL-M980-A control pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m980"
+  ],
+  "type": "shifters",
+  "model_number": "SL-M980-A",
+  "weight_g": 203,
+  "weight_description": "Calculated pair weight: 104 g (SL-M980-A-L) + 99 g (SL-M980-A-R) = 203 g, using Shimano’s published individual-unit average weights. Band clamp controls for 10-speed rear shifting and selectable 2/3-chainring front shifting, without optical gear displays. Cable/housing inclusion is not specified. This revision is distinct from the original SL-M980.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/SL-M980-A-3310/EV-SL-M980-A-3310A.pdf",
+    "title": "Shimano SL-M980-A manufacturer exploded view: exact model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/SL-M980-A-3310/EV-SL-M980-A-3310A.pdf",
+      "title": "Shimano SL-M980-A manufacturer exploded view: exact model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=5",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 5 / printed page 2: SL-M980-A-L 104 g and SL-M980-A-R 99 g per unit, Band clamp",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "weight_method": "Sum of manufacturer side weights",
+    "left_model": "SL-M980-A-L",
+    "right_model": "SL-M980-A-R",
+    "left_weight_g": 104,
+    "right_weight_g": 99,
+    "rear_speeds": 10,
+    "available_front_speeds": [
+      2,
+      3
+    ],
+    "mounting_system": "Band clamp"
+  }
+}
