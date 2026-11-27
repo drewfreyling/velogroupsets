@@ -147,3 +147,5 @@ The [period Shimano brake and derailleur review](shimano-period-brake-weights.md
 The [Shimano MTB control and crank review](shimano-mtb-control-crank-weights.md) adds three revision-specific control pairs and two qualified crankset references, including both calculated side weights and explicit bottom-bracket exclusion.
 
 The [Shimano MTB derailleur follow-up](shimano-mtb-derailleur-weights.md) supplies two previously unknown SGS weights and five direct-mount front-derailleur weights, with a documented later sprocket-limit update.
+
+The [Shimano MTB clamp-mounted front-derailleur review](shimano-mtb-clamp-weights.md) adds eight high/low-clamp variants with explicit 34.9 mm weight references.

@@ -1,0 +1,38 @@
+{
+  "id": "shimano-fd-m9000-l",
+  "slug": "fd-m9000-l",
+  "name": "XTR low clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M9000-L",
+  "weight_g": 112,
+  "weight_description": "Manufacturer-listed average 112 g for FD-M9000-L, a 3×11-speed side-swing front derailleur with a 34.9 mm low clamp band. The weight table specifies L-size band type; the 28.6 mm S and 31.8 mm M reducer adapters are not fitted to this reference. The complete factory clamp assembly is shown in the manufacturer exploded view. Other mounts and reduced clamp sizes do not inherit this mass.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M9000-3788/EV-FD-M9000-3788A.pdf",
+    "title": "Shimano FD-M9000 exploded view: 3×11-speed model family, high/low clamp assemblies and separate S/M band adapters",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M9000-3788/EV-FD-M9000-3788A.pdf",
+      "title": "Shimano FD-M9000 exploded view: 3×11-speed model family, high/low clamp assemblies and separate S/M band adapters",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=36",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 36 / printed page 33: FD-M9000-L, 112 g; band-type weight at L size, 34.9 mm without S/M adapters",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 34.9,
+    "clamp_position": "Low clamp",
+    "front_speeds": 3,
+    "rear_speeds": 11,
+    "swing_type": "Side swing"
+  }
+}
