@@ -25,9 +25,18 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1994_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=26",
       "title": "Shimano 1994 dealer manual, printed/PDF p. 26: STX Special Edition Chromica assemblies, distinct from the standard MC30 range.",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-MC31-CH-1348/EV-FC-MC31-CH-1348.pdf#page=1",
+      "title": "Shimano FC-MC31-CH exploded view, PDF page 1: 95 / 58 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
-    "finish": "Chromica"
+    "finish": "Chromica",
+    "bolt_circle_diameters_mm": [
+      95,
+      58
+    ]
   }
 }

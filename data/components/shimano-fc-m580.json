@@ -25,7 +25,17 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=97",
       "title": "Shimano 2006 trade sales/support manual, PDF page 97: FC-M580 crankset with BB unit",
       "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M580-2356/EV-FC-M580-2356C.pdf#page=1",
+      "title": "Shimano FC-M580 exploded view, PDF page 1: 104 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

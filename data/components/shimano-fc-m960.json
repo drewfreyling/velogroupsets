@@ -25,7 +25,18 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2005_Trade_Sales_Support_Manual.pdf#page=67",
       "title": "Shimano 2005 trade sales/support manual, PDF page 67: FC-M960 total weight including bottom bracket",
       "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M960-2152/EV-FC-M960-2152D.pdf#page=1",
+      "title": "Shimano FC-M960 exploded view, PDF page 1: 146 / 102 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      146,
+      102,
+      64
+    ]
+  }
 }

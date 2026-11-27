@@ -20,9 +20,15 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2008_LINE-UP_CHART.pdf#page=24",
       "title": "Shimano 2008 line-up chart, PDF page 24: Tiagra 4500 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-4500-2593/EV-FC-4500-2593B.pdf#page=1",
+      "title": "Shimano FC-4500 exploded view, PDF page 1: 130 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
-    "rear_speeds": 9
+    "rear_speeds": 9,
+    "bolt_circle_diameter_mm": 130
   }
 }

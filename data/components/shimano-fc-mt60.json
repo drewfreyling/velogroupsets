@@ -26,6 +26,11 @@
       "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
       "title": "Original Shimano 1989 catalogue (copyright August 1988), PDF page 26: FC-MT60 reference configuration and manufacturer-listed weight",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-MT60_BB-MT60-0861/EV-FC-MT60_BB-MT60-0861.pdf#page=1",
+      "title": "Shimano FC-MT60 exploded view, PDF page 1: 110 / 74 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -36,6 +41,10 @@
       48,
       38,
       28
+    ],
+    "bolt_circle_diameters_mm": [
+      110,
+      74
     ]
   }
 }

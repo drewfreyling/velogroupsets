@@ -20,6 +20,11 @@
       "url": "https://sportresort.ru/pdf/eng2008_Consumer_Road.pdf#page=11",
       "title": "Shimano 2008 Road consumer catalogue, PDF page 11: 105 5600 reference weights, including separate hub/skewer weights",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-5603-2440/EV-FC-5603-2440B.pdf#page=1",
+      "title": "Shimano FC-5603 exploded view, PDF page 1: 130 / 74 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -29,6 +34,10 @@
       39,
       30
     ],
-    "rear_speeds": 10
+    "rear_speeds": 10,
+    "bolt_circle_diameters_mm": [
+      130,
+      74
+    ]
   }
 }

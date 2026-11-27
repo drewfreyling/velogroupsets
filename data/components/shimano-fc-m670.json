@@ -20,7 +20,17 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-M670-3396/EV-FC-M670-3396.pdf",
       "title": "FC-M670 Shimano manufacturer exploded view: model, series and complete assembly",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M670-3396/EV-FC-M670-3396.pdf#page=1",
+      "title": "Shimano FC-M670 exploded view, PDF page 1: 104 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

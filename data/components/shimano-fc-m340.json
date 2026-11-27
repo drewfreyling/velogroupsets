@@ -25,7 +25,17 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2005_LINE-UP_CHART.pdf#page=10",
       "title": "Shimano 2005 line-up chart, PDF p. 10: Acera reference row, explicit component association",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M340-2189/EV-FC-M340-2189.pdf#page=1",
+      "title": "Shimano FC-M340 exploded view, PDF page 1: 104 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

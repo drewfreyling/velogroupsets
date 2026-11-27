@@ -20,9 +20,15 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=61",
       "title": "Shimano 2014-2015 line-up chart, PDF page 61: Claris 2400 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-2450-3484/EV-FC-2450-3484.pdf#page=1",
+      "title": "Shimano FC-2450 exploded view, PDF page 1: 110 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
-    "rear_speeds": 8
+    "rear_speeds": 8,
+    "bolt_circle_diameter_mm": 110
   }
 }

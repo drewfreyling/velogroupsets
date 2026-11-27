@@ -30,6 +30,11 @@
       "url": "https://drive.google.com/file/d/1DjMjm22K9deQRXb2jHrivPKqs0Y_FAYr/view",
       "title": "Original Shimano Bicycle System Components brochure, copyright August 1988, PDF page 15: FC-5000 170 mm 52/42T Biopace crankset and separate BB set weights",
       "retrieved_on": "2026-11-21"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-5000_BB-5000-0836/EV-FC-5000_BB-5000-0836.pdf#page=1",
+      "title": "Shimano FC-5000 exploded view, PDF page 1: 130 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -40,6 +45,7 @@
     ],
     "includes_bottom_bracket": false,
     "chainring_profile": "Biopace",
-    "front_speeds": 2
+    "front_speeds": 2,
+    "bolt_circle_diameter_mm": 130
   }
 }

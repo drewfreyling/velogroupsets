@@ -20,7 +20,17 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-M590-2926/EV-FC-M590-2926B.pdf",
       "title": "Shimano FC-M590 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M590-2926/EV-FC-M590-2926B.pdf#page=1",
+      "title": "Shimano FC-M590 exploded view, PDF page 1: 104 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

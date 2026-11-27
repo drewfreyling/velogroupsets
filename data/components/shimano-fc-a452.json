@@ -25,10 +25,16 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_the_new_system_component_family_for_every_riding_style_-_page_10.html",
       "title": "Shimano The New System Component Family for Every Riding Style, August 1988, page 10 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-A452-0971/EV-FC-A452-0971.pdf#page=1",
+      "title": "Shimano FC-A452 exploded view, PDF page 1: 130 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
     "front_speeds": 2,
-    "front_sis_compatible": false
+    "front_sis_compatible": false,
+    "bolt_circle_diameter_mm": 130
   }
 }

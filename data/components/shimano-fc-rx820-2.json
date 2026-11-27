@@ -31,6 +31,11 @@
       "url": "https://bike.shimano.com/en-UK/stories/article/shimano-expands-gravel-lineup-with-new-2x12-speed-grx-di2.html",
       "title": "Shimano announces GRX RX825 2×12 Di2 and its shared RX820 crankset",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-RX820-5001/EV-FC-RX820-5001B.pdf#page=1",
+      "title": "Shimano FC-RX820-2 exploded view, PDF page 1: 110 / 80 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -41,6 +46,10 @@
     ],
     "front_speeds": 2,
     "rear_speeds": 12,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameters_mm": [
+      110,
+      80
+    ]
   }
 }

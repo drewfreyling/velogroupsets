@@ -30,6 +30,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2004_Shimano_STI.pdf#page=129",
       "title": "Shimano 2004 STI technical manual, PDF page 129 / printed page 125: FC-M760 exact model, 44/32/22T rings, 170 mm arm option and 50 mm chainline",
       "retrieved_on": "2026-11-22"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M760-2261/EV-FC-M760-2261D.pdf#page=1",
+      "title": "Shimano FC-M760 exploded view, PDF page 1: 104 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -41,6 +46,10 @@
     ],
     "includes_bottom_bracket": false,
     "front_speeds": 3,
-    "chainline_mm": 50
+    "chainline_mm": 50,
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
   }
 }

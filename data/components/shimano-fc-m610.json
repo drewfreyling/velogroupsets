@@ -20,7 +20,17 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-M610-3503/EV-FC-M610-3503.pdf",
       "title": "Shimano FC-M610 original manufacturer exploded drawing: complete assembly and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M610-3503/EV-FC-M610-3503.pdf#page=1",
+      "title": "Shimano FC-M610 exploded view, PDF page 1: 104 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

@@ -25,6 +25,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1991_Shimano_Bicycle_System_Component_Dealer_Product_Manual.pdf#page=67",
       "title": "Shimano 1991 dealer product manual, PDF page 67 / printed page 64: FC-M550, 752 g for 170 mm and 48/38/28T; BB-M550 listed separately",
       "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M550-1101/EV-FC-M550-1101A.pdf#page=1",
+      "title": "Shimano FC-M550 exploded view, PDF page 1: 110 / 74 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -35,6 +40,10 @@
       28
     ],
     "includes_bottom_bracket": false,
-    "weight_reference_edition": "1991 dealer product manual"
+    "weight_reference_edition": "1991 dealer product manual",
+    "bolt_circle_diameters_mm": [
+      110,
+      74
+    ]
   }
 }

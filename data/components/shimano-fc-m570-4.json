@@ -25,6 +25,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=22",
       "title": "Shimano 2000 trade manual, printed p. 20 / PDF p. 22: Deore LX FC-M570-4, 718 g at 175 mm and 44/32/22T; bottom brackets have their own model/weight rows.",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M570-4-1763/EV-FC-M570-4-1763.pdf#page=1",
+      "title": "Shimano FC-M570-4 exploded view, PDF page 1: 104 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -34,6 +39,10 @@
       32,
       22
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
   }
 }

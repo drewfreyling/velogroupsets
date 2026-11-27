@@ -20,9 +20,15 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2012-2013_Line-up_chart_all_v017_public_en.pdf#page=30",
       "title": "Shimano 2012-2013 line-up chart, PDF page 30: Tiagra 4600 and listed component options",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-4600-3144/EV-FC-4600-3144.pdf#page=1",
+      "title": "Shimano FC-4600 exploded view, PDF page 1: 130 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
-    "rear_speeds": 10
+    "rear_speeds": 10,
+    "bolt_circle_diameter_mm": 130
   }
 }

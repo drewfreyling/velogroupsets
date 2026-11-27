@@ -25,7 +25,17 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2007_Trade_Sales_Support_Manual.pdf#page=89",
       "title": "Shimano 2007 trade sales/support manual, PDF page 89: FC-M970 crankset with BB unit",
       "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M970-2592/EV-FC-M970-2592.pdf#page=1",
+      "title": "Shimano FC-M970 exploded view, PDF page 1: 104 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

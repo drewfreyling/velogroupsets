@@ -20,7 +20,17 @@
       "url": "https://si.shimano.com/en/pdfs/ev/FC-M4000-3659/EV-FC-M4000-3659.pdf",
       "title": "Shimano FC-M4000 manufacturer exploded view: model identification, series and replacement parts",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M4000-3659/EV-FC-M4000-3659.pdf#page=1",
+      "title": "Shimano FC-M4000 exploded view, PDF page 1: 96 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      96,
+      64
+    ]
+  }
 }

@@ -25,6 +25,11 @@
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/1999/large/99Shimano53-54.jpg",
       "title": "Shimano 1999 Bicycle Components, printed page 54: original manufacturer catalogue scan archived by Charlie Taylor",
       "retrieved_on": "2026-11-10"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-7700-1655/EV-FC-7700-1655B.pdf#page=1",
+      "title": "Shimano FC-7700 exploded view, PDF page 1: 130 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -33,6 +38,7 @@
       53,
       39
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 130
   }
 }

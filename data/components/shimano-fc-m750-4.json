@@ -25,7 +25,17 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2000_Shimano_Trade_Sales_Support_Manual.pdf#page=22",
       "title": "Shimano 2000 trade sales/support manual, PDF page 22: FC-M751 reference is distinct from FC-M750-4",
       "retrieved_on": "2026-11-20"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M750-4-1760/EV-FC-M750-4-1760A.pdf#page=1",
+      "title": "Shimano FC-M750-4 exploded view, PDF page 1: 104 / 64 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "bolt_circle_diameters_mm": [
+      104,
+      64
+    ]
+  }
 }

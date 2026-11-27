@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=170",
       "title": "Shimano 2025–2026 specifications, printed page 167 (PDF page 170): FC-R9200-P, 745 g at 170 mm, 50/34T, without bottom bracket",
       "retrieved_on": "2026-11-14"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-P-4810/EV-FC-R9200-P-4810B.pdf#page=1",
+      "title": "Shimano FC-R9200-P exploded view, PDF page 1: 110 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -33,6 +38,7 @@
       50,
       34
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 110
   }
 }

@@ -20,6 +20,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_20.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 20: 600 Ultegra components and weights (published August 1989; archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-6400_BB-6400-0834/EV-FC-6400_BB-6400-0834B.pdf#page=1",
+      "title": "Shimano FC-6400-BP exploded view, PDF page 1: 130 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -29,6 +34,7 @@
       42
     ],
     "front_speeds": 2,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 130
   }
 }

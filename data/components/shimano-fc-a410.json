@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/si/1DA0A/SI-1DA0A-000-00-ENG.pdf",
       "title": "Shimano FC-A410 service instructions SI-1DA0A",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-A410-1500/EV-FC-A410-1500A.pdf#page=1",
+      "title": "Shimano FC-A410 exploded view, PDF page 1: 110 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -28,6 +33,7 @@
       36
     ],
     "front_speeds": 2,
-    "rear_speeds": 7
+    "rear_speeds": 7,
+    "bolt_circle_diameter_mm": 110
   }
 }

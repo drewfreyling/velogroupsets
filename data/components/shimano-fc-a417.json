@@ -20,6 +20,11 @@
       "url": "https://si.shimano.com/en/pdfs/si/1C20A/SI-1C20A-000-00-ENG.pdf",
       "title": "Shimano FC-A416 service instructions SI-1C20A",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-A417-1812/EV-FC-A417-1812.pdf#page=1",
+      "title": "Shimano FC-A417 exploded view, PDF page 1: 130 / 74 mm bolt circle diameters",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -29,6 +34,10 @@
       30
     ],
     "front_speeds": 3,
-    "rear_speeds": 8
+    "rear_speeds": 8,
+    "bolt_circle_diameters_mm": [
+      130,
+      74
+    ]
   }
 }

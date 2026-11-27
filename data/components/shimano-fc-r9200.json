@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=165",
       "title": "Shimano 2025–2026 specifications, PDF page 165",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-4809/EV-FC-R9200-4809A.pdf#page=1",
+      "title": "Shimano FC-R9200 exploded view, PDF page 1: 110 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -33,6 +38,7 @@
       50,
       34
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 110
   }
 }

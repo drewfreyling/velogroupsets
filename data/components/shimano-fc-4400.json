@@ -25,6 +25,11 @@
       "url": "https://www.charlie-taylor.net/bikes/library/shimano/2001/large/01Shimano34-35.jpg",
       "title": "Shimano 2001 Bicycle Components, printed page 34: original manufacturer catalogue scan archived by Charlie Taylor",
       "retrieved_on": "2026-11-10"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-4400-1866/EV-FC-4400-1866.pdf#page=1",
+      "title": "Shimano FC-4400 exploded view, PDF page 1: 130 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -34,6 +39,7 @@
       52,
       39
     ],
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 130
   }
 }

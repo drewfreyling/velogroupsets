@@ -25,6 +25,11 @@
       "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=117",
       "title": "Shimano 2025–2026 specifications v3.5, PDF p. 117: FC-RX820-1 170 mm reference weight and BB exclusion",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-RX820-5001/EV-FC-RX820-5001B.pdf#page=1",
+      "title": "Shimano FC-RX820-1 exploded view, PDF page 1: 110 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -34,6 +39,7 @@
     ],
     "front_speeds": 1,
     "rear_speeds": 12,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 110
   }
 }

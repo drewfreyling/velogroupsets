@@ -20,6 +20,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_-_dealers_1990_product_manual_-_page_34.html",
       "title": "Shimano Dealers’ 1990 Product Manual, page 34; published August 1989 (archived by Disraeli Gears)",
       "retrieved_on": "2026-11-08"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-A300-1095/EV-FC-A300-1095A.pdf#page=1",
+      "title": "Shimano FC-A300 exploded view, PDF page 1: 130 mm bolt circle diameter",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -29,6 +34,7 @@
       42
     ],
     "front_speeds": 2,
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 130
   }
 }
