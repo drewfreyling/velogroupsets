@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-1056-F",
-  "weight_g": null,
-  "weight_description": "Weight not yet sourced for the exact FD-1056-F braze-on assembly. The dealer page assigns its 105 g figure to the band-mounted model; that mass is not transferred.",
+  "weight_g": 94,
+  "weight_description": "Contributor-measured: 94 g for the FD-1056-F braze-on assembly, personally weighed by the project owner. Scale resolution, component condition and included hardware were not reported. This measurement applies only to the stated mount configuration.",
   "technical_document": {
     "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=61",
     "title": "Shimano 1993 dealer manual, PDF/printed page 61: 105SC FC-1056 and FD-1056-F braze-on variant, BB-UN71 explicitly 272 g / 107 mm",
@@ -20,6 +20,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/1993_Shimano_Bicycle_System_Component_Dealer_Product_Manuall.pdf#page=61",
       "title": "Shimano 1993 dealer manual, PDF/printed page 61: 105SC FC-1056 and FD-1056-F braze-on variant, BB-UN71 explicitly 272 g / 107 mm",
       "retrieved_on": "2026-11-27"
+    },
+    {
+      "url": "https://github.com/drewfreyling/velogroupsets/blob/main/docs/contributor-weights.md#front-derailleur-weights-reported-on-28-november-2026",
+      "title": "Project owner’s personally measured front-derailleur weights, 28 November 2026: FD-1056-F, braze-on assembly, 94 g",
+      "retrieved_on": "2026-11-28"
     }
   ],
   "specifications": {

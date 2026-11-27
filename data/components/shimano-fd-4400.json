@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD-4400",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant configuration-specific weight for FD-4400 has not been established.",
+  "weight_g": 104,
+  "weight_description": "Contributor-measured: 104 g for the FD-4400 31.8 mm clamp-mounted assembly, personally weighed by the project owner. Scale resolution, component condition and included hardware were not reported. This measurement applies only to the stated mount configuration.",
   "technical_document": {
     "url": "https://si.shimano.com/en/pdfs/ev/FD-4400_4403-1874/EV-FD-4400_4403-1874B.pdf",
     "title": "Shimano FD-4400 exploded view and replacement parts",
@@ -25,6 +25,11 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/2000_Shimano_STI.pdf#page=84",
       "title": "Shimano 2000 STI technical manual, PDF/printed page 84: FD-4400 exact double configuration, 43.5 mm chainline and band / braze-on mounting options",
       "retrieved_on": "2026-11-23"
+    },
+    {
+      "url": "https://github.com/drewfreyling/velogroupsets/blob/main/docs/contributor-weights.md#front-derailleur-weights-reported-on-28-november-2026",
+      "title": "Project owner’s personally measured front-derailleur weights, 28 November 2026: FD-4400, 31.8 mm clamp-mounted assembly, 104 g",
+      "retrieved_on": "2026-11-28"
     }
   ],
   "specifications": {
@@ -38,6 +43,8 @@
     "available_clamp_diameters_mm": [
       28.6,
       31.8
-    ]
+    ],
+    "mount": "Clamp",
+    "clamp_diameter_mm": 31.8
   }
 }
