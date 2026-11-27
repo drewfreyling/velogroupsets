@@ -1,0 +1,32 @@
+{
+  "id": "shimano-fd-m772a",
+  "slug": "fd-m772a",
+  "name": "Deore XT clamp-mounted front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m770"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M772A",
+  "weight_g": 160,
+  "weight_description": "Manufacturer-listed average 160 g for FD-M772A, 3×9-speed, top swing, 34.9 mm clamp-mounted assembly without S/M reducer adapters. The weight heading explicitly selects L-size band type; the mount rows distinguish the unadapted 34.9 mm band from 28.6/31.8 mm reducer configurations. Other mounts and model revisions do not inherit this weight. The handbook’s exact FD-M772A model code is preserved; no equivalence with FD-M772 is inferred.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=41",
+    "title": "Shimano 2017–2018 specifications v2.8, PDF page 41 / printed page 38: FD-M772A, 160 g; exact weighed configuration and specifications",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=41",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 41 / printed page 38: FD-M772A, 160 g; exact weighed configuration and specifications",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "clamp_diameter_mm": 34.9,
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "swing_type": "Top swing"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "shimano-fc-m8000-b2",
+  "slug": "fc-m8000-b2",
+  "name": "Deore XT crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M8000-B2",
+  "weight_g": 721.6,
+  "weight_description": "Manufacturer-listed average 721.6 g for FC-M8000-B2, 175 mm crank arms and 36/26T chainrings, excluding the bottom bracket and chain/bash guard. The weight heading explicitly specifies 175 mm without BB; the selected model and chainring configuration are retained without converting to a 170 mm estimate. This B2 version has the manufacturer-specified 3 mm outboard chainline and matching frame/derailleur arrangement; standard FC-M8000-2 weights are not transferred.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M8000-3849/EV-FC-M8000-3849B.pdf",
+    "title": "Shimano FC-M8000 manufacturer exploded view: model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M8000-3849/EV-FC-M8000-3849B.pdf",
+      "title": "Shimano FC-M8000 manufacturer exploded view: model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=62",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 62 / printed page 59: FC-M8000-B2, 721.6 g; exact weighed configuration and specifications",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      36,
+      26
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "chain_line_mm": 51.8,
+    "bolt_circle_diameters_mm": [
+      96,
+      64
+    ]
+  }
+}

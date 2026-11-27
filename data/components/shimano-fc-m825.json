@@ -1,0 +1,42 @@
+{
+  "id": "shimano-fc-m825",
+  "slug": "fc-m825",
+  "name": "Saint crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m820"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M825",
+  "weight_g": 838,
+  "weight_description": "Manufacturer-listed average 838 g for FC-M825, 175 mm crank arms and 34T chainrings, excluding the bottom bracket and chain/bash guard. The weight heading explicitly specifies 175 mm without BB; the selected model and chainring configuration are retained without converting to a 170 mm estimate. This is the 83 mm bottom-bracket-shell version, distinct from FC-M820.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M825-3385/EV-FC-M825-3385.pdf",
+    "title": "Shimano FC-M825 manufacturer exploded view: model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M825-3385/EV-FC-M825-3385.pdf",
+      "title": "Shimano FC-M825 manufacturer exploded view: model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=62",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 62 / printed page 59: FC-M825, 838 g; exact weighed configuration and specifications",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 175,
+    "chainrings_teeth": [
+      34
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 1,
+    "rear_speeds": 10,
+    "chain_line_mm": 57.9,
+    "bolt_circle_diameter_mm": 104,
+    "bottom_bracket_shell_width_mm": 83
+  }
+}
