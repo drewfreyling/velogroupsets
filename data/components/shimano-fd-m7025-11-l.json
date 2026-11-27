@@ -1,0 +1,38 @@
+{
+  "id": "shimano-fd-m7025-11-l",
+  "slug": "fd-m7025-11-l",
+  "name": "SLX low clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M7025-11-L",
+  "weight_g": 133,
+  "weight_description": "Manufacturer-listed average 133 g for FD-M7025-11-L, 2×11-speed, top swing, 34.9 mm low clamp band, without S/M reducer adapters. The weight heading explicitly selects L-size band type; the mount rows distinguish the unadapted 34.9 mm band from 28.6/31.8 mm reducer configurations. Other mount variants do not inherit this weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M7025-3978/EV-FD-M7025-3978A.pdf",
+    "title": "Shimano FD-M7025 manufacturer exploded view: model identity, series and mounting assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M7025-3978/EV-FD-M7025-3978A.pdf",
+      "title": "Shimano FD-M7025 manufacturer exploded view: model identity, series and mounting assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=43",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 43 / printed page 40: FD-M7025-11-L, 133 g, 34.9 mm low clamp band, without S/M reducer adapters",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "swing_type": "Top swing",
+    "clamp_diameter_mm": 34.9,
+    "clamp_position": "Low clamp"
+  }
+}

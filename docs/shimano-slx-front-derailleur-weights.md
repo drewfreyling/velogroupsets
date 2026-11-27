@@ -1,6 +1,6 @@
 # Shimano SLX and outboard-chainline front-derailleur weights
 
-Reviewed on **28 November 2026**. This pass adds **eight weighted front derailleurs** from Shimano’s 2017–2018 specifications v2.8, cross-checked against the manufacturer service drawings linked on each record. Existing records, positive weights, IDs, primary documents and memberships remain unchanged.
+Reviewed on **28 November 2026**. This pass adds **nineteen weighted front derailleurs** from Shimano’s 2017–2018 specifications v2.8, cross-checked against the manufacturer service drawings linked on each record. Existing records, positive weights, IDs, primary documents and memberships remain unchanged.
 
 ## References added
 
@@ -15,11 +15,29 @@ Reviewed on **28 November 2026**. This pass adds **eight weighted front deraille
 | [FD-M9025-D](../data/components/shimano-fd-m9025-d.json) | XTR, 2×11-speed, down swing, direct mount with bolt | 141.3 g | [PDF 37 / printed 34](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=37) |
 | [FD-M8025-D](../data/components/shimano-fd-m8025-d.json) | Deore XT, 2×11-speed, down swing, direct mount with bolt | 139 g | [PDF 39 / printed 36](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=39) |
 
+## Clamp and nine-speed references
+
+| Component | Weighed configuration | Weight | Manufacturer reference |
+| --- | --- | ---: | --- |
+| [FD-M9025-H](../data/components/shimano-fd-m9025-h.json) | XTR, 2×11-speed, 34.9 mm high clamp | 147.2 g | [PDF 37 / printed 34](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=37) |
+| [FD-M9025-L](../data/components/shimano-fd-m9025-l.json) | XTR, 2×11-speed, 34.9 mm low clamp | 132.9 g | [PDF 37 / printed 34](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=37) |
+| [FD-M8025-H](../data/components/shimano-fd-m8025-h.json) | Deore XT, 2×11-speed, 34.9 mm high clamp | 149 g | [PDF 39 / printed 36](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=39) |
+| [FD-M8025-L](../data/components/shimano-fd-m8025-l.json) | Deore XT, 2×11-speed, 34.9 mm low clamp | 131 g | [PDF 39 / printed 36](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=39) |
+| [FD-M7005-10-H](../data/components/shimano-fd-m7005-10-h.json) | SLX, 3×10-speed, 34.9 mm high clamp | 155.4 g | [PDF 42 / printed 39](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=42) |
+| [FD-M7005-10-L](../data/components/shimano-fd-m7005-10-l.json) | SLX, 3×10-speed, 34.9 mm low clamp | 155 g | [PDF 42 / printed 39](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=42) |
+| [FD-M7025-11-H](../data/components/shimano-fd-m7025-11-h.json) | SLX, 2×11-speed, 34.9 mm high clamp | 152 g | [PDF 43 / printed 40](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=43) |
+| [FD-M7025-11-L](../data/components/shimano-fd-m7025-11-l.json) | SLX, 2×11-speed, 34.9 mm low clamp | 133 g | [PDF 43 / printed 40](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=43) |
+| [FD-M7025-11-D](../data/components/shimano-fd-m7025-11-d.json) | SLX, 2×11-speed, direct mount with bolt | 140 g | [PDF 44 / printed 41](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=44) |
+| [FD-M661](../data/components/shimano-fd-m661.json) | SLX, 3×9-speed, 34.9 mm clamp | 158 g | [PDF 44 / printed 41](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=44) |
+| [FD-M661-D](../data/components/shimano-fd-m661-d.json) | SLX, 3×9-speed, direct mount with bolt | 150 g | [PDF 44 / printed 41](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=44) |
+
+The high-clamp and direct-mount references in this table use the manufacturer’s down-swing configuration; the four low-clamp variants use top swing. The nine-speed band-mounted FD-M661 also uses down swing. The original FD-M661 and FD-M661-D are explicitly three-by-nine-speed in the specification table; their weights are not assigned to the distinct FD-M661-10 drawing. Exact original model service drawings remain linked on the records. The larger clamp variants add their own H/L identities without changing the previously catalogued D-type models.
+
 ## Configuration and identity
 
-The band-mounted weight heading explicitly selects **L size**. Mount rows identify 31.8 mm with an M-size reducer and the unadapted **34.9 mm** band. The S-size adapter appears as an optional separately packaged accessory for the selected SLX models; no reducer weight is inferred or subtracted. The three selected clamp weights identify the actual large 34.9 mm reference rather than choosing a diameter from a generic options list. The model’s **-L** suffix means low clamp, independently of the weight heading’s L-size band.
+The band-mounted weight heading explicitly selects **L size**. Mount rows identify 31.8 mm with an M-size reducer and the unadapted **34.9 mm** band. The S-size adapter appears as an optional separately packaged accessory for the selected SLX models; no reducer weight is inferred or subtracted. The selected clamp weights identify the actual large 34.9 mm reference rather than choosing a diameter from a generic options list. The model’s **-L** suffix means low clamp, independently of the weight heading’s L-size band.
 
-The five D-suffix columns explicitly identify **Direct Mount**, and their weight headings specify **direct type w/ bolt**. Manufacturer service drawings separately show D-type, E-type, high-clamp and low-clamp assemblies. No E-type or alternate-band weight is copied to a D-type record. Source series rows establish each model’s SLX, Deore XT or XTR membership; front/rear speed rows distinguish 3×10 from 2×11 configurations. The M9025-D and M8025-D footnotes identify their specified outboard-chainline crank/frame arrangement; they remain distinct from M9020-D and M8020-D.
+The D-suffix columns explicitly identify **Direct Mount**, and their weight headings specify **direct type w/ bolt**. Manufacturer service drawings separately show D-type, E-type, high-clamp and low-clamp assemblies. No E-type or alternate-band weight is copied to a D-type record. Source series rows establish each model’s SLX, Deore XT or XTR membership; front/rear speed rows distinguish 3×10 from 2×11 configurations. The M9025-D and M8025-D footnotes identify their specified outboard-chainline crank/frame arrangement; they remain distinct from M9020-D and M8020-D.
 
 The existing [FD-M7020 record](../data/components/shimano-fd-m7020.json) already selects **FD-M7020-11-H**, 34.9 mm high clamp, at **147 g**. Its stable identity and weight are preserved, and no second high-clamp record is added. The new low-clamp and direct-mount versions describe different assemblies.
 

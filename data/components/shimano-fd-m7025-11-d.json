@@ -1,0 +1,36 @@
+{
+  "id": "shimano-fd-m7025-11-d",
+  "slug": "fd-m7025-11-d",
+  "name": "SLX direct-mount front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M7025-11-D",
+  "weight_g": 140,
+  "weight_description": "Manufacturer-listed average 140 g for FD-M7025-11-D, 2×11-speed, down swing, direct-mount assembly, including its mounting bolt. The exact column identifies Direct Mount and the weight heading specifies direct type with bolt. Other mount variants do not inherit this weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M7025-3978/EV-FD-M7025-3978A.pdf",
+    "title": "Shimano FD-M7025 manufacturer exploded view: model identity, series and mounting assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M7025-3978/EV-FD-M7025-3978A.pdf",
+      "title": "Shimano FD-M7025 manufacturer exploded view: model identity, series and mounting assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=44",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 44 / printed page 41: FD-M7025-11-D, 140 g, direct-mount assembly, including its mounting bolt",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Direct mount",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "swing_type": "Down swing"
+  }
+}

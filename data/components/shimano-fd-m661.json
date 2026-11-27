@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fd-m661",
+  "slug": "fd-m661",
+  "name": "SLX clamp-mounted front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m660"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M661",
+  "weight_g": 158,
+  "weight_description": "Manufacturer-listed average 158 g for FD-M661, 3×9-speed, down swing, 34.9 mm clamp band, without S/M reducer adapters. The weight heading explicitly selects L-size band type; the mount rows distinguish the unadapted 34.9 mm band from 28.6/31.8 mm reducer configurations. Other mount variants do not inherit this weight. This is the nine-speed model, distinct from FD-M661-10.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M661-2796/EV-FD-M661-2796A.pdf",
+    "title": "Shimano FD-M661 manufacturer exploded view: model identity, series and mounting assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M661-2796/EV-FD-M661-2796A.pdf",
+      "title": "Shimano FD-M661 manufacturer exploded view: model identity, series and mounting assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=44",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 44 / printed page 41: FD-M661, 158 g, 34.9 mm clamp band, without S/M reducer adapters",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "front_speeds": 3,
+    "rear_speeds": 9,
+    "swing_type": "Down swing",
+    "clamp_diameter_mm": 34.9
+  }
+}

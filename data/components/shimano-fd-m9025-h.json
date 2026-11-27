@@ -1,0 +1,38 @@
+{
+  "id": "shimano-fd-m9025-h",
+  "slug": "fd-m9025-h",
+  "name": "XTR high clamp front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M9025-H",
+  "weight_g": 147.2,
+  "weight_description": "Manufacturer-listed average 147.2 g for FD-M9025-H, 2×11-speed, down swing, 34.9 mm high clamp band, without S/M reducer adapters. The weight heading explicitly selects L-size band type; the mount rows distinguish the unadapted 34.9 mm band from 28.6/31.8 mm reducer configurations. Other mount variants do not inherit this weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M9025-3774/EV-FD-M9025-3774B.pdf",
+    "title": "Shimano FD-M9025 manufacturer exploded view: model identity, series and mounting assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M9025-3774/EV-FD-M9025-3774B.pdf",
+      "title": "Shimano FD-M9025 manufacturer exploded view: model identity, series and mounting assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=37",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 37 / printed page 34: FD-M9025-H, 147.2 g, 34.9 mm high clamp band, without S/M reducer adapters",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "swing_type": "Down swing",
+    "clamp_diameter_mm": 34.9,
+    "clamp_position": "High clamp"
+  }
+}
