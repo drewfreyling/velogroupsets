@@ -50,6 +50,20 @@ Validation runs formatting, backend-free initialization, schema validation, mock
 
 The application job in [CI](../.github/workflows/ci.yml) runs inside the official Playwright Noble image, pinned by version and registry digest. It uses the project's pinned Node version and skips browser/system-package installation. Keep the image and `@playwright/test` versions aligned when updating dependencies. Node tests validate every generated rear-derailleur page; Playwright retains representative desktop/mobile rendering and interaction coverage, and the separate production suite. The application job name and required deployment gate are unchanged.
 
+## GitHub Actions pins
+
+All external actions use full commit SHAs. Release tags and their resolved commits were checked against the official repositories on **28 November 2026**:
+
+| Action | Stable release | Pinned commit |
+| --- | --- | --- |
+| [actions/checkout](https://github.com/actions/checkout/releases/tag/v7.0.1) | v7.0.1 | `3d3c42e5aac5ba805825da76410c181273ba90b1` |
+| [actions/setup-python](https://github.com/actions/setup-python/releases/tag/v7.1.0) | v7.1.0 | `6d4fd22b20465ccc0f7354476588e8df7c9ca0e0` |
+| [actions/setup-node](https://github.com/actions/setup-node/releases/tag/v7.1.0) | v7.1.0 | `949feb2413d6458794dcd2491c4babbbce0c15c1` |
+| [actions/setup-go](https://github.com/actions/setup-go/releases/tag/v7.1.0) | v7.1.0 | `d8cbb8045d7f43706b9177cceb36c1f91a6644d5` |
+| [actions/upload-artifact](https://github.com/actions/upload-artifact/releases/tag/v7.0.2) | v7.0.2 | `cf430e030ddbb5b0abf93d22962f4752f3646cd9` |
+
+The setup-node v7 migration keeps the existing Node version-file and npm-cache inputs. Its removal of the dummy `NODE_AUTH_TOKEN` fallback does not affect these workflows: none configures `registry-url` or package publishing. Both updated setup actions run on Node 24, supported by the hosted Ubuntu runners and the existing Playwright Noble container. Deployment triggers, CI gates, environment approval, permissions and toolchain versions are unchanged.
+
 ## Bootstrap the state bucket
 
 Create `velogroupsets-infra-state` in account `5ccb67114ff0fa1a13cb46ef3d08cb49` through the Cloudflare dashboard before initializing the backend. This avoids making a state store depend on its own state. Bootstrap settings are an explicit exception to application IaC ownership; do not later adopt this bucket into the application root without a separate recovery design.
