@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD23-SR12WRL",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "weight_g": 295,
+  "weight_description": "Manufacturer-listed 295 g for the original Super Record Wireless twelve-speed rear derailleur, RD23-SR12WRL. The product page does not state whether its removable battery is included in this weight; no battery mass is added or deducted. This reference is not assigned to Super Record S.",
   "technical_document": {
     "url": "https://www.campagnolo.com/on/demandware.static/-/Library-Sites-campagnoloLibrary/default/dw80959432/pdf/User_manual_12s_SR_WL_RD_Campagnolo_Rev01_06_2023.pdf",
     "title": "Campagnolo Super Record Wireless rear derailleur user manual, June 2023",
@@ -30,6 +30,11 @@
       "url": "https://media.campagnolo.com/seecommerce/original/C-RD-SUPER-RECORD-13-TM1EN",
       "title": "Campagnolo rear-derailleur technical manual, section 1.1: distinct Super Record and Super Record S twelve-speed wireless rows, 37/32/10/16T; not the thirteen-speed row",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campagnolo.com/au-en/super-record-wireless-rear-derailleur/CRDSUPERRECORDWRLDB12S.html",
+      "title": "Campagnolo Super Record Wireless twelve-speed rear derailleur: published 295 g reference; battery inclusion unspecified",
+      "retrieved_on": "2026-11-28"
     }
   ],
   "specifications": {

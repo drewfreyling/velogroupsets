@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FDSRS-2WL",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 130,
+  "weight_description": "Manufacturer-listed 130 g for the braze-on Super Record S Wireless twelve-speed double front derailleur, FDSRS-2WL. The product page does not state battery inclusion for this figure; no battery mass is added or deducted and no clamp adapter is selected. This is not a weight for the original FD23-SR12WRL.",
   "technical_document": {
     "url": "https://www.campagnolo.com/us-en/super-record-s-wireless-front-derailleur/CFDSUPERRECORDSWRLDB12S.html",
     "title": "Campagnolo FDSRS-2WL family manufacturer specifications and technical downloads",
@@ -25,10 +25,16 @@
       "url": "https://www.bike24.com/p2866669.html",
       "title": "Complete manufacturer assembly identifier FDSRS-2WL; group and braze-on model identification",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campagnolo.com/ro-en/super-record-s-wireless-front-derailleur-/CFDSUPERRECORDSWRLDB12S.html",
+      "title": "Campagnolo Super Record S Wireless braze-on front derailleur: published 130 g reference; battery inclusion unspecified",
+      "retrieved_on": "2026-11-28"
     }
   ],
   "specifications": {
     "mount": "Braze-on",
-    "rear_speeds": 12
+    "rear_speeds": 12,
+    "front_speeds": 2
   }
 }

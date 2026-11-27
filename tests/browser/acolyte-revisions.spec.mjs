@@ -1,12 +1,15 @@
 import {test,expect} from '@playwright/test';
 
-test('Acolyte revisions have separate weights without changing the original SpringLock record',async({page,request})=>{
+test('Acolyte revisions retain separate original and Ver.2 weight references',async({page,request})=>{
   await page.goto('/groupsets/microshift/acolyte/');
   await page.getByRole('link',{name:'RD-M5185M-B',exact:true}).click();
   await expect(page.getByRole('heading',{name:'RD-M5185M-B',level:1})).toBeVisible();
   await expect(page.getByText('387 g',{exact:true})).toBeVisible();
   const original=(await (await request.get('/api/v1/components/microshift-rd-m5185m.json')).json()).data;
-  expect(original.weight_g).toBeNull();
+  expect(original.weight_g).toBe(387.5);
+  await page.goto('/components/microshift/rd-m5185m/');
+  await expect(page.getByRole('heading',{name:'RD-M5185M',level:1,exact:true})).toBeVisible();
+  await expect(page.getByText('387.5 g',{exact:true})).toBeVisible();
   const revised=(await (await request.get('/api/v1/components/microshift-rd-m5180m-b.json')).json()).data;
   expect(revised).toMatchObject({weight_g:311,specifications:{revision:'Ver.2',clutch:false,maximum_sprocket_teeth:46,minimum_sprocket_teeth:null}});
 });

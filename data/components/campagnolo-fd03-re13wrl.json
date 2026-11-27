@@ -8,8 +8,8 @@
   ],
   "type": "front-derailleur",
   "model_number": "FD03-RE13WRL",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: no compliant weight for this complete assembly and reference configuration has been established.",
+  "weight_g": 142,
+  "weight_description": "Manufacturer-listed 142 g for the braze-on Record thirteen-speed wireless double front derailleur, FD03-RE13WRL. The product page does not state battery inclusion for this figure; no battery mass is added or deducted and no clamp adapter is selected.",
   "technical_document": {
     "url": "https://www.campagnolo.com/se-en/record-13-front-derailleur/CFDRECORD13.html",
     "title": "Campagnolo FD03-RE13WRL family manufacturer specifications and technical downloads",
@@ -25,10 +25,16 @@
       "url": "https://www.excelsports.com/campagnolo-record-13-front-derailleur",
       "title": "Complete manufacturer assembly identifier FD03-RE13WRL; group and braze-on model identification",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.campagnolo.com/be-en/record-13-front-derailleur/CFDRECORD13.html",
+      "title": "Campagnolo Record 13 braze-on front derailleur: published 142 g reference; battery inclusion unspecified",
+      "retrieved_on": "2026-11-28"
     }
   ],
   "specifications": {
     "mount": "Braze-on",
-    "rear_speeds": 13
+    "rear_speeds": 13,
+    "front_speeds": 2
   }
 }

@@ -139,3 +139,5 @@ The remaining counts describe absent compliant evidence in this catalogue, not p
 The [20 November 2026 source review](weight-review-2026-11-20.md) subsequently fills nine existing brake, bottom-bracket and cassette weights, with exact configuration references. The counts above remain the results of this earlier review.
 
 The [targeted Shimano MTB crank review](shimano-mtb-crank-weights.md) records the later FC-M550 weight, separate FC-M730-SG and FC-M751 references and remaining measurement queue.
+
+The [28 November 2026 weight review](weight-review-2026-11-28.md) subsequently fills seven microSHIFT and Campagnolo weights, with model and battery-inclusion limitations recorded.

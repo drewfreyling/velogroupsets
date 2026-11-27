@@ -8,8 +8,8 @@
   ],
   "type": "rear-derailleur",
   "model_number": "RD02-SR13WRL",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: a compliant weight for this reference configuration has not been established.",
+  "weight_g": 286,
+  "weight_description": "Manufacturer-listed 286 g for the Super Record thirteen-speed wireless rear derailleur, RD02-SR13WRL, with its battery included. This is the road model, not the Nano Clutch or X assembly.",
   "technical_document": {
     "url": "https://media.campagnolo.com/seecommerce/original/C-RD-SUPER-RECORD-13-TM1EN",
     "title": "Campagnolo rear derailleur technical manual: Super Record 13 and twelve-speed wireless limits",
@@ -25,6 +25,11 @@
       "url": "https://www.campagnolo.com/gb-en/super-record-13-rear-derailleur/CRDSUPERRECORD13.html",
       "title": "Campagnolo Super Record 13 road rear derailleur specification",
       "retrieved_on": "2026-11-09"
+    },
+    {
+      "url": "https://www.campagnolo.com/us-en/super-record-13-rear-derailleur/CRDSUPERRECORD13.html",
+      "title": "Campagnolo Super Record 13 road rear derailleur: 286 g, battery included",
+      "retrieved_on": "2026-11-28"
     }
   ],
   "specifications": {
@@ -32,6 +37,7 @@
     "maximum_sprocket_teeth": 36,
     "minimum_sprocket_teeth": 10,
     "maximum_front_difference_teeth": 16,
-    "rear_speeds": 13
+    "rear_speeds": 13,
+    "includes_battery": true
   }
 }

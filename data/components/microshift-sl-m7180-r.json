@@ -8,8 +8,8 @@
   ],
   "type": "shifters",
   "model_number": "SL-M7180-R",
-  "weight_g": null,
-  "weight_description": "Single right-hand 1×8 trigger shifter with aluminum handlebar clamp; manufacturer page does not list a compliant weight.",
+  "weight_g": 139,
+  "weight_description": "Manufacturer-listed 139 g for one SL-M7180-R right-hand Acolyte 1×8 Xpress trigger shifter with indicator and aluminum handlebar clamp; not a left/right pair. The 2021 catalogue identifies this exact control.",
   "technical_document": {
     "url": "https://www.microshift.com/models/sl-m7180-r/",
     "title": "microSHIFT SL-M7180-R manufacturer specifications: group, exact configuration and published figures",
@@ -20,6 +20,11 @@
       "url": "https://www.microshift.com/models/sl-m7180-r/",
       "title": "microSHIFT SL-M7180-R manufacturer specifications: group, exact configuration and published figures",
       "retrieved_on": "2026-11-15"
+    },
+    {
+      "url": "https://www.microshift.com/wp-content/uploads/2021/04/microSHIFT_Catalog_2021-20210401.pdf#page=8",
+      "title": "microSHIFT 2021 manufacturer catalogue, PDF spread 8 / printed page 11: SL-M7180-R right-hand 1×8 control with indicator, aluminum clamp, 139 g",
+      "retrieved_on": "2026-11-28"
     }
   ],
   "specifications": {
