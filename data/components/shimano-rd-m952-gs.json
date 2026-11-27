@@ -1,0 +1,45 @@
+{
+  "id": "shimano-rd-m952-gs",
+  "slug": "rd-m952-gs",
+  "name": "XTR nine-speed GS rear derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m950",
+    "shimano-xtr-m960"
+  ],
+  "type": "rear-derailleur",
+  "model_number": "RD-M952-GS",
+  "weight_g": 207,
+  "weight_description": "Manufacturer-listed 207 g for the complete nine-speed RD-M952 GS middle-cage assembly in the 2006 XTR table. The SGS assembly has a different cage and is not assigned this weight. This is distinct from the earlier eight-speed RD-M950-GS.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/RD-M952-1794/EV-RD-M952-1794.pdf",
+    "title": "Shimano RD-M952 nine-speed exploded view: middle-cage and distinct SGS assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/RD-M952-1794/EV-RD-M952-1794.pdf",
+      "title": "Shimano RD-M952 nine-speed exploded view: middle-cage and distinct SGS assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/STI/1993-2012_STI/1999_Shimano_STI.pdf#page=57",
+      "title": "Shimano 1999 STI manual, PDF page 57 / printed page 56: nine-speed XTR M952/M953 update alongside M950 hubs; family-level 200 g statement does not identify a specific cage",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2006_Trade_Sales_Support_Manual.pdf#page=186",
+      "title": "Shimano 2006 dealer manual, PDF/printed page 186: RD-M952 GS, 207 g, nine speeds, 33T total capacity, 34T largest / 11T smallest sprocket, 22T front difference",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "cage": "GS",
+    "rear_speeds": 9,
+    "total_capacity_teeth": 33,
+    "maximum_sprocket_teeth": 34,
+    "minimum_sprocket_teeth": 11,
+    "maximum_front_difference_teeth": 22,
+    "reference_edition": "1999 nine-speed XTR update and later 2006 XTR catalogue offering; group start years unchanged"
+  }
+}

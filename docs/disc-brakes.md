@@ -29,3 +29,5 @@ The [Shimano 2025–2026 specifications handbook v3.5](https://productinfo.shima
 PDF p. 279 explicitly lists Center Lock rotor weights **without lockring**. RT-MT900, RT-MT800 and SM-RT70 have distinct 160/180/203 mm records using those figures. SM-RT86 six-bolt references remain unknown because the selected table does not establish mounting-bolt inclusion. Rotor membership follows explicit manufacturer brake drawings and named rotor recommendations in the selected edition; later recommendations do not imply the rotor existed at the original groupset launch.
 
 Manufacturer exploded views establish complete model identity, rotor/hose associations and service parts. They are not themselves weight measurements. Standalone calipers stay null until pad/bolt-inclusive weights are sourced, even if a bare average is printed elsewhere. Additional road/gravel disc systems, mechanical brakes, alternative pads, rear hoses and rotor mounts remain future source work.
+
+The [period Shimano brake-weight review](shimano-period-brake-weights.md) adds four front/rear adapter-inclusive caliper references and one bolt-inclusive rotor from the 2006–2008 manufacturer publications.

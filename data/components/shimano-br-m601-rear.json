@@ -1,0 +1,49 @@
+{
+  "id": "shimano-br-m601-rear",
+  "slug": "br-m601-rear",
+  "name": "Hone rear hydraulic disc-brake caliper with adapter",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-hone-m600"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-M601",
+  "weight_g": 207,
+  "weight_description": "Manufacturer-listed 207 g for one rear BR-M601 hydraulic caliper assembly with brake pads, mounting bolts and its International Standard adapter. The weight table explicitly specifies metal pads; the drawing identifies the M06 pad assembly. Lever, hose and rotor are separate components. The weight table does not identify the adapter size; no adapter or rotor weight is added or subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M601-R-2377/EV-BR-M601-R-2377B.pdf",
+    "title": "Shimano BR-M601 rear exploded view: caliper, pads, A-standard adapter and fixing hardware",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M601-R-2377/EV-BR-M601-R-2377B.pdf",
+      "title": "Shimano BR-M601 rear exploded view: caliper, pads, A-standard adapter and fixing hardware",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2007_Trade_Sales_Support_Manual.pdf#page=211",
+      "title": "Shimano 2007 dealer manual, PDF/printed page 211: Hone BR-M601 and Deore LX BR-M585 front/rear caliper weights with fixing bolts and adapters; BR-M601 metal pads specified",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2008_Trade_Support_Manual.pdf#page=193",
+      "title": "Shimano 2008 dealer manual, PDF/printed page 193: corroborating position-specific BR-M601 / BR-M585 adapter-inclusive caliper weights with fixing bolts",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Rear",
+    "actuation": "Hydraulic",
+    "mount": "International Standard",
+    "piston_count": 2,
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true,
+    "includes_adapter": true,
+    "includes_lever": false,
+    "includes_hose": false,
+    "includes_rotor": false,
+    "adapter_reference": "Manufacturer adapter-inclusive reference; size not specified in the weight table",
+    "pad_reference": "Metal pad M06 with spring and split pin"
+  }
+}

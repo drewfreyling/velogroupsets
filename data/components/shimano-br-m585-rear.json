@@ -1,0 +1,48 @@
+{
+  "id": "shimano-br-m585-rear",
+  "slug": "br-m585-rear",
+  "name": "Deore LX rear hydraulic disc-brake caliper with adapter",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-lx-m580"
+  ],
+  "type": "disc-brake-caliper",
+  "model_number": "BR-M585",
+  "weight_g": 188,
+  "weight_description": "Manufacturer-listed 188 g for one rear BR-M585 hydraulic caliper assembly with brake pads, mounting bolts and its International Standard adapter. The complete factory-caliper reference includes pads, but the weight table does not select a pad compound. Lever, hose and rotor are separate components. The weight table does not identify the adapter size; no adapter or rotor weight is added or subtracted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BR-M585-R-2375/EV-BR-M585-R-2375C.pdf",
+    "title": "Shimano BR-M585 rear exploded view: caliper, pads, A-standard adapter and fixing hardware",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BR-M585-R-2375/EV-BR-M585-R-2375C.pdf",
+      "title": "Shimano BR-M585 rear exploded view: caliper, pads, A-standard adapter and fixing hardware",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2007_Trade_Sales_Support_Manual.pdf#page=211",
+      "title": "Shimano 2007 dealer manual, PDF/printed page 211: Hone BR-M601 and Deore LX BR-M585 front/rear caliper weights with fixing bolts and adapters; BR-M601 metal pads specified",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2008_Trade_Support_Manual.pdf#page=193",
+      "title": "Shimano 2008 dealer manual, PDF/printed page 193: corroborating position-specific BR-M601 / BR-M585 adapter-inclusive caliper weights with fixing bolts",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Rear",
+    "actuation": "Hydraulic",
+    "mount": "International Standard",
+    "piston_count": 2,
+    "includes_brake_pads": true,
+    "includes_mounting_bolts": true,
+    "includes_adapter": true,
+    "includes_lever": false,
+    "includes_hose": false,
+    "includes_rotor": false,
+    "adapter_reference": "Manufacturer adapter-inclusive reference; size not specified in the weight table"
+  }
+}

@@ -141,3 +141,5 @@ The [20 November 2026 source review](weight-review-2026-11-20.md) subsequently f
 The [targeted Shimano MTB crank review](shimano-mtb-crank-weights.md) records the later FC-M550 weight, separate FC-M730-SG and FC-M751 references and remaining measurement queue.
 
 The [28 November 2026 weight review](weight-review-2026-11-28.md) subsequently fills seven microSHIFT and Campagnolo weights, with model and battery-inclusion limitations recorded.
+
+The [period Shimano brake and derailleur review](shimano-period-brake-weights.md) subsequently adds six components with qualified weights, preserving the earlier records and reference configurations.

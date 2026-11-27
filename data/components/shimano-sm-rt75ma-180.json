@@ -1,0 +1,38 @@
+{
+  "id": "shimano-sm-rt75ma-180",
+  "slug": "sm-rt75ma-180",
+  "name": "Deore XT 180 mm six-bolt disc rotor",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m760"
+  ],
+  "type": "disc-brake-rotor",
+  "model_number": "SM-RT75MA",
+  "weight_g": 156,
+  "weight_description": "Manufacturer-listed 156 g for one SM-RT75MA 180 mm six-bolt rotor, including the fixing bolts. The table explicitly labels its rotor weights as with fixing bolts. This is the 180 mm MA unit; no weight is transferred to the distinct 160 mm or 170 mm rotor references.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/DISC_ROTOR-2429/EV-DISC_ROTOR-2429E.pdf#page=1",
+    "title": "Shimano disc-rotor exploded view 2429E, PDF page 1: exact SM-RT75MA 180 mm rotor unit and six-bolt fixing hardware; distinct from 160 mm S and 170 mm M variants",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/DISC_ROTOR-2429/EV-DISC_ROTOR-2429E.pdf#page=1",
+      "title": "Shimano disc-rotor exploded view 2429E, PDF page 1: exact SM-RT75MA 180 mm rotor unit and six-bolt fixing hardware; distinct from 160 mm S and 170 mm M variants",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/1990-2000_TSS_Manuals/2007_Trade_Sales_Support_Manual.pdf#page=210",
+      "title": "Shimano 2007 dealer manual, PDF/printed page 210: Deore XT SM-RT75MA, 180 mm, six-bolt / 44 mm PCD, 156 g with fixing bolts",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Single",
+    "diameter_mm": 180,
+    "mount": "6-bolt",
+    "includes_mounting_hardware": true,
+    "mounting_bolt_count": 6,
+    "mounting_bolt_circle_diameter_mm": 44
+  }
+}
