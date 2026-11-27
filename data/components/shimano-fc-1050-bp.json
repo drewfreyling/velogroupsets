@@ -20,6 +20,11 @@
       "url": "https://www.disraeligears.co.uk/site/shimano_bicycle_system_components_december_1987_-_scan_22.html",
       "title": "Shimano Bicycle System Components, December 1987, scan 22 (manufacturer catalogue archived by Disraeli Gears)",
       "retrieved_on": "2026-11-07"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-1050_BB-1050-0757/EV-FC-1050_BB-1050-0757B.pdf#page=2",
+      "title": "Shimano FC-1050 / BB-1050 exploded view, PDF page 2: FC-1050 with Biopace chainrings, explicitly Bolt circle diameter 130 mm",
+      "retrieved_on": "2026-11-27"
     }
   ],
   "specifications": {
@@ -29,6 +34,7 @@
       42
     ],
     "chainring_shape": "Biopace",
-    "includes_bottom_bracket": false
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 130
   }
 }
