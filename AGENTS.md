@@ -2,7 +2,7 @@
 
 ## Commit messages and pull requests
 
-All commits in this repository must follow [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/), including documentation, catalogue data, maintenance, and automated commits.
+All non-merge commits in this repository must follow [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/), including documentation, catalogue data, maintenance, and automated commits.
 
 Use:
 
@@ -30,6 +30,8 @@ data(components): add sourced component specifications
 ci: validate catalogue records on pull requests
 feat(api)!: change photo comment response format
 ```
+
+Merge commits with two or more parents are exempt from commit-subject validation. Ordinary commits, including squash merges, and all PR titles still require Conventional Commits. A subject beginning with “Merge” does not exempt a single-parent commit.
 
 ## Project context
 

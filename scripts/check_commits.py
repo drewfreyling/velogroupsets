@@ -32,17 +32,21 @@ def main():
     else:
         revision = "HEAD"
     # For local runs / initial pushes, check only the newest commit.
-    args = ["log", "--format=%H%x00%s"]
+    args = ["log", "--format=%H%x00%P%x00%s"]
     if revision == "HEAD":
         args.append("-1")
     for line in git(*args, revision).splitlines():
-        sha, subject = line.split("\0", 1)
+        sha, parents, subject = line.split("\0", 2)
+        # Use Git parent metadata, so ordinary commits cannot bypass validation
+        # by starting their subject with "Merge". Still visit merged ancestors.
+        if len(parents.split()) > 1:
+            continue
         if not valid_header(subject):
             failures.append(f"Commit {sha[:12]} is not Conventional Commits: {subject}")
     if failures:
         print("\n".join(failures), file=sys.stderr)
         return 1
-    print("Commit messages and any PR title follow Conventional Commits.")
+    print("Non-merge commit messages and any PR title follow Conventional Commits.")
     return 0
 
 

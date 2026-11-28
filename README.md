@@ -279,7 +279,7 @@ Use the [contribution form](https://github.com/drewfreyling/velogroupsets/issues
 - Keep real user data and secrets out of examples and fixtures.
 - Update documentation when behaviour or architecture changes.
 
-**All commits must follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).** Use the same format for pull request titles so squash merges remain compliant.
+**All non-merge commits must follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).** Merge commits with two or more parents are exempt. Use Conventional Commits for all PR titles and squash-merge commits.
 
 Examples:
 
