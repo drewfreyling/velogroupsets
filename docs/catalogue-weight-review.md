@@ -153,3 +153,5 @@ The [Shimano MTB clamp-mounted front-derailleur review](shimano-mtb-clamp-weight
 The [SLX and outboard-chainline front-derailleur review](shimano-slx-front-derailleur-weights.md) covers nineteen qualified clamp/direct-mount references, including eleven further clamp and nine-speed additions, while preserving the existing FD-M7020 high-clamp identity.
 
 The [MTB crank and clamp follow-up](shimano-mtb-crank-clamp-weights.md) adds three qualified 175 mm crank variants with BCDs and five 34.9 mm Deore XT front-derailleur references.
+
+The [2014–2015 direct-mount front-derailleur review](shimano-2014-direct-mount-weights.md) adds seven model-specific weights, with explicit dual-pull selections and mounting-hardware uncertainty.

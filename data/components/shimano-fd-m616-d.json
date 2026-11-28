@@ -1,0 +1,38 @@
+{
+  "id": "shimano-fd-m616-d",
+  "slug": "fd-m616-d",
+  "name": "Deore direct-mount front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m610"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M616-D",
+  "weight_g": 149,
+  "weight_description": "Manufacturer-listed average 149 g for FD-M616-D: 2×10-speed, down-swing, direct-mount front derailleur, dual-pull reference. The exact model column identifies Direct Mount. Mounting-hardware inclusion is not specified in the weight row; no bolt weight is added or deducted. The separately listed lighter top-pull reference is not used.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M616-3510/EV-FD-M616-3510.pdf",
+    "title": "Shimano FD-M616 manufacturer exploded view: exact direct-attachment model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M616-3510/EV-FD-M616-3510.pdf",
+      "title": "Shimano FD-M616 manufacturer exploded view: exact direct-attachment model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=37",
+      "title": "Shimano 2014–2015 specifications v2.0, PDF page 37 / printed page 34: FD-M616-D, 149 g, 2×10-speed, down-swing, direct-mount front derailleur, dual-pull reference",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Direct mount",
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "swing_type": "Down swing",
+    "total_capacity_teeth": 14,
+    "cable_route": "Dual pull"
+  }
+}

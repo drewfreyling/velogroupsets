@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fd-m676-d",
+  "slug": "fd-m676-d",
+  "name": "SLX direct-mount front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m670"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M676-D",
+  "weight_g": 148,
+  "weight_description": "Manufacturer-listed average 148 g for FD-M676-D: 2×10-speed, down-swing, direct-mount front derailleur. The exact model column identifies Direct Mount. Mounting-hardware inclusion is not specified in the weight row; no bolt weight is added or deducted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M676-3401/EV-FD-M676-3401.pdf",
+    "title": "Shimano FD-M676 manufacturer exploded view: exact direct-attachment model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M676-3401/EV-FD-M676-3401.pdf",
+      "title": "Shimano FD-M676 manufacturer exploded view: exact direct-attachment model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=35",
+      "title": "Shimano 2014–2015 specifications v2.0, PDF page 35 / printed page 32: FD-M676-D, 148 g, 2×10-speed, down-swing, direct-mount front derailleur",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Direct mount",
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "swing_type": "Down swing",
+    "total_capacity_teeth": 14
+  }
+}

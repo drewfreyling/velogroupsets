@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fd-m981-d",
+  "slug": "fd-m981-d",
+  "name": "XTR direct-mount front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m980"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M981-D",
+  "weight_g": 143,
+  "weight_description": "Manufacturer-listed average 143 g for FD-M981-D: 3×10-speed, down-swing, direct-mount front derailleur. The exact model column identifies Direct Mount. Mounting-hardware inclusion is not specified in the weight row; no bolt weight is added or deducted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M981-3080/EV-FD-M981-3080.pdf",
+    "title": "Shimano FD-M981 manufacturer exploded view: exact direct-attachment model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M981-3080/EV-FD-M981-3080.pdf",
+      "title": "Shimano FD-M981 manufacturer exploded view: exact direct-attachment model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=30",
+      "title": "Shimano 2014–2015 specifications v2.0, PDF page 30 / printed page 27: FD-M981-D, 143 g, 3×10-speed, down-swing, direct-mount front derailleur",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Direct mount",
+    "front_speeds": 3,
+    "rear_speeds": 10,
+    "swing_type": "Down swing",
+    "total_capacity_teeth": 18
+  }
+}

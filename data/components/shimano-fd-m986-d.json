@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fd-m986-d",
+  "slug": "fd-m986-d",
+  "name": "XTR direct-mount front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m980"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-M986-D",
+  "weight_g": 122,
+  "weight_description": "Manufacturer-listed average 122 g for FD-M986-D: 2×10-speed, down-swing, direct-mount front derailleur. The exact model column identifies Direct Mount. Mounting-hardware inclusion is not specified in the weight row; no bolt weight is added or deducted.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-M986-3082/EV-FD-M986-3082.pdf",
+    "title": "Shimano FD-M986 manufacturer exploded view: exact direct-attachment model, series and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-M986-3082/EV-FD-M986-3082.pdf",
+      "title": "Shimano FD-M986 manufacturer exploded view: exact direct-attachment model, series and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=31",
+      "title": "Shimano 2014–2015 specifications v2.0, PDF page 31 / printed page 28: FD-M986-D, 122 g, 2×10-speed, down-swing, direct-mount front derailleur",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Direct mount",
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "swing_type": "Down swing",
+    "total_capacity_teeth": 14
+  }
+}
