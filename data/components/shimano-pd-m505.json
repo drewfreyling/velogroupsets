@@ -1,0 +1,39 @@
+{
+  "id": "shimano-pd-m505",
+  "slug": "pd-m505",
+  "name": "SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-m4000"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M505",
+  "weight_g": 443,
+  "weight_description": "Manufacturer-listed average 443 g for the left/right PD-M505 SPD pedal pair, using the handbook’s explicit pair-weight row. Cleat and loose-accessory inclusion is not specified in the weight row.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M505-2062/EV-PD-M505-2062A.pdf",
+    "title": "Shimano PD-M505 manufacturer exploded view and pedal assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M505-2062/EV-PD-M505-2062A.pdf",
+      "title": "Shimano PD-M505 manufacturer exploded view and pedal assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=411",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 411: PD-M505, 443 g per pair",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=73",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 73: manufacturer range chart explicitly lists PD-M505 pedal option",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD"
+  }
+}

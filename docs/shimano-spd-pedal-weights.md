@@ -1,6 +1,6 @@
 # Shimano SPD pedal-pair weights
 
-Reviewed on **28 November 2026**. This pass adds **seven pedal records with manufacturer-listed pair weights**, corroborated by Shimano product pages and exact model drawings. Existing component records, positive weights, IDs, memberships and primary documents remain unchanged.
+Reviewed on **28 November 2026**. This review covers **twelve pedal records with manufacturer-listed pair weights**. Each cites an explicit pair-weight row and exact manufacturer model drawing; product pages provide additional corroboration where listed. Existing component records, positive weights, IDs, memberships and primary documents remain unchanged.
 
 ## Qualified references
 
@@ -15,6 +15,22 @@ All seven figures appear under **Average weight (pair)** in the [2017–2018 spe
 | [PD-M540](../data/components/shimano-pd-m540.json) | SLX M7000 pedal option | 352 g | Same page |
 | [PD-M530](../data/components/shimano-pd-m530.json) | SLX M7000 and Deore M6000 pedal option | 455 g | Same page |
 | [PD-M520](../data/components/shimano-pd-m520.json) | Deore M6000 pedal option | 380 g | [2018 TSS, page 286](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=286) |
+
+## Further pedal references
+
+Five further pair totals come from [2018 TSS, PDF/printed page 411](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=411), with the following explicit range-chart options:
+
+| Component | Manufacturer-listed option | Pair weight | Range chart |
+| --- | --- | ---: | --- |
+| [PD-M505](../data/components/shimano-pd-m505.json) | Alivio M4000 SPD | 443 g | [Page 73](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=73) |
+| [PD-M424](../data/components/shimano-pd-m424.json) | Deore M6000 SPD | 472 g | [Page 46](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=46) |
+| [PD-M545](../data/components/shimano-pd-m545.json) | SLX M7000 / ZEE M640 SPD | 567 g | [Page 39](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=39) / [58](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=58) |
+| [PD-M647](../data/components/shimano-pd-m647.json) | Saint M820 / ZEE M640 SPD | 568 g | [Page 53](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=53) / [58](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=58) |
+| [PD-M324](../data/components/shimano-pd-m324.json) | Alivio M4000 SPD/flat | 533 g | [Page 73](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=73) |
+
+The product pages corroborate PD-M647 at 568 g on [page 286](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=286), PD-M545 at 567 g and PD-M424 at 472 g on [page 287](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=287), and PD-M324 at 533 g on [page 289](https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=289). PD-M505 uses the explicit specification-table pair reference and its exact service drawing; no separate product-page figure is claimed.
+
+PD-M324 has one SPD-binding face and one flat face. Its service drawing also shows alternate axle threads; the weight table does not select a thread, so that detail remains unspecified. All five retain the publisher’s pair average with cleat/accessory inclusion unreported. Shared options have one canonical record and multiple sourced memberships rather than duplicated component identities.
 
 ## Pair basis, identity and membership
 

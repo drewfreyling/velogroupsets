@@ -1,0 +1,44 @@
+{
+  "id": "shimano-pd-m424",
+  "slug": "pd-m424",
+  "name": "SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-m6000"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M424",
+  "weight_g": 472,
+  "weight_description": "Manufacturer-listed average 472 g for the left/right PD-M424 SPD pedal pair, using the handbook’s explicit pair-weight row. Cleat and loose-accessory inclusion is not specified in the weight row.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M424-1953/EV-PD-M424-1953A.pdf",
+    "title": "Shimano PD-M424 manufacturer exploded view and pedal assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M424-1953/EV-PD-M424-1953A.pdf",
+      "title": "Shimano PD-M424 manufacturer exploded view and pedal assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=411",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 411: PD-M424, 472 g per pair",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=287",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 287: PD-M424 product page corroborates 472 g",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=46",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 46: manufacturer range chart explicitly lists PD-M424 pedal option",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD"
+  }
+}

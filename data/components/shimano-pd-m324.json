@@ -1,0 +1,44 @@
+{
+  "id": "shimano-pd-m324",
+  "slug": "pd-m324",
+  "name": "SPD/flat pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-alivio-m4000"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M324",
+  "weight_g": 533,
+  "weight_description": "Manufacturer-listed average 533 g for the left/right PD-M324 SPD/Flat pedal pair, using the handbook’s explicit pair-weight row. Cleat and loose-accessory inclusion is not specified in the weight row. One face has the SPD binding and the other is a flat platform. The weight row does not identify an axle-thread variant.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M324-1972/EV-PD-M324-1972A.pdf",
+    "title": "Shimano PD-M324 manufacturer exploded view and pedal assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M324-1972/EV-PD-M324-1972A.pdf",
+      "title": "Shimano PD-M324 manufacturer exploded view and pedal assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=411",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 411: PD-M324, 533 g per pair",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=289",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 289: PD-M324 product page corroborates 533 g",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=73",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 73: manufacturer range chart explicitly lists PD-M324 pedal option",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD/Flat"
+  }
+}

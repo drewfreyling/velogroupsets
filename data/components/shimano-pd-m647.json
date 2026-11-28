@@ -1,0 +1,50 @@
+{
+  "id": "shimano-pd-m647",
+  "slug": "pd-m647",
+  "name": "SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m820",
+    "shimano-zee-m640"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M647",
+  "weight_g": 568,
+  "weight_description": "Manufacturer-listed average 568 g for the left/right PD-M647 SPD pedal pair, using the handbook’s explicit pair-weight row. Cleat and loose-accessory inclusion is not specified in the weight row.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M647-2305/EV-PD-M647-2305A.pdf",
+    "title": "Shimano PD-M647 manufacturer exploded view and pedal assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M647-2305/EV-PD-M647-2305A.pdf",
+      "title": "Shimano PD-M647 manufacturer exploded view and pedal assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=411",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 411: PD-M647, 568 g per pair",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=286",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 286: PD-M647 product page corroborates 568 g",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=53",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 53: manufacturer range chart explicitly lists PD-M647 pedal option",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=58",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 58: manufacturer range chart explicitly lists PD-M647 pedal option",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD"
+  }
+}

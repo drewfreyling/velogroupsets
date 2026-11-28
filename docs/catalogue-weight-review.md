@@ -158,4 +158,4 @@ The [2014–2015 direct-mount front-derailleur review](shimano-2014-direct-mount
 
 The [road front-derailleur variant review](shimano-road-front-weight-variants.md) adds seven explicitly L-size 34.9 mm band weights and the Tiagra FD-4603-F braze-on triple, with model/table alignment and clamp-size evidence.
 
-The [Shimano SPD pedal-pair review](shimano-spd-pedal-weights.md) adds seven corroborated pair weights with source-backed family options and documents three unresolved pin/platform references.
+The [Shimano SPD pedal-pair review](shimano-spd-pedal-weights.md) covers twelve published pair weights with source-backed family options, including five further SPD/SPD-flat additions, and documents three unresolved pin/platform references.
