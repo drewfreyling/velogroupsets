@@ -1,0 +1,44 @@
+{
+  "id": "shimano-pd-m9000",
+  "slug": "pd-m9000",
+  "name": "XTR SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9000"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M9000",
+  "weight_g": 310,
+  "weight_description": "Manufacturer-listed average 310 g for the left/right PD-M9000 SPD pedal pair, using the handbook’s explicit pair-weight row. Cleat and loose-accessory inclusion is not specified in the weight row.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M9000-3803/EV-PD-M9000-3803.pdf",
+    "title": "Shimano PD-M9000 manufacturer exploded view: model, series and pedal assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M9000-3803/EV-PD-M9000-3803.pdf",
+      "title": "Shimano PD-M9000 manufacturer exploded view: model, series and pedal assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=220",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 220 / printed page 217: PD-M9000, 310 g per pair",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=15",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 15: XTR family inventory explicitly lists PD-M9000",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=284",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 284: PD-M9000 SPD product description corroborates 310 g reference",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD"
+  }
+}

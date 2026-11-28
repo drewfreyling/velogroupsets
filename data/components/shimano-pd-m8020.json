@@ -1,0 +1,44 @@
+{
+  "id": "shimano-pd-m8020",
+  "slug": "pd-m8020",
+  "name": "Deore XT SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M8020",
+  "weight_g": 408,
+  "weight_description": "Manufacturer-listed average 408 g for the left/right PD-M8020 SPD pedal pair, using the handbook’s explicit pair-weight row. Cleat and loose-accessory inclusion is not specified in the weight row.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M8020-3893/EV-PD-M8020-3893.pdf",
+    "title": "Shimano PD-M8020 manufacturer exploded view: model, series and pedal assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M8020-3893/EV-PD-M8020-3893.pdf",
+      "title": "Shimano PD-M8020 manufacturer exploded view: model, series and pedal assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=220",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 220 / printed page 217: PD-M8020, 408 g per pair",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=27",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 27: Deore XT family inventory explicitly lists PD-M8020",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=285",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 285: PD-M8020 SPD product description corroborates 408 g reference",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD"
+  }
+}

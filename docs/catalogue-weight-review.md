@@ -157,3 +157,5 @@ The [MTB crank and clamp follow-up](shimano-mtb-crank-clamp-weights.md) adds thr
 The [2014–2015 direct-mount front-derailleur review](shimano-2014-direct-mount-weights.md) adds seven model-specific weights, with explicit dual-pull selections and mounting-hardware uncertainty.
 
 The [road front-derailleur variant review](shimano-road-front-weight-variants.md) adds seven explicitly L-size 34.9 mm band weights and the Tiagra FD-4603-F braze-on triple, with model/table alignment and clamp-size evidence.
+
+The [Shimano SPD pedal-pair review](shimano-spd-pedal-weights.md) adds seven corroborated pair weights with source-backed family options and documents three unresolved pin/platform references.

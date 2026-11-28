@@ -1,0 +1,50 @@
+{
+  "id": "shimano-pd-m530",
+  "slug": "pd-m530",
+  "name": "SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7000",
+    "shimano-deore-m6000"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M530",
+  "weight_g": 455,
+  "weight_description": "Manufacturer-listed average 455 g for the left/right PD-M530 SPD pedal pair, using the handbook’s explicit pair-weight row. Cleat and loose-accessory inclusion is not specified in the weight row.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M530-3203/EV-PD-M530-3203B.pdf",
+    "title": "Shimano PD-M530 manufacturer exploded view and pedal assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M530-3203/EV-PD-M530-3203B.pdf",
+      "title": "Shimano PD-M530 manufacturer exploded view and pedal assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=220",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 220 / printed page 217: PD-M530, 455 g per pair",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=285",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 285: PD-M530 SPD product page corroborates 455 g",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=39",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 39: SLX M7000 range chart explicitly lists PD-M530 pedal option",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=46",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 46: Deore M6000 range chart explicitly lists PD-M530 pedal option",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD"
+  }
+}
