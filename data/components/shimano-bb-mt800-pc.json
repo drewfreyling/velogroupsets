@@ -1,0 +1,43 @@
+{
+  "id": "shimano-bb-mt800-pc",
+  "slug": "bb-mt800-pc",
+  "name": "Saint wide-shell press-fit bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m820"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "BB-MT800-PC",
+  "weight_g": 71,
+  "weight_description": "Manufacturer average 71 g for the exact BB-MT800-PC HOLLOWTECH II press-fit bottom-bracket assembly. The table lists 104.5 mm and 107 mm shell-width options without selecting one weighed width. This PC model is distinct from the existing BB-MT800-PA reference; neither model inherits the other’s weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/BB-MT800-P-4621/EV-BB-MT800-P-4621.pdf",
+    "title": "Shimano BB-MT800-PA / BB-MT800-PC exploded view: separate complete assemblies and distinct inner covers",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BB-MT800-P-4621/EV-BB-MT800-P-4621.pdf",
+      "title": "Shimano BB-MT800-PA / BB-MT800-PC exploded view: separate complete assemblies and distinct inner covers",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=61",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 61 / printed page 58: SM-BB80 shell-specific weights, SM-BB71-41A and SM-BB71-41C distinct press-fit assemblies, and BB-MT800-PC exact model weight",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=27",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 27 / printed page 25: Saint M820 chart lists SM-BB80, SM-BB71-41C and BB-MT800-PC",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II",
+    "bottom_bracket_type": "Press fit",
+    "available_shell_widths_mm": [
+      104.5,
+      107
+    ]
+  }
+}

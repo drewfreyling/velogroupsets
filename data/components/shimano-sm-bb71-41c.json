@@ -1,0 +1,49 @@
+{
+  "id": "shimano-sm-bb71-41c",
+  "slug": "sm-bb71-41c",
+  "name": "Saint / ZEE wide-shell press-fit bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m820",
+    "shimano-zee-m640"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-BB71-41C",
+  "weight_g": 73,
+  "weight_description": "Manufacturer average 73 g for the exact SM-BB71-41C HOLLOWTECH II press-fit bottom-bracket assembly. The specification table lists 104.5 mm and 107 mm shell-width options without selecting one weighed width. Saint and ZEE range charts explicitly associate this C version with FC-M825 / FC-M645 respectively.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=61",
+    "title": "Shimano 2025–2026 specifications v3.5, PDF page 61 / printed page 58: SM-BB80 shell-specific weights, SM-BB71-41A and SM-BB71-41C distinct press-fit assemblies, and BB-MT800-PC exact model weight",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=61",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 61 / printed page 58: SM-BB80 shell-specific weights, SM-BB71-41A and SM-BB71-41C distinct press-fit assemblies, and BB-MT800-PC exact model weight",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=27",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 27 / printed page 25: Saint M820 chart lists SM-BB80, SM-BB71-41C and BB-MT800-PC",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=10",
+      "title": "Shimano 2014–2015 line-up v1.6, PDF page 10 / printed page 8: Saint M820 range lists SM-BB80, SM-BB71-41A and SM-BB71-41C; C version for FC-M825",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=58",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 58: ZEE M640 range lists SM-BB71-41C for FC-M645",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II",
+    "bottom_bracket_type": "Press fit",
+    "available_shell_widths_mm": [
+      104.5,
+      107
+    ]
+  }
+}

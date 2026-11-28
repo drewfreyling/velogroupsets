@@ -165,3 +165,5 @@ The [road pedal and press-fit bottom-bracket review](shimano-road-pedals-bottom-
 The [road crankset and cassette review](shimano-road-crank-cassette-weights.md) adds three qualified 170 mm crankset references with BCDs and CS-HG800-11 at 335 g for 11–34T, preserving explicit front-derailleur exclusions.
 
 The [crankset revision and power-meter review](shimano-crank-weight-revisions.md) adds four qualified 170 mm references, including FC-M8000-B1’s later consistent weight and two integrated power-meter models, with exact source-backed range memberships.
+
+The [MTB crank option and bottom-bracket review](shimano-mtb-cranks-bottom-brackets.md) adds two FC-MT700 crankset references and four distinct threaded/press-fit assemblies, retaining the actual crank lengths and shell-width qualifications.

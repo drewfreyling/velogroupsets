@@ -1,0 +1,56 @@
+{
+  "id": "shimano-fc-mt700-b2",
+  "slug": "fc-mt700-b2",
+  "name": "Eleven-speed outboard-chainline double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000",
+    "shimano-deore-xt-di2-m8050"
+  ],
+  "type": "crankset",
+  "model_number": "FC-MT700-B2",
+  "weight_g": 728,
+  "weight_description": "Manufacturer average 728 g for FC-MT700-B2, 170 mm arms and 36/26T chainrings, explicitly without bottom bracket and without chain/bash guard. This is the 2025–2026 reference for the 51.8 mm chainline B2 model; the standard FC-MT700-2 and other ring combinations remain separate.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-MT700-2-3898/EV-FC-MT700-2-3898B.pdf",
+    "title": "Shimano FC-MT700-2 / FC-MT700-B2 exploded view: exact models, 36/26T and 34/24T options, 96/64 mm bolt circles",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-MT700-2-3898/EV-FC-MT700-2-3898B.pdf",
+      "title": "Shimano FC-MT700-2 / FC-MT700-B2 exploded view: exact models, 36/26T and 34/24T options, 96/64 mm bolt circles",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=53",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 53 / printed page 50: FC-MT700-B2, 728 g for 170 mm, 36/26T, without bottom bracket; 51.8 mm chainline and 96/64 mm PCD",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=27",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 27: M8000 chart explicitly lists FC-MT700-2 and FC-MT700-B2 crank options",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=34",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 34: M8050 chart explicitly lists FC-MT700-2 and FC-MT700-B2 with 36/26T",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      36,
+      26
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "chain_line_mm": 51.8,
+    "bolt_circle_diameters_mm": [
+      96,
+      64
+    ]
+  }
+}

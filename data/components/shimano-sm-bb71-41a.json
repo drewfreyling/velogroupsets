@@ -1,0 +1,62 @@
+{
+  "id": "shimano-sm-bb71-41a",
+  "slug": "sm-bb71-41a",
+  "name": "MTB press-fit bottom bracket",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m820",
+    "shimano-deore-xt-m780",
+    "shimano-slx-m670",
+    "shimano-zee-m640",
+    "shimano-deore-m610"
+  ],
+  "type": "bottom-bracket",
+  "model_number": "SM-BB71-41A",
+  "weight_g": 71,
+  "weight_description": "Manufacturer average 71 g for the exact SM-BB71-41A HOLLOWTECH II press-fit bottom-bracket assembly. The table lists 89.5 mm and 92 mm shell-width options without selecting one weighed width. This is the A model; no weight is transferred from the longer C version.",
+  "technical_document": {
+    "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=61",
+    "title": "Shimano 2025–2026 specifications v3.5, PDF page 61 / printed page 58: SM-BB80 shell-specific weights, SM-BB71-41A and SM-BB71-41C distinct press-fit assemblies, and BB-MT800-PC exact model weight",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=61",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 61 / printed page 58: SM-BB80 shell-specific weights, SM-BB71-41A and SM-BB71-41C distinct press-fit assemblies, and BB-MT800-PC exact model weight",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=10",
+      "title": "Shimano 2014–2015 line-up v1.6, PDF page 10 / printed page 8: Saint M820 range lists SM-BB80, SM-BB71-41A and SM-BB71-41C; C version for FC-M825",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=11",
+      "title": "Shimano 2014–2015 line-up v1.6, PDF page 11 / printed page 9: Deore XT M780 range lists SM-BB71-41A",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=13",
+      "title": "Shimano 2014–2015 line-up v1.6, PDF page 13 / printed page 11: SLX M670 range lists SM-BB71-41A",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=15",
+      "title": "Shimano 2014–2015 line-up v1.6, PDF page 15 / printed page 13: ZEE M640 range lists SM-BB71-41A and SM-BB71-41C as separate options",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Line-up_chart_all_v016_en.pdf#page=16",
+      "title": "Shimano 2014–2015 line-up v1.6, PDF page 16 / printed page 14: Deore M610 range lists SM-BB71-41A",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "interface": "HOLLOWTECH II",
+    "bottom_bracket_type": "Press fit",
+    "available_shell_widths_mm": [
+      89.5,
+      92
+    ]
+  }
+}
