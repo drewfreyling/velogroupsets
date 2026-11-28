@@ -10,8 +10,8 @@
   ],
   "type": "bottom-bracket",
   "model_number": "BB-RS500-PB",
-  "weight_g": null,
-  "weight_description": "Not yet sourced: separately named BB-RS500-PB press-fit assembly. The threaded BB-RS500 mass and other press-fit model weights are not transferred.",
+  "weight_g": 71,
+  "weight_description": "Manufacturer-listed average 71 g for the BB-RS500-PB HOLLOWTECH II press-fit assembly for an 86.5 mm shell. The handbook explicitly identifies BB-RS500-PB in the 86.5 mm press-fit row under its BB-RS500-P heading.",
   "technical_document": {
     "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2016_Bicycle_Components_usa.pdf#page=160",
     "title": "Shimano 2016 USA Bicycle Components catalogue, PDF/printed page 160: Tiagra exact 2x10/3x10 controls, FD-4700 16T / FD-4703 20T capacities, FC-4700 double / FC-4703 50/39/30T triple and separate BB-RS500-PB press-fit option",
@@ -27,10 +27,21 @@
       "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2020_TRADE_SALES_SUPPORT_MANUAL.pdf#page=168",
       "title": "Shimano 2020 TSS manual, PDF/printed page 168: GRX RX810 mechanical/Di2, RX600 and RX400 lineups with named cranksets, front derailleurs, bottom brackets and calipers",
       "retrieved_on": "2026-11-24"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=176",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 176 / printed page 173: BB-RS500-PB named in the 86.5 mm press-fit row, average 71 g",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/BB-RS500-PB-4626/EV-BB-RS500-PB-4626.pdf",
+      "title": "Shimano BB-RS500-PB exact press-fit assembly exploded view",
+      "retrieved_on": "2026-11-28"
     }
   ],
   "specifications": {
     "interface": "HOLLOWTECH II",
-    "bottom_bracket_type": "Press fit"
+    "bottom_bracket_type": "Press fit",
+    "shell_width_mm": 86.5
   }
 }

@@ -1,0 +1,50 @@
+{
+  "id": "shimano-pd-r540",
+  "slug": "pd-r540",
+  "name": "SPD-SL pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4700",
+    "shimano-sora-r3000"
+  ],
+  "type": "pedals",
+  "model_number": "PD-R540",
+  "weight_g": 330,
+  "weight_description": "Manufacturer-listed average 330 g for the left/right PD-R540 SPD-SL pedal pair, using the handbook’s explicit pair-weight row. Cleat and loose-accessory inclusion is not specified in the weight row.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-R540-2304/EV-PD-R540-2304D.pdf",
+    "title": "Shimano PD-R540 manufacturer exploded view and pedal assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-R540-2304/EV-PD-R540-2304D.pdf",
+      "title": "Shimano PD-R540 manufacturer exploded view and pedal assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=411",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 411: PD-R540, 330 g per pair",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=283",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 283: PD-R540 product page corroborates 330 g",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=171",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 171: Tiagra 4700 range chart explicitly lists PD-R540 pedal option",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=174",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 174: Sora R3000 range chart explicitly lists PD-R540 pedal option",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD-SL"
+  }
+}

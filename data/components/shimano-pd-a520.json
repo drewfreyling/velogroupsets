@@ -1,0 +1,50 @@
+{
+  "id": "shimano-pd-a520",
+  "slug": "pd-a520",
+  "name": "SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4700",
+    "shimano-sora-r3000"
+  ],
+  "type": "pedals",
+  "model_number": "PD-A520",
+  "weight_g": 315,
+  "weight_description": "Manufacturer-listed average 315 g for the left/right PD-A520 SPD pedal pair, using the handbook’s explicit pair-weight row. Cleat and loose-accessory inclusion is not specified in the weight row.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-A520-2422/EV-PD-A520-2422.pdf",
+    "title": "Shimano PD-A520 manufacturer exploded view and pedal assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-A520-2422/EV-PD-A520-2422.pdf",
+      "title": "Shimano PD-A520 manufacturer exploded view and pedal assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=411",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 411: PD-A520, 315 g per pair",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=290",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 290: PD-A520 product page corroborates 315 g",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=171",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 171: Tiagra 4700 range chart explicitly lists PD-A520 pedal option",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=174",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 174: Sora R3000 range chart explicitly lists PD-A520 pedal option",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD"
+  }
+}
