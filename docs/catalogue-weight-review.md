@@ -155,3 +155,5 @@ The [SLX and outboard-chainline front-derailleur review](shimano-slx-front-derai
 The [MTB crank and clamp follow-up](shimano-mtb-crank-clamp-weights.md) adds three qualified 175 mm crank variants with BCDs and five 34.9 mm Deore XT front-derailleur references.
 
 The [2014–2015 direct-mount front-derailleur review](shimano-2014-direct-mount-weights.md) adds seven model-specific weights, with explicit dual-pull selections and mounting-hardware uncertainty.
+
+The [road front-derailleur variant review](shimano-road-front-weight-variants.md) adds seven explicitly L-size 34.9 mm band weights and the Tiagra FD-4603-F braze-on triple, with model/table alignment and clamp-size evidence.

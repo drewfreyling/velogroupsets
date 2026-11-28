@@ -1,0 +1,37 @@
+{
+  "id": "shimano-fd-4600-b",
+  "slug": "fd-4600-b",
+  "name": "Tiagra clamp-mounted double front derailleur",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4600"
+  ],
+  "type": "front-derailleur",
+  "model_number": "FD-4600-B",
+  "weight_g": 105,
+  "weight_description": "Manufacturer-listed average 105 g for FD-4600-B, 2×10-speed, L-size 34.9 mm integral clamp band. The exact band-model weight cell explicitly specifies L size; other band diameters and a braze-on unit with an add-on clamp do not inherit this weight.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FD-4600-3147/EV-FD-4600-3147A.pdf",
+    "title": "Shimano FD-4600 manufacturer exploded view: model family, integral band and braze-on assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FD-4600-3147/EV-FD-4600-3147A.pdf",
+      "title": "Shimano FD-4600 manufacturer exploded view: model family, integral band and braze-on assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2014-2015_Specifications_v020_en.pdf#page=123",
+      "title": "Shimano 2014–2015 specifications v2.0, PDF page 123 / printed page 120: FD-4600-B, 105 g, L-size 34.9 mm integral clamp band; 2×10-speed",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "mount": "Clamp",
+    "front_speeds": 2,
+    "rear_speeds": 10,
+    "swing_type": "Down swing",
+    "clamp_diameter_mm": 34.9
+  }
+}
