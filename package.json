@@ -32,7 +32,7 @@
     "miniflare": "5.20261104.0-beta",
     "parse5": "8.1.1",
     "sharp": "0.35.5",
-    "wrangler": "4.164.0"
+    "wrangler": "4.168.0"
   },
   "allowScripts": {
     "workerd@1.20261104.1": true,
