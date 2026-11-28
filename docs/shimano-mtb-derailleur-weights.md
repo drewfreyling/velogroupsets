@@ -28,3 +28,5 @@ Every selected column explicitly identifies **Direct Mount**. The weight-row hea
 ## Reference left unresolved
 
 The same handbook’s [FC-M8000-B1 column, PDF 63 / printed 60](https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=63) lists 30T/32T chainring options but associates its 698 g reference with 36T. That internally inconsistent configuration is not added as a qualified crankset weight, nor silently corrected to an assumed tooth count.
+
+The later [2025–2026 crankset review](shimano-crank-weight-revisions.md#fc-m8000-b1-later-qualified-reference) subsequently adds FC-M8000-B1 at **669 g for 170 mm arms and 30T**, explicitly without bottom bracket. That separate, qualified reference resolves the missing model weight; the earlier inconsistent 698 g entry remains unused.

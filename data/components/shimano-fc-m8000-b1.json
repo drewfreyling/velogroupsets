@@ -1,0 +1,46 @@
+{
+  "id": "shimano-fc-m8000-b1",
+  "slug": "fc-m8000-b1",
+  "name": "Deore XT crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8000"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M8000-B1",
+  "weight_g": 669,
+  "weight_description": "Manufacturer-listed average 669 g for FC-M8000-B1, 170 mm crank arms and 30T chainrings, explicitly excluding the bottom bracket. This is the later 2025\u20132026 qualified 30T reference; the inconsistent earlier 36T weight entry is not used. The B1 crank has a 53.4 mm chainline, 3 mm outboard of the standard version.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M8000-3849/EV-FC-M8000-3849B.pdf",
+    "title": "Shimano FC-M8000 exploded view: explicitly covers FC-M8000-B1/B2",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M8000-3849/EV-FC-M8000-3849B.pdf",
+      "title": "Shimano FC-M8000 exploded view: explicitly covers FC-M8000-B1/B2",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=52",
+      "title": "Shimano 2025\u20132026 specifications v3.5, PDF page 52 / printed page 49: FC-M8000-B1, 669 g at 170 mm with 30T, without bottom bracket",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=27",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 27: Deore XT M8000 range explicitly lists FC-M8000-B1 with 30T/32T",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      30
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 1,
+    "rear_speeds": 11,
+    "bolt_circle_diameter_mm": 96,
+    "chain_line_mm": 53.4
+  }
+}

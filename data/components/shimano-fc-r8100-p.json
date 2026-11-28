@@ -1,0 +1,47 @@
+{
+  "id": "shimano-fc-r8100-p",
+  "slug": "fc-r8100-p",
+  "name": "Ultegra power-meter crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-di2-r8100"
+  ],
+  "type": "crankset",
+  "model_number": "FC-R8100-P",
+  "weight_g": 758,
+  "weight_description": "Manufacturer-listed average 758 g for FC-R8100-P, 170 mm crank arms and 50/34T chainrings, explicitly excluding the bottom bracket. Includes the integrated power meter.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-R8100-P-4905/EV-FC-R8100-P-4905B.pdf",
+    "title": "Shimano FC-R8100-P exploded view: exact power-meter model, 50/34T option and 110 mm BCD",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-R8100-P-4905/EV-FC-R8100-P-4905B.pdf",
+      "title": "Shimano FC-R8100-P exploded view: exact power-meter model, 50/34T option and 110 mm BCD",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=170",
+      "title": "Shimano 2025\u20132026 specifications v3.5, PDF page 170 / printed page 167: FC-R8100-P, 758 g at 170 mm with 50/34T, without bottom bracket",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=55",
+      "title": "Shimano 2025\u20132026 line-up v3.3, PDF page 55 / printed page 53: Ultegra R8100/R8150 range explicitly lists FC-R8100-P with 50/34T or 52/36T",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      34
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 2,
+    "rear_speeds": 12,
+    "includes_power_meter": true,
+    "bolt_circle_diameter_mm": 110
+  }
+}

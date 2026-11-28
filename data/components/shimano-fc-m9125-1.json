@@ -1,0 +1,46 @@
+{
+  "id": "shimano-fc-m9125-1",
+  "slug": "fc-m9125-1",
+  "name": "XTR crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100"
+  ],
+  "type": "crankset",
+  "model_number": "FC-M9125-1",
+  "weight_g": 578,
+  "weight_description": "Manufacturer-listed average 578 g for FC-M9125-1, 170 mm crank arms and 32T chainrings, explicitly excluding the bottom bracket.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-M9125-4884/EV-FC-M9125-4884.pdf",
+    "title": "Shimano FC-M9125-1 exploded view and direct-mount chainring assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-M9125-4884/EV-FC-M9125-4884.pdf",
+      "title": "Shimano FC-M9125-1 exploded view and direct-mount chainring assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=49",
+      "title": "Shimano 2025\u20132026 specifications v3.5, PDF page 49 / printed page 46: FC-M9125-1, 578 g at 170 mm with 32T, without bottom bracket",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=7",
+      "title": "Shimano 2025\u20132026 line-up v3.3, PDF page 7 / printed page 5: M9100 1\u00d712 range explicitly lists FC-M9125-1, 32T/34T",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      32
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 1,
+    "rear_speeds": 12,
+    "chainring_mount": "Direct mount",
+    "chain_line_mm": 55
+  }
+}

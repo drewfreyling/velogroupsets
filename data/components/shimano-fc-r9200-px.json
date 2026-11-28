@@ -1,0 +1,46 @@
+{
+  "id": "shimano-fc-r9200-px",
+  "slug": "fc-r9200-px",
+  "name": "Dura-Ace power-meter crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-dura-ace-r9100"
+  ],
+  "type": "crankset",
+  "model_number": "FC-R9200-PX",
+  "weight_g": 745,
+  "weight_description": "Manufacturer-listed average 745 g for FC-R9200-PX, 170 mm crank arms and 50/34T chainrings, explicitly excluding the bottom bracket. Includes the integrated power meter. Shimano lists PX as an R9100 range option; it remains distinct from FC-R9200-P. Other chainring combinations do not inherit this mass.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-PX-4994/EV-FC-R9200-PX-4994B.pdf",
+    "title": "Shimano FC-R9200-PX exploded view: exact PX power-meter model, 50/34T option and 110 mm BCD",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-R9200-PX-4994/EV-FC-R9200-PX-4994B.pdf",
+      "title": "Shimano FC-R9200-PX exploded view: exact PX power-meter model, 50/34T option and 110 mm BCD",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=170",
+      "title": "Shimano 2025\u20132026 specifications v3.5, PDF page 170 / printed page 167: FC-R9200-PX, 745 g at 170 mm with 50/34T, without bottom bracket",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=54",
+      "title": "Shimano 2025\u20132026 line-up v3.3, PDF page 54 / printed page 52, continuation of R9100 chart on page 53: FC-R9200-PX listed power-meter option",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      34
+    ],
+    "includes_bottom_bracket": false,
+    "front_speeds": 2,
+    "includes_power_meter": true,
+    "bolt_circle_diameter_mm": 110
+  }
+}

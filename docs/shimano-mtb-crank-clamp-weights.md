@@ -14,7 +14,7 @@ Both pages explicitly define the weight row as **Average weight (175 mm, w/o BB)
 
 FC-M825 and FC-M645 are the **83 mm bottom-bracket-shell versions**, with a documented 57.9 mm chainline. Their weights do not replace the existing FC-M820 and FC-M640 references. FC-M8000-B2 has a **51.8 mm chainline** and the handbook’s specified 3 mm outboard crank/frame/derailleur arrangement; it remains distinct from the standard FC-M8000-2. Series rows establish Saint, ZEE and Deore XT membership.
 
-The [weight guidelines](weights-guidelines.md#cranksets) prefer 170 mm references while accepting other explicitly sourced lengths. These records retain the actual 175 mm manufacturer references, without bottom-bracket subtraction or length conversion. The internally inconsistent FC-M8000-B1 reference remains excluded, as described in the [derailleur follow-up](shimano-mtb-derailleur-weights.md#reference-left-unresolved).
+The [weight guidelines](weights-guidelines.md#cranksets) prefer 170 mm references while accepting other explicitly sourced lengths. These records retain the actual 175 mm manufacturer references, without bottom-bracket subtraction or length conversion. The internally inconsistent earlier FC-M8000-B1 reference remains excluded, as described in the [derailleur follow-up](shimano-mtb-derailleur-weights.md#reference-left-unresolved). A subsequent [2025–2026 source review](shimano-crank-weight-revisions.md#fc-m8000-b1-later-qualified-reference) adds its separately qualified **669 g, 170 mm, 30T** reference.
 
 ## Deore XT clamp-mounted front derailleurs
 
