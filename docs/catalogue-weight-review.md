@@ -161,3 +161,5 @@ The [road front-derailleur variant review](shimano-road-front-weight-variants.md
 The [Shimano SPD pedal-pair review](shimano-spd-pedal-weights.md) covers twelve published pair weights with source-backed family options, including five further SPD/SPD-flat additions, and documents three unresolved pin/platform references.
 
 The [road pedal and press-fit bottom-bracket review](shimano-road-pedals-bottom-bracket.md) fills BB-RS500-PB at 71 g and adds five published pedal-pair weights with explicit Tiagra/Sora option listings.
+
+The [road crankset and cassette review](shimano-road-crank-cassette-weights.md) adds three qualified 170 mm crankset references with BCDs and CS-HG800-11 at 335 g for 11–34T, preserving explicit front-derailleur exclusions.

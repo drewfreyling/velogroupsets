@@ -1,0 +1,47 @@
+{
+  "id": "shimano-fc-cx50",
+  "slug": "fc-cx50",
+  "name": "Cyclocross double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-tiagra-4700"
+  ],
+  "type": "crankset",
+  "model_number": "FC-CX50",
+  "weight_g": 798,
+  "weight_description": "Manufacturer-listed average 798 g for FC-CX50, 170 mm arms with 46/36T chainrings, excluding the bottom bracket. The handbook’s weight heading explicitly specifies 170 mm without BB. The reference has a 110 mm bolt circle and a 5-arm spider.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-CX50-3224/EV-FC-CX50-3224.pdf",
+    "title": "Shimano FC-CX50 manufacturer exploded view: crankset, chainrings and 110 mm bolt circle",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-CX50-3224/EV-FC-CX50-3224.pdf",
+      "title": "Shimano FC-CX50 manufacturer exploded view: crankset, chainrings and 110 mm bolt circle",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=172",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 172 / printed page 169: FC-CX50, 798 g, 170 mm, 46/36T, without BB; 110 mm BCD",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=171",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 171: exact FC-CX50 crankset option in the manufacturer range chart",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      46,
+      36
+    ],
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 110,
+    "chainring_spider_arms": 5,
+    "front_speeds": 2,
+    "rear_speeds": 10
+  }
+}

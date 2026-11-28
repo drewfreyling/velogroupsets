@@ -1,0 +1,58 @@
+{
+  "id": "shimano-cs-hg800-11",
+  "slug": "cs-hg800-11",
+  "name": "HG-EV cassette",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-ultegra-r8000",
+    "shimano-ultegra-di2-r8050"
+  ],
+  "type": "cassette",
+  "model_number": "CS-HG800-11",
+  "weight_g": 335,
+  "weight_description": "Manufacturer-listed average 335 g for the eleven-speed CS-HG800-11 11–34T cassette. The exact model column specifies this gearing; spacer inclusion is not stated in the weight row.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/CS-HG800-11-4302/EV-CS-HG800-11-4302.pdf",
+    "title": "Shimano CS-HG800-11 exploded view: eleven-speed 11–34T gearing and assembly",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/CS-HG800-11-4302/EV-CS-HG800-11-4302.pdf",
+      "title": "Shimano CS-HG800-11 exploded view: eleven-speed 11–34T gearing and assembly",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=179",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 179 / printed page 176: CS-HG800-11, 335 g for eleven-speed 11–34T",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=156",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 156: Ultegra R8000 chart explicitly lists CS-HG800-11 11–34T",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=161",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 161: Ultegra Di2 R8050 chart explicitly lists CS-HG800-11 11–34T",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "rear_speeds": 11,
+    "sprocket_range": "11–34T",
+    "sprockets_teeth": [
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      30,
+      34
+    ]
+  }
+}

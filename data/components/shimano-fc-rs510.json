@@ -1,0 +1,50 @@
+{
+  "id": "shimano-fc-rs510",
+  "slug": "fc-rs510",
+  "name": "Road double crankset",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-105-5800"
+  ],
+  "type": "crankset",
+  "model_number": "FC-RS510",
+  "weight_g": 908,
+  "weight_description": "Manufacturer-listed average 908 g for FC-RS510, 170 mm arms with 50/34T chainrings, excluding the bottom bracket. The handbook’s weight heading explicitly specifies 170 mm without BB. The reference has a 110 mm bolt circle and a 4-arm spider. The manufacturer range chart explicitly excludes compatibility with FD-5800.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/FC-RS510-4259/EV-FC-RS510-4259B.pdf",
+    "title": "Shimano FC-RS510 manufacturer exploded view: crankset, chainrings and 110 mm bolt circle",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/FC-RS510-4259/EV-FC-RS510-4259B.pdf",
+      "title": "Shimano FC-RS510 manufacturer exploded view: crankset, chainrings and 110 mm bolt circle",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2017-2018_Specifications_v028_en.pdf#page=171",
+      "title": "Shimano 2017–2018 specifications v2.8, PDF page 171 / printed page 168: FC-RS510, 908 g, 170 mm, 50/34T, without BB; 110 mm BCD",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2018_TSS_MANUAL_EN.pdf#page=166",
+      "title": "Shimano 2018 TSS manual, PDF/printed page 166: exact FC-RS510 crankset option in the manufacturer range chart",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "crank_length_mm": 170,
+    "chainrings_teeth": [
+      50,
+      34
+    ],
+    "includes_bottom_bracket": false,
+    "bolt_circle_diameter_mm": 110,
+    "chainring_spider_arms": 4,
+    "front_speeds": 2,
+    "rear_speeds": 11,
+    "incompatible_front_derailleur_models": [
+      "FD-5800"
+    ]
+  }
+}
