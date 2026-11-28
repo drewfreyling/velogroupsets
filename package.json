@@ -20,7 +20,7 @@
   "dependencies": {
     "@fontsource-variable/source-sans-3": "5.3.1",
     "@tailwindcss/vite": "4.3.5",
-    "astro": "7.4.12",
+    "astro": "7.4.13",
     "jose": "6.2.18",
     "tailwindcss": "4.3.5"
   },
