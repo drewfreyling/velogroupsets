@@ -1,0 +1,46 @@
+{
+  "id": "shimano-pd-m9120",
+  "slug": "pd-m9120",
+  "name": "XTR Enduro SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-xtr-m9100",
+    "shimano-xtr-di2-m9050"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M9120",
+  "weight_g": 398,
+  "weight_description": "Manufacturer-listed average 398 g for the left/right PD-M9120 SPD pedal pair, from the explicit /pair weight row in the 2025–2026 specification handbook. The handbook notes a supplied 1.0 mm cleat spacer; the weight row does not enumerate cleats or loose accessories.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M9120-4386/EV-PD-M9120-4386.pdf",
+    "title": "Shimano PD-M9120 exploded view: exact pedal model and left/right assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M9120-4386/EV-PD-M9120-4386.pdf",
+      "title": "Shimano PD-M9120 exploded view: exact pedal model and left/right assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=300",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 300 / printed page 297: PD-M9120, 398 g per pair; exact model column and reference configuration",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2018-2019_Line-up_chart_v024_en.pdf#page=6",
+      "title": "Shimano 2018–2019 line-up v2.4, PDF page 6 / printed page 4, continuation of M9100 chart on PDF page 5: PD-M9100 XC and PD-M9120 Enduro/Trail options",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=29",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 29: XTR Di2 M9050 explicitly lists PD-M9100 and PD-M9120; Deore XT M8050 lists PD-M8100 and PD-M8120",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD",
+    "pedal_binding": "Dual sided"
+  }
+}

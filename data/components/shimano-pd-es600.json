@@ -1,0 +1,70 @@
+{
+  "id": "shimano-pd-es600",
+  "slug": "pd-es600",
+  "name": "Single-sided SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-grx-di2-rx825",
+    "shimano-grx-rx820",
+    "shimano-grx-di2-rx815",
+    "shimano-grx-rx810",
+    "shimano-grx-rx600",
+    "shimano-grx-rx400"
+  ],
+  "type": "pedals",
+  "model_number": "PD-ES600",
+  "weight_g": 279,
+  "weight_description": "Manufacturer-listed average 279 g for the left/right PD-ES600 SPD pedal pair, from the explicit /pair weight row in the 2025–2026 specification handbook. Single-sided describes the SPD binding on each pedal, not the weight basis: 279 g is the left/right pair total. The handbook notes a supplied 1.0 mm cleat spacer; the weight row does not enumerate cleats or loose accessories.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-ES600-4363/EV-PD-ES600-4363.pdf",
+    "title": "Shimano PD-ES600 exploded view: exact pedal model and left/right assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-ES600-4363/EV-PD-ES600-4363.pdf",
+      "title": "Shimano PD-ES600 exploded view: exact pedal model and left/right assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=302",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 302 / printed page 299: PD-ES600, 279 g per pair; exact model column and reference configuration",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=29",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 29 / printed page 27: GRX RX825 Di2 2×12 range explicitly lists PD-M8100 and PD-ES600",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=31",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 31 / printed page 29: GRX RX820 mechanical 2×12 range explicitly lists PD-M8100 and PD-ES600",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=40",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 40 / printed page 38: RX815 Di2 chart continuation from PDF page 39: PD-M8100 and PD-ES600",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=43",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 43 / printed page 41: GRX RX810 mechanical 2×11 range explicitly lists PD-M8100 and PD-ES600",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=45",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 45 / printed page 43: GRX RX600 2×11 range explicitly lists PD-ME700 and PD-ES600",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=47",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 47 / printed page 45: GRX RX400 2×10 range explicitly lists PD-ME700 and PD-ES600",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD",
+    "pedal_binding": "Single sided"
+  }
+}

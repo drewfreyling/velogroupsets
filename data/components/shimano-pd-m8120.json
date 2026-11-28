@@ -1,0 +1,52 @@
+{
+  "id": "shimano-pd-m8120",
+  "slug": "pd-m8120",
+  "name": "Deore XT Trail SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-deore-xt-m8100",
+    "shimano-deore-xt-di2-m8050",
+    "shimano-xtr-m9100"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M8120",
+  "weight_g": 438,
+  "weight_description": "Manufacturer-listed average 438 g for the left/right PD-M8120 SPD pedal pair, from the explicit /pair weight row in the 2025–2026 specification handbook. The handbook notes a supplied 1.0 mm cleat spacer; the weight row does not enumerate cleats or loose accessories.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M8120-4515/EV-PD-M8120-4515.pdf",
+    "title": "Shimano PD-M8120 exploded view: exact pedal model and left/right assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M8120-4515/EV-PD-M8120-4515.pdf",
+      "title": "Shimano PD-M8120 exploded view: exact pedal model and left/right assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=301",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 301 / printed page 298: PD-M8120, 438 g per pair; exact model column and reference configuration",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=12",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 12 / printed page 10: M8100 chart continuation from PDF page 11: PD-M8100 XC and PD-M8120 Trail options",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=29",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 29: XTR Di2 M9050 explicitly lists PD-M9100 and PD-M9120; Deore XT M8050 lists PD-M8100 and PD-M8120",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://na.s-tec.shimano.com/s3_assets/filelibrary/Catalogs/2021_TRADE_SALES_SUPPORT_MANUAL_U_v04.pdf#page=8",
+      "title": "Shimano 2021 TSS manual, PDF/printed page 8: M9100 range explicitly lists PD-M8120 for Enduro/Trail",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD",
+    "pedal_binding": "Dual sided"
+  }
+}

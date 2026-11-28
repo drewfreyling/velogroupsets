@@ -167,3 +167,5 @@ The [road crankset and cassette review](shimano-road-crank-cassette-weights.md) 
 The [crankset revision and power-meter review](shimano-crank-weight-revisions.md) adds four qualified 170 mm references, including FC-M8000-B1’s later consistent weight and two integrated power-meter models, with exact source-backed range memberships.
 
 The [MTB crank option and bottom-bracket review](shimano-mtb-cranks-bottom-brackets.md) adds two FC-MT700 crankset references and four distinct threaded/press-fit assemblies, retaining the actual crank lengths and shell-width qualifications.
+
+The [modern Shimano SPD pedal review](shimano-modern-spd-weights.md) adds seven explicitly published pair weights across XTR, Deore XT, Saint, SLX, Deore and GRX range options, including PD-M9100’s selected normal-axle reference and PD-ES600’s single-sided binding distinction.

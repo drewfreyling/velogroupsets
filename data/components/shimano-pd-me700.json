@@ -1,0 +1,58 @@
+{
+  "id": "shimano-pd-me700",
+  "slug": "pd-me700",
+  "name": "Trail SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-slx-m7100",
+    "shimano-deore-m6100",
+    "shimano-grx-rx600",
+    "shimano-grx-rx400"
+  ],
+  "type": "pedals",
+  "model_number": "PD-ME700",
+  "weight_g": 485,
+  "weight_description": "Manufacturer-listed average 485 g for the left/right PD-ME700 SPD pedal pair, from the explicit /pair weight row in the 2025–2026 specification handbook. The handbook notes a supplied 1.0 mm cleat spacer; the weight row does not enumerate cleats or loose accessories.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-ME700-4724/EV-PD-ME700-4724.pdf",
+    "title": "Shimano PD-ME700 exploded view: exact pedal model and left/right assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-ME700-4724/EV-PD-ME700-4724.pdf",
+      "title": "Shimano PD-ME700 exploded view: exact pedal model and left/right assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=302",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 302 / printed page 299: PD-ME700, 485 g per pair; exact model column and reference configuration",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=20",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 20 / printed page 18: M7100 range chart continuation from PDF page 19 explicitly lists PD-ME700",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=26",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 26 / printed page 24: M6100 range chart continuation from PDF page 25 explicitly lists PD-ME700",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=45",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 45 / printed page 43: GRX RX600 2×11 range explicitly lists PD-ME700 and PD-ES600",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=47",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 47 / printed page 45: GRX RX400 2×10 range explicitly lists PD-ME700 and PD-ES600",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD",
+    "pedal_binding": "Dual sided"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "shimano-pd-m821",
+  "slug": "pd-m821",
+  "name": "Saint SPD pedal pair",
+  "manufacturer_id": "shimano",
+  "groupset_ids": [
+    "shimano-saint-m820"
+  ],
+  "type": "pedals",
+  "model_number": "PD-M821",
+  "weight_g": 545,
+  "weight_description": "Manufacturer-listed average 545 g for the left/right PD-M821 SPD pedal pair, from the explicit /pair weight row in the 2025–2026 specification handbook. The handbook describes four height-adjustable pins; the exact pin-height setting for its weight is not specified. No pin mass is added or deducted. The handbook notes a supplied 1.0 mm cleat spacer; the weight row does not enumerate cleats or loose accessories.",
+  "technical_document": {
+    "url": "https://si.shimano.com/en/pdfs/ev/PD-M821-4729/EV-PD-M821-4729.pdf",
+    "title": "Shimano PD-M821 exploded view: exact pedal model and left/right assemblies",
+    "retrieved_on": "2026-11-28"
+  },
+  "sources": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/ev/PD-M821-4729/EV-PD-M821-4729.pdf",
+      "title": "Shimano PD-M821 exploded view: exact pedal model and left/right assemblies",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Specifications_v035_en.pdf#page=301",
+      "title": "Shimano 2025–2026 specifications v3.5, PDF page 301 / printed page 298: PD-M821, 545 g per pair; exact model column and reference configuration",
+      "retrieved_on": "2026-11-28"
+    },
+    {
+      "url": "https://productinfo.shimano.com/pdfs/product/archive/2025-2026_Line-up_chart_v033_en.pdf#page=27",
+      "title": "Shimano 2025–2026 line-up v3.3, PDF page 27 / printed page 25: Saint M820 range explicitly lists PD-M821 SPD pedals",
+      "retrieved_on": "2026-11-28"
+    }
+  ],
+  "specifications": {
+    "weight_basis": "Pair",
+    "pedal_system": "SPD",
+    "pedal_binding": "Dual sided"
+  }
+}
